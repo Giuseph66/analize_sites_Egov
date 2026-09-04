@@ -134,13 +134,17 @@ Cada linha traz a origem — `APP`, `BROWSER`, `TARGET PAGE` ou `QUALWEB` — e 
 
 ## Configuração
 
-Copie `.env.example` para `.env`. As opções que mais importam:
+Copie `.env.example` para `.env` — o arquivo é lido na subida da API, e o que já
+estiver definido no ambiente (docker-compose, linha de comando) tem precedência
+sobre ele. Confira o que está valendo de fato em `/api/debug` → `config`.
+
+As opções que mais importam:
 
 | Variável | Padrão | Para quê |
 |---|---|---|
 | `BROWSER_HEADLESS` | `true` | `false` abre janela real (fora do container, com ambiente gráfico) |
 | `PAGE_TIMEOUT` | `30000` | teto de carregamento da página |
-| `EVALUATION_TIMEOUT` | `60000` | teto da avaliação inteira |
+| `EVALUATION_TIMEOUT` | `60000` | teto da avaliação inteira; precisa cobrir `PAGE_TIMEOUT + SPA_SETTLE_MAX_MS` |
 | `SPA_SETTLE_MAX_MS` | `4000` | espera extra para SPAs renderizarem após o load (`0` desativa) |
 | `CAPTURE_SCREENSHOT` | `false` | grava `data/evaluations/<id>/screenshot.png` |
 | `SAVE_HTML` | `false` | grava `data/evaluations/<id>/page.html` |
@@ -193,12 +197,13 @@ Nenhum campo é inventado: o que o QualWeb não fornece fica ausente ou `null`.
 npm run test
 ```
 
-* **unitários** — política de URL (SSRF, esquemas, reescrita de localhost) e
-  normalizador + score.
+* **unitários** — política de URL (SSRF, esquemas, reescrita de localhost),
+  leitura do `.env`, normalizador e score.
 * **integração** — sobem um servidor HTTP real e rodam o **QualWeb de verdade**
   contra ele: HTML simples, página com barreiras, redirect 302, 404, 500, resposta
   vazia, DOM construído por JavaScript, recursos que falham, URL inválida, esquema
-  bloqueado e host inexistente.
+  bloqueado, host inexistente e timeout de navegação (verificando que a mensagem
+  de erro diz a causa real, e não uma genérica).
 
 Verificação de que o motor realmente diferencia páginas:
 
@@ -285,6 +290,8 @@ docker/                 Dockerfile e imagem das páginas de teste
 * `elements` é recortado em 25 por regra, com HTML truncado em 4000 caracteres; o
   conjunto completo está em `raw-qualweb.json`.
 * `summary.manual` é sempre `0` — o QualWeb não tem esse veredito.
+* `PAGE_TIMEOUT` maior que `EVALUATION_TIMEOUT` faz o `puppeteer-cluster` encerrar a
+  tarefa antes da hora, e a avaliação falha. A API avisa disso na subida.
 * SPAs client-side-rendered: o sistema espera o DOM ficar quieto antes de avaliar
   (`SPA_SETTLE_MAX_MS`, padrão 4 s), mas é uma heurística — em raras execuções,
   numa mesma SPA com redirecionamento assíncrono, `page.title`/`elementCount` podem

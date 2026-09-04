@@ -316,3 +316,86 @@ janela de espera. Não é um problema introduzido por nós — é o limite de um
 heurística de "silêncio do DOM" contra uma aplicação com timing assíncrono
 variável. Para esses casos, aumentar `SPA_SETTLE_MAX_MS` reduz a chance, sem
 eliminá-la por completo.
+
+---
+
+## 12. O erro real da avaliação não chega a quem chamou `evaluate()`
+
+Sintoma observado, avaliando um site real:
+
+```
+[QUALWEB] QualWeb finished in 30164 ms
+[APP] Evaluation failed (qualweb): QualWeb nao devolveu relatorio para <url>.
+      Chaves recebidas: (nenhuma)
+```
+
+Uma mensagem que não diz absolutamente nada sobre a causa.
+
+### O que acontece
+
+`QualWeb.evaluate()` não propaga falhas da tarefa. O fluxo é:
+
+```ts
+await this.pool?.task(async (page, { url, html }) => {
+  reports[url ?? 'customHtml'] = await evaluationManager.evaluate(options);  // se isto lança...
+});
+this.addUrlsToEvaluate(urls);
+await this.pool?.idle();
+return reports;   // ...`reports` simplesmente fica vazio, e evaluate() retorna normalmente
+```
+
+O `puppeteer-cluster` captura a exceção da tarefa e a emite como evento
+`taskerror`. O único consumidor é o `ErrorManager` interno do core, que apenas
+grava num arquivo `qualweb-errors-<timestamp>.log` **no diretório de trabalho**,
+e somente se `options.log.file` estiver ligado. Quem chamou `evaluate()` recebe
+um dicionário vazio, sem erro.
+
+### Como capturamos a causa
+
+Duas fontes, complementares:
+
+1. **`onTaskError` do pool.** `QualWeb` aceita um `Driver` customizado no
+   construtor. Envolvemos o `PuppeteerDriver` real num decorador que registra um
+   listener no pool assim que ele é criado:
+
+   ```ts
+   class TaskErrorCapturingDriver implements Driver {
+     async launchPool(clusterOptions, browserOptions) {
+       const pool = await this.inner.launchPool(clusterOptions, browserOptions);
+       pool.onTaskError(this.onTaskError);
+       return pool;
+     }
+     launchContext() { return this.inner.launchContext(); }
+   }
+   ```
+
+   Funciona sem conflito porque `PuppeteerDriverPool.onTaskError` faz
+   `cluster.on('taskerror', handler)` — um EventEmitter. Nosso listener convive
+   com o do `ErrorManager` em vez de substituí-lo.
+
+2. **O `goto()` interceptado.** Como já substituímos `page.goto` (seção 11), um
+   `try/catch` ali dá a causa mais específica ainda: o erro exato da navegação.
+
+Com isso, um relatório vazio deixa de ser um beco sem saída:
+
+```
+A avaliação de http://.../slow falhou: Navigation timeout of 2000 ms exceeded.
+A página não terminou de carregar dentro de PAGE_TIMEOUT=2000 ms (aguardando
+'load' e 'networkidle2'). Aumente PAGE_TIMEOUT — e EVALUATION_TIMEOUT junto,
+pois ele precisa cobrir a avaliação inteira.
+```
+
+E `error.kind` passa a ser classificado a partir da mensagem real
+(`timeout` · `navigation` · `browser` · `qualweb`), em vez de cair sempre em
+`qualweb`.
+
+### Nota sobre `ClusterOptions`
+
+`ClusterOptions` não é reexportado no index público do `@qualweb/core` (só
+`QualwebOptions`, `LoadEvent`, `./lib/driver`, `./lib/evaluation` e `./lib/i18n`).
+Para tipar o decorador sem depender de um caminho interno do pacote, derivamos da
+própria interface:
+
+```ts
+type ClusterOptions = Parameters<Driver['launchPool']>[0];
+```

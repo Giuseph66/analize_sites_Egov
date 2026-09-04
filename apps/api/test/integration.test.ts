@@ -33,6 +33,7 @@ const HEAVY_JS_PAGE = `<!doctype html><html lang="pt-BR"><head><meta charset="ut
 let server: Server;
 let baseUrl: string;
 let service: EvaluationService;
+let impatientService: EvaluationService;
 let workDir: string;
 
 function respond(res: ServerResponse, status: number, body: string, type = 'text/html; charset=utf-8'): void {
@@ -92,20 +93,43 @@ before(async () => {
 
   service = new EvaluationService(config, new FilesystemEvaluationRepository(config.dataDir), logger, emitter);
   service.memorySink = memory;
+
+  // Serviço separado, com timeout curto, para exercitar o caminho de falha por
+  // timeout de navegação sem tornar a suíte lenta.
+  const impatientConfig = { ...config, pageTimeout: 2_000, evaluationTimeout: 30_000 };
+  const impatientMemory = new MemorySink();
+  const impatientEmitter = new EmitterSink();
+  impatientService = new EvaluationService(
+    impatientConfig,
+    new FilesystemEvaluationRepository(impatientConfig.dataDir),
+    new Logger([impatientMemory, impatientEmitter], {}, 'debug'),
+    impatientEmitter,
+  );
+  impatientService.memorySink = impatientMemory;
 });
 
 after(async () => {
+  // A rota /slow nunca responde de proposito, entao fica uma conexao aberta.
+  // Sem derrubar as conexoes, server.close() espera por ela para sempre e a suite
+  // termina com "Promise resolution is still pending but the event loop has
+  // already resolved".
+  server.closeAllConnections();
   await new Promise<void>((resolve) => server.close(() => resolve()));
   await rm(workDir, { recursive: true, force: true });
 });
 
 /** Cria a avaliacao e espera ela terminar, seja com sucesso ou com falha. */
-async function evaluate(url: string, timeoutMs = 90_000): Promise<EvaluationMetadata> {
-  const created = await service.create(url, `test-${Date.now()}`);
+async function evaluate(
+  url: string,
+  timeoutMs = 90_000,
+  using: () => EvaluationService = () => service,
+): Promise<EvaluationMetadata> {
+  const target = using();
+  const created = await target.create(url, `test-${Date.now()}`);
   const deadline = Date.now() + timeoutMs;
 
   for (;;) {
-    const current = await service.get(created.id);
+    const current = await target.get(created.id);
     if (current && (current.status === 'completed' || current.status === 'failed')) return current;
     if (Date.now() > deadline) throw new Error(`Avaliacao ${created.id} nao terminou em ${timeoutMs} ms`);
     await new Promise((resolve) => setTimeout(resolve, 250));
@@ -216,6 +240,21 @@ describe('avaliacao ponta a ponta com QualWeb real', () => {
     assert.equal(metadata.status, 'failed');
     assert.ok(['navigation', 'qualweb', 'timeout'].includes(metadata.error?.kind ?? ''), metadata.error?.kind);
     assert.ok(metadata.error?.message.length);
+  });
+
+  it('reporta a causa real quando a navegacao estoura o PAGE_TIMEOUT', async () => {
+    // /slow nunca responde. Antes, o timeout matava a tarefa do puppeteer-cluster,
+    // o erro era engolido pelo core, e o usuario recebia apenas
+    // "QualWeb nao devolveu relatorio ... Chaves recebidas: (nenhuma)".
+    const metadata = await evaluate(`${baseUrl}/slow`, 60_000, () => impatientService);
+
+    assert.equal(metadata.status, 'failed');
+    assert.equal(metadata.error?.kind, 'timeout', `veio: ${metadata.error?.kind} — ${metadata.error?.message}`);
+
+    const message = metadata.error?.message ?? '';
+    assert.match(message, /timeout|exceeded/i, 'a causa real precisa aparecer na mensagem');
+    assert.match(message, /PAGE_TIMEOUT/, 'a mensagem precisa dizer qual ajuste resolve');
+    assert.doesNotMatch(message, /Chaves recebidas/, 'a mensagem generica nao deve mais ser usada quando ha causa conhecida');
   });
 
   it('grava logs por avaliacao com todas as origens', async () => {

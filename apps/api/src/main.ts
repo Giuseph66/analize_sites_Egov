@@ -5,7 +5,7 @@ import cors from '@fastify/cors';
 import fastifyStatic from '@fastify/static';
 import Fastify from 'fastify';
 
-import { EvaluationService, FilesystemEvaluationRepository, loadConfig } from '@lae/evaluator';
+import { EvaluationService, FilesystemEvaluationRepository, loadConfig, loadEnvFile } from '@lae/evaluator';
 import { createRootLogger } from '@lae/logger';
 
 import { HealthProbe } from './health';
@@ -15,8 +15,21 @@ import { registerRoutes } from './routes';
 const repoRoot = resolve(__dirname, '../../..');
 
 async function main(): Promise<void> {
+  // Antes de qualquer leitura de configuracao: o README manda copiar
+  // .env.example para .env, entao esse arquivo precisa de fato valer.
+  const envFile = loadEnvFile(repoRoot);
+
   const config = loadConfig(process.env, repoRoot);
   const { logger, memory, emitter } = createRootLogger(config.logsDir);
+
+  if (envFile) {
+    logger.info('APP', `.env carregado de ${envFile.path}`, {
+      aplicadas: envFile.applied.length,
+      ignoradasPorJaExistiremNoAmbiente: envFile.skipped,
+    });
+  } else {
+    logger.debug('APP', `Nenhum .env encontrado em ${repoRoot} (usando apenas variáveis de ambiente e padrões)`);
+  }
 
   const port = Number(process.env['PORT'] ?? 3000);
   const host = process.env['HOST'] ?? '0.0.0.0';
@@ -27,6 +40,25 @@ async function main(): Promise<void> {
   logger.info('APP', `dataDir=${config.dataDir} logsDir=${config.logsDir}`);
   logger.info('APP', `runningInContainer=${config.runningInContainer} localhostAlias=${config.localhostAlias ?? '(nenhum)'}`);
   logger.info('APP', `headless=${config.browserHeadless} maxConcurrent=${config.maxConcurrentEvaluations} maxQueue=${config.maxQueueSize}`);
+  logger.info(
+    'APP',
+    `pageTimeout=${config.pageTimeout} evaluationTimeout=${config.evaluationTimeout} spaSettleMax=${config.spaSettleMaxMs}`,
+  );
+
+  // O EVALUATION_TIMEOUT vira o timeout da tarefa no puppeteer-cluster, que engloba
+  // navegacao + espera de assentamento + execucao dos modulos. Se ele for menor que
+  // o PAGE_TIMEOUT, o cluster mata a tarefa antes de a navegacao sequer estourar —
+  // e o sintoma e um relatorio vazio, dificil de relacionar com a configuracao.
+  const minimumEvaluationTimeout = config.pageTimeout + config.spaSettleMaxMs;
+  if (config.evaluationTimeout <= minimumEvaluationTimeout) {
+    logger.warn(
+      'APP',
+      `EVALUATION_TIMEOUT (${config.evaluationTimeout} ms) não cobre PAGE_TIMEOUT + SPA_SETTLE_MAX_MS ` +
+        `(${minimumEvaluationTimeout} ms). O puppeteer-cluster vai encerrar a tarefa antes de a navegação ` +
+        `esgotar o próprio limite, e a avaliação falha com relatório vazio. ` +
+        `Aumente EVALUATION_TIMEOUT para pelo menos ${minimumEvaluationTimeout + 15_000} ms.`,
+    );
+  }
 
   const repository = new FilesystemEvaluationRepository(config.dataDir);
   const service = new EvaluationService(config, repository, logger, emitter);

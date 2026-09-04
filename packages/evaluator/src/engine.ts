@@ -12,7 +12,16 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 
-import { QualWeb, type ModuleType, type QualwebOptions } from '@qualweb/core';
+import {
+  PuppeteerDriver,
+  QualWeb,
+  type Driver,
+  type DriverContext,
+  type DriverPool,
+  type EvaluationJobData,
+  type ModuleType,
+  type QualwebOptions,
+} from '@qualweb/core';
 import { ACTRules } from '@qualweb/act-rules';
 import { WCAGTechniques } from '@qualweb/wcag-techniques';
 import { BestPractices } from '@qualweb/best-practices';
@@ -23,6 +32,10 @@ import type { Logger } from '@lae/logger';
 import type { ConsoleEntry, EvaluationDiagnostics, NetworkFailure, RedirectHop } from '@lae/shared-types';
 
 import { InstrumentedModule } from './instrumented-module';
+
+// ClusterOptions nao e reexportado no index publico do @qualweb/core; derivamos da
+// assinatura do proprio Driver para nao depender de um caminho interno do pacote.
+type ClusterOptions = Parameters<Driver['launchPool']>[0];
 
 export interface EngineRunOptions {
   resolvedUrl: string;
@@ -80,6 +93,49 @@ const CHROMIUM_ARGS = [
   '--disable-blink-features=AutomationControlled',
 ];
 
+/**
+ * Driver que apenas repassa tudo para o driver real, mas registra um listener
+ * em `onTaskError` do pool.
+ *
+ * Por que isso é necessário: quando a tarefa do puppeteer-cluster falha (timeout
+ * de navegação, crash de aba, erro dentro do QualWeb), o erro NÃO chega a quem
+ * chamou `qualweb.evaluate()`. O cluster o emite como evento `taskerror`, e o
+ * único consumidor é o `ErrorManager` interno do core — que apenas escreve num
+ * arquivo `qualweb-errors-*.log` no CWD, se `log.file` estiver ligado. O
+ * `evaluate()` então retorna normalmente, com o dicionário de relatórios VAZIO.
+ *
+ * O sintoma disso era a mensagem inútil que víamos:
+ *   "QualWeb nao devolveu relatorio para <url>. Chaves recebidas: (nenhuma)"
+ *
+ * `PuppeteerDriverPool.onTaskError` registra via `cluster.on('taskerror', ...)`,
+ * ou seja, um EventEmitter — nosso listener convive com o do ErrorManager sem
+ * substituí-lo.
+ */
+class TaskErrorCapturingDriver implements Driver {
+  constructor(
+    private readonly inner: Driver,
+    private readonly onTaskError: (error: Error, data: EvaluationJobData) => void,
+  ) {}
+
+  public async launchPool(clusterOptions?: ClusterOptions, browserOptions?: unknown): Promise<DriverPool> {
+    const pool = await this.inner.launchPool(clusterOptions, browserOptions);
+    pool.onTaskError(this.onTaskError);
+    return pool;
+  }
+
+  public launchContext(): Promise<DriverContext> {
+    return this.inner.launchContext();
+  }
+}
+
+/** Classifica o erro real numa das causas que a interface sabe explicar. */
+function classifyFailure(message: string): EngineError['kind'] {
+  if (/timeout|timed out|exceeded/i.test(message)) return 'timeout';
+  if (/net::|ERR_|dns|ECONNREFUSED|ENOTFOUND|certificate/i.test(message)) return 'navigation';
+  if (/target closed|session closed|protocol error|crash/i.test(message)) return 'browser';
+  return 'qualweb';
+}
+
 export async function runEvaluation(options: EngineRunOptions, logger: Logger): Promise<EngineResult> {
   const diagnostics: EvaluationDiagnostics = {
     browserExecutable: options.browserExecutablePath,
@@ -106,7 +162,22 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
   // o browser, em vez de confiar na ordem de execucao do plugin.
   const pendingCaptures: Promise<void>[] = [];
 
-  const qualweb = new QualWeb({ adBlock: false, stealth: false });
+  // Guardado num objeto (e nao em `let`) porque as atribuicoes acontecem dentro de
+  // callbacks: com variaveis soltas o TypeScript estreita o tipo para `never` no
+  // ponto de leitura, ja que nao ve nenhuma atribuicao no fluxo linear.
+  const failure: { task: Error | null; navigation: Error | null } = { task: null, navigation: null };
+
+  const driver = new TaskErrorCapturingDriver(
+    new PuppeteerDriver({ plugins: { adBlock: false, stealth: false } }),
+    (error, data) => {
+      failure.task = error;
+      logger.error('QUALWEB', `Tarefa do cluster falhou para ${data.url ?? '(html)'}`, error);
+    },
+  );
+
+  // O 1o argumento (plugins) e ignorado quando passamos um driver proprio — os
+  // plugins do puppeteer-extra sao configurados no PuppeteerDriver acima.
+  const qualweb = new QualWeb(undefined, driver);
 
   qualweb.use({
     beforePageLoad(driverPage, url) {
@@ -134,12 +205,26 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
       // documentado em docs/qualweb.md — a chamada real a goto() ocorre dentro de um
       // Promise.all que É aguardado por getTestingData(), entao atrasar o retorno de
       // goto() atrasa de fato a execucao dos modulos do QualWeb.
-      if (options.spaSettleMaxMs > 0) {
+      // A interceptacao tambem serve para ver o erro de navegacao: se goto() falha,
+      // a excecao sobe pelo Promise.all interno do core e vira um `taskerror` do
+      // cluster, longe de quem chamou evaluate(). Registrando aqui, temos a causa
+      // exata (ex.: timeout de PAGE_TIMEOUT) em vez de um relatorio vazio sem
+      // explicacao.
+      {
         type GotoFn = Page['goto'];
         const originalGoto: GotoFn = page.goto.bind(page);
         page.goto = (async (...args: Parameters<GotoFn>) => {
-          const response = await originalGoto(...args);
-          await waitForDomSettle(page, options.spaSettleQuietMs, options.spaSettleMaxMs, logger);
+          let response: Awaited<ReturnType<GotoFn>>;
+          try {
+            response = await originalGoto(...args);
+          } catch (error) {
+            failure.navigation = error instanceof Error ? error : new Error(String(error));
+            logger.error('BROWSER', `Navegação falhou para ${args[0]}`, error);
+            throw error;
+          }
+          if (options.spaSettleMaxMs > 0) {
+            await waitForDomSettle(page, options.spaSettleQuietMs, options.spaSettleMaxMs, logger);
+          }
           return response;
         }) as GotoFn;
       }
@@ -267,8 +352,7 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
     await settle(pendingCaptures);
     await safeStop(qualweb, logger);
     const message = error instanceof Error ? error.message : String(error);
-    const kind = /timeout|timed out/i.test(message) ? 'timeout' : 'qualweb';
-    throw new EngineError(`QualWeb falhou: ${message}`, kind, error);
+    throw new EngineError(`QualWeb falhou: ${message}`, classifyFailure(message), error);
   }
 
   const qualwebMs = performance.now() - evaluationStartedAt;
@@ -279,10 +363,28 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
 
   const raw = reports[options.resolvedUrl];
   if (!raw) {
+    // Relatorio vazio quase sempre significa que a tarefa do cluster morreu. O erro
+    // real foi capturado no `taskerror` (ou no goto interceptado); usa-lo aqui e a
+    // diferenca entre "Chaves recebidas: (nenhuma)" e uma causa acionavel.
+    const underlying: Error | null = failure.navigation ?? failure.task;
+
+    if (underlying) {
+      const message = underlying.message;
+      const kind = classifyFailure(message);
+      const hint =
+        kind === 'timeout'
+          ? ` A página não terminou de carregar dentro de PAGE_TIMEOUT=${options.pageTimeout} ms` +
+            ` (aguardando 'load' e 'networkidle2'). Aumente PAGE_TIMEOUT — e EVALUATION_TIMEOUT` +
+            ` junto, pois ele precisa cobrir a avaliação inteira.`
+          : '';
+
+      throw new EngineError(`A avaliação de ${options.resolvedUrl} falhou: ${message}.${hint}`, kind, underlying);
+    }
+
     throw new EngineError(
-      `QualWeb nao devolveu relatorio para ${options.resolvedUrl}. Chaves recebidas: ${
-        Object.keys(reports).join(', ') || '(nenhuma)'
-      }`,
+      `QualWeb nao devolveu relatorio para ${options.resolvedUrl}, e nenhum erro foi reportado pelo cluster. ` +
+        `Chaves recebidas: ${Object.keys(reports).join(', ') || '(nenhuma)'}. ` +
+        `Verifique logs/error.log e docs/debugging.md.`,
       'qualweb',
     );
   }

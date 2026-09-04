@@ -131,6 +131,36 @@ npm run compare -- http://localhost:5173 --with-axe
 O `compare` falha explicitamente se as contagens do bruto e do normalizado
 divergirem, ou se alguma regra sumir ou aparecer do nada.
 
+## A configuração do `.env` não está sendo aplicada
+
+Primeiro confirme o que está **efetivamente** valendo — não o que está escrito no
+arquivo:
+
+```bash
+curl -s localhost:3000/api/debug | jq .config
+```
+
+Na subida, a API registra o que carregou:
+
+```
+[APP] .env carregado de /caminho/do/projeto/.env {"aplicadas":20,"ignoradasPorJaExistiremNoAmbiente":["PORT"]}
+```
+
+Variáveis **já presentes no ambiente têm precedência** sobre o arquivo (é a mesma
+semântica do dotenv). Isso é o que mantém o `docker-compose.yml` no comando e
+permite ajustes pontuais na linha de comando:
+
+```bash
+PAGE_TIMEOUT=120000 npm run dev
+```
+
+Se uma chave aparece em `ignoradasPorJaExistiremNoAmbiente`, o arquivo não vai
+mudá-la — é preciso alterar quem a define (o compose, o `scripts/dev.mjs`, ou o
+shell).
+
+> Atenção: editar `.env.example` não tem efeito nenhum. Ele é só um modelo;
+> copie para `.env`.
+
 ## Timeouts
 
 | Variável | Cobre |
@@ -141,6 +171,16 @@ divergirem, ou se alguma regra sumir ou aparecer do nada.
 | `SPA_SETTLE_MAX_MS` | espera extra pós-load para SPAs client-side-rendered (§ abaixo) |
 
 Páginas pesadas de JavaScript: comece por `PAGE_TIMEOUT=120000 EVALUATION_TIMEOUT=180000`.
+
+**Os dois precisam subir juntos.** `EVALUATION_TIMEOUT` vira o timeout da tarefa no
+`puppeteer-cluster` e engloba navegação + assentamento + execução dos módulos. Se
+ele for menor que `PAGE_TIMEOUT + SPA_SETTLE_MAX_MS`, o cluster encerra a tarefa
+antes de a navegação sequer esgotar o próprio limite — e o sintoma é uma avaliação
+que falha com relatório vazio. A API avisa disso na subida:
+
+```
+[APP] WARN EVALUATION_TIMEOUT (60000 ms) não cobre PAGE_TIMEOUT + SPA_SETTLE_MAX_MS (103999 ms). ...
+```
 
 ## Página avaliada parece incompleta (SPA que renderiza depois do load)
 
