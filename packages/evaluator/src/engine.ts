@@ -33,6 +33,10 @@ export interface EngineRunOptions {
   maxRedirects: number;
   captureScreenshot: boolean;
   saveHtml: boolean;
+  /** Janela sem mutações (ms) para considerar o DOM assentado. Ver docs/qualweb.md. */
+  spaSettleQuietMs: number;
+  /** Teto da espera de assentamento. 0 desativa o recurso. */
+  spaSettleMaxMs: number;
   /** Diretorio data/evaluations/<id>/ onde screenshot.png e page.html sao gravados. */
   artifactDir: string;
   onStage(stage: 'browser-launched' | 'page-loaded' | ModuleType | 'normalizing'): void;
@@ -117,6 +121,28 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
       logger.info('APP', `Navigating to page: ${url}`);
 
       diagnostics.browserPid = page.browser().process()?.pid ?? null;
+
+      // Espera de assentamento do DOM, para SPAs client-side-rendered (§ redirects
+      // por hash router que so populam o conteudo real segundos depois do `load`).
+      //
+      // Isso so funciona porque interceptamos aqui, de forma SINCRONA:
+      // `PuppeteerDriverPage.goto()` (o metodo que o core realmente chama) delega
+      // direto para este mesmo objeto Page, entao substituir `page.goto` agora, antes
+      // de qualquer await, garante que a versao interceptada esteja em vigor quando
+      // `navigateToPage()` for chamado logo em seguida. Diferente dos hooks
+      // beforePageLoad/afterPageLoad — cuja conclusao o core NAO aguarda, por um bug
+      // documentado em docs/qualweb.md — a chamada real a goto() ocorre dentro de um
+      // Promise.all que É aguardado por getTestingData(), entao atrasar o retorno de
+      // goto() atrasa de fato a execucao dos modulos do QualWeb.
+      if (options.spaSettleMaxMs > 0) {
+        type GotoFn = Page['goto'];
+        const originalGoto: GotoFn = page.goto.bind(page);
+        page.goto = (async (...args: Parameters<GotoFn>) => {
+          const response = await originalGoto(...args);
+          await waitForDomSettle(page, options.spaSettleQuietMs, options.spaSettleMaxMs, logger);
+          return response;
+        }) as GotoFn;
+      }
 
       return (async () => {
         const browser = page.browser();
@@ -306,6 +332,118 @@ async function readNavigationTiming(page: Page): Promise<Record<string, number> 
       loadMs: Math.round(nav.loadEventEnd - nav.startTime),
     };
   });
+}
+
+/**
+ * Espera o DOM parar de sofrer mutações por `quietMs`, com um teto de `maxMs`.
+ *
+ * Motivo: aplicações client-side-rendered antigas (ex.: AngularJS + UI-Router)
+ * costumam fazer, DEPOIS do evento `load`, uma cadeia de redirecionamento via hash
+ * + chamada assíncrona + nova renderização — o QualWeb, avaliando logo após o
+ * `load`/`networkidle2`, captura uma casca quase vazia. Um caso real observado:
+ * `https://.../ouvidoria/sinop/#/portal/1/home` só populava o conteúdo ~4 s depois
+ * do load (a app roteia primeiro para `#/carregarUg`, busca dados, e só então
+ * redireciona para a rota final). Ver docs/qualweb.md.
+ *
+ * A heurística é genérica (MutationObserver), sem depender de seletores de nenhum
+ * framework específico, e o teto evita espera indefinida em páginas com atividade
+ * contínua (carrosséis, relógios, anúncios).
+ */
+async function waitForDomSettle(page: Page, quietMs: number, maxMs: number, logger: Logger): Promise<void> {
+  const deadline = performance.now() + maxMs;
+  let attempts = 0;
+  let sawIntermediateNavigation = false;
+
+  while (true) {
+    const remaining = deadline - performance.now();
+    if (remaining <= 0) break;
+    attempts += 1;
+
+    let settled: boolean;
+    try {
+      // Sem funcao local nomeada (nada de `const check = () => {...}`) neste callback:
+      // o esbuild do tsx injeta uma chamada a um helper `__name(...)` para preservar
+      // nomes de funcao (keep-names), mas o texto do callback e enviado como STRING
+      // para o contexto do browser via page.evaluate() — onde esse helper nao existe.
+      // Sintoma visto aqui: "__name is not defined" tratado (erroneamente) como
+      // contexto destruido. So variaveis e um setInterval anonimo, nunca uma const
+      // de funcao. Mesma familia de armadilha documentada em docs/qualweb.md secao 4.
+      settled = await page.evaluate(
+        ({ quietMs: quiet, maxMs: max, minFloorMs: floor }): Promise<boolean> => {
+          return new Promise<boolean>((resolve) => {
+            if (!document.documentElement) {
+              resolve(true);
+              return;
+            }
+            let lastMutationAt = Date.now();
+            const startedAtInPage = Date.now();
+            const observer = new MutationObserver(() => {
+              lastMutationAt = Date.now();
+            });
+            observer.observe(document.documentElement, {
+              childList: true,
+              subtree: true,
+              attributes: true,
+              characterData: true,
+            });
+            const interval = setInterval(() => {
+              const now = Date.now();
+              const elapsedTotal = now - startedAtInPage;
+              const quietFor = now - lastMutationAt;
+              // O piso minimo existe para nao confiar num silencio precoce: uma SPA
+              // pode ficar visualmente parada por uns instantes ANTES de disparar o
+              // fetch/redirect que traz o conteudo de verdade (o caso real que
+              // motivou este recurso tinha ~1-4s de silencio inicial). So aceitamos
+              // "quieto" depois de observar por pelo menos `floor` ms.
+              if (elapsedTotal >= floor && quietFor >= quiet) {
+                clearInterval(interval);
+                observer.disconnect();
+                resolve(true);
+              } else if (elapsedTotal >= max) {
+                clearInterval(interval);
+                observer.disconnect();
+                resolve(false);
+              }
+            }, 100);
+          });
+        },
+        { quietMs, maxMs: remaining, minFloorMs: Math.min(Math.max(quietMs * 2, 1000), remaining) },
+      );
+    } catch (error) {
+      // O contexto de execucao foi destruido: uma nova navegacao comecou NO MEIO da
+      // espera. E o caso do exemplo real que motivou este recurso — a app faz um
+      // primeiro redirect via hash, busca dados, e so ENTAO navega de fato para a
+      // rota final (nao um simples hashchange, uma navegacao completa que derruba o
+      // execution context do evaluate() em andamento). Isso nao e falha: e o sinal
+      // de que ainda ha conteudo relevante por vir. Aguarda o documento se
+      // reestabilizar e tenta assentar de novo, dentro do orcamento restante.
+      sawIntermediateNavigation = true;
+      logger.debug('APP', `SPA settle: contexto destruído por navegação intermediária (tentativa ${attempts})`, {
+        error: error instanceof Error ? error.message : String(error),
+      });
+      await new Promise((resolve) => setTimeout(resolve, 150));
+      continue;
+    }
+
+    if (settled) {
+      logger.info(
+        'APP',
+        `SPA settle: DOM quieto (limiar ${quietMs} ms, tentativa ${attempts})${
+          sawIntermediateNavigation ? ' — após navegação intermediária' : ''
+        }`,
+      );
+      return;
+    }
+
+    break;
+  }
+
+  logger.warn(
+    'APP',
+    `SPA settle: limite de ${maxMs} ms atingido sem o DOM ficar quieto definitivamente${
+      sawIntermediateNavigation ? ' (após navegação(ões) intermediária(s))' : ''
+    } — página pode ainda estar renderizando, ou atualiza continuamente`,
+  );
 }
 
 function attachDiagnostics(

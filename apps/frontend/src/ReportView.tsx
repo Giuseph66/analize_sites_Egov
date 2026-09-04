@@ -229,7 +229,12 @@ function ResultItem({ result, pageUrl }: { result: AccessibilityResult; pageUrl:
     <details>
       <summary>
         <span className={`badge ${result.result}`}>{OUTCOME_LABEL[result.result]}</span>
-        <span className="rule-title">{result.title}</span>
+        <span className="rule-title">
+          {result.title}
+          {result.elementsTotal > 0 && (result.result === 'failed' || result.result === 'warning') && (
+            <span className="muted"> — {result.elementsTotal} {result.elementsTotal === 1 ? 'ocorrência' : 'ocorrências'}</span>
+          )}
+        </span>
         <span className="rule-id">
           {result.ruleId}
           {result.wcag?.criterion ? ` · WCAG ${result.wcag.criterion} (${result.wcag.level})` : ''}

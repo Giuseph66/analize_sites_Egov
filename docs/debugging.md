@@ -138,8 +138,34 @@ divergirem, ou se alguma regra sumir ou aparecer do nada.
 | `PAGE_TIMEOUT` | `page.goto()` — página que não termina de carregar |
 | `EVALUATION_TIMEOUT` | a tarefa inteira no `puppeteer-cluster` |
 | `BROWSER_TIMEOUT` | lançamento do navegador |
+| `SPA_SETTLE_MAX_MS` | espera extra pós-load para SPAs client-side-rendered (§ abaixo) |
 
 Páginas pesadas de JavaScript: comece por `PAGE_TIMEOUT=120000 EVALUATION_TIMEOUT=180000`.
+
+## Página avaliada parece incompleta (SPA que renderiza depois do load)
+
+Sintoma: `page.elementCount` baixo, título vazio, quase tudo `inapplicable` numa
+página que — vista no navegador — claramente tem conteúdo. Comum em SPAs com
+roteador client-side (Angular, React, Vue) que buscam dados e renderizam a rota
+real DEPOIS do evento `load`.
+
+1. Confira nos logs se `SPA settle` aparece:
+   ```
+   [APP] SPA settle: DOM quieto (limiar 500 ms, tentativa 1)
+   ```
+   Se aparecer `contexto destruído por navegação intermediária`, o sistema
+   detectou um redirect client-side em andamento e está tentando de novo — normal.
+   Se terminar em `limite de Xms atingido sem o DOM ficar quieto definitivamente`,
+   a espera não foi suficiente.
+2. Aumente `SPA_SETTLE_MAX_MS` (padrão 4000). Para apps particularmente lentos:
+   ```bash
+   SPA_SETTLE_MAX_MS=10000 npm run dev
+   ```
+3. `SPA_SETTLE_MAX_MS=0` desativa o recurso inteiramente (volta ao comportamento
+   de avaliar logo após `load`/`networkidle2`).
+4. Esse recurso é uma heurística (silêncio de mutações no DOM), não uma garantia.
+   Detalhes, o caso real que motivou sua criação, e uma limitação residual
+   conhecida estão em `docs/qualweb.md`, seção 11.
 
 ## Problemas conhecidos
 

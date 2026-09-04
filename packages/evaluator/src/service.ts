@@ -220,6 +220,8 @@ export class EvaluationService extends EventEmitter {
           pageTimeout: this.config.pageTimeout,
           evaluationTimeout: this.config.evaluationTimeout,
           maxRedirects: this.config.maxRedirects,
+          spaSettleQuietMs: this.config.spaSettleQuietMs,
+          spaSettleMaxMs: this.config.spaSettleMaxMs,
           captureScreenshot: this.config.captureScreenshot,
           saveHtml: this.config.saveHtml,
           artifactDir: this.repository.artifactDir(item.id),

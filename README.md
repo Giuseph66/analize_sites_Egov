@@ -141,6 +141,7 @@ Copie `.env.example` para `.env`. As opções que mais importam:
 | `BROWSER_HEADLESS` | `true` | `false` abre janela real (fora do container, com ambiente gráfico) |
 | `PAGE_TIMEOUT` | `30000` | teto de carregamento da página |
 | `EVALUATION_TIMEOUT` | `60000` | teto da avaliação inteira |
+| `SPA_SETTLE_MAX_MS` | `4000` | espera extra para SPAs renderizarem após o load (`0` desativa) |
 | `CAPTURE_SCREENSHOT` | `false` | grava `data/evaluations/<id>/screenshot.png` |
 | `SAVE_HTML` | `false` | grava `data/evaluations/<id>/page.html` |
 | `MAX_CONCURRENT_EVALUATIONS` | `2` | Chromiums simultâneos |
@@ -284,6 +285,11 @@ docker/                 Dockerfile e imagem das páginas de teste
 * `elements` é recortado em 25 por regra, com HTML truncado em 4000 caracteres; o
   conjunto completo está em `raw-qualweb.json`.
 * `summary.manual` é sempre `0` — o QualWeb não tem esse veredito.
+* SPAs client-side-rendered: o sistema espera o DOM ficar quieto antes de avaliar
+  (`SPA_SETTLE_MAX_MS`, padrão 4 s), mas é uma heurística — em raras execuções,
+  numa mesma SPA com redirecionamento assíncrono, `page.title`/`elementCount` podem
+  ficar um instante atrás do conteúdo real (as regras de acessibilidade em si não
+  são afetadas). Ver `docs/qualweb.md` §11.
 * Uma avaliação abre e fecha um Chromium (~250 ms). É deliberado, para isolamento.
 * O backend roda com `tsx`, sem etapa de compilação própria.
 * Se o `docker compose up` falhar com *"all predefined address pools have been fully

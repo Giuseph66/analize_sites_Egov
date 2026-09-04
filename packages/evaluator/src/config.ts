@@ -11,6 +11,13 @@ function int(value: string | undefined, fallback: number): number {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
 }
 
+/** Como int(), mas aceita 0 como valor explícito (usado para "desligar" um recurso). */
+function intAllowZero(value: string | undefined, fallback: number): number {
+  if (value === undefined || value === '') return fallback;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) && parsed >= 0 ? parsed : fallback;
+}
+
 export interface EvaluatorConfig {
   dataDir: string;
   logsDir: string;
@@ -19,6 +26,16 @@ export interface EvaluatorConfig {
   browserTimeout: number;
   pageTimeout: number;
   browserExecutablePath: string | null;
+
+  /**
+   * Janela sem mutações no DOM (ms) que consideramos "assentado", depois do evento
+   * de load. Existe porque aplicações client-side-rendered (SPAs com roteador em
+   * hash, como AngularJS UI-Router) costumam navegar e buscar dados DEPOIS do load,
+   * então avaliar no load captura uma casca vazia. Ver docs/qualweb.md.
+   */
+  spaSettleQuietMs: number;
+  /** Teto para a espera de assentamento. 0 desativa o recurso inteiramente. */
+  spaSettleMaxMs: number;
 
   evaluationTimeout: number;
   maxConcurrentEvaluations: number;
@@ -55,6 +72,9 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, repoRoot = proc
     browserTimeout: int(env['BROWSER_TIMEOUT'], 30_000),
     pageTimeout: int(env['PAGE_TIMEOUT'], 30_000),
     browserExecutablePath: env['BROWSER_EXECUTABLE_PATH'] || null,
+
+    spaSettleQuietMs: int(env['SPA_SETTLE_QUIET_MS'], 500),
+    spaSettleMaxMs: intAllowZero(env['SPA_SETTLE_MAX_MS'], 4_000),
 
     evaluationTimeout: int(env['EVALUATION_TIMEOUT'], 60_000),
     maxConcurrentEvaluations: int(env['MAX_CONCURRENT_EVALUATIONS'], 2),
