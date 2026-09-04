@@ -1,0 +1,18 @@
+{
+  "name": "local-accessibility-evaluator",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Laboratorio local de avaliacao de acessibilidade web, motor QualWeb",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "experiments/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "evaluate": "npm run evaluate --workspace=@lae/qualweb-test --"
+  }
+}

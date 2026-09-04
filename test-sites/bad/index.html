@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Pagina de teste com barreiras de acessibilidade deliberadas para o laboratorio local do avaliador</title>
+  <style>
+    body { font-family: sans-serif; width: 980px; }
+    .low-contrast { color: #b0b0b0; background-color: #d8d8d8; }
+    .fake-heading { font-size: 28px; font-weight: bold; }
+    .box { width: 640px; }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- imagem sem alt -->
+    <img src="/logo.png">
+  </header>
+
+  <main>
+    <h1>Titulo</h1>
+    <!-- salto de hierarquia h1 -> h4 -->
+    <h4>Subtitulo</h4>
+
+    <!-- pseudo-heading feito com div -->
+    <div class="fake-heading">Secao importante</div>
+
+    <!-- contraste insuficiente -->
+    <p class="low-contrast">Texto cinza claro sobre fundo cinza claro.</p>
+
+    <!-- input sem label -->
+    <form action="/search">
+      <input type="text" name="q">
+      <!-- botao sem nome acessivel -->
+      <button type="submit"><img src="/icon-search.png"></button>
+    </form>
+
+    <!-- elemento interativo inadequado: div com onclick, sem role/tabindex -->
+    <div onclick="alert('nao acessivel por teclado')">Clique aqui</div>
+
+    <!-- link vazio -->
+    <a href="/destino"></a>
+
+    <!-- link cujo unico conteudo e uma imagem sem alternativa textual -->
+    <a href="/produtos"><img src="/produto.png"></a>
+
+    <!-- ARIA invalida: role inexistente e aria-* desconhecido -->
+    <span role="buton" aria-lable="Fechar">x</span>
+
+    <!-- aria-hidden em elemento focavel -->
+    <a href="/oculto" aria-hidden="true">Link escondido mas focavel</a>
+
+    <!-- ids duplicados -->
+    <div id="campo">A</div>
+    <div id="campo">B</div>
+
+    <!-- tabela de layout usando th -->
+    <table>
+      <tr><th>Coluna</th><th>Outra</th></tr>
+      <tr><td>1</td><td>2</td></tr>
+    </table>
+
+    <!-- iframe sem titulo -->
+    <iframe src="about:blank"></iframe>
+
+    <!-- lista feita com br -->
+    <p>item 1<br>item 2<br>item 3</p>
+
+    <!-- lang invalido em trecho -->
+    <p lang="xx-INVALIDO">Trecho com codigo de idioma invalido.</p>
+  </main>
+</body>
+</html>

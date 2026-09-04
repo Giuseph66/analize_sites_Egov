@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina de teste acessivel</title>
+  <style>
+    body { font-family: sans-serif; max-width: 60rem; margin: 0 auto; color: #1a1a1a; background-color: #ffffff; }
+    .box { width: 100%; max-width: 40rem; }
+    .skip-link { position: absolute; left: -9999px; }
+    .skip-link:focus { left: 0; }
+    button { color: #ffffff; background-color: #1c4587; border: 1px solid #10294f; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteudo principal</a>
+
+  <header>
+    <img src="/logo.png" alt="Logotipo do Laboratorio de Acessibilidade">
+  </header>
+
+  <nav aria-label="Principal">
+    <ul>
+      <li><a href="/produtos">Produtos</a></li>
+      <li><a href="/contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main id="conteudo">
+    <h1>Titulo</h1>
+    <h2>Subtitulo</h2>
+
+    <h3>Secao importante</h3>
+    <p>Texto escuro sobre fundo branco, com contraste adequado.</p>
+
+    <form action="/search">
+      <label for="q">Buscar no site</label>
+      <input type="text" id="q" name="q">
+      <button type="submit">Buscar</button>
+    </form>
+
+    <button type="button" onclick="alert('acessivel por teclado')">Clique aqui</button>
+
+    <a href="/destino">Ir para o destino</a>
+
+    <a href="/produtos"><img src="/produto.png" alt="Catalogo de produtos"></a>
+
+    <button type="button" aria-label="Fechar">x</button>
+
+    <div id="campo-a">A</div>
+    <div id="campo-b">B</div>
+
+    <table>
+      <caption>Valores por coluna</caption>
+      <thead>
+        <tr><th scope="col">Coluna</th><th scope="col">Outra</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>2</td></tr>
+      </tbody>
+    </table>
+
+    <iframe src="about:blank" title="Conteudo auxiliar"></iframe>
+
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+
+    <p lang="en">Passage written in English.</p>
+  </main>
+</body>
+</html>

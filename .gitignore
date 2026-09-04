@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.tsbuildinfo
+data/raw/*
+data/reports/*
+data/evaluations/*
+!data/**/.gitkeep
+logs/*
+!logs/.gitkeep
+.qualweb/
