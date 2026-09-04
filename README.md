@@ -9,6 +9,11 @@ Não é um clone do [AMAWeb](https://amaweb.unifesp.br) — é uma reconstruçã
 *processo* de avaliação, feita para ser observada e modificada. O AMAWeb não tem
 código público; nada dele foi copiado. Ver [`docs/research.md`](docs/research.md).
 
+A interface reproduz a *estrutura* de informação do AMAWeb (nota em anel, abas
+Erros/Revisar/Aceito, tabela A/AA/AAA, item expansível com painel de critério) —
+não sua identidade visual exata. Decisões de design documentadas em
+[`PRODUCT.md`](PRODUCT.md) e [`DESIGN.md`](DESIGN.md).
+
 ```
 URL → Chromium → QualWeb → JSON bruto → Normalizador → Relatório + Logs
 ```

@@ -151,6 +151,8 @@ describe('extractPageInfo', () => {
     assert.equal(info.elementCount, 42);
     assert.equal(info.lang, 'pt-BR');
     assert.deepEqual(info.viewport, { width: 1366, height: 768, mobile: false, landscape: true });
+    // '<html lang="pt-BR"><body></body></html>' em UTF-8: mesma contagem de bytes que de caracteres.
+    assert.equal(info.htmlSizeBytes, '<html lang="pt-BR"><body></body></html>'.length);
   });
 
   it('devolve null quando o dado nao existe, em vez de inventar', () => {
@@ -159,6 +161,7 @@ describe('extractPageInfo', () => {
     assert.equal(info.elementCount, null);
     assert.equal(info.lang, null);
     assert.equal(info.viewport, null);
+    assert.equal(info.htmlSizeBytes, null);
   });
 });
 

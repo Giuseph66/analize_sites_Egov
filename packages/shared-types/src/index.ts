@@ -113,6 +113,12 @@ export interface PageInfo {
   lang: string | null;
   viewport: { width: number; height: number; mobile: boolean; landscape: boolean } | null;
   userAgent: string | null;
+  /**
+   * Bytes do HTML capturado pelo QualWeb (system.page.dom.html), NAO o tamanho da
+   * resposta de rede: o QualWeb ja injetou seus proprios scripts nesse HTML antes de
+   * o lermos, entao o valor e maior que o peso real transferido pela pagina.
+   */
+  htmlSizeBytes: number | null;
 }
 
 export interface NetworkFailure {

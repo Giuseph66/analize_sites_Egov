@@ -151,16 +151,27 @@ export function App(): JSX.Element {
     <>
       <a className="skip-link" href="#conteudo">Ir para o conteúdo</a>
 
-      <header className="top">
+      <div className="utility-bar">
         <div className="wrap">
-          <h1>Avaliador de Acessibilidade Local</h1>
-          <span className="meta">
-            {health
-              ? `motor QualWeb ${health.versions.qualwebCore} · ${health.versions.chromium ?? 'chromium ?'} · node ${health.versions.node}`
-              : 'verificando motor…'}
+          <span className="meta" style={{ fontFamily: 'inherit', textTransform: 'none' }}>
+            Laboratório local de acessibilidade — não afiliado ao AMAWeb
           </span>
           <span className="spacer" />
-          <a className="meta" href="/debug" target="_blank" rel="noreferrer">/debug</a>
+          <a href="/debug" target="_blank" rel="noreferrer">/debug</a>
+        </div>
+      </div>
+
+      <header className="top">
+        <div className="wrap">
+          <p className="wordmark">
+            <span className="accent">Avaliador</span> de Acessibilidade
+          </p>
+          <span className="spacer" />
+          <span className="meta">
+            {health
+              ? `QualWeb ${health.versions.qualwebCore} · ${health.versions.chromium ?? 'chromium ?'} · node ${health.versions.node}`
+              : 'verificando motor…'}
+          </span>
         </div>
       </header>
 
@@ -208,7 +219,7 @@ export function App(): JSX.Element {
                       <tr key={item.id}>
                         <td className="mono">{item.createdAt.slice(0, 19).replace('T', ' ')}</td>
                         <td className="mono">{item.url}</td>
-                        <td>{item.status}</td>
+                        <td><span className={`status-pill ${item.status}`}>{item.status}</span></td>
                         <td className="mono">{item.durationMs ? `${(item.durationMs / 1000).toFixed(1)} s` : '—'}</td>
                         <td>
                           <button type="button" className="secondary" onClick={() => void openEvaluation(item.id)}>

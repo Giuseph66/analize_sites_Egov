@@ -213,6 +213,7 @@ export function extractPageInfo(raw: RawQualwebReport): {
   lang: string | null;
   viewport: { width: number; height: number; mobile: boolean; landscape: boolean } | null;
   userAgent: string | null;
+  htmlSizeBytes: number | null;
 } {
   const dom = raw.system?.page?.dom;
   const viewport = raw.system?.page?.viewport;
@@ -232,6 +233,9 @@ export function extractPageInfo(raw: RawQualwebReport): {
           }
         : null,
     userAgent: viewport?.userAgent ?? null,
+    // Bytes do HTML que o QualWeb capturou, ja com seus proprios scripts injetados —
+    // nao e o peso real da resposta de rede. Ver comentario em PageInfo.
+    htmlSizeBytes: dom?.html ? Buffer.byteLength(dom.html, 'utf-8') : null,
   };
 }
 
