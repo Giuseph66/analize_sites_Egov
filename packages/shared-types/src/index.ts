@@ -55,8 +55,14 @@ export interface AccessibilityResult {
   url?: string;
   /** Primeiro elemento associado ao resultado, para exibicao rapida. */
   element?: ResultElement;
-  /** Todos os elementos apontados pelos testes que produziram o veredito da regra. */
+  /**
+   * Elementos apontados pelos testes que produziram o veredito da regra, limitados
+   * a MAX_ELEMENTS_PER_RESULT e com o HTML truncado. O conjunto completo esta em
+   * data/evaluations/<id>/raw-qualweb.json.
+   */
   elements: ResultElement[];
+  /** Quantos elementos existiam antes do corte. */
+  elementsTotal: number;
   /** Descricao textual do desfecho, vinda do QualWeb. */
   outcomeDescription?: string;
   /** Contagens internas da regra reportadas pelo QualWeb. */

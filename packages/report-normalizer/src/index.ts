@@ -22,6 +22,22 @@ export * from './qualweb-shapes';
 export * from './scoring';
 
 const EVALUATION_MODULES: QualwebModuleName[] = ['act-rules', 'wcag-techniques', 'best-practices'];
+
+/**
+ * Limites de recorte dos elementos.
+ *
+ * Sem eles o relatorio normalizado fica MAIOR que o bruto do QualWeb: algumas regras
+ * (QW-ACT-R75, por exemplo) apontam o proprio <html> como elemento e carregam o
+ * documento inteiro em htmlCode — 2,4 MB numa pagina de teste de 40 elementos.
+ * O JSON bruto continua intacto em raw-qualweb.json para quem precisar do original.
+ */
+export const MAX_ELEMENTS_PER_RESULT = 25;
+export const MAX_ELEMENT_HTML_LENGTH = 4000;
+
+function truncateHtml(html: string): string {
+  if (html.length <= MAX_ELEMENT_HTML_LENGTH) return html;
+  return `${html.slice(0, MAX_ELEMENT_HTML_LENGTH)}\n<!-- ... truncado: ${html.length - MAX_ELEMENT_HTML_LENGTH} caracteres a mais. HTML completo em raw-qualweb.json -->`;
+}
 const LEVEL_SEVERITY: Record<WcagLevel, number> = { A: 3, AA: 2, AAA: 1 };
 
 function isWcagLevel(value: unknown): value is WcagLevel {
@@ -71,7 +87,7 @@ function primaryCriterion(criteria: WcagCriterion[]): WcagCriterion | undefined 
 
 function toElement(raw: { pointer?: string; htmlCode?: string; accessibleName?: string; attributes?: string | string[] }): ResultElement {
   const element: ResultElement = {};
-  if (raw.htmlCode) element.html = raw.htmlCode;
+  if (raw.htmlCode) element.html = truncateHtml(raw.htmlCode);
   if (raw.pointer) element.selector = raw.pointer;
   if (raw.accessibleName) element.accessibleName = raw.accessibleName;
   if (raw.attributes) element.attributes = Array.isArray(raw.attributes) ? raw.attributes : [raw.attributes];
@@ -82,19 +98,22 @@ function toElement(raw: { pointer?: string; htmlCode?: string; accessibleName?: 
  * Elementos exibidos para a regra: apenas os dos testes cujo verdict coincide com
  * o desfecho da regra. Mostrar elementos "passed" numa regra que falhou confunde.
  */
-function extractElements(assertion: RawAssertion, outcome: ResultOutcome): ResultElement[] {
+function extractElements(assertion: RawAssertion, outcome: ResultOutcome): { elements: ResultElement[]; total: number } {
   const tests: RawTestResult[] = assertion.results ?? [];
   const matching = tests.filter((test) => toOutcome(test.verdict) === outcome);
   const source = matching.length > 0 ? matching : tests;
 
   const elements: ResultElement[] = [];
+  let total = 0;
   for (const test of source) {
     for (const rawElement of test.elements ?? []) {
       const element = toElement(rawElement);
-      if (Object.keys(element).length > 0) elements.push(element);
+      if (Object.keys(element).length === 0) continue;
+      total += 1;
+      if (elements.length < MAX_ELEMENTS_PER_RESULT) elements.push(element);
     }
   }
-  return elements;
+  return { elements, total };
 }
 
 function normalizeAssertion(
@@ -108,7 +127,7 @@ function normalizeAssertion(
   const outcome = toOutcome(assertion.metadata?.outcome);
   const criteria = extractCriteria(assertion);
   const primary = primaryCriterion(criteria);
-  const elements = extractElements(assertion, outcome);
+  const { elements, total: elementsTotal } = extractElements(assertion, outcome);
 
   const result: AccessibilityResult = {
     ruleId,
@@ -120,6 +139,7 @@ function normalizeAssertion(
     engineVersion,
     wcagCriteria: criteria,
     elements,
+    elementsTotal,
     counts: {
       passed: assertion.metadata?.passed ?? 0,
       warning: assertion.metadata?.warning ?? 0,

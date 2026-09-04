@@ -1,0 +1,66 @@
+services:
+  evaluator:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: local-accessibility-evaluator:latest
+    container_name: lae-evaluator
+    ports:
+      - "3000:3000"
+    # Em Linux, `host.docker.internal` nao existe por padrao. `host-gateway` faz o
+    # Docker apontar esse nome para o IP do host, que e o que permite avaliar
+    # http://localhost:5173 rodando na sua maquina. Ver docs/architecture.md §12.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      PORT: "3000"
+      HOST: "0.0.0.0"
+      RUNNING_IN_DOCKER: "true"
+      # Reescrita transparente de localhost -> host da maquina.
+      LOCALHOST_ALIAS: "${LOCALHOST_ALIAS:-host.docker.internal}"
+      BROWSER_HEADLESS: "${BROWSER_HEADLESS:-true}"
+      BROWSER_TIMEOUT: "${BROWSER_TIMEOUT:-30000}"
+      PAGE_TIMEOUT: "${PAGE_TIMEOUT:-30000}"
+      EVALUATION_TIMEOUT: "${EVALUATION_TIMEOUT:-60000}"
+      MAX_CONCURRENT_EVALUATIONS: "${MAX_CONCURRENT_EVALUATIONS:-2}"
+      MAX_QUEUE_SIZE: "${MAX_QUEUE_SIZE:-20}"
+      CAPTURE_SCREENSHOT: "${CAPTURE_SCREENSHOT:-false}"
+      SAVE_HTML: "${SAVE_HTML:-false}"
+      ALLOW_LOCAL_NETWORK: "${ALLOW_LOCAL_NETWORK:-true}"
+      ALLOW_FILE_PROTOCOL: "${ALLOW_FILE_PROTOCOL:-false}"
+      MAX_REDIRECTS: "${MAX_REDIRECTS:-10}"
+      SCORING_STRATEGY: "${SCORING_STRATEGY:-experimental-v1}"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    # Necessario para o Chromium: o /dev/shm padrao do Docker (64 MB) e pequeno
+    # demais e provoca crashes de aba. A alternativa e --disable-dev-shm-usage,
+    # que ja passamos, mas aumentar o shm e mais confiavel.
+    shm_size: "1gb"
+    restart: unless-stopped
+
+  # Paginas de teste (§16). Sobem apenas com o profile "test-sites", para nao
+  # disputar as portas com o seu proprio servidor de desenvolvimento.
+  test-site-bad:
+    profiles: ["test-sites"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.test-site
+    container_name: lae-test-site-bad
+    environment:
+      SITE: bad
+      PORT: "5173"
+    ports:
+      - "5173:5173"
+
+  test-site-good:
+    profiles: ["test-sites"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.test-site
+    container_name: lae-test-site-good
+    environment:
+      SITE: good
+      PORT: "5174"
+    ports:
+      - "5174:5174"

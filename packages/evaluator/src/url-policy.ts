@@ -60,7 +60,15 @@ export function resolveUrl(rawUrl: string, options: UrlPolicyOptions): ResolvedU
   if (!trimmed) throw new UrlPolicyError('URL vazia.', 'invalid-url');
 
   // Sem esquema explicito, assume http:// (o caso comum e digitar "localhost:5173").
-  const withScheme = /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(trimmed) ? trimmed : `http://${trimmed}`;
+  //
+  // Cuidado: `localhost:5173` casa com a forma generica de um esquema URI, e tratar
+  // "localhost" como esquema faria a URL ser rejeitada. Por isso um prefixo seguido
+  // de digitos e lido como host:porta, nao como esquema. Formas sem "//" que sao
+  // esquemas de verdade (javascript:, data:, mailto:) continuam sendo detectadas,
+  // porque nao vem seguidas de digito.
+  const hasScheme =
+    /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//.test(trimmed) || /^[a-zA-Z][a-zA-Z0-9+.-]*:(?!\d)/.test(trimmed);
+  const withScheme = hasScheme ? trimmed : `http://${trimmed}`;
 
   let parsed: URL;
   try {
