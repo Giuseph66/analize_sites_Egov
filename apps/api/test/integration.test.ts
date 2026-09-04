@@ -7,7 +7,7 @@
  */
 
 import assert from 'node:assert/strict';
-import { createServer, type Server } from 'node:http';
+import { createServer, type Server, type ServerResponse } from 'node:http';
 import { mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -35,7 +35,7 @@ let baseUrl: string;
 let service: EvaluationService;
 let workDir: string;
 
-function respond(res: Parameters<Parameters<typeof createServer>[0]>[1], status: number, body: string, type = 'text/html; charset=utf-8'): void {
+function respond(res: ServerResponse, status: number, body: string, type = 'text/html; charset=utf-8'): void {
   res.writeHead(status, { 'content-type': type });
   res.end(body);
 }
@@ -127,7 +127,7 @@ describe('avaliacao ponta a ponta com QualWeb real', () => {
     assert.ok(report.rulesByModule['wcag-techniques']! > 0);
     assert.ok(report.rulesByModule['best-practices']! > 0);
     assert.equal(report.score.strategy, 'experimental-v1');
-    assert.ok(report.timings.qualwebMs > 0);
+    assert.ok((report.timings.qualwebMs ?? 0) > 0);
     assert.ok(report.versions.chromium?.length);
     assert.equal(report.versions.qualwebCore, '0.9.5');
   });

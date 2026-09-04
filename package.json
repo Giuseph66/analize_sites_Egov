@@ -18,7 +18,7 @@
     "dev:frontend": "npm run dev --workspace=@lae/frontend",
     "build": "npm run typecheck && npm run build --workspace=@lae/frontend",
     "start": "npm run start --workspace=@lae/api",
-    "typecheck": "npm run typecheck --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present && tsc --noEmit -p tsconfig.scripts.json",
     "test": "npm run test --workspaces --if-present",
     "lint": "npm run typecheck",
     "evaluate": "npm run evaluate --workspace=@lae/qualweb-test --",
