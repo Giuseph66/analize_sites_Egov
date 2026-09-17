@@ -10,6 +10,7 @@ import { EventEmitter } from 'node:events';
 
 import { EmitterSink, type Logger, MemorySink } from '@lae/logger';
 import {
+  buildAccessMonitorLayer,
   extractPageInfo,
   getScoringStrategy,
   normalizeQualwebReport,
@@ -50,6 +51,7 @@ export class EvaluationService extends EventEmitter {
   private readonly durations: number[] = [];
   private lastCompleted: EvaluationMetadata | null = null;
   private totalCreated = 0;
+  private shuttingDown = false;
 
   constructor(
     private readonly config: EvaluatorConfig,
@@ -121,6 +123,16 @@ export class EvaluationService extends EventEmitter {
     if (persisted.length > 0) return persisted;
     // Avaliacao ainda em andamento: os logs so existem em memoria.
     return this.memorySink?.forEvaluation(id) ?? [];
+  }
+
+  /**
+   * Chamado pelo handler de SIGTERM/SIGINT antes de fechar o servidor. Uma avaliacao
+   * em andamento vai falhar porque o Chromium cai junto com o processo — e, sem este
+   * sinal, o erro que chega ao usuario e um "Navigating frame was detached" opaco.
+   * Com `tsx watch`, salvar qualquer arquivo dispara exatamente isso.
+   */
+  markShuttingDown(): void {
+    this.shuttingDown = true;
   }
 
   /** Sink em memoria usado para servir logs de avaliacoes ainda em execucao. */
@@ -222,6 +234,7 @@ export class EvaluationService extends EventEmitter {
           maxRedirects: this.config.maxRedirects,
           spaSettleQuietMs: this.config.spaSettleQuietMs,
           spaSettleMaxMs: this.config.spaSettleMaxMs,
+          restoreNativePrototypes: this.config.restoreNativePrototypes,
           captureScreenshot: this.config.captureScreenshot,
           saveHtml: this.config.saveHtml,
           artifactDir: this.repository.artifactDir(item.id),
@@ -242,7 +255,21 @@ export class EvaluationService extends EventEmitter {
       const normalized = normalizeQualwebReport(raw, versions.qualwebCore);
       versions.qualwebSystem = normalized.qualwebSystemVersion;
 
-      const score = getScoringStrategy(this.config.scoringStrategy).compute(normalized.results);
+      // Camada AccessMonitor: mesmo pipeline do validador da AMA (e do AMAWeb),
+      // sobre o relatorio bruto. Falha aqui nao derruba a avaliacao: fica null e
+      // o motivo vai para o relatorio e para o log.
+      const accessmonitor = buildAccessMonitorLayer(raw, normalized.results);
+      if (accessmonitor.summary) {
+        const s = accessmonitor.summary;
+        log.info('APP', `AccessMonitor: ${s.totalTests} testes, nota ${s.score}, erros A/AA/AAA ${s.conform.A}/${s.conform.AA}/${s.conform.AAA} (ruleset ${s.packageVersion})`);
+      } else {
+        log.warn('APP', `AccessMonitor indisponível nesta avaliação: ${accessmonitor.error ?? 'motivo desconhecido'}`);
+      }
+
+      const score = getScoringStrategy(this.config.scoringStrategy).compute({
+        results: normalized.results,
+        accessmonitor: accessmonitor.summary,
+      });
       const normalizationMs = Math.round(performance.now() - normalizationStartedAt);
 
       const finishedAt = new Date();
@@ -260,7 +287,7 @@ export class EvaluationService extends EventEmitter {
         summary: normalized.summary,
         wcagFailures: normalized.wcagFailures,
         rulesByModule: normalized.rulesByModule,
-        page: extractPageInfo(raw),
+        page: extractPageInfo(raw, engineResult.diagnostics.documentSizeBytes),
         versions,
         timings: {
           browserLaunchMs: engineResult.timings.browserLaunchMs,
@@ -273,6 +300,8 @@ export class EvaluationService extends EventEmitter {
         },
         diagnostics: engineResult.diagnostics,
         results: normalized.results,
+        accessmonitor: accessmonitor.summary,
+        ...(accessmonitor.error ? { accessmonitorError: accessmonitor.error } : {}),
       };
 
       log.info('APP', 'Saving report', {
@@ -304,7 +333,16 @@ export class EvaluationService extends EventEmitter {
       this.emitStatus(item.id, 'completed');
       this.emitDone(item.id, 'completed');
     } catch (error) {
-      const failure = toFailure(error);
+      const failure = this.shuttingDown
+        ? {
+            kind: 'internal' as const,
+            message:
+              'A API recebeu SIGTERM/SIGINT durante a avaliação e o Chromium caiu junto (reinício do ' +
+              'servidor — com `tsx watch`, salvar um arquivo faz isso). Não é um problema da página: ' +
+              'rode a avaliação de novo. Erro original: ' +
+              (error instanceof Error ? error.message : String(error)),
+          }
+        : toFailure(error);
       log.error('APP', `Evaluation failed (${failure.kind}): ${failure.message}`, error);
 
       const finishedAt = new Date();

@@ -29,7 +29,13 @@ import { Counter } from '@qualweb/counter';
 import type { ConsoleMessage, HTTPRequest, HTTPResponse, Page } from 'puppeteer';
 
 import type { Logger } from '@lae/logger';
-import type { ConsoleEntry, EvaluationDiagnostics, NetworkFailure, RedirectHop } from '@lae/shared-types';
+import type {
+  ConsoleEntry,
+  EvaluationDiagnostics,
+  NetworkFailure,
+  PrototypeRestoreReport,
+  RedirectHop,
+} from '@lae/shared-types';
 
 import { InstrumentedModule } from './instrumented-module';
 
@@ -50,6 +56,8 @@ export interface EngineRunOptions {
   spaSettleQuietMs: number;
   /** Teto da espera de assentamento. 0 desativa o recurso. */
   spaSettleMaxMs: number;
+  /** Desfaz poluicao de prototipos nativos antes de injetar o QualWeb. Ver docs/qualweb.md. */
+  restoreNativePrototypes: boolean;
   /** Diretorio data/evaluations/<id>/ onde screenshot.png e page.html sao gravados. */
   artifactDir: string;
   onStage(stage: 'browser-launched' | 'page-loaded' | ModuleType | 'normalizing'): void;
@@ -132,7 +140,7 @@ class TaskErrorCapturingDriver implements Driver {
 function classifyFailure(message: string): EngineError['kind'] {
   if (/timeout|timed out|exceeded/i.test(message)) return 'timeout';
   if (/net::|ERR_|dns|ECONNREFUSED|ENOTFOUND|certificate/i.test(message)) return 'navigation';
-  if (/target closed|session closed|protocol error|crash/i.test(message)) return 'browser';
+  if (/target closed|session closed|protocol error|crash|frame was detached|detached/i.test(message)) return 'browser';
   return 'qualweb';
 }
 
@@ -149,6 +157,8 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
     networkFailures: [],
     screenshotPath: null,
     htmlPath: null,
+    prototypeRestore: null,
+    documentSizeBytes: null,
   };
 
   const modulesMs: Record<string, number> = {};
@@ -214,6 +224,14 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
         type GotoFn = Page['goto'];
         const originalGoto: GotoFn = page.goto.bind(page);
         page.goto = (async (...args: Parameters<GotoFn>) => {
+          // Snapshot dos prototipos nativos ANTES de qualquer script da pagina rodar.
+          // Precisa ser aguardado aqui, antes do goto real: registrado de forma solta
+          // em beforePageLoad, a chamada CDP poderia chegar depois de a navegacao
+          // ja ter comecado, e o documento principal ficaria sem o snapshot.
+          if (options.restoreNativePrototypes) {
+            await page.evaluateOnNewDocument(snapshotNativePrototypes);
+          }
+
           let response: Awaited<ReturnType<GotoFn>>;
           try {
             response = await originalGoto(...args);
@@ -224,6 +242,9 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
           }
           if (options.spaSettleMaxMs > 0) {
             await waitForDomSettle(page, options.spaSettleQuietMs, options.spaSettleMaxMs, logger);
+          }
+          if (options.restoreNativePrototypes) {
+            diagnostics.prototypeRestore = await restoreNativePrototypes(page, logger);
           }
           return response;
         }) as GotoFn;
@@ -371,12 +392,23 @@ export async function runEvaluation(options: EngineRunOptions, logger: Logger): 
     if (underlying) {
       const message = underlying.message;
       const kind = classifyFailure(message);
-      const hint =
-        kind === 'timeout'
-          ? ` A página não terminou de carregar dentro de PAGE_TIMEOUT=${options.pageTimeout} ms` +
+      // Dois timeouts diferentes produzem `kind: 'timeout'`, e a correcao e outra:
+      //  - "Navigation timeout of N ms exceeded" vem do Puppeteer: PAGE_TIMEOUT.
+      //  - "Timeout hit: N" vem do puppeteer-cluster: EVALUATION_TIMEOUT matou a
+      //    tarefa inteira (navegacao + assentamento + modulos) — acontece quando
+      //    EVALUATION_TIMEOUT e menor que o tempo que a pagina de fato leva, ou
+      //    quando PAGE_TIMEOUT foi configurado maior que EVALUATION_TIMEOUT.
+      let hint = '';
+      if (kind === 'timeout') {
+        hint = /Timeout hit/i.test(message)
+          ? ` EVALUATION_TIMEOUT=${options.evaluationTimeout} ms esgotou antes de a avaliação inteira terminar` +
+            ` (a página ainda não tinha atingido 'load' + 'networkidle2'). Aumente EVALUATION_TIMEOUT` +
+            ` — ele precisa cobrir PAGE_TIMEOUT (${options.pageTimeout} ms) + SPA_SETTLE_MAX_MS (${options.spaSettleMaxMs} ms)` +
+            ` + a execução dos módulos.`
+          : ` A página não terminou de carregar dentro de PAGE_TIMEOUT=${options.pageTimeout} ms` +
             ` (aguardando 'load' e 'networkidle2'). Aumente PAGE_TIMEOUT — e EVALUATION_TIMEOUT` +
-            ` junto, pois ele precisa cobrir a avaliação inteira.`
-          : '';
+            ` junto, pois ele precisa cobrir a avaliação inteira.`;
+      }
 
       throw new EngineError(`A avaliação de ${options.resolvedUrl} falhou: ${message}.${hint}`, kind, underlying);
     }
@@ -434,6 +466,143 @@ async function readNavigationTiming(page: Page): Promise<Record<string, number> 
       loadMs: Math.round(nav.loadEventEnd - nav.startTime),
     };
   });
+}
+
+// Chave sob a qual o snapshot fica guardado no window da pagina. Nao enumeravel e
+// com nome improvavel, para nao colidir com nada da pagina. Repetida como literal
+// dentro de snapshotNativePrototypes() porque aquela funcao e serializada e
+// reexecutada no browser — nao pode fechar sobre constantes deste modulo.
+const PROTOTYPE_SNAPSHOT_KEY = '__lae_native_prototypes_2c7f__';
+
+/**
+ * Roda NA PAGINA, antes de qualquer script dela (page.evaluateOnNewDocument).
+ * Guarda os descritores originais dos prototipos e dos estaticos dos construtores.
+ *
+ * Por que no mesmo realm, e nao num iframe limpo: restaurar `Array.prototype.map`
+ * com a funcao de OUTRO realm devolveria arrays daquele realm, e `instanceof Array`
+ * passaria a falhar dentro das bibliotecas do QualWeb. Capturado aqui, o que
+ * restauramos e literalmente a funcao nativa original desta pagina.
+ *
+ * Sem funcao interna nomeada: o esbuild do tsx injetaria `__name(...)`, que nao
+ * existe no browser (docs/qualweb.md, secao 4).
+ */
+function snapshotNativePrototypes(): void {
+  const key = '__lae_native_prototypes_2c7f__';
+  // Os prototipos DOM (Element, Node) ficam de fora de proposito: o MooTools coloca
+  // mais de cem metodos neles, o QualWeb nao depende deles, e mexer ali e o que
+  // mais facilmente quebra o resto da pagina.
+  const names = ['Object', 'Array', 'String', 'Number', 'Boolean', 'Function', 'RegExp', 'Date', 'Math', 'JSON'];
+  const snapshot: Record<string, { target: object; descriptors: PropertyDescriptorMap }> = {};
+  const w = window as unknown as Record<string, unknown>;
+  for (const name of names) {
+    const ctor = w[name] as (object & { prototype?: object }) | undefined;
+    if (!ctor) continue;
+    snapshot[name] = { target: ctor, descriptors: Object.getOwnPropertyDescriptors(ctor) };
+    if (ctor.prototype) {
+      snapshot[`${name}.prototype`] = { target: ctor.prototype, descriptors: Object.getOwnPropertyDescriptors(ctor.prototype) };
+    }
+  }
+  Object.defineProperty(window, key, { value: snapshot, enumerable: false, configurable: true, writable: false });
+}
+
+/**
+ * Desfaz o que a pagina fez nos prototipos nativos, usando o snapshot acima.
+ *
+ * Motivo (caso real, docs/qualweb.md): paginas Joomla com MooTools definem
+ * `Array.prototype.min`. O colorjs.io dentro do bundle do act-rules le `range.min`
+ * esperando um numero, recebe uma funcao, e a inicializacao do espaco de cor
+ * "oklch" falha — o bundle inteiro morre antes de definir `ACTRulesRunner`, e a
+ * avaliacao falha com "ACTRulesRunner is not defined". Bisseccao contra o site
+ * real mostrou que tornar as adicoes nao-enumeraveis NAO basta: e a presenca do
+ * metodo. Por isso removemos as chaves adicionadas e redefinimos as sobrescritas.
+ *
+ * Roda depois do load + assentamento e antes de o core injetar seus scripts.
+ * Scripts da propria pagina que rodarem depois (timers) podem quebrar por
+ * sentirem falta das extensoes — isso nao afeta a leitura do DOM pelo QualWeb e
+ * aparece nos logs como erro da TARGET PAGE, com transparencia.
+ */
+async function restoreNativePrototypes(page: Page, logger: Logger): Promise<PrototypeRestoreReport> {
+  let report: PrototypeRestoreReport;
+  try {
+    report = await page.evaluate((key: string): PrototypeRestoreReport => {
+      const out: PrototypeRestoreReport = { removed: {}, restored: {} };
+      const w = window as unknown as Record<string, unknown>;
+      const snapshot = w[key] as Record<string, { target: object; descriptors: PropertyDescriptorMap }> | undefined;
+      if (!snapshot) return out;
+
+      for (const name of Object.keys(snapshot)) {
+        const entry = snapshot[name];
+        if (!entry) continue;
+        const { target, descriptors } = entry;
+        const removed: string[] = [];
+        const restored: string[] = [];
+
+        // Chaves que a pagina adicionou.
+        for (const k of Object.getOwnPropertyNames(target)) {
+          if (Object.prototype.hasOwnProperty.call(descriptors, k)) continue;
+          const current = Object.getOwnPropertyDescriptor(target, k);
+          if (!current || !current.configurable) continue;
+          try {
+            delete (target as Record<string, unknown>)[k];
+            removed.push(k);
+          } catch {
+            /* nao configuravel na pratica: deixa como esta */
+          }
+        }
+
+        // Chaves originais que a pagina sobrescreveu ou apagou.
+        for (const k of Object.keys(descriptors)) {
+          const original = descriptors[k];
+          if (!original) continue;
+          const current = Object.getOwnPropertyDescriptor(target, k);
+          const changed = !current
+            ? true
+            : 'value' in original
+              ? current.value !== original.value
+              : current.get !== original.get || current.set !== original.set;
+          if (!changed) continue;
+          if (current && !current.configurable) continue;
+          try {
+            Object.defineProperty(target, k, original);
+            restored.push(k);
+          } catch {
+            /* idem */
+          }
+        }
+
+        if (removed.length) out.removed[name] = removed;
+        if (restored.length) out.restored[name] = restored;
+      }
+
+      delete w[key];
+      return out;
+    }, PROTOTYPE_SNAPSHOT_KEY);
+  } catch (error) {
+    logger.warn('APP', 'Restauração de protótipos nativos falhou (contexto indisponível); seguindo sem ela', {
+      error: error instanceof Error ? error.message : String(error),
+    });
+    return { removed: {}, restored: {} };
+  }
+
+  const removedTotal = Object.values(report.removed).reduce((n, list) => n + list.length, 0);
+  const restoredTotal = Object.values(report.restored).reduce((n, list) => n + list.length, 0);
+
+  if (removedTotal === 0 && restoredTotal === 0) {
+    logger.debug('APP', 'Protótipos nativos intactos: a página não poluiu nada');
+    return report;
+  }
+
+  const summary = [
+    ...Object.entries(report.removed).map(([name, keys]) => `${name}: -${keys.length}`),
+    ...Object.entries(report.restored).map(([name, keys]) => `${name}: ${keys.length} restaurada(s) (${keys.join(', ')})`),
+  ].join(' · ');
+
+  logger.warn(
+    'APP',
+    `Página poluiu protótipos nativos; ${removedTotal} chave(s) removida(s) e ${restoredTotal} restaurada(s) antes de injetar o QualWeb — ${summary}`,
+    { removed: report.removed },
+  );
+  return report;
 }
 
 /**
@@ -600,6 +769,16 @@ function attachDiagnostics(
       } else {
         diagnostics.httpStatus = status;
         logger.info('BROWSER', `HTTP ${status} ${response.url()}`);
+        // Tamanho real do documento, descomprimido, lido da rede — comparavel ao
+        // "tamanho da pagina" de outras ferramentas (o HTML capturado pelo QualWeb
+        // ja vem inflado pelos scripts que ele injeta). Assincrono; nao bloqueia.
+        void response
+          .buffer()
+          .then((body) => {
+            diagnostics.documentSizeBytes = body.length;
+            logger.info('BROWSER', `Document body: ${body.length} bytes`);
+          })
+          .catch(() => undefined);
       }
     } else if (status >= 400) {
       diagnostics.networkFailures.push({

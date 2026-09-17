@@ -252,6 +252,7 @@ export async function registerRoutes(app: FastifyInstance, deps: RouteDeps): Pro
         MAX_REDIRECTS: String(config.maxRedirects),
         SPA_SETTLE_QUIET_MS: String(config.spaSettleQuietMs),
         SPA_SETTLE_MAX_MS: String(config.spaSettleMaxMs),
+        RESTORE_NATIVE_PROTOTYPES: String(config.restoreNativePrototypes),
         LOCALHOST_ALIAS: config.localhostAlias ?? '(nenhum)',
         RUNNING_IN_DOCKER: String(config.runningInContainer),
         SCORING_STRATEGY: config.scoringStrategy,

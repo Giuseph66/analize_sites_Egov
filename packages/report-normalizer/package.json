@@ -5,8 +5,23 @@
   "type": "commonjs",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
-  "exports": { ".": { "types": "./src/index.ts", "default": "./src/index.ts" } },
-  "scripts": { "typecheck": "tsc --noEmit", "test": "node --test --import tsx test/*.test.ts" },
-  "dependencies": { "@lae/shared-types": "0.1.0" },
-  "devDependencies": { "typescript": "^5.7.3", "@types/node": "^22.10.7", "tsx": "^4.19.2" }
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --import tsx test/*.test.ts"
+  },
+  "dependencies": {
+    "@a12e/accessmonitor-rulesets": "2.0.0",
+    "@lae/shared-types": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
 }

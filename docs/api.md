@@ -119,6 +119,40 @@ Cada item de `results[]`:
 `technique` aparece em vez de `actRule` no módulo `wcag-techniques`.
 Campos que o QualWeb não fornece são **omitidos** — nunca preenchidos com um palpite.
 
+Facetas derivadas em cada item: `principle`, `guideline`, `guidelineName`,
+`techniqueFamily`, `targets[]`, `accessmonitorKeys[]`.
+
+Camada AccessMonitor (`report.accessmonitor`, `null` se o pipeline falhou; motivo em
+`accessmonitorError`):
+
+```json
+{
+  "packageVersion": "2.0.0",
+  "totalTests": 38,
+  "score": 8.7,
+  "conform": { "A": 5, "AA": 0, "AAA": 0 },
+  "byColor": { "R": { "A": 5, "AA": 0, "AAA": 0 }, "Y": { "A": 4, "AA": 0, "AAA": 2 }, "G": { "A": 16, "AA": 10, "AAA": 1 } },
+  "elementCounters": { "img": 42, "a": 136, "button": 15 },
+  "practices": [
+    {
+      "key": "id_02", "group": "id", "groupLabel": "Atributos id",
+      "color": "R", "level": "A",
+      "title": "Encontrei atributos id repetidos",
+      "description": "Encontrei nesta página 8 atributos ids repetidos.",
+      "occurrences": 8,
+      "technique": { "code": "H93", "kind": "wcag-technique", "name": "...", "description": "...", "url": "https://www.w3.org/WAI/WCAG21/Techniques/html/H93" },
+      "criteria": [{ "criterion": "4.1.1", "level": "A", "name": "parsing" }],
+      "score": 3, "trust": "1", "weighted": "1@1.80",
+      "qualwebRules": ["QW-BP30"], "linkKind": "mapping",
+      "elements": [ ... ]
+    }
+  ]
+}
+```
+
+`page.documentSizeBytes` é o tamanho real da resposta do documento (rede);
+`page.htmlSizeBytes` é o HTML capturado depois de o QualWeb injetar seus scripts.
+
 ---
 
 ## `GET /api/evaluations/:id/report/raw`

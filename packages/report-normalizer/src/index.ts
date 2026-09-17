@@ -17,9 +17,57 @@ import type {
 } from '@lae/shared-types';
 
 import type { RawAssertion, RawEvaluationModule, RawQualwebReport, RawTestResult } from './qualweb-shapes';
+import { accessMonitorKeysByRule } from './accessmonitor';
 
 export * from './qualweb-shapes';
 export * from './scoring';
+export * from './accessmonitor';
+
+/**
+ * Diretrizes da WCAG 2.1 (nomes em portugues). Tabela estatica, derivada do
+ * numero do criterio: "1.3.1" -> diretriz "1.3". Fonte: WCAG 2.1, traducao
+ * autorizada pt-BR do W3C Brasil.
+ */
+export const WCAG_GUIDELINES: Record<string, string> = {
+  '1.1': 'Alternativas em texto',
+  '1.2': 'Mídia com base em tempo',
+  '1.3': 'Adaptável',
+  '1.4': 'Discernível',
+  '2.1': 'Acessível por teclado',
+  '2.2': 'Tempo suficiente',
+  '2.3': 'Convulsões e reações físicas',
+  '2.4': 'Navegável',
+  '2.5': 'Modalidades de entrada',
+  '3.1': 'Legível',
+  '3.2': 'Previsível',
+  '3.3': 'Assistência de entrada',
+  '4.1': 'Compatível',
+};
+
+/** Familia de uma tecnica WCAG pelo prefixo do codigo (H24 -> HTML, G141 -> Geral). */
+export function techniqueFamilyOf(code: string): string {
+  const prefix = /^[A-Z]+/.exec(code)?.[0] ?? '';
+  const families: Record<string, string> = {
+    H: 'HTML',
+    C: 'CSS',
+    G: 'Geral',
+    F: 'Falha comum',
+    ARIA: 'ARIA',
+    SCR: 'Script',
+    T: 'Texto',
+    SVR: 'Servidor',
+    SM: 'SMIL',
+    PDF: 'PDF',
+    FLASH: 'Flash',
+    SL: 'Silverlight',
+  };
+  return families[prefix] ?? prefix;
+}
+
+function toList(value: string | string[] | undefined): string[] {
+  if (!value) return [];
+  return (Array.isArray(value) ? value : [value]).map((item) => item.trim()).filter(Boolean);
+}
 
 const EVALUATION_MODULES: QualwebModuleName[] = ['act-rules', 'wcag-techniques', 'best-practices'];
 
@@ -138,6 +186,8 @@ function normalizeAssertion(
     engine: 'qualweb',
     engineVersion,
     wcagCriteria: criteria,
+    targets: toList(assertion.metadata?.target?.element),
+    accessmonitorKeys: [],
     elements,
     elementsTotal,
     counts: {
@@ -148,9 +198,21 @@ function normalizeAssertion(
     },
   };
 
-  if (primary) result.wcag = { criterion: primary.criterion, level: primary.level };
+  if (primary) {
+    result.wcag = { criterion: primary.criterion, level: primary.level };
+    if (primary.principle) result.principle = primary.principle;
+    const guideline = primary.criterion.split('.').slice(0, 2).join('.');
+    if (guideline) {
+      result.guideline = guideline;
+      const guidelineName = WCAG_GUIDELINES[guideline];
+      if (guidelineName) result.guidelineName = guidelineName;
+    }
+  }
   if (moduleName === 'act-rules' && assertion.mapping) result.actRule = assertion.mapping;
-  if (moduleName === 'wcag-techniques' && assertion.mapping) result.technique = assertion.mapping;
+  if (moduleName === 'wcag-techniques' && assertion.mapping) {
+    result.technique = assertion.mapping;
+    result.techniqueFamily = techniqueFamilyOf(assertion.mapping);
+  }
   if (assertion.metadata?.url) result.url = assertion.metadata.url;
   if (assertion.metadata?.description) result.outcomeDescription = assertion.metadata.description;
   if (elements[0]) result.element = elements[0];
@@ -185,6 +247,12 @@ export function normalizeQualwebReport(raw: RawQualwebReport, engineVersion: str
     rulesByModule[moduleName] = count;
   }
 
+  // Ligacao regra -> testes AccessMonitor (mapeamento declarado ou codigo de tecnica).
+  const keysByRule = accessMonitorKeysByRule(results);
+  for (const result of results) {
+    result.accessmonitorKeys = keysByRule.get(result.ruleId) ?? [];
+  }
+
   const summary: ReportSummary = { passed: 0, failed: 0, warning: 0, inapplicable: 0, manual: 0 };
   const wcagFailures: WcagLevelSummary = { A: 0, AA: 0, AAA: 0, unmapped: 0 };
 
@@ -207,13 +275,14 @@ export function normalizeQualwebReport(raw: RawQualwebReport, engineVersion: str
   };
 }
 
-export function extractPageInfo(raw: RawQualwebReport): {
+export function extractPageInfo(raw: RawQualwebReport, documentSizeBytes: number | null = null): {
   title: string | null;
   elementCount: number | null;
   lang: string | null;
   viewport: { width: number; height: number; mobile: boolean; landscape: boolean } | null;
   userAgent: string | null;
   htmlSizeBytes: number | null;
+  documentSizeBytes: number | null;
 } {
   const dom = raw.system?.page?.dom;
   const viewport = raw.system?.page?.viewport;
@@ -236,6 +305,7 @@ export function extractPageInfo(raw: RawQualwebReport): {
     // Bytes do HTML que o QualWeb capturou, ja com seus proprios scripts injetados —
     // nao e o peso real da resposta de rede. Ver comentario em PageInfo.
     htmlSizeBytes: dom?.html ? Buffer.byteLength(dom.html, 'utf-8') : null,
+    documentSizeBytes,
   };
 }
 

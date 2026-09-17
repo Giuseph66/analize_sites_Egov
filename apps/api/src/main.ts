@@ -117,6 +117,7 @@ async function main(): Promise<void> {
 
   const shutdown = async (signal: string): Promise<void> => {
     logger.info('APP', `Received ${signal}, shutting down`);
+    service.markShuttingDown();
     await app.close();
     process.exit(0);
   };

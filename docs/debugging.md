@@ -182,6 +182,30 @@ que falha com relatório vazio. A API avisa disso na subida:
 [APP] WARN EVALUATION_TIMEOUT (60000 ms) não cobre PAGE_TIMEOUT + SPA_SETTLE_MAX_MS (103999 ms). ...
 ```
 
+## `ACTRulesRunner is not defined` / `No color space found with id = "oklch"`
+
+A página poluiu os protótipos nativos (MooTools, Prototype.js, Sugar) e o bundle
+do act-rules — que roda no realm da página — morreu na inicialização. A
+restauração de protótipos deveria ter tratado isso; confira nos logs:
+
+```
+[APP] WARN Página poluiu protótipos nativos; 356 chave(s) removida(s) e 6 restaurada(s) antes de injetar o QualWeb — Array.prototype: -28 · ...
+```
+
+Se a linha não aparece, `RESTORE_NATIVE_PROTOTYPES` está em `false`, ou a
+página polui algo fora dos alvos cobertos (`Object`, `Array`, `String`,
+`Number`, `Boolean`, `Function`, `RegExp`, `Date`, `Math`, `JSON` e seus
+protótipos). Para investigar o que a página muda, compare com um iframe limpo:
+
+```js
+// no console da página avaliada
+const f = document.createElement('iframe'); document.body.appendChild(f);
+const clean = new Set(Object.getOwnPropertyNames(f.contentWindow.Array.prototype));
+Object.getOwnPropertyNames(Array.prototype).filter(k => !clean.has(k));
+```
+
+Causa, bissecção e desenho da mitigação em `docs/qualweb.md`, seção 13.
+
 ## Página avaliada parece incompleta (SPA que renderiza depois do load)
 
 Sintoma: `page.elementCount` baixo, título vazio, quase tudo `inapplicable` numa

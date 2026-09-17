@@ -399,3 +399,92 @@ própria interface:
 ```ts
 type ClusterOptions = Parameters<Driver['launchPool']>[0];
 ```
+
+---
+
+## 13. Poluição de protótipos: o QualWeb roda no realm da página
+
+Caso real, `https://altoboavista.mt.gov.br/` (Joomla + MooTools 1.4.5 + MooTools More):
+
+```
+[TARGET PAGE] TypeError: No color space found with id = "oklch"
+              at .../@qualweb/act-rules/dist/__webpack/act.bundle.js:1:348927
+[QUALWEB]     act-rules failed: ReferenceError: ACTRulesRunner is not defined
+```
+
+### O que acontece
+
+O core injeta os bundles dos módulos **no realm JavaScript da própria página**
+(`page.addScriptTag` + `page.evaluate`, sem isolated world). Tudo que a página
+fez com os protótipos nativos, o bundle herda.
+
+O MooTools estende `Array.prototype`, `String.prototype`, `Number.prototype`,
+`Function.prototype`, `Date.prototype`, e ainda **sobrescreve** `Array.from`,
+`Object.values`, `Date.parse`, `String.prototype.repeat`, `Date.prototype.toISOString`
+e `toJSON`. O bundle do act-rules embute o colorjs.io, que inicializa espaços de
+cor no carregamento; com `Array.prototype.min` presente, essa inicialização falha
+em "oklch", a exceção estoura no meio do bundle, e `ACTRulesRunner` nunca é
+definido.
+
+### Como chegamos à causa (bissecção, não palpite)
+
+1. MooTools Core sozinho, numa página local mínima: **não reproduz**.
+2. No site real, comparando com um `<iframe>` limpo: 28 chaves adicionadas em
+   `Array.prototype`, 26 em `String.prototype`, 27 em `Number.prototype`,
+   127 em `Element.prototype`, e um global `window.Color` (MooTools More).
+3. Restaurando um grupo por vez e injetando o bundle: só **Array** conserta.
+4. Tornar as adições não-enumeráveis **não basta** — descarta a hipótese de
+   `for...in`; é a presença do método.
+5. Bissecção dentro das 28 chaves: **`Array.prototype.min`** sozinho basta.
+   O colorjs.io lê `range.min` esperando número; recebe uma função.
+
+Scripts usados: ver histórico em `docs/debugging.md`; o teste de integração
+`avalia uma pagina que polui os prototipos nativos` reproduz o caso mínimo
+(`Array.prototype.min` + `Array.from`/`Object.values` sobrescritos) sem depender
+do site externo, e um segundo teste documenta que **sem** a restauração o
+QualWeb 0.9.5 falha exatamente com `ACTRulesRunner is not defined`. Se esse
+segundo teste um dia passar a completar, o upstream corrigiu a sensibilidade e a
+restauração pode virar opcional por padrão.
+
+### A mitigação
+
+Em `packages/evaluator/src/engine.ts`:
+
+1. **Snapshot antes de qualquer script da página.** `page.evaluateOnNewDocument`
+   registrado *dentro do `goto()` interceptado* (aguardado, antes da navegação
+   real — registrado solto no `beforePageLoad`, a chamada CDP poderia chegar
+   depois de a navegação já ter começado). Guarda
+   `Object.getOwnPropertyDescriptors` dos construtores e protótipos de `Object`,
+   `Array`, `String`, `Number`, `Boolean`, `Function`, `RegExp`, `Date`, `Math`,
+   `JSON`, numa propriedade não-enumerável do `window`.
+2. **Restauração depois do load + assentamento, antes da injeção.** Remove as
+   chaves que a página adicionou e redefine, com o descritor original, as que
+   ela sobrescreveu ou apagou. Tudo o que foi mexido vai para o log (`WARN`) e
+   para `diagnostics.prototypeRestore` no relatório.
+
+Por que snapshot no **mesmo realm**, e não restaurar a partir de um iframe
+limpo: `Array.prototype.map` de outro realm devolve arrays daquele realm, e
+`instanceof Array` passa a falhar dentro das bibliotecas do QualWeb. O
+descritor capturado no próprio documento é literalmente a função nativa
+original daquela página.
+
+Por que os protótipos DOM (`Element`, `Node`) ficam de fora: o MooTools põe mais
+de cem métodos neles, o QualWeb não depende deles, e é ali que mexer mais
+facilmente quebra o resto da página.
+
+Efeito colateral aceito e documentado: scripts da própria página que rodarem
+**depois** da restauração (timers, handlers) podem quebrar por sentirem falta
+das extensões. Isso não afeta a leitura do DOM pelo QualWeb e aparece nos logs
+como erro da `TARGET PAGE`. `RESTORE_NATIVE_PROTOTYPES=false` desliga.
+
+### Resultado
+
+| | antes | depois |
+|---|---|---|
+| status | `failed` (ACTRulesRunner is not defined) | `completed` em 13,8 s |
+| protótipos | — | 356 chaves removidas, 6 restauradas |
+| regras | 0 | 129 (20 falhas, 1519 elementos) |
+
+Relevância para este projeto: sites municipais brasileiros em Joomla antigo com
+MooTools são exatamente o público-alvo. Sem isso, boa parte deles simplesmente
+não avalia.

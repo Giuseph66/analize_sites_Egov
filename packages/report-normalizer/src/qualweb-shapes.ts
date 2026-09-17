@@ -36,6 +36,7 @@ export interface RawAssertion {
   mapping?: string;
   description?: string;
   metadata?: {
+    target?: { element?: string | string[]; attributes?: string | string[]; css?: string | string[] };
     'success-criteria'?: RawSuccessCriteria[];
     related?: string[];
     url?: string;

@@ -151,6 +151,7 @@ As opções que mais importam:
 | `PAGE_TIMEOUT` | `30000` | teto de carregamento da página |
 | `EVALUATION_TIMEOUT` | `60000` | teto da avaliação inteira; precisa cobrir `PAGE_TIMEOUT + SPA_SETTLE_MAX_MS` |
 | `SPA_SETTLE_MAX_MS` | `4000` | espera extra para SPAs renderizarem após o load (`0` desativa) |
+| `RESTORE_NATIVE_PROTOTYPES` | `true` | desfaz poluição de protótipos (MooTools etc.) antes de injetar o QualWeb |
 | `CAPTURE_SCREENSHOT` | `false` | grava `data/evaluations/<id>/screenshot.png` |
 | `SAVE_HTML` | `false` | grava `data/evaluations/<id>/page.html` |
 | `MAX_CONCURRENT_EVALUATIONS` | `2` | Chromiums simultâneos |
@@ -158,7 +159,7 @@ As opções que mais importam:
 | `ALLOW_LOCAL_NETWORK` | `true` | avaliar localhost é o propósito da ferramenta |
 | `ALLOW_FILE_PROTOCOL` | `false` | libera `file://` |
 | `BROWSER_EXECUTABLE_PATH` | — | usar outro Chromium |
-| `SCORING_STRATEGY` | `experimental-v1` | algoritmo de nota |
+| `SCORING_STRATEGY` | `accessmonitor` | `accessmonitor` (algoritmo da AMA, o do AMAWeb) ou `experimental-v1` |
 
 ```bash
 CAPTURE_SCREENSHOT=true SAVE_HTML=true npm run dev
@@ -187,10 +188,23 @@ verificação humana vem como `warning`.
 severo a que ela responde (A > AA > AAA). Regras sem critério de sucesso — parte das
 best practices — aparecem em "sem critério".
 
-**Nota:** o score é **experimental** e está marcado como tal na interface. Não é a
-fórmula do AMAWeb (não pública) nem a do AccessMonitor (pública, mas depende de
-metadados que o QualWeb não fornece). O algoritmo do AccessMonitor está documentado
-e o contrato permite trocar a estratégia — ver [`docs/scoring.md`](docs/scoring.md).
+**Nota e classificação:** por padrão, o algoritmo do **AccessMonitor** (AMA, MIT),
+executado pelo pacote oficial `@a12e/accessmonitor-rulesets` sobre o relatório do
+QualWeb. É a metodologia que o AMAWeb usa — nos sites comparados, erros e avisos
+por nível coincidiram exatamente. A interface diz "mesmo algoritmo, não a execução
+oficial". `SCORING_STRATEGY=experimental-v1` volta à fórmula própria. Ver
+[`docs/scoring.md`](docs/scoring.md).
+
+**Duas visões no relatório:**
+
+* **Avaliação (AccessMonitor)** — as "práticas" como o AMAWeb apresenta: texto em
+  português com a contagem ("Encontrei 8 atributos ids repetidos"), nível A/AA/AAA
+  para cada teste (inclusive os que no QualWeb são best practices sem critério),
+  50 categorias (Imagens, Links, Cabeçalhos, Tabelas, ARIA, Landmarks…), técnica ou
+  regra ACT relacionada com link W3C, e as regras QualWeb ligadas.
+* **Regras do QualWeb** — as 129 regras do motor, com facetas: status, nível, módulo,
+  princípio WCAG, diretriz (com nome), família da técnica, elemento-alvo, categoria
+  AccessMonitor e texto livre.
 
 Nenhum campo é inventado: o que o QualWeb não fornece fica ausente ou `null`.
 
@@ -297,6 +311,10 @@ docker/                 Dockerfile e imagem das páginas de teste
 * `summary.manual` é sempre `0` — o QualWeb não tem esse veredito.
 * `PAGE_TIMEOUT` maior que `EVALUATION_TIMEOUT` faz o `puppeteer-cluster` encerrar a
   tarefa antes da hora, e a avaliação falha. A API avisa disso na subida.
+* Páginas que poluem protótipos nativos (Joomla + MooTools é o caso típico) quebram
+  o act-rules do QualWeb; o sistema restaura os protótipos antes de injetar o motor
+  e registra o que mexeu. Scripts da própria página que rodem depois podem reclamar.
+  Ver `docs/qualweb.md` §13.
 * SPAs client-side-rendered: o sistema espera o DOM ficar quieto antes de avaliar
   (`SPA_SETTLE_MAX_MS`, padrão 4 s), mas é uma heurística — em raras execuções,
   numa mesma SPA com redirecionamento assíncrono, `page.title`/`elementCount` podem
@@ -317,7 +335,8 @@ Este projeto: MIT. Dependências relevantes:
 | Projeto | Licença | Papel |
 |---|---|---|
 | [QualWeb](https://github.com/qualweb/qualweb) | ISC | motor de avaliação |
-| [AccessMonitor](https://github.com/amagovpt/accessmonitor-docker) (AMA, Portugal) | MIT | referência arquitetural; flags do Chromium; algoritmo de score documentado |
+| [AccessMonitor](https://github.com/amagovpt/accessmonitor-docker) (AMA, Portugal) | MIT | referência arquitetural; flags do Chromium |
+| [`@a12e/accessmonitor-rulesets`](https://github.com/amagovpt/accessmonitor-rulesets) | MIT | ruleset, textos em português, nota e classificação do AccessMonitor |
 | [axe-core](https://github.com/dequelabs/axe-core) | MPL-2.0 | motor secundário opcional, apenas no `npm run compare` |
 
 O AMAWeb (UNIFESP/IFRS) é referência **funcional**. Nenhum código dele foi utilizado.

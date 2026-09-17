@@ -53,6 +53,18 @@ export interface AccessibilityResult {
   actRule?: string;
   /** URL de documentacao da regra. */
   url?: string;
+  /** Principio WCAG do criterio principal (Perceivable, Operable, Understandable, Robust). */
+  principle?: string;
+  /** Diretriz WCAG do criterio principal, ex.: "1.3" (derivada de "1.3.1"). */
+  guideline?: string;
+  /** Nome da diretriz em portugues, ex.: "Adaptavel". Tabela estatica da WCAG 2.1. */
+  guidelineName?: string;
+  /** Familia da tecnica WCAG pelo prefixo do codigo: H (HTML), C (CSS), G (geral), F (falha), ARIA, SCR... */
+  techniqueFamily?: string;
+  /** Elementos-alvo declarados pela regra no QualWeb (metadata.target.element), ex.: ["img"]. */
+  targets: string[];
+  /** Chaves dos testes AccessMonitor ligados a esta regra (por mapeamento declarado ou codigo de tecnica). */
+  accessmonitorKeys: string[];
   /** Primeiro elemento associado ao resultado, para exibicao rapida. */
   element?: ResultElement;
   /**
@@ -67,6 +79,71 @@ export interface AccessibilityResult {
   outcomeDescription?: string;
   /** Contagens internas da regra reportadas pelo QualWeb. */
   counts: { passed: number; warning: number; failed: number; inapplicable: number };
+}
+
+// ---------------------------------------------------------------------------
+// Camada AccessMonitor (@a12e/accessmonitor-rulesets, MIT)
+//
+// O AMAWeb usa a metodologia do AccessMonitor: nos sites comparados, erros e
+// avisos por nivel coincidem exatamente. Esta camada e produzida pelo pacote
+// oficial (processEvaluation) sobre o relatorio bruto do QualWeb — nada aqui e
+// inventado por nos; o que o pacote nao fornece fica null/vazio.
+// ---------------------------------------------------------------------------
+
+/** R = erro, Y = revisar manualmente, G = aceito — semantica do AccessMonitor. */
+export type AccessMonitorColor = 'R' | 'Y' | 'G';
+
+export interface AccessMonitorTechnique {
+  code: string;
+  /** Tecnica WCAG (H24, G141...) ou regra ACT (id hexadecimal de 6 caracteres). */
+  kind: 'wcag-technique' | 'act-rule';
+  name: string;
+  description: string;
+  /** Pagina oficial no W3C. */
+  url: string;
+}
+
+export interface AccessMonitorPractice {
+  /** Chave do teste no AccessMonitor, ex.: "hx_03". */
+  key: string;
+  /** Grupo derivado do prefixo da chave, ex.: "hx". */
+  group: string;
+  /** Rotulo do grupo em portugues, ex.: "Cabecalhos". */
+  groupLabel: string;
+  color: AccessMonitorColor;
+  level: WcagLevel;
+  /** Titulo em portugues, do proprio pacote. */
+  title: string;
+  /** Descricao em portugues com a contagem aplicada ("Encontrei 8 atributos ids repetidos."), sem HTML. */
+  description: string;
+  occurrences: number;
+  technique: AccessMonitorTechnique | null;
+  criteria: { criterion: string; level: WcagLevel; name: string }[];
+  /** Pontuacao base do teste no ruleset (0-10) e confianca. */
+  score: number;
+  trust: string;
+  /** Valor "score@peso" atribuido pelo processEvaluation; null quando o teste nao pontua. */
+  weighted: string | null;
+  /** Regras QualWeb ligadas a este teste e como a ligacao foi feita. */
+  qualwebRules: string[];
+  linkKind: 'mapping' | 'technique' | null;
+  /** Elementos vindos das regras QualWeb ligadas (o pacote nao extrai evidencia do formato 0.9). */
+  elements: ResultElement[];
+}
+
+export interface AccessMonitorSummary {
+  packageVersion: string;
+  /** Testes com resultado (o "Praticas identificadas" do AMAWeb). */
+  totalTests: number;
+  /** Nota 1-10 pelo algoritmo do AccessMonitor. */
+  score: number;
+  /** Erros por nivel, como o AccessMonitor reporta ("A@AA@AAA"). */
+  conform: { A: number; AA: number; AAA: number };
+  /** Tabela Aceito/Revisar/Erros x A/AA/AAA — a mesma do resumo do AMAWeb. */
+  byColor: Record<AccessMonitorColor, { A: number; AA: number; AAA: number }>;
+  /** Contadores de elementos usados pelo algoritmo (img, a, button, table...). */
+  elementCounters: Record<string, number>;
+  practices: AccessMonitorPractice[];
 }
 
 export interface ReportSummary {
@@ -119,6 +196,12 @@ export interface PageInfo {
    * o lermos, entao o valor e maior que o peso real transferido pela pagina.
    */
   htmlSizeBytes: number | null;
+  /**
+   * Bytes do corpo da resposta HTTP do documento principal (descomprimido), lidos
+   * da rede. E o "tamanho da pagina" comparavel ao de outras ferramentas; null se a
+   * resposta nao pode ser lida (redirect, erro, corpo descartado).
+   */
+  documentSizeBytes: number | null;
 }
 
 export interface NetworkFailure {
@@ -153,6 +236,18 @@ export interface EvaluationTimings {
   page: Record<string, number> | null;
 }
 
+/**
+ * O que a restauracao de prototipos nativos precisou desfazer antes de o QualWeb
+ * injetar seus bundles na pagina. Vazio = a pagina nao poluiu nada.
+ * Ver docs/qualweb.md, secao "Poluicao de prototipos".
+ */
+export interface PrototypeRestoreReport {
+  /** Por prototipo (ex.: "Array"): chaves adicionadas pela pagina que foram removidas. */
+  removed: Record<string, string[]>;
+  /** Por prototipo: metodos nativos sobrescritos pela pagina que foram restaurados. */
+  restored: Record<string, string[]>;
+}
+
 export interface EvaluationDiagnostics {
   browserExecutable: string | null;
   browserVersion: string | null;
@@ -165,6 +260,10 @@ export interface EvaluationDiagnostics {
   networkFailures: NetworkFailure[];
   screenshotPath: string | null;
   htmlPath: string | null;
+  /** null quando o recurso esta desligado (RESTORE_NATIVE_PROTOTYPES=false). */
+  prototypeRestore: PrototypeRestoreReport | null;
+  /** Bytes do corpo da resposta do documento principal, lidos da rede. */
+  documentSizeBytes: number | null;
 }
 
 export interface EvaluationReport {
@@ -190,6 +289,9 @@ export interface EvaluationReport {
   timings: EvaluationTimings;
   diagnostics: EvaluationDiagnostics;
   results: AccessibilityResult[];
+  /** null quando o processamento do AccessMonitor falhou; o motivo vai em accessmonitorError. */
+  accessmonitor: AccessMonitorSummary | null;
+  accessmonitorError?: string;
 }
 
 // ---------------------------------------------------------------------------

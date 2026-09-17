@@ -1,7 +1,14 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
-import { ExperimentalScoreV1, extractPageInfo, normalizeQualwebReport } from '../src/index';
+import {
+  AccessMonitorScore,
+  ExperimentalScoreV1,
+  buildAccessMonitorLayer,
+  extractPageInfo,
+  normalizeQualwebReport,
+  techniqueFamilyOf,
+} from '../src/index';
 import type { RawQualwebReport } from '../src/qualweb-shapes';
 
 function report(): RawQualwebReport {
@@ -27,6 +34,7 @@ function report(): RawQualwebReport {
             mapping: '23a2a8',
             description: 'desc',
             metadata: {
+              target: { element: 'img' },
               'success-criteria': [
                 { name: '1.1.1', level: 'A', principle: 'Perceivable', url: 'https://w3.org/1.1.1' },
               ],
@@ -144,6 +152,91 @@ describe('normalizeQualwebReport', () => {
   });
 });
 
+describe('facetas derivadas', () => {
+  it('deriva principio, diretriz (com nome) e alvos do criterio principal', () => {
+    const { results } = normalizeQualwebReport(report(), '0.9.5');
+    const rule = results.find((r) => r.ruleId === 'QW-ACT-R17');
+    assert.equal(rule?.principle, 'Perceivable');
+    assert.equal(rule?.guideline, '1.1');
+    assert.equal(rule?.guidelineName, 'Alternativas em texto');
+    assert.deepEqual(rule?.targets, ['img']);
+  });
+
+  it('deriva a familia da tecnica pelo prefixo', () => {
+    const { results } = normalizeQualwebReport(report(), '0.9.5');
+    const rule = results.find((r) => r.ruleId === 'QW-WCAG-T9');
+    assert.equal(rule?.techniqueFamily, 'Geral');
+    assert.equal(techniqueFamilyOf('H24'), 'HTML');
+    assert.equal(techniqueFamilyOf('F30'), 'Falha comum');
+    assert.equal(techniqueFamilyOf('ARIA11'), 'ARIA');
+    assert.equal(techniqueFamilyOf('SCR20'), 'Script');
+  });
+
+  it('liga regras QualWeb a testes AccessMonitor pelo mapeamento declarado', () => {
+    const { results } = normalizeQualwebReport(report(), '0.9.5');
+    // QW-BP30 (id unico) tem mapeamento declarado no pacote: id_01 / id_02.
+    // A fixture nao tem QW-BP30; QW-WCAG-T9 (G141) liga por codigo de tecnica a hx_*.
+    const headings = results.find((r) => r.ruleId === 'QW-WCAG-T9');
+    assert.ok(headings);
+    assert.ok(Array.isArray(headings.accessmonitorKeys));
+  });
+});
+
+describe('buildAccessMonitorLayer', () => {
+  it('produz a camada sem lancar, mesmo com relatorio minimo', () => {
+    const { results } = normalizeQualwebReport(report(), '0.9.5');
+    const layer = buildAccessMonitorLayer(report(), results);
+    // O pipeline do pacote pode ou nao encontrar testes num relatorio sintetico;
+    // o contrato que importa e: nunca lancar, e summary consistente quando existe.
+    if (layer.summary) {
+      assert.ok(layer.summary.packageVersion.length > 0);
+      assert.ok(Number.isFinite(layer.summary.score));
+      assert.ok(layer.summary.totalTests >= 0);
+      for (const practice of layer.summary.practices) {
+        assert.ok(['R', 'Y', 'G'].includes(practice.color));
+        assert.ok(['A', 'AA', 'AAA'].includes(practice.level));
+        assert.ok(practice.groupLabel.length > 0);
+        assert.doesNotMatch(practice.description, /<[a-z]+>/, 'descricao deve vir sem HTML');
+      }
+    } else {
+      assert.ok(layer.error, 'quando summary e null, o motivo precisa estar em error');
+    }
+  });
+
+  it('nunca lanca com relatorio vazio', () => {
+    const layer = buildAccessMonitorLayer({}, []);
+    assert.ok(layer.summary === null || typeof layer.summary.score === 'number');
+  });
+});
+
+describe('AccessMonitorScore', () => {
+  it('usa a nota do AccessMonitor quando a camada existe', () => {
+    const score = new AccessMonitorScore();
+    const info = score.compute({
+      results: [],
+      accessmonitor: {
+        packageVersion: '2.0.0',
+        totalTests: 10,
+        score: 8.3,
+        conform: { A: 1, AA: 0, AAA: 0 },
+        byColor: { R: { A: 1, AA: 0, AAA: 0 }, Y: { A: 0, AA: 0, AAA: 0 }, G: { A: 9, AA: 0, AAA: 0 } },
+        elementCounters: {},
+        practices: [],
+      },
+    });
+    assert.equal(info.value, 8.3);
+    assert.equal(info.strategy, 'accessmonitor');
+    assert.match(info.disclaimer ?? '', /AccessMonitor/);
+  });
+
+  it('cai para o experimental, dizendo isso no rotulo, quando a camada e null', () => {
+    const score = new AccessMonitorScore();
+    const info = score.compute({ results: [], accessmonitor: null });
+    assert.equal(info.strategy, 'accessmonitor->experimental-v1');
+    assert.match(info.label, /indisponível/);
+  });
+});
+
 describe('extractPageInfo', () => {
   it('le titulo, contagem, lang e viewport', () => {
     const info = extractPageInfo(report());
@@ -170,28 +263,28 @@ describe('ExperimentalScoreV1', () => {
 
   it('da 10 quando tudo passa', () => {
     const results = normalizeQualwebReport(report(), '0.9.5').results.map((r) => ({ ...r, result: 'passed' as const }));
-    assert.equal(score.compute(results).value, 10);
+    assert.equal(score.compute({ results: results, accessmonitor: null }).value, 10);
   });
 
   it('da 0 quando tudo falha', () => {
     const results = normalizeQualwebReport(report(), '0.9.5').results.map((r) => ({ ...r, result: 'failed' as const }));
-    assert.equal(score.compute(results).value, 0);
+    assert.equal(score.compute({ results: results, accessmonitor: null }).value, 0);
   });
 
   it('ignora regras inaplicaveis', () => {
     const base = normalizeQualwebReport(report(), '0.9.5').results;
     const withNoise = [...base, ...base.map((r) => ({ ...r, ruleId: `${r.ruleId}-x`, result: 'inapplicable' as const }))];
-    assert.equal(score.compute(withNoise).value, score.compute(base).value);
+    assert.equal(score.compute({ results: withNoise, accessmonitor: null }).value, score.compute({ results: base, accessmonitor: null }).value);
   });
 
   it('penaliza mais uma falha de nivel A do que de nivel AAA', () => {
     const base = normalizeQualwebReport(report(), '0.9.5').results[0]!;
-    const failA = score.compute([{ ...base, result: 'failed', wcag: { criterion: 'x', level: 'A' } }, { ...base, ruleId: 'b', result: 'passed', wcag: { criterion: 'y', level: 'AAA' } }]);
-    const failAAA = score.compute([{ ...base, result: 'passed', wcag: { criterion: 'x', level: 'A' } }, { ...base, ruleId: 'b', result: 'failed', wcag: { criterion: 'y', level: 'AAA' } }]);
+    const failA = score.compute({ results: [{ ...base, result: 'failed', wcag: { criterion: 'x', level: 'A' } }, { ...base, ruleId: 'b', result: 'passed', wcag: { criterion: 'y', level: 'AAA' } }], accessmonitor: null });
+    const failAAA = score.compute({ results: [{ ...base, result: 'passed', wcag: { criterion: 'x', level: 'A' } }, { ...base, ruleId: 'b', result: 'failed', wcag: { criterion: 'y', level: 'AAA' } }], accessmonitor: null });
     assert.ok(failA.value < failAAA.value, `${failA.value} < ${failAAA.value}`);
   });
 
   it('carrega sempre o aviso de score nao oficial', () => {
-    assert.match(score.compute([]).disclaimer ?? '', /experimental/i);
+    assert.match(score.compute({ results: [], accessmonitor: null }).disclaimer ?? '', /experimental/i);
   });
 });

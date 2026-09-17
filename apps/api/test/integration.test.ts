@@ -23,6 +23,20 @@ const GOOD_PAGE = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"
 const BAD_PAGE = `<!doctype html><html><head><meta charset="utf-8"><title>Ruim</title></head>
 <body><img src="/a.png"><input type="text"><a href="/x"></a></body></html>`;
 
+// Reproduz, no minimo, a poluicao de prototipos que quebra o act-rules em sites
+// Joomla com MooTools: bisseccao contra um site real mostrou que `Array.prototype.min`
+// sozinho basta para o colorjs.io (dentro do bundle) falhar em "oklch" e o bundle
+// morrer antes de definir ACTRulesRunner. `Array.from` e `Object.values` sao
+// sobrescritos como o MooTools faz, para cobrir a restauracao de estaticos.
+const POLLUTED_PROTOTYPES_PAGE = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>MooTools-like</title>
+<script>
+  Array.prototype.min = function () { return Math.min.apply(null, this); };
+  Array.prototype.each = function (fn) { for (var i = 0; i < this.length; i++) fn(this[i], i); };
+  Array.from = function (item) { return item == null ? [] : Array.isArray(item) ? item : [item]; };
+  Object.values = function (o) { var r = []; for (var k in o) r.push(o[k]); return r; };
+</script></head>
+<body><main><h1>Pagina com protótipos poluídos</h1><p>Conteudo.</p><img src="/a.png" alt="Imagem"></main></body></html>`;
+
 const HEAVY_JS_PAGE = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>JS pesado</title></head>
 <body><div id="app"></div><script>
   const app = document.getElementById('app');
@@ -34,6 +48,7 @@ let server: Server;
 let baseUrl: string;
 let service: EvaluationService;
 let impatientService: EvaluationService;
+let noRestoreService: EvaluationService;
 let workDir: string;
 
 function respond(res: ServerResponse, status: number, body: string, type = 'text/html; charset=utf-8'): void {
@@ -55,6 +70,8 @@ before(async () => {
         return respond(res, 200, '');
       case '/heavy':
         return respond(res, 200, HEAVY_JS_PAGE);
+      case '/polluted':
+        return respond(res, 200, POLLUTED_PROTOTYPES_PAGE);
       case '/redirect':
         res.writeHead(302, { location: '/good' });
         return res.end();
@@ -106,6 +123,19 @@ before(async () => {
     impatientEmitter,
   );
   impatientService.memorySink = impatientMemory;
+
+  // Servico com a restauracao de prototipos DESLIGADA, para documentar o que o
+  // QualWeb faz sozinho diante de uma pagina que polui Array.prototype.
+  const rawConfig = { ...config, restoreNativePrototypes: false };
+  const rawMemory = new MemorySink();
+  const rawEmitter = new EmitterSink();
+  noRestoreService = new EvaluationService(
+    rawConfig,
+    new FilesystemEvaluationRepository(rawConfig.dataDir),
+    new Logger([rawMemory, rawEmitter], {}, 'debug'),
+    rawEmitter,
+  );
+  noRestoreService.memorySink = rawMemory;
 });
 
 after(async () => {
@@ -150,7 +180,7 @@ describe('avaliacao ponta a ponta com QualWeb real', () => {
     assert.ok(report.rulesByModule['act-rules']! > 0);
     assert.ok(report.rulesByModule['wcag-techniques']! > 0);
     assert.ok(report.rulesByModule['best-practices']! > 0);
-    assert.equal(report.score.strategy, 'experimental-v1');
+    assert.equal(report.score.strategy, 'accessmonitor');
     assert.ok((report.timings.qualwebMs ?? 0) > 0);
     assert.ok(report.versions.chromium?.length);
     assert.equal(report.versions.qualwebCore, '0.9.5');
@@ -255,6 +285,90 @@ describe('avaliacao ponta a ponta com QualWeb real', () => {
     assert.match(message, /timeout|exceeded/i, 'a causa real precisa aparecer na mensagem');
     assert.match(message, /PAGE_TIMEOUT/, 'a mensagem precisa dizer qual ajuste resolve');
     assert.doesNotMatch(message, /Chaves recebidas/, 'a mensagem generica nao deve mais ser usada quando ha causa conhecida');
+  });
+
+  it('avalia uma pagina que polui os prototipos nativos (caso MooTools)', async () => {
+    const metadata = await evaluate(`${baseUrl}/polluted`);
+    assert.equal(metadata.status, 'completed', metadata.error?.message);
+
+    const report = await service.getReport(metadata.id);
+    assert.ok(report);
+    assert.ok(report.rulesByModule['act-rules']! > 0, 'o act-rules precisa ter rodado');
+
+    const restore = report.diagnostics.prototypeRestore;
+    assert.ok(restore, 'o diagnostico da restauracao precisa estar presente');
+    assert.ok(restore.removed['Array.prototype']?.includes('min'), 'Array.prototype.min deveria ter sido removido');
+    assert.ok(restore.removed['Array.prototype']?.includes('each'));
+    assert.ok(restore.restored['Array']?.includes('from'), 'Array.from sobrescrito deveria ter sido restaurado');
+    assert.ok(restore.restored['Object']?.includes('values'), 'Object.values sobrescrito deveria ter sido restaurado');
+  });
+
+  it('sem a restauracao, o QualWeb 0.9.5 falha nessa mesma pagina (documenta o motivo do recurso)', async () => {
+    // Se este teste comecar a falhar porque a avaliacao passou a COMPLETAR, o
+    // upstream corrigiu a sensibilidade a Array.prototype.min e a restauracao
+    // pode virar opcional por padrao.
+    const metadata = await evaluate(`${baseUrl}/polluted`, 90_000, () => noRestoreService);
+    assert.equal(metadata.status, 'failed');
+    assert.match(metadata.error?.message ?? '', /ACTRulesRunner is not defined/);
+  });
+
+  it('nao mexe em nada numa pagina limpa', async () => {
+    const metadata = await evaluate(`${baseUrl}/good`);
+    const report = await service.getReport(metadata.id);
+    const restore = report?.diagnostics.prototypeRestore;
+    assert.ok(restore);
+    assert.deepEqual(restore.removed, {});
+    assert.deepEqual(restore.restored, {});
+  });
+
+  it('produz a camada AccessMonitor coerente com as regras do QualWeb', async () => {
+    const metadata = await evaluate(`${baseUrl}/bad`);
+    const report = await service.getReport(metadata.id);
+    assert.ok(report);
+
+    const am = report.accessmonitor;
+    assert.ok(am, `camada AccessMonitor ausente: ${report.accessmonitorError ?? 'sem motivo'}`);
+    assert.ok(am.totalTests > 0);
+    assert.ok(Number.isFinite(am.score));
+
+    // A tabela 3x3 precisa fechar com o total de testes.
+    const sum = (['R', 'Y', 'G'] as const).reduce((n, c) => n + am.byColor[c].A + am.byColor[c].AA + am.byColor[c].AAA, 0);
+    assert.equal(sum, am.totalTests);
+    assert.equal(am.practices.length, am.totalTests);
+
+    // conform = erros por nivel, igual a linha R da tabela.
+    assert.deepEqual(am.conform, am.byColor.R);
+
+    // A pagina "bad" tem imagem sem alt: o teste do AccessMonitor para isso e img_01b,
+    // ligado por mapeamento a QW-ACT-R17, com elementos vindos da regra.
+    const missingAlt = am.practices.find((p) => p.key === 'img_01b');
+    assert.ok(missingAlt, 'img_01b deveria ter disparado');
+    assert.equal(missingAlt.color, 'R');
+    assert.equal(missingAlt.level, 'A');
+    assert.match(missingAlt.description, /imagem|imagens/i);
+    assert.doesNotMatch(missingAlt.description, /<[a-z]+>/, 'descricao sem HTML');
+    // img_01b cita F65 e o QualWeb detecta via ACT 23a2a8 (handler interno do
+    // pacote): nao ha juncao honesta, e a pratica fica sem regra ligada. Outras
+    // praticas se ligam por mapeamento declarado ou por codigo W3C em comum.
+    assert.equal(missingAlt.technique?.code, 'F65');
+    const linked = am.practices.filter((p) => p.qualwebRules.length > 0);
+    assert.ok(linked.length > 0, 'alguma pratica precisa estar ligada a regras QualWeb');
+    assert.ok(linked.some((p) => p.linkKind === 'mapping'));
+    assert.ok(linked.some((p) => p.elements.length > 0), 'elementos vem das regras QualWeb ligadas');
+
+    // Nota padrao agora e a do AccessMonitor.
+    assert.equal(report.score.strategy, 'accessmonitor');
+    assert.equal(report.score.value, am.score);
+
+    // Facetas derivadas presentes nas regras do QualWeb.
+    const withGuideline = report.results.find((r) => r.guideline);
+    assert.ok(withGuideline?.guidelineName);
+    assert.ok(report.results.some((r) => r.targets.length > 0));
+    assert.ok(report.results.some((r) => r.accessmonitorKeys.length > 0));
+
+    // Tamanho real do documento, lido da rede.
+    assert.ok((report.page.documentSizeBytes ?? 0) > 0);
+    assert.ok((report.page.documentSizeBytes ?? 0) < (report.page.htmlSizeBytes ?? 0), 'HTML capturado e maior que a resposta (scripts injetados)');
   });
 
   it('grava logs por avaliacao com todas as origens', async () => {

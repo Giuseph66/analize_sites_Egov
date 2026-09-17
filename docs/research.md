@@ -51,6 +51,10 @@ mais útil que existe, porque ele *é* um wrapper de QualWeb.
   cálculo de conformidade A/AA/AAA. Ver [`scoring.md`](./scoring.md).
 * **`accessmonitor-docker/src/util/mapping.ts`** (2133 linhas) — mapeia asserções do QualWeb
   para os contadores de elementos (`data.elems`) que o score consome.
+* **Atualização (2026-09-17):** o pacote `@a12e/accessmonitor-rulesets@2.0.0` passou a
+  embutir esse mapeamento e o score inteiro em `processEvaluation(qualwebReport)`. É o que
+  usamos hoje — ver [`scoring.md`](./scoring.md). A comparação contra o AMAWeb num site real
+  deu erros e avisos por nível idênticos, o que confirma que o AMAWeb usa esta metodologia.
 * Padrão de módulos NestJS: `amp` (avaliação), `core/health` (healthcheck via `@nestjs/terminus`),
   `core/guard` (throttling), `common/restricted-network.exception.ts` + `invalid-url.exception.ts`
   (defesa SSRF). Confirma que nosso conjunto de requisitos §21/§26 é o mesmo de um serviço real.

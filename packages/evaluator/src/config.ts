@@ -37,6 +37,14 @@ export interface EvaluatorConfig {
   /** Teto para a espera de assentamento. 0 desativa o recurso inteiramente. */
   spaSettleMaxMs: number;
 
+  /**
+   * Restaura os prototipos nativos (Array, String, ...) ao estado original antes
+   * de o QualWeb injetar seus bundles na pagina. Necessario para paginas que os
+   * poluem (MooTools, Prototype.js): o act-rules quebra com um simples
+   * Array.prototype.min. Ver docs/qualweb.md.
+   */
+  restoreNativePrototypes: boolean;
+
   evaluationTimeout: number;
   maxConcurrentEvaluations: number;
   maxQueueSize: number;
@@ -76,6 +84,8 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, repoRoot = proc
     spaSettleQuietMs: int(env['SPA_SETTLE_QUIET_MS'], 500),
     spaSettleMaxMs: intAllowZero(env['SPA_SETTLE_MAX_MS'], 4_000),
 
+    restoreNativePrototypes: bool(env['RESTORE_NATIVE_PROTOTYPES'], true),
+
     evaluationTimeout: int(env['EVALUATION_TIMEOUT'], 60_000),
     maxConcurrentEvaluations: int(env['MAX_CONCURRENT_EVALUATIONS'], 2),
     maxQueueSize: int(env['MAX_QUEUE_SIZE'], 20),
@@ -92,6 +102,8 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env, repoRoot = proc
     localhostAlias: env['LOCALHOST_ALIAS'] || (runningInContainer ? 'host.docker.internal' : null),
     runningInContainer,
 
-    scoringStrategy: env['SCORING_STRATEGY'] ?? 'experimental-v1',
+    // 'accessmonitor' = algoritmo do AccessMonitor (o que o AMAWeb usa), via pacote
+    // oficial MIT. 'experimental-v1' = formula propria, documentada. Ver docs/scoring.md.
+    scoringStrategy: env['SCORING_STRATEGY'] ?? 'accessmonitor',
   };
 }
