@@ -1,0 +1,18 @@
+{
+  "contexto": "mt",
+  "inicio": "2026-09-21T17:04:38-04:00",
+  "api": "http://127.0.0.1:3000/amp/eval/",
+  "entrada_registros": 314,
+  "urls_unicas": 314,
+  "workers": 3,
+  "timeout_segundos": 120,
+  "diretorio": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38",
+  "estado": "pausado_por_solicitacao",
+  "pausado_em": "2026-09-21T17:41:22-04:00",
+  "registros_com_resultado_csv": 223,
+  "avaliacoes_com_nota": 136,
+  "avaliacoes_com_erro": 87,
+  "json_salvos": 137,
+  "pdf_salvos": 136,
+  "ouvidorias_iniciado": false
+}

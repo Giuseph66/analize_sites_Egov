@@ -1,0 +1,640 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\"><head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Site em manutenção — TJMT</title>\n\n</head>\n\n<body>\n<div class=\"page\">\n\n  <header>\n    <div class=\"brand\">\n      <!-- Brasão institucional estilizado em SVG -->\n\n      <div class=\"brand-title\">\n        <div class=\"poder\">PODER JUDICIÁRIO</div>\n        <div class=\"estado\">DO ESTADO DE MATO GROSSO</div>\n        <div class=\"tribunal\">TRIBUNAL DE JUSTIÇA</div>\n      </div>\n    </div>\n  </header>\n\n  <main>\n    <section class=\"content\">\n      <div class=\"headline\">\n        <!-- Ícone de manutenção em SVG -->\n        <svg class=\"wrench-icon\" viewBox=\"0 0 140 140\" aria-hidden=\"true\">\n          <g fill=\"none\" stroke=\"#142f50\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n            <path d=\"M42 24 L50 14 L70 14 L78 24 L91 28 L105 20 L120 35 L112 49 L116 62 L128 70 L128 90 L116 98 L112 111 L120 125 L105 140 L91 132 L78 136 L70 148 L50 148 L42 136 L29 132 L15 140 L0 125 L8 111 L4 98 L-8 90 L-8 70 L4 62 L8 49 L0 35 L15 20 L29 28 Z\"></path>\n            <path d=\"M37 101 L91 47\"></path>\n            <path d=\"M92 47 L101 38 L112 37 L103 48 L94 55\"></path>\n            <path d=\"M37 101 L29 109 L28 119 L38 115 L45 108\"></path>\n          </g>\n        </svg>\n\n        <div>\n          <h1>Site em manutenção</h1>\n          <div class=\"subtitle\">Estamos trabalhando para melhor atendê-lo.</div>\n        </div>\n      </div>\n\n      <p class=\"message\">\n        <strong>NOTA À IMPRENSA</strong><br><br>\n\t\tO Tribunal de Justiça do Estado de Mato Grosso (TJMT) informa que identificou um incidente de segurança envolvendo parte de sua infraestrutura tecnológica.<br><br>\n\t\tComo medida preventiva e de contenção, foram temporariamente indisponibilizados sistemas institucionais, incluindo o Processo Judicial Eletrônico (PJe), além da adoção imediata de medidas de proteção, entre elas a redefinição de credenciais de acesso, a restrição de acessos sensíveis e outras ações técnicas voltadas à proteção dos ambientes tecnológicos.<br><br>\n\t\tAs análises e apurações seguem em andamento, com atuação de equipes especializadas do Tribunal e apoio de parceiros técnicos. Até o momento, não foram identificados indícios de uso indevido de dados decorrentes do incidente investigado, nem indícios de comprometimento dos mecanismos de backup do Tribunal.<br><br>\n\t\tA retomada dos serviços ocorrerá de forma gradual e segura, observando critérios técnicos de validação e proteção dos ambientes.<br><br>\n\t\tO TJMT manterá a sociedade informada por seus canais oficiais sobre atualizações relevantes relacionadas ao incidente.\n      </p>\n\n      <div class=\"thanks\">Agradecemos a compreensão.</div>\n      <div class=\"gold-line\"></div>\n    </section>\n\n    <section class=\"illustration\" aria-hidden=\"true\">\n      <!-- Ilustração de computador/servidores em SVG -->\n      <svg class=\"server-illustration\" viewBox=\"0 0 620 500\">\n        <!-- fundo arquitetônico estilizado -->\n        <g opacity=\".11\" fill=\"#8d9baa\">\n          <path d=\"M380 75 L500 10 L605 75 V410 H380 Z\"></path>\n          <path d=\"M415 100 H570 V395 H415 Z\" fill=\"none\" stroke=\"#8d9baa\" stroke-width=\"9\"></path>\n          <path d=\"M440 130 V390 M475 130 V390 M510 130 V390 M545 130 V390\"></path>\n          <path d=\"M405 100 H580\"></path>\n          <text x=\"492\" y=\"80\" text-anchor=\"middle\" font-size=\"30\" font-family=\"Arial\" font-weight=\"bold\">TJMT</text>\n        </g>\n\n        <!-- laptop -->\n        <g transform=\"translate(65 120)\">\n          <rect x=\"0\" y=\"0\" width=\"405\" height=\"270\" rx=\"25\" fill=\"#142f50\"></rect>\n          <rect x=\"25\" y=\"25\" width=\"355\" height=\"220\" rx=\"8\" fill=\"#f5f8fb\"></rect>\n          <rect x=\"25\" y=\"25\" width=\"355\" height=\"43\" rx=\"8\" fill=\"#173b62\"></rect>\n          <circle cx=\"52\" cy=\"47\" r=\"6\" fill=\"#fff\"></circle>\n          <circle cx=\"73\" cy=\"47\" r=\"6\" fill=\"#fff\"></circle>\n          <circle cx=\"94\" cy=\"47\" r=\"6\" fill=\"#fff\"></circle>\n          <rect x=\"50\" y=\"91\" width=\"305\" height=\"11\" rx=\"5\" fill=\"#c4ced9\"></rect>\n          <rect x=\"50\" y=\"120\" width=\"190\" height=\"11\" rx=\"5\" fill=\"#c4ced9\"></rect>\n          <rect x=\"50\" y=\"168\" width=\"255\" height=\"11\" rx=\"5\" fill=\"#d4dce5\"></rect>\n\n          <!-- ferramentas -->\n          <g transform=\"translate(180 157)\" fill=\"none\" stroke=\"#142f50\" stroke-width=\"13\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n            <path d=\"M-45 30 L42 -56\"></path>\n            <path d=\"M43 -57 L55 -69 L72 -70 L61 -59 L49 -47\"></path>\n            <path d=\"M-45 30 L-56 41 L-55 55 L-41 51 L-31 41\"></path>\n            <path d=\"M-22 -15 L27 34\"></path>\n            <path d=\"M19 26 L31 38\"></path>\n          </g>\n          <path d=\"M-38 270 H443 L425 295 H-20 Z\" fill=\"#173b62\"></path>\n        </g>\n\n        <!-- rack de servidores -->\n        <g transform=\"translate(365 270)\">\n          <rect x=\"0\" y=\"0\" width=\"210\" height=\"72\" rx=\"14\" fill=\"#173b62\"></rect>\n          <rect x=\"0\" y=\"82\" width=\"210\" height=\"72\" rx=\"14\" fill=\"#173b62\"></rect>\n          <rect x=\"0\" y=\"164\" width=\"210\" height=\"72\" rx=\"14\" fill=\"#173b62\"></rect>\n          <g fill=\"#f5f8fb\">\n            <circle cx=\"166\" cy=\"36\" r=\"5\"></circle><circle cx=\"184\" cy=\"36\" r=\"5\"></circle>\n            <circle cx=\"166\" cy=\"118\" r=\"5\"></circle><circle cx=\"184\" cy=\"118\" r=\"5\"></circle>\n            <circle cx=\"166\" cy=\"200\" r=\"5\"></circle><circle cx=\"184\" cy=\"200\" r=\"5\"></circle>\n          </g>\n          <g fill=\"#cbd5df\">\n            <rect x=\"25\" y=\"25\" width=\"112\" height=\"8\" rx=\"4\"></rect>\n            <rect x=\"25\" y=\"107\" width=\"112\" height=\"8\" rx=\"4\"></rect>\n            <rect x=\"25\" y=\"189\" width=\"112\" height=\"8\" rx=\"4\"></rect>\n          </g>\n        </g>\n      </svg>\n    </section>\n  </main>\n\n  <footer>\n    <div class=\"footer-inner\">\n      <div class=\"footer-brand\">\n        <div class=\"tjmt\">TJMT</div>\n      </div>\n\n      <div class=\"values\">\n        <div class=\"value\">\n          <svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n            <path d=\"M20 4 L32 8 V17 Q32 28 20 35 Q8 28 8 17 V8 Z\"></path>\n          </svg>\n          <span>Cidadania</span>\n        </div>\n        <div class=\"value\">\n          <svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n            <path d=\"M20 7 V31 M9 12 H31 M5 12 L10 24 H0 Z M35 12 L40 24 H30 Z\"></path>\n            <path d=\"M5 27 H15 M25 27 H35\"></path>\n          </svg>\n          <span>Justiça</span>\n        </div>\n        <div class=\"value\">\n          <svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n            <circle cx=\"20\" cy=\"12\" r=\"6\"></circle>\n            <circle cx=\"8\" cy=\"17\" r=\"5\"></circle>\n            <circle cx=\"32\" cy=\"17\" r=\"5\"></circle>\n            <path d=\"M8 37 Q8 26 20 26 Q32 26 32 37 M0 36 Q0 28 8 28 M40 36 Q40 28 32 28\"></path>\n          </svg>\n          <span>Transparência</span>\n        </div>\n        <div class=\"value\">\n          <svg viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n            <path d=\"M8 30 Q15 11 32 7 Q29 25 12 34\"></path>\n            <path d=\"M7 35 L27 15\"></path>\n          </svg>\n          <span>Eficiência</span>\n        </div>\n      </div>\n    </div>\n  </footer>\n</div>\n\n</body></html>",
+    "data": {
+      "title": "Site em manutenção — TJMT",
+      "rawUrl": "https://www.tjmt.jus.br/",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 0,
+        "a": 1,
+        "elementDec": 2,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaAtribDefined": 2,
+        "img": 0,
+        "hxHasAName": 1,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 13,
+        "colorContrastOk": 13,
+        "textContrastH": 5,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "brSec": 1,
+        "hx": 1,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "noDuplicateMain": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "aSkipNo": 1,
+        "bannerTopLevel": 1,
+        "li": 0,
+        "contentinfoTopLevel": 1,
+        "mainTopLevel": 1,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Site em manutenção — TJMT</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg class=\"wrench-icon\" viewBox=\"0 0 140 140\" aria-hidden=\"true\">\n          \n            \n            \n            \n            \n          \n        </svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<section class=\"illustration\" aria-hidden=\"true\">\n      \n      \n        \n        \n          \n          \n          \n          \n          TJMT\n        \n\n        \n        \n          \n          \n          \n          \n          \n          \n          \n          \n          \n\n          \n          \n            \n            \n            \n            \n            \n          \n          \n        \n\n        \n        \n          \n          \n          \n          \n            \n            \n            \n          \n          \n            \n            \n            \n          \n        \n      \n    </section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg class=\"wrench-icon\" viewBox=\"0 0 140 140\" aria-hidden=\"true\">\n          \n            \n            \n            \n            \n          \n        </svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<section class=\"illustration\" aria-hidden=\"true\">\n      \n      \n        \n        \n          \n          \n          \n          \n          TJMT\n        \n\n        \n        \n          \n          \n          \n          \n          \n          \n          \n          \n          \n\n          \n          \n            \n            \n            \n            \n            \n          \n          \n        \n\n        \n        \n          \n          \n          \n          \n            \n            \n            \n          \n          \n            \n            \n            \n          \n        \n      \n    </section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Site em manutenção</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h1:nth-child(1)",
+                "accessibleName": "Site em manutenção"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrastOk": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"poder\">PODER JUDICIÁRIO</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"estado\">DO ESTADO DE MATO GROSSO</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"tribunal\">TRIBUNAL DE JUSTIÇA</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Site em manutenção</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"subtitle\">Estamos trabalhando para melhor atendê-lo.</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"message\">\n        NOTA À IMPRENSA\n\t\tO Tribunal de Justiça do Estado de Mato Grosso (TJMT) informa que identificou um incidente de segurança envolvendo parte de sua infraestrutura tecnológica.\n\t\tComo medida preventiva e de contenção, foram temporariamente indisponibilizados sistemas institucionais, incluindo o Processo Judicial Eletrônico (PJe), além da adoção imediata de medidas de proteção, entre elas a redefinição de credenciais de acesso, a restrição de acessos sensíveis e outras ações técnicas voltadas à proteção dos ambientes tecnológicos.\n\t\tAs análises e apurações seguem em andamento, com atuação de equipes especializadas do Tribunal e apoio de parceiros técnicos. Até o momento, não foram identificados indícios de uso indevido de dados decorrentes do incidente investigado, nem indícios de comprometimento dos mecanismos de backup do Tribunal.\n\t\tA retomada dos serviços ocorrerá de forma gradual e segura, observando critérios técnicos de validação e proteção dos ambientes.\n\t\tO TJMT manterá a sociedade informada por seus canais oficiais sobre atualizações relevantes relacionadas ao incidente.\n      </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<strong>NOTA À IMPRENSA</strong>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > p:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"thanks\">Agradecemos a compreensão.</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"tjmt\">TJMT</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Cidadania</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Justiça</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Transparência</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Eficiência</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastH": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"tjmt\">TJMT</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Cidadania</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Justiça</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Transparência</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Eficiência</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "brSec": [
+          {
+            "verdict": "failed",
+            "description": "`br` elements are being be used as a list.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"message\">\n        NOTA À IMPRENSA\n\t\tO Tribunal de Justiça do Estado de Mato Grosso (TJMT) informa que identificou um incidente de segurança envolvendo parte de sua infraestrutura tecnológica.\n\t\tComo medida preventiva e de contenção, foram temporariamente indisponibilizados sistemas institucionais, incluindo o Processo Judicial Eletrônico (PJe), além da adoção imediata de medidas de proteção, entre elas a redefinição de credenciais de acesso, a restrição de acessos sensíveis e outras ações técnicas voltadas à proteção dos ambientes tecnológicos.\n\t\tAs análises e apurações seguem em andamento, com atuação de equipes especializadas do Tribunal e apoio de parceiros técnicos. Até o momento, não foram identificados indícios de uso indevido de dados decorrentes do incidente investigado, nem indícios de comprometimento dos mecanismos de backup do Tribunal.\n\t\tA retomada dos serviços ocorrerá de forma gradual e segura, observando critérios técnicos de validação e proteção dos ambientes.\n\t\tO TJMT manterá a sociedade informada por seus canais oficiais sobre atualizações relevantes relacionadas ao incidente.\n      </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Site em manutenção</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header>\n    \n      \n\n      \n        PODER JUDICIÁRIO\n        DO ESTADO DE MATO GROSSO\n        TRIBUNAL DE JUSTIÇA\n      \n    \n  </header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer>\n    \n      \n        TJMT\n      \n\n      \n        \n          \n            \n          \n          Cidadania\n        \n        \n          \n            \n            \n          \n          Justiça\n        \n        \n          \n            \n            \n            \n            \n          \n          Transparência\n        \n        \n          \n            \n            \n          \n          Eficiência\n        \n      \n    \n  </footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main>\n    \n      \n        \n        \n          \n            \n            \n            \n            \n          \n        \n\n        \n          Site em manutenção\n          Estamos trabalhando para melhor atendê-lo.\n        \n      \n\n      \n        NOTA À IMPRENSA\n\t\tO Tribunal de Justiça do Estado de Mato Grosso (TJMT) informa que identificou um incidente de segurança envolvendo parte de sua infraestrutura tecnológica.\n\t\tComo medida preventiva e de contenção, foram temporariamente indisponibilizados sistemas institucionais, incluindo o Processo Judicial Eletrônico (PJe), além da adoção imediata de medidas de proteção, entre elas a redefinição de credenciais de acesso, a restrição de acessos sensíveis e outras ações técnicas voltadas à proteção dos ambientes tecnológicos.\n\t\tAs análises e apurações seguem em andamento, com atuação de equipes especializadas do Tribunal e apoio de parceiros técnicos. Até o momento, não foram identificados indícios de uso indevido de dados decorrentes do incidente investigado, nem indícios de comprometimento dos mecanismos de backup do Tribunal.\n\t\tA retomada dos serviços ocorrerá de forma gradual e segura, observando critérios técnicos de validação e proteção dos ambientes.\n\t\tO TJMT manterá a sociedade informada por seus canais oficiais sobre atualizações relevantes relacionadas ao incidente.\n      \n\n      Agradecemos a compreensão.\n      \n    \n\n    \n      \n      \n        \n        \n          \n          \n          \n          \n          TJMT\n        \n\n        \n        \n          \n          \n          \n          \n          \n          \n          \n          \n          \n\n          \n          \n            \n            \n            \n            \n            \n          \n          \n        \n\n        \n        \n          \n          \n          \n          \n            \n            \n            \n          \n          \n            \n            \n            \n          \n        \n      \n    \n  </main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Site em manutenção</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2) > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header>\n    \n      \n\n      \n        PODER JUDICIÁRIO\n        DO ESTADO DE MATO GROSSO\n        TRIBUNAL DE JUSTIÇA\n      \n    \n  </header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer>\n    \n      \n        TJMT\n      \n\n      \n        \n          \n            \n          \n          Cidadania\n        \n        \n          \n            \n            \n          \n          Justiça\n        \n        \n          \n            \n            \n            \n            \n          \n          Transparência\n        \n        \n          \n            \n            \n          \n          Eficiência\n        \n      \n    \n  </footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > footer:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main>\n    \n      \n        \n        \n          \n            \n            \n            \n            \n          \n        \n\n        \n          Site em manutenção\n          Estamos trabalhando para melhor atendê-lo.\n        \n      \n\n      \n        NOTA À IMPRENSA\n\t\tO Tribunal de Justiça do Estado de Mato Grosso (TJMT) informa que identificou um incidente de segurança envolvendo parte de sua infraestrutura tecnológica.\n\t\tComo medida preventiva e de contenção, foram temporariamente indisponibilizados sistemas institucionais, incluindo o Processo Judicial Eletrônico (PJe), além da adoção imediata de medidas de proteção, entre elas a redefinição de credenciais de acesso, a restrição de acessos sensíveis e outras ações técnicas voltadas à proteção dos ambientes tecnológicos.\n\t\tAs análises e apurações seguem em andamento, com atuação de equipes especializadas do Tribunal e apoio de parceiros técnicos. Até o momento, não foram identificados indícios de uso indevido de dados decorrentes do incidente investigado, nem indícios de comprometimento dos mecanismos de backup do Tribunal.\n\t\tA retomada dos serviços ocorrerá de forma gradual e segura, observando critérios técnicos de validação e proteção dos ambientes.\n\t\tO TJMT manterá a sociedade informada por seus canais oficiais sobre atualizações relevantes relacionadas ao incidente.\n      \n\n      Agradecemos a compreensão.\n      \n    \n\n    \n      \n      \n        \n        \n          \n          \n          \n          \n          TJMT\n        \n\n        \n        \n          \n          \n          \n          \n          \n          \n          \n          \n          \n\n          \n          \n            \n            \n            \n            \n            \n          \n          \n        \n\n        \n        \n          \n          \n          \n          \n            \n            \n            \n          \n          \n            \n            \n            \n          \n        \n      \n    \n  </main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > main:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 21:16:19",
+      "tot": {
+        "info": {
+          "url": "https://www.tjmt.jus.br/",
+          "title": "Site em manutenção — TJMT",
+          "date": "2026-09-21 21:16:19",
+          "htmlTags": 335,
+          "roles": {
+            "document": 1,
+            "generic": 24,
+            "banner": 1,
+            "main": 1,
+            "region": 2,
+            "graphics-document": 6,
+            "heading": 1,
+            "paragraph": 1,
+            "strong": 1,
+            "contentinfo": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 2,
+            "title": 1,
+            "style": 223,
+            "script": 7,
+            "body": 1,
+            "div": 19,
+            "header": 1,
+            "main": 1,
+            "section": 2,
+            "svg": 6,
+            "g": 7,
+            "path": 20,
+            "h1": 1,
+            "p": 1,
+            "strong": 1,
+            "br": 10,
+            "text": 1,
+            "rect": 12,
+            "circle": 12,
+            "footer": 1,
+            "span": 4
+          },
+          "size": 2024481,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "c485cf9b7c76d10c4d6b7a251ad52913",
+          "tests": 20,
+          "conform": "3@1@0",
+          "score": "8.4"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 0,
+          "a": 1,
+          "elementDec": 2,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaAtribDefined": 2,
+          "img": 0,
+          "hxHasAName": 1,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 13,
+          "colorContrastOk": 13,
+          "textContrastH": 5,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "brSec": 1,
+          "hx": 1,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "noDuplicateMain": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "aSkipNo": 1,
+          "bannerTopLevel": 1,
+          "li": 0,
+          "contentinfoTopLevel": 1,
+          "mainTopLevel": 1,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "element_02": "10@18",
+          "aria_07": "10@18",
+          "heading_01": "10@18",
+          "color_02b": "10@18",
+          "textC_01": "10@18",
+          "a_01b": "3@4.859999999999999",
+          "layout_01a": "10@18",
+          "br_01": "3@7.14",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "landmark_11": "10@18",
+          "landmark_13": "10@18",
+          "heading_03": "10@18",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999",
+          "landmark_01": "10@18",
+          "landmark_05": "10@18",
+          "landmark_07": "10@18"
+        }
+      },
+      "conform": "3@1@0",
+      "score": "8.4"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T21:16:19.319Z",
+    "requestedUrl": "https://www.tjmt.jus.br/"
+  }
+}

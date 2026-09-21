@@ -1,0 +1,2792 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html><head>\n\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <meta name=\"keywords\" content=\"CISVAG MT mato grosso Pontes e Lacerda mt saude consorcio publico regional\">\n    <meta name=\"description\" content=\"Consórcio Intermunicipal de Saúde da região do vale do Guaporé - CISVAG- Site Oficial\">\n    <meta http-equiv=\"content-language\" content=\"pt-br\">\n    <link rel=\"shortcut icon\" href=\"/imgs/default/favicon32.png\" sizes=\"32x32\" type=\"image/png\">\n    <link rel=\"shortcut icon\" href=\"/imgs/default/favicon16.png\" sizes=\"16x16\" type=\"image/png\">\n\n    <meta property=\"og:locale\" content=\"pt_BR\">\n    <meta property=\"og:url\" content=\"https://cisvag.com.br\">\n    <meta property=\"og:title\" content=\"Consórcio Intermunicipal de Saúde da região do vale do Guaporé - CISVAG\">\n    <meta property=\"og:site_name\" content=\"Consórcio Intermunicipal de Saúde da região do vale do Guaporé - CISVAG\">\n    <meta property=\"og:description\" content=\"Consórcio Intermunicipal de Saúde da região do vale do Guaporé - CISVAG- Site Oficial\">\n    <meta property=\"og:image\" content=\"https://cisvag.com.br/imgs/default/icon.png\">\n    <meta property=\"og:image:type\" content=\"image/jpeg\">\n    <meta property=\"og:image:width\" content=\"800\">\n    <meta property=\"og:image:height\" content=\"533\">\n    <meta property=\"og:type\" content=\"website\">\n\n    <title>\n                    CISVAG\n            </title>\n\n    \n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/p5.min.css?v=0.0.1&amp;cb=\">\n\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/site/default.min.css?v=0.0.1&amp;cb=\">\n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n        \n</head><body class=\"modal-open\">\n        <div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        <div class=\"modal-dialog modal-dialog-centered modal-lg\" role=\"document\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        <span aria-hidden=\"true\">×</span>\n                    </button>\n                </div>\n                <div class=\"modal-body\">\n                    <a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                        <img src=\"/imgs/cds/078199418c809182dd92f6c55fb3b928.jpg\" class=\"w-100\">\n                        </a>                </div>\n            </div>\n        </div>\n    </div>\n\n<div class=\"container-fluid h-topbar d-none d-md-block\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-2\">\n                <i class=\"mdi mdi-phone-outline\"></i> (65) 2510-0003\n            </div>\n            <div class=\"col-md-5\">\n                <i class=\"mdi mdi-map-marker-outline\"></i>  Av. Florespina Azambuja – nº 1595, Centro\n            </div>\n\n            <div class=\"col-12 col-md-5 d-flex justify-content-end\">\n                <a class=\"h-link\" target=\"_blank\" href=\"https://webmail.cisvag.com.br/\">\n                    <i class=\"mdi mdi-email-outline\"></i> Webmail\n                </a>\n                <a class=\"h-link\" target=\"_blank\" href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==\">\n                    <i class=\"mdi mdi-view-dashboard-outline\"></i> Portal da Transparência\n                </a>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"dropdown-search\" aria-labelledby=\"dropdownSearch\">\n    <div class=\"search-result row\">\n\n    </div>\n</div><div class=\"header container-fluid\">\n    <div id=\"overlay\" class=\"sticky\"></div>\n\n<div id=\"menu-mobile\" class=\"sidenav\">\n    <a href=\"javascript:;\" class=\"menu-mobile-closebtn\">×</a>\n        <a class=\"nav-link\" href=\"/#//#/ome\">Home</a>\n        <a class=\"nav-link\" href=\"/#//#/municipios\">Municípios</a>\n        <a class=\"nav-link\" href=\"/#//#/imprensa/noticias\">Notícias</a>\n        <a class=\"nav-link\" href=\"/#//#/institucional\">Gestão</a>\n        <a class=\"nav-link\" href=\"/#//#/publicacoes\">Publicações</a>\n        <a class=\"nav-link\" href=\"/#//#/contato\">Contato</a>\n        <a class=\"nav-link\" href=\"/#/https://cisvag.pentagono.info/dash\" \"=\"\">Acesso ao sistema</a>\n    </div>\n\n<div id=\"search-mobile\" class=\"sidenav\">\n    <a href=\"javascript:;\" class=\"menu-mobile-closebtn closebtn-search\">×</a>\n    <input type=\"text\" id=\"search-mobile-input\" placeholder=\"Digite aqui sua pesquisa\">\n    <div class=\"search-mobile-result\">\n\n    </div>\n</div>\n\n\n<div class=\"navbar-mobile row sticky\">\n    <div class=\"col-4\">\n        <div class=\"btn menu-mobile-btn\"><i class=\"mdi mdi-menu\"></i></div>\n    </div>\n    <div class=\"col-4\">\n        <a href=\"/#/home\">\n            <img class=\"n-m-logo\" src=\"/imgs/default/logo.png\" alt=\"\">\n        </a>\n    </div>\n    <div class=\"col-4 text-right\">\n        <div class=\"btn menu-mobile-btn-search\"><i class=\"mdi mdi-magnify\"></i></div>\n    </div>\n</div>    <div class=\"container d-none d-md-block\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"row\">\n                    <div class=\"col-md-11 col-12\">\n                        <a href=\"/#/home\">\n                            <img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <div class=\"input-group search-wrapper d-md-flex justify-content-end\">\n                    <input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">\n                    <div class=\"input-group-append\" id=\"search-btn\">\n                        <span class=\"input-group-text\"><i class=\"mdi mdi-magnify\"></i></span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 d-md-flex justify-content-end text-center text-md-left\">\n                <ul class=\"h-info-list\">\n                    <li class=\"h-i-l-title\">Horário de atendimento</li>\n                    <li>de Segunda á Sexta</li>\n                    <li>Manhã: das 07:00 às 11:00</li>\n                    <li>Tarde: das 13:00 às 17:00</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"menu container-fluid no-padding\">\n    <div class=\"menu container-fluid no-padding\">\n    <div class=\"container d-none d-md-block d-print-none\">\n        <div class=\"row no-padding\">\n            <div class=\"col-12 m-navbar\">\n                                    <a class=\"m-n-link\" href=\"/#/ome\" ref=\"/#/ome\">\n                        Home\n                    </a>\n                                    <a class=\"m-n-link\" href=\"/#/municipios\" ref=\"/#/municipios\">\n                        Municípios\n                    </a>\n                                    <a class=\"m-n-link\" href=\"/#/imprensa/noticias\" ref=\"/#/imprensa/noticias\">\n                        Notícias\n                    </a>\n                                    <a class=\"m-n-link\" href=\"/#/institucional\" ref=\"/#/institucional\">\n                        Gestão\n                    </a>\n                                    <a class=\"m-n-link\" href=\"/#/publicacoes\" ref=\"/#/publicacoes\">\n                        Publicações\n                    </a>\n                                    <a class=\"m-n-link\" href=\"/#/contato\" ref=\"/#/contato\">\n                        Contato\n                    </a>\n                                    <a class=\"m-n-link\" href=\"https://cisvag.pentagono.info/dash\" \"=\"\" target=\"_blank\" ref=\"https://cisvag.pentagono.info/dash\">\n                        Acesso ao sistema\n                    </a>\n                                <div class=\"m-n-underbar\"></div>\n            </div>\n        </div>\n    </div>\n</div></div>\n    <input type=\"hidden\" class=\"an-categoria\" value=\"home\">\n    <div id=\"content\" class=\"content-loading\" home-load=\"0\">  <script type=\"text/javascript\" src=\"/public/js/dist/apis/swiper.min.js\"></script>\n\n\n  <script type=\"text/javascript\" src=\"/public/js/dist/site/home.min.js?v=0.0.1&amp;cb=\"></script>\n\n\n<div class=\"home\">\n    <div class=\"swiper-container swiper-banners swiper-container-initialized swiper-container-horizontal\">\n    <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-1366px, 0px, 0px);\"><div class=\"swiper-slide h-banner swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-prev\" data-swiper-slide-index=\"0\" style=\"width: 1366px;\">\n            <a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                <img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">\n                <img class=\"d-md-none w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">\n                </a>        </div>\n                <div class=\"swiper-slide h-banner swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev\" data-swiper-slide-index=\"0\" style=\"width: 1366px;\">\n            <a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                <img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">\n                <img class=\"d-md-none w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">\n                </a>        </div>\n            <div class=\"swiper-slide h-banner swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-next\" data-swiper-slide-index=\"0\" style=\"width: 1366px;\">\n            <a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                <img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">\n                <img class=\"d-md-none w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">\n                </a>        </div></div>\n<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div>    <div class=\"container mt-4\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                    <div class=\"row h-noticias\">\n        <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Últimas notícias</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/imprensa/noticias\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div>                    <div class=\"col-12 col-md-8 mt-3\">\n                <a class=\"h-n-noticia-destaque-hero\" href=\"/imprensa/noticia/fila-zero/48\">\n                    <div class=\"h-n-n-d-content\">\n                        <div class=\"n-d-c-image\" style=\"background-image: url(/imgs/cds/watermark/40ba375148ceb6e9f63e0e7625c63ebf.jpg);\">\n                        </div>\n                        <div class=\"n-d-c-overlay\">\n                            <div class=\"c-o-title\"> FILA ZERO</div>\n                            <div class=\"c-o-info\">\n                                Saúde -                                30/05/2026 \n                            </div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n                            <div class=\"col-12 col-md-4 mt-3\">\n                <a class=\"h-n-noticia-destaque\" href=\"/imprensa/noticia/atendimento-medico-oftalmologista-em-conquista-d-oeste-mt/47\">\n                    <div class=\"h-n-n-d-content\">\n                        <div class=\"n-d-c-image\" style=\"background-image: url(/imgs/cds/thumbs/85010c44b04b676293365e39d70cb50d.jpg);\">\n                        </div>\n                        <div class=\"n-d-c-overlay\">\n                            <div class=\"c-o-title\">Atendimento médico oftalmologista em Conquista D'Oeste-MT</div>\n                            <div class=\"c-o-info\">\n                                Saúde -                                09/04/2026 \n                            </div>\n                        </div>\n                    </div>\n                </a>\n                                        <a class=\"h-n-noticia-destaque\" href=\"/imprensa/noticia/reuniao-dos-prefeitos-cisvag-2026/46\">\n                    <div class=\"h-n-n-d-content\">\n                        <div class=\"n-d-c-image\" style=\"background-image: url(/imgs/cds/thumbs/ede0edb56df727bb1622247f538bf2d1.jpg);\">\n                        </div>\n                        <div class=\"n-d-c-overlay\">\n                            <div class=\"c-o-title\">Reunião dos prefeitos-CISVAG/2026</div>\n                            <div class=\"c-o-info\">\n                                Geral -                                12/02/2026 \n                            </div>\n                        </div>\n                    </div>\n                </a>\n                    </div>\n    </div>\n            </div>\n        </div>\n        <div class=\"row mt-2\">\n            <div class=\"col-12 col-md-8\">\n                    <div class=\"row h-noticias\">\n                    <div class=\"col-md-6\">\n                <a href=\"/imprensa/noticia/visita-ao-hospital-central-de-cuiaba/45\" class=\"h-n-noticia\">\n                    <div class=\"row h-n-n-wrapper\">\n                        <div class=\"col-12 col-md-12 h-n-n-image-wrapper\">\n                            <div class=\"h-n-n-image\" style=\"background-image: url(/imgs/cds/thumbs/5767a3a853c10e9e70ffe6bbb093b3f7.jpg);\"></div>\n                        </div>\n                        <div class=\"col-12 col-md-12\">\n                            <div class=\"col-12 h-n-n-title\">Visita ao Hospital Central de Cuiabá</div>\n                            <div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n                    <div class=\"col-md-6\">\n                <a href=\"/imprensa/noticia/fila-zero-em-pontes-e-lacerda-mt/43\" class=\"h-n-noticia\">\n                    <div class=\"row h-n-n-wrapper\">\n                        <div class=\"col-12 col-md-12 h-n-n-image-wrapper\">\n                            <div class=\"h-n-n-image\" style=\"background-image: url(/imgs/cds/thumbs/e9db86af28459e584a92f8aa422dc632.jpg);\"></div>\n                        </div>\n                        <div class=\"col-12 col-md-12\">\n                            <div class=\"col-12 h-n-n-title\">Fila Zero em Pontes e Lacerda -MT</div>\n                            <div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n                    <div class=\"col-md-6\">\n                <a href=\"/imprensa/noticia/fila-zero-vila-bela-da-santissima-trindade/42\" class=\"h-n-noticia\">\n                    <div class=\"row h-n-n-wrapper\">\n                        <div class=\"col-12 col-md-12 h-n-n-image-wrapper\">\n                            <div class=\"h-n-n-image\" style=\"background-image: url(/imgs/cds/thumbs/bcb47692d67930f7cb1dcc26955b8459.jpg);\"></div>\n                        </div>\n                        <div class=\"col-12 col-md-12\">\n                            <div class=\"col-12 h-n-n-title\">FILA ZERO - VILA BELA DA SANTISSIMA TRINDADE </div>\n                            <div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n                    <div class=\"col-md-6\">\n                <a href=\"/imprensa/noticia/cirurgias-de-catarata-programa-fila-zero/41\" class=\"h-n-noticia\">\n                    <div class=\"row h-n-n-wrapper\">\n                        <div class=\"col-12 col-md-12 h-n-n-image-wrapper\">\n                            <div class=\"h-n-n-image\" style=\"background-image: url(/imgs/cds/thumbs/f82fd1accfa139e461e7b1c55f5be15a.jpg);\"></div>\n                        </div>\n                        <div class=\"col-12 col-md-12\">\n                            <div class=\"col-12 h-n-n-title\">CIRURGIAS DE CATARATA, PROGRAMA FILA ZERO</div>\n                            <div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n            </div>\n            </div>\n            <div class=\"col-12 col-md-4\">\n                <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Links rápidos</div>\n            </div>\n</div><div class=\"col-12 h-servicos mt-3\">\n            <a class=\"h-s-item\" href=\"https://cisvag.pentagono.info/dash\">\n            <i class=\"mdi mdi-access-point\"></i> Acesso ao Sistema PENTAGONO\n        </a>\n            <a class=\"h-s-item\" href=\"https://diariomunicipal.org/mt/amm/publicacoes/?q=MARCIA+&amp;e=482&amp;exd=&amp;std=&amp;end=\">\n            <i class=\"mdi mdi-book-open-page-variant\"></i> Diário Oficial dos Municípios MT\n        </a>\n            <a class=\"h-s-item\" href=\"https://goo.gl/maps/wqk7U53YBMPM93fF7\">\n            <i class=\"mdi mdi-send\"></i> LOCALIZAÇÃO\n        </a>\n            <a class=\"h-s-item\" href=\"https://webmail.cisvag.com.br/\">\n            <i class=\"mdi mdi-checkbox-multiple-marked\"></i> web e-mail cisvag\n        </a>\n            <a class=\"h-s-item\" href=\"https://www.cisvag.com.br/#/contato\">\n            <i class=\"mdi mdi-access-point\"></i> OUVIDORIA DO CISVAG\n        </a>\n    </div>            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                <div class=\"row h-publicacoes mt-3\">\n    <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Últimas publicações</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/publicacoes\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div>            <a href=\"/publicacoes/publicacao/147\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">EDITAL DE CREDENCIAMENTO No 004/2026/CISVAG - ATUALIZADO INEXIGIBILIDADE Nº 004/2026/CISVAG PROCESSO Nº 008/2026/CISVAG  - 4 2026</div>\n            <div class=\"col-12 h-p-i-subtitle\"> \n                    2.OBJETO DA LICITAÇÃO 2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS...</div>\n        </a>\n            <a href=\"/publicacoes/publicacao/145\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">Relatorio anual de prestação de contas de 2025 - 0 2025</div>\n            <div class=\"col-12 h-p-i-subtitle\">\n                    Relatório anual de prestação de contas dos serviços executados pelo Consorcio Intermunicipal de Saúde da Região do Vale do Guaporé-CISVAG</div>\n        </a>\n            <a href=\"/publicacoes/publicacao/144\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">3º quadrimestre de 2025 - 0 2025</div>\n            <div class=\"col-12 h-p-i-subtitle\">\n                    Relatório de prestação de contas do 3° quadrimestre de 2025</div>\n        </a>\n            <a href=\"/publicacoes/publicacao/140\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">EDITAL DE CREDENCIAMENTO No 001/2026/CISVAG INEXIGIBILIDADE Nº 001/2026/CISVAG PROCESSO Nº 001/2026/CISVAG - 1 2026</div>\n            <div class=\"col-12 h-p-i-subtitle\"> OBJETO DA LICITAÇÃO  2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS QUE TENHAM INTERESSE  NA PRESTAÇÃO DE SERVIÇOS...</div>\n        </a>\n            <a href=\"/publicacoes/publicacao/141\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">EDITAL DE CREDENCIAMENTO No 002/2026/CISVAG INEXIGIBILIDADE Nº 002/2026/CISVAG PROCESSO Nº 002/2026CISVAG - 2 2026</div>\n            <div class=\"col-12 h-p-i-subtitle\">\n                     OBJETO DA LICITAÇÃO  2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS QUE TENHAM INTERESSE  NA PRESTAÇÃO...</div>\n        </a>\n    </div>                                            </div>\n        </div>\n    </div>\n    <div class=\"h-municipios mt-3\">\n        <div class=\"container px-md-0\">\n            <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Municípios integrantes</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/municipios\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div><div class=\"swiper-municipios mt-3 swiper-container-initialized swiper-container-horizontal\">\n    <div class=\"h-m-container\">\n                    <a href=\"https://www.ponteselacerda.mt.gov.br/home\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7f0f1c18170bce9791239a943889abe9.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Pontes e Lacerda\n                    </div>\n                </div>\n            </a>\n                    <a href=\"https://www.vilabeladasantissimatrindade.mt.gov.br/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/a9e7dca16e45e28a4acf78e8533945ae.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Vila Bela da Santíssima Trindade\n                    </div>\n                </div>\n            </a>\n                    <a href=\"https://www.comodoro.mt.gov.br/Prefeitura/Prefeito/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7a9478342ad032858c7b88e5f42f6a4a.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Comodoro\n                    </div>\n                </div>\n            </a>\n                    <a href=\"https://www.novalacerda.mt.gov.br/#\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/952ee41bb14f2b45ffc080b745a1babe.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Nova Lacerda\n                    </div>\n                </div>\n            </a>\n                    <a href=\"https://valedesaodomingos.mt.gov.br/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/50d01dc81a974cef717401f378ee5cfa.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Vale do São Domingos\n                    </div>\n                </div>\n            </a>\n                    <a href=\"https://www.conquistadoeste.mt.gov.br/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/f079027b6940726115e8ce321c188449.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Conquista D'Oeste\n                    </div>\n                </div>\n            </a>\n                    <a href=\"https://www.camposdejulio.mt.gov.br/Prefeitura/Prefeito/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/3795ff640c40fcb9056cc22520580975.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Campos de Julio\n                    </div>\n                </div>\n            </a>\n            </div>\n<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div>        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    <div class=\"modal-dialog modal-dialog-centered modal-lg\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h5 class=\"modal-title\" id=\"videoModal-title\"></h5>\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <iframe id=\"videoModal-iframe\" autoplay=\"\" width=\"100%\" height=\"600\" src=\"\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n            </div>\n        </div>\n    </div>\n</div></div>\n\n    <div class=\"container-fluid footer\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-4 d-flex justify-content-center align-items-center\">\n                <img class=\"f-c-logo\" src=\"/imgs/default/logo.png\" alt=\"\">\n            </div>\n            <div class=\"col-12 col-md-4 d-md-flex justify-content-md-center mt-4 text-center mt-md-0 text-md-left\">\n                <ul class=\"f-info-list\">\n                    <li class=\"f-i-l-title\">(65) 2510-0003</li>\n                    <li>07.770.343/0001-84</li>\n                    <li> Av. Florespina Azambuja – nº 1595, Centro</li>\n                    <li>78250-000</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-4 d-md-flex justify-content-md-center mt-4 text-center mt-md-0 text-md-left\">\n                <ul class=\"f-info-list\">\n                    <li class=\"f-i-l-title\">Horário de atendimento</li>\n                    <li>de Segunda á Sexta</li>\n                    <li>Manhã: das 07:00 às 11:00</li>\n                    <li>Tarde: das 13:00 às 17:00</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"container-fluid d-print-none footer-rights px-5 py-3\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6 col-xs-12\">\n                CISVAG - todos os direitos reservados©\n            </div>\n            <div class=\"col-md-6 col-xs-12 text-right\">\n                Desenvolvido por\n                <a href=\"https://pentagono.info/\" target=\"_blank\"><span>Pentágono Sistemas</span></a>\n            </div>\n        </div>\n    </div>\n</div><div class=\"modal-backdrop fade show\"></div></body></html>",
+    "data": {
+      "title": "CISVAG",
+      "rawUrl": "https://www.cisvag.com.br/#/home",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 1,
+        "buttonAname": 1,
+        "a": 42,
+        "linkNotAName": 5,
+        "elementDec": 3,
+        "svg": 0,
+        "aSameText": 1,
+        "iframeSame": 0,
+        "ariaStPermitted": 6,
+        "ariaAtribDefined": 9,
+        "elementRole": 2,
+        "ariaStValid": 6,
+        "roleValid": 2,
+        "img": 13,
+        "imgAltNo": 1,
+        "imgAltNull": 12,
+        "labelAName": 1,
+        "headers": 0,
+        "elementHiddenFocus": 16,
+        "menuItem": 0,
+        "id": 69,
+        "colorContrast": 28,
+        "elementPresentChildrenNoFocus": 3,
+        "textContrastHNot": 37,
+        "aSkipFirstNo": 1,
+        "aImgAltNo": 5,
+        "labelPosNo": 1,
+        "focusBlur": 42,
+        "dd,dt": 0,
+        "dl": 0,
+        "h1": 0,
+        "notOneh1": 0,
+        "li": 12,
+        "liSemantically": 12,
+        "listCorrectly": 3,
+        "idAtt": 11,
+        "area": 0,
+        "inpImg": 52,
+        "label": 3,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 1,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>\n                    CISVAG\n            </title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(19)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        <span aria-hidden=\"true\">×</span>\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)",
+                "accessibleName": "Close"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                        \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSameText": [
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              },
+              {
+                "htmlCode": "<a href=\"/#/municipios\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              },
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-modal` property is supported or inherited by the `role` dialog.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        \n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        ×\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-live` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-atomic` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-live` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-atomic` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        \n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        ×\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dropdown-search\" aria-labelledby=\"dropdownSearch\">\n    \n\n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                ×\n                </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementRole": [
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        \n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal-dialog modal-dialog-centered modal-lg\" role=\"document\">\n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-modal` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        \n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        ×\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-live` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-atomic` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-live` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-atomic` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Pesquisar"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "roleValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        \n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal-dialog modal-dialog-centered modal-lg\" role=\"document\">\n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/078199418c809182dd92f6c55fb3b928.jpg\" class=\"w-100\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7f0f1c18170bce9791239a943889abe9.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/a9e7dca16e45e28a4acf78e8533945ae.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7a9478342ad032858c7b88e5f42f6a4a.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/952ee41bb14f2b45ffc080b745a1babe.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/50d01dc81a974cef717401f378ee5cfa.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/f079027b6940726115e8ce321c188449.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/3795ff640c40fcb9056cc22520580975.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(7) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"f-c-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelAName": [
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        ×\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)",
+                "accessibleName": "Close"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"n-m-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-md-none w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-md-none w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-none d-md-block w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"d-md-none w-100\" src=\"/imgs/cds/CHATGPT_IMAGE_15_DE_SET._DE_2026_11_04_15_EDITED_2609151318.PNG\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7f0f1c18170bce9791239a943889abe9.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/a9e7dca16e45e28a4acf78e8533945ae.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7a9478342ad032858c7b88e5f42f6a4a.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/952ee41bb14f2b45ffc080b745a1babe.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/50d01dc81a974cef717401f378ee5cfa.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/f079027b6940726115e8ce321c188449.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/3795ff640c40fcb9056cc22520580975.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(7) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"f-c-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-5\">\n                  Av. Florespina Azambuja – nº 1595, Centro\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://webmail.cisvag.com.br/\">\n                     Webmail\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==\">\n                     Portal da Transparência\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"h-i-l-title\">Horário de atendimento</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/ome\" ref=\"/#/ome\">\n                        Home\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/municipios\" ref=\"/#/municipios\">\n                        Municípios\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/imprensa/noticias\" ref=\"/#/imprensa/noticias\">\n                        Notícias\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/institucional\" ref=\"/#/institucional\">\n                        Gestão\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/publicacoes\" ref=\"/#/publicacoes\">\n                        Publicações\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/contato\" ref=\"/#/contato\">\n                        Contato\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"https://cisvag.pentagono.info/dash\" \"=\"\" target=\"_blank\" ref=\"https://cisvag.pentagono.info/dash\">\n                        Acesso ao sistema\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas notícias</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-info\">\n                                Saúde -                                30/05/2026 \n                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Atendimento médico oftalmologista em Conquista D'Oeste-MT</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-info\">\n                                Saúde -                                09/04/2026 \n                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Reunião dos prefeitos-CISVAG/2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-info\">\n                                Geral -                                12/02/2026 \n                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Links rápidos</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas publicações</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        ×\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/078199418c809182dd92f6c55fb3b928.jpg\" class=\"w-100\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                ×\n                </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-5\">\n                  Av. Florespina Azambuja – nº 1595, Centro\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://webmail.cisvag.com.br/\">\n                     Webmail\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==\">\n                     Portal da Transparência\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"h-i-l-title\">Horário de atendimento</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/ome\" ref=\"/#/ome\">\n                        Home\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/municipios\" ref=\"/#/municipios\">\n                        Municípios\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/imprensa/noticias\" ref=\"/#/imprensa/noticias\">\n                        Notícias\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/institucional\" ref=\"/#/institucional\">\n                        Gestão\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/publicacoes\" ref=\"/#/publicacoes\">\n                        Publicações\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/contato\" ref=\"/#/contato\">\n                        Contato\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"https://cisvag.pentagono.info/dash\" \"=\"\" target=\"_blank\" ref=\"https://cisvag.pentagono.info/dash\">\n                        Acesso ao sistema\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas notícias</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\"> FILA ZERO</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-info\">\n                                Saúde -                                30/05/2026 \n                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Atendimento médico oftalmologista em Conquista D'Oeste-MT</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-info\">\n                                Saúde -                                09/04/2026 \n                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Reunião dos prefeitos-CISVAG/2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-info\">\n                                Geral -                                12/02/2026 \n                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-title\">Visita ao Hospital Central de Cuiabá</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-title\">Fila Zero em Pontes e Lacerda -MT</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-title\">FILA ZERO - VILA BELA DA SANTISSIMA TRINDADE </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-title\">CIRURGIAS DE CATARATA, PROGRAMA FILA ZERO</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-12 h-n-n-info\">Saúde -\n                                21 de setembro de 2026</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Links rápidos</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas publicações</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li> Av. Florespina Azambuja – nº 1595, Centro</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page is not a link.",
+            "resultCode": "F4",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        ×\n                    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aImgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                        \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelPosNo": [
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "focusBlur": [
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://webmail.cisvag.com.br/\">\n                     Webmail\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg==\">\n                     Portal da Transparência\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/ome\" ref=\"/#/ome\">\n                        Home\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/municipios\" ref=\"/#/municipios\">\n                        Municípios\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/imprensa/noticias\" ref=\"/#/imprensa/noticias\">\n                        Notícias\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/institucional\" ref=\"/#/institucional\">\n                        Gestão\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/publicacoes\" ref=\"/#/publicacoes\">\n                        Publicações\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"/#/contato\" ref=\"/#/contato\">\n                        Contato\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link\" href=\"https://cisvag.pentagono.info/dash\" \"=\"\" target=\"_blank\" ref=\"https://cisvag.pentagono.info/dash\">\n                        Acesso ao sistema\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/#/IIjD2twJ5lLs7ua8Gim5Zg/consulta/8168/detalhe/3296:3291:2026_8_3291\" target=\"_blank\">                \n                \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-n-noticia-destaque-hero\" href=\"/imprensa/noticia/fila-zero/48\">\n                    \n                        \n                        \n                        \n                             FILA ZERO\n                            \n                                Saúde -                                30/05/2026 \n                            \n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-n-noticia-destaque\" href=\"/imprensa/noticia/atendimento-medico-oftalmologista-em-conquista-d-oeste-mt/47\">\n                    \n                        \n                        \n                        \n                            Atendimento médico oftalmologista em Conquista D'Oeste-MT\n                            \n                                Saúde -                                09/04/2026 \n                            \n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-n-noticia-destaque\" href=\"/imprensa/noticia/reuniao-dos-prefeitos-cisvag-2026/46\">\n                    \n                        \n                        \n                        \n                            Reunião dos prefeitos-CISVAG/2026\n                            \n                                Geral -                                12/02/2026 \n                            \n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/imprensa/noticia/visita-ao-hospital-central-de-cuiaba/45\" class=\"h-n-noticia\">\n                    \n                        \n                            \n                        \n                        \n                            Visita ao Hospital Central de Cuiabá\n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/imprensa/noticia/fila-zero-em-pontes-e-lacerda-mt/43\" class=\"h-n-noticia\">\n                    \n                        \n                            \n                        \n                        \n                            Fila Zero em Pontes e Lacerda -MT\n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/imprensa/noticia/fila-zero-vila-bela-da-santissima-trindade/42\" class=\"h-n-noticia\">\n                    \n                        \n                            \n                        \n                        \n                            FILA ZERO - VILA BELA DA SANTISSIMA TRINDADE \n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/imprensa/noticia/cirurgias-de-catarata-programa-fila-zero/41\" class=\"h-n-noticia\">\n                    \n                        \n                            \n                        \n                        \n                            CIRURGIAS DE CATARATA, PROGRAMA FILA ZERO\n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-s-item\" href=\"https://cisvag.pentagono.info/dash\">\n             Acesso ao Sistema PENTAGONO\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-s-item\" href=\"https://diariomunicipal.org/mt/amm/publicacoes/?q=MARCIA+&amp;e=482&amp;exd=&amp;std=&amp;end=\">\n             Diário Oficial dos Municípios MT\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-s-item\" href=\"https://goo.gl/maps/wqk7U53YBMPM93fF7\">\n             LOCALIZAÇÃO\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-s-item\" href=\"https://webmail.cisvag.com.br/\">\n             web e-mail cisvag\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-s-item\" href=\"https://www.cisvag.com.br/#/contato\">\n             OUVIDORIA DO CISVAG\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/147\" class=\"col-12 px-3 mt-2 h-p-item\">\n            EDITAL DE CREDENCIAMENTO No 004/2026/CISVAG - ATUALIZADO INEXIGIBILIDADE Nº 004/2026/CISVAG PROCESSO Nº 008/2026/CISVAG  - 4 2026\n             \n                    2.OBJETO DA LICITAÇÃO 2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS...\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/145\" class=\"col-12 px-3 mt-2 h-p-item\">\n            Relatorio anual de prestação de contas de 2025 - 0 2025\n            \n                    Relatório anual de prestação de contas dos serviços executados pelo Consorcio Intermunicipal de Saúde da Região do Vale do Guaporé-CISVAG\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/144\" class=\"col-12 px-3 mt-2 h-p-item\">\n            3º quadrimestre de 2025 - 0 2025\n            \n                    Relatório de prestação de contas do 3° quadrimestre de 2025\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/140\" class=\"col-12 px-3 mt-2 h-p-item\">\n            EDITAL DE CREDENCIAMENTO No 001/2026/CISVAG INEXIGIBILIDADE Nº 001/2026/CISVAG PROCESSO Nº 001/2026/CISVAG - 1 2026\n             OBJETO DA LICITAÇÃO  2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS QUE TENHAM INTERESSE  NA PRESTAÇÃO DE SERVIÇOS...\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/141\" class=\"col-12 px-3 mt-2 h-p-item\">\n            EDITAL DE CREDENCIAMENTO No 002/2026/CISVAG INEXIGIBILIDADE Nº 002/2026/CISVAG PROCESSO Nº 002/2026CISVAG - 2 2026\n            \n                     OBJETO DA LICITAÇÃO  2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS QUE TENHAM INTERESSE  NA PRESTAÇÃO...\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/municipios\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.ponteselacerda.mt.gov.br/home\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Pontes e Lacerda\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.vilabeladasantissimatrindade.mt.gov.br/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Vila Bela da Santíssima Trindade\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.comodoro.mt.gov.br/Prefeitura/Prefeito/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Comodoro\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.novalacerda.mt.gov.br/#\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Nova Lacerda\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://valedesaodomingos.mt.gov.br/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Vale do São Domingos\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.conquistadoeste.mt.gov.br/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Conquista D'Oeste\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.camposdejulio.mt.gov.br/Prefeitura/Prefeito/\" target=\"_blank\" class=\"swiper-slide h-municipio\">\n                \n                    \n                        \n                    \n                    \n                        Campos de Julio\n                    \n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://pentagono.info/\" target=\"_blank\">Pentágono Sistemas</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"h-i-l-title\">Horário de atendimento</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"f-i-l-title\">(65) 2510-0003</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>07.770.343/0001-84</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li> Av. Florespina Azambuja – nº 1595, Centro</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>78250-000</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"f-i-l-title\">Horário de atendimento</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"h-info-list\">\n                    Horário de atendimento\n                    de Segunda á Sexta\n                    Manhã: das 07:00 às 11:00\n                    Tarde: das 13:00 às 17:00\n                </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"f-info-list\">\n                    (65) 2510-0003\n                    07.770.343/0001-84\n                     Av. Florespina Azambuja – nº 1595, Centro\n                    78250-000\n                </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"f-info-list\">\n                    Horário de atendimento\n                    de Segunda á Sexta\n                    Manhã: das 07:00 às 11:00\n                    Tarde: das 13:00 às 17:00\n                </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade show\" id=\"popupModal\" tabindex=\"-1\" role=\"dialog\" aria-modal=\"true\" style=\"display: block;\">\n        \n            \n                \n                    \n                        ×\n                    \n                \n                \n                                            \n                                        \n            \n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"overlay\" class=\"sticky\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"input-group-append\" id=\"search-btn\">\n                        \n                    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"content\" class=\"content-loading\" home-load=\"0\">  \n\n\n  \n\n\n\n    \n    \n                            \n                \n                        \n                \n                            \n                \n                        \n            \n                            \n                \n                        \n    \n        \n            \n                    \n        \n    \n        Últimas notícias\n                \n             Ver mais\n        \n            \n                    \n                \n                    \n                        \n                        \n                        \n                             FILA ZERO\n                            \n                                Saúde -                                30/05/2026 \n                            \n                        \n                    \n                \n            \n                            \n                \n                    \n                        \n                        \n                        \n                            Atendimento médico oftalmologista em Conquista D'Oeste-MT\n                            \n                                Saúde -                                09/04/2026 \n                            \n                        \n                    \n                \n                                        \n                    \n                        \n                        \n                        \n                            Reunião dos prefeitos-CISVAG/2026\n                            \n                                Geral -                                12/02/2026 \n                            \n                        \n                    \n                \n                    \n    \n            \n        \n        \n            \n                    \n                    \n                \n                    \n                        \n                            \n                        \n                        \n                            Visita ao Hospital Central de Cuiabá\n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                \n            \n                    \n                \n                    \n                        \n                            \n                        \n                        \n                            Fila Zero em Pontes e Lacerda -MT\n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                \n            \n                    \n                \n                    \n                        \n                            \n                        \n                        \n                            FILA ZERO - VILA BELA DA SANTISSIMA TRINDADE \n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                \n            \n                    \n                \n                    \n                        \n                            \n                        \n                        \n                            CIRURGIAS DE CATARATA, PROGRAMA FILA ZERO\n                            Saúde -\n                                21 de setembro de 2026\n                        \n                    \n                \n            \n            \n            \n            \n                \n    \n        Links rápidos\n            \n\n            \n             Acesso ao Sistema PENTAGONO\n        \n            \n             Diário Oficial dos Municípios MT\n        \n            \n             LOCALIZAÇÃO\n        \n            \n             web e-mail cisvag\n        \n            \n             OUVIDORIA DO CISVAG\n        \n                \n        \n        \n            \n                \n    \n    \n        Últimas publicações\n                \n             Ver mais\n        \n            \n            \n            EDITAL DE CREDENCIAMENTO No 004/2026/CISVAG - ATUALIZADO INEXIGIBILIDADE Nº 004/2026/CISVAG PROCESSO Nº 008/2026/CISVAG  - 4 2026\n             \n                    2.OBJETO DA LICITAÇÃO 2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS...\n        \n            \n            Relatorio anual de prestação de contas de 2025 - 0 2025\n            \n                    Relatório anual de prestação de contas dos serviços executados pelo Consorcio Intermunicipal de Saúde da Região do Vale do Guaporé-CISVAG\n        \n            \n            3º quadrimestre de 2025 - 0 2025\n            \n                    Relatório de prestação de contas do 3° quadrimestre de 2025\n        \n            \n            EDITAL DE CREDENCIAMENTO No 001/2026/CISVAG INEXIGIBILIDADE Nº 001/2026/CISVAG PROCESSO Nº 001/2026/CISVAG - 1 2026\n             OBJETO DA LICITAÇÃO  2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS QUE TENHAM INTERESSE  NA PRESTAÇÃO DE SERVIÇOS...\n        \n            \n            EDITAL DE CREDENCIAMENTO No 002/2026/CISVAG INEXIGIBILIDADE Nº 002/2026/CISVAG PROCESSO Nº 002/2026CISVAG - 2 2026\n            \n                     OBJETO DA LICITAÇÃO  2.1. Constitui objeto do presente o CREDENCIAMENTO DE PESSOAS JURÍDICAS QUE TENHAM INTERESSE  NA PRESTAÇÃO...\n        \n                                                \n        \n    \n    \n        \n            \n    \n        Municípios integrantes\n                \n             Ver mais\n        \n            \n\n    \n                    \n                \n                    \n                        \n                    \n                    \n                        Pontes e Lacerda\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Vila Bela da Santíssima Trindade\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Comodoro\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Nova Lacerda\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Vale do São Domingos\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Conquista D'Oeste\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Campos de Julio\n                    \n                \n            \n            \n        \n    \n\n\n\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 21:38:21",
+      "tot": {
+        "info": {
+          "url": "https://www.cisvag.com.br/#/home",
+          "title": "CISVAG",
+          "date": "2026-09-21 21:38:21",
+          "htmlTags": 1040,
+          "roles": {
+            "document": 4,
+            "generic": 189,
+            "dialog": 2,
+            "button": 2,
+            "link": 52,
+            "img": 1,
+            "textbox": 2,
+            "presentation": 16,
+            "list": 3,
+            "listitem": 12,
+            "heading": 1
+          },
+          "cTags": {
+            "html": 2,
+            "head": 2,
+            "meta": 16,
+            "link": 4,
+            "title": 1,
+            "script": 14,
+            "style": 717,
+            "body": 2,
+            "div": 170,
+            "button": 2,
+            "span": 6,
+            "a": 52,
+            "img": 17,
+            "i": 15,
+            "input": 3,
+            "ul": 3,
+            "li": 12,
+            "h5": 1,
+            "iframe": 1
+          },
+          "size": 4337837,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "aee8ed4cd1049cd14656df3f691740f1",
+          "tests": 29,
+          "conform": "9@1@0",
+          "score": "6.4"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 1,
+          "buttonAname": 1,
+          "a": 42,
+          "linkNotAName": 5,
+          "elementDec": 3,
+          "svg": 0,
+          "aSameText": 1,
+          "iframeSame": 0,
+          "ariaStPermitted": 6,
+          "ariaAtribDefined": 9,
+          "elementRole": 2,
+          "ariaStValid": 6,
+          "roleValid": 2,
+          "img": 13,
+          "imgAltNo": 1,
+          "imgAltNull": 12,
+          "labelAName": 1,
+          "headers": 0,
+          "elementHiddenFocus": 16,
+          "menuItem": 0,
+          "id": 69,
+          "colorContrast": 28,
+          "elementPresentChildrenNoFocus": 3,
+          "textContrastHNot": 37,
+          "aSkipFirstNo": 1,
+          "aImgAltNo": 5,
+          "labelPosNo": 1,
+          "focusBlur": 42,
+          "dd,dt": 0,
+          "dl": 0,
+          "h1": 0,
+          "notOneh1": 0,
+          "li": 12,
+          "liSemantically": 12,
+          "listCorrectly": 3,
+          "idAtt": 11,
+          "area": 0,
+          "inpImg": 52,
+          "label": 3,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 1,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@1.8",
+          "button_01": "10@18",
+          "a_11": "3@9.514285714285714",
+          "element_02": "10@18",
+          "a_09": "something",
+          "aria_05": "10@18",
+          "aria_07": "10@18",
+          "element_10": "10@18",
+          "aria_03": "10@18",
+          "input_02b": "something",
+          "role_01": "10@18",
+          "img_01b": "3@8.307692307692307",
+          "img_02": "something",
+          "label_01": "10@18",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01b": "3@4.859999999999999",
+          "a_03": "3@3",
+          "label_02": "3@9.719999999999999",
+          "focus_01": "3@4.32",
+          "layout_01a": "10@18",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "listitem_01": "10@18",
+          "list_02": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "9@1@0",
+      "score": "6.4"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T21:38:21.669Z",
+    "requestedUrl": "https://www.cisvag.com.br/"
+  }
+}

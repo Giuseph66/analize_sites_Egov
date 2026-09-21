@@ -1,0 +1,1175 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"en\"><head>\n        <!-- Google Tag Manager -->\n        \n        <!-- End Google Tag Manager -->\n\n        <meta charset=\"UTF-8\">\n        <!-- PHP_REPLACE -->\n        <title>Câmara Municipal de Novo Horizonte do Norte</title>\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon.ico\">\n        <meta http-equiv=\"content-language\" content=\"pt-br\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n      \n      <link rel=\"stylesheet\" href=\"/assets/index-d0bbdbad.css\">\n    </head>\n    <body>\n        <!-- Google Tag Manager (noscript) -->\n        <noscript><iframe\n                src=\"https://www.googletagmanager.com/ns.html?id=GTM-PP7DKPVR\"\n                height=\"0\"\n                width=\"0\"\n                style=\"display: none; visibility: hidden\"\n            ></iframe\n        ></noscript>\n        <!-- End Google Tag Manager (noscript) -->\n        <div id=\"root\"><header class=\"header\"><div class=\"fixed w-full top-0 bg-white drop-shadow-lg shadow dark:bg-gray-800 lg:hidden z-50\"><div class=\" container px-6 py-4 mx-auto\"><div class=\"lg:flex lg:items-center lg:justify-between\"><div class=\"flex items-center justify-between\"><div class=\"flex lg:hidden\"><div class=\"text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"toggle menu\"><span></span></div></div></div></div></div></div><div class=\"px-3 py-3 hidden lg:block\"><div class=\"xl:columns-2 flex\"><div class=\"md:w-[60%]\"><a class=\"text-gray-500 text-xs\" href=\"http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm\" target=\"_blank\"><span></span>Lei de Acesso à Informação</a><a class=\"text-gray-500 text-xs ml-5\" href=\"https://radardatransparencia.atricon.org.br\" target=\"_blank\"><img src=\"./radar.png\" alt=\"\" height=\"24\">Radar da Transparência Pública</a><a class=\"text-gray-500 text-xs ml-5\" href=\"https://camnhn.ouvidoriabr.com/\" target=\"_blank\"><span></span>Ouvidoria</a><a class=\"text-gray-500 text-xs ml-5\" href=\"https://esiccamnhn.ouvidoriabr.com/\" target=\"_blank\"><span></span>E-SIC</a><a class=\"text-gray-500 text-xs ml-5\" href=\"/mapa\"><span></span>Mapa do Site</a><a class=\"text-gray-500 text-xs ml-5\" href=\"/page/procuradoria-especial-da-mulher\"><span></span>Procuradoria da Mulher</a><a class=\"text-gray-500 text-xs ml-5\" href=\"/transparencia/portal\"><span></span>Portal Transparência</a></div><div class=\"md:w-[40%] text-right\"><span class=\"text-gray-500 text-xs mr-5\"><span></span>Horário de atendimento ao público: 07:00 ás 11:00</span><a class=\"text-gray-500 text-xs\" href=\"https://webmail-211.site.com.br/\" target=\"_blank\"></a><span></span><a class=\"text-gray-500 text-xs\" href=\"https://webmail.camaranovohorizontedonorte.mt.gov.br\" target=\"_blank\"><span class=\"text-gray-500 text-xs mr-5\">Webmail</span></a></div></div></div><div class=\"container mx-auto pt-6 lg:pt-0\"><div class=\"flex lg:justify-between py-12 items-center lg:flex-row flex-col justify-center \"><div class=\"px-5 lg:px-0 flex justify-center\"><a href=\"/\"><img src=\"/logo.png\" alt=\"logo\" class=\"w-auto max-w-full max-h-24\"></a></div><div class=\"hidden text-right my-auto lg:block xl:text-sm lg:text-xs\"><ul class=\"relative z-200 m-0 p-0\"><li class=\"inline-block custom-hover-blue\"><a href=\"/\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3 text-gray-600 hover:text-white \">Página Inicial</div></a></li><li class=\"group inline-block custom-hover-blue rounded-none text-gray-600 rounded-t-lg hover:text-white\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3\">A Câmara</div><ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\"><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/camara/mesadiretora\" target=\"_self\">Mesa Diretora</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/ex-vereadores\" target=\"_self\">Ex-Vereadores</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/historia-da-camara\" target=\"_self\">História da Câmara</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/camara/vereadores\" target=\"_self\">Vereadores</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/contatos\" target=\"_self\">Contatos</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/camara/servidores\" target=\"_self\">Servidores</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"https://cdn.camaranovohorizontedonorte.mt.gov.br/public/files/Organograma_2025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Organograma</a></li></ul></li><li class=\"group inline-block custom-hover-blue rounded-none text-gray-600 rounded-t-lg hover:text-white\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3\">Município</div><ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\"><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/bandeira\" target=\"_self\">Bandeira</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/brasao\" target=\"_self\">Brasão</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/hino-municipal\" target=\"_self\">Hino</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/historia\" target=\"_self\">História</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/prefeitos-e-vice-prefeitos\" target=\"_self\">Prefeitos e Vice-Prefeitos</a></li></ul></li><li class=\"group inline-block custom-hover-blue rounded-none text-gray-600 rounded-t-lg hover:text-white\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3\">Consultas</div><ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\"><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/transparencia/publicacoes\" target=\"_self\">Publicações</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/perguntas-frequentes\" target=\"_self\">Perguntas Frequentes</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/dados-abertos\" target=\"_self\">Dados Abertos</a></li></ul></li><li class=\"group inline-block custom-hover-blue rounded-none text-gray-600 rounded-t-lg hover:text-white\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3\">Imprensa</div><ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\"><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/imprensa/noticias\" target=\"_self\">Notícias</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/eventos\" target=\"_self\">Eventos</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/imprensa/tv\" target=\"_self\">TV</a></li><li class=\"p-2 mb-1 bg-[var(--primary-hover)] rounded-lg\"><a class=\"text-white hover:text-gray-500\" href=\"/page/politica-de-privacidade\" target=\"_self\">Política de Privacidade</a></li></ul></li><li class=\"rounded-b-lg inline-block custom-hover-blue rounded-none text-gray-600 rounded-t-lg hover:text-white\"><a href=\"/transparencia/portal\" target=\"_self\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3 text-gray-600 hover:text-white\">Transparência</div></a></li><li class=\"inline-block custom-hover-green text-gray-600 hover:text-white\"><a href=\"/pesquisa\"><div class=\"2xl:px-5 lg:px-2 px-3 py-3 text-gray-600\"><span></span></div></a></li></ul></div><div class=\"flex items-center gap-2 bg-[var(--primary)] rounded-lg px-3 py-1 text-white w-fit lg:w-auto\"><div class=\"h-16 w-16 align-middle flex\"><img class=\"w-16 p-1\" src=\"/icons/weather/cloud.svg\" alt=\"\"></div><div><div>Boa tarde</div><div class=\"text-sm\">segunda-feira, 21/09</div><div class=\"text-sm\">26ºC / 39ºC</div></div></div><div class=\"flex items-center justify-center\"><li class=\"2xl:ml-5 md:ml-2 ml-1 inline-block custom-hover-blue\"><a href=\"https://www.facebook.com/profile.php?id=100063973393400\" target=\"_blank\"><div class=\"2xl:px-3 md:px-2 px-1 py-3 text-gray-500 hover:text-white\"><span></span></div></a></li><li class=\"inline-block custom-hover-blue\"><a href=\"https://www.instagram.com/camaranhnmt/\" target=\"_blank\"><div class=\"2xl:px-3 md:px-2 px-1 py-3 text-gray-500 hover:text-white\"><span></span></div></a></li><li class=\"inline-block custom-hover-blue\"><a href=\"https://www.youtube.com/@camaradevereadoresnhn7378\" target=\"_blank\"><div class=\"2xl:px-3 md:px-2 px-1 py-3 text-gray-500 hover:text-white\"><span></span></div></a></li></div></div></div><div class=\"fixed top-2 lg:top-15 right-2 z-200\"><span></span><div class=\"absolute top-10 right-0 bg-[var(--primary)] shadow-lg rounded-lg p-5 text-center hidden\"><div class=\"text-sm text-gray-700 mb-3 text-white\">Acessibilidade</div><div class=\"text-gray-700 bg-white mb-3 p-5 w-50 shadow-lg rounded-lg cursor-pointer hover:bg-[var(--primary-hover)] hover:text-white\">Tamanho da fonte</div><div class=\"text-gray-700 bg-white mb-3 p-5 w-50 shadow-lg rounded-lg cursor-pointer hover:bg-[var(--primary-hover)] hover:text-white\">Contraste</div><a href=\"/mapa\"><div class=\"text-gray-700 bg-white mb-3 p-5 w-50 shadow-lg rounded-lg cursor-pointer hover:bg-[var(--primary-hover)] hover:text-white\">Mapa do Site</div></a><a href=\"https://www.gov.br/governodigital/pt-br/vlibras/#baixar\" target=\"_blank\"><div class=\"text-gray-700 bg-white mb-3 p-5 w-50 shadow-lg rounded-lg cursor-pointer hover:bg-[var(--primary-hover)] hover:text-white\">Libras</div></a><div class=\"text-gray-700 pt-3 w-50 cursor-pointer\"><div class=\"text-white\">Redefinir</div></div></div></div></header><div class=\"content\"><div class=\"home\"><div class=\"py-5rem\"><div class=\"flex items-center justify-center\"><span></span></div></div></div></div><div class=\"cookie-footer justify-center flex\"><div class=\"container\"><div class=\"content\"><div class=\"c-text pr-2\">Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa <a class=\"text-\" href=\"/privacidade\">Política de Privacidade</a>.</div><button class=\"bg-[#01295d] text-white border-none rounded-lg\">Entendi</button></div></div></div><footer class=\"footer mt-4rem\"><div class=\"container mx-auto pt-20\"><div class=\"text-center\"><img class=\"w-auto max-w-full max-h-34\" src=\"/brasao.png\" alt=\"brasão\"></div><div class=\"lg:columns-3 mt-3rem text-center rounded-lg bg-[var(--primary-transparent)]\"><div class=\"py-auto\"><div class=\"py-3rem text-white uppercase\"><span></span><div class=\"mb-3 text-10px\">Horário de atendimento ao público</div><h6>Segunda a Sexta-feira</h6><h6>Das 7h às 11h</h6></div></div><div class=\"py-3rem text-white\"><div class=\"py-auto\"><span></span><div class=\"mb-3 text-10px uppercase\">Endereço</div><h6 class=\"uppercase\">Av. Mte. Falcão 329</h6><h6>CEP: 78570-000</h6><h6>CNPJ: 04.172.845/0001-15</h6><span class=\"text-12px\">Email: ouvidoria@camaranovohorizontedonorte.mt.gov.br</span></div></div><div class=\"py-3rem text-white uppercase\"><div class=\"py-auto\"><span></span><div class=\"mb-3 text-10px\">Contato</div><a class=\"text-white\" href=\"https://wa.me/5566981174859\" target=\"_blank\"><h6>(66) 98117-4859</h6></a><a class=\"text-white text-3xl\" href=\"https://www.instagram.com/camaranhnmt/\" target=\"_blank\"><span></span></a><a class=\"ml-3 text-white text-3xl\" href=\"https://www.facebook.com/profile.php?id=100063973393400\" target=\"_blank\"><span></span></a><a class=\"ml-3 text-white text-3xl\" href=\"https://www.youtube.com/@camaradevereadoresnhn7378\" target=\"_blank\"><span></span></a></div></div></div><div class=\"w-full bg-[var(--primary-transparent)]\"><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4756.63976779732!2d-57.314589500000004!3d-11.390015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93af60cfc3e1c1af%3A0xdbfc7051dfa7ee08!2sC%C3%A2mara%20Municipal%20de%20Novo%20Horizonte%20do%20Norte!5e1!3m2!1spt-BR!2sbr!4v1747147810166!5m2!1spt-BR!2sbr\" class=\"w-full h-96\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></div></div><div class=\"container mx-auto py-8  flex\"><div class=\"text-center text-sm lg:text-left text-white lg:w-1/2\">© 2026 - Câmara Municipal de Novo Horizonte do Norte</div><div class=\"text-center text-sm lg:text-right text-white lg:w-1/2\">Desenvolvido por <a class=\"text-white\" href=\"https://pentagonosistemas.com.br/\" target=\"_blank\">Pentágono Sistemas</a></div></div></footer></div>\n        \n    \n\n</body></html>",
+    "data": {
+      "title": "Câmara Municipal de Novo Horizonte do Norte",
+      "rawUrl": "https://www.camaranovohorizontedonorte.mt.gov.br/",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 0,
+        "a": 21,
+        "linkNotAName": 8,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaAtribDefined": 1,
+        "img": 4,
+        "imgAltNull": 2,
+        "iframeTitleNo": 1,
+        "iframeNegTabIndex": 1,
+        "hxHasAName": 6,
+        "headers": 0,
+        "elementHiddenFocus": 2,
+        "menuItem": 0,
+        "id": 28,
+        "colorContrast": 9,
+        "elementPresentChildrenNoFocus": 3,
+        "textContrastHNot": 18,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 6,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "bannerTopLevel": 1,
+        "li": 10,
+        "liNotSemantically": 3,
+        "listCorrectly": 5,
+        "contentinfoTopLevel": 1,
+        "idAtt": 1,
+        "area": 0,
+        "inpImg": 43,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 2,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Câmara Municipal de Novo Horizonte do Norte</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"en\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs\" href=\"https://webmail-211.site.com.br/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/pesquisa\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/profile.php?id=100063973393400\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/camaranhnmt/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.youtube.com/@camaradevereadoresnhn7378\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-white text-3xl\" href=\"https://www.instagram.com/camaranhnmt/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(4)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"ml-3 text-white text-3xl\" href=\"https://www.facebook.com/profile.php?id=100063973393400\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(5)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"ml-3 text-white text-3xl\" href=\"https://www.youtube.com/@camaradevereadoresnhn7378\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(6)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"toggle menu\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"./radar.png\" alt=\"\" height=\"24\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/logo.png\" alt=\"logo\" class=\"w-auto max-w-full max-h-24\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "logo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-16 p-1\" src=\"/icons/weather/cloud.svg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-auto max-w-full max-h-34\" src=\"/brasao.png\" alt=\"brasão\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "brasão"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"./radar.png\" alt=\"\" height=\"24\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-16 p-1\" src=\"/icons/weather/cloud.svg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "iframeTitleNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4756.63976779732!2d-57.314589500000004!3d-11.390015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93af60cfc3e1c1af%3A0xdbfc7051dfa7ee08!2sC%C3%A2mara%20Municipal%20de%20Novo%20Horizonte%20do%20Norte!5e1!3m2!1spt-BR!2sbr!4v1747147810166!5m2!1spt-BR!2sbr\" class=\"w-full h-96\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(3) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "iframeNegTabIndex": [
+          {
+            "verdict": "passed",
+            "description": "The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4756.63976779732!2d-57.314589500000004!3d-11.390015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93af60cfc3e1c1af%3A0xdbfc7051dfa7ee08!2sC%C3%A2mara%20Municipal%20de%20Novo%20Horizonte%20do%20Norte!5e1!3m2!1spt-BR!2sbr!4v1747147810166!5m2!1spt-BR!2sbr\" class=\"w-full h-96\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(3) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Segunda a Sexta-feira</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(3)",
+                "accessibleName": "Segunda a Sexta-feira"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Das 7h às 11h</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(4)",
+                "accessibleName": "Das 7h às 11h"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h6 class=\"uppercase\">Av. Mte. Falcão 329</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(3)",
+                "accessibleName": "Av. Mte. Falcão 329"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CEP: 78570-000</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(4)",
+                "accessibleName": "CEP: 78570-000"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CNPJ: 04.172.845/0001-15</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(5)",
+                "accessibleName": "CNPJ: 04.172.845/0001-15"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h6>(66) 98117-4859</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(3) > h6:nth-child(1)",
+                "accessibleName": "(66) 98117-4859"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"./radar.png\" alt=\"\" height=\"24\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-16 p-1\" src=\"/icons/weather/cloud.svg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Horário de atendimento ao público</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Segunda a Sexta-feira</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Das 7h às 11h</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px uppercase\">Endereço</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6 class=\"uppercase\">Av. Mte. Falcão 329</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CEP: 78570-000</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CNPJ: 04.172.845/0001-15</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-12px\">Email: ouvidoria@camaranovohorizontedonorte.mt.gov.br</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > span:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Contato</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/logo.png\" alt=\"logo\" class=\"w-auto max-w-full max-h-24\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"bg-[#01295d] text-white border-none rounded-lg\">Entendi</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-auto max-w-full max-h-34\" src=\"/brasao.png\" alt=\"brasão\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs\" href=\"http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm\" target=\"_blank\">Lei de Acesso à Informação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs ml-5\" href=\"https://radardatransparencia.atricon.org.br\" target=\"_blank\">Radar da Transparência Pública</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs ml-5\" href=\"https://camnhn.ouvidoriabr.com/\" target=\"_blank\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs ml-5\" href=\"https://esiccamnhn.ouvidoriabr.com/\" target=\"_blank\">E-SIC</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs ml-5\" href=\"/mapa\">Mapa do Site</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs ml-5\" href=\"/page/procuradoria-especial-da-mulher\">Procuradoria da Mulher</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs ml-5\" href=\"/transparencia/portal\">Portal Transparência</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-500 text-xs mr-5\">Horário de atendimento ao público: 07:00 ás 11:00</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-500 text-xs mr-5\">Webmail</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(4) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Horário de atendimento ao público</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Segunda a Sexta-feira</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Das 7h às 11h</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px uppercase\">Endereço</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6 class=\"uppercase\">Av. Mte. Falcão 329</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CEP: 78570-000</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CNPJ: 04.172.845/0001-15</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-12px\">Email: ouvidoria@camaranovohorizontedonorte.mt.gov.br</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > span:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Contato</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page links to an inexistent element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs\" href=\"http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm\" target=\"_blank\">Lei de Acesso à Informação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Segunda a Sexta-feira</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h6>Das 7h às 11h</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h6:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h6 class=\"uppercase\">Av. Mte. Falcão 329</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CEP: 78570-000</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h6>CNPJ: 04.172.845/0001-15</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > h6:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h6>(66) 98117-4859</h6>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(3) > h6:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"header\">Lei de Acesso à InformaçãoRadar da Transparência PúblicaOuvidoriaE-SICMapa do SiteProcuradoria da MulherPortal TransparênciaHorário de atendimento ao público: 07:00 ás 11:00WebmailPágina InicialA CâmaraMesa DiretoraEx-VereadoresHistória da CâmaraVereadoresContatosServidoresOrganogramaMunicípioBandeiraBrasãoHinoHistóriaPrefeitos e Vice-PrefeitosConsultasPublicaçõesPerguntas FrequentesDados AbertosImprensaNotíciasEventosTVPolítica de PrivacidadeTransparênciaBoa tardesegunda-feira, 21/0926ºC / 39ºCAcessibilidadeTamanho da fonteContrasteMapa do SiteLibrasRedefinir</header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"footer mt-4rem\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 11hEndereçoAv. Mte. Falcão 329CEP: 78570-000CNPJ: 04.172.845/0001-15Email: ouvidoria@camaranovohorizontedonorte.mt.gov.brContato(66) 98117-4859© 2026 - Câmara Municipal de Novo Horizonte do NorteDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"header\">Lei de Acesso à InformaçãoRadar da Transparência PúblicaOuvidoriaE-SICMapa do SiteProcuradoria da MulherPortal TransparênciaHorário de atendimento ao público: 07:00 ás 11:00WebmailPágina InicialA CâmaraMesa DiretoraEx-VereadoresHistória da CâmaraVereadoresContatosServidoresOrganogramaMunicípioBandeiraBrasãoHinoHistóriaPrefeitos e Vice-PrefeitosConsultasPublicaçõesPerguntas FrequentesDados AbertosImprensaNotíciasEventosTVPolítica de PrivacidadeTransparênciaBoa tardesegunda-feira, 21/0926ºC / 39ºCAcessibilidadeTamanho da fonteContrasteMapa do SiteLibrasRedefinir</header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liNotSemantically": [
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"2xl:ml-5 md:ml-2 ml-1 inline-block custom-hover-blue\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"inline-block custom-hover-blue\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"inline-block custom-hover-blue\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"relative z-200 m-0 p-0\">Página InicialA CâmaraMesa DiretoraEx-VereadoresHistória da CâmaraVereadoresContatosServidoresOrganogramaMunicípioBandeiraBrasãoHinoHistóriaPrefeitos e Vice-PrefeitosConsultasPublicaçõesPerguntas FrequentesDados AbertosImprensaNotíciasEventosTVPolítica de PrivacidadeTransparência</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\">Mesa DiretoraEx-VereadoresHistória da CâmaraVereadoresContatosServidoresOrganograma</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\">BandeiraBrasãoHinoHistóriaPrefeitos e Vice-Prefeitos</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\">PublicaçõesPerguntas FrequentesDados Abertos</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-[var(--primary)] text-white transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 xl:text-sm lg:text-xs\">NotíciasEventosTVPolítica de Privacidade</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"footer mt-4rem\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 11hEndereçoAv. Mte. Falcão 329CEP: 78570-000CNPJ: 04.172.845/0001-15Email: ouvidoria@camaranovohorizontedonorte.mt.gov.brContato(66) 98117-4859© 2026 - Câmara Municipal de Novo Horizonte do NorteDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"root\">Lei de Acesso à InformaçãoRadar da Transparência PúblicaOuvidoriaE-SICMapa do SiteProcuradoria da MulherPortal TransparênciaHorário de atendimento ao público: 07:00 ás 11:00WebmailPágina InicialA CâmaraMesa DiretoraEx-VereadoresHistória da CâmaraVereadoresContatosServidoresOrganogramaMunicípioBandeiraBrasãoHinoHistóriaPrefeitos e Vice-PrefeitosConsultasPublicaçõesPerguntas FrequentesDados AbertosImprensaNotíciasEventosTVPolítica de PrivacidadeTransparênciaBoa tardesegunda-feira, 21/0926ºC / 39ºCAcessibilidadeTamanho da fonteContrasteMapa do SiteLibrasRedefinirNós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa Política de Privacidade.EntendiHorário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 11hEndereçoAv. Mte. Falcão 329CEP: 78570-000CNPJ: 04.172.845/0001-15Email: ouvidoria@camaranovohorizontedonorte.mt.gov.brContato(66) 98117-4859© 2026 - Câmara Municipal de Novo Horizonte do NorteDesenvolvido por Pentágono Sistemas</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 21:34:44",
+      "tot": {
+        "info": {
+          "url": "https://www.camaranovohorizontedonorte.mt.gov.br/",
+          "title": "Câmara Municipal de Novo Horizonte do Norte",
+          "date": "2026-09-21 21:34:44",
+          "htmlTags": 634,
+          "roles": {
+            "document": 1,
+            "generic": 90,
+            "banner": 1,
+            "link": 43,
+            "presentation": 2,
+            "img": 2,
+            "list": 5,
+            "listitem": 26,
+            "button": 1,
+            "contentinfo": 1,
+            "heading": 6
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "script": 10,
+            "meta": 3,
+            "title": 1,
+            "link": 2,
+            "style": 434,
+            "body": 1,
+            "noscript": 1,
+            "div": 65,
+            "header": 1,
+            "span": 24,
+            "a": 43,
+            "img": 4,
+            "ul": 5,
+            "li": 29,
+            "button": 1,
+            "footer": 1,
+            "h6": 6,
+            "iframe": 1
+          },
+          "size": 4012793,
+          "encoding": "utf-8",
+          "lang": "en",
+          "content": "text/html",
+          "hash": "fff61dd761b902ce7c0681b35c655a86",
+          "tests": 24,
+          "conform": "4@2@0",
+          "score": "6.9"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 0,
+          "a": 21,
+          "linkNotAName": 8,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaAtribDefined": 1,
+          "img": 4,
+          "imgAltNull": 2,
+          "iframeTitleNo": 1,
+          "iframeNegTabIndex": 1,
+          "hxHasAName": 6,
+          "headers": 0,
+          "elementHiddenFocus": 2,
+          "menuItem": 0,
+          "id": 28,
+          "colorContrast": 9,
+          "elementPresentChildrenNoFocus": 3,
+          "textContrastHNot": 18,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 6,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "bannerTopLevel": 1,
+          "li": 10,
+          "liNotSemantically": 3,
+          "listCorrectly": 5,
+          "contentinfoTopLevel": 1,
+          "idAtt": 1,
+          "area": 0,
+          "inpImg": 43,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 2,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "a_11": "3@6.685714285714286",
+          "aria_07": "10@18",
+          "img_01a": "10@16.2",
+          "img_02": "something",
+          "iframe_01": "3@4.199999999999999",
+          "iframe_04": "10@18",
+          "heading_01": "10@18",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01b": "3@4.859999999999999",
+          "layout_01a": "10@18",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "landmark_11": "10@18",
+          "heading_04": "1@1.8",
+          "landmark_01": "10@18",
+          "listitem_02": "4@10.08",
+          "list_02": "10@18",
+          "landmark_05": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "4@2@0",
+      "score": "6.9"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T21:34:44.665Z",
+    "requestedUrl": "https://www.camaranovohorizontedonorte.mt.gov.br/"
+  }
+}

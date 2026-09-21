@@ -1,0 +1,178 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=no\"><link rel=\"icon\" href=\"data:,\"><link href=\"https://img1.wsimg.com/parking-lander/static/css/main.4276ff80.css\" rel=\"stylesheet\"></head><body><div id=\"root\"></div>\n</body></html>",
+    "data": {
+      "title": "",
+      "rawUrl": "https://www.confresa.org/lander",
+      "elems": {
+        "titleNo": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 0,
+        "a": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 0,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "idAtt": 1,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"en\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"root\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 21:13:04",
+      "tot": {
+        "info": {
+          "url": "https://www.confresa.org/lander",
+          "title": "",
+          "date": "2026-09-21 21:13:04",
+          "htmlTags": 114,
+          "roles": {
+            "document": 1,
+            "generic": 2
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 2,
+            "link": 2,
+            "script": 12,
+            "style": 94,
+            "body": 1,
+            "div": 1
+          },
+          "size": 1695702,
+          "encoding": "utf-8",
+          "lang": "en",
+          "content": "text/html",
+          "hash": "8580adbb95354e48ab7d5ea89182cb0b",
+          "tests": 9,
+          "conform": "5@1@0",
+          "score": "4.1"
+        },
+        "elems": {
+          "titleNo": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 0,
+          "a": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 0,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "idAtt": 1,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_02": "1@2.8",
+          "lang_01": "something",
+          "a_01b": "3@4.859999999999999",
+          "layout_01a": "10@18",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "5@1@0",
+      "score": "4.1"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T21:13:04.113Z",
+    "requestedUrl": "https://www.confresa.org/"
+  }
+}
