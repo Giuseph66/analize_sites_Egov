@@ -82,6 +82,8 @@ def load_mt() -> list[tuple[str, dict[str, str]]]:
 def load_ouvidorias() -> list[tuple[str, dict[str, str]]]:
     path = ROOT / "validacao_ouvidorias_mt_browser_2026-09-21.csv"
     if not path.is_file():
+        path = ROOT.parent / "validacao_ouvidorias_mt_browser_2026-09-21.csv"
+    if not path.is_file():
         raise AccessMonitorError(f"Planilha de ouvidorias não encontrada: {path}")
     with path.open(encoding="utf-8-sig", newline="") as source:
         rows = list(csv.DictReader(source))
@@ -121,13 +123,15 @@ def pending_records(name: str, records: list[tuple[str, dict[str, str]]]) -> tup
     runs = sorted((p for p in base.glob("*/*") if p.is_dir()), key=lambda p: p.stat().st_mtime)
     if not runs:
         return records, None
-    result_file = runs[-1] / "resultados.csv"
-    if not result_file.is_file():
-        return records, None
-    with result_file.open(encoding="utf-8-sig", newline="") as source:
-        done = {row.get("url_avaliada", "").strip() for row in csv.DictReader(source)}
+    done: set[str] = set()
+    for run in runs:
+        result_file = run / "resultados.csv"
+        if not result_file.is_file():
+            continue
+        with result_file.open(encoding="utf-8-sig", newline="") as source:
+            done.update(row.get("url_avaliada", "").strip() for row in csv.DictReader(source))
     pending = [(url, meta) for url, meta in records if url not in done]
-    return pending, str(runs[-1].resolve())
+    return pending, str(runs[-1].resolve()) if done else None
 
 
 def find_browser(explicit: str | None) -> str:

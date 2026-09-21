@@ -1,0 +1,10 @@
+{
+  "contexto": "mt",
+  "inicio": "2026-09-21T19:27:43-04:00",
+  "api": "http://127.0.0.1:3000/amp/eval/",
+  "entrada_registros": 285,
+  "urls_unicas": 285,
+  "workers": 3,
+  "timeout_segundos": 45,
+  "diretorio": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-27-43"
+}

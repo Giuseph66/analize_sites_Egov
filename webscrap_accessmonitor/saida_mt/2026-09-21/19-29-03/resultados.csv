@@ -1,0 +1,12 @@
+﻿contexto,ordem,municipio,portal_oficial,url_informada,url_avaliada,status_validacao_browser,titulo,nota,praticas,aceitaveis,nao_aceitaveis,verificar_manual,json,pdf,erro
+mt,254,,,https://www.santaritadotrivelato.mt.gov.br/home,https://www.santaritadotrivelato.mt.gov.br/home,,,,,,,,,,Avaliação excedeu 45s.
+mt,253,,,https://santacruzdoxingu.mt.leg.br/,https://santacruzdoxingu.mt.leg.br/,,,,,,,,,,Avaliação excedeu 45s.
+mt,255,,,https://santaritadotrivelato.mt.leg.br/home,https://santaritadotrivelato.mt.leg.br/home,,,,,,,,,,Avaliação excedeu 45s.
+mt,256,,,https://santaterezinha.mt.gov.br/,https://santaterezinha.mt.gov.br/,,Access denied | santaterezinha.mt.gov.br used Cloudflare to restrict access | santaterezinha.mt.gov.br | Cloudflare,8.7,17,30,28,3,/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_santaterezinha.mt.gov.br_004.json,/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_santaterezinha.mt.gov.br_004.pdf,
+mt,257,,,https://www.santaterezinha.mt.leg.br/,https://www.santaterezinha.mt.leg.br/,,Access denied | www.santaterezinha.mt.leg.br used Cloudflare to restrict access | www.santaterezinha.mt.leg.br | Cloudflare,8.7,17,30,28,3,/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_www.santaterezinha.mt.leg.br_005.json,/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_www.santaterezinha.mt.leg.br_005.pdf,
+mt,258,,,https://www.santoafonso.mt.gov.br/,https://www.santoafonso.mt.gov.br/,,,,,,,,,,Avaliação excedeu 45s.
+mt,259,,,https://santoafonso.mt.leg.br/index.php,https://santoafonso.mt.leg.br/index.php,,,,,,,,,,Avaliação excedeu 45s.
+mt,260,,,https://www.santoantoniodoleste.mt.gov.br/,https://www.santoantoniodoleste.mt.gov.br/,,,,,,,,,,Avaliação excedeu 45s.
+mt,261,,,https://www.santoantoniodoleste.mt.leg.br/,https://www.santoantoniodoleste.mt.leg.br/,,,,,,,,,,Avaliação excedeu 45s.
+mt,262,,,https://www.leverger.mt.gov.br/,https://www.leverger.mt.gov.br/,,,,,,,,,,Avaliação excedeu 45s.
+mt,263,,,https://www.camaraleverger.mt.gov.br/,https://www.camaraleverger.mt.gov.br/,,,,,,,,,,Avaliação excedeu 45s.

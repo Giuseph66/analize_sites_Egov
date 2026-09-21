@@ -1,0 +1,1971 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html><head>\n  \n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <meta http-equiv=\"Content-Security-Policy\" content=\"upgrade-insecure-requests\">\n    <meta name=\"keywords\" content=\"saúde pública gestão mato grosso atendimento municipal estadual consórcio atenção básica\">\n    <meta name=\"description\" content=\"Consórcio Público de Saúde Vale do Teles Pires - Sorriso MT - Site Oficial\">\n    <meta http-equiv=\"content-language\" content=\"pt-br\">\n    <link rel=\"shortcut icon\" href=\"/imgs/favicon.png\">\n\n    <title>\n                    Consórcio Público de Saúde Vale do Teles Pires\n            </title>\n  \n    \n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/p5.min.css?v=1.3.4\">\n\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/site/default.min.css?v=1.3.4\">\n\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/jalendar.min.css?v=1.3.4\">\n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n \n  \n</head>\n<body>\n<div class=\"hidden-print\">\n<span class=\"menu-mobile visible-xs\">\n    <i class=\"fa fa-list\"></i>\n</span>\n\n<nav class=\"navbar visible-xs menu-mobile-container\">\n    <ul class=\"nav navbar-nav\">\n                    <li>\n                <a href=\"/\">\n                    <i class=\"fa fa-home\"></i> Home                </a>\n\n                            </li>\n                    <li>\n                <a href=\"/#/municipios\">\n                    Municípios                </a>\n\n                            </li>\n                    <li>\n                <a href=\"/#/certidoes\">\n                    Certidão Negativa                </a>\n\n                            </li>\n                    <li>\n                <a href=\"/#/gestao\">\n                    Gestão                </a>\n\n                            </li>\n                    <li class=\"dropdown\">\n                <a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                    Publicações <span class=\"caret\"></span>                </a>\n\n                                <ul class=\"dropdown-menu\">\n                                            <li>\n                            <a href=\"/#/publicacoes\"><i class=\"fa fa-chevron-right\"></i> Todas</a>\n                        </li>\n                                            <li>\n                            <a href=\"/#/transparencia/contratos\"><i class=\"fa fa-chevron-right\"></i> Contratos de rateio</a>\n                        </li>\n                                            <li>\n                            <a href=\"/#/transparencia/publicacoes/16/administrativo\"><i class=\"fa fa-chevron-right\"></i> Administrativo</a>\n                        </li>\n                                            <li>\n                            <a href=\"/#/transparencia/publicacoes/27/atas-de-registro-de-precos\"><i class=\"fa fa-chevron-right\"></i> Atas de Registro de Preços</a>\n                        </li>\n                                            <li>\n                            <a href=\"/#/transparencia/publicacoes/23/covid-19\"><i class=\"fa fa-chevron-right\"></i> COVID-19</a>\n                        </li>\n                                            <li>\n                            <a href=\"/#/transparencia/publicacoes/30/demonstrativos-contabeis\"><i class=\"fa fa-chevron-right\"></i> Demonstrativos Contábeis</a>\n                        </li>\n                                            <li>\n                            <a href=\"/#/transparencia/publicacoes/1/licitacoes\"><i class=\"fa fa-chevron-right\"></i> Licitações</a>\n                        </li>\n                                    </ul>\n                            </li>\n                    <li>\n                <a href=\"/#/contato\">\n                    Contato                </a>\n\n                            </li>\n            </ul>\n</nav>\n\n\n<div class=\"menu-right hidden-xs\">\n    <a href=\"http://cpsvtp.pentagono.info/dash\" target=\"_blank\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/system.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Acesso ao Sistema\n            </div>\n        </div>\n    </a>\n    <a href=\"https://consorciovaledotelespires.1doc.com.br/atendimento\" target=\"_blank\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/atendimento.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Atendimento\n            </div>\n        </div>\n    </a>\n    <a href=\"/#/contato\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/phone.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Contato\n            </div>\n        </div>\n    </a>\n    <a href=\"https://www.facebook.com/cpsvaledotelespires/\" target=\"_blank\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/face.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Facebook\n            </div>\n        </div>\n    </a>\n    <a href=\"https://www.instagram.com/cpsvaledotelespires/\" target=\"_blank\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/instagram.svg\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Instagram\n            </div>\n        </div>\n    </a>\n</div>\n\n<div class=\"container-fluid header\">\n    <div class=\"row\">\n        <div class=\"header-menu\">\n    <nav class=\"navbar hidden-xs hidden-print\" id=\"menu-desktop\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-4\">\n                    <img src=\"/imgs/logo_h.png\" alt=\"\">\n                </div>\n                <div class=\"col-md-8\">\n                    <ul class=\"nav navbar-nav pull-right\">\n                                                <li>\n                            <a href=\"/\">\n                                <i class=\"fa fa-home\"></i>                             </a>\n\n                                                    </li>\n                                                <li>\n                            <a href=\"/#/municipios\">\n                                Municípios                            </a>\n\n                                                    </li>\n                                                <li>\n                            <a href=\"/#/certidoes\">\n                                Certidão Negativa                            </a>\n\n                                                    </li>\n                                                <li>\n                            <a href=\"/#/gestao\">\n                                Gestão                            </a>\n\n                                                    </li>\n                                                <li class=\"dropdown\">\n                            <a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações <span class=\"caret\"></span>                            </a>\n\n                                                        <ul class=\"dropdown-menu\">\n                                                                    <li><a href=\"/#/publicacoes\"><i class=\"fa fa-chevron-right\"></i> Todas</a></li>\n                                                                    <li><a href=\"/#/transparencia/contratos\"><i class=\"fa fa-chevron-right\"></i> Contratos de rateio</a></li>\n                                                                    <li><a href=\"/#/transparencia/publicacoes/16/administrativo\"><i class=\"fa fa-chevron-right\"></i> Administrativo</a></li>\n                                                                    <li><a href=\"/#/transparencia/publicacoes/27/atas-de-registro-de-precos\"><i class=\"fa fa-chevron-right\"></i> Atas de Registro de Preços</a></li>\n                                                                    <li><a href=\"/#/transparencia/publicacoes/23/covid-19\"><i class=\"fa fa-chevron-right\"></i> COVID-19</a></li>\n                                                                    <li><a href=\"/#/transparencia/publicacoes/30/demonstrativos-contabeis\"><i class=\"fa fa-chevron-right\"></i> Demonstrativos Contábeis</a></li>\n                                                                    <li><a href=\"/#/transparencia/publicacoes/1/licitacoes\"><i class=\"fa fa-chevron-right\"></i> Licitações</a></li>\n                                                            </ul>\n                                                    </li>\n                                                <li>\n                            <a href=\"/#/contato\">\n                                Contato                            </a>\n\n                                                    </li>\n                                            </ul>\n                </div>\n            </div>\n        </div>\n    </nav>\n</div>        <div class=\"swiper-container banner swiper-container-horizontal swiper-container-fade\">\n            <div class=\"swiper-wrapper\">\n                                    <div class=\"swiper-slide swiper-slide-active\" style=\"width: 1366px; opacity: 1; transform: translate3d(0px, 0px, 0px);\">\n                        <img src=\"/imgs/cds/A192E8E7E7.jpg\" style=\"width: 100%\">                    </div>\n                            </div>\n            <!-- Add Pagination -->\n            <div class=\"swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets\"><span class=\"swiper-pagination-bullet swiper-pagination-bullet-active\"></span></div>\n        </div>\n    </div>\n</div>\n\n</div>\n<div class=\"container\">\n    <div id=\"content\" class=\"\">  <script type=\"text/javascript\" src=\"/public/js/dist/site/home.min.js?v=1.3.4\"></script>\n\n<div class=\"home\">\n    <div class=\"col-md-12\">\n        <div class=\"row\">\n            <div class=\"col-md-9\">\n                <div class=\"row home-noticias-swiper\">\n                    <div class=\"col-md-12\">\n                        <div class=\"swiper-container s2 swiper-container-horizontal\">\n                            <div class=\"swiper-wrapper\" style=\"transform: translate3d(-855px, 0px, 0px); transition-duration: 0ms;\"><div class=\"swiper-slide swiper-slide-duplicate swiper-slide-prev\" data-swiper-slide-index=\"2\" style=\"width: 825px; margin-right: 30px;\">\n                                        <a href=\"/noticia/index/prefeitos-assinam-plano-de-trabalho-para-a-gestao-do-hospital-regional-de-sinop-/293\">\n                                            <div class=\"h-n-img\">\n                                                <div class=\"h-n-i-bg\" style=\"background-image: url(/imgs/cds/F2E65D997F.jpg)\">\n                                                    <div class=\"h-n-i-b-text\">\n                                                        <div class=\"h-n-cat\">\n                                                            <span class=\"h-n-i-body\">25/02/2026 -\n                                                                21:30</span><br>\n                                                        </div>\n                                                        <div class=\"h-n-tit\">Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop </div>\n                                                        <div class=\"h-n-pre\">O documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no...</div>\n                                                    </div>\n                                                </div>\n                                            </div>\n                                        </a>\n                                    </div>\n                                                                    <div class=\"swiper-slide swiper-slide-active\" data-swiper-slide-index=\"0\" style=\"width: 825px; margin-right: 30px;\">\n                                        <a href=\"/noticia/index/consorcio-de-saude-vale-do-teles-pires-administrara-o-hospital-regional-de-sinop/295\">\n                                            <div class=\"h-n-img\">\n                                                <div class=\"h-n-i-bg\" style=\"background-image: url(/imgs/cds/2A44762FD6.jpg)\">\n                                                    <div class=\"h-n-i-b-text\">\n                                                        <div class=\"h-n-cat\">\n                                                            <span class=\"h-n-i-body\">25/05/2026 -\n                                                                22:28</span><br>\n                                                        </div>\n                                                        <div class=\"h-n-tit\">Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop</div>\n                                                        <div class=\"h-n-pre\">O projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta...</div>\n                                                    </div>\n                                                </div>\n                                            </div>\n                                        </a>\n                                    </div>\n                                                                    <div class=\"swiper-slide swiper-slide-next\" data-swiper-slide-index=\"1\" style=\"width: 825px; margin-right: 30px;\">\n                                        <a href=\"/noticia/index/consorcio-de-saude-destina-mais-r$-1-milhao-para-cirurgias-redutoras-de-mama/294\">\n                                            <div class=\"h-n-img\">\n                                                <div class=\"h-n-i-bg\" style=\"background-image: url(/imgs/cds/386D10B8C9.jpg)\">\n                                                    <div class=\"h-n-i-b-text\">\n                                                        <div class=\"h-n-cat\">\n                                                            <span class=\"h-n-i-body\">08/04/2026 -\n                                                                14:48</span><br>\n                                                        </div>\n                                                        <div class=\"h-n-tit\">Consórcio de Saúde destina mais R$ 1 milhão para cirurgias redutoras de mama</div>\n                                                        <div class=\"h-n-pre\">O recurso é proveniente de multas e rendimentos bancários. Serão realizados 75 procedimentos</div>\n                                                    </div>\n                                                </div>\n                                            </div>\n                                        </a>\n                                    </div>\n                                                                    <div class=\"swiper-slide swiper-slide-duplicate-prev\" data-swiper-slide-index=\"2\" style=\"width: 825px; margin-right: 30px;\">\n                                        <a href=\"/noticia/index/prefeitos-assinam-plano-de-trabalho-para-a-gestao-do-hospital-regional-de-sinop-/293\">\n                                            <div class=\"h-n-img\">\n                                                <div class=\"h-n-i-bg\" style=\"background-image: url(/imgs/cds/F2E65D997F.jpg)\">\n                                                    <div class=\"h-n-i-b-text\">\n                                                        <div class=\"h-n-cat\">\n                                                            <span class=\"h-n-i-body\">25/02/2026 -\n                                                                21:30</span><br>\n                                                        </div>\n                                                        <div class=\"h-n-tit\">Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop </div>\n                                                        <div class=\"h-n-pre\">O documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no...</div>\n                                                    </div>\n                                                </div>\n                                            </div>\n                                        </a>\n                                    </div>\n                                                            <div class=\"swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\" style=\"width: 825px; margin-right: 30px;\">\n                                        <a href=\"/noticia/index/consorcio-de-saude-vale-do-teles-pires-administrara-o-hospital-regional-de-sinop/295\">\n                                            <div class=\"h-n-img\">\n                                                <div class=\"h-n-i-bg\" style=\"background-image: url(/imgs/cds/2A44762FD6.jpg)\">\n                                                    <div class=\"h-n-i-b-text\">\n                                                        <div class=\"h-n-cat\">\n                                                            <span class=\"h-n-i-body\">25/05/2026 -\n                                                                22:28</span><br>\n                                                        </div>\n                                                        <div class=\"h-n-tit\">Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop</div>\n                                                        <div class=\"h-n-pre\">O projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta...</div>\n                                                    </div>\n                                                </div>\n                                            </div>\n                                        </a>\n                                    </div></div>\n                            <!-- Add Pagination -->\n                            <div class=\"swiper-pagination swiper-pagination-blue swiper-pagination-progress\"><span class=\"swiper-pagination-progressbar\" style=\"transform: translate3d(0px, 0px, 0px) scaleX(0.333333) scaleY(1); transition-duration: 300ms;\"></span></div>\n                            <!-- Add Arrows -->\n                            <div class=\"swiper-button-next swiper-button-white\"></div>\n                            <div class=\"swiper-button-prev swiper-button-white\"></div>\n                        </div>\n                    </div>\n                </div>\n\n                <!-- Noticias -->\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\"><span class=\"hidden-xs\">Últimas</span> Notícias</span>\n                    <a href=\"/#/noticias\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-noticias\">\n                                            <a href=\"/noticia/index/consorcio-de-saude-assina-ordem-de-servico-para-o-inicio-da-construcao-da-sede-propria/292\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">25/02/2026 - 19:00</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> Consórcio de Saúde assina ordem de serviço para o início da construção da sede própria</span><br>\n                                <span class=\"h-n-i-objeto\">São mais de mil m² de construção, com investimento de R$ 3.9 milhões. A previsão é que a obra seja entregue em dez meses</span>                            </div>\n                        </a>\n                                            <a href=\"/noticia/index/consorcio-de-saude-investe-mais-de-r$-85-milhoes-e-reforca-atendimentos-em-2025-/291\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">29/01/2026 - 11:27</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> Consórcio de Saúde investe mais de R$ 85 milhões e reforça atendimentos em 2025 </span><br>\n                                <span class=\"h-n-i-objeto\">Foram mais de 779 mil serviços realizados, entre consultas, exames e cirurgias, totalizando mais de 170 mil pessoas atendidas</span>                            </div>\n                        </a>\n                                            <a href=\"/noticia/index/consorcio-de-saude-realizara-600-cirurgias-bariatricas-na-regiao-do-teles-pires/290\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">19/08/2025 - 14:00</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> Consórcio de Saúde realizará 600 cirurgias bariátricas na região do Teles Pires</span><br>\n                                <span class=\"h-n-i-objeto\">Ao todo, serão investidos mais de R$ 13 milhões, beneficiando os pacientes dos 16 municípios consorciados</span>                            </div>\n                        </a>\n                                            <a href=\"/noticia/index/consorcio-teles-pires-fecha-primeiro-semestre-com-mais-de-r$-37-milhoes-em-servicos-de-saude/289\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">26/07/2025 - 17:26</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> Consórcio Teles Pires fecha primeiro semestre com mais de R$ 37 milhões em serviços de saúde</span><br>\n                                <span class=\"h-n-i-objeto\">Os recursos são provenientes dos municípios consorciados e também por meio do Fila Zero, programa do Governo do Estado de Mato Grosso</span>                            </div>\n                        </a>\n                                            <a href=\"/noticia/index/r$-12-milhoes-em-maio:-consorcio-de-saude-registra-recorde-de-recursos-aplicados-na-saude-publica/288\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">07/07/2025 - 10:40</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> R$ 12 milhões em maio: Consórcio de Saúde registra recorde de recursos aplicados na saúde pública</span><br>\n                                <span class=\"h-n-i-objeto\">Em comparação ao mês anterior, abril de 2025, o aumento foi de quase 40%. O valor foi investido na compra de medicamentos, materiais médicos e...</span>                            </div>\n                        </a>\n                    \n\n                                    </div>\n\n                <!-- Publicações -->\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\"><span class=\"hidden-xs\">Últimas</span> Publicações</span>\n                    <a href=\"/#/transparencia/publicacoes/get\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-publ\">\n                                            <a href=\"/publicacoes/publicacao/2111\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 52/2026</b>\n                                     - <span>REGISTRO DE PREÇO 049/2026</span>                                </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\">  PREGÃO ELETRÔNICO, PELO SISTEMA DE\nREGISTRO DE PREÇOS, A FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA\nPARA LOCAÇÃO E GESTÃO INTEGRADA DE PARQUE DE IMPRESSÃO E DIGITALIZAÇÃO,\nINCLUINDO INSTALAÇÃO, CONFIGURAÇÃO, SUPORTE TÉCNICO,...</span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2109\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 51/2026</b>\n                                     - <span>ORTOPEDIA E TRAUMATOLOGIA</span>                                </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\">\n                    \n                    CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE SERVIÇOS MÉDICOS EM ORTOPEDIA E TRAUMATOLOGIA (ADULTO E PEDIÁTRICO), PARA ATENDER ÀS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, NO...</span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2104\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 50/2026</b>\n                                                                    </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\">\n                    \n                    \n                    \n                    \n                    \n                    \n                     Contratação de pessoa jurídica especializada para a prestação de serviços de gerenciamento técnico,...</span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2102\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 49/2026</b>\n                                     - <span>REGISTRO DE PREÇO 048/2026</span>                                </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\"> Pregão Eletrônico com\nRegistro de Preços para futura e eventual Aquisição de Material Médico,\ndestinados ao atendimento das necessidades do Hospital Regional Jorge de Abreu,\nvisando garantir o abastecimento contínuo da unidade, a continuidade...</span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2099\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 47/2026</b>\n                                                                    </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\">\n                    \n                    \n                    \n                     PREGÃO\nELETRÔNICO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE\nSERVIÇOS MÉDICOS PARA ATENDIMENTO NO BOX DE EMERGÊNCIA (PRONTO ATENDIMENTO)...</span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2097\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 46/2026</b>\n                                     - <span>REGISTRO DE PREÇO 046/2026</span>                                </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\">\n                    \n                    \n                    \n                    \n                     PREGÃO ELETRÔNICO COM REGISTRO DE\nPREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO\nDE SERVIÇOS DE GESTÃO...</span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2073\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 45/2026</b>\n                                     - <span>REGISTRO DE PREÇOS 045/2026</span>                                </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\"> Pregão Eletrônico com registro de preços para futura e\neventual Aquisição de Reagentes/Testes Laboratoriais, itens fracassados do SRP\nPregão Eletrônico n° 034/2026, para atender as demandas dos municípios\nintegrantes deste Consórcio. </span>\n                                                            </div>\n                        </a>\n                                            <a href=\"/publicacoes/publicacao/2056\">\n                            <div class=\"h-p-item\">\n                                <div class=\"h-p-i-title\">\n                                    <i class=\"fa fa-chevron-right\"></i>\n                                    <b> 44/2026</b>\n                                     - <span>REGISTRO DE PREÇO 044/2026</span>                                </div>\n\n                                                                    <span class=\"label label-info\"></span>\n                                                                <span class=\"h-p-i-body\"></span><br>\n                                                                    <span class=\"h-p-i-objeto\"> PREGÃO ELETRÔNICO, PELO SISTEMA DE REGISTRO DE PREÇOS,\nPARA FUTURA E EVENTUAL AQUISIÇÃO DE FIOS DE SUTURA, DESTINADOS AO ATENDIMENTO\nDAS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, VISANDO GARANTIR O\nABASTECIMENTO CONTÍNUO DA UNIDADE, A...</span>\n                                                            </div>\n                        </a>\n                                    </div>\n            </div>\n            <div class=\"col-md-3\">\n                <div class=\"input-group search search-home\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">\n                    <a class=\"btn btn-primary\" id=\"search-btn\">Pesquisar</a>\n                </div>\n                <div class=\"home-links\">\n                    <a href=\"http://cpsvtp.pentagono.info/dash\" target=\"_blank\">\n                        <div class=\"h-l-link\">\n                            <img src=\"/imgs/icons/system.png\" alt=\"\">\n                            <div>Acesso ao Sistema</div>\n                        </div>\n                    </a>\n                    <a href=\"/portal\" target=\"_blank\">\n                        <div class=\"h-l-link\">\n                            <img src=\"/imgs/icons/transp.png\" alt=\"\">\n                            <div>Portal Transparência</div>\n                        </div>\n                    </a>\n                    <a href=\"/#/certidoes\">\n                        <div class=\"h-l-link\">\n                            <img src=\"/imgs/icons/certificate.png\" alt=\"\">\n                            <div>Certidão Negativa</div>\n                        </div>\n                    </a>\n                    <a href=\"https://consorciovaledotelespires.1doc.com.br/atendimento\" target=\"_blank\">\n                        <div class=\"h-l-link\">\n                            <img src=\"/imgs/icons/atendimento.png\" alt=\"\">\n                            <div>Central de Atendimento</div>\n                        </div>\n                    </a>\n                    <a href=\"/#/municipios\">\n                        <div class=\"h-l-link\">\n                            <img src=\"/imgs/icons/municipios.png\" alt=\"\">\n                            <div>Municípios Integrantes</div>\n                        </div>\n                    </a>\n                </div>\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\">Galeria</span>\n                    <a href=\"/#/albuns/\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-galeria\">\n                    <div class=\"swiper-container home-galeria-albuns swiper-container-horizontal\">\n                        <div class=\"swiper-wrapper\">\n                                                    </div>\n                        <div class=\"swiper-pagination swiper-pagination-blue swiper-pagination-progress\"><span class=\"swiper-pagination-progressbar\" style=\"transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); transition-duration: 300ms;\"></span></div>\n                    </div>\n                </div>\n\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\">Videos</span>\n                    <a href=\"/#/videos/\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-galeria\">\n                    <div class=\"swiper-container home-galeria-videos swiper-container-horizontal\">\n                        <div class=\"swiper-wrapper\">\n                                                            <div class=\"swiper-slide swiper-slide-active\" style=\"width: 255px;\">\n                                    <a href=\"https://www.youtube.com/watch?v=farCZ8d9KqA\" target=\"_blank\">\n                                        <div class=\"h-g-item\">\n                                            <div class=\"h-g-i-img\"><img src=\"http://img.youtube.com/vi/farCZ8d9KqA/0.jpg\" alt=\"\"></div>\n                                            <div class=\"h-g-i-titulo\">Consórcio Público de Saúde Vale do Teles Pires</div>\n                                        </div>\n                                    </a>\n                                </div>\n                                                    </div>\n                        <div class=\"swiper-pagination swiper-pagination-blue swiper-pagination-progress\"><span class=\"swiper-pagination-progressbar\" style=\"transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); transition-duration: 300ms;\"></span></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div></div>\n</div>\n<div class=\"hidden-print\">\n<div class=\"container-fluid footer\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n\n                <img src=\"/imgs/logo_h.png\" width=\"70%\">\n                <div class=\"d-flex justify-content-center f-social\">\n                    <a href=\"https://www.instagram.com/cpsvaledotelespires/\" target=\"_blank\"><i class=\"fa fa-instagram\"></i></a>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <span>(66) 98446-8306</span><br>\n                adm@consorciovaledotelespires.com.br <br>\n                                23.019.551/0001-00 <br>\n                Avenida Blumenau n° 500, Jardim Amazônia <br>\n                78.894-357\n            </div>\n            <div class=\"col-md-4\">\n                <span>HORÁRIO DE ATENDIMENTO</span><br>\n                de Segunda á Sexta <br>\n                Manhã: das 07:30 às 12:00 <br>\n                Tarde: das 13:00 às 17:30 <br>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"container-fluid footer-rights hidden-print\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-5 col-xs-12\">Consórcio Público de Saúde Vale do Teles Pires - todos os direitos reservados©</div>\n            <div class=\"col-md-2 col-xs-12 text-center\">\n                <a href=\"/admin\" target=\"_blank\"><i class=\"fa fa-lock\"></i> Painel Gestor\n            </a></div>\n            <div class=\"col-md-5 col-xs-12 text-right\">\n                <span>Desenvolvido por</span>\n                <a href=\"http://web.pentagono.info/\" target=\"_blank\">Pentágono Sistemas</a>\n            </div>\n        </div>\n    </div>\n</div></div>\n</body></html>",
+    "data": {
+      "title": "Consórcio Público de Saúde Vale do Teles Pires",
+      "rawUrl": "https://www.consorciovaledotelespires.com.br/#/home",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 1,
+        "buttonAname": 1,
+        "a": 41,
+        "linkAName": 41,
+        "svg": 0,
+        "aSameText": 1,
+        "iframeSame": 0,
+        "ariaStPermitted": 3,
+        "ariaAtribDefined": 3,
+        "elementRole": 1,
+        "ariaStValid": 3,
+        "roleValid": 1,
+        "img": 14,
+        "imgAltNo": 7,
+        "imgAltNull": 7,
+        "headers": 0,
+        "elementHiddenFocus": 7,
+        "menuItem": 0,
+        "id": 82,
+        "colorContrast": 13,
+        "elementPresentChildrenNoFocus": 9,
+        "textContrastHNot": 11,
+        "aSkipFirstNo": 1,
+        "labelPosNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "layoutElem": 8,
+        "brSec": 2,
+        "h1": 0,
+        "notOneh1": 0,
+        "li": 6,
+        "liSemantically": 6,
+        "listCorrectly": 4,
+        "idAtt": 4,
+        "area": 0,
+        "inpImg": 63,
+        "label": 1,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>\n                    Consórcio Público de Saúde Vale do Teles Pires\n            </title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações <span class=\"caret\"></span>                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "Publicações"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://cpsvtp.pentagono.info/dash\" target=\"_blank\">\n        \n            \n                \n            \n            \n                Acesso ao Sistema\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Acesso ao Sistema"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://consorciovaledotelespires.1doc.com.br/atendimento\" target=\"_blank\">\n        \n            \n                \n            \n            \n                Atendimento\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "Atendimento"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/contato\">\n        \n            \n                \n            \n            \n                Contato\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3)",
+                "accessibleName": "Contato"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/cpsvaledotelespires/\" target=\"_blank\">\n        \n            \n                \n            \n            \n                Facebook\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(4)",
+                "accessibleName": "Facebook"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/cpsvaledotelespires/\" target=\"_blank\">\n        \n            \n                \n            \n            \n                Instagram\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(5)",
+                "accessibleName": "Instagram"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/\">\n                                                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/municipios\">\n                                Municípios                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Municípios"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/certidoes\">\n                                Certidão Negativa                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Certidão Negativa"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/gestao\">\n                                Gestão                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Gestão"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/contato\">\n                                Contato                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)",
+                "accessibleName": "Contato"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/prefeitos-assinam-plano-de-trabalho-para-a-gestao-do-hospital-regional-de-sinop-/293\">\n                                            \n                                                \n                                                    \n                                                        \n                                                            25/02/2026 -\n                                                                21:30\n                                                        \n                                                        Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop \n                                                        O documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no...\n                                                    \n                                                \n                                            \n                                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "25/02/2026 -\n                                                                21:30Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de SinopO documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-de-saude-vale-do-teles-pires-administrara-o-hospital-regional-de-sinop/295\">\n                                            \n                                                \n                                                    \n                                                        \n                                                            25/05/2026 -\n                                                                22:28\n                                                        \n                                                        Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop\n                                                        O projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta...\n                                                    \n                                                \n                                            \n                                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "25/05/2026 -\n                                                                22:28Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de SinopO projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-de-saude-destina-mais-r$-1-milhao-para-cirurgias-redutoras-de-mama/294\">\n                                            \n                                                \n                                                    \n                                                        \n                                                            08/04/2026 -\n                                                                14:48\n                                                        \n                                                        Consórcio de Saúde destina mais R$ 1 milhão para cirurgias redutoras de mama\n                                                        O recurso é proveniente de multas e rendimentos bancários. Serão realizados 75 procedimentos\n                                                    \n                                                \n                                            \n                                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "08/04/2026 -\n                                                                14:48Consórcio de Saúde destina mais R$ 1 milhão para cirurgias redutoras de mamaO recurso é proveniente de multas e rendimentos bancários. Serão realizados 75 procedimentos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/prefeitos-assinam-plano-de-trabalho-para-a-gestao-do-hospital-regional-de-sinop-/293\">\n                                            \n                                                \n                                                    \n                                                        \n                                                            25/02/2026 -\n                                                                21:30\n                                                        \n                                                        Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop \n                                                        O documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no...\n                                                    \n                                                \n                                            \n                                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "25/02/2026 -\n                                                                21:30Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de SinopO documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-de-saude-vale-do-teles-pires-administrara-o-hospital-regional-de-sinop/295\">\n                                            \n                                                \n                                                    \n                                                        \n                                                            25/05/2026 -\n                                                                22:28\n                                                        \n                                                        Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop\n                                                        O projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta...\n                                                    \n                                                \n                                            \n                                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "25/05/2026 -\n                                                                22:28Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de SinopO projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/noticias\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-de-saude-assina-ordem-de-servico-para-o-inicio-da-construcao-da-sede-propria/292\">\n                            \n                                25/02/2026 - 19:00\n                                 Consórcio de Saúde assina ordem de serviço para o início da construção da sede própria\n                                São mais de mil m² de construção, com investimento de R$ 3.9 milhões. A previsão é que a obra seja entregue em dez meses                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "25/02/2026 - 19:00Consórcio de Saúde assina ordem de serviço para o início da construção da sede própriaSão mais de mil m² de construção, com investimento de R$ 3.9 milhões. A previsão é que a obra seja entregue em dez meses"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-de-saude-investe-mais-de-r$-85-milhoes-e-reforca-atendimentos-em-2025-/291\">\n                            \n                                29/01/2026 - 11:27\n                                 Consórcio de Saúde investe mais de R$ 85 milhões e reforça atendimentos em 2025 \n                                Foram mais de 779 mil serviços realizados, entre consultas, exames e cirurgias, totalizando mais de 170 mil pessoas atendidas                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "29/01/2026 - 11:27Consórcio de Saúde investe mais de R$ 85 milhões e reforça atendimentos em 2025Foram mais de 779 mil serviços realizados, entre consultas, exames e cirurgias, totalizando mais de 170 mil pessoas atendidas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-de-saude-realizara-600-cirurgias-bariatricas-na-regiao-do-teles-pires/290\">\n                            \n                                19/08/2025 - 14:00\n                                 Consórcio de Saúde realizará 600 cirurgias bariátricas na região do Teles Pires\n                                Ao todo, serão investidos mais de R$ 13 milhões, beneficiando os pacientes dos 16 municípios consorciados                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3)",
+                "accessibleName": "19/08/2025 - 14:00Consórcio de Saúde realizará 600 cirurgias bariátricas na região do Teles PiresAo todo, serão investidos mais de R$ 13 milhões, beneficiando os pacientes dos 16 municípios consorciados"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/consorcio-teles-pires-fecha-primeiro-semestre-com-mais-de-r$-37-milhoes-em-servicos-de-saude/289\">\n                            \n                                26/07/2025 - 17:26\n                                 Consórcio Teles Pires fecha primeiro semestre com mais de R$ 37 milhões em serviços de saúde\n                                Os recursos são provenientes dos municípios consorciados e também por meio do Fila Zero, programa do Governo do Estado de Mato Grosso                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(4)",
+                "accessibleName": "26/07/2025 - 17:26Consórcio Teles Pires fecha primeiro semestre com mais de R$ 37 milhões em serviços de saúdeOs recursos são provenientes dos municípios consorciados e também por meio do Fila Zero, programa do Governo do Estado de Mato Grosso"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/noticia/index/r$-12-milhoes-em-maio:-consorcio-de-saude-registra-recorde-de-recursos-aplicados-na-saude-publica/288\">\n                            \n                                07/07/2025 - 10:40\n                                 R$ 12 milhões em maio: Consórcio de Saúde registra recorde de recursos aplicados na saúde pública\n                                Em comparação ao mês anterior, abril de 2025, o aumento foi de quase 40%. O valor foi investido na compra de medicamentos, materiais médicos e...                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(5)",
+                "accessibleName": "07/07/2025 - 10:40R$ 12 milhões em maio: Consórcio de Saúde registra recorde de recursos aplicados na saúde públicaEm comparação ao mês anterior, abril de 2025, o aumento foi de quase 40%. O valor foi investido na compra de medicamentos, materiais médicos e..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/transparencia/publicacoes/get\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2111\">\n                            \n                                \n                                    \n                                     52/2026\n                                     - REGISTRO DE PREÇO 049/2026                                \n\n                                                                    \n                                                                \n                                                                      PREGÃO ELETRÔNICO, PELO SISTEMA DE\nREGISTRO DE PREÇOS, A FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA\nPARA LOCAÇÃO E GESTÃO INTEGRADA DE PARQUE DE IMPRESSÃO E DIGITALIZAÇÃO,\nINCLUINDO INSTALAÇÃO, CONFIGURAÇÃO, SUPORTE TÉCNICO,...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "52/2026- REGISTRO DE PREÇO 049/2026PREGÃO ELETRÔNICO, PELO SISTEMA DE\nREGISTRO DE PREÇOS, A FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA\nPARA LOCAÇÃO E GESTÃO INTEGRADA DE PARQUE DE IMPRESSÃO E DIGITALIZAÇÃO,\nINCLUINDO INSTALAÇÃO, CONFIGURAÇÃO, SUPORTE TÉCNICO,..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2109\">\n                            \n                                \n                                    \n                                     51/2026\n                                     - ORTOPEDIA E TRAUMATOLOGIA                                \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE SERVIÇOS MÉDICOS EM ORTOPEDIA E TRAUMATOLOGIA (ADULTO E PEDIÁTRICO), PARA ATENDER ÀS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, NO...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(2)",
+                "accessibleName": "51/2026- ORTOPEDIA E TRAUMATOLOGIACONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE SERVIÇOS MÉDICOS EM ORTOPEDIA E TRAUMATOLOGIA (ADULTO E PEDIÁTRICO), PARA ATENDER ÀS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, NO..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2104\">\n                            \n                                \n                                    \n                                     50/2026\n                                                                    \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    \n                    \n                    \n                    \n                    \n                     Contratação de pessoa jurídica especializada para a prestação de serviços de gerenciamento técnico,...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(3)",
+                "accessibleName": "50/2026Contratação de pessoa jurídica especializada para a prestação de serviços de gerenciamento técnico,..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2102\">\n                            \n                                \n                                    \n                                     49/2026\n                                     - REGISTRO DE PREÇO 048/2026                                \n\n                                                                    \n                                                                \n                                                                     Pregão Eletrônico com\nRegistro de Preços para futura e eventual Aquisição de Material Médico,\ndestinados ao atendimento das necessidades do Hospital Regional Jorge de Abreu,\nvisando garantir o abastecimento contínuo da unidade, a continuidade...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(4)",
+                "accessibleName": "49/2026- REGISTRO DE PREÇO 048/2026Pregão Eletrônico com\nRegistro de Preços para futura e eventual Aquisição de Material Médico,\ndestinados ao atendimento das necessidades do Hospital Regional Jorge de Abreu,\nvisando garantir o abastecimento contínuo da unidade, a continuidade..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2099\">\n                            \n                                \n                                    \n                                     47/2026\n                                                                    \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    \n                    \n                     PREGÃO\nELETRÔNICO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE\nSERVIÇOS MÉDICOS PARA ATENDIMENTO NO BOX DE EMERGÊNCIA (PRONTO ATENDIMENTO)...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(5)",
+                "accessibleName": "47/2026PREGÃO\nELETRÔNICO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE\nSERVIÇOS MÉDICOS PARA ATENDIMENTO NO BOX DE EMERGÊNCIA (PRONTO ATENDIMENTO)..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2097\">\n                            \n                                \n                                    \n                                     46/2026\n                                     - REGISTRO DE PREÇO 046/2026                                \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    \n                    \n                    \n                     PREGÃO ELETRÔNICO COM REGISTRO DE\nPREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO\nDE SERVIÇOS DE GESTÃO...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(6)",
+                "accessibleName": "46/2026- REGISTRO DE PREÇO 046/2026PREGÃO ELETRÔNICO COM REGISTRO DE\nPREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO\nDE SERVIÇOS DE GESTÃO..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2073\">\n                            \n                                \n                                    \n                                     45/2026\n                                     - REGISTRO DE PREÇOS 045/2026                                \n\n                                                                    \n                                                                \n                                                                     Pregão Eletrônico com registro de preços para futura e\neventual Aquisição de Reagentes/Testes Laboratoriais, itens fracassados do SRP\nPregão Eletrônico n° 034/2026, para atender as demandas dos municípios\nintegrantes deste Consórcio. \n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(7)",
+                "accessibleName": "45/2026- REGISTRO DE PREÇOS 045/2026Pregão Eletrônico com registro de preços para futura e\neventual Aquisição de Reagentes/Testes Laboratoriais, itens fracassados do SRP\nPregão Eletrônico n° 034/2026, para atender as demandas dos municípios\nintegrantes deste Consórcio."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/publicacoes/publicacao/2056\">\n                            \n                                \n                                    \n                                     44/2026\n                                     - REGISTRO DE PREÇO 044/2026                                \n\n                                                                    \n                                                                \n                                                                     PREGÃO ELETRÔNICO, PELO SISTEMA DE REGISTRO DE PREÇOS,\nPARA FUTURA E EVENTUAL AQUISIÇÃO DE FIOS DE SUTURA, DESTINADOS AO ATENDIMENTO\nDAS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, VISANDO GARANTIR O\nABASTECIMENTO CONTÍNUO DA UNIDADE, A...\n                                                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(8)",
+                "accessibleName": "44/2026- REGISTRO DE PREÇO 044/2026PREGÃO ELETRÔNICO, PELO SISTEMA DE REGISTRO DE PREÇOS,\nPARA FUTURA E EVENTUAL AQUISIÇÃO DE FIOS DE SUTURA, DESTINADOS AO ATENDIMENTO\nDAS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, VISANDO GARANTIR O\nABASTECIMENTO CONTÍNUO DA UNIDADE, A..."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://cpsvtp.pentagono.info/dash\" target=\"_blank\">\n                        \n                            \n                            Acesso ao Sistema\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Acesso ao Sistema"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/portal\" target=\"_blank\">\n                        \n                            \n                            Portal Transparência\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "Portal Transparência"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/certidoes\">\n                        \n                            \n                            Certidão Negativa\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(3)",
+                "accessibleName": "Certidão Negativa"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://consorciovaledotelespires.1doc.com.br/atendimento\" target=\"_blank\">\n                        \n                            \n                            Central de Atendimento\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(4)",
+                "accessibleName": "Central de Atendimento"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/municipios\">\n                        \n                            \n                            Municípios Integrantes\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(5)",
+                "accessibleName": "Municípios Integrantes"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/albuns/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/videos/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.youtube.com/watch?v=farCZ8d9KqA\" target=\"_blank\">\n                                        \n                                            \n                                            Consórcio Público de Saúde Vale do Teles Pires\n                                        \n                                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Consórcio Público de Saúde Vale do Teles Pires"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/cpsvaledotelespires/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/admin\" target=\"_blank\"> Painel Gestor\n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Painel Gestor"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://web.pentagono.info/\" target=\"_blank\">Pentágono Sistemas</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "Pentágono Sistemas"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSameText": [
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/transparencia/publicacoes/get\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              },
+              {
+                "htmlCode": "<a href=\"/#/albuns/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              },
+              {
+                "htmlCode": "<a href=\"/#/videos/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              },
+              {
+                "htmlCode": "<a href=\"/#/noticias\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-haspopup` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` textbox.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                    Publicações                 </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementRole": [
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-haspopup` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Digite algo para pesquisar"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "roleValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/atendimento.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/phone.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/face.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/instagram.svg\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/A192E8E7E7.jpg\" style=\"width: 100%\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_h.png\" width=\"70%\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_h.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/transp.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/certificate.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/atendimento.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(4) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/municipios.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(5) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"http://img.youtube.com/vi/farCZ8d9KqA/0.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_h.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/transp.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/certificate.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/atendimento.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(4) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/municipios.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(5) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"http://img.youtube.com/vi/farCZ8d9KqA/0.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Acesso ao Sistema\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Atendimento\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Contato\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Facebook\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(4) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Instagram\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(5) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-n-tit\">Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-n-tit\">Consórcio de Saúde destina mais R$ 1 milhão para cirurgias redutoras de mama</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-n-tit\">Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Acesso ao Sistema</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Portal Transparência</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Certidão Negativa</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Central de Atendimento</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(4) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Municípios Integrantes</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(5) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                    Publicações                 </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/atendimento.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/phone.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/face.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/instagram.svg\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Publicações                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/A192E8E7E7.jpg\" style=\"width: 100%\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_h.png\" width=\"70%\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Acesso ao Sistema\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Atendimento\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Contato\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Facebook\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(4) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Instagram\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(5) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"btn btn-primary\" id=\"search-btn\">Pesquisar</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Acesso ao Sistema</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Portal Transparência</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Certidão Negativa</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Central de Atendimento</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(4) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Municípios Integrantes</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(5) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page does not links to local content.",
+            "resultCode": "F3",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://cpsvtp.pentagono.info/dash\" target=\"_blank\">\n        \n            \n                \n            \n            \n                Acesso ao Sistema\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelPosNo": [
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 52/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 51/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 50/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 49/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 47/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 46/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 45/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(7) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b> 44/2026</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > a:nth-child(8) > div:nth-child(1) > div:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          }
+        ],
+        "brSec": [
+          {
+            "verdict": "failed",
+            "description": "`br` elements are being be used as a list.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-4\">\n                (66) 98446-8306\n                adm@consorciovaledotelespires.com.br \n                                23.019.551/0001-00 \n                Avenida Blumenau n° 500, Jardim Amazônia \n                78.894-357\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "`br` elements are being be used as a list.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-4\">\n                HORÁRIO DE ATENDIMENTO\n                de Segunda á Sexta \n                Manhã: das 07:30 às 12:00 \n                Tarde: das 13:00 às 17:30 \n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                            \n                                                             \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                            \n                                Municípios                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                            \n                                Certidão Negativa                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                            \n                                Gestão                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"dropdown\">\n                            \n                                Publicações                             \n\n                                                        \n                                                                     Todas\n                                                                     Contratos de rateio\n                                                                     Administrativo\n                                                                     Atas de Registro de Preços\n                                                                     COVID-19\n                                                                     Demonstrativos Contábeis\n                                                                     Licitações\n                                                            \n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                            \n                                Contato                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"nav navbar-nav\">\n                    \n                \n                     Home                \n\n                            \n                    \n                \n                    Municípios                \n\n                            \n                    \n                \n                    Certidão Negativa                \n\n                            \n                    \n                \n                    Gestão                \n\n                            \n                    \n                \n                    Publicações                 \n\n                                \n                                            \n                             Todas\n                        \n                                            \n                             Contratos de rateio\n                        \n                                            \n                             Administrativo\n                        \n                                            \n                             Atas de Registro de Preços\n                        \n                                            \n                             COVID-19\n                        \n                                            \n                             Demonstrativos Contábeis\n                        \n                                            \n                             Licitações\n                        \n                                    \n                            \n                    \n                \n                    Contato                \n\n                            \n            </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\">\n                                            \n                             Todas\n                        \n                                            \n                             Contratos de rateio\n                        \n                                            \n                             Administrativo\n                        \n                                            \n                             Atas de Registro de Preços\n                        \n                                            \n                             COVID-19\n                        \n                                            \n                             Demonstrativos Contábeis\n                        \n                                            \n                             Licitações\n                        \n                                    </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"nav navbar-nav pull-right\">\n                                                \n                            \n                                                             \n\n                                                    \n                                                \n                            \n                                Municípios                            \n\n                                                    \n                                                \n                            \n                                Certidão Negativa                            \n\n                                                    \n                                                \n                            \n                                Gestão                            \n\n                                                    \n                                                \n                            \n                                Publicações                             \n\n                                                        \n                                                                     Todas\n                                                                     Contratos de rateio\n                                                                     Administrativo\n                                                                     Atas de Registro de Preços\n                                                                     COVID-19\n                                                                     Demonstrativos Contábeis\n                                                                     Licitações\n                                                            \n                                                    \n                                                \n                            \n                                Contato                            \n\n                                                    \n                                            </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\">\n                                                                     Todas\n                                                                     Contratos de rateio\n                                                                     Administrativo\n                                                                     Atas de Registro de Preços\n                                                                     COVID-19\n                                                                     Demonstrativos Contábeis\n                                                                     Licitações\n                                                            </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav class=\"navbar hidden-xs hidden-print navbar-fixed-top\" id=\"menu-desktop\">\n        \n            \n                \n                    \n                \n                \n                    \n                                                \n                            \n                                                             \n\n                                                    \n                                                \n                            \n                                Municípios                            \n\n                                                    \n                                                \n                            \n                                Certidão Negativa                            \n\n                                                    \n                                                \n                            \n                                Gestão                            \n\n                                                    \n                                                \n                            \n                                Publicações                             \n\n                                                        \n                                                                     Todas\n                                                                     Contratos de rateio\n                                                                     Administrativo\n                                                                     Atas de Registro de Preços\n                                                                     COVID-19\n                                                                     Demonstrativos Contábeis\n                                                                     Licitações\n                                                            \n                                                    \n                                                \n                            \n                                Contato                            \n\n                                                    \n                                            \n                \n            \n        \n    </nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"content\" class=\"\">  \n\n\n    \n        \n            \n                \n                    \n                        \n                            \n                                        \n                                            \n                                                \n                                                    \n                                                        \n                                                            25/02/2026 -\n                                                                21:30\n                                                        \n                                                        Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop \n                                                        O documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no...\n                                                    \n                                                \n                                            \n                                        \n                                    \n                                                                    \n                                        \n                                            \n                                                \n                                                    \n                                                        \n                                                            25/05/2026 -\n                                                                22:28\n                                                        \n                                                        Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop\n                                                        O projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta...\n                                                    \n                                                \n                                            \n                                        \n                                    \n                                                                    \n                                        \n                                            \n                                                \n                                                    \n                                                        \n                                                            08/04/2026 -\n                                                                14:48\n                                                        \n                                                        Consórcio de Saúde destina mais R$ 1 milhão para cirurgias redutoras de mama\n                                                        O recurso é proveniente de multas e rendimentos bancários. Serão realizados 75 procedimentos\n                                                    \n                                                \n                                            \n                                        \n                                    \n                                                                    \n                                        \n                                            \n                                                \n                                                    \n                                                        \n                                                            25/02/2026 -\n                                                                21:30\n                                                        \n                                                        Prefeitos assinam Plano de Trabalho para a Gestão do Hospital Regional de Sinop \n                                                        O documento será encaminhado a SES, que enviará para a análise da PGE. A previsão é que o contrato seja assinado no...\n                                                    \n                                                \n                                            \n                                        \n                                    \n                                                            \n                                        \n                                            \n                                                \n                                                    \n                                                        \n                                                            25/05/2026 -\n                                                                22:28\n                                                        \n                                                        Consórcio de Saúde Vale do Teles Pires administrará o Hospital Regional de Sinop\n                                                        O projeto vem sendo discutido há mais de um ano entre o Estado e os prefeitos. O termo foi assinado na manhã desta...\n                                                    \n                                                \n                                            \n                                        \n                                    \n                            \n                            \n                            \n                            \n                            \n                        \n                    \n                \n\n                \n                \n                    Últimas Notícias\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                                            \n                            \n                                25/02/2026 - 19:00\n                                 Consórcio de Saúde assina ordem de serviço para o início da construção da sede própria\n                                São mais de mil m² de construção, com investimento de R$ 3.9 milhões. A previsão é que a obra seja entregue em dez meses                            \n                        \n                                            \n                            \n                                29/01/2026 - 11:27\n                                 Consórcio de Saúde investe mais de R$ 85 milhões e reforça atendimentos em 2025 \n                                Foram mais de 779 mil serviços realizados, entre consultas, exames e cirurgias, totalizando mais de 170 mil pessoas atendidas                            \n                        \n                                            \n                            \n                                19/08/2025 - 14:00\n                                 Consórcio de Saúde realizará 600 cirurgias bariátricas na região do Teles Pires\n                                Ao todo, serão investidos mais de R$ 13 milhões, beneficiando os pacientes dos 16 municípios consorciados                            \n                        \n                                            \n                            \n                                26/07/2025 - 17:26\n                                 Consórcio Teles Pires fecha primeiro semestre com mais de R$ 37 milhões em serviços de saúde\n                                Os recursos são provenientes dos municípios consorciados e também por meio do Fila Zero, programa do Governo do Estado de Mato Grosso                            \n                        \n                                            \n                            \n                                07/07/2025 - 10:40\n                                 R$ 12 milhões em maio: Consórcio de Saúde registra recorde de recursos aplicados na saúde pública\n                                Em comparação ao mês anterior, abril de 2025, o aumento foi de quase 40%. O valor foi investido na compra de medicamentos, materiais médicos e...                            \n                        \n                    \n\n                                    \n\n                \n                \n                    Últimas Publicações\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                                            \n                            \n                                \n                                    \n                                     52/2026\n                                     - REGISTRO DE PREÇO 049/2026                                \n\n                                                                    \n                                                                \n                                                                      PREGÃO ELETRÔNICO, PELO SISTEMA DE\nREGISTRO DE PREÇOS, A FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA\nPARA LOCAÇÃO E GESTÃO INTEGRADA DE PARQUE DE IMPRESSÃO E DIGITALIZAÇÃO,\nINCLUINDO INSTALAÇÃO, CONFIGURAÇÃO, SUPORTE TÉCNICO,...\n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     51/2026\n                                     - ORTOPEDIA E TRAUMATOLOGIA                                \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE SERVIÇOS MÉDICOS EM ORTOPEDIA E TRAUMATOLOGIA (ADULTO E PEDIÁTRICO), PARA ATENDER ÀS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, NO...\n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     50/2026\n                                                                    \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    \n                    \n                    \n                    \n                    \n                     Contratação de pessoa jurídica especializada para a prestação de serviços de gerenciamento técnico,...\n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     49/2026\n                                     - REGISTRO DE PREÇO 048/2026                                \n\n                                                                    \n                                                                \n                                                                     Pregão Eletrônico com\nRegistro de Preços para futura e eventual Aquisição de Material Médico,\ndestinados ao atendimento das necessidades do Hospital Regional Jorge de Abreu,\nvisando garantir o abastecimento contínuo da unidade, a continuidade...\n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     47/2026\n                                                                    \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    \n                    \n                     PREGÃO\nELETRÔNICO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO CONTINUADA DE\nSERVIÇOS MÉDICOS PARA ATENDIMENTO NO BOX DE EMERGÊNCIA (PRONTO ATENDIMENTO)...\n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     46/2026\n                                     - REGISTRO DE PREÇO 046/2026                                \n\n                                                                    \n                                                                \n                                                                    \n                    \n                    \n                    \n                    \n                     PREGÃO ELETRÔNICO COM REGISTRO DE\nPREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO\nDE SERVIÇOS DE GESTÃO...\n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     45/2026\n                                     - REGISTRO DE PREÇOS 045/2026                                \n\n                                                                    \n                                                                \n                                                                     Pregão Eletrônico com registro de preços para futura e\neventual Aquisição de Reagentes/Testes Laboratoriais, itens fracassados do SRP\nPregão Eletrônico n° 034/2026, para atender as demandas dos municípios\nintegrantes deste Consórcio. \n                                                            \n                        \n                                            \n                            \n                                \n                                    \n                                     44/2026\n                                     - REGISTRO DE PREÇO 044/2026                                \n\n                                                                    \n                                                                \n                                                                     PREGÃO ELETRÔNICO, PELO SISTEMA DE REGISTRO DE PREÇOS,\nPARA FUTURA E EVENTUAL AQUISIÇÃO DE FIOS DE SUTURA, DESTINADOS AO ATENDIMENTO\nDAS NECESSIDADES DO HOSPITAL REGIONAL JORGE DE ABREU, VISANDO GARANTIR O\nABASTECIMENTO CONTÍNUO DA UNIDADE, A...\n                                                            \n                        \n                                    \n            \n            \n                \n                    \n                    Pesquisar\n                \n                \n                    \n                        \n                            \n                            Acesso ao Sistema\n                        \n                    \n                    \n                        \n                            \n                            Portal Transparência\n                        \n                    \n                    \n                        \n                            \n                            Certidão Negativa\n                        \n                    \n                    \n                        \n                            \n                            Central de Atendimento\n                        \n                    \n                    \n                        \n                            \n                            Municípios Integrantes\n                        \n                    \n                \n                \n                    Galeria\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                    \n                        \n                                                    \n                        \n                    \n                \n\n                \n                    Videos\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                    \n                        \n                                                            \n                                    \n                                        \n                                            \n                                            Consórcio Público de Saúde Vale do Teles Pires\n                                        \n                                    \n                                \n                                                    \n                        \n                    \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control\" placeholder=\"Pesquisar\" aria-label=\"Digite algo para pesquisar\" id=\"search-input\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"btn btn-primary\" id=\"search-btn\">Pesquisar</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 23:33:40",
+      "tot": {
+        "info": {
+          "url": "https://www.consorciovaledotelespires.com.br/#/home",
+          "title": "Consórcio Público de Saúde Vale do Teles Pires",
+          "date": "2026-09-21 23:33:40",
+          "htmlTags": 461,
+          "roles": {
+            "document": 1,
+            "generic": 265,
+            "navigation": 2,
+            "list": 4,
+            "listitem": 26,
+            "link": 60,
+            "button": 2,
+            "img": 7,
+            "presentation": 7,
+            "textbox": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 7,
+            "link": 4,
+            "title": 1,
+            "script": 17,
+            "style": 24,
+            "body": 1,
+            "div": 150,
+            "span": 70,
+            "i": 36,
+            "nav": 2,
+            "ul": 4,
+            "li": 26,
+            "a": 63,
+            "img": 14,
+            "br": 31,
+            "b": 8,
+            "input": 1
+          },
+          "size": 188028,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "816a4185227b89897e470bceca0d9aad",
+          "tests": 26,
+          "conform": "8@1@0",
+          "score": "6.2"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 1,
+          "buttonAname": 1,
+          "a": 41,
+          "linkAName": 41,
+          "svg": 0,
+          "aSameText": 1,
+          "iframeSame": 0,
+          "ariaStPermitted": 3,
+          "ariaAtribDefined": 3,
+          "elementRole": 1,
+          "ariaStValid": 3,
+          "roleValid": 1,
+          "img": 14,
+          "imgAltNo": 7,
+          "imgAltNull": 7,
+          "headers": 0,
+          "elementHiddenFocus": 7,
+          "menuItem": 0,
+          "id": 82,
+          "colorContrast": 13,
+          "elementPresentChildrenNoFocus": 9,
+          "textContrastHNot": 11,
+          "aSkipFirstNo": 1,
+          "labelPosNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "layoutElem": 8,
+          "brSec": 2,
+          "h1": 0,
+          "notOneh1": 0,
+          "li": 6,
+          "liSemantically": 6,
+          "listCorrectly": 4,
+          "idAtt": 4,
+          "area": 0,
+          "inpImg": 63,
+          "label": 1,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@1.8",
+          "button_01": "10@18",
+          "a_10": "10@18",
+          "a_09": "something",
+          "aria_05": "10@18",
+          "aria_07": "10@18",
+          "element_10": "10@18",
+          "aria_03": "10@18",
+          "input_02b": "something",
+          "role_01": "10@18",
+          "img_01b": "3@4.5",
+          "img_02": "something",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01b": "3@4.859999999999999",
+          "label_02": "3@9.719999999999999",
+          "layout_01b": "1@2.2",
+          "br_01": "3@4.76",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "listitem_01": "10@18",
+          "list_02": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "8@1@0",
+      "score": "6.2"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T23:33:40.489Z",
+    "requestedUrl": "https://www.consorciovaledotelespires.com.br"
+  }
+}
