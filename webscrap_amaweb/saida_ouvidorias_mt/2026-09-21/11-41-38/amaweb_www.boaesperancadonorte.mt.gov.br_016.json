@@ -1,0 +1,935 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html class=\"no-js\" lang=\"en-US\"><!--<![endif]--><head>\n        <title>Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare</title>\n        <meta charset=\"UTF-8\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\"> <script>\n  (function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode: 1010 },helpful:a,version: 1 };b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n        <script defer=\"\" src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n    </head>\n    <body>\n        <div id=\"cf-wrapper\">\n            <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">\n                Please enable cookies.\n            </div>\n            <div id=\"cf-error-details\" class=\"p-0\">\n                <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n                    <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n                        <span data-translate=\"error\">Error</span>\n                        <span>1010</span>\n                    </h1>\n                    <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: a3ea31d2fefdd4c0 •</span>\n                    <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-09-21 15:45:01 UTC</span>\n                    <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">\n                        Access denied\n                    </h2>\n                </header>\n                \n                \n                <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n                    <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n                        <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">\n                            What happened?\n                        </h2>\n                        \n    <p>The owner of this website (www.boaesperancadonorte.mt.gov.br) has banned your access based on your browser's signature (a3ea31d2fefdd4c0-ua56).</p>\n\n                        \n                        <p>\n                            Please see\n                            <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/</a>\n                            for more details.\n                        </p>\n                        \n                    </div>\n\n                    \n                </section>\n                \n\n                <div class=\"py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">\n            Yes\n        </button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">\n            No\n        </button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div> <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">a3ea31d2fefdd4c0</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span id=\"cf-footer-item-ip\" class=\"cf-footer-item sm:block sm:mb-1\">\n        Your IP:\n        <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">200.133.252.255</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n  </div><!-- /.error-footer -->\n            </div>\n            <!-- /#cf-error-details -->\n        </div>\n        <!-- /#cf-wrapper -->\n\n         <script>\n    window._cf_translation = {};\n    \n    \n  </script> \n        \n    <script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;0cac5c3fb20a4be3a747fb2e3ed44bd3&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>\n\n<span style=\"display: none !important;\"></span></body></html>",
+    "data": {
+      "title": "Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare",
+      "rawUrl": "https://www.boaesperancadonorte.mt.gov.br/ouvidoria/nova/17/denuncia",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 3,
+        "buttonAname": 3,
+        "a": 2,
+        "linkAName": 2,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "hxHasAName": 3,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 20,
+        "colorContrast": 3,
+        "elementPresentChildrenNoFocus": 3,
+        "textContrastHNot": 3,
+        "aSkipFirstNo": 1,
+        "colorFgBgNo": 20,
+        "dd,dt": 0,
+        "idAtt": 14,
+        "dl": 0,
+        "titleLong": 1,
+        "hx": 3,
+        "noDuplicateBanner": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "bannerTopLevel": 1,
+        "li": 0,
+        "area": 0,
+        "inpImg": 2,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html class=\"no-js\" lang=\"en-US\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">\n            Yes\n        </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(1)",
+                "accessibleName": "Yes"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">\n            No\n        </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(2)",
+                "accessibleName": "No"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3) > button:nth-child(1)",
+                "accessibleName": "Click to reveal"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(4) > a:nth-child(2)",
+                "accessibleName": "Cloudflare"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n                        <span data-translate=\"error\">Error</span>\n                        <span>1010</span>\n                    </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h1:nth-child(1)",
+                "accessibleName": "Error1010"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">\n                        Access denied\n                    </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h2:nth-child(4)",
+                "accessibleName": "Access denied"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">\n                            What happened?\n                        </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > h2:nth-child(1)",
+                "accessibleName": "What happened?"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">\n                        Access denied\n                    </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h2:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(4) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">\n            Yes\n        </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">\n            No\n        </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">\n                        Access denied\n                    </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h2:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(4) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page does not links to local content.",
+            "resultCode": "F3",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorFgBgNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">\n                Please enable cookies.\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span data-translate=\"error\">Error</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h1:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>1010</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h1:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: a3ea31d2fefdd4c0 •</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-09-21 15:45:01 UTC</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">\n                        Access denied\n                    </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h2:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">\n                            What happened?\n                        </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>The owner of this website (www.boaesperancadonorte.mt.gov.br) has banned your access based on your browser's signature (a3ea31d2fefdd4c0-ua56).</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n                            Please see\n                            https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\n                            for more details.\n                        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > p:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        \n            Yes\n        \n        \n            No\n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: a3ea31d2fefdd4c0</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"font-semibold\">a3ea31d2fefdd4c0</strong>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(1) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"cf-footer-separator sm:hidden\">•</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"cf-footer-item-ip\" class=\"cf-footer-item sm:block sm:mb-1\">\n        Your IP:\n        Click to reveal\n        200.133.252.255\n        •\n      </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hidden\" id=\"cf-footer-ip\">200.133.252.255</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"cf-footer-separator sm:hidden\">•</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Performance &amp; security by</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(4) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(4) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\">",
+                "pointer": "html > head:nth-child(1) > link:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"cf-wrapper\">\n            \n                Please enable cookies.\n            \n            \n                \n                    \n                        Error\n                        1010\n                    \n                    Ray ID: a3ea31d2fefdd4c0 •\n                    2026-09-21 15:45:01 UTC\n                    \n                        Access denied\n                    \n                \n                \n                \n                \n                    \n                        \n                            What happened?\n                        \n                        \n    The owner of this website (www.boaesperancadonorte.mt.gov.br) has banned your access based on your browser's signature (a3ea31d2fefdd4c0-ua56).\n\n                        \n                        \n                            Please see\n                            https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\n                            for more details.\n                        \n                        \n                    \n\n                    \n                \n                \n\n                \n    \n        Was this page helpful?\n        \n            Yes\n        \n        \n            No\n        \n    \n    \n        Thank you for your feedback!\n    \n \n    \n      Cloudflare Ray ID: a3ea31d2fefdd4c0\n      •\n      \n        Your IP:\n        Click to reveal\n        200.133.252.255\n        •\n      \n      Performance &amp; security by Cloudflare\n      \n    \n    (function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&amp;&amp;\"classList\"in b&amp;&amp;(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&amp;&amp;a.addEventListener(\"DOMContentLoaded\",d)})();\n  \n            \n            \n        </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">\n                Please enable cookies.\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"cf-error-details\" class=\"p-0\">\n                \n                    \n                        Error\n                        1010\n                    \n                    Ray ID: a3ea31d2fefdd4c0 •\n                    2026-09-21 15:45:01 UTC\n                    \n                        Access denied\n                    \n                \n                \n                \n                \n                    \n                        \n                            What happened?\n                        \n                        \n    The owner of this website (www.boaesperancadonorte.mt.gov.br) has banned your access based on your browser's signature (a3ea31d2fefdd4c0-ua56).\n\n                        \n                        \n                            Please see\n                            https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\n                            for more details.\n                        \n                        \n                    \n\n                    \n                \n                \n\n                \n    \n        Was this page helpful?\n        \n            Yes\n        \n        \n            No\n        \n    \n    \n        Thank you for your feedback!\n    \n \n    \n      Cloudflare Ray ID: a3ea31d2fefdd4c0\n      •\n      \n        Your IP:\n        Click to reveal\n        200.133.252.255\n        •\n      \n      Performance &amp; security by Cloudflare\n      \n    \n    (function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&amp;&amp;\"classList\"in b&amp;&amp;(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&amp;&amp;a.addEventListener(\"DOMContentLoaded\",d)})();\n  \n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n                        \n                            What happened?\n                        \n                        \n    The owner of this website (www.boaesperancadonorte.mt.gov.br) has banned your access based on your browser's signature (a3ea31d2fefdd4c0-ua56).\n\n                        \n                        \n                            Please see\n                            https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\n                            for more details.\n                        \n                        \n                    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"py-8 text-center\" id=\"error-feedback\">\n    \n        Was this page helpful?\n        \n            Yes\n        \n        \n            No\n        \n    \n    \n        Thank you for your feedback!\n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        \n            Yes\n        \n        \n            No\n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">\n            Yes\n        </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">\n            No\n        </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"cf-footer-item-ip\" class=\"cf-footer-item sm:block sm:mb-1\">\n        Your IP:\n        Click to reveal\n        200.133.252.255\n        •\n      </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hidden\" id=\"cf-footer-ip\">200.133.252.255</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(3) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > p:nth-child(1) > span:nth-child(4) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "titleLong": [
+          {
+            "verdict": "failed",
+            "description": "The page title has 100 or more characters.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<title>Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n                        Error\n                        1010\n                    </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">\n                        Access denied\n                    </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h2:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">\n                            What happened?\n                        </h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n                    \n                        Error\n                        1010\n                    \n                    Ray ID: a3ea31d2fefdd4c0 •\n                    2026-09-21 15:45:01 UTC\n                    \n                        Access denied\n                    \n                </header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n                        Error\n                        1010\n                    </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n                    \n                        Error\n                        1010\n                    \n                    Ray ID: a3ea31d2fefdd4c0 •\n                    2026-09-21 15:45:01 UTC\n                    \n                        Access denied\n                    \n                </header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 15:45:09",
+      "tot": {
+        "info": {
+          "url": "https://www.boaesperancadonorte.mt.gov.br/ouvidoria/nova/17/denuncia",
+          "title": "Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare",
+          "date": "2026-09-21 15:45:09",
+          "htmlTags": 49,
+          "roles": {
+            "document": 1,
+            "generic": 21,
+            "banner": 1,
+            "heading": 3,
+            "region": 1,
+            "paragraph": 3,
+            "link": 2,
+            "button": 3,
+            "strong": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "title": 1,
+            "meta": 5,
+            "link": 1,
+            "script": 12,
+            "body": 1,
+            "div": 8,
+            "header": 1,
+            "h1": 1,
+            "span": 12,
+            "h2": 2,
+            "section": 1,
+            "p": 3,
+            "a": 2,
+            "button": 3,
+            "strong": 1
+          },
+          "size": 6673,
+          "encoding": "utf-8",
+          "lang": "en-US",
+          "content": "text/html",
+          "hash": "0f738ead5154d165dc77158a3c7a34e4",
+          "tests": 17,
+          "conform": "0@1@0",
+          "score": "9.6"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 3,
+          "buttonAname": 3,
+          "a": 2,
+          "linkAName": 2,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "hxHasAName": 3,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 20,
+          "colorContrast": 3,
+          "elementPresentChildrenNoFocus": 3,
+          "textContrastHNot": 3,
+          "aSkipFirstNo": 1,
+          "colorFgBgNo": 20,
+          "dd,dt": 0,
+          "idAtt": 14,
+          "dl": 0,
+          "titleLong": 1,
+          "hx": 3,
+          "noDuplicateBanner": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "bannerTopLevel": 1,
+          "li": 0,
+          "area": 0,
+          "inpImg": 2,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@36",
+          "a_10": "10@36",
+          "heading_01": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "a_01b": "something",
+          "color_01": "something",
+          "id_01": "10@36",
+          "title_04": "something",
+          "layout_01a": "10@22",
+          "hx_01b": "something",
+          "landmark_09": "10@36",
+          "heading_03": "10@36",
+          "landmark_01": "10@36"
+        }
+      },
+      "conform": "0@1@0",
+      "score": "9.6"
+    }
+  }
+}

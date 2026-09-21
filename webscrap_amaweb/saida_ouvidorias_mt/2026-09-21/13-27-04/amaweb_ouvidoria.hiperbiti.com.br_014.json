@@ -1,0 +1,1497 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html lang=\"pt-br\" id=\"ls-global\" style=\"transform: none;\"><head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Pagina Principal</title>\n\n    <!-- GOOGLE FONT -->\n    <link href=\"https://fonts.googleapis.com/css?family=Roboto:400,500,700,300\" rel=\"stylesheet\" type=\"text/css\">\n\n    <!-- BASE CSS -->\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/css/animate.min.css\" rel=\"stylesheet\">\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/css/style.css\" rel=\"stylesheet\">\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/css/menu.css\" rel=\"stylesheet\">\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/css/icon_fonts/css/all_icons.min.css\" rel=\"stylesheet\">\n\t<link href=\"https://use.fontawesome.com/releases/v5.8.2/css/all.css\" rel=\"stylesheet\">\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/layerslider/css/layerslider.min.css\" rel=\"stylesheet\">\n    <link href=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/css/custom.css\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/css/select2.min.css\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css\">\n  \n    <script type=\"text/javascript\">\n        const token = '7GZDD2K2019032577SIIC2';\n    </script>\n<link rel=\"stylesheet\" href=\"layerslider/skins/v5/skin.css\" type=\"text/css\"><style>.theiaStickySidebar:after {content: \"\"; display: table; clear: both;}</style><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://maps.googleapis.com/maps-api-v3/api/js/66/4d/common.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://maps.googleapis.com/maps-api-v3/api/js/66/4d/util.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://maps.googleapis.com/maps-api-v3/api/js/66/4d/geocoder.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://maps.googleapis.com/maps-api-v3/api/js/66/4d/map.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Fouvidoria.hiperbiti.com.br%2F&amp;4sAIzaSyBvkADh7VCLQ0jDzIsukKglggGUuhlcoNI&amp;8b0&amp;callback=_xdc_._lj841z&amp;key=AIzaSyBvkADh7VCLQ0jDzIsukKglggGUuhlcoNI&amp;token=31784\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://maps.googleapis.com/maps/api/js/GeocodeService.Search?4sJuscimeira%20MT&amp;9sen-US&amp;r_url=https%3A%2F%2Fouvidoria.hiperbiti.com.br%2F&amp;callback=_xdc_._p968ty&amp;key=AIzaSyBvkADh7VCLQ0jDzIsukKglggGUuhlcoNI&amp;token=99228\"></script></head>\n\n<body style=\"transform: none;\">\n\n    <div class=\"layer\"></div>\n    <!-- Menu mask -->\n\n    \n                <div id=\"full-slider-wrapper\">\n        <div id=\"layerslider\" style=\"width: 1366px; height: 195.143px; visibility: visible;\" class=\"ls-container ls-v5\">\n            <!-- first slide -->\n            <div class=\"ls-inner\" style=\"background-color: transparent; width: 1366px; height: 195px;\"><div class=\"ls-slide ls-slide-1 ls-animating\" data-ls=\"slidedelay: 100; transition2d:5;\" style=\"width: 1366px; height: 195px; visibility: visible; display: none; inset: 0px 0px auto auto;\">\n                <img src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/img/slides/slide_1.jpg\" class=\"ls-bg ls-preloaded\" alt=\"Slide background\" style=\"padding: 0px; border-width: 0px; width: 1561.14px; height: 650.801px; margin-left: -97.5714px; margin-top: -227.901px;\"><div class=\"ls-gpuhack\" style=\"width: auto; height: auto; padding: 0px; border-width: 0px; left: 98px; top: 0px;\"></div>\n                <h3 class=\"ls-l slide_typo\" style=\"top: 63.25px; left: 334.5px; width: auto; height: auto; font-size: 44.8829px; line-height: 48.7857px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% bottom 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"offsetxin:0;durationin:100;delayin:100;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;\">\n                OUVIDORIA GERAL DO MUNICÍPIO\n                </h3>\n                <p class=\"ls-l slide_typo_2\" style=\"top: 107px; left: 492px; width: auto; height: auto; font-size: 17.5629px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"durationin:100;delayin:100;easingin:easeOutElastic;\">\n                    PARTICIPE, SUA OPNIÃO É MUITO IMPORTANTE!\n                </p>\n            </div></div>\n            <div id=\"search_bar\">\n             \n            </div>\n            <!-- End search_bar -->\n        <div class=\"ls-loading-container\" style=\"z-index: -1; display: none;\"><div class=\"ls-loading-indicator\"></div></div><div class=\"ls-shadow\"></div></div>\n    </div>\n        <!-- Slider -->\n        \n\n    <div class=\"container margin_60_30 fix_mobile\" style=\"transform: none;\">\n        \n<div id=\"top\" class=\"row\">\n        \n    <div class=\"col-md-4 col-sm-12\" align=\"center\">\n        <img src=\"https://ouvidoria.hiperbiti.com.br/storage/app/uploads/public/5f6/a90/852/5f6a90852f31b511384853.png\" style=\"height: 100px !important;\">\n    </div>\n            <div class=\"col-md-8 col-sm-12\" align=\"center\">\n            <div class=\"main_title\">\n                <h2><strong>Ouvidoria</strong></h2>\n                <p>\n                    Cadastre ou Consulte sua manifestação em nosso município!                \n                </p>\n                <span><em></em></span>\n            </div>\n        </div>\n    \n</div>\n\n<div class=\"row box_cat\">\n    <div class=\"col-md-12 col-sm-12\" align=\"center\">                \n       <span style=\"font-style: 10px;\">Para obter informações sobre sua solitação junto a este portal de serviços, informe seu código de Atendimento.</span>\n       <form id=\"formSearch\">\n           <div id=\"custom-search-input\">\n                <input type=\"text\" id=\"search_query\" name=\"search_query\" class=\"search-query\" placeholder=\"Código de Atendimento\">\n                <input type=\"submit\" class=\"btn_search\" value=\"submit\">\n            </div>              \n        </form>\n        <br><br>\n    </div>            \n</div>\n\n<section id=\"message-success\" class=\"bg_white margin_60_30 screen-message\" style=\"display: none;\">\n    <div class=\"row\">\n        <div id=\"message-result\" class=\"col-sm-12\">\n            \n        </div>\n    </div>\n</section>\n\n<div id=\"result-partial\" style=\"margin-bottom: 20px; display: none;\">\n    <div class=\"col-md-12\">\n    <div class=\"box_style_general \">\n        <div class=\"row\" align=\"right\">\n            <div class=\"col-sm-12\">\n                <a id=\"btn-close-search\" href=\"javascript:;\">\n                    <i class=\"fas fa-times\"></i>\n                </a>\n            </div>\n        </div>\n        <div class=\"row\">\n        \t<div class=\"col-sm-12\">\n                                     <div class=\"alert alert-danger\" role=\"alert\" style=\"font-size: 18px;\" align=\"center\">\n                      Ops... O código que você informou não existe. Verifique se digitou corretamente!\n                    </div>\n                        \t\t\n        \t</div>\n        </div>\n    </div>\n    </div></div>\n\n<div class=\"row box_cat\">\n    \n            <div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Service\" class=\"link-main\">\n        <i class=\"fas fa-briefcase\"></i>\n        <h3>Serviços DAE</h3>\n        <p>\n            Algo precisa de atenção? Nos avise!\n        </p>\n    </a>\n</div>\n\n<div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Denunciation\" class=\"link-main\">\n        <i class=\"fas fa-exclamation-triangle\"></i>\n        <h3>Reclamação</h3>\n        <p>\n            Queremos ouvir você!\n        </p>\n    </a>\n</div>\n<div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Denunciation\" class=\"link-main\">\n        <i class=\"fas fa-bullhorn\"></i>\n        <h3>Denúncia</h3>\n        <p>\n            Viu algo que está errado? Denuncie!\n        </p>\n    </a>\n</div>\n<div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Proposal\" class=\"link-main\">\n        <i class=\"fas fa-lightbulb\"></i>\n        <h3>Propostas</h3>\n        <p>\n            Colabore com o crescimento de nossa cidade!\n        </p>\n    </a>\n</div>\n<div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Approval\" class=\"link-main\">\n        <i class=\"fas fa-thumbs-up\"></i>\n        <h3>Elogios</h3>\n        <p>\n            Seu elogio nos mostra o caminho que devemos manter!\n        </p>\n    </a>\n</div>\n<div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Information\" class=\"link-main\">\n        <i class=\"fas fa-question\"></i>\n        <h3>Dúvidas</h3>\n        <p>\n            Estamos aqui para retirar suas dúvidas!\n        </p>\n    </a>\n</div>\n<div class=\"col-md-4 col-sm-6\">\n    <a href=\"javascript:;\" data-type=\"Information\" class=\"link-main\">\n        <i class=\"fas fa-question\"></i>\n        <h3>Informações</h3>\n        <p>\n            Estamos aqui para fornecer as informações que você precisa!\n        </p>\n    </a>\n</div>        \n</div>\n<div class=\"row box_cat\" style=\"transform: none;\">\n    \n            <section class=\"bg_white margin_60_30 screen-categories\" style=\"display: none; transform: none;\">\n    <div class=\"\" style=\"transform: none;\">\n        <div id=\"categories\" class=\"row\" style=\"transform: none;\">\n            <div class=\"col-md-3\" id=\"sidebar\" style=\"position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;\">    \n                <div align=\"center\"> <b>Selecione o Assunto</b> </div>            \n                <div class=\"theiaStickySidebar\" style=\"padding-top: 0px; padding-bottom: 0px; position: static;\">\n                    <div class=\"box_style_1\" id=\"faq_box\">\n                        <ul id=\"cat_nav\">\n                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"1\" class=\"link-category\"><i class=\"fas fa-wheelchair\"></i>  <b>Acessibilidade </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"2\" class=\"link-category\"><i class=\"fas fa-tint\"></i>  <b>Água e Esgoto </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"3\" class=\"link-category\"><i class=\"fas fa-cloud\"></i>  <b>Alagamento </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"4\" class=\"link-category\"><i class=\"fas fa-tree\"></i>  <b>Árvores </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"5\" class=\"link-category\"><i class=\"fas fa-money-bill-alt\"></i>  <b>Bem Público  </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"6\" class=\"link-category\"><i class=\"fas fa-bicycle\"></i>  <b>Ciclovia </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"7\" class=\"link-category\"><i class=\"fas fa-shopping-cart\"></i>  <b>Comércio </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"8\" class=\"link-category\"><i class=\"fas fa-graduation-cap\"></i>  <b>Educação </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"9\" class=\"link-category\"><i class=\"fas fa-road\"></i>  <b>Estradas </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"10\" class=\"link-category\"><i class=\"fas fa-lightbulb\"></i>  <b>Iluminação </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"11\" class=\"link-category\"><i class=\"fas fa-trash-alt\"></i>  <b>Lixo </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"12\" class=\"link-category\"><i class=\"fas fa-cogs\"></i>  <b>Obras </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"13\" class=\"link-category\"><i class=\"fas fa-users\"></i>  <b>Pedestres </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"14\" class=\"link-category\"><i class=\"fas fa-eye\"></i>  <b>Poluição Visual </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"15\" class=\"link-category\"><i class=\"fas fa-volume-up\"></i>  <b>Poluição Sonora </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"16\" class=\"link-category\"><i class=\"fas fa-plane\"></i>  <b>Poluição Ar </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"17\" class=\"link-category\"><i class=\"fas fa-fire-extinguisher\"></i>  <b>Queimadas </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"18\" class=\"link-category\"><i class=\"fas fa-medkit\"></i>  <b>Saúde </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"19\" class=\"link-category\"><i class=\"fas fa-unlock-alt\"></i>  <b>Segurança </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"20\" class=\"link-category\"><i class=\"fas fa-pagelines\"></i>  <b>Matos </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"21\" class=\"link-category\"><i class=\"fas fa-car\"></i>  <b>Trânsito </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"22\" class=\"link-category\"><i class=\"fas fa-universal-access\"></i>  <b>Social </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"23\" class=\"link-category\"><i class=\"fas fa-bus\"></i>  <b>Transporte </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"123\" class=\"link-category\"><i class=\"fas fa-map-marker-alt\"></i>  <b>Estacionamento Irregular </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"125\" class=\"link-category\"><i class=\"fas fa-home\"></i>  <b>Habitação </b> </a>\n                                    </li>\n                                                                                \n                                                                    <li>\n                                        <a href=\"javascript:;\" data-id=\"131\" class=\"link-category\"><i class=\"fas fa-tree\"></i>  <b>Parques </b> </a>\n                                    </li>\n                                                                                        \n                        </ul>\n                    </div>\n                </div>\n            </div>\n\n            <div id=\"data-form\" class=\"col-md-9 effect-blur\">\n                <div align=\"center\">\n                    <div class=\"\">                        \n                        <div class=\"row box_cat\">                            \n                            <div class=\"col-md-6 col-sm-12\">\n                                <a id=\"link-identify-user\" href=\"javascript:;\" data-id=\"I\" class=\"link-categories active\">\n                                    <i class=\"fas fa-user-circle\"></i>\n                                    <h3>Identificar</h3>\n                                    <p>\n                                        Quero me identificar e receber atualizações em tempo real!\n                                    </p>\n                                </a>\n                            </div>\n                            <div class=\"col-md-6 col-sm-12 link-anonymous-user\">\n                                <a id=\"link-anonymous-user\" href=\"javascript:;\" data-id=\"A\" class=\"link-categories\">\n                                    <i class=\"fas fa-user-secret\"></i>\n                                    <h3>Sigiloso</h3>\n                                    <p>\n                                        Fique tranquilo, mantemos o total sigilo dos seus dados.\n                                    </p>\n                                </a>\n                            </div>                            \n                        </div>\n                    </div>                    \n                </div>            \n                <form method=\"post\" id=\"formData\" data-request=\"onSaveData\" data-request-flash=\"\" data-request-success=\"Main.success(this, context, data, textStatus, jqXHR)\" data-request-error=\"Main.error(this, context, data, textStatus, jqXHR)\" enctype=\"multipart/form-data\">\n                    <input type=\"hidden\" name=\"type\" id=\"type\" value=\"\">\n                    <input type=\"hidden\" name=\"identifier\" id=\"identifier\" value=\"I\">\n                    <input type=\"hidden\" name=\"company_id\" id=\"company_id\" value=\"10\">\n                    <input type=\"hidden\" name=\"lat\" id=\"lat\">\n                    <input type=\"hidden\" name=\"lng\" id=\"lng\">\n                    <input type=\"hidden\" name=\"unit_id\" value=\"66\">\n                    <div class=\"box_style_general data-user\">\n                        <div class=\"wrapper_indent\">                            \n                                <div class=\"row\">\n                                    <div class=\"col-md-6 col-sm-6\">\n                                        <div class=\"form-group\">\n                                            <label>Nome completo</label>\n                                            <input type=\"text\" class=\"form-control styled user\" id=\"name\" name=\"name\" required=\"required\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-md-6 col-sm-6\">\n                                        <div class=\"form-group\">\n                                            <label>CPF</label>\n                                            <input type=\"text\" class=\"form-control styled user\" id=\"cpf\" name=\"cpf\" required=\"true\">\n                                        </div>\n                                    </div>\n                                </div>\n                                <div class=\"row\">\n                                    <div class=\"col-md-6 col-sm-6\">\n                                        <div class=\"form-group\">\n                                            <label>Telefone</label>\n                                            <input type=\"text\" id=\"phone\" name=\"phone\" class=\"form-control styled user\" placeholder=\"(xx) xxxx-xxxx\" maxlength=\"15\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-md-6 col-sm-6\">\n                                        <div class=\"form-group\">\n                                            <label>E-mail</label>\n                                            <input type=\"email\" class=\"form-control styled user\" id=\"email\" name=\"email\" placeholder=\"exemplo@exemplo.com.br\">\n                                        </div>\n                                    </div>\n                                    <!-- \n                                    <div class=\"col-md-6 col-sm-6\">\n                                        <div class=\"form-group\">\n                                            <label>Estado</label>\n                                            <select name=\"state\" id=\"state\" class=\"form-control user\">\n                                                <option value=\"\">Selecione o Estado</option>\n                                                <option value=\"AC\">Acre</option>\n                                                <option value=\"AL\">Alagoas</option>\n                                                <option value=\"AP\">Amapá</option>\n                                                <option value=\"AM\">Amazonas</option>\n                                                <option value=\"BA\">Bahia</option>\n                                                <option value=\"CE\">Ceará</option>\n                                                <option value=\"DF\">Distrito Federal</option>\n                                                <option value=\"ES\">Espirito Santo</option>\n                                                <option value=\"GO\">Goiás</option>\n                                                <option value=\"MA\">Maranhão</option>\n                                                <option value=\"MS\">Mato Grosso do Sul</option>\n                                                <option value=\"MT\">Mato Grosso</option>\n                                                <option value=\"MG\">Minas Gerais</option>\n                                                <option value=\"PA\">Pará</option>\n                                                <option value=\"PB\">Paraíba</option>\n                                                <option value=\"PR\">Paraná</option>\n                                                <option value=\"PE\">Pernambuco</option>\n                                                <option value=\"PI\">Piauí</option>\n                                                <option value=\"RJ\">Rio de Janeiro</option>\n                                                <option value=\"RN\">Rio Grande do Norte</option>\n                                                <option value=\"RS\">Rio Grande do Sul</option>\n                                                <option value=\"RO\">Rondônia</option>\n                                                <option value=\"RR\">Roraima</option>\n                                                <option value=\"SC\">Santa Catarina</option>\n                                                <option value=\"SP\">São Paulo</option>\n                                                <option value=\"SE\">Sergipe</option>\n                                                <option value=\"TO\">Tocantins</option>\n                                            </select>\n                                        </div>\n                                    </div> \n                                    <div class=\"col-md-6 col-sm-6\">\n                                        <div class=\"form-group\">\n                                            <label>Cidade</label>\n                                            <input type=\"text\" id=\"city\" name=\"city\" class=\"form-control styled user\">\n                                        </div>\n                                    </div>\n                                    -->\n                                </div>                                                    \n                        </div>\n                        <!-- End wrapper_indent -->\n                    </div>\n                    <div class=\"box_style_general\">\n                        <div class=\"indent_title_in\">\n                            <i class=\"icon_pencil-edit\"></i>\n                            <h3>Manifestação</h3>\n                        </div>\n                        <div class=\"wrapper_indent\">\n                            <div id=\"message-contact\"></div>                        \n                                <div class=\"row data-answers\">\n                                    <div class=\"col-md-11 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Deseja que a Ouvidoria mantenha sigilo sobre a manifestação?</label>\n                                            <input id=\"secret\" name=\"secret\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\"><span class=\"switchery switchery-small\" style=\"box-shadow: rgb(223, 223, 223) 0px 0px 0px 0px inset; border-color: rgb(223, 223, 223); background-color: rgb(255, 255, 255); transition: border 0.4s, box-shadow 0.4s;\"><small style=\"left: 0px; transition: background-color 0.4s, left 0.2s;\"></small></span>\n                                            <br>\n                                            <span style=\"font-size: 11px; font-style: italic;\">\n                                            Permite que outros usuários possam ver a sua manifestação. Fique tranquilo, caso tenha feito de forma anônima, seus dados não serão divulgados.\n                                        </span>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"row data-user data-answers\">\n                                    <div class=\"col-md-12 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Deseja receber sua resposta através de:</label>\n                                            <div class=\"row\">\n                                                <div class=\"col-md-3 col-sm-12\">\n                                                    <label>E-mail</label>\n                                                    <input id=\"receive_email\" name=\"receive_email\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\"><span class=\"switchery switchery-small\" style=\"box-shadow: rgb(223, 223, 223) 0px 0px 0px 0px inset; border-color: rgb(223, 223, 223); background-color: rgb(255, 255, 255); transition: border 0.4s, box-shadow 0.4s;\"><small style=\"left: 0px; transition: background-color 0.4s, left 0.2s;\"></small></span>\n                                                </div>\n                                                <div class=\"col-md-3 col-sm-12\">\n                                                    <label>Telefone</label>\n                                                    <input id=\"receive_phone\" name=\"receive_phone\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\"><span class=\"switchery switchery-small\" style=\"box-shadow: rgb(223, 223, 223) 0px 0px 0px 0px inset; border-color: rgb(223, 223, 223); background-color: rgb(255, 255, 255); transition: border 0.4s, box-shadow 0.4s;\"><small style=\"left: 0px; transition: background-color 0.4s, left 0.2s;\"></small></span>\n                                                </div>\n                                                <div class=\"col-md-5 col-sm-12\">\n                                                    <label>Push notificação (Aplicativo)</label>\n                                                    <input id=\"receive_notification\" name=\"receive_notification\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\"><span class=\"switchery switchery-small\" style=\"box-shadow: rgb(223, 223, 223) 0px 0px 0px 0px inset; border-color: rgb(223, 223, 223); background-color: rgb(255, 255, 255); transition: border 0.4s, box-shadow 0.4s;\"><small style=\"left: 0px; transition: background-color 0.4s, left 0.2s;\"></small></span>\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                    <div class=\"row\">\n                                        <div class=\"col-md-6 col-sm-12\">\n                                            <div class=\"form-group\">\n                                                <label>Qual o assunto</label>\n                                                <select id=\"category_id\" name=\"category_id\" class=\"form-control\" required=\"\">\n                                                    \n                                                </select>\n                                            </div>\n                                        </div>                                \n                                        <div class=\"col-md-6 col-sm-12\">\n                                            <div class=\"form-group\">\n                                                <label>Hidrômetro</label>\n                                                <input type=\"number\" class=\"form-control styled\" id=\"extras_hidometro\" name=\"extras[Hidrometro]\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                \n                                <div class=\"row category-hidden\" data-depends=\"214\" style=\"display: none\">\n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Horário</label>\n                                            <input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Horario]\">\n                                        </div>\n                                    </div>                                \n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Ônibus danificado</label>\n                                            <input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Onibus Danificado]\">\n                                        </div>\n                                    </div> \n\n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Ponto de Ônibus</label>\n                                            <input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Ponto Onibus]\">\n                                        </div>\n                                    </div> \n\n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Super-Lotação</label>\n                                            <input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Super Lotacao]\">\n                                        </div>\n                                    </div> \n\n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Transporte Irregular</label>\n                                            <input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Transporte Irregular]\">\n                                        </div>\n                                    </div> \n                                </div>\n                                                            \n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <div class=\"form-group\">\n                                            <label>Descrição</label>\n                                            <textarea rows=\"5\" id=\"description\" name=\"description\" class=\"form-control styled\" style=\"height:100px;\" placeholder=\"Descreva a sua manifestação aqui\" required=\"\"></textarea>\n                                        </div>\n                                    </div>\n                                </div>\n                                <div class=\"row form-address\">\n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Estado</label>\n                                            <select name=\"state_denunciation\" id=\"state_denunciation\" class=\"form-control address-data\" required=\"\">\n                                                <option value=\"\">Selecione o Estado</option>\n                                                                                                    <option value=\"AC\">AC</option>\n                                                                                                    <option value=\"AL\">AL</option>\n                                                                                                    <option value=\"AM\">AM</option>\n                                                                                                    <option value=\"AP\">AP</option>\n                                                                                                    <option value=\"BA\">BA</option>\n                                                                                                    <option value=\"CE\">CE</option>\n                                                                                                    <option value=\"DF\">DF</option>\n                                                                                                    <option value=\"ES\">ES</option>\n                                                                                                    <option value=\"GO\">GO</option>\n                                                                                                    <option value=\"MA\">MA</option>\n                                                                                                    <option value=\"MG\">MG</option>\n                                                                                                    <option value=\"MS\">MS</option>\n                                                                                                    <option value=\"MT\" selected=\"\">MT</option>\n                                                                                                    <option value=\"PA\">PA</option>\n                                                                                                    <option value=\"PB\">PB</option>\n                                                                                                    <option value=\"PE\">PE</option>\n                                                                                                    <option value=\"PI\">PI</option>\n                                                                                                    <option value=\"PR\">PR</option>\n                                                                                                    <option value=\"RJ\">RJ</option>\n                                                                                                    <option value=\"RN\">RN</option>\n                                                                                                    <option value=\"RO\">RO</option>\n                                                                                                    <option value=\"RR\">RR</option>\n                                                                                                    <option value=\"RS\">RS</option>\n                                                                                                    <option value=\"SC\">SC</option>\n                                                                                                    <option value=\"SE\">SE</option>\n                                                                                                    <option value=\"SP\">SP</option>\n                                                                                                    <option value=\"TO\">TO</option>\n                                                                                                                                        \n                                            </select>\n                                        </div>\n                                    </div> \n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Cidade</label>\n                                            <input type=\"text\" class=\"form-control styled address-data\" id=\"city_denunciation\" name=\"city_denunciation\" value=\"Juscimeira\" required=\"\">\n                                        </div>\n                                    </div>                                  \n                                </div> \n                                <div class=\"row form-address\">\n                                    <div class=\"col-md-6 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Endereço</label>\n                                            <input type=\"text\" class=\"form-control styled address-data\" id=\"address\" name=\"address\" required=\"\">\n                                        </div>\n                                    </div> \n                                    <div class=\"col-md-2 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>N°</label>\n                                            <input type=\"text\" class=\"form-control styled address-data\" id=\"address_number\" name=\"address_number\" required=\"\">\n                                        </div>\n                                    </div> \n                                    <div class=\"col-md-2 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Quadra</label>\n                                            <input type=\"text\" class=\"form-control styled address-data\" id=\"extras-quadra\" name=\"extras[Quadra]\">\n                                        </div>\n                                    </div>   \n                                    <div class=\"col-md-2 col-sm-12\">\n                                        <div class=\"form-group\">\n                                            <label>Bairro</label>\n                                            <input type=\"text\" class=\"form-control styled address-data\" id=\"address_observation\" name=\"address_observation\" required=\"\">                                            \n                                        </div>\n                                    </div>                               \n                                </div> \n\n                                <div class=\"row map-init form-address\" style=\"display: ; margin-top: 10px;\">\n                                    <div class=\"col-sm-12\">\n                                        <b>Arraste o pino para o endereço correto</b>\n                                        <div id=\"map\" style=\"width: 100%; height: 300px;\"><div style=\"height: 100%; width: 100%;\"><div style=\"overflow: hidden;\"></div></div></div>\n                                    </div>\n                                </div>\n\n                                <div class=\"row form-address\" style=\"margin-top: 20px;\">\n                                    <div class=\"col-md-12\">\n                                        <div class=\"form-group\">\n                                            <label>Imagem</label>\n                                            <input type=\"file\" name=\"image\" id=\"image\">\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"row\" style=\"margin-top: 20px;\">\n                                    <div class=\"col-md-12\">                                \n                                        <input type=\"submit\" value=\"Salvar Manifestação\" class=\"button add_bottom_30\" style=\"width: 100%;\">\n                                    </div> \n                                </div>                        \n                        </div>\n                        \n                        <!-- End wrapper_indent -->\n                    </div></form>\n                            \n            </div>\n        </div>\n\n    </div>\n</section>        \n</div>    </div>\n    <!-- End container -->\n\n    \n    <!-- Footer ================================================== -->\n    <footer>\n        <div class=\"container\">\n    <hr>\n    <div class=\"row\">\n        <div class=\"col-sm-6\">\n            Desenvolvido por HiperBiti.com.br\n        </div>\n        <div class=\"col-sm-6\">\n            <div id=\"social_footer\">\n                <ul>\n                    <li><a href=\"#0\"><i class=\"icon-facebook\"></i></a>\n                    </li>\n                    <li><a href=\"#0\"><i class=\"icon-twitter\"></i></a>\n                    </li>\n                    <li><a href=\"#0\"><i class=\"icon-google\"></i></a>\n                    </li>\n                    <li><a href=\"#0\"><i class=\"icon-instagram\"></i></a>\n                    </li>\n                    <li><a href=\"#0\"><i class=\"icon-pinterest\"></i></a>\n                    </li>\n                </ul>\n\n            </div>\n        </div>\n    </div>\n    <!-- End row -->\n</div>        \n    </footer>    \n    <!-- End Footer =============================================== -->\n\n    <!-- COMMON SCRIPTS -->\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/jquery-2.2.4.min.js\"></script>\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/common_scripts_min.js\"></script>\n    <script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBvkADh7VCLQ0jDzIsukKglggGUuhlcoNI\"></script>\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/assets/validate.js\"></script>\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/functions.js\"></script>\n\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/layerslider/js/greensock.js\"></script>\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/layerslider/js/layerslider.transitions.js\"></script>\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/layerslider/js/layerslider.kreaturamedia.jquery.js\"></script>\n     <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/switchery.min.js\"></script>\n    <script type=\"text/javascript\">\n        'use strict';\n        $('#layerslider').layerSlider({\n            autoStart: true,\n            navButtons: false,\n            navStartStop: false,\n            showCircleTimer: false,\n            responsive: true,\n            responsiveUnder: 1400,\n            layersContainer: 1170,\n            skinsPath: 'layerslider/skins/'\n        });\n        // Tabs\n        new CBPFWTabs(document.getElementById('tabs'));\n    </script>    \n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/infobox.js\"></script>    \n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/theia-sticky-sidebar.min.js\"></script>\n    <script>\n        'use strict';\n        jQuery('#sidebar').theiaStickySidebar({\n            additionalMarginTop: 80\n        });\n        $('#faq_box a[href^=\"#\"]').on('click', function (e) {\n            e.preventDefault();\n            var target = this.hash;\n            var $target = $(target);\n            $('html, body').stop().animate({\n                'scrollTop': $target.offset().top - 120\n            }, 900, 'swing', function () {\n                window.location.hash = target;\n            });\n        });\n\n        var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));\n        elems.forEach(function (html) {\n            var switchery = new Switchery(html, {\n                size: 'small'\n            });\n        });\n    </script>\n    <script src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/js/main.js?v=25\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/js/select2.min.js\"></script>  \n    <script type=\"text/javascript\">\n        $(function(){\n            $(\".custom-select\").select2()\n        });\n    </script>\n    <script src=\"/modules/system/assets/js/framework.combined-min.js?v=1.1.8\"></script>\n<link rel=\"stylesheet\" property=\"stylesheet\" href=\"/modules/system/assets/css/framework.extras-min.css?v=1.1.8\">\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.14/jquery.mask.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js\"></script>\n\n\n\n<div class=\"stripe-loading-indicator loaded\"><div class=\"stripe\"></div><div class=\"stripe-loaded\"></div></div></body></html>",
+    "data": {
+      "title": "Pagina Principal",
+      "rawUrl": "https://ouvidoria.hiperbiti.com.br/?token=7GZDD2K2019032577SIIC2",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 1,
+        "buttonAname": 1,
+        "a": 12,
+        "linkAName": 12,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 2,
+        "imgAltNo": 1,
+        "hxHasAName": 9,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 20,
+        "colorContrast": 2,
+        "elementPresentChildrenNoFocus": 9,
+        "textContrastHNot": 11,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "idAttNot": 1,
+        "dl": 0,
+        "layoutElem": 28,
+        "hx": 9,
+        "noDuplicateContentinfo": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "li": 5,
+        "liSemantically": 5,
+        "listCorrectly": 2,
+        "contentinfoTopLevel": 1,
+        "area": 0,
+        "inpImg": 41,
+        "label": 32,
+        "form": 2,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Pagina Principal</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-br\" id=\"ls-global\" style=\"transform: none;\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"submit\" class=\"btn_search\" value=\"submit\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2) > div:nth-child(1) > input:nth-child(2)",
+                "accessibleName": "submit"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Service\" class=\"link-main\">\n        \n        Serviços DAE\n        \n            Algo precisa de atenção? Nos avise!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Serviços DAEAlgo precisa de atenção? Nos avise!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Denunciation\" class=\"link-main\">\n        \n        Reclamação\n        \n            Queremos ouvir você!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "ReclamaçãoQueremos ouvir você!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Denunciation\" class=\"link-main\">\n        \n        Denúncia\n        \n            Viu algo que está errado? Denuncie!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "DenúnciaViu algo que está errado? Denuncie!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Proposal\" class=\"link-main\">\n        \n        Propostas\n        \n            Colabore com o crescimento de nossa cidade!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "PropostasColabore com o crescimento de nossa cidade!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Approval\" class=\"link-main\">\n        \n        Elogios\n        \n            Seu elogio nos mostra o caminho que devemos manter!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "ElogiosSeu elogio nos mostra o caminho que devemos manter!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Information\" class=\"link-main\">\n        \n        Dúvidas\n        \n            Estamos aqui para retirar suas dúvidas!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(6) > a:nth-child(1)",
+                "accessibleName": "DúvidasEstamos aqui para retirar suas dúvidas!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" data-type=\"Information\" class=\"link-main\">\n        \n        Informações\n        \n            Estamos aqui para fornecer as informações que você precisa!\n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(7) > a:nth-child(1)",
+                "accessibleName": "InformaçõesEstamos aqui para fornecer as informações que você precisa!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#0\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#0\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#0\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#0\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#0\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"search_query\" name=\"search_query\" class=\"search-query\" placeholder=\"Código de Atendimento\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2) > div:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Código de Atendimento"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://ouvidoria.hiperbiti.com.br/storage/app/uploads/public/5f6/a90/852/5f6a90852f31b511384853.png\" style=\"height: 100px !important;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"ls-l slide_typo\" style=\"top: 63.25px; left: 334.5px; width: auto; height: auto; font-size: 44.8829px; line-height: 48.7857px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% bottom 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"offsetxin:0;durationin:100;delayin:100;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;\">\n                OUVIDORIA GERAL DO MUNICÍPIO\n                </h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(3)",
+                "accessibleName": "OUVIDORIA GERAL DO MUNICÍPIO"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2><strong>Ouvidoria</strong></h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Serviços DAE</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Serviços DAE"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Reclamação</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(2) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Reclamação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Denúncia</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Denúncia"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Propostas</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(4) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Propostas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Elogios</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(5) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Elogios"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Dúvidas</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(6) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Dúvidas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Informações</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(7) > a:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Informações"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"ls-l slide_typo\" style=\"top: 63.25px; left: 334.5px; width: auto; height: auto; font-size: 44.8829px; line-height: 48.7857px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% bottom 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"offsetxin:0;durationin:100;delayin:100;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;\">\n                OUVIDORIA GERAL DO MUNICÍPIO\n                </h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"ls-l slide_typo_2\" style=\"top: 107px; left: 492px; width: auto; height: auto; font-size: 17.5629px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"durationin:100;delayin:100;easingin:easeOutElastic;\">\n                    PARTICIPE, SUA OPNIÃO É MUITO IMPORTANTE!\n                </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://ouvidoria.hiperbiti.com.br/themes/theme-ecidade/assets/img/slides/slide_1.jpg\" class=\"ls-bg ls-preloaded\" alt=\"Slide background\" style=\"padding: 0px; border-width: 0px; width: 1561.14px; height: 650.801px; margin-left: -97.5714px; margin-top: -227.901px;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://ouvidoria.hiperbiti.com.br/storage/app/uploads/public/5f6/a90/852/5f6a90852f31b511384853.png\" style=\"height: 100px !important;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"submit\" class=\"btn_search\" value=\"submit\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"secret\" name=\"secret\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"receive_email\" name=\"receive_email\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"receive_phone\" name=\"receive_phone\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"receive_notification\" name=\"receive_notification\" type=\"checkbox\" class=\"js-switch\" data-switchery=\"true\" style=\"display: none;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"submit\" value=\"Salvar Manifestação\" class=\"button add_bottom_30\" style=\"width: 100%;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(11) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > hr:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"ls-l slide_typo\" style=\"top: 63.25px; left: 334.5px; width: auto; height: auto; font-size: 44.8829px; line-height: 48.7857px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% bottom 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"offsetxin:0;durationin:100;delayin:100;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;\">\n                OUVIDORIA GERAL DO MUNICÍPIO\n                </h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"ls-l slide_typo_2\" style=\"top: 107px; left: 492px; width: auto; height: auto; font-size: 17.5629px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"durationin:100;delayin:100;easingin:easeOutElastic;\">\n                    PARTICIPE, SUA OPNIÃO É MUITO IMPORTANTE!\n                </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n                    Cadastre ou Consulte sua manifestação em nosso município!                \n                </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span style=\"font-style: 10px;\">Para obter informações sobre sua solitação junto a este portal de serviços, informe seu código de Atendimento.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Algo precisa de atenção? Nos avise!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Queremos ouvir você!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(2) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Viu algo que está errado? Denuncie!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Colabore com o crescimento de nossa cidade!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(4) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Seu elogio nos mostra o caminho que devemos manter!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(5) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Estamos aqui para retirar suas dúvidas!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(6) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p>\n            Estamos aqui para fornecer as informações que você precisa!\n        </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(7) > a:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page is not a link.",
+            "resultCode": "F4",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"search_query\" name=\"search_query\" class=\"search-query\" placeholder=\"Código de Atendimento\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "formSubmit": [
+          {
+            "verdict": "passed",
+            "description": "The form contains one of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form id=\"formSearch\">\n           \n                \n                \n                          \n        </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAttNot": [
+          {
+            "verdict": "failed",
+            "description": "Several elements have the same `id` attribute.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Horario]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"
+              },
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Onibus Danificado]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > input:nth-child(2)"
+              },
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Ponto Onibus]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > input:nth-child(2)"
+              },
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Super Lotacao]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(5) > div:nth-child(4) > div:nth-child(1) > input:nth-child(2)"
+              },
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control styled\" id=\"extras-quadra\" name=\"extras[Transporte Irregular]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(5) > div:nth-child(5) > div:nth-child(1) > input:nth-child(2)"
+              },
+              {
+                "htmlCode": "<input type=\"text\" class=\"form-control styled address-data\" id=\"extras-quadra\" name=\"extras[Quadra]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Selecione o Assunto</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > b:nth-child(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Acessibilidade </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Água e Esgoto </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Alagamento </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Árvores </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Bem Público  </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Ciclovia </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Comércio </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Educação </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Estradas </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Iluminação </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(10) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Lixo </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(11) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Obras </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(12) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Pedestres </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(13) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Poluição Visual </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(14) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Poluição Sonora </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(15) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Poluição Ar </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(16) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Queimadas </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(17) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Saúde </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(18) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Segurança </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(19) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Matos </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(20) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Trânsito </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(21) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Social </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(22) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Transporte </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(23) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Estacionamento Irregular </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(24) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Habitação </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(25) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Parques </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(26) > a:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Arraste o pino para o endereço correto</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(9) > div:nth-child(1) > b:nth-child(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"ls-l slide_typo\" style=\"top: 63.25px; left: 334.5px; width: auto; height: auto; font-size: 44.8829px; line-height: 48.7857px; padding: 0px; border-width: 0px; visibility: visible; margin-left: 0px; margin-top: 0px; transform-origin: 50% bottom 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;\" data-ls=\"offsetxin:0;durationin:100;delayin:100;easingin:easeOutElastic;rotatexin:90;transformoriginin:50% bottom 0;offsetxout:0;rotatexout:90;transformoriginout:50% bottom 0;\">\n                OUVIDORIA GERAL DO MUNICÍPIO\n                </h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Ouvidoria</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Serviços DAE</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Reclamação</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(2) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Denúncia</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Propostas</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(4) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Elogios</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(5) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Dúvidas</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(6) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Informações</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(7) > a:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer>\n        \n    \n    \n        \n            Desenvolvido por HiperBiti.com.br\n        \n        \n            \n                \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                \n\n            \n        \n    \n    \n        \n    </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    </li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    </li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    </li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    </li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    </li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"cat_nav\">\n                                                \n                                                                    \n                                          Acessibilidade  \n                                    \n                                                                                \n                                                                    \n                                          Água e Esgoto  \n                                    \n                                                                                \n                                                                    \n                                          Alagamento  \n                                    \n                                                                                \n                                                                    \n                                          Árvores  \n                                    \n                                                                                \n                                                                    \n                                          Bem Público   \n                                    \n                                                                                \n                                                                    \n                                          Ciclovia  \n                                    \n                                                                                \n                                                                    \n                                          Comércio  \n                                    \n                                                                                \n                                                                    \n                                          Educação  \n                                    \n                                                                                \n                                                                    \n                                          Estradas  \n                                    \n                                                                                \n                                                                    \n                                          Iluminação  \n                                    \n                                                                                \n                                                                    \n                                          Lixo  \n                                    \n                                                                                \n                                                                    \n                                          Obras  \n                                    \n                                                                                \n                                                                    \n                                          Pedestres  \n                                    \n                                                                                \n                                                                    \n                                          Poluição Visual  \n                                    \n                                                                                \n                                                                    \n                                          Poluição Sonora  \n                                    \n                                                                                \n                                                                    \n                                          Poluição Ar  \n                                    \n                                                                                \n                                                                    \n                                          Queimadas  \n                                    \n                                                                                \n                                                                    \n                                          Saúde  \n                                    \n                                                                                \n                                                                    \n                                          Segurança  \n                                    \n                                                                                \n                                                                    \n                                          Matos  \n                                    \n                                                                                \n                                                                    \n                                          Trânsito  \n                                    \n                                                                                \n                                                                    \n                                          Social  \n                                    \n                                                                                \n                                                                    \n                                          Transporte  \n                                    \n                                                                                \n                                                                    \n                                          Estacionamento Irregular  \n                                    \n                                                                                \n                                                                    \n                                          Habitação  \n                                    \n                                                                                \n                                                                    \n                                          Parques  \n                                    \n                                                                                        \n                        </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(6) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                </ul>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer>\n        \n    \n    \n        \n            Desenvolvido por HiperBiti.com.br\n        \n        \n            \n                \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                \n\n            \n        \n    \n    \n        \n    </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 17:35:24",
+      "tot": {
+        "info": {
+          "url": "https://ouvidoria.hiperbiti.com.br/?token=7GZDD2K2019032577SIIC2",
+          "title": "Pagina Principal",
+          "date": "2026-09-21 17:35:24",
+          "htmlTags": 448,
+          "roles": {
+            "document": 1,
+            "generic": 207,
+            "img": 2,
+            "heading": 12,
+            "paragraph": 11,
+            "strong": 1,
+            "emphasis": 1,
+            "form": 2,
+            "textbox": 16,
+            "button": 2,
+            "region": 2,
+            "link": 41,
+            "alert": 1,
+            "list": 2,
+            "listitem": 31,
+            "checkbox": 4,
+            "combobox": 2,
+            "spinbutton": 1,
+            "contentinfo": 1,
+            "separator": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 3,
+            "title": 1,
+            "link": 13,
+            "script": 33,
+            "style": 1,
+            "body": 1,
+            "div": 126,
+            "img": 2,
+            "h3": 11,
+            "p": 11,
+            "h2": 1,
+            "strong": 1,
+            "span": 7,
+            "em": 1,
+            "form": 2,
+            "input": 29,
+            "br": 3,
+            "section": 2,
+            "a": 41,
+            "i": 42,
+            "b": 28,
+            "ul": 2,
+            "li": 31,
+            "label": 24,
+            "small": 4,
+            "select": 2,
+            "textarea": 1,
+            "option": 28,
+            "footer": 1,
+            "hr": 1
+          },
+          "size": 49199,
+          "encoding": "utf-8",
+          "lang": "pt-br",
+          "content": "text/html",
+          "hash": "ef62fe00a3d896e02855a1bfaaf018e0",
+          "tests": 20,
+          "conform": "4@1@0",
+          "score": "7.3"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 1,
+          "buttonAname": 1,
+          "a": 12,
+          "linkAName": 12,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 2,
+          "imgAltNo": 1,
+          "hxHasAName": 9,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 20,
+          "colorContrast": 2,
+          "elementPresentChildrenNoFocus": 9,
+          "textContrastHNot": 11,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "idAttNot": 1,
+          "dl": 0,
+          "layoutElem": 28,
+          "hx": 9,
+          "noDuplicateContentinfo": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "li": 5,
+          "liSemantically": 5,
+          "listCorrectly": 2,
+          "contentinfoTopLevel": 1,
+          "area": 0,
+          "inpImg": 41,
+          "label": 32,
+          "form": 2,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@36",
+          "a_10": "10@36",
+          "input_02b": "10@19",
+          "img_01b": "1@3",
+          "heading_01": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "a_01b": "something",
+          "form_01a": "10@8",
+          "id_02": "1@3.6",
+          "layout_01b": "1@2.2",
+          "hx_01b": "something",
+          "landmark_11": "10@36",
+          "heading_04": "1@3.6",
+          "listitem_01": "10@36",
+          "list_02": "10@36",
+          "landmark_05": "10@36"
+        }
+      },
+      "conform": "4@1@0",
+      "score": "7.3"
+    }
+  }
+}

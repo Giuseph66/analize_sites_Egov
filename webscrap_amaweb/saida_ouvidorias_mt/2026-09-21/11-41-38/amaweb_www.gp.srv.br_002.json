@@ -1,0 +1,295 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html><head>\n    <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\">\n    <meta charset=\"utf-8\">\n    <title>:: COPLAN - Solucoes em gestão pública ::</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no\">\n\n        <style>\n\n                body {\n                        color: #626262;\n                        font-family: \"Segoe UI\", Arial, sans-serif;\n                        font-size: 14px;\n                        font-weight: normal;\n                        letter-spacing: 0.01em;\n                        -webkit-font-smoothing: antialiased;\n                        -webkit-text-size-adjust: 100%;\n                        -ms-text-size-adjust: 100%;\n                        -webkit-font-feature-settings: \"kern\" 1;\n                        -moz-font-feature-settings: \"kern\" 1;\n                        height: 100%;\n                        margin: 0;\n                        padding: 0;\n                        background-color: #fafafa;\n                        direction: ltr;\n                        line-height: 1.42857143;\n                }\n\n                .container-xs-height {\n                        display: table;\n                        padding-left: 0px;\n                        padding-right: 0px;\n                        width: 100%;\n                        border-collapse: collapse;\n                        table-layout: fixed;\n                }\n\n                .full-height {\n                        height: 100% !important;\n                }\n\n                .row-xs-height {\n                        display: table-row;\n                }\n\n                .col-xs-height {\n                        display: table-cell;\n                        float: none;\n                }\n\n                .col-middle {\n                        vertical-align: middle !important;\n                }\n                .error-container {\n                        margin-left: auto;\n                        margin-right: auto;\n                        width: 38%;\n                }\n\n                .text-center {\n                        text-align: center !important;\n                }\n\n                .windows h1, .windows h2, .windows h3, .windows h4, .windows h5 {\n                        font-weight: 300;\n                        letter-spacing: normal;\n                }\n\n                .windows h1 {\n                        font-size: 33px;\n                        line-height: 49px;\n                }\n\n                .error-number {\n                        font-family: 'Montserrat';\n                }\n\n\n                h1, h2, h3, h4, h5, h6 {\n                        margin: 10px 0;\n                        -webkit-font-smoothing: antialiased;\n                        -webkit-text-size-adjust: 100%;\n                        -ms-text-size-adjust: 100%;\n                        font-weight: 300;\n                        color: #2c2c2c;\n                }\n\n        </style>\n\n  </head>\n  <body class=\"fixed-header error-page\">\n    <div class=\"container-xs-height full-height\">\n      <div class=\"row-xs-height\">\n        <div class=\"col-xs-height col-middle\">\n          <div class=\"error-container text-center\">\n            <h1 class=\"error-number\">Ocorreu um erro!</h1>\n    <h2 class=\"semi-bold\"> ERRO 504</h2>\n    <h2 class=\"semi-bold\"></h2>\n<!--    <p>trace_id -> (none)</p> -->\n          </div>\n        </div>\n      </div>\n    </div>\n  \n\n</body></html>",
+    "data": {
+      "title": ":: COPLAN - Solucoes em gestão pública ::",
+      "rawUrl": "https://www.gp.srv.br/adm_altafloresta/ouvidoria/#/home",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 0,
+        "a": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "hxWithoutAName": 1,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 2,
+        "colorContrastOk": 2,
+        "textContrastH": 2,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 3,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "aSkipNo": 1,
+        "li": 0,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>:: COPLAN - Solucoes em gestão pública ::</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxWithoutAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"semi-bold\"></h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(3)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrastOk": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"error-number\">Ocorreu um erro!</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"semi-bold\"> ERRO 504</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastH": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"error-number\">Ocorreu um erro!</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"semi-bold\"> ERRO 504</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"error-number\">Ocorreu um erro!</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"semi-bold\"> ERRO 504</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"semi-bold\"></h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"error-number\">Ocorreu um erro!</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 15:42:50",
+      "tot": {
+        "info": {
+          "url": "https://www.gp.srv.br/adm_altafloresta/ouvidoria/#/home",
+          "title": ":: COPLAN - Solucoes em gestão pública ::",
+          "date": "2026-09-21 15:42:50",
+          "htmlTags": 15,
+          "roles": {
+            "document": 1,
+            "generic": 5,
+            "heading": 3
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 3,
+            "title": 1,
+            "style": 1,
+            "script": 7,
+            "body": 1,
+            "div": 4,
+            "h1": 1,
+            "h2": 2
+          },
+          "size": 3461,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "1d2ffb87730834c3fff14611f7821ca4",
+          "tests": 11,
+          "conform": "3@1@0",
+          "score": "6.2"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 0,
+          "a": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "hxWithoutAName": 1,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 2,
+          "colorContrastOk": 2,
+          "textContrastH": 2,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 3,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "aSkipNo": 1,
+          "li": 0,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@2",
+          "heading_02": "1@3.6",
+          "color_02_b": "4@3.84",
+          "textC_01": "10@36",
+          "a_01b": "something",
+          "layout_01a": "10@22",
+          "hx_01b": "something",
+          "heading_03": "10@36",
+          "a_04": "7@28",
+          "a_02a": "1@1.6"
+        }
+      },
+      "conform": "3@1@0",
+      "score": "6.2"
+    }
+  }
+}

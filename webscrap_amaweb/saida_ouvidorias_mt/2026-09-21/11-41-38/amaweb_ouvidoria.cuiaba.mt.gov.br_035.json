@@ -1,0 +1,1793 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\"><head>\n  <meta charset=\"UTF-8\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Ouvidoria Digital — Prefeitura de Cuiabá</title>\n  <script type=\"module\" crossorigin=\"\" src=\"/assets/index-IuKDotB5.js\"></script>\n  <link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-BEI2fqJ7.css\">\n<link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/new-qPQ7knog.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/public-header-n58D-TLi.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/utils-DclmTqRz.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/createLucideIcon-C_Wm3Ifi.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/public-footer-DJ1WahtD.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/phone-B_Y-rcRv.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/mail-7CV_I3kz.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/manifestation-form-CpIwtWR7.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/api-client-Ck9O9UuD.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/input-DnDbM5-K.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/use-departments-DZmCP2Rr.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/useQuery-DWLZMiMc.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/useMutation-c89YtWvK.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/sic-Bzy8qE7w.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/index-DV4p5GE1.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/circle-alert-BYdsZSWy.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/building-2-BQeSCL3g.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/file-text-BYwmts5S.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/x-C2U5hEOo.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/user-DR7z87WS.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/message-square-FkipjZQP.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/check-CdRGniMs.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/loader-circle-S5Sf7zv_.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/send-DyxLlGzl.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/circle-check-1M3SXgrr.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"/assets/arrow-left-DbsBaMs_.js\"><script id=\"cf-turnstile-script\" src=\"https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback&amp;render=explicit\" defer=\"\" async=\"\"></script></head>\n\n<body>\n  <div id=\"root\"><div class=\"min-h-full bg-slate-50 flex flex-col\"><header class=\"w-full relative z-50\"><div class=\"bg-[#007d4c] text-white py-2\"><div class=\"container mx-auto px-6 flex justify-between items-center\"><div class=\"flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest overflow-hidden\"></div><div class=\"flex items-center gap-4\"><a href=\"/login\" class=\"flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest hover:text-white/80 transition-all\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path></svg>Acesso Restrito</a></div></div></div><div class=\"bg-white border-b border-slate-100 shadow-sm overflow-hidden\"><div class=\"container mx-auto px-6 py-4 md:py-6 flex flex-col md:flex-row items-center justify-between gap-6\"><a href=\"/\" class=\"flex items-center gap-4 hover:opacity-90 transition-all group shrink-0\"><div class=\"flex items-center gap-5\"><img alt=\"Logo Prefeitura de Cuiabá\" class=\"w-auto object-contain transition-all h-16 md:h-20\" src=\"/logo_cuiaba.png\"><div class=\"h-12 w-px bg-slate-200 hidden md:block\"></div><div class=\"text-left\"><h1 class=\"font-extrabold text-2xl md:text-3xl text-slate-800 tracking-tighter leading-tight uppercase\">Ouvidoria <span class=\"text-[#007d4c]\">Geral</span></h1><p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]\">Município de Cuiabá</p></div></div></a><div class=\"flex items-center gap-3\"><a href=\"/sic\" class=\"bg-slate-100 text-slate-600 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-slate-200 transition-all active:scale-95 border border-slate-200\">Portal SIC</a><a class=\"bg-[#007d4c] text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:brightness-110 shadow-lg shadow-[#007d4c]/20 transition-all active:scale-95 active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a></div></div></div><div class=\"bg-slate-50 border-b border-slate-100 py-3\"><div class=\"container mx-auto px-6\"><div class=\"flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest\"><a href=\"/\" class=\"hover:text-primary transition-colors\">Início</a><span>&gt;</span><span class=\"hover:text-primary transition-colors\">Serviços</span><span>&gt;</span><span class=\"hover:text-primary transition-colors\">Cidadão</span><span>&gt;</span><span class=\"text-primary\">Ouvidoria</span></div></div></div></header><main class=\"flex-grow container mx-auto px-6 pt-12\"><div class=\"max-w-4xl mx-auto space-y-8\"><div class=\"flex items-center justify-between\"><div><h2 class=\"text-3xl font-extrabold text-slate-900 mb-2 tracking-tight uppercase\">Novo Registro de Manifestação</h2><p class=\"text-slate-600 font-medium\">Utilize este formulário para enviar elogios, sugestões, reclamações ou denúncias.</p></div><button class=\"p-4 bg-white border border-slate-200 rounded-2xl text-slate-400 hover:text-primary transition-all hover:border-primary/20 active:scale-90 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-left\" aria-hidden=\"true\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg></button></div><div class=\"bg-white rounded-[2.5rem] shadow-2xl shadow-slate-200/50 border border-slate-100 overflow-hidden\"><form novalidate=\"\" class=\"p-10 space-y-12\"><section class=\"space-y-8\"><div class=\"flex items-center gap-3 border-b border-slate-50 pb-4\"><div class=\"bg-secondary/10 p-2 rounded-lg text-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-text\" aria-hidden=\"true\"><path d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\"></path><path d=\"M14 2v5a1 1 0 0 0 1 1h5\"></path><path d=\"M10 9H8\"></path><path d=\"M16 13H8\"></path><path d=\"M16 17H8\"></path></svg></div><h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Detalhes da Manifestação</h3></div><div class=\"grid grid-cols-1 md:grid-cols-2 gap-8\"><div><label class=\"block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 px-1\">Tipo de Manifestação *</label><select name=\"type\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold text-slate-700\"><option value=\"elogio\">Elogio</option><option value=\"reclamacao\">Reclamação</option><option value=\"sugestao\">Sugestão</option><option value=\"denuncia\">Denúncia</option><option value=\"solicitacao\">Solicitação</option></select></div><div><label class=\"block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 px-1\">Assunto Geral *</label><input placeholder=\"Resumo do assunto...\" class=\"w-full h-14 px-5 border-2 rounded-2xl outline-none transition-all font-bold bg-slate-50 border-slate-100 focus:border-primary focus:bg-white\" type=\"text\" value=\"\" name=\"subject\"></div><div class=\"col-span-full\"><label class=\"block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 px-1\">Descrição Detalhada *</label><textarea rows=\"6\" name=\"description\" placeholder=\"Relato completo da demanda...\" class=\"w-full p-6 border-2 rounded-[2rem] outline-none transition-all font-bold text-lg bg-slate-50 border-slate-100 focus:border-primary focus:bg-white\"></textarea></div><div class=\"col-span-full\"><label class=\"block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 px-1\">Secretaria Responsável (Opcional)</label><select name=\"departmentId\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold text-slate-700\"><option value=\"\">Não Sei / Selecione...</option><option value=\"4\"> Secretaria Municipal Mobilidade Urbana e Segurança Pública</option><option value=\"22\">Controladoria Geral Do Município</option><option value=\"18\">Cuiabá Regula</option><option value=\"15\">Hospital Municipal de Cuiabá</option><option value=\"17\">Hospital Municipal São Benedito</option><option value=\"19\">Limpurb - Empresa Cuiabana De Zeladoria e Serviços Urbanos</option><option value=\"13\">Procuradoria Geral</option><option value=\"25\">Secretaria da Mulher</option><option value=\"6\">Secretaria Municipal de Assistência Social, Direitos Humanos e inclusão</option><option value=\"21\">Secretaria Municipal De Comunicação</option><option value=\"23\">Secretaria Municipal de Cultura</option><option value=\"14\">Secretaria Municipal De Desenvolvimento Econômico, Trabalho, Turismo e Agricultura</option><option value=\"16\">Secretaria Municipal de Economia</option><option value=\"2\">Secretaria Municipal de Educação</option><option value=\"24\">Secretaria Municipal de Esportes e Lazer</option><option value=\"11\">Secretaria Municipal de Governo</option><option value=\"20\">Secretaria Municipal De Habitação E Regularização Fundiária</option><option value=\"3\">Secretaria Municipal De Infraestrutura E Obras</option><option value=\"5\">Secretaria Municipal De Meio Ambiente , Desenvolvimento e planejamento Urbano</option><option value=\"7\">Secretaria Municipal De Ordem Pública</option><option value=\"12\">Secretaria Municipal De Planejamento e Orçamento</option><option value=\"1\">Secretaria Municipal De Saúde</option></select></div><div class=\"col-span-full\"><label class=\"block text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 px-1\">Anexos (Fotos, Documentos)</label><div class=\"border-2 border-dashed border-slate-200 rounded-[2rem] p-10 hover:border-primary hover:bg-primary/5 transition-all cursor-pointer flex flex-col items-center justify-center gap-4 bg-slate-50/50\"><div class=\"bg-white p-4 rounded-full shadow-sm text-slate-400\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-paperclip\" aria-hidden=\"true\"><path d=\"m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551\"></path></svg></div><div class=\"text-center\"><p class=\"font-black text-slate-600 uppercase tracking-tight\">Clique para anexar arquivos</p><p class=\"text-[10px] text-slate-400 font-bold uppercase mt-1\">Imagens, PDFs ou documentos até 20MB</p></div><input multiple=\"\" class=\"hidden\" type=\"file\"></div></div></div></section><section class=\"space-y-8\"><div class=\"flex items-center gap-3 border-b border-slate-50 pb-4\"><div class=\"bg-emerald-50 p-2 rounded-lg text-emerald-500\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg></div><h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Identificação do Solicitante</h3></div><div class=\"space-y-8\"><div class=\"flex gap-8 bg-slate-50 p-6 rounded-2xl border border-slate-100\"><label class=\"flex items-center gap-3 cursor-pointer\"><input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"nao\" checked=\"\" name=\"anonimo\"><span class=\"text-xs font-black uppercase tracking-widest text-primary\">Identificado</span></label><label class=\"flex items-center gap-3 cursor-pointer\"><input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"sim\" name=\"anonimo\"><span class=\"text-xs font-black uppercase tracking-widest text-slate-400\">Anônimo</span></label></div><div class=\"grid grid-cols-1 md:grid-cols-2 gap-8 animate-in slide-in-from-top-4 duration-300\"><div class=\"col-span-full\"><label class=\"block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 px-1\">Nome Completo</label><input placeholder=\"Nome do manifestante\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" type=\"text\" value=\"\" name=\"name\"></div><div><label class=\"block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 px-1\">Gênero</label><select name=\"gender\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\"><option value=\"\">Selecione</option><option value=\"Masculino\">Masculino</option><option value=\"Feminino\">Feminino</option><option value=\"Não quero informar\">Não quero informar</option></select></div><div><label class=\"block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 px-1\">CPF / CNPJ</label><input class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" value=\"\" name=\"cpfCnpj\"></div><div><label class=\"block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 px-1\">Telefone</label><input class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" value=\"\" name=\"phone\"></div><div><label class=\"block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 px-1\">Bairro</label><input placeholder=\"Ex: Centro\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" type=\"text\" value=\"\" name=\"neighborhood\"></div><div><label class=\"block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 px-1\">E-mail</label><input placeholder=\"email@exemplo.com\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" type=\"email\" value=\"\" name=\"emailRequester\"></div></div></div></section><section class=\"space-y-8\"><div class=\"flex items-center gap-3 border-b border-slate-50 pb-4\"><div class=\"bg-blue-50/50 p-2 rounded-lg text-blue-500\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-message-square\" aria-hidden=\"true\"><path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\"></path></svg></div><h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Resposta e Contato</h3></div><div class=\"space-y-8\"><div class=\"flex flex-col sm:flex-row gap-8 bg-slate-50 p-6 rounded-2xl border border-slate-100\"><label class=\"flex items-center gap-3 cursor-pointer\"><input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"sim\" name=\"wantsResponse\"><span class=\"text-xs font-black uppercase tracking-widest text-slate-400\">Desejo uma resposta oficial</span></label><label class=\"flex items-center gap-3 cursor-pointer\"><input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"nao\" checked=\"\" name=\"wantsResponse\"><span class=\"text-xs font-black uppercase tracking-widest text-primary\">Não desejo resposta</span></label></div></div></section><div class=\"p-6 rounded-2xl border-2 transition-all bg-amber-50 border-amber-200\"><label class=\"flex items-start gap-4 cursor-pointer\"><div class=\"relative flex-shrink-0 mt-0.5\"><input id=\"lgpdConsent\" class=\"sr-only peer\" type=\"checkbox\"><div class=\"w-6 h-6 rounded-lg border-2 flex items-center justify-center transition-all bg-white border-amber-300 hover:border-amber-400\"></div></div><div class=\"flex-1\"><p class=\"text-xs font-bold uppercase tracking-widest mb-2 text-amber-700\">Consentimento LGPD — Obrigatório *</p><p class=\"text-sm leading-relaxed text-amber-800\">Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação.</p></div></label></div><div class=\"flex flex-col items-center gap-3 py-4 rounded-[2rem] border border-dashed bg-slate-50/50 border-slate-100\"><div id=\"cf-turnstile\" style=\"width: 300px; height: 65px;\"><div><div></div><input type=\"hidden\" name=\"cf-turnstile-response\" id=\"cf-chl-widget-cekh1_response\"></div></div></div><div class=\"pt-8 flex flex-col sm:flex-row-reverse gap-4 border-t border-slate-100\"><button type=\"submit\" class=\"px-12 py-5 bg-primary text-white font-black uppercase tracking-widest rounded-2xl shadow-2xl shadow-primary/30 hover:brightness-110 disabled:opacity-70 transition-all active:scale-95 flex items-center justify-center gap-3 min-w-[240px]\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-send\" aria-hidden=\"true\"><path d=\"M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z\"></path><path d=\"m21.854 2.147-10.94 10.939\"></path></svg> Enviar Manifestação</button><button type=\"button\" class=\"px-8 py-5 text-xs font-black uppercase tracking-widest text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-2xl transition-all\">Cancelar</button></div></form></div></div></main><footer class=\"w-full\"><div class=\"bg-[#007d4c] text-white py-12 md:py-16\"><div class=\"container mx-auto px-6\"><div class=\"grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8\"><div class=\"space-y-6 flex flex-col items-center text-center\"><img alt=\"Prefeitura de Cuiabá\" class=\"h-16 w-auto object-contain\" src=\"/logo-prefeitura-branca.png\"><p class=\"text-sm font-medium text-white/80 leading-relaxed max-w-xs\">Ouvidoria Geral do Município de Cuiabá.<br>Sua voz é fundamental para a melhoria dos serviços públicos.</p></div><div class=\"space-y-6\"><h4 class=\"font-black uppercase tracking-widest text-xs\">Links Úteis</h4><ul class=\"space-y-3\"><li><a href=\"/\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Página Inicial</a></li><li><a class=\"text-sm font-medium text-white/70 hover:text-white transition-colors active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a></li><li><a href=\"/sic\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Acesso à Informação (SIC)</a></li><li><a href=\"https://www.cuiaba.mt.gov.br/\" target=\"_blank\" rel=\"noreferrer\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Portal da Prefeitura</a></li><li><a href=\"http://transparencia.cuiaba.mt.gov.br/portaltransparencia\" target=\"_blank\" rel=\"noreferrer\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Portal da Transparência</a></li></ul></div><div class=\"space-y-6\"><h4 class=\"font-black uppercase tracking-widest text-xs\">Contato</h4><ul class=\"space-y-4\"><li class=\"flex items-start gap-3\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin text-white/50 mt-0.5 shrink-0\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg><span class=\"text-sm font-medium text-white/80 leading-tight\">Av. Mato Grosso, 459 - Centro Norte<br>Cuiabá - MT<br>78005-030</span></li><li class=\"flex items-center gap-3\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone text-white/50 shrink-0\" aria-hidden=\"true\"><path d=\"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384\"></path></svg><span class=\"text-sm font-medium text-white/80\">(65) 99263-9779 (Whatsapp e Ligação)</span></li><li class=\"flex items-center gap-3\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail text-white/50 shrink-0\" aria-hidden=\"true\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"></path><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect></svg><span class=\"text-sm font-medium text-white/80\">ouvidoria.geral@cuiaba.mt.gov.br</span></li></ul></div></div></div></div><div class=\"bg-[#005a37] text-white/40 py-6 border-t border-white/5\"><div class=\"container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left\"><p class=\"text-[10px] font-black uppercase tracking-[0.2em]\">© 2026 PREFEITURA DE CUIABÁ - TODOS OS DIREITOS RESERVADOS</p><div class=\"flex items-center gap-4\"><span class=\"text-[10px] font-bold uppercase tracking-widest\">Desenvolvido por SAETI / PMC</span></div></div></div></footer></div></div>\n\n\n</body></html>",
+    "data": {
+      "title": "Ouvidoria Digital — Prefeitura de Cuiabá",
+      "rawUrl": "https://ouvidoria.cuiaba.mt.gov.br/new",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 3,
+        "buttonNotAname": 1,
+        "a": 10,
+        "linkAName": 10,
+        "elementDec": 10,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaStPermitted": 2,
+        "ariaAtribDefined": 12,
+        "ariaStValid": 2,
+        "inputLabelNo": 5,
+        "img": 2,
+        "hxHasAName": 7,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 41,
+        "colorContrast": 13,
+        "elementPresentChildrenNoFocus": 10,
+        "textContrastHNot": 18,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "idAtt": 5,
+        "dl": 0,
+        "hx": 7,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "noDuplicateMain": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "bannerTopLevel": 1,
+        "li": 8,
+        "liSemantically": 8,
+        "listCorrectly": 2,
+        "contentinfoTopLevel": 1,
+        "mainTopLevel": 1,
+        "area": 0,
+        "inpImg": 10,
+        "label": 17,
+        "form": 1,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Ouvidoria Digital — Prefeitura de Cuiabá</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonNotAname": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"p-4 bg-white border border-slate-200 rounded-2xl text-slate-400 hover:text-primary transition-all hover:border-primary/20 active:scale-90 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-left\" aria-hidden=\"true\"><path d=\"m12 19-7-7 7-7\" qw-selector=\"html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > svg:nth-child(1) > path:nth-child(1)\"></path><path d=\"M19 12H5\" qw-selector=\"html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > svg:nth-child(1) > path:nth-child(2)\"></path></svg></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/login\" class=\"flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest hover:text-white/80 transition-all\">Acesso Restrito</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Acesso Restrito"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/\" class=\"flex items-center gap-4 hover:opacity-90 transition-all group shrink-0\">Ouvidoria GeralMunicípio de Cuiabá</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Logo Prefeitura de CuiabáOuvidoria GeralMunicípio de Cuiabá"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/sic\" class=\"bg-slate-100 text-slate-600 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-slate-200 transition-all active:scale-95 border border-slate-200\">Portal SIC</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Portal SIC"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"bg-[#007d4c] text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:brightness-110 shadow-lg shadow-[#007d4c]/20 transition-all active:scale-95 active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "Nova Manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/\" class=\"hover:text-primary transition-colors\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Início"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Página Inicial</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Página Inicial"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-sm font-medium text-white/70 hover:text-white transition-colors active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Nova Manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/sic\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Acesso à Informação (SIC)</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Acesso à Informação (SIC)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.cuiaba.mt.gov.br/\" target=\"_blank\" rel=\"noreferrer\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Portal da Prefeitura</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Portal da Prefeitura"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://transparencia.cuiaba.mt.gov.br/portaltransparencia\" target=\"_blank\" rel=\"noreferrer\" class=\"text-sm font-medium text-white/70 hover:text-white transition-colors\">Portal da Transparência</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "Portal da Transparência"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-left\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-text\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-paperclip\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(2) > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-message-square\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-send\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > button:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin text-white/50 mt-0.5 shrink-0\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone text-white/50 shrink-0\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail text-white/50 shrink-0\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-current` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"bg-[#007d4c] text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:brightness-110 shadow-lg shadow-[#007d4c]/20 transition-all active:scale-95 active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-current` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-sm font-medium text-white/70 hover:text-white transition-colors active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"bg-[#007d4c] text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:brightness-110 shadow-lg shadow-[#007d4c]/20 transition-all active:scale-95 active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-left\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-text\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-paperclip\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(2) > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-message-square\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-send\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > button:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-sm font-medium text-white/70 hover:text-white transition-colors active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin text-white/50 mt-0.5 shrink-0\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone text-white/50 shrink-0\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail text-white/50 shrink-0\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-current` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"bg-[#007d4c] text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:brightness-110 shadow-lg shadow-[#007d4c]/20 transition-all active:scale-95 active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-current` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-sm font-medium text-white/70 hover:text-white transition-colors active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabelNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<select name=\"type\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold text-slate-700\">ElogioReclamaçãoSugestãoDenúnciaSolicitação</select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(2) > div:nth-child(1) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<select name=\"departmentId\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold text-slate-700\">Não Sei / Selecione... Secretaria Municipal Mobilidade Urbana e Segurança PúblicaControladoria Geral Do MunicípioCuiabá RegulaHospital Municipal de CuiabáHospital Municipal São BeneditoLimpurb - Empresa Cuiabana De Zeladoria e Serviços UrbanosProcuradoria GeralSecretaria da MulherSecretaria Municipal de Assistência Social, Direitos Humanos e inclusãoSecretaria Municipal De ComunicaçãoSecretaria Municipal de CulturaSecretaria Municipal De Desenvolvimento Econômico, Trabalho, Turismo e AgriculturaSecretaria Municipal de EconomiaSecretaria Municipal de EducaçãoSecretaria Municipal de Esportes e LazerSecretaria Municipal de GovernoSecretaria Municipal De Habitação E Regularização FundiáriaSecretaria Municipal De Infraestrutura E ObrasSecretaria Municipal De Meio Ambiente , Desenvolvimento e planejamento UrbanoSecretaria Municipal De Ordem PúblicaSecretaria Municipal De Planejamento e OrçamentoSecretaria Municipal De Saúde</select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(2) > div:nth-child(4) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<select name=\"gender\" class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\">SelecioneMasculinoFemininoNão quero informar</select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" value=\"\" name=\"cpfCnpj\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"w-full h-14 px-5 bg-slate-50 border-2 border-slate-100 rounded-2xl outline-none focus:border-primary focus:bg-white transition-all font-bold\" value=\"\" name=\"phone\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Logo Prefeitura de Cuiabá\" class=\"w-auto object-contain transition-all h-16 md:h-20\" src=\"/logo_cuiaba.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Logo Prefeitura de Cuiabá"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Prefeitura de Cuiabá\" class=\"h-16 w-auto object-contain\" src=\"/logo-prefeitura-branca.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Prefeitura de Cuiabá"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"font-extrabold text-2xl md:text-3xl text-slate-800 tracking-tighter leading-tight uppercase\">Ouvidoria <span class=\"text-[#007d4c]\">Geral</span></h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h1:nth-child(1)",
+                "accessibleName": "Ouvidoria Geral"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl font-extrabold text-slate-900 mb-2 tracking-tight uppercase\">Novo Registro de Manifestação</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)",
+                "accessibleName": "Novo Registro de Manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Detalhes da Manifestação</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Detalhes da Manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Identificação do Solicitante</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Identificação do Solicitante"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Resposta e Contato</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "Resposta e Contato"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4 class=\"font-black uppercase tracking-widest text-xs\">Links Úteis</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Links Úteis"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4 class=\"font-black uppercase tracking-widest text-xs\">Contato</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h4:nth-child(1)",
+                "accessibleName": "Contato"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/sic\" class=\"bg-slate-100 text-slate-600 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-slate-200 transition-all active:scale-95 border border-slate-200\">Portal SIC</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/\" class=\"hover:text-primary transition-colors\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hover:text-primary transition-colors\">Serviços</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hover:text-primary transition-colors\">Cidadão</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-primary\">Ouvidoria</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl font-extrabold text-slate-900 mb-2 tracking-tight uppercase\">Novo Registro de Manifestação</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-slate-600 font-medium\">Utilize este formulário para enviar elogios, sugestões, reclamações ou denúncias.</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-primary\">Identificado</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-slate-400\">Anônimo</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > label:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-slate-400\">Desejo uma resposta oficial</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-primary\">Não desejo resposta</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs font-bold uppercase tracking-widest mb-2 text-amber-700\">Consentimento LGPD — Obrigatório *</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(4) > label:nth-child(1) > div:nth-child(2) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-sm leading-relaxed text-amber-800\">Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação.</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(4) > label:nth-child(1) > div:nth-child(2) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Logo Prefeitura de Cuiabá\" class=\"w-auto object-contain transition-all h-16 md:h-20\" src=\"/logo_cuiaba.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"p-4 bg-white border border-slate-200 rounded-2xl text-slate-400 hover:text-primary transition-all hover:border-primary/20 active:scale-90 shadow-sm\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"nao\" checked=\"\" name=\"anonimo\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"sim\" name=\"anonimo\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > label:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"sim\" name=\"wantsResponse\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"w-5 h-5 text-primary\" type=\"radio\" value=\"nao\" checked=\"\" name=\"wantsResponse\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"lgpdConsent\" class=\"sr-only peer\" type=\"checkbox\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(4) > label:nth-child(1) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"px-12 py-5 bg-primary text-white font-black uppercase tracking-widest rounded-2xl shadow-2xl shadow-primary/30 hover:brightness-110 disabled:opacity-70 transition-all active:scale-95 flex items-center justify-center gap-3 min-w-[240px]\"> Enviar Manifestação</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"px-8 py-5 text-xs font-black uppercase tracking-widest text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-2xl transition-all\">Cancelar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Prefeitura de Cuiabá\" class=\"h-16 w-auto object-contain\" src=\"/logo-prefeitura-branca.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/login\" class=\"flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest hover:text-white/80 transition-all\">Acesso Restrito</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/sic\" class=\"bg-slate-100 text-slate-600 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-slate-200 transition-all active:scale-95 border border-slate-200\">Portal SIC</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"bg-[#007d4c] text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:brightness-110 shadow-lg shadow-[#007d4c]/20 transition-all active:scale-95 active\" href=\"/new\" data-status=\"active\" aria-current=\"page\">Nova Manifestação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/\" class=\"hover:text-primary transition-colors\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hover:text-primary transition-colors\">Serviços</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hover:text-primary transition-colors\">Cidadão</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-primary\">Ouvidoria</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl font-extrabold text-slate-900 mb-2 tracking-tight uppercase\">Novo Registro de Manifestação</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-slate-600 font-medium\">Utilize este formulário para enviar elogios, sugestões, reclamações ou denúncias.</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-primary\">Identificado</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-slate-400\">Anônimo</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > label:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-slate-400\">Desejo uma resposta oficial</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-black uppercase tracking-widest text-primary\">Não desejo resposta</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs font-bold uppercase tracking-widest mb-2 text-amber-700\">Consentimento LGPD — Obrigatório *</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(4) > label:nth-child(1) > div:nth-child(2) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-sm leading-relaxed text-amber-800\">Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação.</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(4) > label:nth-child(1) > div:nth-child(2) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"px-12 py-5 bg-primary text-white font-black uppercase tracking-widest rounded-2xl shadow-2xl shadow-primary/30 hover:brightness-110 disabled:opacity-70 transition-all active:scale-95 flex items-center justify-center gap-3 min-w-[240px]\"> Enviar Manifestação</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h4 class=\"font-black uppercase tracking-widest text-xs\">Links Úteis</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h4 class=\"font-black uppercase tracking-widest text-xs\">Contato</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page does not links to local content.",
+            "resultCode": "F3",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/login\" class=\"flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest hover:text-white/80 transition-all\">Acesso Restrito</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "formSubmit": [
+          {
+            "verdict": "passed",
+            "description": "The form contains one of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form novalidate=\"\" class=\"p-10 space-y-12\">Detalhes da ManifestaçãoTipo de Manifestação *ElogioReclamaçãoSugestãoDenúnciaSolicitaçãoAssunto Geral *Descrição Detalhada *Secretaria Responsável (Opcional)Não Sei / Selecione... Secretaria Municipal Mobilidade Urbana e Segurança PúblicaControladoria Geral Do MunicípioCuiabá RegulaHospital Municipal de CuiabáHospital Municipal São BeneditoLimpurb - Empresa Cuiabana De Zeladoria e Serviços UrbanosProcuradoria GeralSecretaria da MulherSecretaria Municipal de Assistência Social, Direitos Humanos e inclusãoSecretaria Municipal De ComunicaçãoSecretaria Municipal de CulturaSecretaria Municipal De Desenvolvimento Econômico, Trabalho, Turismo e AgriculturaSecretaria Municipal de EconomiaSecretaria Municipal de EducaçãoSecretaria Municipal de Esportes e LazerSecretaria Municipal de GovernoSecretaria Municipal De Habitação E Regularização FundiáriaSecretaria Municipal De Infraestrutura E ObrasSecretaria Municipal De Meio Ambiente , Desenvolvimento e planejamento UrbanoSecretaria Municipal De Ordem PúblicaSecretaria Municipal De Planejamento e OrçamentoSecretaria Municipal De SaúdeAnexos (Fotos, Documentos)Clique para anexar arquivosImagens, PDFs ou documentos até 20MBIdentificação do SolicitanteIdentificadoAnônimoNome CompletoGêneroSelecioneMasculinoFemininoNão quero informarCPF / CNPJTelefoneBairroE-mailResposta e ContatoDesejo uma resposta oficialNão desejo respostaConsentimento LGPD — Obrigatório *Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação. Enviar ManifestaçãoCancelar</form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<script id=\"cf-turnstile-script\" src=\"https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback&amp;render=explicit\" defer=\"\" async=\"\"></script>",
+                "pointer": "html > head:nth-child(1) > script:nth-child(33)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"root\">Acesso RestritoOuvidoria GeralMunicípio de CuiabáPortal SICNova ManifestaçãoInício&gt;Serviços&gt;Cidadão&gt;OuvidoriaNovo Registro de ManifestaçãoUtilize este formulário para enviar elogios, sugestões, reclamações ou denúncias.Detalhes da ManifestaçãoTipo de Manifestação *ElogioReclamaçãoSugestãoDenúnciaSolicitaçãoAssunto Geral *Descrição Detalhada *Secretaria Responsável (Opcional)Não Sei / Selecione... Secretaria Municipal Mobilidade Urbana e Segurança PúblicaControladoria Geral Do MunicípioCuiabá RegulaHospital Municipal de CuiabáHospital Municipal São BeneditoLimpurb - Empresa Cuiabana De Zeladoria e Serviços UrbanosProcuradoria GeralSecretaria da MulherSecretaria Municipal de Assistência Social, Direitos Humanos e inclusãoSecretaria Municipal De ComunicaçãoSecretaria Municipal de CulturaSecretaria Municipal De Desenvolvimento Econômico, Trabalho, Turismo e AgriculturaSecretaria Municipal de EconomiaSecretaria Municipal de EducaçãoSecretaria Municipal de Esportes e LazerSecretaria Municipal de GovernoSecretaria Municipal De Habitação E Regularização FundiáriaSecretaria Municipal De Infraestrutura E ObrasSecretaria Municipal De Meio Ambiente , Desenvolvimento e planejamento UrbanoSecretaria Municipal De Ordem PúblicaSecretaria Municipal De Planejamento e OrçamentoSecretaria Municipal De SaúdeAnexos (Fotos, Documentos)Clique para anexar arquivosImagens, PDFs ou documentos até 20MBIdentificação do SolicitanteIdentificadoAnônimoNome CompletoGêneroSelecioneMasculinoFemininoNão quero informarCPF / CNPJTelefoneBairroE-mailResposta e ContatoDesejo uma resposta oficialNão desejo respostaConsentimento LGPD — Obrigatório *Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação. Enviar ManifestaçãoCancelarOuvidoria Geral do Município de Cuiabá.Sua voz é fundamental para a melhoria dos serviços públicos.Links ÚteisPágina InicialNova ManifestaçãoAcesso à Informação (SIC)Portal da PrefeituraPortal da TransparênciaContatoAv. Mato Grosso, 459 - Centro NorteCuiabá - MT78005-030(65) 99263-9779 (Whatsapp e Ligação)ouvidoria.geral@cuiaba.mt.gov.br© 2026 PREFEITURA DE CUIABÁ - TODOS OS DIREITOS RESERVADOSDesenvolvido por SAETI / PMC</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"lgpdConsent\" class=\"sr-only peer\" type=\"checkbox\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(4) > label:nth-child(1) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"cf-turnstile\" style=\"width: 300px; height: 65px;\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"hidden\" name=\"cf-turnstile-response\" id=\"cf-chl-widget-cekh1_response\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"font-extrabold text-2xl md:text-3xl text-slate-800 tracking-tighter leading-tight uppercase\">Ouvidoria Geral</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-3xl font-extrabold text-slate-900 mb-2 tracking-tight uppercase\">Novo Registro de Manifestação</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Detalhes da Manifestação</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(1) > div:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Identificação do Solicitante</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(2) > div:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"text-lg font-black text-slate-800 tracking-tight uppercase\">Resposta e Contato</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > section:nth-child(3) > div:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 class=\"font-black uppercase tracking-widest text-xs\">Links Úteis</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 class=\"font-black uppercase tracking-widest text-xs\">Contato</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"w-full relative z-50\">Acesso RestritoOuvidoria GeralMunicípio de CuiabáPortal SICNova ManifestaçãoInício&gt;Serviços&gt;Cidadão&gt;Ouvidoria</header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"w-full\">Ouvidoria Geral do Município de Cuiabá.Sua voz é fundamental para a melhoria dos serviços públicos.Links ÚteisPágina InicialNova ManifestaçãoAcesso à Informação (SIC)Portal da PrefeituraPortal da TransparênciaContatoAv. Mato Grosso, 459 - Centro NorteCuiabá - MT78005-030(65) 99263-9779 (Whatsapp e Ligação)ouvidoria.geral@cuiaba.mt.gov.br© 2026 PREFEITURA DE CUIABÁ - TODOS OS DIREITOS RESERVADOSDesenvolvido por SAETI / PMC</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main class=\"flex-grow container mx-auto px-6 pt-12\">Novo Registro de ManifestaçãoUtilize este formulário para enviar elogios, sugestões, reclamações ou denúncias.Detalhes da ManifestaçãoTipo de Manifestação *ElogioReclamaçãoSugestãoDenúnciaSolicitaçãoAssunto Geral *Descrição Detalhada *Secretaria Responsável (Opcional)Não Sei / Selecione... Secretaria Municipal Mobilidade Urbana e Segurança PúblicaControladoria Geral Do MunicípioCuiabá RegulaHospital Municipal de CuiabáHospital Municipal São BeneditoLimpurb - Empresa Cuiabana De Zeladoria e Serviços UrbanosProcuradoria GeralSecretaria da MulherSecretaria Municipal de Assistência Social, Direitos Humanos e inclusãoSecretaria Municipal De ComunicaçãoSecretaria Municipal de CulturaSecretaria Municipal De Desenvolvimento Econômico, Trabalho, Turismo e AgriculturaSecretaria Municipal de EconomiaSecretaria Municipal de EducaçãoSecretaria Municipal de Esportes e LazerSecretaria Municipal de GovernoSecretaria Municipal De Habitação E Regularização FundiáriaSecretaria Municipal De Infraestrutura E ObrasSecretaria Municipal De Meio Ambiente , Desenvolvimento e planejamento UrbanoSecretaria Municipal De Ordem PúblicaSecretaria Municipal De Planejamento e OrçamentoSecretaria Municipal De SaúdeAnexos (Fotos, Documentos)Clique para anexar arquivosImagens, PDFs ou documentos até 20MBIdentificação do SolicitanteIdentificadoAnônimoNome CompletoGêneroSelecioneMasculinoFemininoNão quero informarCPF / CNPJTelefoneBairroE-mailResposta e ContatoDesejo uma resposta oficialNão desejo respostaConsentimento LGPD — Obrigatório *Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação. Enviar ManifestaçãoCancelar</main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"font-extrabold text-2xl md:text-3xl text-slate-800 tracking-tighter leading-tight uppercase\">Ouvidoria Geral</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"w-full relative z-50\">Acesso RestritoOuvidoria GeralMunicípio de CuiabáPortal SICNova ManifestaçãoInício&gt;Serviços&gt;Cidadão&gt;Ouvidoria</header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Página Inicial</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Nova Manifestação</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Acesso à Informação (SIC)</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Portal da Prefeitura</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Portal da Transparência</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"flex items-start gap-3\">Av. Mato Grosso, 459 - Centro NorteCuiabá - MT78005-030</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"flex items-center gap-3\">(65) 99263-9779 (Whatsapp e Ligação)</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"flex items-center gap-3\">ouvidoria.geral@cuiaba.mt.gov.br</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"space-y-3\">Página InicialNova ManifestaçãoAcesso à Informação (SIC)Portal da PrefeituraPortal da Transparência</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"space-y-4\">Av. Mato Grosso, 459 - Centro NorteCuiabá - MT78005-030(65) 99263-9779 (Whatsapp e Ligação)ouvidoria.geral@cuiaba.mt.gov.br</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"w-full\">Ouvidoria Geral do Município de Cuiabá.Sua voz é fundamental para a melhoria dos serviços públicos.Links ÚteisPágina InicialNova ManifestaçãoAcesso à Informação (SIC)Portal da PrefeituraPortal da TransparênciaContatoAv. Mato Grosso, 459 - Centro NorteCuiabá - MT78005-030(65) 99263-9779 (Whatsapp e Ligação)ouvidoria.geral@cuiaba.mt.gov.br© 2026 PREFEITURA DE CUIABÁ - TODOS OS DIREITOS RESERVADOSDesenvolvido por SAETI / PMC</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > footer:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main class=\"flex-grow container mx-auto px-6 pt-12\">Novo Registro de ManifestaçãoUtilize este formulário para enviar elogios, sugestões, reclamações ou denúncias.Detalhes da ManifestaçãoTipo de Manifestação *ElogioReclamaçãoSugestãoDenúnciaSolicitaçãoAssunto Geral *Descrição Detalhada *Secretaria Responsável (Opcional)Não Sei / Selecione... Secretaria Municipal Mobilidade Urbana e Segurança PúblicaControladoria Geral Do MunicípioCuiabá RegulaHospital Municipal de CuiabáHospital Municipal São BeneditoLimpurb - Empresa Cuiabana De Zeladoria e Serviços UrbanosProcuradoria GeralSecretaria da MulherSecretaria Municipal de Assistência Social, Direitos Humanos e inclusãoSecretaria Municipal De ComunicaçãoSecretaria Municipal de CulturaSecretaria Municipal De Desenvolvimento Econômico, Trabalho, Turismo e AgriculturaSecretaria Municipal de EconomiaSecretaria Municipal de EducaçãoSecretaria Municipal de Esportes e LazerSecretaria Municipal de GovernoSecretaria Municipal De Habitação E Regularização FundiáriaSecretaria Municipal De Infraestrutura E ObrasSecretaria Municipal De Meio Ambiente , Desenvolvimento e planejamento UrbanoSecretaria Municipal De Ordem PúblicaSecretaria Municipal De Planejamento e OrçamentoSecretaria Municipal De SaúdeAnexos (Fotos, Documentos)Clique para anexar arquivosImagens, PDFs ou documentos até 20MBIdentificação do SolicitanteIdentificadoAnônimoNome CompletoGêneroSelecioneMasculinoFemininoNão quero informarCPF / CNPJTelefoneBairroE-mailResposta e ContatoDesejo uma resposta oficialNão desejo respostaConsentimento LGPD — Obrigatório *Autorizo, nos termos da Lei Geral de Proteção de Dados Pessoais (13.709) a disponibilização dos dados pessoais para as unidades em que houver a necessidade do trâmite da presente manifestação. Enviar ManifestaçãoCancelar</main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 15:58:42",
+      "tot": {
+        "info": {
+          "url": "https://ouvidoria.cuiaba.mt.gov.br/new",
+          "title": "Ouvidoria Digital — Prefeitura de Cuiabá",
+          "date": "2026-09-21 15:58:42",
+          "htmlTags": 258,
+          "roles": {
+            "document": 1,
+            "generic": 79,
+            "banner": 1,
+            "link": 10,
+            "graphics-document": 10,
+            "img": 2,
+            "heading": 7,
+            "paragraph": 8,
+            "main": 1,
+            "button": 3,
+            "form": 1,
+            "region": 3,
+            "combobox": 3,
+            "textbox": 7,
+            "radio": 4,
+            "checkbox": 1,
+            "contentinfo": 1,
+            "list": 2,
+            "listitem": 8
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 2,
+            "link": 28,
+            "title": 1,
+            "script": 9,
+            "body": 1,
+            "div": 63,
+            "header": 1,
+            "a": 10,
+            "svg": 10,
+            "path": 16,
+            "img": 2,
+            "h1": 1,
+            "span": 15,
+            "p": 8,
+            "main": 1,
+            "h2": 1,
+            "button": 3,
+            "form": 1,
+            "section": 3,
+            "h3": 3,
+            "label": 16,
+            "select": 3,
+            "option": 32,
+            "input": 13,
+            "textarea": 1,
+            "circle": 2,
+            "footer": 1,
+            "br": 3,
+            "h4": 2,
+            "ul": 2,
+            "li": 8,
+            "rect": 1
+          },
+          "size": 22568,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "b2fdbb3bbcce828ae13297bb37fdee1c",
+          "tests": 28,
+          "conform": "2@1@0",
+          "score": "8.9"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 3,
+          "buttonNotAname": 1,
+          "a": 10,
+          "linkAName": 10,
+          "elementDec": 10,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaStPermitted": 2,
+          "ariaAtribDefined": 12,
+          "ariaStValid": 2,
+          "inputLabelNo": 5,
+          "img": 2,
+          "hxHasAName": 7,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 41,
+          "colorContrast": 13,
+          "elementPresentChildrenNoFocus": 10,
+          "textContrastHNot": 18,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "idAtt": 5,
+          "dl": 0,
+          "hx": 7,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "noDuplicateMain": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "bannerTopLevel": 1,
+          "li": 8,
+          "liSemantically": 8,
+          "listCorrectly": 2,
+          "contentinfoTopLevel": 1,
+          "mainTopLevel": 1,
+          "area": 0,
+          "inpImg": 10,
+          "label": 17,
+          "form": 1,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_02": "1@3.6",
+          "a_10": "10@36",
+          "element_02": "10@36",
+          "aria_05": "10@36",
+          "aria_07": "10@36",
+          "aria_03": "10@36",
+          "input_02": "1@3.8",
+          "img_01a": "10@15",
+          "heading_01": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "a_01b": "something",
+          "form_01a": "10@8",
+          "id_01": "10@36",
+          "layout_01a": "10@22",
+          "hx_01b": "something",
+          "landmark_09": "10@36",
+          "landmark_11": "10@36",
+          "landmark_13": "10@36",
+          "heading_03": "10@36",
+          "landmark_01": "10@36",
+          "listitem_01": "10@36",
+          "list_02": "10@36",
+          "landmark_05": "10@36",
+          "landmark_07": "10@36"
+        }
+      },
+      "conform": "2@1@0",
+      "score": "8.9"
+    }
+  }
+}

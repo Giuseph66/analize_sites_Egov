@@ -1,0 +1,11 @@
+﻿indicador;valor
+URLs no universo analisado;313
+Conteúdos institucionais avaliados;231
+Bloqueios Cloudflare;35
+Sem resultado AMAWeb;47
+Arquivos JSON válidos encontrados;266
+Arquivos JSON inválidos;0
+URLs repetidas no catálogo;0
+Média do conteúdo institucional;7.614285714285715
+Mediana do conteúdo institucional;7.7
+Média de toda página retornada, inclusive Cloudflare;7.875563909774437

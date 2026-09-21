@@ -1,0 +1,394 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n<title>404 - File or directory not found.</title>\n<style type=\"text/css\">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;} \nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;} \nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id=\"header\"><h1>Server Error</h1></div>\n<div id=\"content\">\n <div class=\"content-container\"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n\n\n</body></html>",
+    "data": {
+      "title": "404 - File or directory not found.",
+      "rawUrl": "https://falabr.cgu.gov.br/publico/mt/araputanga/Manifestacao/RegistrarManifestacao",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 0,
+        "a": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "hxHasAName": 3,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 3,
+        "colorContrastOk": 3,
+        "textContrastH": 3,
+        "fieldLegNo": 1,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "idAtt": 2,
+        "dl": 0,
+        "hx": 3,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "aSkipNo": 1,
+        "li": 0,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>404 - File or directory not found.</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Server Error</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h1:nth-child(1)",
+                "accessibleName": "Server Error"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>404 - File or directory not found.</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h2:nth-child(1)",
+                "accessibleName": "404 - File or directory not found."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h3:nth-child(2)",
+                "accessibleName": "The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrastOk": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Server Error</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>404 - File or directory not found.</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastH": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Server Error</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>404 - File or directory not found.</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "fieldLegNo": [
+          {
+            "verdict": "failed",
+            "description": "The `fieldset` element is neither inside nor referencing a `form` element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<fieldset>\n  404 - File or directory not found.\n  The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.\n </fieldset>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"header\">Server Error</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"content\">\n \n  404 - File or directory not found.\n  The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.\n \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Server Error</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2>404 - File or directory not found.</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > fieldset:nth-child(1) > h3:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Server Error</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 15:42:58",
+      "tot": {
+        "info": {
+          "url": "https://falabr.cgu.gov.br/publico/mt/araputanga/Manifestacao/RegistrarManifestacao",
+          "title": "404 - File or directory not found.",
+          "date": "2026-09-21 15:42:58",
+          "htmlTags": 13,
+          "roles": {
+            "document": 1,
+            "generic": 4,
+            "heading": 3,
+            "group": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 1,
+            "title": 1,
+            "style": 1,
+            "script": 7,
+            "body": 1,
+            "div": 3,
+            "h1": 1,
+            "fieldset": 1,
+            "h2": 1,
+            "h3": 1
+          },
+          "size": 1104,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "e7cc0477708989c7197b60a943ef98e7",
+          "tests": 13,
+          "conform": "3@1@0",
+          "score": "7.2"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 0,
+          "a": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "hxHasAName": 3,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 3,
+          "colorContrastOk": 3,
+          "textContrastH": 3,
+          "fieldLegNo": 1,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "idAtt": 2,
+          "dl": 0,
+          "hx": 3,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "aSkipNo": 1,
+          "li": 0,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@2",
+          "heading_01": "10@36",
+          "color_02_b": "4@2.56",
+          "textC_01": "10@36",
+          "field_01": "1@3.2",
+          "a_01b": "something",
+          "id_01": "10@36",
+          "layout_01a": "10@22",
+          "hx_01b": "something",
+          "heading_03": "10@36",
+          "a_04": "7@28",
+          "a_02a": "1@1.6"
+        }
+      },
+      "conform": "3@1@0",
+      "score": "7.2"
+    }
+  }
+}

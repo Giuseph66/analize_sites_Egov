@@ -1,0 +1,10 @@
+﻿poder;total_urls;conteudo_avaliado;cloudflare;sem_resultado;cobertura_percentual;media_conteudo;mediana_conteudo;desvio_padrao_conteudo;minimo_conteudo;maximo_conteudo;media_incluindo_cloudflare
+Consórcios;22;17;3;2;90.9090909090909;6.629411764705883;7.1;1.4329884445985392;3.6;8.4;7.075
+Defensoria Pública;1;1;0;0;100.0;7.0;7.0;;7.0;7.0;7.0
+Estatais Dependentes;3;3;0;0;100.0;9.4;10.0;1.0392304845413267;8.2;10.0;9.4
+Estatais Independentes;2;2;0;0;100.0;7.15;7.15;0.3535533905932738;6.9;7.4;7.15
+Executivo;142;109;18;15;89.43661971830986;7.624770642201835;7.7;0.8760344111394881;5.5;10.0;7.904724409448819
+Judiciário;1;1;0;0;100.0;9.9;9.9;;9.9;9.9;9.9
+Legislativo;140;96;14;30;78.57142857142857;7.710416666666667;7.8;0.8110395105784294;5.6;9.8;7.950909090909091
+Ministério Público;1;1;0;0;100.0;6.0;6.0;;6.0;6.0;6.0
+Tribunal de Contas;1;1;0;0;100.0;9.5;9.5;;9.5;9.5;9.5

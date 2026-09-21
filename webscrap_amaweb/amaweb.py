@@ -10,6 +10,8 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -46,11 +48,29 @@ def parse_args() -> argparse.Namespace:
         "--timeout",
         type=int,
         default=120,
-        help="Tempo máximo da avaliação remota, em segundos. Padrão: 120",
+        help="Tempo máximo da avaliação remota, em segundos. Padrão: 120s; 0 desativa o limite.",
     )
     parser.add_argument(
         "--browser",
         help="Caminho/nome do Chromium; detectado automaticamente por padrão.",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=3,
+        help="Avaliações simultâneas. Padrão: 3",
+    )
+    parser.add_argument(
+        "--interval",
+        type=int,
+        default=0,
+        help="Repete lote a cada N segundos. 0 executa uma vez. Padrão: 0",
+    )
+    parser.add_argument(
+        "--duration-hours",
+        type=float,
+        default=0,
+        help="Tempo total máximo. 0 roda até Ctrl+C. Só vale c/ --interval.",
     )
     parser.add_argument(
         "--keep-html",
@@ -74,18 +94,24 @@ def parse_urls(values: list[str]) -> list[str]:
     return [validate_url(url) for url in urls]
 
 
-def fetch_evaluation(url: str, timeout: int) -> dict[str, Any]:
+def fetch_evaluation(url: str, timeout: int | None) -> dict[str, Any]:
     endpoint = AMAWEB_API + quote(url, safe="")
     request = Request(endpoint, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
     try:
-        with urlopen(request, timeout=timeout) as response:
+        response_context = urlopen(request) if timeout is None else urlopen(request, timeout=timeout)
+        with response_context as response:
             payload = json.load(response)
     except HTTPError as exc:
         raise AMAWebError(f"AMAWeb respondeu HTTP {exc.code}.") from exc
     except URLError as exc:
         raise AMAWebError(f"Não foi possível acessar AMAWeb: {exc.reason}") from exc
     except TimeoutError as exc:
-        raise AMAWebError(f"AMAWeb excedeu {timeout}s de espera.") from exc
+        message = (
+            f"AMAWeb excedeu {timeout}s de espera."
+            if timeout is not None
+            else "A conexão com AMAWeb expirou no sistema operacional."
+        )
+        raise AMAWebError(message) from exc
     except json.JSONDecodeError as exc:
         raise AMAWebError("AMAWeb retornou resposta inválida, não JSON.") from exc
 
@@ -101,6 +127,18 @@ def safe_file_stem(url: str) -> str:
     hostname = urlsplit(url).hostname or "avaliacao"
     clean_name = "".join(char if char.isalnum() or char in "._-" else "_" for char in hostname)
     return clean_name.strip("._") or "avaliacao"
+
+
+def create_run_dir(base_dir: Path) -> Path:
+    now = datetime.now()
+    day_dir = base_dir / now.strftime("%Y-%m-%d")
+    run_dir = day_dir / now.strftime("%H-%M-%S")
+    suffix = 2
+    while run_dir.exists():
+        run_dir = day_dir / f"{now.strftime('%H-%M-%S')}_{suffix:02d}"
+        suffix += 1
+    run_dir.mkdir(parents=True)
+    return run_dir
 
 
 def status_label(verdict: str) -> str:
@@ -275,9 +313,8 @@ def save_evaluation(
     browser: str,
     keep_html: bool,
     position: int,
-) -> None:
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    stem = f"amaweb_{safe_file_stem(url)}_{timestamp}_{position:03d}"
+) -> tuple[Any, Path, Path, Path | None]:
+    stem = f"amaweb_{safe_file_stem(url)}_{position:03d}"
     json_file = output_dir / f"{stem}.json"
     pdf_file = output_dir / f"{stem}.pdf"
     html_file = output_dir / f"{stem}.html"
@@ -295,18 +332,81 @@ def save_evaluation(
             generate_pdf(browser, source_html, pdf_file)
 
     data = payload["result"]["data"]
-    print(f"  Nota AMAWeb: {data.get('score', '—')}")
-    print(f"  JSON: {json_file.resolve()}")
-    print(f"  PDF:  {pdf_file.resolve()}")
-    if keep_html:
-        print(f"  HTML: {html_file.resolve()}")
+    return data.get("score", "—"), json_file, pdf_file, html_file if keep_html else None
+
+
+def evaluate_one(
+    position: int,
+    url: str,
+    timeout: int | None,
+    output_dir: Path,
+    browser: str,
+    keep_html: bool,
+) -> tuple[Any, Path, Path, Path | None]:
+    payload = fetch_evaluation(url, timeout)
+    return save_evaluation(payload, url, output_dir, browser, keep_html, position)
+
+
+def run_batch(
+    urls: list[str],
+    timeout: int | None,
+    workers: int,
+    output_dir: Path,
+    browser: str,
+    keep_html: bool,
+) -> int:
+    failures = 0
+    with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="amaweb") as executor:
+        futures = {
+            executor.submit(
+                evaluate_one,
+                position,
+                url,
+                timeout,
+                output_dir,
+                browser,
+                keep_html,
+            ): (position, url)
+            for position, url in enumerate(urls, start=1)
+        }
+        for future in as_completed(futures):
+            position, url = futures[future]
+            try:
+                score, json_file, pdf_file, html_file = future.result()
+                print(f"[{position}/{len(urls)}] Concluído: {url}")
+                print(f"  Nota AMAWeb: {score}")
+                print(f"  JSON: {json_file.resolve()}")
+                print(f"  PDF:  {pdf_file.resolve()}")
+                if html_file:
+                    print(f"  HTML: {html_file.resolve()}")
+            except Exception as exc:
+                failures += 1
+                print(f"[{position}/{len(urls)}] Erro: {url} -> {exc}", file=sys.stderr)
+    return failures
+
+
+def wait_until_next_cycle(seconds: float, deadline: float | None) -> bool:
+    wait_until = time.monotonic() + seconds
+    if deadline is not None:
+        wait_until = min(wait_until, deadline)
+    while True:
+        remaining = wait_until - time.monotonic()
+        if remaining <= 0:
+            return deadline is None or time.monotonic() < deadline
+        time.sleep(min(remaining, 60))
 
 
 def main() -> int:
     args = parse_args()
     try:
-        if args.timeout <= 0:
-            raise AMAWebError("--timeout deve ser maior que zero.")
+        if args.timeout < 0:
+            raise AMAWebError("--timeout não pode ser negativo.")
+        if args.workers <= 0:
+            raise AMAWebError("--workers deve ser maior que zero.")
+        if args.interval < 0:
+            raise AMAWebError("--interval não pode ser negativo.")
+        if args.duration_hours < 0:
+            raise AMAWebError("--duration-hours não pode ser negativo.")
         urls = parse_urls(args.urls)
         browser = find_browser(args.browser)
         args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -314,20 +414,36 @@ def main() -> int:
         print(f"Erro: {exc}", file=sys.stderr)
         return 1
 
+    workers = min(args.workers, len(urls))
+    deadline = (
+        time.monotonic() + args.duration_hours * 3600 if args.interval and args.duration_hours else None
+    )
     failures = 0
-    for position, url in enumerate(urls, start=1):
-        print(f"[{position}/{len(urls)}] Avaliando: {url}")
-        try:
-            payload = fetch_evaluation(url, args.timeout)
-            save_evaluation(payload, url, args.output_dir, browser, args.keep_html, position)
-        except AMAWebError as exc:
-            failures += 1
-            print(f"  Erro: {exc}", file=sys.stderr)
+    cycle = 0
+    try:
+        while True:
+            cycle += 1
+            run_dir = create_run_dir(args.output_dir)
+            print(f"Ciclo {cycle} | {len(urls)} URL(s) | {workers} worker(s)")
+            print(f"Saída: {run_dir.resolve()}")
+            failures += run_batch(
+                urls, args.timeout or None, workers, run_dir, browser, args.keep_html
+            )
+            if args.interval == 0:
+                break
+            if deadline is not None and time.monotonic() >= deadline:
+                break
+            print(f"Próximo ciclo em {args.interval}s. Ctrl+C interrompe.")
+            if not wait_until_next_cycle(args.interval, deadline):
+                break
+    except KeyboardInterrupt:
+        print("\nInterrompido pelo usuário.", file=sys.stderr)
+        return 130
 
     if failures:
         print(f"Concluído c/ {failures} falha(s).", file=sys.stderr)
         return 1
-    print(f"Concluído: {len(urls)} URL(s) avaliada(s).")
+    print(f"Concluído: {cycle} ciclo(s), {len(urls)} URL(s)/ciclo.")
     return 0
 
 

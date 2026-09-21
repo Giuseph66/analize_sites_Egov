@@ -1,0 +1,2096 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\" data-accessibility-text-size=\"standard\"><head>\n        <!-- Google Tag Manager -->\n        <script type=\"text/javascript\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-MB47C3GE41&amp;cx=c&amp;gtm=4e69g1h1\"></script><script async=\"\" src=\"https://www.googletagmanager.com/gtm.js?id=GTM-PP7DKPVR\"></script><script>\n            (function (w, d, s, l, i) {\n                w[l] = w[l] || [];\n                w[l].push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' });\n                var f = d.getElementsByTagName(s)[0],\n                    j = d.createElement(s),\n                    dl = l != 'dataLayer' ? '&l=' + l : '';\n                j.async = true;\n                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n                f.parentNode.insertBefore(j, f);\n            })(window, document, 'script', 'dataLayer', 'GTM-PP7DKPVR');\n        </script>\n        <!-- End Google Tag Manager -->\n\n        <meta charset=\"UTF-8\">\n        <meta property=\"og:site_name\" content=\"Câmara Municipal de Tabaporã\"><meta property=\"og:image:type\" content=\"image/jpeg\"><meta property=\"og:image:width\" content=\"800\"><meta property=\"og:image:height\" content=\"533\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://tabapora.mt.leg.br\"><meta property=\"og:title\" content=\"Câmara Municipal de Tabaporã\"><meta property=\"og:description\" content=\"Site oficial da Câmara Municipal de Tabaporã\"><meta property=\"og:image\" content=\"https://cdn.tabapora.mt.leg.br/imgs/default/logo.png\"><meta name=\"title\" content=\"Câmara Municipal de Tabaporã\"><meta name=\"description\" content=\"Site oficial da Câmara Municipal de Tabaporã\"><meta name=\"keywords\" content=\"site, Câmara Municipal de Tabaporã, oficial\"><link rel=\"canonical\" href=\"https://tabapora.mt.leg.br\"><title>Câmara Municipal de Tabaporã</title>\n        <title>Câmara Municipal de Tabaporã</title>\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon.ico\">\n        <meta http-equiv=\"content-language\" content=\"pt-br\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n      <script type=\"module\" crossorigin=\"\" src=\"/assets/index-D9Xdbc_j.js\"></script>\n      <link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/iconify-CTb9acMy.js\">\n      <link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-DxyZECLt.css\">\n    <link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://tabapora.mt.leg.br/assets/finder.page-CT5oM25L.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://tabapora.mt.leg.br/assets/api.service-DHPpOmMP.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin=\"\" href=\"https://tabapora.mt.leg.br/assets/conteudo.page-CIcU5gjb.js\"></head>\n    <body>\n        <!-- Google Tag Manager (noscript) -->\n        <noscript><iframe\n                src=\"https://www.googletagmanager.com/ns.html?id=GTM-PP7DKPVR\"\n                height=\"0\"\n                width=\"0\"\n                style=\"display: none; visibility: hidden\"\n            ></iframe\n        ></noscript>\n        <!-- End Google Tag Manager (noscript) -->\n        <div id=\"root\"><nav class=\"skip-links\" aria-label=\"Atalhos de navegação\"><a href=\"#conteudo\" accesskey=\"1\">Ir para o conteúdo [1]</a><a href=\"#menu-principal-desktop\" accesskey=\"2\">Ir para o menu [2]</a><a accesskey=\"3\" href=\"/pesquisa#campo-pesquisa\">Ir para a busca [3]</a><a href=\"#rodape\" accesskey=\"4\">Ir para o rodapé [4]</a></nav><header class=\"header\"><div class=\"fixed w-full top-0 bg-white drop-shadow-lg shadow dark:bg-gray-800 lg:hidden z-50\"><div class=\" container px-6 py-4 mx-auto\"><div class=\"lg:flex lg:items-center lg:justify-between\"><div class=\"flex items-center justify-between\"><div class=\"flex lg:hidden\"><button id=\"botao-menu-mobile\" type=\"button\" class=\"appearance-none border-0 bg-transparent text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"Abrir menu principal\" aria-expanded=\"false\" aria-controls=\"menu-mobile-conteudo\"><span></span></button></div></div></div></div></div><div class=\"px-3 py-3 hidden lg:block\"><div class=\"flex flex-wrap items-center justify-between gap-x-4 gap-y-2\"><div class=\"flex flex-wrap items-center gap-x-5 gap-y-2\"><a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm\" target=\"_blank\"><span></span>Lei de Acesso à Informação</a><a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"https://radardatransparencia.atricon.org.br\" target=\"_blank\"><img alt=\"\" height=\"24\" src=\"./radar.png\">Radar da Transparência Pública</a><a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"https://camtabapora.ouvidoriabr.com\" target=\"_blank\"><span></span>Ouvidoria</a><a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"https://esiccamtabapora.ouvidoriabr.com\" target=\"_blank\"><span></span>e-SIC</a><a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"/mapa\"><span></span>Mapa do Site</a></div><div class=\"flex flex-wrap items-center justify-end gap-x-5 gap-y-2 text-right\"><span class=\"text-gray-500 text-xs inline-flex items-center\"><span></span>Horário de atendimento ao público: 07:00 ás 11:00 e 13:00 ás 17:00</span><span></span><span class=\"text-gray-500 text-xs\">(66) 3557-1136</span><span></span><span class=\"text-gray-500 text-xs\">camara@tabapora.mt.leg.br</span><span></span><a class=\"text-gray-500 text-xs\" href=\"https://webmail.tabapora.mt.leg.br\" target=\"_blank\"><span class=\"text-gray-500 text-xs\">Webmail</span></a></div></div></div><div class=\"accessibility-controls\"><button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"><span></span></button></div><div class=\"container mx-auto pt-6 lg:pt-0\"><div class=\"lg:flex lg:justify-between py-12\"><div class=\" lg:px-0 flex justify-center lg:ml-0 xl:ml-20\"><a href=\"/\"><img alt=\"logo\" class=\"w-auto max-w-full max-h-44\" src=\"/logo_tabapora_recolored.png\"></a></div><nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\"><ul class=\"relative flex gap-10 z-200 m-0 p-0\"><li class=\"inline-block custom-hover-gray\"><a href=\"/\"><div class=\"2xl:px-3 lg:px-2 px-1 py-3 text-gray-600\">Página Inicial</div></a></li><li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg text-gray-600\"><button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button><ul id=\"submenu-camara\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\"><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/estrutura-administrativa-organograma\" target=\"_blank\">Estrutura Administrativa/Organograma</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/camara/mesadiretora\">Mesa Diretora</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/camara/vereadores\">Vereadores</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/camara/servidores\">Servidores</a></li></ul></li><li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg\"><button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button><ul id=\"submenu-municipio\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\"><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/bandeira\">Bandeira</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/brasao\">Brasão</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/hino-municipal\">Hino</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/historia\">História</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/sobre\">Sobre</a></li></ul></li><li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg\"><button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button><ul id=\"submenu-consultas\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\"><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/transparencia/publicacoes\">Publicações</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a href=\"/transparencia/portal\">Transparência</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a href=\"https://consulta.tabapora.plenariodigital.net/\" target=\"_blank\">Atividades Legislativas</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a href=\"https://leismunicipais.com.br/prefeitura/mt/tabapora\" target=\"_blank\">Leis Municipais</a></li></ul></li><li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg\"><button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button><ul id=\"submenu-imprensa\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\"><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/imprensa/noticias\">Notícias</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/imprensa/tv\">TV</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/eventos\">Eventos</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/imprensa/albuns\">Álbuns</a></li><li class=\"p-2 mb-1 bg-gray-200 rounded-lg\"><a class=\"\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a></li></ul></li><li class=\"inline-block custom-hover-gray\"><a aria-label=\"Pesquisar\" href=\"/pesquisa\"><div class=\"2xl:px-3 lg:px-2 px-1 py-3 \"><span></span></div></a></li></ul></nav><ul class=\"flex items-center justify-center md:justify-normal list-none m-0 p-0\"><li class=\"2xl:ml-5 md:ml-2 ml-1 inline-block custom-hover-gray\"><a aria-label=\"Facebook da Câmara Municipal de Tabaporã\" href=\"https://www.facebook.com/Camaratabapora/\" target=\"_blank\"><div class=\"2xl:px-3 md:px-2 px-1 py-3  text-gray-500\"><span></span></div></a></li><li class=\"inline-block custom-hover-gray\"><a aria-label=\"Instagram da Câmara Municipal de Tabaporã\" href=\"https://www.instagram.com/camaratabapora/\" target=\"_blank\"><div class=\"2xl:px-3 md:px-2 px-1 py-3 text-gray-500\"><span></span></div></a></li><li class=\"inline-block custom-hover-gray\"><a aria-label=\"YouTube da Câmara Municipal de Tabaporã\" href=\"https://www.youtube.com/@camaratabapora\" target=\"_blank\"><div class=\"2xl:px-3 md:px-2 px-1 py-3 text-gray-500\"><span></span></div></a></li></ul></div></div></header><main id=\"conteudo\" class=\"content\" tabindex=\"-1\"><div class=\"container mx-auto px-5 lg:px-0\"><div class=\"w-full\"><div class=\"flex flex-wrap lg:flex-nowrap columns-3 lg:columns-5 lg:items-center my-3 border border-solid border-x-0 border-t-0 border-gray-100\"></div></div></div></main><div class=\"cookie-footer justify-center flex\"><div class=\"container\"><div class=\"content\"><div class=\"c-text pr-2\">Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa <a class=\"text-\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a>.</div><button class=\"bg-[#01295d] text-white border-none rounded-lg\">Entendi</button></div></div></div><footer id=\"rodape\" class=\"footer mt-4rem\" tabindex=\"-1\"><div class=\"container mx-auto pt-20\"><div class=\"text-center\"><img class=\"w-auto max-w-full max-h-34\" alt=\"brasão\" src=\"/logo_tabapora_recolored.png\"></div><div class=\"lg:columns-3 text-center mt-3rem rounded-lg bg-[var(--primary-transparent)]\"><div class=\"py-auto\"><div class=\"py-3rem text-white uppercase\"><span></span><div class=\"mb-3 text-10px\">Horário de atendimento ao público</div><p class=\"m-0 mb-2 font-medium leading-tight\">Segunda a Sexta-feira</p><p class=\"m-0 mb-2 font-medium leading-tight\">Das 7h às 12h</p><p class=\"m-0 mb-2 font-medium leading-tight\">Das 13h às 17h</p></div></div><div class=\"py-3rem text-white\"><div class=\"py-auto\"><span></span><div class=\"mb-3 text-10px uppercase\">Endereço</div><p class=\"m-0 mb-2 font-medium leading-tight uppercase\">Av. Dr. Carlos Vidoto, 610.</p><p class=\"m-0 mb-2 font-medium leading-tight\">CEP: 78563-000</p><p class=\"m-0 mb-2 font-medium leading-tight\">CNPJ: 37.465.945/0001-99</p><p class=\"m-0 mb-2 font-medium leading-tight\">Email: camara@tabapora.mt.leg.br</p></div></div><div class=\"py-3rem text-white uppercase\"><div class=\"py-auto\"><span></span><div class=\"mb-3 text-10px\">Contato</div><p class=\"m-0 mb-2 font-medium leading-tight\"><a class=\"text-white\" href=\"tel:6635571136\">(66) 3557-1136</a></p><a class=\"text-white text-3xl\" href=\"https://www.instagram.com/camaratabapora/\" target=\"_blank\"><span></span></a><a class=\"ml-3 text-white text-3xl\" href=\"https://www.facebook.com/Camaratabapora/\" target=\"_blank\"><span></span></a><a class=\"ml-3 text-white text-3xl\" href=\"https://www.youtube.com/@camaratabapora\" target=\"_blank\"><span></span></a></div></div></div></div><div class=\"container mx-auto py-8  flex\"><div class=\"text-center text-sm lg:text-left text-white lg:w-1/2\">© 2026 - Câmara Municipal de Tabaporã</div><div class=\"text-center text-sm lg:text-left text-white lg:w-1/2\"><a class=\"text-white\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a></div><div class=\"text-center text-sm lg:text-right text-white lg:w-1/2\">Desenvolvido por <a class=\"text-white\" href=\"https://pentagonosistemas.com.br/\" target=\"_blank\">Pentágono Sistemas</a></div></div></footer></div>\n        <div vw=\"\" class=\"enabled\">\n            <div vw-access-button=\"\" class=\"active\"></div>\n            <div vw-plugin-wrapper=\"\">\n                <div class=\"vw-plugin-top-wrapper\"></div>\n            </div>\n        </div>\n        <script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\"></script>\n        <script>\n            new window.VLibras.Widget('https://vlibras.gov.br/app');\n        </script><div id=\"vlibras-access-wrapper\"></div>\n    \n\n</body></html>",
+    "data": {
+      "title": "Câmara Municipal de Tabaporã",
+      "rawUrl": "https://tabapora.mt.leg.br/transparencia/undefined/74",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 7,
+        "buttonAname": 7,
+        "a": 26,
+        "linkNotAName": 3,
+        "elementDec": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaStPermitted": 17,
+        "ariaAtribDefined": 12,
+        "ariaStValid": 17,
+        "linkIdentAName": 1,
+        "img": 4,
+        "imgAltNull": 1,
+        "headers": 0,
+        "elementHiddenFocus": 2,
+        "menuItem": 0,
+        "id": 32,
+        "colorContrast": 11,
+        "elementPresentChildrenNoFocus": 11,
+        "textContrastHNot": 19,
+        "aSkipFirst": 1,
+        "dd,dt": 0,
+        "idAtt": 13,
+        "dl": 0,
+        "hxNone": 1,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "noDuplicateMain": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkip": 3,
+        "bannerTopLevel": 1,
+        "li": 9,
+        "liSemantically": 9,
+        "listCorrectly": 6,
+        "contentinfoTopLevel": 1,
+        "mainTopLevel": 1,
+        "area": 0,
+        "inpImg": 41,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 1,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Câmara Municipal de Tabaporã</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(18)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\" data-accessibility-text-size=\"standard\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"><span></span></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)",
+                "accessibleName": "Abrir opções de acessibilidade"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)",
+                "accessibleName": "A Câmara"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)",
+                "accessibleName": "Município"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)",
+                "accessibleName": "Consultas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)",
+                "accessibleName": "Imprensa"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"bg-[#01295d] text-white border-none rounded-lg\">Entendi</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)",
+                "accessibleName": "Entendi"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-white text-3xl\" href=\"https://www.instagram.com/camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(4)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"ml-3 text-white text-3xl\" href=\"https://www.facebook.com/Camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(5)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"ml-3 text-white text-3xl\" href=\"https://www.youtube.com/@camaratabapora\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(6)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav class=\"skip-links\" aria-label=\"Atalhos de navegação\">Ir para o conteúdo [1]Ir para o menu [2]Ir para a busca [3]Ir para o rodapé [4]</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-controls` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-controls` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-controls` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-controls` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-controls` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Pesquisar\" href=\"/pesquisa\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Facebook da Câmara Municipal de Tabaporã\" href=\"https://www.facebook.com/Camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Instagram da Câmara Municipal de Tabaporã\" href=\"https://www.instagram.com/camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"YouTube da Câmara Municipal de Tabaporã\" href=\"https://www.youtube.com/@camaratabapora\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav class=\"skip-links\" aria-label=\"Atalhos de navegação\">Ir para o conteúdo [1]Ir para o menu [2]Ir para a busca [3]Ir para o rodapé [4]</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"botao-menu-mobile\" type=\"button\" class=\"appearance-none border-0 bg-transparent text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"Abrir menu principal\" aria-expanded=\"false\" aria-controls=\"menu-mobile-conteudo\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Pesquisar\" href=\"/pesquisa\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Facebook da Câmara Municipal de Tabaporã\" href=\"https://www.facebook.com/Camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Instagram da Câmara Municipal de Tabaporã\" href=\"https://www.instagram.com/camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"YouTube da Câmara Municipal de Tabaporã\" href=\"https://www.youtube.com/@camaratabapora\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav class=\"skip-links\" aria-label=\"Atalhos de navegação\">Ir para o conteúdo [1]Ir para o menu [2]Ir para a busca [3]Ir para o rodapé [4]</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-controls` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-controls` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-controls` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-controls` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-controls` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Pesquisar\" href=\"/pesquisa\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Facebook da Câmara Municipal de Tabaporã\" href=\"https://www.facebook.com/Camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"Instagram da Câmara Municipal de Tabaporã\" href=\"https://www.instagram.com/camaratabapora/\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a aria-label=\"YouTube da Câmara Municipal de Tabaporã\" href=\"https://www.youtube.com/@camaratabapora\" target=\"_blank\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkIdentAName": [
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-white\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<a class=\"text-\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"\" height=\"24\" src=\"./radar.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"logo\" class=\"w-auto max-w-full max-h-44\" src=\"/logo_tabapora_recolored.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "logo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-auto max-w-full max-h-34\" alt=\"brasão\" src=\"/logo_tabapora_recolored.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "brasão"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"\" height=\"24\" src=\"./radar.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"\" height=\"24\" src=\"./radar.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Horário de atendimento ao público</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Segunda a Sexta-feira</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Das 7h às 12h</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Das 13h às 17h</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px uppercase\">Endereço</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight uppercase\">Av. Dr. Carlos Vidoto, 610.</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">CEP: 78563-000</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">CNPJ: 37.465.945/0001-99</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Email: camara@tabapora.mt.leg.br</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Contato</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"botao-menu-mobile\" type=\"button\" class=\"appearance-none border-0 bg-transparent text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"Abrir menu principal\" aria-expanded=\"false\" aria-controls=\"menu-mobile-conteudo\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"accessibility-trigger\" aria-label=\"Abrir opções de acessibilidade\" aria-expanded=\"false\" aria-controls=\"opcoes-acessibilidade\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"logo\" class=\"w-auto max-w-full max-h-44\" src=\"/logo_tabapora_recolored.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 lg:px-2 px-1 py-3 text-inherit\" aria-expanded=\"false\" aria-controls=\"submenu-camara\">A Câmara</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-municipio\">Município</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-consultas\">Consultas</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"appearance-none border-0 bg-transparent 2xl:px-3 px-1 py-3 text-gray-600\" aria-expanded=\"false\" aria-controls=\"submenu-imprensa\">Imprensa</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"bg-[#01295d] text-white border-none rounded-lg\">Entendi</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"w-auto max-w-full max-h-34\" alt=\"brasão\" src=\"/logo_tabapora_recolored.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm\" target=\"_blank\">Lei de Acesso à Informação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"https://radardatransparencia.atricon.org.br\" target=\"_blank\">Radar da Transparência Pública</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"https://camtabapora.ouvidoriabr.com\" target=\"_blank\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"https://esiccamtabapora.ouvidoriabr.com\" target=\"_blank\">e-SIC</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-gray-500 text-xs inline-flex items-center\" href=\"/mapa\">Mapa do Site</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-500 text-xs inline-flex items-center\">Horário de atendimento ao público: 07:00 ás 11:00 e 13:00 ás 17:00</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-500 text-xs\">camara@tabapora.mt.leg.br</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-500 text-xs\">Webmail</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(7) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"text-\" href=\"/page/politica-de-privacidade\">Política de Privacidade</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Horário de atendimento ao público</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Segunda a Sexta-feira</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Das 7h às 12h</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Das 13h às 17h</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px uppercase\">Endereço</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight uppercase\">Av. Dr. Carlos Vidoto, 610.</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">CEP: 78563-000</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">CNPJ: 37.465.945/0001-99</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"m-0 mb-2 font-medium leading-tight\">Email: camara@tabapora.mt.leg.br</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > p:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"mb-3 text-10px\">Contato</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirst": [
+          {
+            "verdict": "warning",
+            "description": "The first focusable control is a visible link to a <main> element.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo\" accesskey=\"1\">Ir para o conteúdo [1]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"root\">Ir para o conteúdo [1]Ir para o menu [2]Ir para a busca [3]Ir para o rodapé [4]Lei de Acesso à InformaçãoRadar da Transparência PúblicaOuvidoriae-SICMapa do SiteHorário de atendimento ao público: 07:00 ás 11:00 e 13:00 ás 17:00(66) 3557-1136camara@tabapora.mt.leg.brWebmailPágina InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de PrivacidadeNós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa Política de Privacidade.EntendiHorário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 12hDas 13h às 17hEndereçoAv. Dr. Carlos Vidoto, 610.CEP: 78563-000CNPJ: 37.465.945/0001-99Email: camara@tabapora.mt.leg.brContato(66) 3557-1136© 2026 - Câmara Municipal de TabaporãPolítica de PrivacidadeDesenvolvido por Pentágono Sistemas</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"botao-menu-mobile\" type=\"button\" class=\"appearance-none border-0 bg-transparent text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:text-gray-600 dark:focus:text-gray-400\" aria-label=\"Abrir menu principal\" aria-expanded=\"false\" aria-controls=\"menu-mobile-conteudo\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-camara\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">Estrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidores</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-municipio\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">BandeiraBrasãoHinoHistóriaSobre</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-consultas\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">PublicaçõesTransparênciaAtividades LegislativasLeis Municipais</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-imprensa\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">NotíciasTVEventosÁlbunsPolítica de Privacidade</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo\" class=\"content\" tabindex=\"-1\"></main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer id=\"rodape\" class=\"footer mt-4rem\" tabindex=\"-1\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 12hDas 13h às 17hEndereçoAv. Dr. Carlos Vidoto, 610.CEP: 78563-000CNPJ: 37.465.945/0001-99Email: camara@tabapora.mt.leg.brContato(66) 3557-1136© 2026 - Câmara Municipal de TabaporãPolítica de PrivacidadeDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access-wrapper\">       #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; right: 10px; flex-direction: row; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &amp;:hover, &amp;:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { right: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &amp;:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &amp;:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"header\">Lei de Acesso à InformaçãoRadar da Transparência PúblicaOuvidoriae-SICMapa do SiteHorário de atendimento ao público: 07:00 ás 11:00 e 13:00 ás 17:00(66) 3557-1136camara@tabapora.mt.leg.brWebmailPágina InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer id=\"rodape\" class=\"footer mt-4rem\" tabindex=\"-1\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 12hDas 13h às 17hEndereçoAv. Dr. Carlos Vidoto, 610.CEP: 78563-000CNPJ: 37.465.945/0001-99Email: camara@tabapora.mt.leg.brContato(66) 3557-1136© 2026 - Câmara Municipal de TabaporãPolítica de PrivacidadeDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo\" class=\"content\" tabindex=\"-1\"></main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo\" accesskey=\"1\">Ir para o conteúdo [1]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<main id=\"conteudo\" class=\"content\" tabindex=\"-1\"></main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#menu-principal-desktop\" accesskey=\"2\">Ir para o menu [2]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(2)"
+              },
+              {
+                "htmlCode": "<nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#rodape\" accesskey=\"4\">Ir para o rodapé [4]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(4)"
+              },
+              {
+                "htmlCode": "<footer id=\"rodape\" class=\"footer mt-4rem\" tabindex=\"-1\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 12hDas 13h às 17hEndereçoAv. Dr. Carlos Vidoto, 610.CEP: 78563-000CNPJ: 37.465.945/0001-99Email: camara@tabapora.mt.leg.brContato(66) 3557-1136© 2026 - Câmara Municipal de TabaporãPolítica de PrivacidadeDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkip": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo\" accesskey=\"1\">Ir para o conteúdo [1]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<main id=\"conteudo\" class=\"content\" tabindex=\"-1\"></main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#menu-principal-desktop\" accesskey=\"2\">Ir para o menu [2]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(2)"
+              },
+              {
+                "htmlCode": "<nav id=\"menu-principal-desktop\" aria-label=\"Menu principal\" tabindex=\"-1\" class=\" hidden text-right my-auto lg:block xl:text-sm lg:text-xs\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#rodape\" accesskey=\"4\">Ir para o rodapé [4]</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > a:nth-child(4)"
+              },
+              {
+                "htmlCode": "<footer id=\"rodape\" class=\"footer mt-4rem\" tabindex=\"-1\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 12hDas 13h às 17hEndereçoAv. Dr. Carlos Vidoto, 610.CEP: 78563-000CNPJ: 37.465.945/0001-99Email: camara@tabapora.mt.leg.brContato(66) 3557-1136© 2026 - Câmara Municipal de TabaporãPolítica de PrivacidadeDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"header\">Lei de Acesso à InformaçãoRadar da Transparência PúblicaOuvidoriae-SICMapa do SiteHorário de atendimento ao público: 07:00 ás 11:00 e 13:00 ás 17:00(66) 3557-1136camara@tabapora.mt.leg.brWebmailPágina InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"inline-block custom-hover-gray\">Página Inicial</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg text-gray-600\">A CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidores</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg\">MunicípioBandeiraBrasãoHinoHistóriaSobre</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg\">ConsultasPublicaçõesTransparênciaAtividades LegislativasLeis Municipais</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"group inline-block custom-hover-gray rounded-none rounded-t-lg\">ImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"inline-block custom-hover-gray\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"2xl:ml-5 md:ml-2 ml-1 inline-block custom-hover-gray\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"inline-block custom-hover-gray\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"inline-block custom-hover-gray\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"relative flex gap-10 z-200 m-0 p-0\">Página InicialA CâmaraEstrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidoresMunicípioBandeiraBrasãoHinoHistóriaSobreConsultasPublicaçõesTransparênciaAtividades LegislativasLeis MunicipaisImprensaNotíciasTVEventosÁlbunsPolítica de Privacidade</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-camara\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">Estrutura Administrativa/OrganogramaMesa DiretoraVereadoresServidores</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-municipio\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">BandeiraBrasãoHinoHistóriaSobre</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-consultas\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">PublicaçõesTransparênciaAtividades LegislativasLeis Municipais</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul id=\"submenu-imprensa\" class=\"absolute w-auto min-w-[280px] p-3 list-none text-left shadow-lg bg-gray-100 transition-opacity duration-300 ease-in-out rounded-bl-lg rounded-r-lg xl:text-sm lg:text-xs opacity-0 invisible group-hover:visible group-hover:opacity-100\">NotíciasTVEventosÁlbunsPolítica de Privacidade</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"flex items-center justify-center md:justify-normal list-none m-0 p-0\"></ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > header:nth-child(2) > div:nth-child(4) > div:nth-child(1) > ul:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer id=\"rodape\" class=\"footer mt-4rem\" tabindex=\"-1\">Horário de atendimento ao públicoSegunda a Sexta-feiraDas 7h às 12hDas 13h às 17hEndereçoAv. Dr. Carlos Vidoto, 610.CEP: 78563-000CNPJ: 37.465.945/0001-99Email: camara@tabapora.mt.leg.brContato(66) 3557-1136© 2026 - Câmara Municipal de TabaporãPolítica de PrivacidadeDesenvolvido por Pentágono Sistemas</footer>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo\" class=\"content\" tabindex=\"-1\"></main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-20 07:53:00",
+      "tot": {
+        "info": {
+          "url": "https://tabapora.mt.leg.br/transparencia/undefined/74",
+          "title": "Câmara Municipal de Tabaporã",
+          "date": "2026-09-20 07:53:00",
+          "htmlTags": 203,
+          "roles": {
+            "document": 1,
+            "generic": 73,
+            "navigation": 2,
+            "link": 41,
+            "banner": 1,
+            "button": 8,
+            "presentation": 1,
+            "img": 3,
+            "list": 6,
+            "listitem": 27,
+            "main": 1,
+            "contentinfo": 1,
+            "paragraph": 8
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "script": 13,
+            "meta": 15,
+            "link": 7,
+            "title": 2,
+            "body": 1,
+            "noscript": 1,
+            "div": 48,
+            "nav": 2,
+            "a": 41,
+            "header": 1,
+            "button": 8,
+            "span": 24,
+            "img": 5,
+            "ul": 6,
+            "li": 27,
+            "main": 1,
+            "footer": 1,
+            "p": 8,
+            "style": 1
+          },
+          "size": 15048,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "9dbf9cb05181190ea879612e97256d4d",
+          "tests": 29,
+          "conform": "3@1@0",
+          "score": "8.6"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 7,
+          "buttonAname": 7,
+          "a": 26,
+          "linkNotAName": 3,
+          "elementDec": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaStPermitted": 17,
+          "ariaAtribDefined": 12,
+          "ariaStValid": 17,
+          "linkIdentAName": 1,
+          "img": 4,
+          "imgAltNull": 1,
+          "headers": 0,
+          "elementHiddenFocus": 2,
+          "menuItem": 0,
+          "id": 32,
+          "colorContrast": 11,
+          "elementPresentChildrenNoFocus": 11,
+          "textContrastHNot": 19,
+          "aSkipFirst": 1,
+          "dd,dt": 0,
+          "idAtt": 13,
+          "dl": 0,
+          "hxNone": 1,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "noDuplicateMain": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkip": 3,
+          "bannerTopLevel": 1,
+          "li": 9,
+          "liSemantically": 9,
+          "listCorrectly": 6,
+          "contentinfoTopLevel": 1,
+          "mainTopLevel": 1,
+          "area": 0,
+          "inpImg": 41,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 1,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@36",
+          "a_11": "1@3.6",
+          "element_02": "10@36",
+          "aria_05": "10@36",
+          "aria_07": "10@36",
+          "aria_03": "10@36",
+          "a_12": "10@36",
+          "img_01a": "10@15",
+          "img_02": "something",
+          "element_04": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "a_01a": "something",
+          "id_01": "10@36",
+          "layout_01a": "10@22",
+          "hx_01a": "1@3.2",
+          "landmark_09": "10@36",
+          "landmark_11": "10@36",
+          "landmark_13": "10@36",
+          "heading_04": "1@3.6",
+          "a_02b": "something",
+          "landmark_01": "10@36",
+          "listitem_01": "10@36",
+          "list_02": "10@36",
+          "landmark_05": "10@36",
+          "landmark_07": "10@36"
+        }
+      },
+      "conform": "3@1@0",
+      "score": "8.6"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+[1/93] Erro: https://gws-sistemas.com.br/ouvidoria.pm.acorizal/novo-protocolo -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[2/93] Erro: https://ouvidoria.pm.altoboavista.gws-sistemas.com.br/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[3/93] Erro: https://araguaiana.mt.gov.br/ouvidoria-identificada -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[6/93] Erro: https://canarana.mt.gov.br/portal/ -> Avaliação recusada pelo AMAWeb: EVALUATION_FAILED
+[4/93] Erro: https://gws-sistemas.com.br/ouvidoria.pm.bomjesusdoaraguaia/novo-protocolo -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[5/93] Erro: https://www.canabravadonorte.org/transparencia/ouvidoria/cadastrar-manifestacao -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[7/93] Erro: https://www.cocalinho.mt.gov.br/ouvidoria-identificada -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[9/93] Erro: https://gws-sistemas.com.br/ouvidoria.pm.indiavai/novo-protocolo -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[8/93] Erro: https://www.gws-sistemas.com.br/cartadeservico.pm.generalcarneiro/geral/ouvidoria-municipal -> AMAWeb excedeu 120s de espera.
+[10/93] Erro: https://ouvidoria.jangada.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[11/93] Erro: https://www.jauru.mt.gov.br/ouvidoria-identificada -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[12/93] Erro: https://prefjuara.ouvidoriabr.com/protocolo/novo/149 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[13/93] Erro: https://www.juruena.mt.gov.br/portal/ouvidoria/cadastro/1 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[15/93] Erro: https://prefjuina.ouvidoriabr.com/protocolo/novo/165 -> AMAWeb excedeu 120s de espera.
+[16/93] Erro: https://lambaridoeste.mt.gov.br/ouvidoria/formulario-on-line -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[17/93] Erro: https://lucasdorioverde.1doc.com.br/b.php?pg=o/central_servicos&tab=categoria&filter=01JJ6Z3KTJVF1FXVD799BHCXDN -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[18/93] Erro: https://gws-sistemas.com.br/ouvidoria.pm.luciara -> Avaliação recusada pelo AMAWeb: EVALUATION_FAILED
+[21/93] Erro: https://mirassoldoeste.flowdocs.com.br:2053/public/home/subject/3 -> Avaliação recusada pelo AMAWeb: DNS_LOOKUP_FAILED
+[22/93] Erro: https://ouvidoria.nobres.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[23/93] Erro: https://ouvidoria.nortelandia.mt.gov.br/Manifestacao/ -> AMAWeb excedeu 120s de espera.
+[25/93] Erro: https://ouvidoria.novabandeirantes.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[27/93] Erro: https://flowdocs-novacanaadonortemt.i7sgp.app.br/public/home/group/1 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[28/93] Erro: https://ouvidoria.novaguarita.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[29/93] Erro: https://ouvidoria.novalacerda.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[32/93] Erro: https://ouvidoria.novamonteverde.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[33/93] Erro: https://prefnm.ouvidoriabr.com/protocolo/novo/2 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[35/93] Erro: https://ouvidoria.novaolimpia.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[37/93] Erro: https://www.novaubirata.mt.gov.br/ouvidoria -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[38/93] Erro: https://ouvidoria.novaxavantina.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[41/93] Erro: https://ouvidoria.novosantoantonio.mt.gov.br/Manifestacao/ -> AMAWeb excedeu 120s de espera.
+[43/93] Erro: https://ouvidoria.paranatinga.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[44/93] Erro: https://ouvidoria.pedrapreta.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[45/93] Erro: https://ouvidoria.peixotodeazevedo.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[46/93] Erro: https://prefeitura-de-planalto-da-serra.webnode.page/ouvidoria/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[47/93] Erro: https://www.pocone.mt.gov.br/portal/ouvidoria/cadastro/1 -> AMAWeb excedeu 120s de espera.
+[48/93] Erro: https://acessoainformacao.pontaldoaraguaia.mt.gov.br/cidadao/ouvidoria/solicitacaoservico -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[49/93] Erro: https://www.prefeituradepontebranca-mt.com.br/contato -> AMAWeb excedeu 120s de espera.
+[50/93] Erro: https://ponteselacerda.ouvidoriabr.com/protocolo/novo/234 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[51/93] Erro: https://ouvidoria.portoalegredonorte.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[54/93] Erro: https://ouvidoria.portodosgauchos.mt.gov.br/Manifestacao/ -> Avaliação recusada pelo AMAWeb: DNS_LOOKUP_FAILED
+[52/93] Erro: https://ouvidoria.portoesperidiao.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[53/93] Erro: https://portoestrela.dinamikasistemas.com.br/ouvidoria/manifestacao -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[58/93] Erro: https://reservadocabacal.mt.gov.br/ouvidoria/formulario-on-line -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[59/93] Erro: https://gws-sistemas.com.br/ouvidoria.pm.ribeiraocascalheira/novo-protocolo -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[60/93] Erro: https://www.ribeiraozinho.mt.gov.br/portal/ouvidoria/cadastro/1 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[62/93] Erro: https://rondolandia.mt.gov.br/ouvidoria?tipo=1 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[63/93] Erro: https://rondonopolis.ouvidoriabr.com/protocolo/novo/248 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[64/93] Erro: https://www.gp.srv.br/ouvidoria/rosariooeste/#/portal/1/manifestacao -> AMAWeb excedeu 120s de espera.
+[65/93] Erro: https://saltodoceu.mt.gov.br/ouvidoria/formulario-on-line -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[66/93] Erro: https://ouvidoria.santacarmem.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[67/93] Erro: https://ouvidoria.santacruzdoxingu.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+Ciclo 1 | 93 URL(s) | 3 worker(s)
+Saída: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04
+[14/93] Concluído: https://ouvidoria.hiperbiti.com.br/?token=7GZDD2K2019032577SIIC2
+  Nota AMAWeb: 7.3
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.hiperbiti.com.br_014.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.hiperbiti.com.br_014.pdf
+[19/93] Concluído: https://ouvidoria.marcelandia.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.5
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.marcelandia.mt.gov.br_019.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.marcelandia.mt.gov.br_019.pdf
+[20/93] Concluído: https://www.matupa.mt.gov.br/Transparencia/Ouvidoria-SUS/Formulario/
+  Nota AMAWeb: 6.6
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.matupa.mt.gov.br_020.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.matupa.mt.gov.br_020.pdf
+[24/93] Concluído: https://ouvidoria.nossasenhoradolivramento.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.7
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.nossasenhoradolivramento.mt.gov.br_024.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.nossasenhoradolivramento.mt.gov.br_024.pdf
+[26/93] Concluído: https://ouvidoria.novabrasilandia.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.7
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novabrasilandia.mt.gov.br_026.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novabrasilandia.mt.gov.br_026.pdf
+[30/93] Concluído: https://ouvidoria.novamarilandia.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.5
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novamarilandia.mt.gov.br_030.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novamarilandia.mt.gov.br_030.pdf
+[31/93] Concluído: https://ouvidoria.novamaringa.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.7
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novamaringa.mt.gov.br_031.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novamaringa.mt.gov.br_031.pdf
+[34/93] Concluído: https://ouvidoria.novanazare.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 8.3
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novanazare.mt.gov.br_034.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novanazare.mt.gov.br_034.pdf
+[36/93] Concluído: https://ouvidoria.novasantahelena.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.9
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novasantahelena.mt.gov.br_036.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novasantahelena.mt.gov.br_036.pdf
+[39/93] Concluído: https://prefnhn.ouvidoriabr.com/protocolo/novo/218
+  Nota AMAWeb: 9.2
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_prefnhn.ouvidoriabr.com_039.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_prefnhn.ouvidoriabr.com_039.pdf
+[40/93] Concluído: https://ouvidoria.novomundo.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.7
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novomundo.mt.gov.br_040.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.novomundo.mt.gov.br_040.pdf
+[42/93] Concluído: https://www.portalcr2.com.br/ouvidoria/ouvidoria-novo-sao-joaquim
+  Nota AMAWeb: 7.5
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.portalcr2.com.br_042.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.portalcr2.com.br_042.pdf
+[56/93] Concluído: https://cartadeservicos.primaveradoleste.mt.gov.br/Carta-Servicos/Servico/Ouvidoria-municipal-3272
+  Nota AMAWeb: 9.6
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_cartadeservicos.primaveradoleste.mt.gov.br_056.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_cartadeservicos.primaveradoleste.mt.gov.br_056.pdf
+[55/93] Concluído: https://ouvidoria.poxoreu.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.5
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.poxoreu.mt.gov.br_055.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.poxoreu.mt.gov.br_055.pdf
+[57/93] Concluído: https://ouvidoria.querencia.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.7
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.querencia.mt.gov.br_057.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.querencia.mt.gov.br_057.pdf
+[61/93] Concluído: https://www.riobranco.mt.gov.br/ouvidoria/formulario-on-line
+  Nota AMAWeb: 9.6
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.riobranco.mt.gov.br_061.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.riobranco.mt.gov.br_061.pdf
+[70/93] Concluído: https://santoafonso.mt.gov.br/ouvidoria/manifestacao
+  Nota AMAWeb: 7.2
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_santoafonso.mt.gov.br_070.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_santoafonso.mt.gov.br_070.pdf
+[71/93] Concluído: https://ouvidoria.leverger.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.9
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.leverger.mt.gov.br_071.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.leverger.mt.gov.br_071.pdf
+[72/93] Concluído: https://ouvidoria.santoantoniodoleste.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.7
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.santoantoniodoleste.mt.gov.br_072.json[68/93] Erro: https://prefsrt.ouvidoriabr.com/protocolo/novo/35 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[69/93] Erro: https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria/form -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[74/93] Erro: https://ouvidoria.serranovadourada.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[75/93] Erro: https://www.gp.srv.br/ouvidoria/sinop/#/portal/1/manifestacao -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[76/93] Erro: https://saofelixdoaraguaia.centi.com.br/ouvidoria -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[78/93] Erro: https://prefsjrc.ouvidoriabr.com/protocolo/novo/19 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[79/93] Erro: https://ouvidoria.saojosedoxingu.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[82/93] Erro: https://tabapora.ouvidoriabr.com/protocolo/novo/1247 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[83/93] Erro: https://tangaradaserra.1doc.com.br/b.php?pg=wp/wp&itd=4 -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[86/93] Erro: https://ouvidoria.tesouro.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[87/93] Erro: https://ouvidoria.torixoreu.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[88/93] Erro: https://ouvidoria.uniaodosul.mt.gov.br/Manifestacao/ -> Não foi possível acessar AMAWeb: _ssl.c:1016: The handshake operation timed out
+[93/93] Erro: https://www.aguaboa.mt.gov.br/servicos/ouvidoria -> AMAWeb excedeu 120s de espera.
+Concluído c/ 64 falha(s).
+
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.santoantoniodoleste.mt.gov.br_072.pdf
+[73/93] Concluído: https://www.sapezal.mt.gov.br/portal/ouvidoria/cadastro/1
+  Nota AMAWeb: 8.2
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.sapezal.mt.gov.br_073.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.sapezal.mt.gov.br_073.pdf
+[77/93] Concluído: https://www.saojosedopovo.mt.gov.br/transparencia/cadastrar-manifestacao/
+  Nota AMAWeb: 7.0
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.saojosedopovo.mt.gov.br_077.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.saojosedopovo.mt.gov.br_077.pdf
+[80/93] Concluído: https://saojosedosquatromarcos.mt.gov.br/ouvidoria/anonima
+  Nota AMAWeb: 8.2
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_saojosedosquatromarcos.mt.gov.br_080.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_saojosedosquatromarcos.mt.gov.br_080.pdf
+[81/93] Concluído: https://www.saopedrodacipa.mt.gov.br/transparencia/cadastrar-manifestacao/
+  Nota AMAWeb: 6.8
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.saopedrodacipa.mt.gov.br_081.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.saopedrodacipa.mt.gov.br_081.pdf
+[84/93] Concluído: https://preftapurah.ouvidoriabr.com/protocolo/novo/240
+  Nota AMAWeb: 9.2
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_preftapurah.ouvidoriabr.com_084.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_preftapurah.ouvidoriabr.com_084.pdf
+[85/93] Concluído: https://ouvidoria.terranovadonorte.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.9
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.terranovadonorte.mt.gov.br_085.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.terranovadonorte.mt.gov.br_085.pdf
+[89/93] Concluído: https://www.valedesaodomingos.mt.gov.br/ouvidoria/formulario-on-line
+  Nota AMAWeb: 9.6
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.valedesaodomingos.mt.gov.br_089.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.valedesaodomingos.mt.gov.br_089.pdf
+[90/93] Concluído: https://ouvidoria.vera.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.8
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.vera.mt.gov.br_090.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.vera.mt.gov.br_090.pdf
+[91/93] Concluído: https://ouvidoria.vilabeladasantissimatrindade.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 8.3
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.vilabeladasantissimatrindade.mt.gov.br_091.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.vilabeladasantissimatrindade.mt.gov.br_091.pdf
+[92/93] Concluído: https://ouvidoria.vilarica.mt.gov.br/Manifestacao/
+  Nota AMAWeb: 7.9
+  JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.vilarica.mt.gov.br_092.json
+  PDF:  /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_ouvidoria.vilarica.mt.gov.br_092.pdf

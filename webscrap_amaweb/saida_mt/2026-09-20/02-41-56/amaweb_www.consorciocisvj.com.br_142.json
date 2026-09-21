@@ -1,0 +1,2638 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html lang=\"pt-br\"><head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>CISVJ</title>\n    <meta name=\"title\" content=\"CISVJ\">\n    <meta name=\"description\" content=\"Consórcio intermunicipal de saúde do vale do Juruena\">\n    <meta name=\"keywords\" content=\"\">\n    <meta name=\"author\" content=\"CISVJ\">\n    <meta name=\"company\" content=\"NIVELDIGITAL DESENVOLVIMENTO DE SITES 66 3566 1311\">\n    <meta name=\"revisit-after\" content=\"1 days\">\n    <meta name=\"language\" content=\"pt,brasil\">\n    <meta name=\"robots\" content=\"index,follow\">\n    <meta name=\"reply-to\" content=\"mailto:contato@niveldigital.com.br\">\n    <meta name=\"copyright\" content=\"NIVELDIGITAL\">\n    <meta name=\"url\" content=\"https://www.consorciocisvj.com.br\">\n    <meta http-equiv=\"refresh\" content=\"12000\">\n    <meta property=\"og:locale\" content=\"pt_br\">\n    <meta property=\"og:title\" content=\"CISVJ\">\n    <meta property=\"og:description\" content=\"Consórcio intermunicipal de saúde do vale do Juruena\">\n    <meta property=\"og:url\" content=\"http://www.consorciocisvj.com.br/home\">\n    <meta property=\"og:image\" content=\"https://www.consorciocisvj.com.br/uploads/banners/\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:site_name\" content=\"CISVJ\">\n\t<link rel=\"icon\" href=\"https://www.consorciocisvj.com.br/imagens/favicon.png\">\n    <link href=\"https://www.consorciocisvj.com.br/css/estilos.css\" rel=\"stylesheet\">\n\t<script src=\"https://www.consorciocisvj.com.br/js/jquery.js\"></script>\n    <script src=\"https://www.consorciocisvj.com.br/js/typeit.js\"></script>\n\t<script src=\"https://www.consorciocisvj.com.br/js/validar.js\"></script>\n</head>\n<body style=\"zoom: 1; transform: scale(1); transform-origin: left top;\">\n\n\t<header class=\"header\">\n        <div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t<div class=\"linhaUm\"></div>\n\t\t\t\t</div><!--.col-->\n\t\t\t</div><!--.row-->\n\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t<div class=\"d-flex justify-content-end align-items-center py-2\">\n\t\t\t\t\t\t<div class=\"acessibilidade-bar\">\n\t\t\t\t\t\t\t<strong class=\"me-3\" style=\"color:#000;\">Acessibilidade</strong>\n\t\t\t\t\t\t\t<button id=\"btn-contraste\" class=\"btn-acessibilidade\">Contraste</button>\n\t\t\t\t\t\t\t<button id=\"btn-dislexia\" class=\"btn-acessibilidade\">Dislexia</button>\n\t\t\t\t\t\t\t<button id=\"btn-font-dec\" class=\"btn-acessibilidade\">A-</button>\n\t\t\t\t\t\t\t<button id=\"btn-font-inc\" class=\"btn-acessibilidade\">A+</button>\n\t\t\t\t\t\t\t<button id=\"btn-font-reset\" class=\"btn-acessibilidade\">A</button>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><!--.row-->\n\t\t\t\n            <div class=\"row\">\n                <div class=\"col-md-3\">\n\t\t\t\t\t<div class=\"logo\"><a href=\"https://www.consorciocisvj.com.br/home\"><img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250206135505-g3kp.png\" alt=\"CISVJ\"></a></div><!--.logo-->\n\t\t\t\t</div><!--.col-->\n\n\t\t\t\t<div class=\"col-md-9\">\n                    <nav class=\"nav\">\n\t\t\t\t\t\t<div class=\"navMenu\">\n\t\t\t\t\t\t\t<ul class=\"navNivel justify-content-end\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li class=\"menuItem\"><a href=\"https://www.consorciocisvj.com.br/home\" class=\"menuLink\">HOME</a></li>\n\t\t\t\t\t\t\t\t<li class=\"menuItem menuItemDropdown\">\n\t\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\" class=\"menuLink menuLinkDropdown\">INSTITUCIONAL <span class=\"menuChevron\">▼</span></a>\n\t\t\t\t\t\t\t\t\t<ul class=\"navDropdown\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/institucional/4/diretoria\">Diretoria</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/institucional/2/documentos-institucional\">Documentos Institucional</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/institucional/7/estrutura-organizacional\">Estrutura Organizacional</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/institucional/6/perguntas-frequentes\">Perguntas Frequentes </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/institucional/3/quem-somos\">Quem somos? </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                        \n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"menuItem menuItemDropdown\">\n\t\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\" class=\"menuLink menuLinkDropdown\">MUNICÍPIOS <span class=\"menuChevron\">▼</span></a>\n\t\t\t\t\t\t\t\t\t<ul class=\"navDropdown\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/cidade/1/aripuana\">Aripuanã</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/cidade/2/castanheira\">Castanheira</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/cidade/3/colniza\">Colniza</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/cidade/4/cotriguacu\">Cotriguaçu</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/cidade/5/-5\">Juína</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/cidade/6/juruena\">Juruena</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"menuItem menuItemDropdown\">\n\t\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\" class=\"menuLink menuLinkDropdown\">PUBLICAÇÕES <span class=\"menuChevron\">▼</span></a>\n\t\t\t\t\t\t\t\t\t<ul class=\"navDropdown\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/1/atas\">Atas</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">Balanço CISVJ</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/9/portarias-2023\">Portarias 2023</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/8/portarias-2024\">Portarias 2024</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a class=\"dropdownItem hide-nav\" href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"menuItem\"><a href=\"https://www.consorciocisvj.com.br/licitacao\" class=\"menuLink\">LICITAÇÕES</a></li>\n\t\t\t\t\t\t\t\t<li class=\"menuItem\"><a href=\"https://www.consorciocisvj.com.br/servicos\" class=\"menuLink\">SERVIÇOS</a></li>\n\t\t\t\t\t\t\t\t<li class=\"menuItem\"><a href=\"https://www.consorciocisvj.com.br/noticias\" class=\"menuLink\">NOTÍCIAS</a></li>\n\n\t\t\t\t\t\t\t\t<li class=\"menuItem\"><a href=\"https://www.consorciocisvj.com.br/fale\" class=\"menuLink\">SIC</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div><!--.navMenu-->\n\t\t\t\t\t\t<div class=\"navUncollapsed\">\n\t\t\t\t\t\t\t<!-- Botão de Busca -->\n\t\t\t\t\t\t\t<button class=\"searchBtn\" id=\"openSearch\" title=\"Buscar\">\n\t\t\t\t\t\t\t\t<svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n\t\t\t\t\t\t\t\t\t<circle cx=\"11\" cy=\"11\" r=\"7\"></circle>\n\t\t\t\t\t\t\t\t\t<line x1=\"16.5\" y1=\"16.5\" x2=\"22\" y2=\"22\"></line>\n\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t<button class=\"navBar d-block d-xl-none\">\n\t\t\t\t\t\t\t\t<span class=\"icon-bar top-bar\"></span>\n\t\t\t\t\t\t\t\t<span class=\"icon-bar middle-bar\"></span>\n\t\t\t\t\t\t\t\t<span class=\"icon-bar bottom-bar\"></span>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</div><!--.navUncollapsed-->\n                    </nav>\n                </div><!--.col-->\n            </div><!--.row-->\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"linhaDois\"></div>\n\t\t\t\t</div><!--.col-->\n\t\t\t</div><!--.row-->\n        </div><!--.container-->\n        <div class=\"backdrop\"></div>\n\t</header>\n\n\t<!-- Modal de Busca -->\n\t<div class=\"modalOverlay\" id=\"searchModal\">\n\t\t<div class=\"modalBox\">\n\t\t\t<div class=\"modalHeader\">\n\t\t\t\t<div class=\"modalTitle\">Buscar no site</div>\n\t\t\t\t<button class=\"closeSearch\" id=\"closeSearch\">✕</button>\n\t\t\t</div>\n\t\t\t<div class=\"searchRow\">\n\t\t\t\t<input class=\"searchInput\" type=\"text\" id=\"searchInput\" placeholder=\"Digite sua busca...\">\n\t\t\t\t<button class=\"searchSubmit\" id=\"searchSubmitBtn\">Buscar</button>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<script>\n\t\tvar modal = document.getElementById('searchModal');\n\t\tvar openBtn = document.getElementById('openSearch');\n\t\tvar closeBtn = document.getElementById('closeSearch');\n\t\tvar searchInput = document.getElementById('searchInput');\n\t\tvar submitBtn = document.getElementById('searchSubmitBtn');\n\n\t\topenBtn.addEventListener('click', function() {\n\t\t\tmodal.classList.add('active');\n\t\t\tsetTimeout(function() { searchInput.focus(); }, 200);\n\t\t});\n\n\t\tcloseBtn.addEventListener('click', function() {\n\t\t\tmodal.classList.remove('active');\n\t\t});\n\n\t\tmodal.addEventListener('click', function(e) {\n\t\t\tif (e.target === modal) modal.classList.remove('active');\n\t\t});\n\n\t\tdocument.addEventListener('keydown', function(e) {\n\t\t\tif (e.key === 'Escape') modal.classList.remove('active');\n\t\t});\n\n\t\tsubmitBtn.addEventListener('click', function() {\n\t\t\tvar termo = searchInput.value.trim();\n\t\t\tif (termo !== '') {\n\t\t\t\twindow.location.href = 'https://www.consorciocisvj.com.br/busca.php?q=' + encodeURIComponent(termo); \n\t\t\t}\n\t\t});\n\n\t\tsearchInput.addEventListener('keydown', function(e) {\n\t\t\tif (e.key === 'Enter') submitBtn.click();\n\t\t});\n\n\t\t\n\t\t// --- SCRIPT DE ACESSIBILIDADE ---\n\t\tconst body = document.body;\n\t\tconst btnContraste = document.getElementById('btn-contraste');\n\t\tconst btnDislexia = document.getElementById('btn-dislexia');\n\t\tconst btnFontInc = document.getElementById('btn-font-inc');\n\t\tconst btnFontDec = document.getElementById('btn-font-dec');\n\t\tconst btnFontReset = document.getElementById('btn-font-reset');\n\n\t\t// Controle de zoom da fonte\n\t\tlet nivelZoom = parseFloat(localStorage.getItem('nivelZoom')) || 1;\n\n\t\t// Carrega as preferências salvas do usuário\n\t\tif(localStorage.getItem('altoContraste') === 'true') body.classList.add('alto-contraste');\n\t\tif(localStorage.getItem('fonteDislexia') === 'true') body.classList.add('fonte-dislexia');\n\t\taplicarZoom();\n\n\t\t// Alternar Contraste\n\t\tbtnContraste.addEventListener('click', function() {\n\t\t\tbody.classList.toggle('alto-contraste');\n\t\t\tlocalStorage.setItem('altoContraste', body.classList.contains('alto-contraste'));\n\t\t});\n\n\t\t// Alternar Dislexia\n\t\tbtnDislexia.addEventListener('click', function() {\n\t\t\tbody.classList.toggle('fonte-dislexia');\n\t\t\tlocalStorage.setItem('fonteDislexia', body.classList.contains('fonte-dislexia'));\n\t\t});\n\n\t\t// Alterar Tamanho da Fonte\n\t\tbtnFontInc.addEventListener('click', function() {\n\t\t\tif(nivelZoom < 1.5) { nivelZoom += 0.1; aplicarZoom(); }\n\t\t});\n\t\tbtnFontDec.addEventListener('click', function() {\n\t\t\tif(nivelZoom > 0.8) { nivelZoom -= 0.1; aplicarZoom(); }\n\t\t});\n\t\tbtnFontReset.addEventListener('click', function() {\n\t\t\tnivelZoom = 1; aplicarZoom();\n\t\t});\n\n\t\tfunction aplicarZoom() {\n\t\t\tdocument.body.style.zoom = nivelZoom;\n\t\t\t// Fix para Firefox (que não suporta zoom nativamente em algumas versões)\n\t\t\tdocument.body.style.transform = `scale(${nivelZoom})`;\n\t\t\tdocument.body.style.transformOrigin = 'top left';\n\t\t\t\n\t\t\tlocalStorage.setItem('nivelZoom', nivelZoom);\n\t\t}\n\t</script>\t<div class=\"boxDestaque\">\n    <div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-7\">\n\t\t\t\t<div class=\"bannercontainer\" style=\"overflow: visible;\">\n\t\t\t\t\t<div class=\"banner banner-rotator\" id=\"banner-rotator-88\" style=\"visibility: visible; height: 337px;\">\n\t\t\t\t\t\t<ul style=\"overflow: hidden; width: 100%; height: 100%; max-height: none;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li data-title=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\" data-link=\"https://www.consorciocisvj.com.br/destaque/8/edital-de-licitacao-chamamento-publico-n-001-2026\" data-target=\"_parent\" style=\"width: 100%; height: 100%; overflow: hidden; visibility: visible; z-index: 2;\"><div class=\"caption sft slidelink\" data-x=\"0\" data-y=\"0\" data-start=\"0\" style=\"opacity: inherit; filter: inherit; transition: opacity 400ms linear, left 400ms linear, top 400ms linear, transform 400ms linear, duration 400ms linear; transform: skewX(0deg);\"><a target=\"_parent\" href=\"https://www.consorciocisvj.com.br/destaque/8/edital-de-licitacao-chamamento-publico-n-001-2026\"><span></span></a></div>\n\t\t\t\t\t\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\">\n\t\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t<div class=\"preloader\" style=\"display: none;\"></div><div class=\"timer\" style=\"width: 0%; display: none;\"></div><div class=\"banner-clone\" style=\"left: -16.81px; top: -16.81px; width: 641px; height: 337px; display: block; opacity: 0.8319;\"><img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\"></div><div class=\"banner-clone\" style=\"left: 18.1476px; top: -18.1476px; width: 641px; height: 337px; display: block; opacity: 0.818524;\"><img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\"></div><div class=\"banner-clone\" style=\"left: -18.1476px; top: 18.1476px; width: 641px; height: 337px; display: block; opacity: 0.818524;\"><img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\"></div><div class=\"banner-clone\" style=\"left: 18.1476px; top: 18.1476px; width: 641px; height: 337px; display: block; opacity: 0.818524;\"><img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\"></div></div><!--.banner-->\n\t\t\t\t<div class=\"banner-rotator-shadow banner-rotator-shadow3\" style=\"width: 641px;\"></div><div class=\"buttons\" style=\"visibility: visible;\">\t\t\t\t\t\t\t\t\t<div class=\"previous-btn\" style=\"width: 20px; height: 20px; border-radius: 2px; display: none;\"></div>\t\t\t\t\t\t\t\t\t<div class=\"play-btn\" style=\"width: 20px; height: 20px; border-radius: 2px; display: none;\"></div>\t\t\t\t\t\t\t\t\t<div class=\"next-btn\" style=\"width: 20px; height: 20px; border-radius: 2px; display: none;\"></div>\t\t\t\t\t\t\t\t</div></div><!--.bannercontainer-->\n\t\t\t</div><!--.col-->\n\t\t\t<div class=\"col-md-5\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\n\t\t\t\t\t\t<div class=\"newsDestaque\">\n\t\t\t\t\t\t\t<div class=\"destaqueImg\">\n\t\t\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/noticia/8/edital-de-licitacao-chamamento-publico-n-001-2026\">\n\t\t\t\t\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20260416133559-qpgw.jpeg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\">\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div><!--.destaqueImg-->\n\t\t\t\t\t\t\t<div class=\"destaqueTxt\">\n\t\t\t\t\t\t\t\t<span>Quarta-feira, 15/04/2026</span>\n\t\t\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/noticia/8/edital-de-licitacao-chamamento-publico-n-001-2026\">EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026</a></h4>\n\t\t\t\t\t\t\t</div><!--.destaqueTxt-->\n\t\t\t\t\t\t</div><!--.newsDestaque-->\n\t\t\t\t\t\t\n\t\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\n\t\t\t\t\t\t<div class=\"newsDestaque\">\n\t\t\t\t\t\t\t<div class=\"destaqueImg\">\n\t\t\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/noticia/7/o-consorcio-cisvj-agora-esta-no-instagram\">\n\t\t\t\t\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20250811131546-81tg.jpg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"O Consórcio CISVJ agora está no Instagram! \">\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</div><!--.destaqueImg-->\n\t\t\t\t\t\t\t<div class=\"destaqueTxt\">\n\t\t\t\t\t\t\t\t<span>Terça-feira, 10/06/2025</span>\n\t\t\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/noticia/7/o-consorcio-cisvj-agora-esta-no-instagram\">O Consórcio CISVJ agora está no Instagram! </a></h4>\n\t\t\t\t\t\t\t</div><!--.destaqueTxt-->\n\t\t\t\t\t\t</div><!--.newsDestaque-->\n\t\t\t\t\t\t\n\t\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t\t\t</div><!--.row-->\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n    </div><!--.container-->\n\t</div><!--.boxDestaque-->\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-12\">\n\t\t\t\t<div class=\"divider mb-40\"></div>\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n\t\t<div class=\"row\">\n\n\t\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/atalho-conta.php?id=1&amp;link=https://www.consorciocisvj.com.br/publicacoes\" target=\"_self\" class=\"atalhoIndex\">\n\t\t\t\t\t\t<span class=\"atalhoIndexIcone\">\n\t\t\t\t\t\t\t<i class=\"fas fa-caret-square-right\"></i>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\t<span>ACESSO A INFORMAÇÃO</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/atalho-conta.php?id=2&amp;link=https://cisvj.ouvidoriabr.com/\" target=\"_blank\" class=\"atalhoIndex\">\n\t\t\t\t\t\t<span class=\"atalhoIndexIcone\">\n\t\t\t\t\t\t\t<i class=\"fas fa-caret-square-right\"></i>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\t<span>OUVIDORIA</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/atalho-conta.php?id=3&amp;link=https://radardatransparencia.atricon.org.br/\" target=\"_blank\" class=\"atalhoIndex\">\n\t\t\t\t\t\t<span class=\"atalhoIndexIcone\">\n\t\t\t\t\t\t\t<i class=\"fas fa-caret-square-right\"></i>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\t<span>RADAR  DA TRANSPARENCIA </span>\n\t\t\t\t\t</a>\n\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/atalho-conta.php?id=4&amp;link=https://cisvj.pentagono.info/dash\" target=\"_blank\" class=\"atalhoIndex\">\n\t\t\t\t\t\t<span class=\"atalhoIndexIcone\">\n\t\t\t\t\t\t\t<i class=\"fas fa-caret-square-right\"></i>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\t<span>ACESSO AO SISTEMA</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/atalho-conta.php?id=5&amp;link=https://www.consorciocisvj.com.br/servicos\" target=\"_self\" class=\"atalhoIndex\">\n\t\t\t\t\t\t<span class=\"atalhoIndexIcone\">\n\t\t\t\t\t\t\t<i class=\"fas fa-caret-square-right\"></i>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\t<span>SERVIÇOS</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/atalho-conta.php?id=6&amp;link=https://transparencia.agilicloud.com.br/consintersaudevalejuruena-mt\" target=\"_blank\" class=\"atalhoIndex\">\n\t\t\t\t\t\t<span class=\"atalhoIndexIcone\">\n\t\t\t\t\t\t\t<i class=\"fas fa-caret-square-right\"></i>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\t<span>PORTAL TRANSPARÊNCIA\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div><!--.col-->\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div><!--.row-->\n    </div><!--.container-->\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col\">\n\t\t\t\t<div class=\"mt-20 mb-40\"></div>\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n\t\t<div class=\"row\">\n            <div class=\"col\">\n                <div class=\"barraIndex mb-40\">NOTÍCIAS</div>\n            </div><!--.col-->\n        </div><!--.row-->\n\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t<div class=\"newsDestaque\">\n\t\t\t\t\t<div class=\"destaqueImg\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/noticia/8/edital-de-licitacao-chamamento-publico-n-001-2026\">\n\t\t\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20260416133559-qpgw.jpeg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</div><!--.destaqueImg-->\n\t\t\t\t\t<div class=\"destaqueTxt\">\n\t\t\t\t\t\t<span>Quarta-feira, 15/04/2026</span>\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/noticia/8/edital-de-licitacao-chamamento-publico-n-001-2026\">EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026</a></h4>\n\t\t\t\t\t</div><!--.destaqueTxt-->\n\t\t\t\t</div><!--.newsDestaque-->\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t<div class=\"newsDestaque\">\n\t\t\t\t\t<div class=\"destaqueImg\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/noticia/7/o-consorcio-cisvj-agora-esta-no-instagram\">\n\t\t\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20250811131546-81tg.jpg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"O Consórcio CISVJ agora está no Instagram! \">\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</div><!--.destaqueImg-->\n\t\t\t\t\t<div class=\"destaqueTxt\">\n\t\t\t\t\t\t<span>Terça-feira, 10/06/2025</span>\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/noticia/7/o-consorcio-cisvj-agora-esta-no-instagram\">O Consórcio CISVJ agora está no Instagram! </a></h4>\n\t\t\t\t\t</div><!--.destaqueTxt-->\n\t\t\t\t</div><!--.newsDestaque-->\n\t\t\t</div><!--.col-->\n\t\t\t        </div><!--.row-->\n    </div><!--.container-->\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col\">\n\t\t\t\t<div class=\"mt-20 mb-40\"></div>\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n\t\t<div class=\"row\">\n            <div class=\"col\">\n                <div class=\"barraIndex mb-40\">CIDADES</div>\n            </div><!--.col-->\n        </div><!--.row-->\n\t\t<div class=\"row\">\n\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\n\t\t\t\t<div class=\"cidadesIndex\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=1&amp;link=https://www.aripuana.mt.gov.br/#/home\">\n\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102440-uj0m.png\" class=\"img-fluid\" alt=\"Aripuanã\">\n\t\t\t\t\t</a>\n\t\t\t\t\t<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=1&amp;link=https://www.aripuana.mt.gov.br/#/home\">Aripuanã</a></h5>\n\t\t\t\t</div><!--.cidadesIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\n\t\t\t\t<div class=\"cidadesIndex\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=2&amp;link=https://www.castanheira.mt.gov.br/\">\n\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102503-ja6t.png\" class=\"img-fluid\" alt=\"Castanheira\">\n\t\t\t\t\t</a>\n\t\t\t\t\t<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=2&amp;link=https://www.castanheira.mt.gov.br/\">Castanheira</a></h5>\n\t\t\t\t</div><!--.cidadesIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\n\t\t\t\t<div class=\"cidadesIndex\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=3&amp;link=https://www.colniza.mt.gov.br/#/home\">\n\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102518-91sn.png\" class=\"img-fluid\" alt=\"Colniza\">\n\t\t\t\t\t</a>\n\t\t\t\t\t<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=3&amp;link=https://www.colniza.mt.gov.br/#/home\">Colniza</a></h5>\n\t\t\t\t</div><!--.cidadesIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\n\t\t\t\t<div class=\"cidadesIndex\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=4&amp;link=https://www.cotriguacu.mt.gov.br/\">\n\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102536-249v.png\" class=\"img-fluid\" alt=\"Cotriguaçu\">\n\t\t\t\t\t</a>\n\t\t\t\t\t<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=4&amp;link=https://www.cotriguacu.mt.gov.br/\">Cotriguaçu</a></h5>\n\t\t\t\t</div><!--.cidadesIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\n\t\t\t\t<div class=\"cidadesIndex\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=5&amp;link=https://www.juina.mt.gov.br/\">\n\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102551-3pn0.png\" class=\"img-fluid\" alt=\"Juína\">\n\t\t\t\t\t</a>\n\t\t\t\t\t<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=5&amp;link=https://www.juina.mt.gov.br/\">Juína</a></h5>\n\t\t\t\t</div><!--.cidadesIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\n\t\t\t\t<div class=\"cidadesIndex\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=6&amp;link=https://www.juruena.mt.gov.br\">\n\t\t\t\t\t<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102607-e5oy.png\" class=\"img-fluid\" alt=\"Juruena\">\n\t\t\t\t\t</a>\n\t\t\t\t\t<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=6&amp;link=https://www.juruena.mt.gov.br\">Juruena</a></h5>\n\t\t\t\t</div><!--.cidadesIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\n        </div><!--.row-->\n    </div><!--.container-->\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col\">\n\t\t\t\t<div class=\"mt-20 mb-40\"></div>\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n\t\t<div class=\"row\">\n            <div class=\"col\">\n                <div class=\"barraIndex mb-40\">PUBLICAÇÕES</div>\n            </div><!--.col-->\n        </div><!--.row-->\n\t\t<div class=\"row\">\n\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">30/04/2026 - Exoneração</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">17/04/2026 - Férias</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">Balanço CISVJ</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">18/03/2026 - Balanço 2025</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">05/01/2026 - Nomeação</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">05/01/2026 - Administrativo</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">01/01/2026 - Contratos de Rateio - 2026</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">29/05/2025 - Demonstrativos 2024</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">01/05/2025 - LOA 2025</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">Balanço CISVJ</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">15/04/2025 - Balanço 2024</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">11/02/2025 - Administrativo</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">16/01/2025 - Nomeação</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">15/01/2025 - Exoneração</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">10/01/2025 - Férias</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">01/01/2025 - Contratos de Rateio - 2025</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">01/01/2025 - Aditivos de Contrato - 2025</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">01/01/2025 - Termos de Credenciamento - 2026</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">01/01/2025 - Termo de Credenciamento - 2025</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">01/01/2025 - Aditivo de Credenciameto - 2026</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">01/01/2025 - Aditivo de Credenciameto - 2025</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">01/01/2025 - Balancetes</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/8/portarias-2024\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/8/portarias-2024\">Portarias 2024</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/8/portarias-2024\">31/12/2024 - Portarias Exercício 2024</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/1/atas\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/1/atas\">Atas</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/1/atas\">01/01/2024 - Atas de Assembleia</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t \n\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/categoria/9/portarias-2023\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/categoria/9/portarias-2023\">Portarias 2023</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/categoria/9/portarias-2023\">31/12/2023 - Portarias Exercício 2023</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\n        </div><!--.row-->\n    </div><!--.container-->\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col\">\n\t\t\t\t<div class=\"mt-20 mb-40\"></div>\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n\t\t<div class=\"row\">\n            <div class=\"col\">\n                <div class=\"barraIndex mb-40\">LICITAÇÕES</div>\n            </div><!--.col-->\n        </div><!--.row-->\n\t\t<div class=\"row\">\n\t\t\t\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/licitacao\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">04/05/2026 08:00</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/licitacao\">001/2026 - 001/2026 - CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE EXAMES E PROCEDIMENTOS MÉDICOS NAS ESPECIALIDADES DE PSIQUIATRIA, GINECOLOGIA E OUTRAS</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/licitacao\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">06/01/2026 08:00</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/licitacao\">005/2025 - 005/2025 - CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE EXAMES E PROCEDIMENTOS MÉDICOS NAS ESPECIALIDADES DE CARDIOLOGIA, UROLOGIA, DERMATOLOGIA E OUTRAS.</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/licitacao\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">05/01/2026 08:00</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/licitacao\">004/2025 - 004/2025 - CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE EXAMES LABORATORIAIS.</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/licitacao\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">18/11/2025 08:00</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/licitacao\">003/2025 - 003/2025 - CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE EXAMES E PROCEDIMENTOS MÉDICOS NA ESPECIALIDADE DE ORTOPEDIA</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\t\t\t<div class=\"col-md-6\">\n\n\t\t\t\t<div class=\"docsIndex\">\n\t\t\t\t\t<div class=\"docsIcone\">\n\t\t\t\t\t\t<a href=\"https://www.consorciocisvj.com.br/licitacao\"><i class=\"fas fa-file-alt\"></i></a>\n\t\t\t\t\t</div><!--.docsIcone-->\n\t\t\t\t\t<div class=\"docsTexto\">\n\t\t\t\t\t\t<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">04/11/2025 08:00</a></h4>\n\t\t\t\t\t\t<p><a href=\"https://www.consorciocisvj.com.br/licitacao\">002/2025 - 002/2025 -  CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS NA PRESTAÇÃO DE SERVIÇOS DE EXAMES E PROCEDIMENTOS MÉDICOS NAS ESPECIALIDADES DE NEUROLOGIA, FONOAUDIOLOGIA E OUTRAS</a></p>\n\t\t\t\t\t</div><!--.docsTexto-->\n\t\t\t\t</div><!--.docsIndex-->\n\t\t\t\n\t\t\t</div><!--.col-->\n\t\t\t\n        </div><!--.row-->\n    </div><!--.container-->\n\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-12\">\n\t\t\t\t<div class=\"divider mt-40\"></div>\n\t\t\t</div><!--.col-->\n\t\t</div><!--.row-->\n    </div><!--.container-->\n\t<footer class=\"footer\">\n\t\t\n\t\t<div class=\"container\">\n\t\t\t<div class=\"boxRedesFooter\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-md-12\">\n\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div class=\"textoFooter\">E-mail: consorciosaudejuina@gmail.com <br> Horário de Atendimento atendimento da sede administrativa: De segunda a sexta-feira, das 07:00h às 17:00h <br> Endereço: Avenida Londrina, 183 - Módulo 05 Juína - MT CEP: 78.320-000</div><!--.textoFooter-->\n\t\t\t\t\t\t\t</div><!--.col-->\n\t\t\t\t\t\t</div><!--.row-->\n\t\t\t\t\t\t\n\t\t\t\t\t</div><!--.col-->\n\t\t\t\t</div><!--.row-->\n\t\t\t</div><!--.boxRedesFooter-->\n\t\t</div><!--.container-->\n\t\t\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"footerDivider mt-20\"></div>\n\t\t\t\t</div><!--.col-->\n\t\t\t</div><!--.row-->\n\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<nav class=\"navFooter\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.consorciocisvj.com.br/home\">Home <span>/</span></a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li><li><a href=\"https://www.consorciocisvj.com.br/fale\">Fale Conosco</a>\n\t\t\t\t\t\t</li></ul>\n\t\t\t\t\t</nav>\n\t\t\t\t</div><!--.col-->\n\t\t\t</div><!--.row-->\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col\">\n\t\t\t\t\t<div class=\"footerDivider mb-30\"></div>\n\t\t\t\t</div><!--.col-->\n\t\t\t</div><!--.row-->\n\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-6\">\n\t\t\t\t\t<div class=\"copyrightEsquerdo\">CISVJ, Todos os Direitos Reservados. Copyright 2026</div><!--.copyrightEsquerdo-->\n\t\t\t\t</div><!--.col-->\n\t\t\t\t<div class=\"col-sm-12 col-md-6\">\n\t\t\t\t\t<div class=\"copyrightDireito\">Desenvolvido por: <a href=\"#\" target=\"_blank\">INFOTEC TECNOLOGIA</a></div><!--.copyrightDireito-->\n\t\t\t\t</div><!--.col-->\n\t\t\t</div><!--.row-->\n\t\t\t\t\n\t\t</div><!--.container-->\n    </footer><!--.footer-->\n\t\t\n    <script src=\"https://www.consorciocisvj.com.br/js/bootstrap.js\"></script>\n\t<script src=\"https://www.consorciocisvj.com.br/js/lightbox.js\"></script>\n\t<script src=\"https://www.consorciocisvj.com.br/js/carousel.js\"></script>\n    <script src=\"https://www.consorciocisvj.com.br/js/valida_form.js\"></script>\n    <script src=\"https://www.consorciocisvj.com.br/js/destaque.js\"></script>\n\t<script src=\"https://www.consorciocisvj.com.br/js/destaque_plugins.js\"></script>\n\t<script src=\"https://www.consorciocisvj.com.br/js/menu.js\"></script>\n\t<script src=\"https://www.consorciocisvj.com.br/js/nivel.js\"></script>\n\n\t<div vw=\"\" class=\"enabled\">\n\t\t<div vw-access-button=\"\" class=\"active\"></div>\n\t\t<div vw-plugin-wrapper=\"\">\n\t\t\t<div class=\"vw-plugin-top-wrapper\"></div> \n\t\t</div>\n\t</div>\n\t<script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\"></script>\n\t<script>\n\t\tnew window.VLibras.Widget('https://vlibras.gov.br/app');\n\t</script><div id=\"vlibras-access-wrapper\"></div>\n\n\t\n\n\n<div id=\"lightboxOverlay\" class=\"lightboxOverlay\" style=\"display: none;\"></div><div id=\"lightbox\" class=\"lightbox\" style=\"display: none;\"><div class=\"lb-outerContainer\"><div class=\"lb-container\"><img class=\"lb-image\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\"><div class=\"lb-nav\"><a class=\"lb-prev\" href=\"\"></a><a class=\"lb-next\" href=\"\"></a></div><div class=\"lb-loader\"><a class=\"lb-cancel\"></a></div></div></div><div class=\"lb-dataContainer\"><div class=\"lb-data\"><div class=\"lb-details\"><span class=\"lb-caption\"></span><span class=\"lb-number\"></span></div><div class=\"lb-closeContainer\"><a class=\"lb-close\"></a></div></div></div></div></body></html>",
+    "data": {
+      "title": "CISVJ",
+      "rawUrl": "https://www.consorciocisvj.com.br/home",
+      "elems": {
+        "metaRefresh": 1,
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 9,
+        "buttonAname": 9,
+        "a": 123,
+        "linkNotAName": 1,
+        "elementDec": 1,
+        "metaRefreshNot": 1,
+        "svg": 0,
+        "aSameText": 1,
+        "iframeSame": 0,
+        "img": 13,
+        "imgAltNull": 1,
+        "hxHasAName": 38,
+        "headers": 0,
+        "elementHiddenFocus": 2,
+        "menuItem": 0,
+        "id": 107,
+        "colorContrast": 4,
+        "elementPresentChildrenNoFocus": 23,
+        "textContrastHNot": 7,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "idAtt": 17,
+        "dl": 0,
+        "hx": 38,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "bannerTopLevel": 1,
+        "li": 11,
+        "liSemantically": 11,
+        "listCorrectly": 6,
+        "contentinfoTopLevel": 1,
+        "area": 0,
+        "inpImg": 147,
+        "label": 1,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "metaRefresh": [
+          {
+            "verdict": "failed",
+            "description": "The test target refreshes after 12000 seconds.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<meta http-equiv=\"refresh\" content=\"12000\">",
+                "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(15)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>CISVJ</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-br\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-contraste\" class=\"btn-acessibilidade\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)",
+                "accessibleName": "Contraste"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-dislexia\" class=\"btn-acessibilidade\">Dislexia</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)",
+                "accessibleName": "Dislexia"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-dec\" class=\"btn-acessibilidade\">A-</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)",
+                "accessibleName": "A-"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-inc\" class=\"btn-acessibilidade\">A+</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)",
+                "accessibleName": "A+"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-reset\" class=\"btn-acessibilidade\">A</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(6)",
+                "accessibleName": "A"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"searchBtn\" id=\"openSearch\" title=\"Buscar\">\n\t\t\t\t\t\t\t\t<svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n\t\t\t\t\t\t\t\t\t<circle cx=\"11\" cy=\"11\" r=\"7\" qw-selector=\"html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(2) > button:nth-child(1) > svg:nth-child(1) > circle:nth-child(1)\" qw-css-rules=\"true\"></circle>\n\t\t\t\t\t\t\t\t\t<line x1=\"16.5\" y1=\"16.5\" x2=\"22\" y2=\"22\" qw-selector=\"html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(2) > button:nth-child(1) > svg:nth-child(1) > line:nth-child(2)\" qw-css-rules=\"true\"></line>\n\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(2) > button:nth-child(1)",
+                "accessibleName": "Buscar"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"closeSearch\" id=\"closeSearch\">✕</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)",
+                "accessibleName": "✕"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"searchSubmit\" id=\"searchSubmitBtn\">Buscar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > button:nth-child(2)",
+                "accessibleName": "Buscar"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a target=\"_parent\" href=\"https://www.consorciocisvj.com.br/destaque/8/edital-de-licitacao-chamamento-publico-n-001-2026\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "metaRefreshNot": [
+          {
+            "verdict": "failed",
+            "description": "The test target refreshes after 12000 seconds.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<meta http-equiv=\"refresh\" content=\"12000\">",
+                "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(15)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSameText": [
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(9) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(10) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(11) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(12) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(13) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(14) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(15) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(16) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(17) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(18) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(19) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(20) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/8/portarias-2024\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(21) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/1/atas\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(22) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/9/portarias-2023\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(23) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/licitacao\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/licitacao\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/licitacao\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/licitacao\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/licitacao\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              },
+              {
+                "htmlCode": "<a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"searchInput\" type=\"text\" id=\"searchInput\" placeholder=\"Digite sua busca...\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)",
+                "accessibleName": "Digite sua busca..."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250206135505-g3kp.png\" alt=\"CISVJ\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "CISVJ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20260416133559-qpgw.jpeg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20250811131546-81tg.jpg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"O Consórcio CISVJ agora está no Instagram! \">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "O Consórcio CISVJ agora está no Instagram! "
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20260416133559-qpgw.jpeg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20250811131546-81tg.jpg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"O Consórcio CISVJ agora está no Instagram! \">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "O Consórcio CISVJ agora está no Instagram! "
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102440-uj0m.png\" class=\"img-fluid\" alt=\"Aripuanã\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Aripuanã"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102503-ja6t.png\" class=\"img-fluid\" alt=\"Castanheira\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Castanheira"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102518-91sn.png\" class=\"img-fluid\" alt=\"Colniza\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Colniza"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102536-249v.png\" class=\"img-fluid\" alt=\"Cotriguaçu\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Cotriguaçu"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102551-3pn0.png\" class=\"img-fluid\" alt=\"Juína\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Juína"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102607-e5oy.png\" class=\"img-fluid\" alt=\"Juruena\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Juruena"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/noticia/8/edital-de-licitacao-chamamento-publico-n-001-2026\">EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)",
+                "accessibleName": "EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/noticia/7/o-consorcio-cisvj-agora-esta-no-instagram\">O Consórcio CISVJ agora está no Instagram! </a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)",
+                "accessibleName": "O Consórcio CISVJ agora está no Instagram!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/noticia/8/edital-de-licitacao-chamamento-publico-n-001-2026\">EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)",
+                "accessibleName": "EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/noticia/7/o-consorcio-cisvj-agora-esta-no-instagram\">O Consórcio CISVJ agora está no Instagram! </a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)",
+                "accessibleName": "O Consórcio CISVJ agora está no Instagram!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=1&amp;link=https://www.aripuana.mt.gov.br/#/home\">Aripuanã</a></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > h5:nth-child(2)",
+                "accessibleName": "Aripuanã"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=2&amp;link=https://www.castanheira.mt.gov.br/\">Castanheira</a></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > h5:nth-child(2)",
+                "accessibleName": "Castanheira"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=3&amp;link=https://www.colniza.mt.gov.br/#/home\">Colniza</a></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > h5:nth-child(2)",
+                "accessibleName": "Colniza"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=4&amp;link=https://www.cotriguacu.mt.gov.br/\">Cotriguaçu</a></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > h5:nth-child(2)",
+                "accessibleName": "Cotriguaçu"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=5&amp;link=https://www.juina.mt.gov.br/\">Juína</a></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > h5:nth-child(2)",
+                "accessibleName": "Juína"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5><a target=\"_blank\" href=\"https://www.consorciocisvj.com.br/cidade-conta.php?id=6&amp;link=https://www.juruena.mt.gov.br\">Juruena</a></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > h5:nth-child(2)",
+                "accessibleName": "Juruena"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">Balanço CISVJ</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Balanço CISVJ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/14/portarias-202-3\">Portarias 2026</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2026"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Contratos de Rateio e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Contabilidade CISVJ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Contabilidade CISVJ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/4/balanco-cisvj\">Balanço CISVJ</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(9) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Balanço CISVJ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2025"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(11) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2025"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(12) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2025"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/7/portarias-2025\">Portarias 2025</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(13) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2025"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(14) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Contratos de Rateio e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/11/contratos-de-rateio-e-aditivos\">Contratos de Rateio e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(15) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Contratos de Rateio e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(16) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Credenciamento e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(17) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Credenciamento e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(18) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Credenciamento e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/15/credenciamento-e-aditivos\">Credenciamento e Aditivos</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(19) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Credenciamento e Aditivos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/3/contabilidade-cisvj\">Contabilidade CISVJ</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(20) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Contabilidade CISVJ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/8/portarias-2024\">Portarias 2024</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(21) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2024"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/1/atas\">Atas</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(22) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Atas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/categoria/9/portarias-2023\">Portarias 2023</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(23) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Portarias 2023"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">04/05/2026 08:00</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "04/05/2026 08:00"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">06/01/2026 08:00</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "06/01/2026 08:00"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">05/01/2026 08:00</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "05/01/2026 08:00"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">18/11/2025 08:00</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "18/11/2025 08:00"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4><a href=\"https://www.consorciocisvj.com.br/licitacao\">04/11/2025 08:00</a></h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "04/11/2025 08:00"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/destaques/20260416133744-5xdu.jpeg&amp;mode=cm&amp;w=760&amp;h=400\" class=\"img-fluid defaultimg\" alt=\"\" style=\"width: 641px;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Quarta-feira, 15/04/2026</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Terça-feira, 10/06/2025</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Quarta-feira, 15/04/2026</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Terça-feira, 10/06/2025</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-contraste\" class=\"btn-acessibilidade\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-dislexia\" class=\"btn-acessibilidade\">Dislexia</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-dec\" class=\"btn-acessibilidade\">A-</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-inc\" class=\"btn-acessibilidade\">A+</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-reset\" class=\"btn-acessibilidade\">A</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250206135505-g3kp.png\" alt=\"CISVJ\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"searchBtn\" id=\"openSearch\" title=\"Buscar\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"navBar d-block d-xl-none\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(2) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"closeSearch\" id=\"closeSearch\">✕</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"searchSubmit\" id=\"searchSubmitBtn\">Buscar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20260416133559-qpgw.jpeg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20250811131546-81tg.jpg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"O Consórcio CISVJ agora está no Instagram! \">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20260416133559-qpgw.jpeg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/corta?img=uploads/noticias/destaque/20250811131546-81tg.jpg&amp;mode=cm&amp;w=140&amp;h=140\" class=\"img-fluid\" alt=\"O Consórcio CISVJ agora está no Instagram! \">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102440-uj0m.png\" class=\"img-fluid\" alt=\"Aripuanã\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102503-ja6t.png\" class=\"img-fluid\" alt=\"Castanheira\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102518-91sn.png\" class=\"img-fluid\" alt=\"Colniza\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102536-249v.png\" class=\"img-fluid\" alt=\"Cotriguaçu\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102551-3pn0.png\" class=\"img-fluid\" alt=\"Juína\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://www.consorciocisvj.com.br/uploads/banners/20250207102607-e5oy.png\" class=\"img-fluid\" alt=\"Juruena\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"lb-image\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(25) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Quarta-feira, 15/04/2026</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Terça-feira, 10/06/2025</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Quarta-feira, 15/04/2026</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Terça-feira, 10/06/2025</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"copyrightEsquerdo\">CISVJ, Todos os Direitos Reservados. Copyright 2026</div>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"copyrightDireito\">Desenvolvido por: INFOTEC TECNOLOGIA</div>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\" target=\"_blank\">INFOTEC TECNOLOGIA</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page is not a link.",
+            "resultCode": "F4",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-contraste\" class=\"btn-acessibilidade\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-contraste\" class=\"btn-acessibilidade\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-dislexia\" class=\"btn-acessibilidade\">Dislexia</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-dec\" class=\"btn-acessibilidade\">A-</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-inc\" class=\"btn-acessibilidade\">A+</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"btn-font-reset\" class=\"btn-acessibilidade\">A</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"searchBtn\" id=\"openSearch\" title=\"Buscar\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</button>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modalOverlay\" id=\"searchModal\">\n\t\t\n\t\t\t\n\t\t\t\tBuscar no site\n\t\t\t\t✕\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\tBuscar\n\t\t\t\n\t\t\n\t</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"closeSearch\" id=\"closeSearch\">✕</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input class=\"searchInput\" type=\"text\" id=\"searchInput\" placeholder=\"Digite sua busca...\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"searchSubmit\" id=\"searchSubmitBtn\">Buscar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"banner banner-rotator\" id=\"banner-rotator-88\" style=\"visibility: visible; height: 337px;\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access-wrapper\">       #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; right: 10px; flex-direction: row; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &amp;:hover, &amp;:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { right: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &amp;:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &amp;:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"lightboxOverlay\" class=\"lightboxOverlay\" style=\"display: none;\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(24)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"lightbox\" class=\"lightbox\" style=\"display: none;\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(25)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(23)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>O Consórcio CISVJ agora está no Instagram! </h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>O Consórcio CISVJ agora está no Instagram! </h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5>Aripuanã</h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > h5:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5>Castanheira</h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > h5:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5>Colniza</h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > h5:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5>Cotriguaçu</h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > h5:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5>Juína</h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > h5:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5>Juruena</h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > h5:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2026</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2026</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Balanço CISVJ</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2026</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2026</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Contratos de Rateio e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Contabilidade CISVJ</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Contabilidade CISVJ</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Balanço CISVJ</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(9) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2025</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2025</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(11) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2025</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(12) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2025</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(13) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Contratos de Rateio e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(14) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Contratos de Rateio e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(15) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Credenciamento e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(16) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Credenciamento e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(17) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Credenciamento e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(18) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Credenciamento e Aditivos</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(19) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Contabilidade CISVJ</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(20) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2024</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(21) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Atas</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(22) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Portarias 2023</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > div:nth-child(23) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>04/05/2026 08:00</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>06/01/2026 08:00</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>05/01/2026 08:00</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>18/11/2025 08:00</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>04/11/2025 08:00</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"header\">\n        \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAcessibilidade\n\t\t\t\t\t\t\tContraste\n\t\t\t\t\t\t\tDislexia\n\t\t\t\t\t\t\tA-\n\t\t\t\t\t\t\tA+\n\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n            \n                \n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n                    \n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tHOME\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tINSTITUCIONAL ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDocumentos Institucional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstrutura Organizacional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerguntas Frequentes \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuem somos? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                        \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tMUNICÍPIOS ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAripuanã\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCastanheira\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tColniza\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCotriguaçu\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuína\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuruena\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tPUBLICAÇÕES ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAtas\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBalanço CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContabilidade CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContratos de Rateio e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredenciamento e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2024\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2025\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tLICITAÇÕES\n\t\t\t\t\t\t\t\tSERVIÇOS\n\t\t\t\t\t\t\t\tNOTÍCIAS\n\n\t\t\t\t\t\t\t\tSIC\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n                    \n                \n            \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n        \n        \n\t</header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"footer\">\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tE-mail: consorciosaudejuina@gmail.com  Horário de Atendimento atendimento da sede administrativa: De segunda a sexta-feira, das 07:00h às 17:00h  Endereço: Avenida Londrina, 183 - Módulo 05 Juína - MT CEP: 78.320-000\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHome /\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tCISVJ, Todos os Direitos Reservados. Copyright 2026\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDesenvolvido por: INFOTEC TECNOLOGIA\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\n    </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"header\">\n        \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAcessibilidade\n\t\t\t\t\t\t\tContraste\n\t\t\t\t\t\t\tDislexia\n\t\t\t\t\t\t\tA-\n\t\t\t\t\t\t\tA+\n\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n            \n                \n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n                    \n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tHOME\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tINSTITUCIONAL ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDocumentos Institucional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstrutura Organizacional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerguntas Frequentes \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuem somos? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                        \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tMUNICÍPIOS ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAripuanã\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCastanheira\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tColniza\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCotriguaçu\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuína\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuruena\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tPUBLICAÇÕES ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAtas\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBalanço CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContabilidade CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContratos de Rateio e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredenciamento e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2024\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2025\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tLICITAÇÕES\n\t\t\t\t\t\t\t\tSERVIÇOS\n\t\t\t\t\t\t\t\tNOTÍCIAS\n\n\t\t\t\t\t\t\t\tSIC\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n                    \n                \n            \n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n        \n        \n\t</header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem\">HOME</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem menuItemDropdown\">\n\t\t\t\t\t\t\t\t\tINSTITUCIONAL ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDocumentos Institucional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstrutura Organizacional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerguntas Frequentes \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuem somos? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                        \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem menuItemDropdown\">\n\t\t\t\t\t\t\t\t\tMUNICÍPIOS ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAripuanã\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCastanheira\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tColniza\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCotriguaçu\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuína\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuruena\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem menuItemDropdown\">\n\t\t\t\t\t\t\t\t\tPUBLICAÇÕES ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAtas\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBalanço CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContabilidade CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContratos de Rateio e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredenciamento e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2024\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2025\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem\">LICITAÇÕES</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem\">SERVIÇOS</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem\">NOTÍCIAS</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"menuItem\">SIC</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li data-title=\"EDITAL DE LICITAÇÃO CHAMAMENTO PÚBLICO Nº 001/2026\" data-link=\"https://www.consorciocisvj.com.br/destaque/8/edital-de-licitacao-chamamento-publico-n-001-2026\" data-target=\"_parent\" style=\"width: 100%; height: 100%; overflow: hidden; visibility: visible; z-index: 2;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Home /\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Fale Conosco\n\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"navNivel justify-content-end\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tHOME\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tINSTITUCIONAL ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDocumentos Institucional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstrutura Organizacional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerguntas Frequentes \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuem somos? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                        \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tMUNICÍPIOS ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAripuanã\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCastanheira\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tColniza\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCotriguaçu\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuína\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuruena\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tPUBLICAÇÕES ▼\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAtas\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBalanço CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContabilidade CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContratos de Rateio e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredenciamento e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2024\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2025\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tLICITAÇÕES\n\t\t\t\t\t\t\t\tSERVIÇOS\n\t\t\t\t\t\t\t\tNOTÍCIAS\n\n\t\t\t\t\t\t\t\tSIC\n\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"navDropdown\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDocumentos Institucional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstrutura Organizacional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerguntas Frequentes \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuem somos? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                        \n\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"navDropdown\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAripuanã\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCastanheira\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tColniza\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCotriguaçu\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuína\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJuruena\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"navDropdown\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAtas\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBalanço CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContabilidade CISVJ\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContratos de Rateio e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredenciamento e Aditivos\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2024\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2025\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortarias 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul style=\"overflow: hidden; width: 100%; height: 100%; max-height: none;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n\t\t\t\t\t\t\tHome /\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > nav:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"footer\">\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tE-mail: consorciosaudejuina@gmail.com  Horário de Atendimento atendimento da sede administrativa: De segunda a sexta-feira, das 07:00h às 17:00h  Endereço: Avenida Londrina, 183 - Módulo 05 Juína - MT CEP: 78.320-000\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHome /\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tCISVJ, Todos os Direitos Reservados. Copyright 2026\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tDesenvolvido por: INFOTEC TECNOLOGIA\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\n    </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-20 07:15:44",
+      "tot": {
+        "info": {
+          "url": "https://www.consorciocisvj.com.br/home",
+          "title": "CISVJ",
+          "date": "2026-09-20 07:15:44",
+          "htmlTags": 655,
+          "roles": {
+            "document": 1,
+            "generic": 324,
+            "banner": 1,
+            "strong": 1,
+            "button": 10,
+            "link": 145,
+            "img": 13,
+            "navigation": 2,
+            "list": 6,
+            "listitem": 31,
+            "graphics-document": 1,
+            "textbox": 1,
+            "presentation": 1,
+            "heading": 38,
+            "paragraph": 28,
+            "contentinfo": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 22,
+            "title": 1,
+            "link": 2,
+            "script": 21,
+            "body": 1,
+            "header": 1,
+            "div": 263,
+            "strong": 1,
+            "button": 10,
+            "a": 147,
+            "img": 15,
+            "nav": 2,
+            "ul": 6,
+            "li": 31,
+            "span": 26,
+            "svg": 1,
+            "circle": 1,
+            "line": 1,
+            "input": 1,
+            "h4": 32,
+            "i": 34,
+            "h5": 6,
+            "p": 28,
+            "footer": 1,
+            "br": 2,
+            "style": 1
+          },
+          "size": 46261,
+          "encoding": "utf-8",
+          "lang": "pt-br",
+          "content": "text/html",
+          "hash": "4b3df87be21d4990ae6793fbd397df48",
+          "tests": 27,
+          "conform": "2@1@1",
+          "score": "8.4"
+        },
+        "elems": {
+          "metaRefresh": 1,
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 9,
+          "buttonAname": 9,
+          "a": 123,
+          "linkNotAName": 1,
+          "elementDec": 1,
+          "metaRefreshNot": 1,
+          "svg": 0,
+          "aSameText": 1,
+          "iframeSame": 0,
+          "img": 13,
+          "imgAltNull": 1,
+          "hxHasAName": 38,
+          "headers": 0,
+          "elementHiddenFocus": 2,
+          "menuItem": 0,
+          "id": 107,
+          "colorContrast": 4,
+          "elementPresentChildrenNoFocus": 23,
+          "textContrastHNot": 7,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "idAtt": 17,
+          "dl": 0,
+          "hx": 38,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "bannerTopLevel": 1,
+          "li": 11,
+          "liSemantically": 11,
+          "listCorrectly": 6,
+          "contentinfoTopLevel": 1,
+          "area": 0,
+          "inpImg": 147,
+          "label": 1,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "meta_01": "something",
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@36",
+          "a_11": "1@3.6",
+          "element_02": "10@36",
+          "meta_04": "5@18",
+          "a_09": "something",
+          "input_02b": "10@19",
+          "img_01a": "10@15",
+          "img_02": "something",
+          "heading_01": "10@36",
+          "element_04": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "a_01b": "something",
+          "id_01": "10@36",
+          "layout_01a": "10@22",
+          "hx_01b": "something",
+          "landmark_09": "10@36",
+          "landmark_11": "10@36",
+          "heading_04": "1@3.6",
+          "landmark_01": "10@36",
+          "listitem_01": "10@36",
+          "list_02": "10@36",
+          "landmark_05": "10@36"
+        }
+      },
+      "conform": "2@1@1",
+      "score": "8.4"
+    }
+  }
+}

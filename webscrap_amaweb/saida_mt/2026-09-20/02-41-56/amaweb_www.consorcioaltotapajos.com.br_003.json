@@ -1,0 +1,1673 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html><head>\n\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <meta name=\"keywords\" content=\"CIS da Região do Alto Tapajós MT mato grosso CISRAT cisrat mt saude consorcio publico regional\">\n    <meta name=\"description\" content=\"Consórcio Intermunicipal de Saúde da Região do Alto Tapajós - Site Oficial\">\n    <meta http-equiv=\"content-language\" content=\"pt-br\">\n    <link rel=\"shortcut icon\" href=\"/imgs/default/favicon32.png\" sizes=\"32x32\" type=\"image/png\">\n    <link rel=\"shortcut icon\" href=\"/imgs/default/favicon16.png\" sizes=\"16x16\" type=\"image/png\">\n\n    <meta property=\"og:locale\" content=\"pt_BR\">\n    <meta property=\"og:url\" content=\"https://cisrat.com.br\">\n    <meta property=\"og:title\" content=\"Consórcio Intermunicipal de Saúde da Região do Alto Tapajós\">\n    <meta property=\"og:site_name\" content=\"Consórcio Intermunicipal de Saúde da Região do Alto Tapajós\">\n    <meta property=\"og:description\" content=\"Consórcio Intermunicipal de Saúde da Região do Alto Tapajós - Site Oficial\">\n    <meta property=\"og:image\" content=\"https://cisrat.com.br/imgs/default/icon.png\">\n    <meta property=\"og:image:type\" content=\"image/jpeg\">\n    <meta property=\"og:image:width\" content=\"800\">\n    <meta property=\"og:image:height\" content=\"533\">\n    <meta property=\"og:type\" content=\"website\">\n\n    <title>\n                    CIS da Região do Alto Tapajós\n            </title>\n\n    \n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/p5.min.css?v=1.0.5&amp;cb=\">\n\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/site/default.min.css?v=1.0.5&amp;cb=\">\n\n\n  <script type=\"text/javascript\" src=\"/public/js/dist/apis/jquery.min.js\"></script>\n\n\n  <script type=\"text/javascript\" src=\"/public/js/dist/apis/p5fw.Helpers.min.js\"></script>\n\n\n  <script type=\"text/javascript\" src=\"/public/js/dist/site/URI.min.js?v=1.0.5&amp;cb=\"></script>\n\n\n  <script type=\"text/javascript\" src=\"/public/js/dist/site/default.min.js?v=1.0.5&amp;cb=\"></script>\n\n\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n        <script>\n        window.dataLayer = window.dataLayer || [];\n\n        function gtag() {\n            dataLayer.push(arguments);\n        }\n        gtag('js', new Date());\n        gtag('config', 'UA-140298859-2');\n    </script>\n</head><body>\n    \n<div class=\"container-fluid h-topbar d-none d-md-block\">\n    <div class=\"container\">\n        <div class=\"h-t-content\">\n            <div class=\"h-t-c-number\">\n                <div class=\"h-t-c-n\">\n                    <div class=\"pr-1 h-t-c-n-1\">\n                        <i class=\"mdi mdi-phone-outline\"></i> \n                    </div>\n                    <div class=\"pl-1 h-t-c-n-2\">\n                        (66) 3521-5471\n                    </div>\n                </div>\n            </div>\n            <div class=\"h-t-c-email\">\n                <i class=\"mdi mdi-email-outline\"></i> consorcioaltotapajos@cisrat.com.br\n            </div>\n            <div class=\"h-t-c-address\">\n                <i class=\"mdi mdi-map-marker-outline\"></i> Rua do Araújo, nº 264, Setor RI\n            </div>\n\n            <div class=\"h-t-c-system d-flex justify-content-end\">\n                <a class=\"h-link\" target=\"_blank\" href=\"https://cisrat.pentagono.info/dash\">\n                    <i class=\"mdi mdi-monitor\"></i> Acesso ao Sistema\n                </a>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"dropdown-search\" aria-labelledby=\"dropdownSearch\">\n    <div class=\"search-result row\">\n\n    </div>\n</div><div class=\"header container-fluid\">\n    <div id=\"overlay\" class=\"sticky\"></div>\n\n<div id=\"menu-mobile\" class=\"sidenav\">\n    <a href=\"javascript:;\" class=\"menu-mobile-closebtn\">×</a>\n                        <a class=\"nav-link\" href=\"/#/home\">Home</a>\n                                <a class=\"nav-link\" href=\"/#/municipios\">Municípios</a>\n                                <a class=\"nav-link\" href=\"/#/imprensa/noticias\">Notícias</a>\n                                <a class=\"nav-link\" href=\"/#/institucional\">Gestão</a>\n                                <a class=\"nav-link\" href=\"/#/publicacoes\">Publicações</a>\n                                <a class=\"nav-link\" href=\"/#/contato\">Contato</a>\n                                <span class=\"nav-link menu-mobile-label\">Portal Transparência</span>\n                            <a class=\"nav-link nav-sub-link\" href=\"https://www.gp.srv.br/transparencia_cisrat/servlet/home_portal_v2?1\" target=\"_blank\" rel=\"noopener noreferrer\">A partir de 2025</a>\n                            <a class=\"nav-link nav-sub-link\" href=\"http://portal.consorcioaltotapajos-mt.agilicloud.com.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Até 2024</a>\n                                            <a class=\"nav-link\" href=\"https://cisrat.ouvidoriabr.com\" target=\"_blank\" rel=\"noopener noreferrer\">Ouvidoria</a>\n                                <a class=\"nav-link\" href=\"https://esiccisrat.ouvidoriabr.com\" target=\"_blank\" rel=\"noopener noreferrer\">e-SIC</a>\n            </div>\n\n<div id=\"search-mobile\" class=\"sidenav\">\n    <a href=\"javascript:;\" class=\"menu-mobile-closebtn closebtn-search\">×</a>\n    <input type=\"text\" id=\"search-mobile-input\" placeholder=\"Digite aqui sua pesquisa\">\n    <div class=\"search-mobile-result\">\n\n    </div>\n</div>\n\n\n<div class=\"navbar-mobile row sticky\">\n    <div class=\"col-3\">\n        <div class=\"btn menu-mobile-btn\"><i class=\"mdi mdi-menu\"></i></div>\n    </div>\n    <div class=\"col-6\">\n        <a href=\"/#/home\">\n            <img class=\"n-m-logo\" src=\"/imgs/default/logo.png\" alt=\"\">\n        </a>\n    </div>\n    <div class=\"col-3 text-right\">\n        <div class=\"btn menu-mobile-btn-search\"><i class=\"mdi mdi-magnify\"></i></div>\n    </div>\n</div>\n    <div class=\"container d-none d-md-block\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-md-5\">\n                <div class=\"row\">\n                    <div class=\"col-md-11 col-12\">\n                        <a href=\"/#/home\">\n                            <img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-7\">\n                <div class=\"input-group search-wrapper d-md-flex justify-content-end\">\n                    <input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">\n                    <div class=\"input-group-append\" id=\"search-btn\">\n                        <span class=\"input-group-text\"><i class=\"mdi mdi-magnify\"></i></span>\n                    </div>\n                </div>\n            </div>\n                    </div>\n    </div>\n</div>\n\n<div class=\"menu container-fluid no-padding\">\n    <div class=\"menu container-fluid no-padding\">\n    <div class=\"container d-none d-md-block d-print-none\">\n        <div class=\"row no-padding\">\n            <div class=\"col-12 m-navbar\">\n                                                            <a class=\"m-n-link active\" href=\"/#/home\" ref=\"home\">\n                            Home\n                        </a>\n                                                                                <a class=\"m-n-link\" href=\"/#/municipios\" ref=\"municipios\">\n                            Municípios\n                        </a>\n                                                                                <a class=\"m-n-link\" href=\"/#/imprensa/noticias\" ref=\"imprensa/noticias\">\n                            Notícias\n                        </a>\n                                                                                <a class=\"m-n-link\" href=\"/#/institucional\" ref=\"institucional\">\n                            Gestão\n                        </a>\n                                                                                <a class=\"m-n-link\" href=\"/#/publicacoes\" ref=\"publicacoes\">\n                            Publicações\n                        </a>\n                                                                                <a class=\"m-n-link\" href=\"/#/contato\" ref=\"contato\">\n                            Contato\n                        </a>\n                                                                                <div class=\"m-n-dropdown dropdown\">\n                            <a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>\n                            <div class=\"dropdown-menu\" aria-labelledby=\"menu-portal-transparencia\">\n                                                                    <a class=\"dropdown-item\" href=\"https://www.gp.srv.br/transparencia_cisrat/servlet/home_portal_v2?1\" target=\"_blank\" rel=\"noopener noreferrer\">\n                                        A partir de 2025\n                                    </a>\n                                                                    <a class=\"dropdown-item\" href=\"http://portal.consorcioaltotapajos-mt.agilicloud.com.br/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                                        Até 2024\n                                    </a>\n                                                            </div>\n                        </div>\n                                                                                <a class=\"m-n-link\" href=\"https://cisrat.ouvidoriabr.com\" ref=\"\" target=\"_blank\" rel=\"noopener noreferrer\">\n                            Ouvidoria\n                        </a>\n                                                                                <a class=\"m-n-link\" href=\"https://esiccisrat.ouvidoriabr.com\" ref=\"\" target=\"_blank\" rel=\"noopener noreferrer\">\n                            e-SIC\n                        </a>\n                                                    <div class=\"m-n-underbar\" style=\"width: 23.8672px; left: 23.8672px;\">\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n    <input type=\"hidden\" class=\"an-categoria\" value=\"home\">\n    <div id=\"content\" class=\"content-loading\" home-load=\"0\">  <script type=\"text/javascript\" src=\"/public/js/dist/apis/swiper.min.js\"></script>\n\n\n  <script type=\"text/javascript\" src=\"/public/js/dist/site/home.min.js?v=1.0.5&amp;cb=\"></script>\n\n\n<div class=\"home\">\n    <div class=\"swiper-container swiper-banners swiper-container-initialized swiper-container-horizontal\">\n    <div class=\"swiper-wrapper\">\n            </div>\n<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div>    <div class=\"container mt-4\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                    <div class=\"row h-noticias\">\n        <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Últimas notícias</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/imprensa/noticias\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div>                    <div class=\"col-12 col-md-8 mt-3\">\n                <a class=\"h-n-noticia-destaque-hero\" href=\"/imprensa/noticia/alta-floresta-se-prepara-para-receber-o-novo-hospital-regional-97-da-obra-conluida/31\">\n                    <div class=\"h-n-n-d-content\">\n                        <div class=\"n-d-c-image\" style=\"background-image: url(/imgs/cds/watermark/29b0ae61149761c72fb53a3e5890daac.jpg);\">\n                        </div>\n                        <div class=\"n-d-c-overlay\">\n                            <div class=\"c-o-title\">Alta Floresta se prepara para receber o novo Hospital Regional - 97% da Obra conluída</div>\n                            <div class=\"c-o-info\">\n                                                                04/11/2025 \n                            </div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n                            <div class=\"col-12 col-md-4 mt-3\">\n                <a class=\"h-n-noticia-destaque\" href=\"/imprensa/noticia/presidencia-do-consorcio-de-saude-para-o-bienio-2025-2026/29\">\n                    <div class=\"h-n-n-d-content\">\n                        <div class=\"n-d-c-image\" style=\"background-image: url(/imgs/cds/thumbs/07dc6800ef25227f4307559b1164af99.jpg);\">\n                        </div>\n                        <div class=\"n-d-c-overlay\">\n                            <div class=\"c-o-title\">Presidência do Consórcio de Saúde para o biênio 2025/2026 </div>\n                            <div class=\"c-o-info\">\n                                                                06/12/2024 \n                            </div>\n                        </div>\n                    </div>\n                </a>\n                                        <a class=\"h-n-noticia-destaque\" href=\"/imprensa/noticia/balanco-anual-do-cisrat-2023-encontra-se-a-disposicao/25\">\n                    <div class=\"h-n-n-d-content\">\n                        <div class=\"n-d-c-image\" style=\"background-image: url(/imgs/cds/thumbs/5109fa0fd38f72cbdcd5881e558e136d.jpg);\">\n                        </div>\n                        <div class=\"n-d-c-overlay\">\n                            <div class=\"c-o-title\">Balanço Anual do CISRAT 2023, encontra-se a disposição.</div>\n                            <div class=\"c-o-info\">\n                                                                12/02/2024 \n                            </div>\n                        </div>\n                    </div>\n                </a>\n                    </div>\n    </div>\n            </div>\n        </div>\n        <div class=\"row mt-2\">\n                        <div class=\"col-12 col-md-12\">\n                <div class=\"row\">\n                    <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Links rápidos</div>\n            </div>\n</div><div class=\"col-12 h-servicos mt-3\">\n            <a class=\"h-s-item\" href=\"http://portal.consorcioaltotapajos-mt.agilicloud.com.br/\" target=\"_blank\">\n            <i class=\"mdi mdi-monitor\"></i> Portal da Transparência até 2024\n        </a>\n            <a class=\"h-s-item\" href=\"http://www.saude.mt.gov.br/\" target=\"_blank\">\n            <i class=\"mdi mdi-hospital\"></i> Secretaria da Saúde\n        </a>\n            <a class=\"h-s-item\" href=\"https://cisrat.pentagono.info\" target=\"_blank\">\n            <i class=\"mdi mdi-monitor\"></i> Acesso ao Sistema\n        </a>\n            <a class=\"h-s-item\" href=\"https://www.gp.srv.br/transparencia_cisrat/servlet/home_portal_v2?1\" target=\"_blank\">\n            <i class=\"mdi mdi-monitor\"></i> Portal da Transparência a partir de 2025\n        </a>\n    </div>                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                <div class=\"row h-publicacoes mt-3\">\n    <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Últimas publicações</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/publicacoes\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div>            <a href=\"/publicacoes/publicacao/504\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">EDITAL DE CREDENCIAMENTO CASA DE APOIO</div>\n            <div class=\"col-12 h-p-i-subtitle\"> CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM CASA DE APOIO, COM OU SEM TRANSPORTE DE PACIENTES, E FORNECIMENTO DE...</div>\n        </a>\n            <a href=\"/publicacoes/publicacao/502\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">CISA CENTRO DE DIAGNOSTICO POR IMAGEM LTDA</div>\n            <div class=\"col-12 h-p-i-subtitle\"> CREDENCIAMENTO MT FILA ZERO\n                     </div>\n        </a>\n            <a href=\"/publicacoes/publicacao/501\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">ORTOMT SERVIÇOS MEDICOS EIRELI</div>\n            <div class=\"col-12 h-p-i-subtitle\"> CREDENCIAMENTO MT FILA ZERO\n                     </div>\n        </a>\n            <a href=\"/publicacoes/publicacao/500\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\">INSTITUTO DE OLHOS ALTA FLORESTA LTDA</div>\n            <div class=\"col-12 h-p-i-subtitle\"> CREDENCIAMENTO MT FILA ZERO \n                     </div>\n        </a>\n            <a href=\"/publicacoes/publicacao/499\" class=\"col-12 px-3 mt-2 h-p-item\">\n            <div class=\"col-12 h-p-i-title\"> JOSE C BIANCHINI EIRELI</div>\n            <div class=\"col-12 h-p-i-subtitle\"> CREDENCIAMENTO 002/2025\n                     </div>\n        </a>\n    </div>                    <div class=\"row h-galeria-fotos mt-3 px-md-3\">\n        <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Álbuns</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/imprensa/albuns\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div>                    <div class=\"col-md-4 col-12\">\n                <a href=\"/#/imprensa/album/1\" class=\"col-12 mt-2\">\n                    <div class=\"h-g-item\" style=\"background-image: url(/imgs/cds/.jpg);\">\n                        <div class=\"h-g-i-overlay\">\n                            <div class=\"h-g-i-o-title\">Visita de Coordenaria de Consorcio a Região do...</div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n            </div>\n                    <div class=\"row h-galeria-videos mt-3 px-md-3\">\n        <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Vídeos</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/imprensa/videos\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div>                    <div class=\"col-md-4 col-12\">\n                <a class=\"col-12 mt-2 h-video\" href=\"https://www.instagram.com/redetvaltaflorestamt/reel/DDK5EZFx4QG/\" target=\"_blank\">\n                    <div class=\"h-g-item\" style=\"background-image: url('');\">\n                        <div class=\"h-g-i-overlay\">\n                            <div class=\"h-g-i-o-title\">Biênio 2025/2026</div>\n                        </div>\n                    </div>\n                </a>\n            </div>\n            </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"h-municipios mt-3\">\n        <div class=\"container px-md-0\">\n            <div class=\"col-12 h-title\">\n    <div class=\"row\">\n        <div class=\"col-6 col-md-8 h-t-text\">Municípios integrantes</div>\n                <div class=\"col-6 col-md-4 h-t-link\">\n            <a href=\"/#/municipios\"><i class=\"mdi mdi-plus-circle-outline\"></i> Ver mais</a>\n        </div>\n            </div>\n</div><div class=\"swiper-municipios mt-3 swiper-container-initialized swiper-container-horizontal\">\n    <div class=\"h-m-container\">\n                    <a href=\"/#/municipios\" class=\"row swiper-slide h-m-c-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/0a0433c30ba6a38fba031b9422226f08.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Alta Floresta \n                    </div>\n                </div>\n            </a>\n                    <a href=\"/#/municipios\" class=\"row swiper-slide h-m-c-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7e39bf732760dcb4f5faec8dcb7fc624.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Apiacás\n                    </div>\n                </div>\n            </a>\n                    <a href=\"/#/municipios\" class=\"row swiper-slide h-m-c-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/4b48a21ca7ca9277491f3f11b2248748.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Carlinda \n                    </div>\n                </div>\n            </a>\n                    <a href=\"/#/municipios\" class=\"row swiper-slide h-m-c-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/363a142b93b291da66713fc4397a3583.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Nova Bandeirantes\n                    </div>\n                </div>\n            </a>\n                    <a href=\"/#/municipios\" class=\"row swiper-slide h-m-c-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7bac97570a5565b978b2279af6bc8bf4.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Nova Monte Verde \n                    </div>\n                </div>\n            </a>\n                    <a href=\"/#/municipios\" class=\"row swiper-slide h-m-c-municipio\">\n                <div class=\"h-m-wrapper\">\n                    <div class=\"col-12\">\n                        <img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/aadfc1208775c79f5e637ca37aa36c28.jpg\" alt=\"\">\n                    </div>\n                    <div class=\"col-12 h-m-nome\">\n                        Paranaíta\n                    </div>\n                </div>\n            </a>\n            </div>\n    <div class=\"swiper-scrollbar\" style=\"display: none;\"><div class=\"swiper-scrollbar-drag\" style=\"width: 1339px; transform: translate3d(0px, 0px, 0px);\"></div></div>\n<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div>        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    <div class=\"modal-dialog modal-dialog-centered modal-lg\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h5 class=\"modal-title\" id=\"videoModal-title\"></h5>\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <iframe id=\"videoModal-iframe\" autoplay=\"\" width=\"100%\" height=\"600\" src=\"\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n            </div>\n        </div>\n    </div>\n</div></div>\n\n    <div class=\"container-fluid footer\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-4 d-flex justify-content-center align-items-center\">\n                <img src=\"/imgs/default/logo.png\" alt=\"\">\n            </div>\n            <div class=\"col-12 col-md-4 d-md-flex justify-content-md-center mt-4 text-center mt-md-0 text-md-left\">\n                <ul class=\"f-info-list\">\n                    <li class=\"f-i-l-title\"></li>\n                    <li class=\"f-i-l-title\">(66) 3521-5471</li>\n                    <li>consorcioaltotapajos@cisrat.com.br</li>\n                    <li>02.228.364/0001-59</li>\n                    <li>Rua do Araújo, nº 264, Setor RI</li>\n                    <li>78580-000</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-4 d-md-flex justify-content-md-center mt-4 text-center mt-md-0 text-md-left\">\n                <ul class=\"f-info-list\">\n                    <li class=\"f-i-l-title\">Horário de atendimento</li>\n                    <li>de Segunda á Sexta</li>\n                    <li>Manhã: das 07:00 às 11:00</li>\n                    <li>Tarde: das 13:00 às 17:00</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"container-fluid d-print-none footer-rights px-5 py-3\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6 col-xs-12\">\n                CIS da Região do Alto Tapajós - todos os direitos reservados©\n            </div>\n            <div class=\"col-md-6 col-xs-12 text-right\">\n                Desenvolvido por\n                <a href=\"https://pentagono.info/\" target=\"_blank\"><span>Pentágono Sistemas</span></a>\n            </div>\n        </div>\n    </div>\n</div></body></html>",
+    "data": {
+      "title": "CIS da Região do Alto Tapajós",
+      "rawUrl": "https://www.consorcioaltotapajos.com.br/#/home",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 0,
+        "a": 37,
+        "linkNotAName": 1,
+        "elementDec": 2,
+        "svg": 0,
+        "aSameText": 2,
+        "iframeSame": 0,
+        "ariaStPermitted": 6,
+        "ariaAtribDefined": 8,
+        "ariaStValid": 6,
+        "img": 8,
+        "imgAltNull": 8,
+        "headers": 0,
+        "elementHiddenFocus": 9,
+        "menuItem": 0,
+        "id": 64,
+        "colorContrast": 16,
+        "elementPresentChildrenNoFocus": 1,
+        "textContrastHNot": 21,
+        "aSkipFirstNo": 1,
+        "aImgAltNo": 1,
+        "dd,dt": 0,
+        "idAtt": 11,
+        "dl": 0,
+        "hxNone": 2,
+        "h1": 0,
+        "notOneh1": 0,
+        "aGroupNo": 1,
+        "li": 10,
+        "liSemantically": 10,
+        "listCorrectly": 2,
+        "area": 0,
+        "inpImg": 52,
+        "label": 3,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 1,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>\n                    CIS da Região do Alto Tapajós\n            </title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(19)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSameText": [
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-s-item\" href=\"https://cisrat.pentagono.info\" target=\"_blank\">\n             Acesso ao Sistema\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)",
+                "accessibleName": "󰍹Acesso ao Sistema"
+              },
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://cisrat.pentagono.info/dash\">\n                     Acesso ao Sistema\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "󰍹Acesso ao Sistema"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              },
+              {
+                "htmlCode": "<a href=\"/#/imprensa/albuns\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              },
+              {
+                "htmlCode": "<a href=\"/#/imprensa/videos\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              },
+              {
+                "htmlCode": "<a href=\"/#/municipios\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              },
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "󰐙Ver mais"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-haspopup` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` link.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-live` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-atomic` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-live` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-atomic` property is supported or inherited by the `role` generic.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dropdown-search\" aria-labelledby=\"dropdownSearch\">\n    \n\n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dropdown-menu\" aria-labelledby=\"menu-portal-transparencia\">\n                                                                    \n                                        A partir de 2025\n                                    \n                                                                    \n                                        Até 2024\n                                    \n                                                            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                ×\n                </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-haspopup` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-live` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-atomic` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(1) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-live` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-atomic` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Pesquisar"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/0a0433c30ba6a38fba031b9422226f08.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7e39bf732760dcb4f5faec8dcb7fc624.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/4b48a21ca7ca9277491f3f11b2248748.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/363a142b93b291da66713fc4397a3583.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7bac97570a5565b978b2279af6bc8bf4.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/aadfc1208775c79f5e637ca37aa36c28.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/0a0433c30ba6a38fba031b9422226f08.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7e39bf732760dcb4f5faec8dcb7fc624.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/4b48a21ca7ca9277491f3f11b2248748.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/363a142b93b291da66713fc4397a3583.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7bac97570a5565b978b2279af6bc8bf4.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/aadfc1208775c79f5e637ca37aa36c28.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"n-m-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-b-logo\" src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/0a0433c30ba6a38fba031b9422226f08.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7e39bf732760dcb4f5faec8dcb7fc624.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/4b48a21ca7ca9277491f3f11b2248748.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/363a142b93b291da66713fc4397a3583.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(4) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/7bac97570a5565b978b2279af6bc8bf4.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"h-m-brasao\" src=\"/imgs/cds/thumbs/aadfc1208775c79f5e637ca37aa36c28.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/default/logo.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-t-c-email\">\n                 consorcioaltotapajos@cisrat.com.br\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-t-c-address\">\n                 Rua do Araújo, nº 264, Setor RI\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://cisrat.pentagono.info/dash\">\n                     Acesso ao Sistema\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link active\" href=\"/#/home\" ref=\"home\">\n                            Home\n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas notícias</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Alta Floresta se prepara para receber o novo Hospital Regional - 97% da Obra conluída</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Presidência do Consórcio de Saúde para o biênio 2025/2026 </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Balanço Anual do CISRAT 2023, encontra-se a disposição.</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Links rápidos</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas publicações</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Álbuns</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/albuns\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Vídeos</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/videos\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                ×\n                </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-t-c-email\">\n                 consorcioaltotapajos@cisrat.com.br\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-t-c-address\">\n                 Rua do Araújo, nº 264, Setor RI\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://cisrat.pentagono.info/dash\">\n                     Acesso ao Sistema\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link active\" href=\"/#/home\" ref=\"home\">\n                            Home\n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas notícias</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/noticias\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Alta Floresta se prepara para receber o novo Hospital Regional - 97% da Obra conluída</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Presidência do Consórcio de Saúde para o biênio 2025/2026 </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"c-o-title\">Balanço Anual do CISRAT 2023, encontra-se a disposição.</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Links rápidos</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Últimas publicações</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Álbuns</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/albuns\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-6 col-md-8 h-t-text\">Vídeos</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/imprensa/videos\"> Ver mais</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>consorcioaltotapajos@cisrat.com.br</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Rua do Araújo, nº 264, Setor RI</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page does not links to local content.",
+            "resultCode": "F3",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"h-link\" target=\"_blank\" href=\"https://cisrat.pentagono.info/dash\">\n                     Acesso ao Sistema\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aImgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                            \n                        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"overlay\" class=\"sticky\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"menu-mobile\" class=\"sidenav\">\n    ×\n                        Home\n                                Municípios\n                                Notícias\n                                Gestão\n                                Publicações\n                                Contato\n                                Portal Transparência\n                            A partir de 2025\n                            Até 2024\n                                            Ouvidoria\n                                e-SIC\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"search-mobile\" class=\"sidenav\">\n    ×\n    \n    \n\n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"search-mobile-input\" placeholder=\"Digite aqui sua pesquisa\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" class=\"s-w-input\" id=\"search\" placeholder=\"Pesquisar\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"input-group-append\" id=\"search-btn\">\n                        \n                    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"m-n-link dropdown-toggle\" href=\"javascript:;\" ref=\"\" id=\"menu-portal-transparencia\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Portal Transparência\n                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"content\" class=\"content-loading\" home-load=\"0\">  \n\n\n  \n\n\n\n    \n    \n            \n    \n        \n            \n                    \n        \n    \n        Últimas notícias\n                \n             Ver mais\n        \n            \n                    \n                \n                    \n                        \n                        \n                        \n                            Alta Floresta se prepara para receber o novo Hospital Regional - 97% da Obra conluída\n                            \n                                                                04/11/2025 \n                            \n                        \n                    \n                \n            \n                            \n                \n                    \n                        \n                        \n                        \n                            Presidência do Consórcio de Saúde para o biênio 2025/2026 \n                            \n                                                                06/12/2024 \n                            \n                        \n                    \n                \n                                        \n                    \n                        \n                        \n                        \n                            Balanço Anual do CISRAT 2023, encontra-se a disposição.\n                            \n                                                                12/02/2024 \n                            \n                        \n                    \n                \n                    \n    \n            \n        \n        \n                        \n                \n                    \n    \n        Links rápidos\n            \n\n            \n             Portal da Transparência até 2024\n        \n            \n             Secretaria da Saúde\n        \n            \n             Acesso ao Sistema\n        \n            \n             Portal da Transparência a partir de 2025\n        \n                    \n            \n        \n        \n            \n                \n    \n    \n        Últimas publicações\n                \n             Ver mais\n        \n            \n            \n            EDITAL DE CREDENCIAMENTO CASA DE APOIO\n             CREDENCIAMENTO DE PESSOAS JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM CASA DE APOIO, COM OU SEM TRANSPORTE DE PACIENTES, E FORNECIMENTO DE...\n        \n            \n            CISA CENTRO DE DIAGNOSTICO POR IMAGEM LTDA\n             CREDENCIAMENTO MT FILA ZERO\n                     \n        \n            \n            ORTOMT SERVIÇOS MEDICOS EIRELI\n             CREDENCIAMENTO MT FILA ZERO\n                     \n        \n            \n            INSTITUTO DE OLHOS ALTA FLORESTA LTDA\n             CREDENCIAMENTO MT FILA ZERO \n                     \n        \n            \n             JOSE C BIANCHINI EIRELI\n             CREDENCIAMENTO 002/2025\n                     \n        \n                        \n        \n    \n        Álbuns\n                \n             Ver mais\n        \n            \n                    \n                \n                    \n                        \n                            Visita de Coordenaria de Consorcio a Região do...\n                        \n                    \n                \n            \n            \n                    \n        \n    \n        Vídeos\n                \n             Ver mais\n        \n            \n                    \n                \n                    \n                        \n                            Biênio 2025/2026\n                        \n                    \n                \n            \n            \n            \n        \n    \n    \n        \n            \n    \n        Municípios integrantes\n                \n             Ver mais\n        \n            \n\n    \n                    \n                \n                    \n                        \n                    \n                    \n                        Alta Floresta \n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Apiacás\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Carlinda \n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Nova Bandeirantes\n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Nova Monte Verde \n                    \n                \n            \n                    \n                \n                    \n                        \n                    \n                    \n                        Paranaíta\n                    \n                \n            \n            \n    \n        \n    \n\n\n\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal fade\" id=\"videoModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoModal\" aria-hidden=\"true\">\n    \n        \n            \n                \n                \n                ×\n                \n            \n            \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h5 class=\"modal-title\" id=\"videoModal-title\"></h5>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h5:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<iframe id=\"videoModal-iframe\" autoplay=\"\" width=\"100%\" height=\"600\" src=\"\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "aGroupNo": [
+          {
+            "verdict": "failed",
+            "description": "It was found a group of 10 or more links not grouped within a nav element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:;\" class=\"menu-mobile-closebtn\">×</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"f-i-l-title\"></li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"f-i-l-title\">(66) 3521-5471</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>consorcioaltotapajos@cisrat.com.br</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>02.228.364/0001-59</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Rua do Araújo, nº 264, Setor RI</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>78580-000</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"f-i-l-title\">Horário de atendimento</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>de Segunda á Sexta</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Manhã: das 07:00 às 11:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Tarde: das 13:00 às 17:00</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"f-info-list\">\n                    \n                    (66) 3521-5471\n                    consorcioaltotapajos@cisrat.com.br\n                    02.228.364/0001-59\n                    Rua do Araújo, nº 264, Setor RI\n                    78580-000\n                </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"f-info-list\">\n                    Horário de atendimento\n                    de Segunda á Sexta\n                    Manhã: das 07:00 às 11:00\n                    Tarde: das 13:00 às 17:00\n                </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-20 06:42:21",
+      "tot": {
+        "info": {
+          "url": "https://www.consorcioaltotapajos.com.br/#/home",
+          "title": "CIS da Região do Alto Tapajós",
+          "date": "2026-09-20 06:42:21",
+          "htmlTags": 286,
+          "roles": {
+            "document": 3,
+            "generic": 176,
+            "link": 52,
+            "textbox": 2,
+            "presentation": 9,
+            "dialog": 1,
+            "heading": 1,
+            "button": 1,
+            "list": 2,
+            "listitem": 10
+          },
+          "cTags": {
+            "html": 2,
+            "head": 2,
+            "meta": 16,
+            "link": 4,
+            "title": 1,
+            "script": 14,
+            "body": 2,
+            "div": 154,
+            "i": 16,
+            "a": 52,
+            "span": 6,
+            "input": 3,
+            "img": 9,
+            "h5": 1,
+            "button": 1,
+            "iframe": 1,
+            "ul": 2,
+            "li": 10
+          },
+          "size": 24968,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "d70f81ca3328ca9ea807626a45e5dce4",
+          "tests": 24,
+          "conform": "6@1@0",
+          "score": "7.1"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 0,
+          "a": 37,
+          "linkNotAName": 1,
+          "elementDec": 2,
+          "svg": 0,
+          "aSameText": 2,
+          "iframeSame": 0,
+          "ariaStPermitted": 6,
+          "ariaAtribDefined": 8,
+          "ariaStValid": 6,
+          "img": 8,
+          "imgAltNull": 8,
+          "headers": 0,
+          "elementHiddenFocus": 9,
+          "menuItem": 0,
+          "id": 64,
+          "colorContrast": 16,
+          "elementPresentChildrenNoFocus": 1,
+          "textContrastHNot": 21,
+          "aSkipFirstNo": 1,
+          "aImgAltNo": 1,
+          "dd,dt": 0,
+          "idAtt": 11,
+          "dl": 0,
+          "hxNone": 2,
+          "h1": 0,
+          "notOneh1": 0,
+          "aGroupNo": 1,
+          "li": 10,
+          "liSemantically": 10,
+          "listCorrectly": 2,
+          "area": 0,
+          "inpImg": 52,
+          "label": 3,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 1,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@2",
+          "a_11": "1@3.6",
+          "element_02": "10@36",
+          "a_09": "something",
+          "aria_05": "10@36",
+          "aria_07": "10@36",
+          "aria_03": "10@36",
+          "input_02b": "10@19",
+          "img_01a": "10@15",
+          "img_02": "something",
+          "element_04": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "a_01b": "something",
+          "a_03": "1@3",
+          "id_01": "10@36",
+          "layout_01a": "10@22",
+          "hx_01a": "1@3.2",
+          "heading_04": "1@3.6",
+          "a_07": "5@19",
+          "listitem_01": "10@36",
+          "list_02": "10@36"
+        }
+      },
+      "conform": "6@1@0",
+      "score": "7.1"
+    }
+  }
+}

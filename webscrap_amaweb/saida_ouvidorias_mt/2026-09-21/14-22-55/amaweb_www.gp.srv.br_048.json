@@ -1,0 +1,1669 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\" ng-app=\"ouvidoriaApp\" ng-controller=\"ouvidoriaCtl\" class=\"ng-scope\"><head class=\"meta-tags\"><meta http-equiv=\"origin-trial\" content=\"A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\"><style>@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>\n        <base href=\"/ouvidoria/\">\n        <script type=\"text/javascript\" async=\"\" charset=\"utf-8\" src=\"https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js\" crossorigin=\"anonymous\" integrity=\"sha384-zKvX1tZtoUZjakAq6NG+v14XLO6jHaCtSniDaDnvzrORQB0ysw4QsbpTR9k0YMmj\"></script><script>\n            (function () {\n                try {\n                    var path = window.location.pathname;\n                    if (!path.endsWith('/index.html')) {\n                        return;\n                    }\n                    var clean = path.substring(0, path.length - 'index.html'.length);\n                    history.replaceState(null, '', clean + window.location.search + window.location.hash);\n                } catch (e) { /* noop */ }\n            })();\n        </script>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n        <meta name=\"fragment\" content=\"!\">\n        <meta name=\"cliente\" content=\"rosariooeste\">\n        <meta name=\"legacy-adm-base-url\" content=\"https://gp.srv.br/adm\">\n        <meta name=\"description\" ng-attr-content=\"{{ngMeta.description}}\" content=\"Portal Ouvidoria Como podemos lhe ajudar?\">\n        <meta property=\"og:description\" ng-attr-content=\"{{ngMeta.description}}\" content=\"Portal Ouvidoria Como podemos lhe ajudar?\">\n        <meta property=\"og:title\" ng-attr-content=\"{{ngMeta.title}}\" content=\"Portal Ouvidoria | PREFEITURA MUNICIPAL DE ROSARIO OESTE MT\">\n        <link rel=\"icon\" type=\"png\" ng-href=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\" href=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\">\n        <title ng-bind=\"ngMeta.title\" class=\"ng-binding\">Portal Ouvidoria | PREFEITURA MUNICIPAL DE ROSARIO OESTE MT</title>\n\n        <link rel=\"stylesheet\" href=\"libs/bootstrap/css/bootstrap.min.css\">\n        <!-- <link rel=\"stylesheet\" href=\"libs/bootstrap4/dist/css/bootstrap-theme.min.css\">     -->\n        <!--Estilo da pagina-->\n        <link rel=\"stylesheet\" href=\"css/estilo.css\">\n\n        <!-- <link href=\"https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,700,700italic,900,600italic\" rel=stylesheet type=text/css>\n        -->    \n        <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,700&amp;display=swap\" rel=\"stylesheet\">\n\n        <!--Font Awesome (added because you use icons in your prepend/append)-->\n        <link rel=\"stylesheet\" href=\"https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css\">   \n        <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\" crossorigin=\"anonymous\"> \n    </head>\n    <body class=\"main \">\n      \n        <div ng-show=\"loading\" class=\"ng-hide\">\n\n            <div id=\"loader-wrapper\">\n                <div id=\"loader\"></div>\n\n                <div class=\"loader-section section-left\"></div>\n                <div class=\"loader-section section-right\"></div>\n            </div>\n        </div> \n\n\n    <!-- uiView: --><ui-view class=\"ng-scope\"><!--CABECALHO-->\n<nav class=\"navbar fixed-top navbar-dark justify-content-between navbar-main ng-scope bg-primary-dark\" ng-class=\"ug_id.unidade_gestora_cnpj_mascarado === '37.464.997/0001-40' ? 'bg-primary-dark-tabapora' : 'bg-primary-dark'\">\n    <a class=\"navbar-brand\">\n        <img ng-src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\" src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\">\n\n        <img height=\"62\" class=\"d-inline-block align-middle mr-3 ng-hide\" ng-show=\"islogotipo === true\">\n\n\n        <div class=\"d-inline-flex flex-column\" style=\"vertical-align: middle;\">\n            <p ng-bind=\" NOME_PREFEITURA\" ng-class=\"font_pref\" style=\"font-size: ;color: #fff;\" class=\"ng-binding\">PREFEITURA MUNICIPAL DE ROSARIO OESTE MT</p>\n            <!--  <span style=\"font-size: 0.7rem;\">\n                 <span>{{ENDERECO}}</span> \n                 <span><b>{{CEP}}</b></span>\n             </span>-->\n        </div>\n\n    </a>\n    <ul class=\"nav justify-content-center\">  \n        <li class=\"nav-item\">\n            <img src=\"assets/ouvidoria.png\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\">\n        </li>\n    </ul>\n\n    <div class=\"d-inline-flex flex-column text-white align-items-end \" ng-show=\"achouInf == true\" style=\"\">\n        <h5 ng-bind=\"TELEFONE\" style=\"font-size: ;\" class=\"ng-binding\"></h5>\n        <span style=\"font-size: 1.1rem;\">\n            <a ng-bind=\" EMAIL\" href=\"mailto:\" style=\"color: #fff !important;\" class=\"ng-binding\"></a>\n        </span>\n    </div>\n</nav>\n<nav class=\"d-flex navbar fixed-top navbar-dark navbar-subtitle ng-scope bg-primary-dark\" style=\"align-content: center;\" ng-class=\"ug_id.unidade_gestora_cnpj_mascarado === '37.464.997/0001-40' ? 'bg-primary-dark-tabapora' : 'bg-primary-dark'\">\n    <div class=\"\" ng-show=\"achouInf == true\" style=\"width: 100%;display: flex;\">\n        <ul class=\"nav mr-auto\">\n            <!-- ngIf: CABECALHO1 -->\n            <!-- ngIf: CABECALHO2 -->\n            <!-- ngIf: CABECALHO3 -->\n            <!-- ngIf: WHATSAPP -->\n        </ul>\n        <!-- ngIf: ugs --><ul ng-if=\"ugs\" class=\"nav mr-sm-2 ng-scope\">\n            <li class=\"nav-item dropdown\">\n                <a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>\n                <div class=\"dropdown-menu dropdown-menu-right\">\n                    <!-- ngRepeat: u in ug_coll --><a class=\"dropdown-item ng-binding ng-scope active\" ng-repeat=\"u in ug_coll\" ng-bind=\"u.unidade_gestora_descricao\" ui-sref=\"setug({ug : u.unidade_gestora_id})\" ng-class=\"{active : ug_id.unidade_gestora_id == u.unidade_gestora_id}\" href=\"#/setUg\">PREFEITURA MUNICIPAL DE ROSARIO OESTE MT</a><!-- end ngRepeat: u in ug_coll --><a class=\"dropdown-item ng-binding ng-scope\" ng-repeat=\"u in ug_coll\" ng-bind=\"u.unidade_gestora_descricao\" ui-sref=\"setug({ug : u.unidade_gestora_id})\" ng-class=\"{active : ug_id.unidade_gestora_id == u.unidade_gestora_id}\" href=\"#/setUg\">CAMARA MUNICIPAL DE ROSÁRIO OESTE</a><!-- end ngRepeat: u in ug_coll --><a class=\"dropdown-item ng-binding ng-scope\" ng-repeat=\"u in ug_coll\" ng-bind=\"u.unidade_gestora_descricao\" ui-sref=\"setug({ug : u.unidade_gestora_id})\" ng-class=\"{active : ug_id.unidade_gestora_id == u.unidade_gestora_id}\" href=\"#/setUg\">FUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE ROSARIO OESTE</a><!-- end ngRepeat: u in ug_coll --><a class=\"dropdown-item ng-binding ng-scope\" ng-repeat=\"u in ug_coll\" ng-bind=\"u.unidade_gestora_descricao\" ui-sref=\"setug({ug : u.unidade_gestora_id})\" ng-class=\"{active : ug_id.unidade_gestora_id == u.unidade_gestora_id}\" href=\"#/setUg\">FUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE ROSARIO OESTE - CONSOLIDAÇÃO</a><!-- end ngRepeat: u in ug_coll -->\n\n                    <!-- ngIf: ambienteTeste -->\n                    <!-- ngIf: ambienteTeste -->\n                </div>\n            </li>\n        </ul><!-- end ngIf: ugs -->\n    </div>\n</nav>\n<!--CABECALHO-->\n<main class=\"ng-scope\">\n<!-- uiView: --><ui-view class=\"ng-scope\"><div class=\"jumbotron text-light ng-scope bg-primary-dark\" ng-class=\"ug_id.unidade_gestora_cnpj_mascarado === '37.464.997/0001-40' ? 'bg-primary-dark-tabapora' : 'bg-primary-dark'\">\n    <nav aria-label=\"breadcrumb\">\n        <ol class=\"breadcrumb  bg-primary-dark\" ng-class=\"ug_id.unidade_gestora_cnpj_mascarado === '37.464.997/0001-40' ? 'bg-primary-dark-tabapora' : 'bg-primary-dark'\">\n            <li class=\"breadcrumb-item\"><a accesskey=\"h\" ui-sref=\"portal.home({ug :ug_id.unidade_gestora_id})\" href=\"#/portal/1/home\">Página inicial</a></li>\n            <li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>\n        </ol>\n    </nav>\n    <h1 class=\"display-4 ng-binding\">Manifestações</h1>\n</div>\n\n<div class=\"container ng-scope\">\n    <p class=\"text-danger\">(*) Campos obrigatórios</p>\n\n    <form class=\"form ng-pristine ng-isolate-scope ng-invalid ng-invalid-required ng-valid-cpf ng-valid-cnpj ng-valid-email ng-invalid-recaptcha\" name=\"formCtrl\" ng-validate=\"validationOptions\" autocomplete=\"off\" novalidate=\"novalidate\">\n\n        <div class=\"row justify-content-center\">\n            <div ng-class=\"{\n                'col-md-6': formulario.sigilo == 2 || formulario.sigilo_tipo==1, \n                'col-md-10': formulario.sigilo == 1\n            }\" class=\"col-md-6\">\n                <fieldset>\n                    <legend>Dados da manifestação</legend>\n                    <!-- ngIf: assuntoAtivo --><div class=\"form-group ng-scope\" ng-if=\"assuntoAtivo\">\n                        <label for=\"inputOrgao\" title=\"Assunto\">\n                            Assunto\n                            <sup class=\"text-danger\">*</sup>\n                        </label>\n                        <select class=\"form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\" ng-model=\"formulario.assunto\" required=\"\" name=\"frm_assunto\" ng-options=\"assunto.assunto_nome for assunto in assuntos\"><option value=\"\" class=\"\" selected=\"selected\">Selecione</option><option label=\"AGRICULTURA \" value=\"object:22\">AGRICULTURA </option><option label=\"ASSEDIO MORAL \" value=\"object:23\">ASSEDIO MORAL </option><option label=\"ASSISTENCIA SOCIAL\" value=\"object:24\">ASSISTENCIA SOCIAL</option><option label=\"CONTROLADORIA GERAL DO MUNICIPIO\" value=\"object:25\">CONTROLADORIA GERAL DO MUNICIPIO</option><option label=\"EDUCAÇÃO \" value=\"object:26\">EDUCAÇÃO </option><option label=\"ESPORTE, CULTURA E LAZER\" value=\"object:27\">ESPORTE, CULTURA E LAZER</option><option label=\"FISCALIZAÇÃO SANITARIA \" value=\"object:28\">FISCALIZAÇÃO SANITARIA </option><option label=\"MEIO AMBIENTE\" value=\"object:29\">MEIO AMBIENTE</option><option label=\"OUTROS ASSUNTOS\" value=\"object:30\">OUTROS ASSUNTOS</option><option label=\"SAÚDE\" value=\"object:31\">SAÚDE</option><option label=\"SECRETARIA DE INFRAESTRUTURA\" value=\"object:32\">SECRETARIA DE INFRAESTRUTURA</option><option label=\"SERVIDOR PUBLICO\" value=\"object:33\">SERVIDOR PUBLICO</option></select>\n                    </div><!-- end ngIf: assuntoAtivo -->\n\n                    <div class=\"form-group\">\n                        <label for=\"inputOrgao\" title=\"Qual é a sua manifestação?\">\n                            Qual é a sua manifestação?\n                            <sup class=\"text-danger\">*</sup>\n                        </label>\n                        <select class=\"form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\" required=\"\" ng-model=\"formulario.manifestacao\" name=\"frm_manifestacao\" ng-options=\"assunto.descricao for assunto in manifestacao\"><option value=\"\" class=\"\" selected=\"selected\">Selecione</option><option label=\"CONSULTA\" value=\"object:11\">CONSULTA</option><option label=\"CRÍTICA\t\" value=\"object:12\">CRÍTICA\t</option><option label=\"DENÚNCIA\" value=\"object:13\">DENÚNCIA</option><option label=\"DENUNCIA ANONIMA\" value=\"object:14\">DENUNCIA ANONIMA</option><option label=\"ELOGIO\" value=\"object:15\">ELOGIO</option><option label=\"INFORMAÇÃO\t\" value=\"object:16\">INFORMAÇÃO\t</option><option label=\"OUTROS\" value=\"object:17\">OUTROS</option><option label=\"RECLAMAÇÃO \" value=\"object:18\">RECLAMAÇÃO </option><option label=\"SUGESTÃO\t\" value=\"object:19\">SUGESTÃO\t</option></select>\n                    </div>\n\n                    <!-- Select Basic -->\n                    <div class=\"form-group\">\n                        <label for=\"selectbasic\">\n                            A sua manifestação é sigilosa?\n                            <sup class=\"text-danger\">*</sup>\n                        </label>\n                        <select id=\"selectbasic\" name=\"selectbasic\" ng-model=\"formulario.sigilo\" class=\"form-control ng-pristine ng-untouched ng-valid ng-not-empty\">\n                            <option value=\"2\" selected=\"selected\">Não</option>\n                            <option value=\"1\">Sim</option>                            \n                        </select>\n                    </div>\n\n                    <!-- Select Basic -->\n                    <!-- ngIf: formulario.sigilo==1 -->\n\n                    <!-- Select Basic -->\n                    <!-- ngIf: formulario.sigilo==2 || formulario.sigilo_tipo==1 --><div class=\"form-group ng-scope\" ng-if=\"formulario.sigilo==2 || formulario.sigilo_tipo==1\">\n                        <label for=\"selectcontato\">\n                            Deseja receber sua resposta através de?\n                            <sup class=\"text-danger\">*</sup>\n                        </label>\n                        <select id=\"selectcontato\" ng-model=\"formulario.formacontato\" name=\"frm_formacontato\" class=\"form-control ng-pristine ng-untouched ng-valid ng-not-empty\">\n                            <!--option value=\"1\">Telefone</option-->\n                            <option value=\"2\" selected=\"selected\">Email</option>\n                            <!--<option value=\"3\">Fax</option>-->\n                            <option value=\"4\">Outros</option>\n                        </select>\n                    </div><!-- end ngIf: formulario.sigilo==2 || formulario.sigilo_tipo==1 -->\n\n                    <!-- Text input-->\n                    <!-- ngIf: formulario.formacontato==4 -->\n\n                    <div style=\"margin: 20px;\">\n                        <span title=\"Seus dados estão seguros!\" style=\"color: rgb(174, 27, 27);\">\n                            As informações pessoais preenchidas neste manifesto são protegidas pela LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) 13709/2018.\n                        </span>\n                    </div>\n\n                </fieldset>\n            </div>\n\n            <!-- ngIf: formulario.sigilo==2 || formulario.sigilo_tipo==1 --><div class=\"col-md-6 border-left ng-scope\" ng-if=\"formulario.sigilo==2 || formulario.sigilo_tipo==1\">\n                <fieldset>\n                    <legend>Dados do solicitante</legend>\n                    <!-- Text input-->\n                    <div class=\"form-group\">\n                        <label for=\"frm_nome_completo\">\n                            Nome do Interessado\n                            <sup class=\"text-danger\">*</sup>\n                        </label>\n                        <input id=\"frm_nome_completo\" name=\"frm_nome_completo\" ng-model=\"formulario.nome\" placeholder=\"Nome do Interessado\" class=\"form-control input-md ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\" required=\"required\" type=\"text\">\n                    </div>\n\n                    <div class=\"form-row\">\n                        <!-- CPF/CNPJ Input -->\n                        <div class=\"form-group col-md-6\">\n                            <label for=\"frm_cpfcnpj\">\n                                CPF/CNPJ\n                                <sup class=\"text-danger\">*</sup>\n                            </label>\n                            <input id=\"frm_cpfcnpj\" class=\"form-control input-md ng-pristine ng-untouched ng-empty ng-valid-cpf ng-valid-cnpj ng-invalid ng-invalid-required\" ng-class=\"{ 'is-invalid': formCtrl.frm_cpfcnpj.$error.cpfcnpj || formCtrl.frm_cpfcnpj.$dirty || disableButton }\" type=\"text\" name=\"frm_cpfcnpj\" placeholder=\"CPF/CNPJ\" required=\"required\" ui-br-cpfcnpj-mask=\"\" ng-model=\"formulario.cpfcnpj\" ng-blur=\"validaCPFCNPJ(formCtrl,formulario,formulario.cpfcnpj)\">\n                        </div>\n\n                        <!-- Text input-->\n                        <div class=\"form-group col-md-6\">\n                            <label for=\"frm_telefone\" title=\"Telefone\">\n                                Telefone\n                                <!-- ngIf: formulario.formacontato==1 -->\n                            </label>\n                            <input id=\"frm_telefone\" type=\"tel\" name=\"frm_telefone\" ng-class=\"{ 'is-invalid': formCtrl.frm_cpfcnpj.$error.telefone &amp;&amp; formCtrl.frm_telefone.$dirty &amp;&amp; formulario.formacontato==1 }\" ng-required=\"formulario.formacontato==1\" placeholder=\"(65) 99999-9999\" ng-model=\"formulario.telefone\" class=\"form-control input-md ng-pristine ng-untouched ng-valid ng-empty ng-valid-required\" ui-br-telefone-mask=\"\">\n                        </div>\n                    </div>\n\n                    <div class=\"form-row\">\n                        <!-- Text input-->\n                        <div class=\"form-group col-md-6\">\n                            <label for=\"frm_email\" title=\"E-mail\">\n                                E-mail\n                                <sup class=\"text-danger\">*</sup>\n                            </label>\n                            <input id=\"frm_email\" name=\"frm_email\" ng-model=\"formulario.email\" placeholder=\"seu@email.com.br\" class=\"form-control input-md ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required\" required=\"required\" type=\"email\">\n                        </div>\n\n                        <!-- Text input-->\n                        <!--\n                        <div class=\"form-group col-md-6\">\n                            <label for=\"E-mail\">\n                                Confirmação de E-mail\n                                <sup class=\"text-danger\">*</sup>\n                            </label>\n                            <input id=\"frm_email_confirmacao\" name=\"frm_email_confirmacao\" \n                                ng-model=\"formulario.emailcp\"\n                                placeholder=\"seu@email.com.br\" \n                                class=\"form-control input-md\" required=\"\" type=\"email\">\n                        </div>-->\n                    </div>\n\n                    <div class=\"form-row\">\n                        <!--SOL.27496-->\n                        <div class=\"form-group col-md-3\">\n                            <label for=\"select_sexo\">\n                                Sexo\n                            </label>\n                            <select id=\"select_sexo\" ng-model=\"formulario.sexo\" name=\"frm_sexo\" class=\"form-control ng-pristine ng-untouched ng-valid ng-empty\"><option value=\"? undefined:undefined ?\" selected=\"selected\"></option>\n                                <option value=\"Masculino\">Masculino</option>\n                                <option value=\"Feminino\">Feminino</option>\n                            </select>\n                        </div>\n\n                        <!--SOL.27496-->\n                        <div class=\"form-group col\">\n                            <label for=\"select_faixa_etaria\">\n                                Faixa Etária\n                            </label>\n                            <select id=\"select_faixa_etaria\" name=\"select_faixa_etaria\" ng-model=\"formulario.faixa_etaria\" class=\"form-control ng-pristine ng-untouched ng-valid ng-empty\"><option value=\"? undefined:undefined ?\" selected=\"selected\"></option>\n                                <option value=\"Até 30 Anos\">Até 30 Anos</option>\n                                <option value=\"Até 40 Anos\">Até 40 Anos</option>\n                                <option value=\"Entre 40 e 50 Anos\">Entre 40 e 50 Anos</option>\n                                <option value=\"Acima de 50 Anos\">Acima de 50 Anos</option>\n                            </select>\n                        </div>\n\n                        <!--SOL.27496-->\n                        <div class=\"form-group col\">\n                            <label for=\"select_area_atuacao\">Área e Atuação</label>\n                            <select id=\"select_area_atuacao\" name=\"select_area_atuacao\" ng-model=\"formulario.area_atuacao\" class=\"form-control ng-pristine ng-untouched ng-valid ng-empty\"><option value=\"? undefined:undefined ?\" selected=\"selected\"></option>\n                                <option value=\"PUBLICA\">Pública</option>\n                                <option value=\"PRIVADA\">Privada</option>\n                            </select>\n                        </div>\n                    </div>\n\n                    <div class=\"form-row\">\n                        <div class=\"form-group col-6\">\n                            <label for=\"frm_rua\">\n                                Rua\n                                \n                            </label>\n                            <input id=\"frm_rua\" name=\"frm_rua\" ng-model=\"formulario.rua\" placeholder=\"Endereço\" class=\"form-control input-md ng-pristine ng-untouched ng-valid ng-empty\" type=\"text\">\n                        </div>\n\n                        <div class=\"form-group col-3\">\n                            <label for=\"bairro\">\n                                Bairro\n                                \n                            </label>\n                            <input id=\"bairro\" name=\"bairro\" ng-model=\"formulario.bairro\" placeholder=\"Bairro\" class=\"form-control input-md ng-pristine ng-untouched ng-valid ng-empty\" type=\"text\">\n                        </div>\n\n                        <!--SOL.27496-->\n                        <div class=\"form-group col-3\">\n                            <label for=\"select_localizacao\">\n                                Localidade\n                                \n                            </label>\n                            <select id=\"select_localizacao\" name=\"select_localizacao\" ng-model=\"formulario.localizacao\" class=\"form-control ng-pristine ng-untouched ng-valid ng-empty\"><option value=\"? undefined:undefined ?\" selected=\"selected\"></option>\n                                <option value=\"Zona Urbana\">Zona Urbana</option>\n                                <option value=\"Zona Rural\">Zona Rural</option>\n                            </select>\n                        </div>\n                    </div>\n\n                    <div class=\"form-row\">\n                        <!-- Text input-->\n                        <div class=\"form-group col-md-5\">\n                            <label for=\"frm_cidade\" title=\"Cidade\">Cidade</label>\n                            <input id=\"frm_cidade\" name=\"frm_cidade\" ng-model=\"formulario.cidade\" class=\"form-control input-md ng-pristine ng-untouched ng-valid ng-empty\" type=\"text\">\n                        </div>\n\n                        <div class=\"form-group col-md-3\">\n                            <label for=\"inputOrgao\" title=\"Estado\">Estado</label>\n                            <select class=\"form-control ng-pristine ng-untouched ng-valid ng-empty\" ng-model=\"formulario.estado\" name=\"frm_estado\" ng-options=\"assunto.estado_nome for assunto in estados \"><option value=\"\" class=\"\" selected=\"selected\">0 - TODOS</option><option label=\"&quot;\" value=\"object:34\">\"</option><option label=\"ACRE\" value=\"object:35\">ACRE</option><option label=\"ALAGOAS\" value=\"object:36\">ALAGOAS</option><option label=\"AMAPÁ\" value=\"object:37\">AMAPÁ</option><option label=\"AMAZONAS\" value=\"object:38\">AMAZONAS</option><option label=\"BAHIA\" value=\"object:39\">BAHIA</option><option label=\"CEARÁ\" value=\"object:40\">CEARÁ</option><option label=\"DISTRITO FEDERAL\" value=\"object:41\">DISTRITO FEDERAL</option><option label=\"ESPÍRITO SANTO\" value=\"object:42\">ESPÍRITO SANTO</option><option label=\"GOIÁS\" value=\"object:43\">GOIÁS</option><option label=\"MARANHÃO\" value=\"object:44\">MARANHÃO</option><option label=\"MATO GROSSO\" value=\"object:45\">MATO GROSSO</option><option label=\"MATO GROSSO DO SUL\" value=\"object:46\">MATO GROSSO DO SUL</option><option label=\"MINAS GERAIS\" value=\"object:47\">MINAS GERAIS</option><option label=\"PARÁ\" value=\"object:48\">PARÁ</option><option label=\"PARAÍBA\" value=\"object:49\">PARAÍBA</option><option label=\"PARANÁ\" value=\"object:50\">PARANÁ</option><option label=\"PERNAMBUCO\" value=\"object:51\">PERNAMBUCO</option><option label=\"PIAUÍ\" value=\"object:52\">PIAUÍ</option><option label=\"RIO DE JANEIRO\" value=\"object:53\">RIO DE JANEIRO</option><option label=\"RIO GRANDE DO NORTE\" value=\"object:54\">RIO GRANDE DO NORTE</option><option label=\"RIO GRANDE DO SUL\" value=\"object:55\">RIO GRANDE DO SUL</option><option label=\"RONDÔNIA\" value=\"object:56\">RONDÔNIA</option><option label=\"RORAIMA\" value=\"object:57\">RORAIMA</option><option label=\"SANTA CATARINA\" value=\"object:58\">SANTA CATARINA</option><option label=\"SÃO PAULO\" value=\"object:59\">SÃO PAULO</option><option label=\"SERGIPE\" value=\"object:60\">SERGIPE</option><option label=\"TOCANTINS\" value=\"object:61\">TOCANTINS</option></select>\n                        </div>\n\n                        <div class=\"form-group col-md-4\">\n                            <label for=\"frm_cep\" title=\"CEP\">CEP</label>\n                            <input id=\"frm_cep\" name=\"frm_cep\" ng-model=\"formulario.cep\" class=\"form-control input-md ng-pristine ng-untouched ng-valid ng-empty\" type=\"text\">\n                        </div>\n                    </div>\n                </fieldset>\n            </div><!-- end ngIf: formulario.sigilo==2 || formulario.sigilo_tipo==1 -->\n        </div>\n\n        <div class=\"form-row justify-content-center\">\n            <!-- Text input-->\n            <div class=\"form-group col\" ng-class=\"{\n                    'col': formulario.sigilo == 2 || formulario.sigilo_tipo==1, \n                    'col-md-10': formulario.sigilo == 1\n                }\">\n                <label for=\"frm_descricao\">\n                    Descrição\n                    <sup class=\"text-danger\">*</sup>\n                </label>\n                <textarea required=\"\" cols=\"80\" rows=\"10\" id=\"descricao\" ng-model=\"formulario.descricao\" name=\"frm_descricao\" class=\"form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\"></textarea>\n            </div>\n        </div>\n\n        <div class=\"row justify-content-center\">\n            <button class=\"btn btn-primary btn-block btn-lg mt-3\" ngf-select=\"uploadFiles($files, $invalidFiles)\" multiple=\"\" ngf-max-files=\"1\" ngf-max-height=\"40000\" ngf-max-size=\"6MB\">\n                Adicionar arquivos\n                <i class=\"fas fa-plus-square\"></i>\n            </button>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"form-group\">\n                    <div class=\"row ng-binding\">\n                        <ul style=\"display: none\">\n                            <!-- ngRepeat: f in files -->\n                            <!-- ngRepeat: f in errFiles -->\n                        </ul>\n                        \n                    </div>\n                </div>\n\n            </div>\n        </div>\n\n        <!-- ngIf: files.length -->\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"form-group\">\n                    <div class=\"row\">\n                        <div class=\"col-md-12\" align=\"center\">\n                            <div vc-recaptcha=\"\" theme=\"light\" size=\"normal\" type=\"image\" lang=\"pt-br\" on-create=\"setWidgetId(widgetId)\" on-success=\"setResponse(response)\" on-expire=\"cbExpiration()\" key=\"model.key\" ng-model=\"formulario.captcha\" name=\"form_captcha\" class=\"ng-pristine ng-untouched ng-valid ng-isolate-scope ng-empty\"><div style=\"width: 304px; height: 78px;\"><div><iframe title=\"reCAPTCHA\" width=\"304\" height=\"78\" role=\"presentation\" name=\"a-5v5a45q3k8x1\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfOGmIUAAAAAGARzdR2T_0GXcVnVyliVFt4eBNB&amp;co=aHR0cHM6Ly93d3cuZ3Auc3J2LmJyOjQ0Mw..&amp;hl=pt-br&amp;type=image&amp;v=zqB-6Xpbd3lCIvi7Tr2D0pob&amp;theme=light&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=4i4q83em00z\"></iframe></div><textarea id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row justify-content-center\">\n            <button id=\"singlebutton_voltar\" name=\"singlebutton_voltar\" ng-click=\"voltar();\" class=\"btn btn-light\">\n                <i class=\"fas fa-angle-double-left\"></i>\n                Voltar\n            </button>\n\n            <button id=\"singlebutton_enviar\" name=\"singlebutton_enviar\" class=\"btn btn-success btn-lg ml-3\" ng-click=\"fnConfirmar(formCtrl,formulario,files)\" ng-disabled=\"disableButton\">\n                Confirmar\n                <i class=\"fas fa-check-circle\"></i>\n            </button>\n        </div>\n\n    </form>\n</div>\n\n\n\n\n<div class=\"modal ng-scope\" tabindex=\"-1\" id=\"modal_manifestacao\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h4 class=\"modal-title ng-binding\"></h4>\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" ng-click=\"voltar();\" aria-label=\"Close\">\n                    <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <div class=\"container\">\n                    <!-- ngIf: msg_link_avaliacao() -->\n                    <div class=\"row\">\n                        <div class=\"col-md-12\">\n                            <div class=\"panel panel-default\">\n                                <div class=\"panel-heading\">Manifestação</div>\n                                <div class=\"panel-body\">\n                                    <p ng-bind-html=\"msg_descricao\" class=\"ng-binding\"></p>\n                                    <p><embed type=\"application/pdf\" width=\"100%\" height=\"400\"></p>\n                                </div>\n                              </div>   \n                        </div>\n                          \n                    </div>\n                </div>      \n            </div>\n            <div class=\"modal-footer\">\n                <a class=\"btn btn-primary\" target=\"_blank\">Imprmir</a>\n                <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Ok</button>\n            </div>\n        </div>\n        <!-- /.modal-content -->\n    </div>\n    <!-- /.modal-dialog -->\n</div>\n<!-- /.modal -->\n<modal-mensagem class=\"ng-scope\"><div class=\"modal\" tabindex=\"-1\" id=\"modal-mensagem\" role=\"dialog\"> <div class=\"modal-dialog\" role=\"document\"> <div class=\"modal-content\"> <div class=\"modal-header\"> <h4 class=\"modal-title ng-binding\"></h4> <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> <span aria-hidden=\"true\">×</span> </button> </div><div class=\"modal-body\"> <p class=\"ng-binding\"></p></div><div class=\"modal-footer\"> <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Ok</button> </div></div></div></div></modal-mensagem></ui-view>\n</main>\n<div class=\"modal ng-scope\" tabindex=\"-1\" id=\"modal-mensagem-boot\" role=\"dialog\"> <div class=\"modal-dialog\" role=\"document\" style=\"max-width: 600px\"> <div class=\"modal-content\"> <div class=\"modal-header\"> <h4 class=\"modal-title ng-binding\" ng-bind=\"msg_titulo\"></h4> <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> <span aria-hidden=\"true\">×</span> </button> </div><div class=\"modal-body\"> <p ng-bind-html=\"msg_descricao\" class=\"ng-binding\"></p></div><div class=\"modal-footer\"> <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Ok</button> </div></div></div></div>\n<barra-rodape class=\"ng-scope\">        <!--RODAPE-->\n        <button class=\"btn btn-default scroll-to-top\" onclick=\"window.scrollTo(0, 0)\">\n            <i class=\"fas fa-angle-double-up\"></i>\n        </button>\n\n        <nav class=\"navbar navbar-light navbar-footer bg-light\" ng-show=\"achouInf === true\">\n            <div class=\"d-flex\" ng-show=\"achouInf == true\">\n                <ul class=\"nav\">\n                    <li class=\"nav-item\">\n                        <!-- ngIf: ENDERECO -->\n                    </li>\n                    <li class=\"nav-item\">\n                        <!-- ngIf: RODAPE1 -->\n                    </li>\n                    <li class=\"nav-item\">\n                        <!-- ngIf: RODAPE2 -->\n                    </li>\n                    <li class=\"nav-item\">\n                        <!-- ngIf: RODAPE3 -->\n                    </li>\n                </ul>\n\n            </div>\n        </nav>\n\n \n        <!--RODAPE--></barra-rodape>\n</ui-view>\n\n    <nav class=\"navbar fixed-bottom navbar-light bg-light\">\n        <div class=\"container-fluid\">\n            <div class=\"row\" style=\"width: 100%;\">\n                <div class=\"col-12 text-center\">\n                    <div class=\"copyright\">\n                        Todos os direitos reservados.\n                        <a href=\"https://www.gextec.com.br/\">\n                            Desenvolvido por <b>Gextec - Gestão em Tecnologia</b> -\n                        </a>\n                        <a href=\"tel:6530257352\">(65) 3025-7352</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </nav>\n\n    <script src=\"libs/jquery/jquery.min.js\"></script>\n    <!-- <script src=libs/bootstrap/dist/js/bootstrap.min.js></script> -->\n    <script src=\"libs/bootstrap/js/bootstrap.min.js\"></script>\n    <script src=\"libs/jquery/dist/jquery.validate.min.js\"></script>\n\n    <script src=\"libs/angular/angular.js\"></script>\n    <script src=\"libs/angular/angular-cookies.min.js\"></script>\n    <script src=\"libs/angular/angular-validate.min.js\"></script>\n    <script src=\"libs/angular-base64/angular-base64.min.js\"></script>\n    <script src=\"libs/angular/brdocs.cpfcnpjValidator.js\"></script>\n    <script src=\"libs/angular-ui-router/angular-ui-router.min.js\"></script>\n    <script src=\"libs/angular/angular-sanitize.js\"></script>\n    <script src=\"libs/ng-meta/ngMeta.min.js\"></script>\n\n    <script src=\"libs/angular-input-masks/angular-input-masks-standalone.min.js\"></script>\n    <script src=\"libs/ng-cpf-cnpj/dist/cpf_cnpj.min.js\"></script>\n    <script src=\"libs/ng-cpf-cnpj/dist/ngCpfCnpj.min.js\"></script>\n\n    <!-- comment  <script src=libs/bootstrap/dist/js/ui-bootstrap-tpls-2.5.0.min.js></script>-->\n\n    <!--file upload-->\n    <script src=\"libs/ng-file-upload/ng-file-upload-shim.min.js\"></script> <!-- for no html5 browsers support -->\n    <script src=\"libs/ng-file-upload/ng-file-upload.min.js\"></script>\n\n    <!--Re-Captcha-->\n    <script src=\"https://www.google.com/recaptcha/api.js\"></script>\n    <!-- Include AngularJS \n    <script src=\"//ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.js\"></script>    -->    \n    <!-- Include the ngReCaptcha directive -->\n    <script src=\"libs/angular/angular-recaptcha.min.js\"></script>\n\n\n    <!--Re-Captcha-->\n\n    <!--Grafico-->\n    <script type=\"text/javascript\" src=\"https://code.highcharts.com/12.6.0/highcharts.js\"></script>\n    <script type=\"text/javascript\" src=\"https://code.highcharts.com/12.6.0/modules/exporting.js\"></script>\n    <!--Grafico-->\n\n    <script src=\"js/app.js\"></script>\n    <script src=\"js/config/router.js\"></script>\n    <script src=\"js/controllers.js\"></script>\n    <script src=\"js/services.js\"></script>\n    <script src=\"js/value/servicos.js\"></script>\n    <script src=\"js/controller/ouvidoriaCtl.js\"></script>\n    <script src=\"js/controller/portalCtl.js\"></script>\n    <script src=\"js/controller/ugCtrl.js\"></script>\n    <script src=\"js/controller/manifestacaoCtrl.js\"></script>\n    <script src=\"js/controller/acompanhamentoCtrl.js\"></script>\n    <script src=\"js/controller/relatoriosCtrl.js\"></script>\n    <script src=\"js/controller/avaliacaoCtrl.js\"></script>\n    <script src=\"js/diretivas/barraNav.js\"></script>\n    <script src=\"js/diretivas/navLink.js\"></script>\n    <script src=\"js/diretivas/barraRodape.js\"></script>\n    <script src=\"js/diretivas/modalMensagem.js\"></script>\n    <script src=\"js/value/validationOptions.js\"></script>\n    <script src=\"js/interceptors/loadingInterceptor.js\"></script>\n    <script src=\"js/interceptors/timestampInterceptor.js\"></script>\n    <script src=\"js/config/interceptorsConfig.js\"></script>\n\n    <script src=\"libs/gxapi.js\"></script>\n    <script>\n                    var el = document.querySelectorAll(\".ng-binding\")\n                    el.forEach((element, index, array) => {\n                        let text = element.innerHTML\n                        if (text === \"\") {\n                            element.remove()\n                        }\n                    });\n    </script>\n\n\n\n<label tabindex=\"-1\" style=\"visibility: hidden; position: absolute; overflow: hidden; width: 0px; height: 0px; border: none; margin: 0px; padding: 0px;\">upload<input type=\"file\" ngf-select=\"uploadFiles($files, $invalidFiles)\" multiple=\"multiple\" ngf-max-files=\"1\" ngf-max-height=\"40000\" ngf-max-size=\"6MB\"></label></body></html>",
+    "data": {
+      "title": "Portal Ouvidoria | PREFEITURA MUNICIPAL DE ROSARIO OESTE MT",
+      "rawUrl": "https://www.gp.srv.br/ouvidoria/rosariooeste/#/portal/1/manifestacao",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 5,
+        "buttonNotAname": 1,
+        "a": 4,
+        "linkNotAName": 1,
+        "elementDec": 3,
+        "svg": 0,
+        "elementLang": 1,
+        "iframeSame": 0,
+        "ariaStPermitted": 4,
+        "ariaAtribDefined": 9,
+        "elementRole": 1,
+        "ariaStValid": 4,
+        "inputLabelNo": 4,
+        "roleValid": 2,
+        "img": 2,
+        "imgAltNull": 2,
+        "iframeNegTabIndex": 1,
+        "hxWithoutAName": 1,
+        "headers": 0,
+        "elementHiddenFocus": 3,
+        "menuItem": 0,
+        "id": 42,
+        "colorContrast": 5,
+        "elementPresentChildrenNoFocus": 12,
+        "textContrastHNot": 6,
+        "fieldLegNo": 2,
+        "hxSkip": 2,
+        "aSkipFirstNo": 1,
+        "formSubmitNo": 1,
+        "dd,dt": 0,
+        "idAtt": 23,
+        "dl": 0,
+        "layoutElem": 1,
+        "hx": 2,
+        "noDuplicateMain": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "aAdjacentSame": 2,
+        "li": 8,
+        "liSemantically": 8,
+        "listCorrectly": 4,
+        "mainTopLevel": 1,
+        "area": 0,
+        "inpImg": 11,
+        "label": 20,
+        "form": 1,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 2,
+        "ehandler": 1
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title ng-bind=\"ngMeta.title\" class=\"ng-binding\">Portal Ouvidoria | PREFEITURA MUNICIPAL DE ROSARIO OESTE MT</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(17)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\" ng-app=\"ouvidoriaApp\" ng-controller=\"ouvidoriaCtl\" class=\"ng-scope\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonNotAname": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-default scroll-to-top\" onclick=\"window.scrollTo(0, 0)\">\n            <i class=\"fas fa-angle-double-up\"></i>\n        </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > button:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a ng-bind=\" EMAIL\" href=\"mailto:\" style=\"color: #fff !important;\" class=\"ng-binding\"></a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > div:nth-child(3) > span:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > modal-mensagem:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementLang": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `lang` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div vc-recaptcha=\"\" theme=\"light\" size=\"normal\" type=\"image\" lang=\"pt-br\" on-create=\"setWidgetId(widgetId)\" on-success=\"setResponse(response)\" on-expire=\"cbExpiration()\" key=\"model.key\" ng-model=\"formulario.captcha\" name=\"form_captcha\" class=\"ng-pristine ng-untouched ng-valid ng-isolate-scope ng-empty\"></div>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-haspopup` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"breadcrumb\">\n        \n            Página inicial\n            Manifestações\n        \n    </nav>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-current` property is supported or inherited by the `role` listitem.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"breadcrumb\">\n        \n            Página inicial\n            Manifestações\n        \n    </nav>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" ng-click=\"voltar();\" aria-label=\"Close\">\n                    ×\n                </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> × </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > modal-mensagem:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > modal-mensagem:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> × </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span aria-hidden=\"true\">×</span>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementRole": [
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-haspopup` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"breadcrumb\">\n        \n            Página inicial\n            Manifestações\n        \n    </nav>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-current` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabelNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<select class=\"form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\" ng-model=\"formulario.assunto\" required=\"\" name=\"frm_assunto\" ng-options=\"assunto.assunto_nome for assunto in assuntos\">SelecioneAGRICULTURA ASSEDIO MORAL ASSISTENCIA SOCIALCONTROLADORIA GERAL DO MUNICIPIOEDUCAÇÃO ESPORTE, CULTURA E LAZERFISCALIZAÇÃO SANITARIA MEIO AMBIENTEOUTROS ASSUNTOSSAÚDESECRETARIA DE INFRAESTRUTURASERVIDOR PUBLICO</select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > fieldset:nth-child(1) > div:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<select class=\"form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\" required=\"\" ng-model=\"formulario.manifestacao\" name=\"frm_manifestacao\" ng-options=\"assunto.descricao for assunto in manifestacao\">SelecioneCONSULTACRÍTICA\tDENÚNCIADENUNCIA ANONIMAELOGIOINFORMAÇÃO\tOUTROSRECLAMAÇÃO SUGESTÃO\t</select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > fieldset:nth-child(1) > div:nth-child(3) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<select class=\"form-control ng-pristine ng-untouched ng-valid ng-empty\" ng-model=\"formulario.estado\" name=\"frm_estado\" ng-options=\"assunto.estado_nome for assunto in estados \">0 - TODOS\"ACREALAGOASAMAPÁAMAZONASBAHIACEARÁDISTRITO FEDERALESPÍRITO SANTOGOIÁSMARANHÃOMATO GROSSOMATO GROSSO DO SULMINAS GERAISPARÁPARAÍBAPARANÁPERNAMBUCOPIAUÍRIO DE JANEIRORIO GRANDE DO NORTERIO GRANDE DO SULRONDÔNIARORAIMASANTA CATARINASÃO PAULOSERGIPETOCANTINS</select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(7) > div:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<textarea required=\"\" cols=\"80\" rows=\"10\" id=\"descricao\" ng-model=\"formulario.descricao\" name=\"frm_descricao\" class=\"form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required\"></textarea>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(2) > div:nth-child(1) > textarea:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "roleValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<iframe title=\"reCAPTCHA\" width=\"304\" height=\"78\" role=\"presentation\" name=\"a-5v5a45q3k8x1\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfOGmIUAAAAAGARzdR2T_0GXcVnVyliVFt4eBNB&amp;co=aHR0cHM6Ly93d3cuZ3Auc3J2LmJyOjQ0Mw..&amp;hl=pt-br&amp;type=image&amp;v=zqB-6Xpbd3lCIvi7Tr2D0pob&amp;theme=light&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=4i4q83em00z\"></iframe>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img ng-src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\" src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"assets/ouvidoria.png\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img ng-src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\" src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"assets/ouvidoria.png\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "iframeNegTabIndex": [
+          {
+            "verdict": "passed",
+            "description": "The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<iframe title=\"reCAPTCHA\" width=\"304\" height=\"78\" role=\"presentation\" name=\"a-5v5a45q3k8x1\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfOGmIUAAAAAGARzdR2T_0GXcVnVyliVFt4eBNB&amp;co=aHR0cHM6Ly93d3cuZ3Auc3J2LmJyOjQ0Mw..&amp;hl=pt-br&amp;type=image&amp;v=zqB-6Xpbd3lCIvi7Tr2D0pob&amp;theme=light&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=4i4q83em00z\"></iframe>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxWithoutAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h5 ng-bind=\"TELEFONE\" style=\"font-size: ;\" class=\"ng-binding\"></h5>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > div:nth-child(3) > h5:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img ng-src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\" src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"assets/ouvidoria.png\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<iframe title=\"reCAPTCHA\" width=\"304\" height=\"78\" role=\"presentation\" name=\"a-5v5a45q3k8x1\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfOGmIUAAAAAGARzdR2T_0GXcVnVyliVFt4eBNB&amp;co=aHR0cHM6Ly93d3cuZ3Auc3J2LmJyOjQ0Mw..&amp;hl=pt-br&amp;type=image&amp;v=zqB-6Xpbd3lCIvi7Tr2D0pob&amp;theme=light&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=4i4q83em00z\"></iframe>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-primary btn-block btn-lg mt-3\" ngf-select=\"uploadFiles($files, $invalidFiles)\" multiple=\"\" ngf-max-files=\"1\" ngf-max-height=\"40000\" ngf-max-size=\"6MB\">\n                Adicionar arquivos\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"singlebutton_enviar\" name=\"singlebutton_enviar\" class=\"btn btn-success btn-lg ml-3\" ng-click=\"fnConfirmar(formCtrl,formulario,files)\" ng-disabled=\"disableButton\">\n                Confirmar\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(6) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.gextec.com.br/\">\n                            Desenvolvido por Gextec - Gestão em Tecnologia -\n                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Gextec - Gestão em Tecnologia</b>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > b:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img height=\"62\" class=\"d-inline-block align-middle mr-3 ng-hide\" ng-show=\"islogotipo === true\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link dropdown-toggle\" style=\"color: white;  font-size: ;\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Menu Unidade Gestora</a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-primary btn-block btn-lg mt-3\" ngf-select=\"uploadFiles($files, $invalidFiles)\" multiple=\"\" ngf-max-files=\"1\" ngf-max-height=\"40000\" ngf-max-size=\"6MB\">\n                Adicionar arquivos\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"singlebutton_voltar\" name=\"singlebutton_voltar\" ng-click=\"voltar();\" class=\"btn btn-light\">\n                \n                Voltar\n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(6) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"singlebutton_enviar\" name=\"singlebutton_enviar\" class=\"btn btn-success btn-lg ml-3\" ng-click=\"fnConfirmar(formCtrl,formulario,files)\" ng-disabled=\"disableButton\">\n                Confirmar\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(6) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" ng-click=\"voltar();\" aria-label=\"Close\">\n                    ×\n                </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Ok</button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> × </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > modal-mensagem:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Ok</button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > modal-mensagem:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"> × </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Ok</button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-default scroll-to-top\" onclick=\"window.scrollTo(0, 0)\">\n            \n        </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-danger\">(*) Campos obrigatórios</p>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-primary btn-block btn-lg mt-3\" ngf-select=\"uploadFiles($files, $invalidFiles)\" multiple=\"\" ngf-max-files=\"1\" ngf-max-height=\"40000\" ngf-max-size=\"6MB\">\n                Adicionar arquivos\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(3) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"singlebutton_enviar\" name=\"singlebutton_enviar\" class=\"btn btn-success btn-lg ml-3\" ng-click=\"fnConfirmar(formCtrl,formulario,files)\" ng-disabled=\"disableButton\">\n                Confirmar\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(6) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.gextec.com.br/\">\n                            Desenvolvido por Gextec - Gestão em Tecnologia -\n                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Gextec - Gestão em Tecnologia</b>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > b:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "fieldLegNo": [
+          {
+            "verdict": "failed",
+            "description": "The `fieldset` element is neither inside nor referencing a `form` element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<fieldset>\n                    Dados da manifestação\n                    \n                        \n                            Assunto\n                            *\n                        \n                        SelecioneAGRICULTURA ASSEDIO MORAL ASSISTENCIA SOCIALCONTROLADORIA GERAL DO MUNICIPIOEDUCAÇÃO ESPORTE, CULTURA E LAZERFISCALIZAÇÃO SANITARIA MEIO AMBIENTEOUTROS ASSUNTOSSAÚDESECRETARIA DE INFRAESTRUTURASERVIDOR PUBLICO\n                    \n\n                    \n                        \n                            Qual é a sua manifestação?\n                            *\n                        \n                        SelecioneCONSULTACRÍTICA\tDENÚNCIADENUNCIA ANONIMAELOGIOINFORMAÇÃO\tOUTROSRECLAMAÇÃO SUGESTÃO\t\n                    \n\n                    \n                    \n                        \n                            A sua manifestação é sigilosa?\n                            *\n                        \n                        \n                            Não\n                            Sim                            \n                        \n                    \n\n                    \n                    \n\n                    \n                    \n                        \n                            Deseja receber sua resposta através de?\n                            *\n                        \n                        \n                            \n                            Email\n                            \n                            Outros\n                        \n                    \n\n                    \n                    \n\n                    \n                        \n                            As informações pessoais preenchidas neste manifesto são protegidas pela LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) 13709/2018.\n                        \n                    \n\n                </fieldset>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > fieldset:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The `fieldset` element is neither inside nor referencing a `form` element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<fieldset>\n                    Dados do solicitante\n                    \n                    \n                        \n                            Nome do Interessado\n                            *\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                CPF/CNPJ\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Telefone\n                                \n                            \n                            \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                E-mail\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                Sexo\n                            \n                            \n                                Masculino\n                                Feminino\n                            \n                        \n\n                        \n                        \n                            \n                                Faixa Etária\n                            \n                            \n                                Até 30 Anos\n                                Até 40 Anos\n                                Entre 40 e 50 Anos\n                                Acima de 50 Anos\n                            \n                        \n\n                        \n                        \n                            Área e Atuação\n                            \n                                Pública\n                                Privada\n                            \n                        \n                    \n\n                    \n                        \n                            \n                                Rua\n                                \n                            \n                            \n                        \n\n                        \n                            \n                                Bairro\n                                \n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Localidade\n                                \n                            \n                            \n                                Zona Urbana\n                                Zona Rural\n                            \n                        \n                    \n\n                    \n                        \n                        \n                            Cidade\n                            \n                        \n\n                        \n                            Estado\n                            0 - TODOS\"ACREALAGOASAMAPÁAMAZONASBAHIACEARÁDISTRITO FEDERALESPÍRITO SANTOGOIÁSMARANHÃOMATO GROSSOMATO GROSSO DO SULMINAS GERAISPARÁPARAÍBAPARANÁPERNAMBUCOPIAUÍRIO DE JANEIRORIO GRANDE DO NORTERIO GRANDE DO SULRONDÔNIARORAIMASANTA CATARINASÃO PAULOSERGIPETOCANTINS\n                        \n\n                        \n                            CEP\n                            \n                        \n                    \n                </fieldset>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxSkip": [
+          {
+            "verdict": "failed",
+            "description": "Headings are not in the correct order.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"display-4 ng-binding\">Manifestações</h1>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Headings are not in the correct order.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"display-4 ng-binding\">Manifestações</h1>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page links to an inexistent element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a ng-bind=\" EMAIL\" href=\"mailto:\" style=\"color: #fff !important;\" class=\"ng-binding\"></a>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > div:nth-child(3) > span:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "formSubmitNo": [
+          {
+            "verdict": "failed",
+            "description": "Form tag doesn't contain any of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<form class=\"form ng-pristine ng-isolate-scope ng-invalid ng-invalid-required ng-valid-cpf ng-valid-cnpj ng-valid-email ng-invalid-recaptcha\" name=\"formCtrl\" ng-validate=\"validationOptions\" autocomplete=\"off\" novalidate=\"novalidate\">\n\n        \n            \n                \n                    Dados da manifestação\n                    \n                        \n                            Assunto\n                            *\n                        \n                        SelecioneAGRICULTURA ASSEDIO MORAL ASSISTENCIA SOCIALCONTROLADORIA GERAL DO MUNICIPIOEDUCAÇÃO ESPORTE, CULTURA E LAZERFISCALIZAÇÃO SANITARIA MEIO AMBIENTEOUTROS ASSUNTOSSAÚDESECRETARIA DE INFRAESTRUTURASERVIDOR PUBLICO\n                    \n\n                    \n                        \n                            Qual é a sua manifestação?\n                            *\n                        \n                        SelecioneCONSULTACRÍTICA\tDENÚNCIADENUNCIA ANONIMAELOGIOINFORMAÇÃO\tOUTROSRECLAMAÇÃO SUGESTÃO\t\n                    \n\n                    \n                    \n                        \n                            A sua manifestação é sigilosa?\n                            *\n                        \n                        \n                            Não\n                            Sim                            \n                        \n                    \n\n                    \n                    \n\n                    \n                    \n                        \n                            Deseja receber sua resposta através de?\n                            *\n                        \n                        \n                            \n                            Email\n                            \n                            Outros\n                        \n                    \n\n                    \n                    \n\n                    \n                        \n                            As informações pessoais preenchidas neste manifesto são protegidas pela LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) 13709/2018.\n                        \n                    \n\n                \n            \n\n            \n                \n                    Dados do solicitante\n                    \n                    \n                        \n                            Nome do Interessado\n                            *\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                CPF/CNPJ\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Telefone\n                                \n                            \n                            \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                E-mail\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                Sexo\n                            \n                            \n                                Masculino\n                                Feminino\n                            \n                        \n\n                        \n                        \n                            \n                                Faixa Etária\n                            \n                            \n                                Até 30 Anos\n                                Até 40 Anos\n                                Entre 40 e 50 Anos\n                                Acima de 50 Anos\n                            \n                        \n\n                        \n                        \n                            Área e Atuação\n                            \n                                Pública\n                                Privada\n                            \n                        \n                    \n\n                    \n                        \n                            \n                                Rua\n                                \n                            \n                            \n                        \n\n                        \n                            \n                                Bairro\n                                \n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Localidade\n                                \n                            \n                            \n                                Zona Urbana\n                                Zona Rural\n                            \n                        \n                    \n\n                    \n                        \n                        \n                            Cidade\n                            \n                        \n\n                        \n                            Estado\n                            0 - TODOS\"ACREALAGOASAMAPÁAMAZONASBAHIACEARÁDISTRITO FEDERALESPÍRITO SANTOGOIÁSMARANHÃOMATO GROSSOMATO GROSSO DO SULMINAS GERAISPARÁPARAÍBAPARANÁPERNAMBUCOPIAUÍRIO DE JANEIRORIO GRANDE DO NORTERIO GRANDE DO SULRONDÔNIARORAIMASANTA CATARINASÃO PAULOSERGIPETOCANTINS\n                        \n\n                        \n                            CEP\n                            \n                        \n                    \n                \n            \n        \n\n        \n            \n            \n                \n                    Descrição\n                    *\n                \n                \n            \n        \n\n        \n            \n                Adicionar arquivos\n                \n            \n        \n\n        \n            \n                \n                    \n                        \n                            \n                            \n                        \n                        \n                    \n                \n\n            \n        \n\n        \n        \n            \n                \n                    \n                        \n                            \n                        \n                    \n\n                \n            \n        \n\n        \n            \n                \n                Voltar\n            \n\n            \n                Confirmar\n                \n            \n        \n\n    </form>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"loader-wrapper\">\n                \n\n                \n                \n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"loader\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"selectbasic\" name=\"selectbasic\" ng-model=\"formulario.sigilo\" class=\"form-control ng-pristine ng-valid ng-not-empty is-valid ng-touched\" aria-invalid=\"false\">\n                            Não\n                            Sim                            \n                        </select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > fieldset:nth-child(1) > div:nth-child(4) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"selectcontato\" ng-model=\"formulario.formacontato\" name=\"frm_formacontato\" class=\"form-control ng-pristine ng-valid ng-not-empty is-valid ng-touched\" aria-invalid=\"false\">\n                            \n                            Email\n                            \n                            Outros\n                        </select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > fieldset:nth-child(1) > div:nth-child(5) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_nome_completo\" name=\"frm_nome_completo\" ng-model=\"formulario.nome\" placeholder=\"Nome do Interessado\" class=\"form-control input-md ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched\" required=\"required\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_cpfcnpj\" class=\"form-control input-md ng-pristine ng-empty ng-valid-cpf ng-valid-cnpj ng-invalid ng-invalid-required ng-touched\" ng-class=\"{ 'is-invalid': formCtrl.frm_cpfcnpj.$error.cpfcnpj || formCtrl.frm_cpfcnpj.$dirty || disableButton }\" type=\"text\" name=\"frm_cpfcnpj\" placeholder=\"CPF/CNPJ\" required=\"required\" ui-br-cpfcnpj-mask=\"\" ng-model=\"formulario.cpfcnpj\" ng-blur=\"validaCPFCNPJ(formCtrl,formulario,formulario.cpfcnpj)\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(3) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_telefone\" type=\"tel\" name=\"frm_telefone\" ng-class=\"{ 'is-invalid': formCtrl.frm_cpfcnpj.$error.telefone &amp;&amp; formCtrl.frm_telefone.$dirty &amp;&amp; formulario.formacontato==1 }\" ng-required=\"formulario.formacontato==1\" placeholder=\"(65) 99999-9999\" ng-model=\"formulario.telefone\" class=\"form-control input-md ng-pristine ng-valid ng-empty ng-valid-required ng-touched\" ui-br-telefone-mask=\"\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(3) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_email\" name=\"frm_email\" ng-model=\"formulario.email\" placeholder=\"seu@email.com.br\" class=\"form-control input-md ng-pristine ng-empty ng-valid-email ng-invalid ng-invalid-required ng-touched\" required=\"required\" type=\"email\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(4) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"select_sexo\" ng-model=\"formulario.sexo\" name=\"frm_sexo\" class=\"form-control ng-pristine ng-valid ng-empty is-valid ng-touched\" aria-invalid=\"false\">\n                                Masculino\n                                Feminino\n                            </select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(5) > div:nth-child(1) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"select_faixa_etaria\" name=\"select_faixa_etaria\" ng-model=\"formulario.faixa_etaria\" class=\"form-control ng-pristine ng-valid ng-empty is-valid ng-touched\" aria-invalid=\"false\">\n                                Até 30 Anos\n                                Até 40 Anos\n                                Entre 40 e 50 Anos\n                                Acima de 50 Anos\n                            </select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(5) > div:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"select_area_atuacao\" name=\"select_area_atuacao\" ng-model=\"formulario.area_atuacao\" class=\"form-control ng-pristine ng-valid ng-empty is-valid ng-touched\" aria-invalid=\"false\">\n                                Pública\n                                Privada\n                            </select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(5) > div:nth-child(3) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_rua\" name=\"frm_rua\" ng-model=\"formulario.rua\" placeholder=\"Endereço\" class=\"form-control input-md ng-pristine ng-valid ng-empty ng-touched\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(6) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"bairro\" name=\"bairro\" ng-model=\"formulario.bairro\" placeholder=\"Bairro\" class=\"form-control input-md ng-pristine ng-valid ng-empty ng-touched\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(6) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"select_localizacao\" name=\"select_localizacao\" ng-model=\"formulario.localizacao\" class=\"form-control ng-pristine ng-valid ng-empty is-valid ng-touched\" aria-invalid=\"false\">\n                                Zona Urbana\n                                Zona Rural\n                            </select>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(6) > div:nth-child(3) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_cidade\" name=\"frm_cidade\" ng-model=\"formulario.cidade\" class=\"form-control input-md ng-pristine ng-valid ng-empty ng-touched\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(7) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"frm_cep\" name=\"frm_cep\" ng-model=\"formulario.cep\" class=\"form-control input-md ng-pristine ng-valid ng-empty ng-touched\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(7) > div:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea required=\"\" cols=\"80\" rows=\"10\" id=\"descricao\" ng-model=\"formulario.descricao\" name=\"frm_descricao\" class=\"form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched\"></textarea>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(2) > div:nth-child(1) > textarea:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > textarea:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"singlebutton_voltar\" name=\"singlebutton_voltar\" ng-click=\"voltar();\" class=\"btn btn-light\">\n                \n                Voltar\n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(6) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"singlebutton_enviar\" name=\"singlebutton_enviar\" class=\"btn btn-success btn-lg ml-3\" ng-click=\"fnConfirmar(formCtrl,formulario,files)\" ng-disabled=\"disableButton\">\n                Confirmar\n                \n            </button>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(6) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal ng-scope\" tabindex=\"-1\" id=\"modal_manifestacao\" role=\"dialog\">\n    \n        \n            \n                \n                \n                    ×\n                \n            \n            \n                \n                    \n                    \n                        \n                            \n                                Manifestação\n                                \n                                    \n                                    \n                                \n                                 \n                        \n                          \n                    \n                      \n            \n            \n                Imprmir\n                Ok\n            \n        \n        \n    \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal\" tabindex=\"-1\" id=\"modal-mensagem\" role=\"dialog\">      ×    Ok </div>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > modal-mensagem:nth-child(4) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a unique `id` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"modal ng-scope\" tabindex=\"-1\" id=\"modal-mensagem-boot\" role=\"dialog\">      ×    Ok </div>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > div:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Gextec - Gestão em Tecnologia</b>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > b:nth-child(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h5 ng-bind=\"TELEFONE\" style=\"font-size: ;\" class=\"ng-binding\"></h5>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > div:nth-child(3) > h5:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"display-4 ng-binding\">Manifestações</h1>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main class=\"ng-scope\">\n\n    \n        \n            Página inicial\n            Manifestações\n        \n    \n    Manifestações\n\n\n\n    (*) Campos obrigatórios\n\n    \n\n        \n            \n                \n                    Dados da manifestação\n                    \n                        \n                            Assunto\n                            *\n                        \n                        SelecioneAGRICULTURA ASSEDIO MORAL ASSISTENCIA SOCIALCONTROLADORIA GERAL DO MUNICIPIOEDUCAÇÃO ESPORTE, CULTURA E LAZERFISCALIZAÇÃO SANITARIA MEIO AMBIENTEOUTROS ASSUNTOSSAÚDESECRETARIA DE INFRAESTRUTURASERVIDOR PUBLICO\n                    \n\n                    \n                        \n                            Qual é a sua manifestação?\n                            *\n                        \n                        SelecioneCONSULTACRÍTICA\tDENÚNCIADENUNCIA ANONIMAELOGIOINFORMAÇÃO\tOUTROSRECLAMAÇÃO SUGESTÃO\t\n                    \n\n                    \n                    \n                        \n                            A sua manifestação é sigilosa?\n                            *\n                        \n                        \n                            Não\n                            Sim                            \n                        \n                    \n\n                    \n                    \n\n                    \n                    \n                        \n                            Deseja receber sua resposta através de?\n                            *\n                        \n                        \n                            \n                            Email\n                            \n                            Outros\n                        \n                    \n\n                    \n                    \n\n                    \n                        \n                            As informações pessoais preenchidas neste manifesto são protegidas pela LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) 13709/2018.\n                        \n                    \n\n                \n            \n\n            \n                \n                    Dados do solicitante\n                    \n                    \n                        \n                            Nome do Interessado\n                            *\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                CPF/CNPJ\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Telefone\n                                \n                            \n                            \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                E-mail\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                Sexo\n                            \n                            \n                                Masculino\n                                Feminino\n                            \n                        \n\n                        \n                        \n                            \n                                Faixa Etária\n                            \n                            \n                                Até 30 Anos\n                                Até 40 Anos\n                                Entre 40 e 50 Anos\n                                Acima de 50 Anos\n                            \n                        \n\n                        \n                        \n                            Área e Atuação\n                            \n                                Pública\n                                Privada\n                            \n                        \n                    \n\n                    \n                        \n                            \n                                Rua\n                                \n                            \n                            \n                        \n\n                        \n                            \n                                Bairro\n                                \n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Localidade\n                                \n                            \n                            \n                                Zona Urbana\n                                Zona Rural\n                            \n                        \n                    \n\n                    \n                        \n                        \n                            Cidade\n                            \n                        \n\n                        \n                            Estado\n                            0 - TODOS\"ACREALAGOASAMAPÁAMAZONASBAHIACEARÁDISTRITO FEDERALESPÍRITO SANTOGOIÁSMARANHÃOMATO GROSSOMATO GROSSO DO SULMINAS GERAISPARÁPARAÍBAPARANÁPERNAMBUCOPIAUÍRIO DE JANEIRORIO GRANDE DO NORTERIO GRANDE DO SULRONDÔNIARORAIMASANTA CATARINASÃO PAULOSERGIPETOCANTINS\n                        \n\n                        \n                            CEP\n                            \n                        \n                    \n                \n            \n        \n\n        \n            \n            \n                \n                    Descrição\n                    *\n                \n                \n            \n        \n\n        \n            \n                Adicionar arquivos\n                \n            \n        \n\n        \n            \n                \n                    \n                        \n                            \n                            \n                        \n                        \n                    \n                \n\n            \n        \n\n        \n        \n            \n                \n                    \n                        \n                            \n                        \n                    \n\n                \n            \n        \n\n        \n            \n                \n                Voltar\n            \n\n            \n                Confirmar\n                \n            \n        \n\n    \n\n\n\n\n\n\n    \n        \n            \n                \n                \n                    ×\n                \n            \n            \n                \n                    \n                    \n                        \n                            \n                                Manifestação\n                                \n                                    \n                                    \n                                \n                                 \n                        \n                          \n                    \n                      \n            \n            \n                Imprmir\n                Ok\n            \n        \n        \n    \n    \n\n\n      ×    Ok \n</main>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"display-4 ng-binding\">Manifestações</h1>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aAdjacentSame": [
+          {
+            "verdict": "failed",
+            "description": "There are consecutive links with the same href in which one of the links contained an image.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img ng-src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\" height=\"62\" alt=\"\" class=\"d-inline-block align-middle mr-3\" src=\"rosariooeste/PublicTempStorage/4f7aedf6-7034-4ced-970a-cdb96512f91b.tmp\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "There are consecutive links with the same href in which one of the links contained an image.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img height=\"62\" class=\"d-inline-block align-middle mr-3 ng-hide\" ng-show=\"islogotipo === true\">",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"nav-item\">\n            \n        </li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"nav-item dropdown\">\n                Menu Unidade Gestora\n                \n                    PREFEITURA MUNICIPAL DE ROSARIO OESTE MTCAMARA MUNICIPAL DE ROSÁRIO OESTEFUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE ROSARIO OESTEFUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE ROSARIO OESTE - CONSOLIDAÇÃO\n\n                    \n                    \n                \n            </li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item\">Página inicial</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active ng-binding\" aria-current=\"page\">Manifestações</li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"nav-item\">\n                        \n                    </li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"nav-item\">\n                        \n                    </li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"nav-item\">\n                        \n                    </li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"nav-item\">\n                        \n                    </li>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"nav justify-content-center\">  \n        \n            \n        \n    </ul>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul ng-if=\"ugs\" class=\"nav mr-sm-2 ng-scope\">\n            \n                Menu Unidade Gestora\n                \n                    PREFEITURA MUNICIPAL DE ROSARIO OESTE MTCAMARA MUNICIPAL DE ROSÁRIO OESTEFUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE ROSARIO OESTEFUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE ROSARIO OESTE - CONSOLIDAÇÃO\n\n                    \n                    \n                \n            \n        </ul>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ol class=\"breadcrumb  bg-primary-dark\" ng-class=\"ug_id.unidade_gestora_cnpj_mascarado === '37.464.997/0001-40' ? 'bg-primary-dark-tabapora' : 'bg-primary-dark'\">\n            Página inicial\n            Manifestações\n        </ol>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3) > ui-view:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > ol:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"nav\">\n                    \n                        \n                    \n                    \n                        \n                    \n                    \n                        \n                    \n                    \n                        \n                    \n                </ul>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > barra-rodape:nth-child(5) > nav:nth-child(2) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main class=\"ng-scope\">\n\n    \n        \n            Página inicial\n            Manifestações\n        \n    \n    Manifestações\n\n\n\n    (*) Campos obrigatórios\n\n    \n\n        \n            \n                \n                    Dados da manifestação\n                    \n                        \n                            Assunto\n                            *\n                        \n                        SelecioneAGRICULTURA ASSEDIO MORAL ASSISTENCIA SOCIALCONTROLADORIA GERAL DO MUNICIPIOEDUCAÇÃO ESPORTE, CULTURA E LAZERFISCALIZAÇÃO SANITARIA MEIO AMBIENTEOUTROS ASSUNTOSSAÚDESECRETARIA DE INFRAESTRUTURASERVIDOR PUBLICO\n                    \n\n                    \n                        \n                            Qual é a sua manifestação?\n                            *\n                        \n                        SelecioneCONSULTACRÍTICA\tDENÚNCIADENUNCIA ANONIMAELOGIOINFORMAÇÃO\tOUTROSRECLAMAÇÃO SUGESTÃO\t\n                    \n\n                    \n                    \n                        \n                            A sua manifestação é sigilosa?\n                            *\n                        \n                        \n                            Não\n                            Sim                            \n                        \n                    \n\n                    \n                    \n\n                    \n                    \n                        \n                            Deseja receber sua resposta através de?\n                            *\n                        \n                        \n                            \n                            Email\n                            \n                            Outros\n                        \n                    \n\n                    \n                    \n\n                    \n                        \n                            As informações pessoais preenchidas neste manifesto são protegidas pela LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) 13709/2018.\n                        \n                    \n\n                \n            \n\n            \n                \n                    Dados do solicitante\n                    \n                    \n                        \n                            Nome do Interessado\n                            *\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                CPF/CNPJ\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Telefone\n                                \n                            \n                            \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                E-mail\n                                *\n                            \n                            \n                        \n\n                        \n                        \n                    \n\n                    \n                        \n                        \n                            \n                                Sexo\n                            \n                            \n                                Masculino\n                                Feminino\n                            \n                        \n\n                        \n                        \n                            \n                                Faixa Etária\n                            \n                            \n                                Até 30 Anos\n                                Até 40 Anos\n                                Entre 40 e 50 Anos\n                                Acima de 50 Anos\n                            \n                        \n\n                        \n                        \n                            Área e Atuação\n                            \n                                Pública\n                                Privada\n                            \n                        \n                    \n\n                    \n                        \n                            \n                                Rua\n                                \n                            \n                            \n                        \n\n                        \n                            \n                                Bairro\n                                \n                            \n                            \n                        \n\n                        \n                        \n                            \n                                Localidade\n                                \n                            \n                            \n                                Zona Urbana\n                                Zona Rural\n                            \n                        \n                    \n\n                    \n                        \n                        \n                            Cidade\n                            \n                        \n\n                        \n                            Estado\n                            0 - TODOS\"ACREALAGOASAMAPÁAMAZONASBAHIACEARÁDISTRITO FEDERALESPÍRITO SANTOGOIÁSMARANHÃOMATO GROSSOMATO GROSSO DO SULMINAS GERAISPARÁPARAÍBAPARANÁPERNAMBUCOPIAUÍRIO DE JANEIRORIO GRANDE DO NORTERIO GRANDE DO SULRONDÔNIARORAIMASANTA CATARINASÃO PAULOSERGIPETOCANTINS\n                        \n\n                        \n                            CEP\n                            \n                        \n                    \n                \n            \n        \n\n        \n            \n            \n                \n                    Descrição\n                    *\n                \n                \n            \n        \n\n        \n            \n                Adicionar arquivos\n                \n            \n        \n\n        \n            \n                \n                    \n                        \n                            \n                            \n                        \n                        \n                    \n                \n\n            \n        \n\n        \n        \n            \n                \n                    \n                        \n                            \n                        \n                    \n\n                \n            \n        \n\n        \n            \n                \n                Voltar\n            \n\n            \n                Confirmar\n                \n            \n        \n\n    \n\n\n\n\n\n\n    \n        \n            \n                \n                \n                    ×\n                \n            \n            \n                \n                    \n                    \n                        \n                            \n                                Manifestação\n                                \n                                    \n                                    \n                                \n                                 \n                        \n                          \n                    \n                      \n            \n            \n                Imprmir\n                Ok\n            \n        \n        \n    \n    \n\n\n      ×    Ok \n</main>",
+                "pointer": "html > body:nth-child(2) > ui-view:nth-child(2) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 18:40:13",
+      "tot": {
+        "info": {
+          "url": "https://www.gp.srv.br/ouvidoria/rosariooeste/#/portal/1/manifestacao",
+          "title": "Portal Ouvidoria | PREFEITURA MUNICIPAL DE ROSARIO OESTE MT",
+          "date": "2026-09-21 18:40:13",
+          "htmlTags": 343,
+          "roles": {
+            "document": 4,
+            "generic": 94,
+            "navigation": 5,
+            "presentation": 3,
+            "img": 1,
+            "paragraph": 6,
+            "list": 6,
+            "listitem": 8,
+            "heading": 5,
+            "link": 8,
+            "button": 11,
+            "main": 1,
+            "form": 1,
+            "group": 2,
+            "superscript": 8,
+            "combobox": 9,
+            "textbox": 10,
+            "dialog": 3
+          },
+          "cTags": {
+            "html": 2,
+            "head": 2,
+            "meta": 11,
+            "style": 1,
+            "base": 1,
+            "script": 51,
+            "link": 6,
+            "title": 1,
+            "body": 2,
+            "div": 87,
+            "ui-view": 2,
+            "nav": 5,
+            "a": 11,
+            "img": 3,
+            "p": 6,
+            "ul": 5,
+            "li": 8,
+            "h5": 1,
+            "span": 5,
+            "main": 1,
+            "ol": 1,
+            "h1": 1,
+            "form": 1,
+            "fieldset": 2,
+            "legend": 2,
+            "label": 19,
+            "sup": 8,
+            "select": 9,
+            "option": 70,
+            "input": 9,
+            "textarea": 2,
+            "button": 10,
+            "i": 4,
+            "iframe": 3,
+            "h4": 3,
+            "embed": 1,
+            "modal-mensagem": 1,
+            "barra-rodape": 1,
+            "b": 1
+          },
+          "size": 37824,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "4d696de3d22b8574960b5c55c3169d93",
+          "tests": 33,
+          "conform": "8@1@1",
+          "score": "7.0"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 5,
+          "buttonNotAname": 1,
+          "a": 4,
+          "linkNotAName": 1,
+          "elementDec": 3,
+          "svg": 0,
+          "elementLang": 1,
+          "iframeSame": 0,
+          "ariaStPermitted": 4,
+          "ariaAtribDefined": 9,
+          "elementRole": 1,
+          "ariaStValid": 4,
+          "inputLabelNo": 4,
+          "roleValid": 2,
+          "img": 2,
+          "imgAltNull": 2,
+          "iframeNegTabIndex": 1,
+          "hxWithoutAName": 1,
+          "headers": 0,
+          "elementHiddenFocus": 3,
+          "menuItem": 0,
+          "id": 42,
+          "colorContrast": 5,
+          "elementPresentChildrenNoFocus": 12,
+          "textContrastHNot": 6,
+          "fieldLegNo": 2,
+          "hxSkip": 2,
+          "aSkipFirstNo": 1,
+          "formSubmitNo": 1,
+          "dd,dt": 0,
+          "idAtt": 23,
+          "dl": 0,
+          "layoutElem": 1,
+          "hx": 2,
+          "noDuplicateMain": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "aAdjacentSame": 2,
+          "li": 8,
+          "liSemantically": 8,
+          "listCorrectly": 4,
+          "mainTopLevel": 1,
+          "area": 0,
+          "inpImg": 11,
+          "label": 20,
+          "form": 1,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 2,
+          "ehandler": 1
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_02": "1@3.6",
+          "a_11": "1@3.6",
+          "element_02": "10@36",
+          "element_06": "10@36",
+          "aria_05": "10@36",
+          "aria_07": "10@36",
+          "element_10": "10@36",
+          "aria_03": "10@36",
+          "input_02": "1@3.8",
+          "role_01": "10@36",
+          "img_01a": "10@15",
+          "img_02": "something",
+          "iframe_04": "10@36",
+          "heading_02": "1@3.6",
+          "element_04": "10@36",
+          "color_02": "1@1.6",
+          "element_08": "10@36",
+          "textC_02": "something",
+          "field_01": "1@3.2",
+          "hx_03": "5@3.8",
+          "a_01b": "something",
+          "form_01b": "1@0.5599999999999999",
+          "id_01": "10@36",
+          "layout_01b": "1@2.2",
+          "hx_01b": "something",
+          "landmark_13": "10@36",
+          "heading_03": "10@36",
+          "a_06": "1@4",
+          "listitem_01": "10@36",
+          "list_02": "10@36",
+          "landmark_07": "10@36"
+        }
+      },
+      "conform": "8@1@1",
+      "score": "7.0"
+    }
+  }
+}
