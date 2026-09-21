@@ -6,5 +6,7 @@
   "urls_unicas": 137,
   "workers": 3,
   "timeout_segundos": 45,
-  "diretorio": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51"
+  "diretorio": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51",
+  "fim": "2026-09-21T19:53:37-04:00",
+  "avaliacoes_com_falha_ou_pdf_falho": 18
 }

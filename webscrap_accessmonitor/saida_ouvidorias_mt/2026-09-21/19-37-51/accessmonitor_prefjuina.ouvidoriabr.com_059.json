@@ -1,0 +1,929 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\" dir=\"ltr\" translate=\"no\" class=\"notranslate\"><head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"Content-Language\" content=\"pt-BR\">\n        <meta name=\"language\" content=\"pt-BR\">\n        <meta name=\"google\" content=\"notranslate\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n        <link rel=\"canonical\" href=\"https://ouvidoriabr.com\">\n        <link rel=\"icon\" type=\"image/svg+xml\" href=\"/icon.svg\">\n\n        <title>Ouvidoria da Prefeitura de Juína</title><meta property=\"description\" content=\"Site oficial da Ouvidoria da Prefeitura de Juína\"><meta property=\"og:site_name\" content=\"Ouvidoria da Prefeitura de Juína\"><meta property=\"og:url\" content=\"https://prefjuina.ouvidoriabr.com\"><meta property=\"og:title\" content=\"Ouvidoria da Prefeitura de Juína\"><meta property=\"og:description\" content=\"Site oficial da Ouvidoria da Prefeitura de Juína\"><meta property=\"og:image\" content=\"https://prefjuina.ouvidoriabr.com/800x533.png\"><meta property=\"og:image:type\" content=\"image/jpeg\"><meta property=\"og:image:width\" content=\"800\"><meta property=\"og:image:height\" content=\"533\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:locale\" content=\"pt_BR\">\n      \n      <link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/rolldown-runtime-QTnfLwEv.js\">\n      <link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/sentry-1YS9dJGQ.js\">\n      <link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/vendor-XfuIP8Kk.js\">\n      <link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-rVq3Nh9c.css\">\n    </head>\n    <body>\n        <div id=\"root\"><div class=\"flex fixed inset-0 justify-center items-center bg-white backdrop-blur-sm z-1500\"><div class=\"flex gap-5 justify-center items-center p-10 text-gray-700 bg-white rounded-lg\"><div class=\"w-[120px] h-[123px] bg-no-repeat m-0 p-0\" style=\"background-image: url(&quot;/loader.svg&quot;);\"></div></div></div><div data-rht-toaster=\"\" style=\"position: fixed; z-index: 9999; inset: 16px; pointer-events: none;\"></div></div>\n    \n\n</body></html>",
+    "data": {
+      "title": "Ouvidoria da Prefeitura de Juína",
+      "rawUrl": "https://prefjuina.ouvidoriabr.com/protocolo/novo/165",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 0,
+        "a": 3,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 0,
+        "aSkipFirst": 1,
+        "aTitleMatch": 2,
+        "colorFgBgNo": 30,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 3,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "noDuplicateMain": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "aSkip": 3,
+        "bannerTopLevel": 1,
+        "li": 0,
+        "complementaryTopLevel": 1,
+        "contentinfoTopLevel": 1,
+        "mainTopLevel": 1,
+        "idAtt": 7,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Ouvidoria da Prefeitura de Juína</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\" dir=\"ltr\" translate=\"no\" class=\"notranslate\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirst": [
+          {
+            "verdict": "warning",
+            "description": "The first focusable control is a visible link to a <main> element.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"1\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#conteudo\">Ir para o conteúdo [1]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aTitleMatch": [
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"flex min-h-11 w-full cursor-pointer items-center gap-3 rounded-lg px-3 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent\" title=\"Recursos de acessibilidade\" href=\"/acessibilidade\" data-discover=\"true\">Recursos de acessibilidade</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"flex min-h-11 w-full cursor-pointer items-center gap-3 rounded-lg px-3 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent\" title=\"Mapa do site\" href=\"/mapa-do-site\" data-discover=\"true\">Mapa do site</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorFgBgNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"1\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#conteudo\">Ir para o conteúdo [1]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"2\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#menu\">Ir para o menu de acessibilidade [2]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"3\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"/protocolo/consultar#busca\" data-discover=\"true\">Ir para a busca [3]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"4\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#rodape\">Ir para o rodapé [4]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-700 text-sm\">Diminuir fonte</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1) > span:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-700 text-sm\">Aumentar fonte</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2) > span:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-700 text-sm \">Alto contraste</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(3) > span:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-700 text-sm\">Recursos de acessibilidade</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-700 text-sm\">Mapa do site</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-700 text-sm\">VLibras</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"mb-2 font-medium text-4xl text-gray-700\">Ouvidoria da Prefeitura de Juína</p>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"mb-2 text-2xl text-gray-600\">Queremos saber o que você tem a dizer.</p>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-gray-600 text-lg\">Pode ser uma sugestão, uma reclamação ou até mesmo ideias sobre melhorias.</p>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"pt-5 text-center text-2xl text-gray-700\">Novo protocolo</h1>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-muted-foreground text-sm leading-relaxed\" id=\"_r_1_\">Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços. Ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa Política de Privacidade.</p>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"font-medium text-theme-dark\" href=\"/privacidade\" data-discover=\"true\">Política de Privacidade</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" tabindex=\"0\" aria-describedby=\"_r_1_\" class=\"inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2\">Entendi</button>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"mt-3 max-w-xs text-center text-gray-600 text-sm md:text-left\">Sistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.</p>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"mb-4 text-gray-800 text-lg\">Links Rápidos</h2>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Novo Protocolo</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Esqueci meu Protocolo</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Contato</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Pesquisa de Satisfação</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Política de Privacidade</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(5) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Acessibilidade</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(6) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Mapa do Site</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(7) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-gray-600 text-sm hover:text-gray-800\">Comunicar Barreira de Acessibilidade</span>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > nav:nth-of-type(1) > div:nth-of-type(8) > a:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"mb-4 text-gray-800 text-lg\">Baixe o App</h2>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > h2:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"text-center text-gray-500 text-sm\">© 2026 Pentágono Sistemas. Todos os direitos reservados.</div>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"font-medium text-theme-dark transition-all duration-200 hover:underline\" href=\"https://pentagonosistemas.com.br\" rel=\"noopener noreferrer\" target=\"_blank\">Pentágono Sistemas</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"pt-5 text-center text-2xl text-gray-700\">Novo protocolo</h1>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"mb-4 text-gray-800 text-lg\">Links Rápidos</h2>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"mb-4 text-gray-800 text-lg\">Baixe o App</h2>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > h2:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header>Diminuir fonteAumentar fonteAlto contrasteRecursos de acessibilidadeMapa do siteVLibrasOuvidoria da Prefeitura de JuínaQueremos saber o que você tem a dizer.Pode ser uma sugestão, uma reclamação ou até mesmo ideias sobre melhorias.</header>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"mt-20 border-gray-200 border-t bg-linear-to-b from-gray-50 to-gray-100\" id=\"rodape\" tabindex=\"-1\">Sistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.Links RápidosNovo ProtocoloEsqueci meu ProtocoloContatoPesquisa de SatisfaçãoPolítica de PrivacidadeAcessibilidadeMapa do SiteComunicar Barreira de AcessibilidadeBaixe o App© 2026 Pentágono Sistemas. Todos os direitos reservados.</footer>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo\" tabindex=\"-1\">Novo protocolo</main>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"pt-5 text-center text-2xl text-gray-700\">Novo protocolo</h1>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"1\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#conteudo\">Ir para o conteúdo [1]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+              },
+              {
+                "htmlCode": "<main id=\"conteudo\" tabindex=\"-1\">Novo protocolo</main>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"2\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#menu\">Ir para o menu de acessibilidade [2]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+              },
+              {
+                "htmlCode": "<nav aria-label=\"Menu de acessibilidade\" class=\"fixed top-3 right-3 z-[60] flex items-center rounded-full border border-gray-100 bg-white/90 p-1.5 shadow-lg backdrop-blur\" id=\"menu\" tabindex=\"-1\">Diminuir fonteAumentar fonteAlto contrasteRecursos de acessibilidadeMapa do siteVLibras</nav>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"4\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#rodape\">Ir para o rodapé [4]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+              },
+              {
+                "htmlCode": "<footer class=\"mt-20 border-gray-200 border-t bg-linear-to-b from-gray-50 to-gray-100\" id=\"rodape\" tabindex=\"-1\">Sistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.Links RápidosNovo ProtocoloEsqueci meu ProtocoloContatoPesquisa de SatisfaçãoPolítica de PrivacidadeAcessibilidadeMapa do SiteComunicar Barreira de AcessibilidadeBaixe o App© 2026 Pentágono Sistemas. Todos os direitos reservados.</footer>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkip": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"1\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#conteudo\">Ir para o conteúdo [1]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+              },
+              {
+                "htmlCode": "<main id=\"conteudo\" tabindex=\"-1\">Novo protocolo</main>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"2\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#menu\">Ir para o menu de acessibilidade [2]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+              },
+              {
+                "htmlCode": "<nav aria-label=\"Menu de acessibilidade\" class=\"fixed top-3 right-3 z-[60] flex items-center rounded-full border border-gray-100 bg-white/90 p-1.5 shadow-lg backdrop-blur\" id=\"menu\" tabindex=\"-1\">Diminuir fonteAumentar fonteAlto contrasteRecursos de acessibilidadeMapa do siteVLibras</nav>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a accesskey=\"4\" class=\"sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[2000] focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:font-medium focus:text-gray-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2\" href=\"#rodape\">Ir para o rodapé [4]</a>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+              },
+              {
+                "htmlCode": "<footer class=\"mt-20 border-gray-200 border-t bg-linear-to-b from-gray-50 to-gray-100\" id=\"rodape\" tabindex=\"-1\">Sistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.Links RápidosNovo ProtocoloEsqueci meu ProtocoloContatoPesquisa de SatisfaçãoPolítica de PrivacidadeAcessibilidadeMapa do SiteComunicar Barreira de AcessibilidadeBaixe o App© 2026 Pentágono Sistemas. Todos os direitos reservados.</footer>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header>Diminuir fonteAumentar fonteAlto contrasteRecursos de acessibilidadeMapa do siteVLibrasOuvidoria da Prefeitura de JuínaQueremos saber o que você tem a dizer.Pode ser uma sugestão, uma reclamação ou até mesmo ideias sobre melhorias.</header>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "complementaryTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<aside aria-label=\"Aviso de cookies\" class=\"fixed right-0 bottom-4 left-0 z-50 px-4\">Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços. Ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa Política de Privacidade.Entendi</aside>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > aside:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"mt-20 border-gray-200 border-t bg-linear-to-b from-gray-50 to-gray-100\" id=\"rodape\" tabindex=\"-1\">Sistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.Links RápidosNovo ProtocoloEsqueci meu ProtocoloContatoPesquisa de SatisfaçãoPolítica de PrivacidadeAcessibilidadeMapa do SiteComunicar Barreira de AcessibilidadeBaixe o App© 2026 Pentágono Sistemas. Todos os direitos reservados.</footer>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo\" tabindex=\"-1\">Novo protocolo</main>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"root\">Ir para o conteúdo [1]Ir para o menu de acessibilidade [2]Ir para a busca [3]Ir para o rodapé [4]Diminuir fonteAumentar fonteAlto contrasteRecursos de acessibilidadeMapa do siteVLibrasOuvidoria da Prefeitura de JuínaQueremos saber o que você tem a dizer.Pode ser uma sugestão, uma reclamação ou até mesmo ideias sobre melhorias.Novo protocoloNós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços. Ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa Política de Privacidade.EntendiSistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.Links RápidosNovo ProtocoloEsqueci meu ProtocoloContatoPesquisa de SatisfaçãoPolítica de PrivacidadeAcessibilidadeMapa do SiteComunicar Barreira de AcessibilidadeBaixe o App© 2026 Pentágono Sistemas. Todos os direitos reservados.</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"Menu de acessibilidade\" class=\"fixed top-3 right-3 z-[60] flex items-center rounded-full border border-gray-100 bg-white/90 p-1.5 shadow-lg backdrop-blur\" id=\"menu\" tabindex=\"-1\">Diminuir fonteAumentar fonteAlto contrasteRecursos de acessibilidadeMapa do siteVLibras</nav>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo\" tabindex=\"-1\">Novo protocolo</main>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > main:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-muted-foreground text-sm leading-relaxed\" id=\"_r_1_\">Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços. Ao clicar em \"Entendi\" ou continuar navegando, você concorda com estes termos. Conheça nossa Política de Privacidade.</p>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"mt-20 border-gray-200 border-t bg-linear-to-b from-gray-50 to-gray-100\" id=\"rodape\" tabindex=\"-1\">Sistema de Ouvidoria para melhorar a comunicação entre cidadãos e órgãos públicos.Links RápidosNovo ProtocoloEsqueci meu ProtocoloContatoPesquisa de SatisfaçãoPolítica de PrivacidadeAcessibilidadeMapa do SiteComunicar Barreira de AcessibilidadeBaixe o App© 2026 Pentágono Sistemas. Todos os direitos reservados.</footer>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > footer:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 23:44:29",
+      "tot": {
+        "info": {
+          "url": "https://prefjuina.ouvidoriabr.com/protocolo/novo/165",
+          "title": "Ouvidoria da Prefeitura de Juína",
+          "date": "2026-09-21 23:44:29",
+          "htmlTags": 330,
+          "roles": {
+            "document": 1,
+            "generic": 53,
+            "navigation": 3,
+            "link": 21,
+            "banner": 1,
+            "button": 5,
+            "img": 4,
+            "paragraph": 5,
+            "main": 1,
+            "heading": 3,
+            "complementary": 1,
+            "contentinfo": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 16,
+            "link": 6,
+            "title": 1,
+            "script": 8,
+            "style": 199,
+            "body": 1,
+            "div": 30,
+            "nav": 3,
+            "a": 21,
+            "header": 1,
+            "button": 5,
+            "span": 22,
+            "img": 4,
+            "p": 5,
+            "main": 1,
+            "h1": 1,
+            "aside": 1,
+            "footer": 1,
+            "h2": 2
+          },
+          "size": 1798156,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "7647a2fd3a9ea532aa0ac14df371e17f",
+          "tests": 17,
+          "conform": "1@0@0",
+          "score": "9.1"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 0,
+          "a": 3,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 0,
+          "aSkipFirst": 1,
+          "aTitleMatch": 2,
+          "colorFgBgNo": 30,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 3,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "noDuplicateMain": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "aSkip": 3,
+          "bannerTopLevel": 1,
+          "li": 0,
+          "complementaryTopLevel": 1,
+          "contentinfoTopLevel": 1,
+          "mainTopLevel": 1,
+          "idAtt": 7,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "a_01a": "something",
+          "a_05": "5@3.9999999999999996",
+          "color_01": "something",
+          "layout_01a": "10@18",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "landmark_11": "10@18",
+          "landmark_13": "10@18",
+          "heading_03": "10@18",
+          "a_02b": "something",
+          "landmark_01": "10@18",
+          "landmark_03": "10@18",
+          "landmark_05": "10@18",
+          "landmark_07": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "1@0@0",
+      "score": "9.1"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T23:44:29.631Z",
+    "requestedUrl": "https://prefjuina.ouvidoriabr.com/protocolo/novo/165"
+  }
+}

@@ -1,0 +1,2053 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\" data-beasties-container=\"\" class=\"dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-127 dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-127\"><head>\n  <title>FlowDocs - NOVA CANAÃ DO N...</title>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\" content=\"Sistema de Gestão e Controle de Processos\">\n  <meta name=\"keywords\" content=\"Controle de Fluxo, Processos, SIA, Fiorilli\">\n  <meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0\">\n\n  <base href=\"/\">\n\n  <!-- Favicon -->\n  <link rel=\"icon\" type=\"image/svg\" href=\"images/logo.svg\">\n\n  <!-- Fonts -->\n  <link href=\"fonts/inter/inter.css\" rel=\"stylesheet\">\n  <link href=\"https://fonts.gstatic.com\" rel=\"preconnect\">\n  \n\n  \n\n  <!-- Icon fonts -->\n  \n\n  \n\n  <link rel=\"stylesheet\" href=\"./@dev-express/generated/theme.base.css\">\n\n  <!-- Flowdocs rules -->\n\n  <!-- Scripts de terceiro (Google Analytics, VLibras, SDK do Facebook) são carregados por `ScriptUtils`,\n       fora do HTML: sem script inline, o `script-src` da CSP não precisa de `unsafe-inline`.\n       O SDK do Facebook sobe só na tela de login, e apenas com o acesso por mídia social habilitado. -->\n\n  <!-- Splash screen styles -->\n  <link href=\"styles/splash-screen.css\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" href=\"styles-Z3PCPDBM.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-Z3PCPDBM.css\"></noscript></head>\n\n<body>\n<!-- Splash screen -->\n<fuse-splash-screen>\n  <img src=\"images/logo.svg\" alt=\"Fiorilli logo\">\n  <div class=\"text-3xl font-medium\" id=\"loading-message\"></div>\n  <div class=\"spinner\">\n    <div class=\"bounce1\"></div>\n    <div class=\"bounce2\"></div>\n    <div class=\"bounce3\"></div>\n  </div>\n</fuse-splash-screen>\n\n<div class=\"wait-screen flex justify-center items-center\" id=\"screen-waiting-id\">\n  <div class=\"wait-square-message py-2 flex justify-center items-center\">\n    <div class=\"loader\">\n      <div class=\"wait-multi-ripple\">\n        <div></div>\n        <div></div>\n      </div>\n    </div>\n    <div class=\"wait-message-content\">\n      <p id=\"wait-message-id\" class=\"wait-message\">Aguarde...</p>\n    </div>\n  </div>\n</div>\n\n<!-- App root -->\n<flow-root ng-version=\"20.2.1\" _nghost-ng-c374575110=\"\"><router-outlet _ngcontent-ng-c374575110=\"\"></router-outlet><!----></flow-root>\n\n<noscript>Please enable JavaScript to continue using this application.</noscript>\n\n<div id=\"vlibras\" style=\"display: none\">\n  <div vw=\"\" class=\"enabled\">\n    <div vw-access-button=\"\" id=\"btn-vlibras\" class=\"active\"></div>\n    <div vw-plugin-wrapper=\"\">\n      <div class=\"vw-plugin-top-wrapper\"></div>\n    </div>\n  </div>\n</div>\n<link rel=\"modulepreload\" href=\"chunk-EE4HLD2U.js\"><link rel=\"modulepreload\" href=\"chunk-4HOT6ZDV.js\"><link rel=\"modulepreload\" href=\"chunk-GNKWAPLZ.js\"><link rel=\"modulepreload\" href=\"chunk-BDBDRQKS.js\"><link rel=\"modulepreload\" href=\"chunk-C2YWIWRQ.js\"><link rel=\"modulepreload\" href=\"chunk-E44RE6I4.js\"><link rel=\"modulepreload\" href=\"chunk-QWG3Z7KI.js\"><link rel=\"modulepreload\" href=\"chunk-DGRKJZGW.js\"><link rel=\"modulepreload\" href=\"chunk-EEKJNMIC.js\"><link rel=\"modulepreload\" href=\"chunk-TQKT6EIR.js\"><script src=\"polyfills-RV3JTMEC.js\" type=\"module\"></script><script src=\"main-VFNDBKGQ.js\" type=\"module\"></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a3ecf1e91bb5f435',t:'MTc5MDAzNDM0MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height=\"1\" width=\"1\" style=\"position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;\"></iframe>\n\n<script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\" async=\"\"></script><script src=\"https://www.googletagmanager.com/gtag/js?id=G-12LKJMGBXC\" async=\"\"></script><div id=\"vlibras-access-wrapper\"></div></body></html>",
+    "data": {
+      "title": "FlowDocs - NOVA CANAÃ DO N...",
+      "rawUrl": "https://flowdocs-novacanaadonortemt.i7sgp.app.br/public/home/group/1",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 1,
+        "scrollableAccess": 1,
+        "lang": 1,
+        "button": 10,
+        "buttonAname": 10,
+        "a": 1,
+        "elementDec": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaStPermitted": 13,
+        "ariaAtribDefined": 17,
+        "elementRole": 10,
+        "ariaStValid": 13,
+        "roleValid": 12,
+        "img": 4,
+        "labelAName": 6,
+        "headers": 0,
+        "elementHiddenFocus": 1,
+        "menuItem": 0,
+        "id": 18,
+        "colorContrast": 1,
+        "elementPresentChildrenNoFocus": 23,
+        "textContrastHNot": 7,
+        "aSkipFirstNo": 1,
+        "labelPosNo": 2,
+        "dd,dt": 0,
+        "dl": 0,
+        "layoutElem": 4,
+        "hx": 6,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "idAtt": 12,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 1,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>FlowDocs - NOVA CANAÃ DO N...</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "scrollableAccess": [
+          {
+            "verdict": "passed",
+            "description": "This scrollable section element is included in sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"flex flex-col flex-auto h-full min-w-0 overflow-x-hidden w-full\">MUNICÍPIO DE NOVA CANAÃ DO NORTEInícioEntrarCódigo de AcessoPesquisar assuntoEstrutura administrativaPerguntas frequentesEstatísticasCarta de ServiçosMUNICÍPIO DE NOVA CANAÃ DO NORTE (66) 99962-3715 AVENIDA SÃO PAULO, 89 - CENTRO CEP: 15.140-000 - NOVA CANAA DO NORTE/MATO GROSSO  ouvidoria@novacanaadonorte.mt.gov.br  Copyright © 2020 - 2026 Fiorilli S/C Ltda. Versão: 3.26.29.3</div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\" data-beasties-container=\"\" class=\"dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-127 dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-127 dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-127\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-home\"></i><span class=\"dx-button-text\">Início</span><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)",
+                "accessibleName": "Início"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-sign-in-alt\"></i><span class=\"dx-button-text\">Entrar</span><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)",
+                "accessibleName": "Entrar"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"><div class=\"dx-button-content\"><i class=\"dx-icon fas fa-search\"></i><div class=\"dx-inkripple\"></div></div></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+                "accessibleName": "fas fa-search"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"><div class=\"dx-button-content\"><div class=\"dx-inkripple\"></div><i class=\"dx-icon dx-icon-spindown dx-icon-right\"></i></div></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "accessibleName": "dropdownbutton"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-wheelchair text-2xl\"></i><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)",
+                "accessibleName": "fa-fw fas fa-wheelchair text-2xl"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-university\"></i><span class=\"dx-button-text\">Estrutura administrativa</span><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)",
+                "accessibleName": "Estrutura administrativa"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-question-circle\"></i><span class=\"dx-button-text\">Perguntas frequentes</span><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)",
+                "accessibleName": "Perguntas frequentes"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-chart-bar\"></i><span class=\"dx-button-text\">Estatísticas</span><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)",
+                "accessibleName": "Estatísticas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\"><div class=\"dx-button-content\"><i class=\"dx-icon fa-fw fas fa-briefcase\"></i><span class=\"dx-button-text\">Carta de Serviços</span><div class=\"dx-inkripple\"></div></div></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)",
+                "accessibleName": "Carta de Serviços"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-labelledby` property is supported or inherited by the `role` textbox.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" maxlength=\"32\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-haspopup` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-labelledby` property is supported or inherited by the `role` textbox.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-xmark\" hint=\"Fechar\" height=\"40px\" width=\"40px\" role=\"button\" aria-label=\"fas fa-xmark\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon material-btn text-on-primary ms-auto\" tabindex=\"0\" title=\"Fechar\" style=\"height: 40px; width: 40px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-circle-minus\" text=\"Fonte\" hint=\"Fonte\" height=\"48px\" role=\"button\" aria-label=\"Fonte\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Fonte\" style=\"height: 48px;\">Fonte</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-circle-plus\" text=\"Fonte\" hint=\"Fonte\" height=\"48px\" role=\"button\" aria-label=\"Fonte\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Fonte\" style=\"height: 48px;\">Fonte</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-circle-half-stroke\" text=\"Contraste\" hint=\"Contraste\" height=\"48px\" role=\"button\" aria-label=\"Contraste\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Contraste\" style=\"height: 48px;\">Contraste</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-hands\" text=\"vLibras\" hint=\"vLibras\" height=\"48px\" role=\"button\" aria-label=\"vLibras\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"vLibras\" style=\"height: 48px;\">vLibras</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-arrow-rotate-left\" text=\"Redefinir configurações\" hint=\"Redefinir configurações\" height=\"48px\" role=\"button\" aria-label=\"Redefinir configurações\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Redefinir configurações\" style=\"height: 48px;\">Redefinir configurações</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" maxlength=\"32\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementRole": [
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"group\" class=\"dx-buttongroup dx-buttongroup-mode-text dx-widget\" tabindex=\"0\" style=\"width: 100%; height: 100%;\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-labelledby` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" maxlength=\"32\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-haspopup` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-labelledby` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" maxlength=\"32\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)",
+                "accessibleName": "Código de Acesso"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)",
+                "accessibleName": "Pesquisar assunto"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "roleValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" maxlength=\"32\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"group\" class=\"dx-buttongroup dx-buttongroup-mode-text dx-widget\" tabindex=\"0\" style=\"width: 100%; height: 100%;\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img _ngcontent-ng-c3873560650=\"\" width=\"60\" height=\"60\" alt=\"Logo entidade\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"auto\" ng-img=\"true\" src=\"https://flowdocs-novacanaadonortemt.i7sgp.app.br/server/fluxo/img/logo.png\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Logo entidade"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img _ngcontent-ng-c657269231=\"\" height=\"85\" width=\"85\" alt=\"Logo entidade\" class=\"my-auto dark:border\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"auto\" ng-img=\"true\" src=\"https://flowdocs-novacanaadonortemt.i7sgp.app.br/server/fluxo/img/logo.png\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Logo entidade"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img _ngcontent-ng-c657269231=\"\" alt=\"Logotipo Fiorilli Software\" ngsrc=\"images/logo.svg\" width=\"29\" height=\"29\" class=\"dark:border\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"auto\" ng-img=\"true\" src=\"images/logo.svg\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Logotipo Fiorilli Software"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelAName": [
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)",
+                "accessibleName": "Início"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)",
+                "accessibleName": "Entrar"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)",
+                "accessibleName": "Estrutura administrativa"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)",
+                "accessibleName": "Perguntas frequentes"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)",
+                "accessibleName": "Estatísticas"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)",
+                "accessibleName": "Carta de Serviços"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p id=\"wait-message-id\" class=\"wait-message\">Aguarde...</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/logo.svg\" alt=\"Fiorilli logo\">",
+                "pointer": "html > body:nth-child(2) > fuse-splash-screen:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-xmark\" hint=\"Fechar\" height=\"40px\" width=\"40px\" role=\"button\" aria-label=\"fas fa-xmark\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon material-btn text-on-primary ms-auto\" tabindex=\"0\" title=\"Fechar\" style=\"height: 40px; width: 40px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-circle-minus\" text=\"Fonte\" hint=\"Fonte\" height=\"48px\" role=\"button\" aria-label=\"Fonte\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Fonte\" style=\"height: 48px;\">Fonte</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-circle-plus\" text=\"Fonte\" hint=\"Fonte\" height=\"48px\" role=\"button\" aria-label=\"Fonte\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Fonte\" style=\"height: 48px;\">Fonte</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr class=\"my-6!\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > hr:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-circle-half-stroke\" text=\"Contraste\" hint=\"Contraste\" height=\"48px\" role=\"button\" aria-label=\"Contraste\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Contraste\" style=\"height: 48px;\">Contraste</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-hands\" text=\"vLibras\" hint=\"vLibras\" height=\"48px\" role=\"button\" aria-label=\"vLibras\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"vLibras\" style=\"height: 48px;\">vLibras</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr class=\"my-6!\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > hr:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button ngskiphydration=\"true\" stylingmode=\"text\" icon=\"fas fa-arrow-rotate-left\" text=\"Redefinir configurações\" hint=\"Redefinir configurações\" height=\"48px\" role=\"button\" aria-label=\"Redefinir configurações\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon material-btn text-left bg-zinc-100! dark:bg-black! w-full\" tabindex=\"0\" title=\"Redefinir configurações\" style=\"height: 48px;\">Redefinir configurações</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-acessibilidade:nth-of-type(1) > fuse-drawer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img _ngcontent-ng-c3873560650=\"\" width=\"60\" height=\"60\" alt=\"Logo entidade\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"auto\" ng-img=\"true\" src=\"https://flowdocs-novacanaadonortemt.i7sgp.app.br/server/fluxo/img/logo.png\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" text=\"Entrar\" icon=\"fa-fw fas fa-sign-in-alt\" height=\"60\" role=\"button\" aria-label=\"Entrar\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Entrar</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div role=\"button\" aria-label=\"fas fa-search\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" title=\"Buscar\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"normal\" stylingmode=\"text\" icon=\"fa-fw fas fa-wheelchair text-2xl\" height=\"60\" role=\"button\" aria-label=\"fa-fw fas fa-wheelchair text-2xl\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\"></dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estrutura administrativa\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estrutura administrativa</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Perguntas frequentes\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Perguntas frequentes</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Estatísticas\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Estatísticas</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c657269231=\"\" ngskiphydration=\"true\" stylingmode=\"text\" role=\"button\" aria-label=\"Carta de Serviços\" class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-button-has-text dx-button-has-icon\" tabindex=\"0\">Carta de Serviços</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img _ngcontent-ng-c657269231=\"\" height=\"85\" width=\"85\" alt=\"Logo entidade\" class=\"my-auto dark:border\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"auto\" ng-img=\"true\" src=\"https://flowdocs-novacanaadonortemt.i7sgp.app.br/server/fluxo/img/logo.png\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img _ngcontent-ng-c657269231=\"\" alt=\"Logotipo Fiorilli Software\" ngsrc=\"images/logo.svg\" width=\"29\" height=\"29\" class=\"dark:border\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"auto\" ng-img=\"true\" src=\"images/logo.svg\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"dx-button-text\">Entrar</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span data-mark=\"\">Código de Acesso</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span data-mark=\"\">Pesquisar assunto</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"dx-button-text\">Estrutura administrativa</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-button:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"dx-button-text\">Perguntas frequentes</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"dx-button-text\">Estatísticas</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-button:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"dx-button-text\">Carta de Serviços</span>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > dx-button:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page is not a link.",
+            "resultCode": "F4",
+            "elements": [
+              {
+                "htmlCode": "<dx-button _ngcontent-ng-c3873560650=\"\" ngskiphydration=\"true\" type=\"success\" stylingmode=\"text\" text=\"Início\" icon=\"fa-fw fas fa-home\" height=\"60\" role=\"button\" aria-label=\"Início\" class=\"dx-widget dx-button dx-button-mode-text dx-button-success dx-button-has-text dx-button-has-icon\" tabindex=\"0\" style=\"height: 60px;\">Início</dx-button>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > dx-button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelPosNo": [
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" maxlength=\"32\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input autocomplete=\"off\" class=\"dx-texteditor-input\" type=\"text\" spellcheck=\"false\" tabindex=\"0\" aria-labelledby=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\" role=\"textbox\">",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > input:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b _ngcontent-ng-c3873560650=\"\">MUNICÍPIO DE NOVA CANAÃ DO NORTE</b>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>Ouvidoria - Prefeitura Municipal</b>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > b:nth-of-type(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b _ngcontent-ng-c657269231=\"\" class=\"text-primary uppercase text-2xl\">MUNICÍPIO DE NOVA CANAÃ DO NORTE </b>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b _ngcontent-ng-c657269231=\"\" class=\"text-2xl\">(66) 99962-3715</b>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > b:nth-of-type(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 _ngcontent-ng-c2815641656=\"\" class=\"step-title text-black opacity-60\">Ouvidoria - Prefeitura Municipal</h4>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-stepper:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h4:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 _ngcontent-ng-c2815641656=\"\" class=\"step-title text-black opacity-60\">Grupo</h4>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-stepper:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 _ngcontent-ng-c2815641656=\"\" class=\"step-title text-black opacity-60\">Assunto</h4>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-stepper:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > h4:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 _ngcontent-ng-c2815641656=\"\" class=\"step-title text-black opacity-60\">Identificação</h4>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-stepper:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > h4:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 _ngcontent-ng-c2815641656=\"\" class=\"step-title text-black opacity-60\">Formulário</h4>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-stepper:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > h4:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4 _ngcontent-ng-c2815641656=\"\" class=\"step-title text-black opacity-60\">Fim</h4>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-stepper:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > h4:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-texteditor-label\" id=\"dx-texteditor-label-ae1e3c4a-1682-a999-5dba-463a3c661ca6\">Código de Acesso</div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-text-box:nth-of-type(1) > div:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-widget dx-button dx-button-mode-text dx-button-normal dx-item dx-buttongroup-item dx-item-content dx-buttongroup-item-content dx-buttongroup-first-item dx-buttongroup-last-item dx-shape-standard dx-dropdownbutton-action dx-buttongroup-item-has-width\" role=\"button\" aria-label=\"dropdownbutton\" aria-expanded=\"false\" aria-haspopup=\"listbox\" id=\"dx-10e306ee-7186-3012-c745-5329a607a076\"></div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > flow-external-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > dx-drop-down-button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"dx-texteditor-label\" id=\"dx-texteditor-label-5dfa9fdf-092d-ca4c-df9d-5a150438ee8c\">Pesquisar assunto</div>",
+                "pointer": "html:nth-of-type(1) > body > flow-root:nth-of-type(1) > flow-layout:nth-of-type(1) > flow-externo:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > flow-inicio:nth-of-type(1) > div:nth-of-type(1) > flow-inicio-grupo-assuntos:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dx-text-box:nth-of-type(1) > div:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access-wrapper\">       #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; right: 10px; flex-direction: row; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &amp;:hover, &amp;:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { right: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &amp;:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &amp;:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(22)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 23:45:56",
+      "tot": {
+        "info": {
+          "url": "https://flowdocs-novacanaadonortemt.i7sgp.app.br/public/home/group/1",
+          "title": "FlowDocs - NOVA CANAÃ DO N...",
+          "date": "2026-09-21 23:45:56",
+          "htmlTags": 755,
+          "roles": {
+            "document": 2,
+            "generic": 205,
+            "img": 5,
+            "paragraph": 6,
+            "dialog": 2,
+            "button": 16,
+            "separator": 2,
+            "textbox": 2,
+            "group": 1,
+            "strong": 3,
+            "heading": 6
+          },
+          "cTags": {
+            "html": 2,
+            "head": 2,
+            "title": 1,
+            "meta": 4,
+            "base": 1,
+            "link": 16,
+            "style": 434,
+            "noscript": 2,
+            "script": 14,
+            "body": 2,
+            "fuse-splash-screen": 1,
+            "img": 6,
+            "div": 159,
+            "p": 6,
+            "flow-root": 1,
+            "router-outlet": 4,
+            "flow-layout": 1,
+            "fuse-loading-bar": 1,
+            "flow-file-viewer": 1,
+            "ngx-file-viewer-dialog": 1,
+            "dx-popup": 2,
+            "flow-painel-assinatura": 1,
+            "flow-painel-arquivos": 1,
+            "flow-painel-certificados": 1,
+            "flow-credenciais-dialog": 1,
+            "flow-simple-dialog": 1,
+            "flow-painel-carimbos": 1,
+            "flow-acessibilidade": 1,
+            "fuse-drawer": 1,
+            "i": 22,
+            "dx-button": 13,
+            "span": 23,
+            "hr": 2,
+            "flow-externo": 1,
+            "flow-external-header": 1,
+            "b": 4,
+            "dx-text-box": 2,
+            "input": 2,
+            "dx-drop-down-button": 1,
+            "flow-inicio": 1,
+            "strong": 3,
+            "flow-stepper": 1,
+            "h4": 6,
+            "flow-inicio-grupo-assuntos": 1,
+            "flow-footer": 1,
+            "iframe": 1,
+            "button": 1
+          },
+          "size": 2106610,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "413b3adfa44e93e656e6316cea0860fa",
+          "tests": 25,
+          "conform": "5@2@0",
+          "score": "7.1"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 1,
+          "scrollableAccess": 1,
+          "lang": 1,
+          "button": 10,
+          "buttonAname": 10,
+          "a": 1,
+          "elementDec": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaStPermitted": 13,
+          "ariaAtribDefined": 17,
+          "elementRole": 10,
+          "ariaStValid": 13,
+          "roleValid": 12,
+          "img": 4,
+          "labelAName": 6,
+          "headers": 0,
+          "elementHiddenFocus": 1,
+          "menuItem": 0,
+          "id": 18,
+          "colorContrast": 1,
+          "elementPresentChildrenNoFocus": 23,
+          "textContrastHNot": 7,
+          "aSkipFirstNo": 1,
+          "labelPosNo": 2,
+          "dd,dt": 0,
+          "dl": 0,
+          "layoutElem": 4,
+          "hx": 6,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "idAtt": 12,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 1,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "scrollable_01": "10@18",
+          "lang_01": "something",
+          "button_01": "10@18",
+          "element_02": "10@18",
+          "aria_05": "10@18",
+          "aria_07": "10@18",
+          "element_10": "10@18",
+          "aria_03": "10@18",
+          "input_02b": "something",
+          "role_01": "10@18",
+          "img_01a": "10@16.2",
+          "label_01": "10@18",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01b": "3@4.859999999999999",
+          "label_02": "3@6.4799999999999995",
+          "layout_01b": "1@2.2",
+          "hx_01b": "something",
+          "heading_04": "1@1.8",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "5@2@0",
+      "score": "7.1"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T23:45:56.808Z",
+    "requestedUrl": "https://flowdocs-novacanaadonortemt.i7sgp.app.br/public/home/group/1"
+  }
+}
