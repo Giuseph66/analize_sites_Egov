@@ -1,0 +1,1529 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html><head>\n  \n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <meta name=\"keywords\" content=\"saúde pública gestão intermunicipal mato grosso atendimento municipal estadual consórcio atenção básica\">\n    <meta name=\"description\" content=\"Consórcio Intermunicipal de Saúde Da Região Médio Norte Do Estado de Mato Grosso - Site Oficial\">\n    <meta http-equiv=\"content-language\" content=\"pt-br\">\n    <meta name=\"google-site-verification\" content=\"1EpwdET0591dZrC5r3aI1M8wV_hCbAWkZVr0xma7kW4\">\n    \n    <link rel=\"shortcut icon\" href=\"/imgs/favicon.png\">\n    \n\n    <title>\n    Consórcio Intermunicipal de Saúde Da Região Médio Norte Matogrossense\n    </title>\n  \n    \n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/p5.min.css?v=1.0.2&amp;ck=b24db5c8391ec5c5d93cd0ac083acbdf\">\n\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/site/default.min.css?v=1.0.2&amp;ck=b24db5c8391ec5c5d93cd0ac083acbdf\">\n\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/public/css/dist/jalendar.min.css?v=1.0.2&amp;ck=b24db5c8391ec5c5d93cd0ac083acbdf\">\n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n\n  \n\n \n  \n</head>\n\n<body>\n    <div id=\"p5fw-accessibility-buttons\">\n    <div id=\"p5fw-a-menu\" title=\"Acessibilidade\">\n        <i class=\"fa fa-universal-access\"></i>\n    </div>\n    <div id=\"p5fw-a-menus\">\n        <div class=\"p5fw-a-menus-title\">Acessibilidade</div>\n        <div class=\"p-a-b-m-menu\" id=\"p5fw-a-increase\">\n            <div class=\"p-a-b-m-m-icon\">\n                <i class=\"fa fa-font\"></i>\n            </div>\n            <div>\n                Fonte Maior\n                <div class=\"p-a-b-m-m-fonts\">\n                    <div class=\"p-a-b-m-m-font p-a-b-m-m-font-3\"></div>\n                    <div class=\"p-a-b-m-m-font p-a-b-m-m-font-6\"></div>\n                    <div class=\"p-a-b-m-m-font p-a-b-m-m-font-9\"></div>\n                    <div class=\"p-a-b-m-m-font p-a-b-m-m-font-12\"></div>\n                </div>\n            </div>\n        </div>\n        <div class=\"p-a-b-m-menu\" id=\"p5fw-a-contrast\">\n            <div class=\"p-a-b-m-m-icon\">\n                <i class=\"fa fa-adjust\"></i>\n            </div>\n            <div>\n                Contrastes\n                <div class=\"p-a-b-m-m-contrasts\">\n                    <div class=\"p-a-b-m-m-contrast p-a-b-m-m-contrast-2\"></div>\n                    <div class=\"p-a-b-m-m-contrast p-a-b-m-m-contrast-3\"></div>\n                    <div class=\"p-a-b-m-m-contrast p-a-b-m-m-contrast-4\"></div>\n                </div>\n            </div>\n        </div>\n        <a href=\"/#/mapa\">\n            <div class=\"p-a-b-m-menu\">\n                <div class=\"p-a-b-m-m-icon\">\n                    <i class=\"fa fa-map\"></i>\n                </div>\n                <div>\n                    Mapa do Site\n                </div>\n            </div>\n        </a>\n        <a href=\"http://www.vlibras.com.br/#baixar\" target=\"_blank\">\n            <div class=\"p-a-b-m-menu\">\n                <div class=\"p-a-b-m-m-icon\">\n                    <i class=\"fa fa-sign-language\"></i>\n                </div>\n                <div>\n                    Libras\n                </div>\n            </div>\n        </a>\n\n        \n        <div class=\"p-a-b-m-menu\" id=\"p5fw-a-reset\">\n            Redefinir\n        </div>\n    </div>\n</div>\n\n    <div id=\"p5fw-accessibility\">\n        <span class=\"menu-mob-bars visible-xs\">\n    <span class=\"icon-bar\"></span>\n    <span class=\"icon-bar\"></span>\n    <span class=\"icon-bar\"></span>\n</span>\n\n<nav class=\"navbar navbar-inverse visible-xs menu-mobile-container\">\n\n    <ul class=\"nav navbar-nav\">\n\n        <li>\n            <a href=\"/#/home\"><i class=\"fa fa-home\"></i> Pagina inicial</a>\n        </li>\n\n                <li>\n            <a href=\"/#/municipios\">\n                Municípios            </a>\n\n                    </li>\n                <li class=\"dropdown\">\n            <a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                Institucional <span class=\"caret\"></span>            </a>\n\n                        <ul class=\"dropdown-menu\">\n                                    <li><a href=\"/#/conteudo/1/estatuto\"><i class=\"fa fa-chevron-right\"></i> Estatuto</a></li>\n                                    <li><a href=\"/#/conteudo/3/missao\"><i class=\"fa fa-chevron-right\"></i> Missão</a></li>\n                                    <li><a href=\"/#/conteudo/4/conselho-diretor\"><i class=\"fa fa-chevron-right\"></i> Conselho Diretor</a></li>\n                                    <li><a href=\"/#/conteudo/5/conselho-intermunicipal-de-saude\"><i class=\"fa fa-chevron-right\"></i> Conselho Intermunicipal de Saúde</a></li>\n                                    <li><a href=\"/#/conteudo/6/conselho-fiscal\"><i class=\"fa fa-chevron-right\"></i> Conselho Fiscal</a></li>\n                                    <li><a href=\"/#/conteudo/7/organograma\"><i class=\"fa fa-chevron-right\"></i> Organograma</a></li>\n                            </ul>\n                    </li>\n                <li>\n            <a href=\"/#/publicacoes/\">\n                Publicações            </a>\n\n                    </li>\n                <li>\n            <a href=\"/#/gestao\">\n                Gestão            </a>\n\n                    </li>\n                <li>\n            <a href=\"/#/contato\">\n                Contato            </a>\n\n                    </li>\n                <li>\n            <a target=\"_blank\" href=\"https://www.gp.srv.br/transparencia_cismnorte/servlet/home_portal_v2?1\">\n                Portal Transparência            </a>\n\n                    </li>\n        \n  </ul>\n</nav>\n<div class=\"menu-right hidden-xs\">\n    <a href=\"https://cismnorte.pentagono.info/dash\" target=\"_blank\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/system.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Acesso ao Sistema\n            </div>\n        </div>\n    </a>\n    <a href=\"/#/publicacoes\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/file.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Publicações\n            </div>\n        </div>\n    </a>\n    <a href=\"/#/contato\">\n        <div class=\"m-r-item\">\n            <div class=\"m-r-i-img\">\n                <img src=\"/imgs/icons/phone.png\">\n            </div>\n            <div class=\"m-r-i-text\">\n                Contato\n            </div>\n        </div>\n    </a>\n    </div>\n\n<div class=\"container-fluid visible-xs header-topbar\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 header-content\">\n                (65) 3325-1374\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"container-fluid header-bottom\">\n    <div class=\"row\">\n        <div class=\"header-menu hidden-xs hidden-print\">\n    <nav class=\"navbar navbar-fixed-top\" id=\"menu-desktop\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-4 logo-menu\">\n                    <a href=\"/#/home\">\n                        <img src=\"/imgs/logo_menu.png\" alt=\"\">\n                    </a>\n                </div>\n                <div class=\"col-md-8\">\n                    <ul class=\"nav navbar-nav pull-right\">\n                        <li>\n                            <a href=\"/#/home\"><i class=\"fa fa-home\"></i></a>\n                        </li>\n                                                    <li>\n                                <a href=\"/#/municipios\">\n                                Municípios                            </a>\n\n                                                    </li>\n                                                    <li class=\"dropdown\">\n                                <a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional <span class=\"caret\"></span>                            </a>\n\n                                                            <ul class=\"dropdown-menu\">\n                                                                            <li><a href=\"/#/conteudo/1/estatuto\"><i class=\"fa fa-chevron-right\"></i> Estatuto</a></li>\n                                                                        <li><a href=\"/#/conteudo/3/missao\"><i class=\"fa fa-chevron-right\"></i> Missão</a></li>\n                                                                        <li><a href=\"/#/conteudo/4/conselho-diretor\"><i class=\"fa fa-chevron-right\"></i> Conselho Diretor</a></li>\n                                                                        <li><a href=\"/#/conteudo/5/conselho-intermunicipal-de-saude\"><i class=\"fa fa-chevron-right\"></i> Conselho Intermunicipal de Saúde</a></li>\n                                                                        <li><a href=\"/#/conteudo/6/conselho-fiscal\"><i class=\"fa fa-chevron-right\"></i> Conselho Fiscal</a></li>\n                                                                        <li><a href=\"/#/conteudo/7/organograma\"><i class=\"fa fa-chevron-right\"></i> Organograma</a></li>\n                                                            </ul>\n                                                    </li>\n                                                    <li>\n                                <a href=\"/#/publicacoes/\">\n                                Publicações                            </a>\n\n                                                    </li>\n                                                    <li>\n                                <a href=\"/#/gestao\">\n                                Gestão                            </a>\n\n                                                    </li>\n                                                    <li>\n                                <a href=\"/#/contato\">\n                                Contato                            </a>\n\n                                                    </li>\n                                                    <li>\n                                <a target=\"_blank\" href=\"https://www.gp.srv.br/transparencia_cismnorte/servlet/home_portal_v2?1\">\n                                Portal Transparência                            </a>\n\n                                                    </li>\n                                            </ul>\n                </div>\n            </div>\n        </div>\n    </nav>\n</div>        <div class=\"swiper-container banner swiper-container-horizontal swiper-container-fade\">\n            <div class=\"swiper-wrapper\">\n                            </div>\n            <!-- Add Pagination -->\n            <div class=\"swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets\"><span class=\"swiper-pagination-bullet swiper-pagination-bullet-active\"></span></div>\n        </div>\n    </div>\n</div>        <div class=\"container\">\n            <div id=\"content\" class=\"\">  <script type=\"text/javascript\" src=\"/public/js/dist/site/home.min.js?v=1.0.2&amp;ck=b24db5c8391ec5c5d93cd0ac083acbdf\"></script>\n\n<div class=\"home\">\n    <div class=\"col-md-12\">\n        <div class=\"row\">\n            <div class=\"col-md-9\">\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\"><span class=\"hidden-xs\">Últimas</span> Notícias</span>\n                    <a href=\"/#/noticias/\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-noticias\">\n                                            <a href=\"/noticia/index/cismnorte-publica-edital-de-credenciamento-de-servicos-especializados-na-area-de-saude/12\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">15/06/2026 - 10:04</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> CISMNORTE PUBLICA EDITAL DE CREDENCIAMENTO DE SERVIÇOS ESPECIALIZADOS NA ÁREA DE SAÚDE</span><br>\n                                <span class=\"h-n-i-objeto\"> O Consórcio Intermunicipal de Saúde da Região Médio Norte Matogrossense publicou Edital de Credenciamento para&nbsp; pessoas jurídicas&nbsp; que tenham...</span>                            </div>\n                        </a>\n                                            <a href=\"/noticia/index/cismnorte-publica-edital-de-credenciamento-direcionado-ao-programa-gov-mt-fila-zero-na-cirurgia/11\">\n                            <div class=\"h-n-item\">\n                                <span class=\"h-n-i-body\">22/04/2026 - 17:13</span><br>\n                                <span class=\"h-n-i-title\"><i class=\"fa fa-chevron-right\"></i> CISMNORTE PUBLICA EDITAL DE CREDENCIAMENTO DIRECIONADO AO PROGRAMA GOV MT FILA ZERO NA CIRURGIA</span><br>\n                                <span class=\"h-n-i-objeto\"> O Consórcio Intermunicipal de Saúde da Região Médio Norte Matogrossense publicou Edital de Credenciamento para  pessoas jurídicas que tenham...</span>                            </div>\n                        </a>\n                    \n\n                                    </div>\n\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\"><span class=\"hidden-xs\">Últimas</span> Publicações</span>\n                    <a href=\"/#/publicacoes/\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-publ\">\n                                            <a href=\"/#/publicacao/742\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>EXTRATO DE CONTRATO - publicação - agosto 2026 11-08-2026 </b></span><br>\n                            <span class=\"h-p-i-body\">11/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/741\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>FOLHA DE PAGAMENTO 07 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/740\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>FOLHA DE PAGAMENTO 06 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/739\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>FOLHA FERIAS 06 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/738\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>FOLHA DE PAGAMENTO 05 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/735\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>EXTRATO DE TERMO CREDENCIAMENTO - publicação -  21 dejulho 2 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/736\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>EXTRATO DE TERMO CREDENCIAMENTO - publicação - 29 de julho 2 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                            <a href=\"/#/publicacao/734\">\n                            <div class=\"h-p-item\">\n                                <span class=\"h-p-i-title\"><i class=\"fa fa-chevron-right\"></i><b>EXTRATO DE TERMO CREDENCIAMENTO - publicação - 13 de julho 2 </b></span><br>\n                            <span class=\"h-p-i-body\">04/08/2026\n                                2026</span><br>\n                                                    </div>\n                    </a>\n                                    </div>\n            </div>\n            <div class=\"col-md-3 home-links\">\n                <a href=\"https://cismnorte.pentagono.info/dash\" target=\"_blank\">\n                    <div class=\"h-l-link\">\n                        <img src=\"/imgs/icons/system.png\" alt=\"\">\n                        <div>Acesso ao Sistema</div>\n                    </div>\n                </a>\n                                <a href=\"/#/municipios\">\n                    <div class=\"h-l-link\">\n                        <img src=\"/imgs/icons/municipios.png\" alt=\"\">\n                        <div>Municípios Integrantes</div>\n                    </div>\n                </a>\n                                                <a href=\"/#/servicos\">\n                    <div class=\"h-l-link\">\n                        <img src=\"/imgs/icons/management.png\" alt=\"\">\n                        <div>Serviços Ofertados</div>\n                    </div>\n                </a>\n                \n            </div>\n            <div class=\"col-md-3\">\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\">Galeria</span>\n                    <a href=\"/#/albuns/\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-galeria\">\n                    <div class=\"swiper-container home-galeria-albuns swiper-container-horizontal\">\n                        <div class=\"swiper-wrapper\">\n                                                            <div class=\"swiper-slide swiper-slide-active\" style=\"width: 255px;\">\n                                    <a href=\"/#/album/6\">\n                                        <div class=\"h-g-item\">\n                                            <div class=\"h-g-i-img\"><img src=\"/imgs/cds/thumbs/.jpg\" alt=\"\">\n                                            </div>\n                                            <div class=\"h-g-i-titulo\">2ª Reunião Ordinária de 2022 do Conselho...</div>\n                                        </div>\n                                    </a>\n                                </div>\n                                                            <div class=\"swiper-slide swiper-slide-next\" style=\"width: 255px;\">\n                                    <a href=\"/#/album/5\">\n                                        <div class=\"h-g-item\">\n                                            <div class=\"h-g-i-img\"><img src=\"/imgs/cds/thumbs/.jpg\" alt=\"\">\n                                            </div>\n                                            <div class=\"h-g-i-titulo\">1ª Reunião Ordinária de 2022 do Conselho Diretor</div>\n                                        </div>\n                                    </a>\n                                </div>\n                                                            <div class=\"swiper-slide\" style=\"width: 255px;\">\n                                    <a href=\"/#/album/4\">\n                                        <div class=\"h-g-item\">\n                                            <div class=\"h-g-i-img\"><img src=\"/imgs/cds/thumbs/47CF5DD225.jpg\" alt=\"\">\n                                            </div>\n                                            <div class=\"h-g-i-titulo\">1ª Reunião Ordinária de 2022 do Conselho...</div>\n                                        </div>\n                                    </a>\n                                </div>\n                                                    </div>\n                        <div class=\"swiper-pagination swiper-pagination-blue swiper-pagination-progress\"><span class=\"swiper-pagination-progressbar\" style=\"transform: translate3d(0px, 0px, 0px) scaleX(0.333333) scaleY(1); transition-duration: 300ms;\"></span></div>\n                    </div>\n                </div>\n\n                <div class=\"container-titles\">\n                    <span class=\"c-t-text\">Videos</span>\n                    <a href=\"/#/videos/\"><span class=\"hidden-xs\">VEJA MAIS</span> <i class=\"fa fa-plus-circle\"></i></a>\n                    <div class=\"container-t-border\">\n                        <div class=\"c-t-b-left\"></div>\n                    </div>\n                </div>\n                <div class=\"home-galeria\">\n                    <div class=\"swiper-container home-galeria-videos swiper-container-horizontal\">\n                        <div class=\"swiper-wrapper\">\n                                                    </div>\n                        <div class=\"swiper-pagination swiper-pagination-blue swiper-pagination-progress\"><span class=\"swiper-pagination-progressbar\" style=\"transform: translate3d(0px, 0px, 0px) scaleX(1) scaleY(1); transition-duration: 300ms;\"></span></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div></div>\n        </div>\n\n        <div class=\"container-fluid footer\">\n    <div class=\"container\">\n        <div class=\"row f-infos\">\n            <div class=\"col-md-2 f-logo col-12\"><img src=\"/imgs/logo_cismnorte.png\"></div>\n            <div class=\"col-md-5 col-12 f-info col-md-offset-2\">\n                <a href=\"https://api.whatsapp.com/send?phone=556533251374\" target=\"_blank\"><span>(65) 3325-1374 <i class=\"fa  fa-external-link\"></i></span></a><br>\n                Email: recepcao@cismnorte.com.br <br>\n                CNPJ: 02.451.265/0001-31 <br>\n                Endereço: Rua Francisco Ferreira Ramos, 82-E, Centro <br>\n                CEP: 78300-112\n            </div>\n            <div class=\"col-md-3 col-12 f-info text-center\">\n                <span>HORÁRIO DE ATENDIMENTO</span><br>\n                Atendimento das 08:00 às 17:00\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"container-fluid footer-rights hidden-print\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4 col-xs-12\">CISMNORTE - Todos os direitos reservados©</div>\n            <div class=\"col-md-1 col-xs-12\">\n                <a href=\"https://webmail.cismnorte.com.br/\" target=\"_blank\"><i class=\"fa fa-envelope\"></i> WEBMAIL\n            </a></div><a href=\"https://webmail.cismnorte.com.br/\" target=\"_blank\">\n            </a><div class=\"col-md-3 col-xs-12 text-center\"><a href=\"https://webmail.cismnorte.com.br/\" target=\"_blank\">\n                </a><a href=\"/admin\" target=\"_blank\"><i class=\"fa fa-lock\"></i> Painel Gestor\n            </a></div>\n            <div class=\"col-md-4 col-xs-12 text-right\">\n                <span>Desenvolvido por</span>\n                <a href=\"https://pentagono.info/\" target=\"_blank\">Pentágono Sistemas</a>\n            </div>\n        </div>\n    </div>\n</div>    </div>\n</body></html>",
+    "data": {
+      "title": "Consórcio Intermunicipal de Saúde Da Região Médio Norte Matogrossense",
+      "rawUrl": "https://www.cismnorte.com.br/#/home",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 1,
+        "buttonAname": 1,
+        "a": 36,
+        "linkNotAName": 3,
+        "svg": 0,
+        "aSameText": 2,
+        "iframeSame": 0,
+        "ariaStPermitted": 2,
+        "ariaAtribDefined": 2,
+        "elementRole": 1,
+        "ariaStValid": 2,
+        "roleValid": 1,
+        "img": 11,
+        "imgAltNo": 4,
+        "imgAltNull": 7,
+        "headers": 0,
+        "elementHiddenFocus": 7,
+        "menuItem": 0,
+        "id": 55,
+        "colorContrast": 13,
+        "elementPresentChildrenNoFocus": 6,
+        "textContrastHNot": 21,
+        "aSkipFirstNo": 1,
+        "aImgAltNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "layoutElem": 8,
+        "brSec": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "li": 7,
+        "liSemantically": 7,
+        "listCorrectly": 4,
+        "idAtt": 9,
+        "area": 0,
+        "inpImg": 58,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>\n    Consórcio Intermunicipal de Saúde Da Região Médio Norte Matogrossense\n    </title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional <span class=\"caret\"></span>                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Institucional"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://webmail.cismnorte.com.br/\" target=\"_blank\">\n            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://webmail.cismnorte.com.br/\" target=\"_blank\">\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSameText": [
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes/\">\n                                Publicações                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Publicações"
+              },
+              {
+                "htmlCode": "<a href=\"/#/publicacoes\">\n        \n            \n                \n            \n            \n                Publicações\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "Publicações"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              },
+              {
+                "htmlCode": "<a href=\"/#/albuns/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              },
+              {
+                "htmlCode": "<a href=\"/#/videos/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              },
+              {
+                "htmlCode": "<a href=\"/#/noticias/\">VEJA MAIS </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)",
+                "accessibleName": "VEJA MAIS"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-haspopup` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-expanded` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                Institucional             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementRole": [
+          {
+            "verdict": "passed",
+            "description": "The test target `role` doesn't have required state or property",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-haspopup` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-expanded` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "roleValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/file.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/phone.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_cismnorte.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_menu.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/municipios.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/management.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/thumbs/.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/thumbs/.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/thumbs/47CF5DD225.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_menu.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/municipios.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/management.png\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/thumbs/.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/thumbs/.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/cds/thumbs/47CF5DD225.jpg\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Acesso ao Sistema\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Publicações\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Contato\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/municipios\">\n                                Municípios                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes/\">\n                                Publicações                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/gestao\">\n                                Gestão                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/contato\">\n                                Contato                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a target=\"_blank\" href=\"https://www.gp.srv.br/transparencia_cismnorte/servlet/home_portal_v2?1\">\n                                Portal Transparência                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Acesso ao Sistema</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Municípios Integrantes</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Serviços Ofertados</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Desenvolvido por</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                Institucional             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/system.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/file.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/icons/phone.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"/imgs/logo_cismnorte.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Acesso ao Sistema\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Publicações\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"m-r-i-text\">\n                Contato\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/municipios\">\n                                Municípios                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                Institucional                             </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/publicacoes/\">\n                                Publicações                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/gestao\">\n                                Gestão                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/contato\">\n                                Contato                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a target=\"_blank\" href=\"https://www.gp.srv.br/transparencia_cismnorte/servlet/home_portal_v2?1\">\n                                Portal Transparência                            </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hidden-xs\">VEJA MAIS</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hidden-xs\">VEJA MAIS</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Acesso ao Sistema</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Municípios Integrantes</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div>Serviços Ofertados</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hidden-xs\">VEJA MAIS</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-g-i-titulo\">2ª Reunião Ordinária de 2022 do Conselho...</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"h-g-i-titulo\">1ª Reunião Ordinária de 2022 do Conselho Diretor</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"hidden-xs\">VEJA MAIS</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-5 col-12 f-info col-md-offset-2\">\n                (65) 3325-1374 \n                Email: recepcao@cismnorte.com.br \n                CNPJ: 02.451.265/0001-31 \n                Endereço: Rua Francisco Ferreira Ramos, 82-E, Centro \n                CEP: 78300-112\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-3 col-12 f-info text-center\">\n                HORÁRIO DE ATENDIMENTO\n                Atendimento das 08:00 às 17:00\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span>Desenvolvido por</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page does not links to local content.",
+            "resultCode": "F3",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://cismnorte.pentagono.info/dash\" target=\"_blank\">\n        \n            \n                \n            \n            \n                Acesso ao Sistema\n            \n        \n    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aImgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#/home\">\n                        \n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>EXTRATO DE CONTRATO - publicação - agosto 2026 11-08-2026 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>FOLHA DE PAGAMENTO 07 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(2) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>FOLHA DE PAGAMENTO 06 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(3) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>FOLHA FERIAS 06 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(4) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>FOLHA DE PAGAMENTO 05 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(5) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>EXTRATO DE TERMO CREDENCIAMENTO - publicação -  21 dejulho 2 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(6) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>EXTRATO DE TERMO CREDENCIAMENTO - publicação - 29 de julho 2 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(7) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          },
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>EXTRATO DE TERMO CREDENCIAMENTO - publicação - 13 de julho 2 </b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > a:nth-child(8) > div:nth-child(1) > span:nth-child(1) > b:nth-child(2)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          }
+        ],
+        "brSec": [
+          {
+            "verdict": "failed",
+            "description": "`br` elements are being be used as a list.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"col-md-5 col-12 f-info col-md-offset-2\">\n                (65) 3325-1374 \n                Email: recepcao@cismnorte.com.br \n                CNPJ: 02.451.265/0001-31 \n                Endereço: Rua Francisco Ferreira Ramos, 82-E, Centro \n                CEP: 78300-112\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                            \n                        </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                \n                                Municípios                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"dropdown\">\n                                \n                                Institucional                             \n\n                                                            \n                                                                             Estatuto\n                                                                         Missão\n                                                                         Conselho Diretor\n                                                                         Conselho Intermunicipal de Saúde\n                                                                         Conselho Fiscal\n                                                                         Organograma\n                                                            \n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                \n                                Publicações                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                \n                                Gestão                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                \n                                Contato                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                \n                                Portal Transparência                            \n\n                                                    </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"nav navbar-nav\">\n\n        \n             Pagina inicial\n        \n\n                \n            \n                Municípios            \n\n                    \n                \n            \n                Institucional             \n\n                        \n                                     Estatuto\n                                     Missão\n                                     Conselho Diretor\n                                     Conselho Intermunicipal de Saúde\n                                     Conselho Fiscal\n                                     Organograma\n                            \n                    \n                \n            \n                Publicações            \n\n                    \n                \n            \n                Gestão            \n\n                    \n                \n            \n                Contato            \n\n                    \n                \n            \n                Portal Transparência            \n\n                    \n        \n  </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\">\n                                     Estatuto\n                                     Missão\n                                     Conselho Diretor\n                                     Conselho Intermunicipal de Saúde\n                                     Conselho Fiscal\n                                     Organograma\n                            </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"nav navbar-nav pull-right\">\n                        \n                            \n                        \n                                                    \n                                \n                                Municípios                            \n\n                                                    \n                                                    \n                                \n                                Institucional                             \n\n                                                            \n                                                                             Estatuto\n                                                                         Missão\n                                                                         Conselho Diretor\n                                                                         Conselho Intermunicipal de Saúde\n                                                                         Conselho Fiscal\n                                                                         Organograma\n                                                            \n                                                    \n                                                    \n                                \n                                Publicações                            \n\n                                                    \n                                                    \n                                \n                                Gestão                            \n\n                                                    \n                                                    \n                                \n                                Contato                            \n\n                                                    \n                                                    \n                                \n                                Portal Transparência                            \n\n                                                    \n                                            </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\">\n                                                                             Estatuto\n                                                                         Missão\n                                                                         Conselho Diretor\n                                                                         Conselho Intermunicipal de Saúde\n                                                                         Conselho Fiscal\n                                                                         Organograma\n                                                            </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"p5fw-accessibility-buttons\">\n    \n        \n    \n    \n        Acessibilidade\n        \n            \n                \n            \n            \n                Fonte Maior\n                \n                    \n                    \n                    \n                    \n                \n            \n        \n        \n            \n                \n            \n            \n                Contrastes\n                \n                    \n                    \n                    \n                \n            \n        \n        \n            \n                \n                    \n                \n                \n                    Mapa do Site\n                \n            \n        \n        \n            \n                \n                    \n                \n                \n                    Libras\n                \n            \n        \n\n        \n        \n            Redefinir\n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"p5fw-a-menu\" title=\"Acessibilidade\">\n        \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"p5fw-accessibility\">\n        \n    \n    \n    \n\n\n\n\n    \n\n        \n             Pagina inicial\n        \n\n                \n            \n                Municípios            \n\n                    \n                \n            \n                Institucional             \n\n                        \n                                     Estatuto\n                                     Missão\n                                     Conselho Diretor\n                                     Conselho Intermunicipal de Saúde\n                                     Conselho Fiscal\n                                     Organograma\n                            \n                    \n                \n            \n                Publicações            \n\n                    \n                \n            \n                Gestão            \n\n                    \n                \n            \n                Contato            \n\n                    \n                \n            \n                Portal Transparência            \n\n                    \n        \n  \n\n\n    \n        \n            \n                \n            \n            \n                Acesso ao Sistema\n            \n        \n    \n    \n        \n            \n                \n            \n            \n                Publicações\n            \n        \n    \n    \n        \n            \n                \n            \n            \n                Contato\n            \n        \n    \n    \n\n\n    \n        \n            \n                (65) 3325-1374\n            \n        \n    \n\n\n\n    \n        \n    \n        \n            \n                \n                    \n                        \n                    \n                \n                \n                    \n                        \n                            \n                        \n                                                    \n                                \n                                Municípios                            \n\n                                                    \n                                                    \n                                \n                                Institucional                             \n\n                                                            \n                                                                             Estatuto\n                                                                         Missão\n                                                                         Conselho Diretor\n                                                                         Conselho Intermunicipal de Saúde\n                                                                         Conselho Fiscal\n                                                                         Organograma\n                                                            \n                                                    \n                                                    \n                                \n                                Publicações                            \n\n                                                    \n                                                    \n                                \n                                Gestão                            \n\n                                                    \n                                                    \n                                \n                                Contato                            \n\n                                                    \n                                                    \n                                \n                                Portal Transparência                            \n\n                                                    \n                                            \n                \n            \n        \n    \n        \n            \n                            \n            \n            \n        \n    \n        \n              \n\n\n    \n        \n            \n                \n                    Últimas Notícias\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                                            \n                            \n                                15/06/2026 - 10:04\n                                 CISMNORTE PUBLICA EDITAL DE CREDENCIAMENTO DE SERVIÇOS ESPECIALIZADOS NA ÁREA DE SAÚDE\n                                 O Consórcio Intermunicipal de Saúde da Região Médio Norte Matogrossense publicou Edital de Credenciamento para&nbsp; pessoas jurídicas&nbsp; que tenham...                            \n                        \n                                            \n                            \n                                22/04/2026 - 17:13\n                                 CISMNORTE PUBLICA EDITAL DE CREDENCIAMENTO DIRECIONADO AO PROGRAMA GOV MT FILA ZERO NA CIRURGIA\n                                 O Consórcio Intermunicipal de Saúde da Região Médio Norte Matogrossense publicou Edital de Credenciamento para  pessoas jurídicas que tenham...                            \n                        \n                    \n\n                                    \n\n                \n                    Últimas Publicações\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                                            \n                            \n                                EXTRATO DE CONTRATO - publicação - agosto 2026 11-08-2026 \n                            11/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA DE PAGAMENTO 07 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA DE PAGAMENTO 06 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA FERIAS 06 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA DE PAGAMENTO 05 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                EXTRATO DE TERMO CREDENCIAMENTO - publicação -  21 dejulho 2 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                EXTRATO DE TERMO CREDENCIAMENTO - publicação - 29 de julho 2 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                EXTRATO DE TERMO CREDENCIAMENTO - publicação - 13 de julho 2 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                    \n            \n            \n                \n                    \n                        \n                        Acesso ao Sistema\n                    \n                \n                                \n                    \n                        \n                        Municípios Integrantes\n                    \n                \n                                                \n                    \n                        \n                        Serviços Ofertados\n                    \n                \n                \n            \n            \n                \n                    Galeria\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                    \n                        \n                                                            \n                                    \n                                        \n                                            \n                                            \n                                            2ª Reunião Ordinária de 2022 do Conselho...\n                                        \n                                    \n                                \n                                                            \n                                    \n                                        \n                                            \n                                            \n                                            1ª Reunião Ordinária de 2022 do Conselho Diretor\n                                        \n                                    \n                                \n                                                            \n                                    \n                                        \n                                            \n                                            \n                                            1ª Reunião Ordinária de 2022 do Conselho...\n                                        \n                                    \n                                \n                                                    \n                        \n                    \n                \n\n                \n                    Videos\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                    \n                        \n                                                    \n                        \n                    \n                \n            \n        \n    \n\n        \n\n        \n    \n        \n            \n            \n                (65) 3325-1374 \n                Email: recepcao@cismnorte.com.br \n                CNPJ: 02.451.265/0001-31 \n                Endereço: Rua Francisco Ferreira Ramos, 82-E, Centro \n                CEP: 78300-112\n            \n            \n                HORÁRIO DE ATENDIMENTO\n                Atendimento das 08:00 às 17:00\n            \n        \n    \n\n\n    \n        \n            CISMNORTE - Todos os direitos reservados©\n            \n                 WEBMAIL\n            \n            \n                 Painel Gestor\n            \n            \n                Desenvolvido por\n                Pentágono Sistemas\n            \n        \n    \n    </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav class=\"navbar navbar-fixed-top\" id=\"menu-desktop\">\n        \n            \n                \n                    \n                        \n                    \n                \n                \n                    \n                        \n                            \n                        \n                                                    \n                                \n                                Municípios                            \n\n                                                    \n                                                    \n                                \n                                Institucional                             \n\n                                                            \n                                                                             Estatuto\n                                                                         Missão\n                                                                         Conselho Diretor\n                                                                         Conselho Intermunicipal de Saúde\n                                                                         Conselho Fiscal\n                                                                         Organograma\n                                                            \n                                                    \n                                                    \n                                \n                                Publicações                            \n\n                                                    \n                                                    \n                                \n                                Gestão                            \n\n                                                    \n                                                    \n                                \n                                Contato                            \n\n                                                    \n                                                    \n                                \n                                Portal Transparência                            \n\n                                                    \n                                            \n                \n            \n        \n    </nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"content\" class=\"\">  \n\n\n    \n        \n            \n                \n                    Últimas Notícias\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                                            \n                            \n                                15/06/2026 - 10:04\n                                 CISMNORTE PUBLICA EDITAL DE CREDENCIAMENTO DE SERVIÇOS ESPECIALIZADOS NA ÁREA DE SAÚDE\n                                 O Consórcio Intermunicipal de Saúde da Região Médio Norte Matogrossense publicou Edital de Credenciamento para&nbsp; pessoas jurídicas&nbsp; que tenham...                            \n                        \n                                            \n                            \n                                22/04/2026 - 17:13\n                                 CISMNORTE PUBLICA EDITAL DE CREDENCIAMENTO DIRECIONADO AO PROGRAMA GOV MT FILA ZERO NA CIRURGIA\n                                 O Consórcio Intermunicipal de Saúde da Região Médio Norte Matogrossense publicou Edital de Credenciamento para  pessoas jurídicas que tenham...                            \n                        \n                    \n\n                                    \n\n                \n                    Últimas Publicações\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                                            \n                            \n                                EXTRATO DE CONTRATO - publicação - agosto 2026 11-08-2026 \n                            11/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA DE PAGAMENTO 07 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA DE PAGAMENTO 06 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA FERIAS 06 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                FOLHA DE PAGAMENTO 05 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                EXTRATO DE TERMO CREDENCIAMENTO - publicação -  21 dejulho 2 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                EXTRATO DE TERMO CREDENCIAMENTO - publicação - 29 de julho 2 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                            \n                            \n                                EXTRATO DE TERMO CREDENCIAMENTO - publicação - 13 de julho 2 \n                            04/08/2026\n                                2026\n                                                    \n                    \n                                    \n            \n            \n                \n                    \n                        \n                        Acesso ao Sistema\n                    \n                \n                                \n                    \n                        \n                        Municípios Integrantes\n                    \n                \n                                                \n                    \n                        \n                        Serviços Ofertados\n                    \n                \n                \n            \n            \n                \n                    Galeria\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                    \n                        \n                                                            \n                                    \n                                        \n                                            \n                                            \n                                            2ª Reunião Ordinária de 2022 do Conselho...\n                                        \n                                    \n                                \n                                                            \n                                    \n                                        \n                                            \n                                            \n                                            1ª Reunião Ordinária de 2022 do Conselho Diretor\n                                        \n                                    \n                                \n                                                            \n                                    \n                                        \n                                            \n                                            \n                                            1ª Reunião Ordinária de 2022 do Conselho...\n                                        \n                                    \n                                \n                                                    \n                        \n                    \n                \n\n                \n                    Videos\n                    VEJA MAIS \n                    \n                        \n                    \n                \n                \n                    \n                        \n                                                    \n                        \n                    \n                \n            \n        \n    \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 23:35:41",
+      "tot": {
+        "info": {
+          "url": "https://www.cismnorte.com.br/#/home",
+          "title": "Consórcio Intermunicipal de Saúde Da Região Médio Norte Matogrossense",
+          "date": "2026-09-21 23:35:41",
+          "htmlTags": 421,
+          "roles": {
+            "document": 1,
+            "generic": 211,
+            "link": 56,
+            "navigation": 2,
+            "list": 4,
+            "listitem": 26,
+            "button": 2,
+            "img": 4,
+            "presentation": 7
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 7,
+            "link": 4,
+            "title": 1,
+            "script": 18,
+            "style": 52,
+            "body": 1,
+            "div": 122,
+            "i": 36,
+            "a": 58,
+            "span": 44,
+            "nav": 2,
+            "ul": 4,
+            "li": 26,
+            "img": 11,
+            "br": 25,
+            "b": 8
+          },
+          "size": 503835,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "c2e64bdc45dd0372afba61058585bfad",
+          "tests": 25,
+          "conform": "9@1@0",
+          "score": "5.9"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 1,
+          "buttonAname": 1,
+          "a": 36,
+          "linkNotAName": 3,
+          "svg": 0,
+          "aSameText": 2,
+          "iframeSame": 0,
+          "ariaStPermitted": 2,
+          "ariaAtribDefined": 2,
+          "elementRole": 1,
+          "ariaStValid": 2,
+          "roleValid": 1,
+          "img": 11,
+          "imgAltNo": 4,
+          "imgAltNull": 7,
+          "headers": 0,
+          "elementHiddenFocus": 7,
+          "menuItem": 0,
+          "id": 55,
+          "colorContrast": 13,
+          "elementPresentChildrenNoFocus": 6,
+          "textContrastHNot": 21,
+          "aSkipFirstNo": 1,
+          "aImgAltNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "layoutElem": 8,
+          "brSec": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "li": 7,
+          "liSemantically": 7,
+          "listCorrectly": 4,
+          "idAtt": 9,
+          "area": 0,
+          "inpImg": 58,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@1.8",
+          "button_01": "10@18",
+          "a_11": "3@9.9",
+          "a_09": "something",
+          "aria_05": "10@18",
+          "aria_07": "10@18",
+          "element_10": "10@18",
+          "aria_03": "10@18",
+          "role_01": "10@18",
+          "img_01b": "3@5.7272727272727275",
+          "img_02": "something",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01b": "3@4.859999999999999",
+          "a_03": "3@9",
+          "layout_01b": "1@2.2",
+          "br_01": "3@7.14",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "listitem_01": "10@18",
+          "list_02": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "9@1@0",
+      "score": "5.9"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T23:35:41.500Z",
+    "requestedUrl": "https://www.cismnorte.com.br/#/home"
+  }
+}

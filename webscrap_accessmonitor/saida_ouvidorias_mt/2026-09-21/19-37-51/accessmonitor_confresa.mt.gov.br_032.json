@@ -1,0 +1,1497 @@
+{
+  "success": 1,
+  "message": "Avaliação executada pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Ouvidoria Municipal</title>\n    \n    <link rel=\"stylesheet\" href=\"assets/css/style.css\">\n\n    \n</head>\n<body>\n\n    <header>\n        <a href=\"https://confresa.mt.gov.br/\"><img src=\"logo.png\" alt=\"Prefeitura Municipal\" width=\"280\" height=\"59\"></a>\n        <h1>Ouvidoria Municipal</h1>\n    </header>\n\n    <div class=\"container\">\n\n        <div class=\"painel-informativo\">\n            \n            <div class=\"alerta-lote\">\n                <h4>⚠️ ATENÇÃO!</h4>\n                <p style=\"margin-bottom: 5px;\"><strong>Dados necessários para eventual <u>denúncia de lote sujo</u>:</strong></p>\n                <ul>\n                    <li>Endereço completo do lote;</li>\n                    <li>Ponto de referência;</li>\n                    <li>Fotos atualizadas do local;</li>\n                    <li>Data da constatação;</li>\n                    <li>Relato da situação encontrada.</li>\n                </ul>\n            </div>\n            \n            <div class=\"btn-links-externos\">\n                <a href=\"https://wa.me/556631430012\" target=\"_blank\" class=\"btn btn-whatsapp\" style=\"flex: 1; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px;\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" viewBox=\"0 0 16 16\">\n        <path d=\"M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z\"></path>\n    </svg>\n    Manifestação via WhatsApp\n</a>\n                <a href=\"https://falabr.cgu.gov.br\" target=\"_blank\" class=\"btn btn-falabr\" style=\"flex: 1; text-align: center; text-decoration: none;\">\n                    🏛️ Manifestação via FalaBR\n                </a>\n            </div>\n\n            <div class=\"card-presencial\">\n                <h3>Ouvidoria Física (Presencial)</h3>\n                <p><strong>Endereço:</strong> Avenida Centro Oeste, n.º 286 - Centro CEP: 78.652-000 | Prefeitura de Confresa</p>\n                <p><strong>Atendimento Presencial:</strong> Segunda a Sexta, de 07:00 h às 11:00 h e 13:00 h às 17:00 h</p>\n                <p><strong>Responsável:</strong> Rafaella Aparecida de Deus</p>\n                <p><strong>Telefone/WhatsApp:</strong> (66) 3143-0012</p>\n                <p><strong>E-mail:</strong> ouvidoria@confresa.mt.gov.br</p>\n                <br>\n                <p><a href=\"https://confresa.mt.gov.br/arquivos/transparencia/ouvidoria/ouvidoria2025.pdf\" target=\"_blank\" rel=\"noopener\">Relatório de gestão anual da ouvidoria municipal</a></p>\n            </div>\n\n            <div class=\"card-consulta\">\n                <h3>Acompanhe sua Manifestação</h3>\n                <form action=\"consulta.php\" method=\"GET\" class=\"form-row\" style=\"margin-bottom: 0; align-items: center;\">\n                    <div class=\"form-group\" style=\"flex: 2;\">\n                        <input type=\"text\" name=\"protocolo\" placeholder=\"Digite o protocolo\" maxlength=\"20\" required=\"\" style=\"margin-bottom: 0;\">\n                    </div>\n                    <div class=\"form-group\" style=\"flex: 1;\">\n                        <button type=\"submit\" class=\"btn\" style=\"width: 100%;\">Consultar Protocolo</button>\n                    </div>\n                </form>\n            </div>\n\n        </div>\n        <h2 style=\"color: var(--verde-escuro); margin-bottom: 5px; text-align: center;\">Nova Manifestação</h2>\n        <div class=\"aviso-obrigatorio\">\n            Campos marcados com <span class=\"obrigatorio\">*</span> são de preenchimento obrigatório.\n        </div>\n\n        <form action=\"processa_manifestacao.php\" method=\"POST\" enctype=\"multipart/form-data\" id=\"formOuvidoria\">\n            \n            <input type=\"hidden\" name=\"forma\" value=\"Site\">\n            \n            <div class=\"form-row\">\n                <div class=\"form-group\">\n                    <label>Manifestação Anônima? <span class=\"obrigatorio\">*</span></label>\n                    <div class=\"radio-group\">\n                        <label><input type=\"radio\" name=\"anonimo\" value=\"Não\" checked=\"\"> Não</label>\n                        <label><input type=\"radio\" name=\"anonimo\" value=\"Sim\"> Sim</label>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"tipo\">Tipo da Manifestação <span class=\"obrigatorio\">*</span></label>\n                    <select id=\"tipo\" name=\"tipo\" required=\"\">\n                        <option value=\"\">Selecione...</option>\n                        <option value=\"Denúncia\">Denúncia</option>\n                        <option value=\"Dúvida\">Dúvida</option>\n                        <option value=\"Solicitação\">Solicitação</option>\n                        <option value=\"Sugestão\">Sugestão</option>\n                        <option value=\"Reclamação\">Reclamação</option>\n                        <option value=\"Elogio\">Elogio</option>\n                    </select>\n                </div>\n            </div>\n\n            <div id=\"campos_identificacao\">\n                \n                <div class=\"form-row\">\n                    <div class=\"form-group\">\n                        <label for=\"nome\">Nome Completo <span class=\"obrigatorio\">*</span></label>\n                        <input type=\"text\" id=\"nome\" name=\"nome\" required=\"\" oninput=\"this.value = this.value.toUpperCase()\" style=\"text-transform: uppercase;\">\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label for=\"cpf\">CPF <span class=\"obrigatorio\">*</span></label>\n                        <input type=\"text\" id=\"cpf\" name=\"cpf\" maxlength=\"14\" placeholder=\"000.000.000-00\" required=\"\" oninput=\"mascaraCPF(this)\">\n                    </div>\n                </div>\n\n                <div class=\"form-row\">\n                    <div class=\"form-group\">\n                        <label for=\"telefone\">Telefone WhatsApp <span class=\"obrigatorio\">*</span></label>\n                        <input type=\"text\" id=\"telefone\" name=\"telefone\" maxlength=\"15\" placeholder=\"(00) 00000-0000\" required=\"\" oninput=\"mascaraTelefone(this)\">\n                    </div>\n\n                    <div class=\"form-group\">\n                        <label for=\"email\">E-mail <span class=\"obrigatorio\">*</span></label>\n                        <input type=\"email\" id=\"email\" name=\"email\" required=\"\">\n                    </div>\n                </div>\n\n            </div> \n            \n            <div class=\"form-row\">\n                <div class=\"form-group\">\n                    <label for=\"sigilo\">Solicitar Sigilo? <span class=\"obrigatorio\">*</span></label>\n                    <select id=\"sigilo\" name=\"sigilo\" required=\"\">\n                        <option value=\"Não\">Não</option>\n                        <option value=\"Sim\">Sim</option>\n                    </select>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"secretaria\">Secretaria <span class=\"obrigatorio\">*</span></label>\n                    <select id=\"secretaria\" name=\"secretaria\" required=\"\">\n                        <option value=\"\">Selecione...</option>\n                        <option value=\"ADMINISTRAÇÃO\">ADMINISTRAÇÃO</option>\n                        <option value=\"AGRICULTURA\">AGRICULTURA</option>\n                        <option value=\"ASSISTÊNCIA SOCIAL\">ASSISTÊNCIA SOCIAL</option>\n                        <option value=\"CULTURA\">CULTURA</option>\n                        <option value=\"EDUCAÇÃO\">EDUCAÇÃO</option>\n                        <option value=\"ESPORTE\">ESPORTE</option>\n                        <option value=\"FINANÇAS\">FINANÇAS</option>\n                        <option value=\"GABINETE\">GABINETE</option>\n                        <option value=\"MEIO AMBIENTE\">MEIO AMBIENTE</option>\n                        <option value=\"OBRAS\">OBRAS</option>\n                        <option value=\"PLANEJAMENTO\">PLANEJAMENTO</option>\n                        <option value=\"SAÚDE\">SAÚDE</option>\n                    </select>\n                </div>\n            </div>\n\n            <div class=\"form-row\">\n                <div class=\"form-group\" style=\"flex: 1;\">\n                    <label for=\"assunto\">Assunto <span class=\"obrigatorio\">*</span></label>\n                    <input type=\"text\" id=\"assunto\" name=\"assunto\" required=\"\">\n                </div>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"manifestacao\">Manifestação <span class=\"obrigatorio\">*</span></label>\n                <textarea id=\"manifestacao\" name=\"manifestacao\" rows=\"6\" required=\"\"></textarea>\n            </div>\n\n            <div class=\"form-group\">\n                <label>Anexar arquivos (Até 50MB no total)</label>\n                <span class=\"nota-anexo\">Formatos permitidos: PDF, JPG, PNG.</span>\n                <div id=\"container_arquivos\">\n                    <div class=\"file-input-wrapper\">\n                        <input type=\"file\" name=\"anexos[]\">\n                    </div>\n                </div>\n                <button type=\"button\" id=\"btn_add_arquivo\" class=\"btn btn-secondary\">+ Escolher outro arquivo</button>\n            </div>\n\n            <div class=\"form-group\" style=\"background: #e9f0ee; padding: 15px; border-radius: 5px; border-left: 4px solid var(--verde-escuro);\">\n                <label for=\"captcha\">Verificação de Segurança <span class=\"obrigatorio\">*</span></label>\n                <p style=\"margin-top: 0; margin-bottom: 10px; color: var(--verde-escuro);\">Quanto é <strong>1 + 3</strong>?</p>\n                <input type=\"number\" id=\"captcha\" name=\"captcha\" placeholder=\"Digite o resultado\" required=\"\">\n            </div>\n\n            <div style=\"text-align: center; margin-top: 30px;\">\n                <button type=\"submit\" class=\"btn\" style=\"width: auto; min-width: 250px;\">Enviar Manifestação</button>\n            </div>\n\n        </form>\n    </div>\n\n    <script src=\"assets/js/scripts.js\"></script>\n\n    <script>\n        document.addEventListener(\"DOMContentLoaded\", function() {\n            const radiosAnonimo = document.querySelectorAll('input[name=\"anonimo\"]');\n            const divIdentificacao = document.getElementById('campos_identificacao');\n            \n            function alternarCamposAnonimo(isAnonimo) {\n                const inputsIdentificacao = [\n                    ...divIdentificacao.querySelectorAll('input, select')\n                ];\n\n                if (isAnonimo) {\n                    divIdentificacao.style.display = 'none';\n                    \n                    inputsIdentificacao.forEach(input => {\n                        if (input) {\n                            input.removeAttribute('required');\n                            input.value = ''; // Limpa os campos\n                        }\n                    });\n                } else {\n                    divIdentificacao.style.display = 'block';\n                    \n                    inputsIdentificacao.forEach(input => {\n                        if (input) {\n                            input.setAttribute('required', 'required');\n                        }\n                    });\n                }\n            }\n\n            radiosAnonimo.forEach(radio => {\n                radio.addEventListener('change', function(e) {\n                    alternarCamposAnonimo(e.target.value === 'Sim');\n                });\n            });\n        });\n    </script>\n    \n    <script>\n    // Procura o formulário de envio na página\n    const formManifestacao = document.querySelector('form[action=\"processa_manifestacao.php\"]');\n\n    if (formManifestacao) {\n        formManifestacao.addEventListener('submit', function(event) {\n            // Procura o botão de enviar dentro do formulário\n            const btnSubmit = this.querySelector('button[type=\"submit\"]');\n            \n            if (btnSubmit) {\n                // Desabilita o botão para impedir novos cliques\n                btnSubmit.disabled = true;\n                \n                // Muda a aparência do botão para o usuário saber que está processando\n                btnSubmit.innerHTML = '⏳ Enviando, aguarde...';\n                btnSubmit.style.backgroundColor = '#ccc';\n                btnSubmit.style.color = '#333';\n                btnSubmit.style.cursor = 'not-allowed';\n            }\n        });\n    }\n</script>\n\n</body></html>",
+    "data": {
+      "title": "Ouvidoria Municipal",
+      "rawUrl": "https://confresa.mt.gov.br/ouvidoria/",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 3,
+        "buttonAname": 3,
+        "a": 4,
+        "linkAName": 4,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 1,
+        "hxHasAName": 5,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 72,
+        "colorContrast": 3,
+        "elementPresentChildrenNoFocus": 6,
+        "textContrastHNot": 30,
+        "hxSkip": 1,
+        "aSkipFirstNo": 1,
+        "labelPosNo": 2,
+        "dd,dt": 0,
+        "dl": 0,
+        "layoutElem": 1,
+        "hx": 5,
+        "noDuplicateBanner": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "bannerTopLevel": 1,
+        "li": 5,
+        "liSemantically": 5,
+        "listCorrectly": 1,
+        "idAtt": 14,
+        "area": 0,
+        "inpImg": 4,
+        "label": 15,
+        "form": 2,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Ouvidoria Municipal</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: 100%;\">Consultar Protocolo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2) > div:nth-child(2) > button:nth-child(1)",
+                "accessibleName": "Consultar Protocolo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"btn_add_arquivo\" class=\"btn btn-secondary\">+ Escolher outro arquivo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > button:nth-child(4)",
+                "accessibleName": "+ Escolher outro arquivo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: auto; min-width: 250px;\">Enviar Manifestação</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(9) > button:nth-child(1)",
+                "accessibleName": "Enviar Manifestação"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://confresa.mt.gov.br/\"></a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Prefeitura Municipal"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://wa.me/556631430012\" target=\"_blank\" class=\"btn btn-whatsapp\" style=\"flex: 1; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px;\">\n    \n        \n    \n    Manifestação via WhatsApp\n</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Manifestação via WhatsApp"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://falabr.cgu.gov.br\" target=\"_blank\" class=\"btn btn-falabr\" style=\"flex: 1; text-align: center; text-decoration: none;\">\n                    🏛️ Manifestação via FalaBR\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "🏛️ Manifestação via FalaBR"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://confresa.mt.gov.br/arquivos/transparencia/ouvidoria/ouvidoria2025.pdf\" target=\"_blank\" rel=\"noopener\">Relatório de gestão anual da ouvidoria municipal</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > p:nth-child(8) > a:nth-child(1)",
+                "accessibleName": "Relatório de gestão anual da ouvidoria municipal"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" name=\"protocolo\" placeholder=\"Digite o protocolo\" maxlength=\"20\" required=\"\" style=\"margin-bottom: 0;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Digite o protocolo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonimo\" value=\"Não\" checked=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Não"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonimo\" value=\"Sim\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)",
+                "accessibleName": "Sim"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"tipo\" name=\"tipo\" required=\"\">\n                        Selecione...\n                        Denúncia\n                        Dúvida\n                        Solicitação\n                        Sugestão\n                        Reclamação\n                        Elogio\n                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(2) > select:nth-child(2)",
+                "accessibleName": "Tipo da Manifestação *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"nome\" name=\"nome\" required=\"\" oninput=\"this.value = this.value.toUpperCase()\" style=\"text-transform: uppercase;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)",
+                "accessibleName": "Nome Completo *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"cpf\" name=\"cpf\" maxlength=\"14\" placeholder=\"000.000.000-00\" required=\"\" oninput=\"mascaraCPF(this)\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > input:nth-child(2)",
+                "accessibleName": "CPF *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"telefone\" name=\"telefone\" maxlength=\"15\" placeholder=\"(00) 00000-0000\" required=\"\" oninput=\"mascaraTelefone(this)\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > input:nth-child(2)",
+                "accessibleName": "Telefone WhatsApp *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"email\" id=\"email\" name=\"email\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > input:nth-child(2)",
+                "accessibleName": "E-mail *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"sigilo\" name=\"sigilo\" required=\"\">\n                        Não\n                        Sim\n                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(4) > div:nth-child(1) > select:nth-child(2)",
+                "accessibleName": "Solicitar Sigilo? *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"secretaria\" name=\"secretaria\" required=\"\">\n                        Selecione...\n                        ADMINISTRAÇÃO\n                        AGRICULTURA\n                        ASSISTÊNCIA SOCIAL\n                        CULTURA\n                        EDUCAÇÃO\n                        ESPORTE\n                        FINANÇAS\n                        GABINETE\n                        MEIO AMBIENTE\n                        OBRAS\n                        PLANEJAMENTO\n                        SAÚDE\n                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(4) > div:nth-child(2) > select:nth-child(2)",
+                "accessibleName": "Secretaria *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"assunto\" name=\"assunto\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(5) > div:nth-child(1) > input:nth-child(2)",
+                "accessibleName": "Assunto *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea id=\"manifestacao\" name=\"manifestacao\" rows=\"6\" required=\"\"></textarea>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(6) > textarea:nth-child(2)",
+                "accessibleName": "Manifestação *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"number\" id=\"captcha\" name=\"captcha\" placeholder=\"Digite o resultado\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(8) > input:nth-child(3)",
+                "accessibleName": "Verificação de Segurança *"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"logo.png\" alt=\"Prefeitura Municipal\" width=\"280\" height=\"59\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Prefeitura Municipal"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria Municipal</h1>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > h1:nth-child(2)",
+                "accessibleName": "Ouvidoria Municipal"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4>⚠️ ATENÇÃO!</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h4:nth-child(1)",
+                "accessibleName": "⚠️ ATENÇÃO!"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Ouvidoria Física (Presencial)</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)",
+                "accessibleName": "Ouvidoria Física (Presencial)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Acompanhe sua Manifestação</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > h3:nth-child(1)",
+                "accessibleName": "Acompanhe sua Manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 style=\"color: var(--verde-escuro); margin-bottom: 5px; text-align: center;\">Nova Manifestação</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > h2:nth-child(2)",
+                "accessibleName": "Nova Manifestação"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://wa.me/556631430012\" target=\"_blank\" class=\"btn btn-whatsapp\" style=\"flex: 1; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px;\">\n    \n        \n    \n    Manifestação via WhatsApp\n</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: 100%;\">Consultar Protocolo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2) > div:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: auto; min-width: 250px;\">Enviar Manifestação</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(9) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"logo.png\" alt=\"Prefeitura Municipal\" width=\"280\" height=\"59\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: 100%;\">Consultar Protocolo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2) > div:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonimo\" value=\"Não\" checked=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonimo\" value=\"Sim\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"btn_add_arquivo\" class=\"btn btn-secondary\">+ Escolher outro arquivo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: auto; min-width: 250px;\">Enviar Manifestação</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(9) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h4>⚠️ ATENÇÃO!</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<strong>Dados necessários para eventual denúncia de lote sujo:</strong>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<u>denúncia de lote sujo</u>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > strong:nth-child(1) > u:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Endereço completo do lote;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Ponto de referência;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Fotos atualizadas do local;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Data da constatação;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li>Relato da situação encontrada.</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://wa.me/556631430012\" target=\"_blank\" class=\"btn btn-whatsapp\" style=\"flex: 1; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px;\">\n    \n        \n    \n    Manifestação via WhatsApp\n</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Ouvidoria Física (Presencial)</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: 100%;\">Consultar Protocolo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2) > div:nth-child(2) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"aviso-obrigatorio\">\n            Campos marcados com * são de preenchimento obrigatório.\n        </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label>Manifestação Anônima? *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label> Não</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label> Sim</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"tipo\">Tipo da Manifestação *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(2) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"nome\">Nome Completo *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"cpf\">CPF *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"telefone\">Telefone WhatsApp *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"email\">E-mail *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"sigilo\">Solicitar Sigilo? *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(4) > div:nth-child(1) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"secretaria\">Secretaria *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(4) > div:nth-child(2) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"assunto\">Assunto *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(5) > div:nth-child(1) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"manifestacao\">Manifestação *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(6) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label>Anexar arquivos (Até 50MB no total)</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"nota-anexo\">Formatos permitidos: PDF, JPG, PNG.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"btn_add_arquivo\" class=\"btn btn-secondary\">+ Escolher outro arquivo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<label for=\"captcha\">Verificação de Segurança *</label>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(8) > label:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p style=\"margin-top: 0; margin-bottom: 10px; color: var(--verde-escuro);\">Quanto é 1 + 3?</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(8) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"btn\" style=\"width: auto; min-width: 250px;\">Enviar Manifestação</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(9) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxSkip": [
+          {
+            "verdict": "failed",
+            "description": "Headings are not in the correct order.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria Municipal</h1>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page links to an inexistent element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://confresa.mt.gov.br/\"></a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelPosNo": [
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" name=\"protocolo\" placeholder=\"Digite o protocolo\" maxlength=\"20\" required=\"\" style=\"margin-bottom: 0;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"file\" name=\"anexos[]\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > div:nth-child(3) > div:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "formSubmit": [
+          {
+            "verdict": "passed",
+            "description": "The form contains one of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form action=\"consulta.php\" method=\"GET\" class=\"form-row\" style=\"margin-bottom: 0; align-items: center;\">\n                    \n                        \n                    \n                    \n                        Consultar Protocolo\n                    \n                </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The form contains one of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form action=\"processa_manifestacao.php\" method=\"POST\" enctype=\"multipart/form-data\" id=\"formOuvidoria\">\n            \n            \n            \n            \n                \n                    Manifestação Anônima? *\n                    \n                         Não\n                         Sim\n                    \n                \n                \n                    Tipo da Manifestação *\n                    \n                        Selecione...\n                        Denúncia\n                        Dúvida\n                        Solicitação\n                        Sugestão\n                        Reclamação\n                        Elogio\n                    \n                \n            \n\n            \n                \n                \n                    \n                        Nome Completo *\n                        \n                    \n\n                    \n                        CPF *\n                        \n                    \n                \n\n                \n                    \n                        Telefone WhatsApp *\n                        \n                    \n\n                    \n                        E-mail *\n                        \n                    \n                \n\n             \n            \n            \n                \n                    Solicitar Sigilo? *\n                    \n                        Não\n                        Sim\n                    \n                \n                \n                    Secretaria *\n                    \n                        Selecione...\n                        ADMINISTRAÇÃO\n                        AGRICULTURA\n                        ASSISTÊNCIA SOCIAL\n                        CULTURA\n                        EDUCAÇÃO\n                        ESPORTE\n                        FINANÇAS\n                        GABINETE\n                        MEIO AMBIENTE\n                        OBRAS\n                        PLANEJAMENTO\n                        SAÚDE\n                    \n                \n            \n\n            \n                \n                    Assunto *\n                    \n                \n            \n\n            \n                Manifestação *\n                \n            \n\n            \n                Anexar arquivos (Até 50MB no total)\n                Formatos permitidos: PDF, JPG, PNG.\n                \n                    \n                        \n                    \n                \n                + Escolher outro arquivo\n            \n\n            \n                Verificação de Segurança *\n                Quanto é 1 + 3?\n                \n            \n\n            \n                Enviar Manifestação\n            \n\n        </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element u to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<u>denúncia de lote sujo</u>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > strong:nth-child(1) > u:nth-child(1)"
+              }
+            ],
+            "attributes": [
+              "u"
+            ]
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria Municipal</h1>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>⚠️ ATENÇÃO!</h4>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Ouvidoria Física (Presencial)</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3>Acompanhe sua Manifestação</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > h3:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 style=\"color: var(--verde-escuro); margin-bottom: 5px; text-align: center;\">Nova Manifestação</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > h2:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header>\n        \n        Ouvidoria Municipal\n    </header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria Municipal</h1>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header>\n        \n        Ouvidoria Municipal\n    </header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Endereço completo do lote;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Ponto de referência;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Fotos atualizadas do local;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Data da constatação;</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Relato da situação encontrada.</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                    Endereço completo do lote;\n                    Ponto de referência;\n                    Fotos atualizadas do local;\n                    Data da constatação;\n                    Relato da situação encontrada.\n                </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form action=\"processa_manifestacao.php\" method=\"POST\" enctype=\"multipart/form-data\" id=\"formOuvidoria\">\n            \n            \n            \n            \n                \n                    Manifestação Anônima? *\n                    \n                         Não\n                         Sim\n                    \n                \n                \n                    Tipo da Manifestação *\n                    \n                        Selecione...\n                        Denúncia\n                        Dúvida\n                        Solicitação\n                        Sugestão\n                        Reclamação\n                        Elogio\n                    \n                \n            \n\n            \n                \n                \n                    \n                        Nome Completo *\n                        \n                    \n\n                    \n                        CPF *\n                        \n                    \n                \n\n                \n                    \n                        Telefone WhatsApp *\n                        \n                    \n\n                    \n                        E-mail *\n                        \n                    \n                \n\n             \n            \n            \n                \n                    Solicitar Sigilo? *\n                    \n                        Não\n                        Sim\n                    \n                \n                \n                    Secretaria *\n                    \n                        Selecione...\n                        ADMINISTRAÇÃO\n                        AGRICULTURA\n                        ASSISTÊNCIA SOCIAL\n                        CULTURA\n                        EDUCAÇÃO\n                        ESPORTE\n                        FINANÇAS\n                        GABINETE\n                        MEIO AMBIENTE\n                        OBRAS\n                        PLANEJAMENTO\n                        SAÚDE\n                    \n                \n            \n\n            \n                \n                    Assunto *\n                    \n                \n            \n\n            \n                Manifestação *\n                \n            \n\n            \n                Anexar arquivos (Até 50MB no total)\n                Formatos permitidos: PDF, JPG, PNG.\n                \n                    \n                        \n                    \n                \n                + Escolher outro arquivo\n            \n\n            \n                Verificação de Segurança *\n                Quanto é 1 + 3?\n                \n            \n\n            \n                Enviar Manifestação\n            \n\n        </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"tipo\" name=\"tipo\" required=\"\">\n                        Selecione...\n                        Denúncia\n                        Dúvida\n                        Solicitação\n                        Sugestão\n                        Reclamação\n                        Elogio\n                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(2) > div:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"campos_identificacao\">\n                \n                \n                    \n                        Nome Completo *\n                        \n                    \n\n                    \n                        CPF *\n                        \n                    \n                \n\n                \n                    \n                        Telefone WhatsApp *\n                        \n                    \n\n                    \n                        E-mail *\n                        \n                    \n                \n\n            </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"nome\" name=\"nome\" required=\"\" oninput=\"this.value = this.value.toUpperCase()\" style=\"text-transform: uppercase;\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"cpf\" name=\"cpf\" maxlength=\"14\" placeholder=\"000.000.000-00\" required=\"\" oninput=\"mascaraCPF(this)\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"telefone\" name=\"telefone\" maxlength=\"15\" placeholder=\"(00) 00000-0000\" required=\"\" oninput=\"mascaraTelefone(this)\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"email\" id=\"email\" name=\"email\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"sigilo\" name=\"sigilo\" required=\"\">\n                        Não\n                        Sim\n                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(4) > div:nth-child(1) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"secretaria\" name=\"secretaria\" required=\"\">\n                        Selecione...\n                        ADMINISTRAÇÃO\n                        AGRICULTURA\n                        ASSISTÊNCIA SOCIAL\n                        CULTURA\n                        EDUCAÇÃO\n                        ESPORTE\n                        FINANÇAS\n                        GABINETE\n                        MEIO AMBIENTE\n                        OBRAS\n                        PLANEJAMENTO\n                        SAÚDE\n                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(4) > div:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"assunto\" name=\"assunto\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(5) > div:nth-child(1) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea id=\"manifestacao\" name=\"manifestacao\" rows=\"6\" required=\"\"></textarea>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(6) > textarea:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"container_arquivos\">\n                    \n                        \n                    \n                </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" id=\"btn_add_arquivo\" class=\"btn btn-secondary\">+ Escolher outro arquivo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(7) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"number\" id=\"captcha\" name=\"captcha\" placeholder=\"Digite o resultado\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > form:nth-child(4) > div:nth-child(8) > input:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-21 23:41:06",
+      "tot": {
+        "info": {
+          "url": "https://confresa.mt.gov.br/ouvidoria/",
+          "title": "Ouvidoria Municipal",
+          "date": "2026-09-21 23:41:06",
+          "htmlTags": 298,
+          "roles": {
+            "document": 1,
+            "generic": 46,
+            "banner": 1,
+            "link": 4,
+            "img": 1,
+            "heading": 5,
+            "paragraph": 8,
+            "strong": 7,
+            "list": 1,
+            "listitem": 5,
+            "graphics-document": 1,
+            "form": 2,
+            "textbox": 7,
+            "button": 3,
+            "radio": 2,
+            "combobox": 3,
+            "spinbutton": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 2,
+            "title": 1,
+            "link": 1,
+            "style": 145,
+            "script": 10,
+            "body": 1,
+            "header": 1,
+            "a": 4,
+            "img": 1,
+            "h1": 1,
+            "div": 31,
+            "h4": 1,
+            "p": 8,
+            "strong": 7,
+            "u": 1,
+            "ul": 1,
+            "li": 5,
+            "svg": 1,
+            "path": 1,
+            "h3": 2,
+            "br": 1,
+            "form": 2,
+            "input": 11,
+            "button": 3,
+            "h2": 1,
+            "span": 13,
+            "label": 14,
+            "select": 3,
+            "option": 22,
+            "textarea": 1
+          },
+          "size": 1314835,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "d834161474dc474a170b2870c7ffc908",
+          "tests": 22,
+          "conform": "3@1@1",
+          "score": "7.1"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 3,
+          "buttonAname": 3,
+          "a": 4,
+          "linkAName": 4,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 1,
+          "hxHasAName": 5,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 72,
+          "colorContrast": 3,
+          "elementPresentChildrenNoFocus": 6,
+          "textContrastHNot": 30,
+          "hxSkip": 1,
+          "aSkipFirstNo": 1,
+          "labelPosNo": 2,
+          "dd,dt": 0,
+          "dl": 0,
+          "layoutElem": 1,
+          "hx": 5,
+          "noDuplicateBanner": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "bannerTopLevel": 1,
+          "li": 5,
+          "liSemantically": 5,
+          "listCorrectly": 1,
+          "idAtt": 14,
+          "area": 0,
+          "inpImg": 4,
+          "label": 15,
+          "form": 2,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@18",
+          "a_10": "10@18",
+          "input_02b": "something",
+          "img_01a": "10@16.2",
+          "heading_01": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "hx_03": "3@9.12",
+          "a_01b": "3@4.859999999999999",
+          "label_02": "3@6.4799999999999995",
+          "form_01a": "10@18",
+          "layout_01b": "1@2.2",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "heading_03": "10@18",
+          "landmark_01": "10@18",
+          "listitem_01": "10@18",
+          "list_02": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "3@1@1",
+      "score": "7.1"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-21T23:41:06.930Z",
+    "requestedUrl": "https://confresa.mt.gov.br/ouvidoria/"
+  }
+}
