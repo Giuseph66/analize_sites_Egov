@@ -1,0 +1,2386 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt\" class=\" \"><head><meta http-equiv=\"origin-trial\" content=\"A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\">\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Prefeitura Municipal de Rondolândia</title>\n    <!-- Brasão -->\n    <link rel=\"shortcut icon\" href=\"https://rondolandia.mt.gov.br/site/img/Logos/Brasao.png\">\n    <!-- Vendor's -->\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/bootstrap-icons/bootstrap-icons.css\">\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/bootstrap/css/bootstrap.css\">\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/swiper/swiper-bundle.min.css\">\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/glightbox/css/glightbox.css\">\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/sweetalert2/dist/sweetalert2.min.css\">\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/fontawesome-free/css/all.min.css\">\n    <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/nprogress/nprogress.css\">\n\n            <link rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/vendor/aos/aos.css\">\n        <!-- Style -->\n    <link id=\"theme-style\" rel=\"stylesheet\" href=\"https://rondolandia.mt.gov.br/site/css/style.css\">\n</head>\n\n<body data-aos-easing=\"ease\" data-aos-duration=\"400\" data-aos-delay=\"0\">\n\n    <div id=\"topbar\" class=\"d-flex align-items-center fixed-top\">\n  <div class=\"container d-flex justify-content-between\">\n    <div class=\"contact-info d-flex align-items-center\">\n      <i class=\"bi bi-chat\"></i> <a href=\"https://rondolandia.mt.gov.br/ouvidoria\">Ouvidoria</a>\n      <i class=\"bi bi-globe\"></i> <a href=\"https://rondolandia.mt.gov.br/transparencia\">Transparência</a>\n      <i class=\"bi bi-info-circle\"></i> <a href=\"https://rondolandia.mt.gov.br/esic\">E-SIC</a>\n\n    </div>\n    <div class=\"d-lg-flex social-links align-items-center\">\n    <a href=\"https://www.instagram.com/prefeituraderondolandia/\" title=\"Instagram\" target=\"_blank\" class=\"instagram d-none d-md-flex\"><i class=\"bi bi-instagram\"></i></a>    <a href=\"https://www.facebook.com/prefeituraderondolandia/\" title=\"facebook\" target=\"_blank\" class=\"facebook d-none d-md-flex\"><i class=\"bi bi-facebook\"></i></a>       <a href=\"https://www.youtube.com/@prefeiturarondolandia9452\" title=\"YouTube\" target=\"_blank\" class=\"youtube d-none d-md-flex\"><i class=\"bi bi-youtube\"></i></a>             <a href=\"#\" id=\"increaseFont\" class=\"font-size-up d-none d-md-flex\" title=\"Aumentar Fonte\"><i class=\"fas fa-magnifying-glass-plus\"></i></a>\n      <a href=\"#\" id=\"decreaseFont\" class=\"font-size-down d-none d-md-flex\" title=\"Diminuir Fonte\"><i class=\"fas fa-magnifying-glass-minus\"></i></a>\n      <a href=\"#\" class=\"contrast\" title=\"Alto Contraste\"><i class=\"bi bi-circle-half\"></i></a>\n      </div>\n  </div>\n</div>\n\n<header id=\"header\" class=\"fixed-top\">\n  <div class=\"container d-flex align-items-center\">\n\n\n  <a href=\"https://rondolandia.mt.gov.br/inicio\" class=\"logo me-auto\">\n    <img id=\"logo-img\" src=\"https://rondolandia.mt.gov.br/site/img/Logos/Logo.png\" alt=\"Brasao\" class=\"img-fluid\">\n  </a>\n\n\n    <nav id=\"navbar\" class=\"navbar order-last order-lg-0\">\n      <ul>\n        <li class=\"dropdown\"><a href=\"#\"><span>Prefeitura</span> <i class=\"bi bi-chevron-down\"></i></a>\n          <ul>\n            <li><a href=\"https://rondolandia.mt.gov.br/instituicao\">Instituição</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/prefeito\">Prefeito(a)</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/vice-prefeito\">Vice-Prefeito(a)</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/secretarios\">Secretários</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/estruturas-organizacionais\">Estruturas Organizacionais</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/politica-de-privacidade\">Política de Privacidade</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/faq\">FAQs</a></li>\n          </ul>\n        </li>\n        <li><a class=\"nav-link scrollto\" href=\"https://rondolandia.mt.gov.br/noticias\">Notícias</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"https://rondolandia.mt.gov.br/galerias\">Galerias</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"https://rondolandia.mt.gov.br/videos\">Vídeos</a></li>\n        \n        <li class=\"dropdown w-100\"><a href=\"#\"><span>Publicações</span> <i class=\"bi bi-chevron-down\"></i></a>  \n          <ul>\n              <li><a href=\"https://rondolandia.mt.gov.br/legislacoes\">Legislação</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/obras\">Obras do Município</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/concursos\">Concursos</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/diariooficial\">Diário Oficial</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/secretaria-da-educacao\">Secretaria da Educação</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/secretaria-de-saude\">Secretaria de Saúde</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/processos-seletivos\">Processos Seletivos</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/pnab\">PNAB</a></li>\n              <li><a href=\"https://rondolandia.mt.gov.br/publicacoes\">Outras Publicações</a></li>\n          </ul>\n        </li>\n        \n        <li class=\"dropdown\"><a href=\"#\"><span>Transparência</span> <i class=\"bi bi-chevron-down\"></i></a>\n          <ul>\n            <li class=\"dropdown\"><a href=\"#\"><span>Transparência Pública</span> <i class=\"bi bi-chevron-right\"></i></a>\n              <ul>\n                <li><a href=\"https://rondolandia.mt.gov.br/transparencia\">Portal da Transparência</a></li>\n                <li><a href=\"https://rondolandia.mt.gov.br/portal\">Portal Fiscal</a></li>\n              </ul>\n            </li>\n            <li class=\"dropdown\"><a href=\"#\"><span>Licitações, Contratos e Editais</span> <i class=\"bi bi-chevron-right\"></i></a>\n              <ul>\n                <li><a href=\"https://rondolandia.mt.gov.br/licitacoes\">Licitações</a></li>\n                <li><a href=\"https://rondolandia.mt.gov.br/editais\">Editais de Licitações</a></li>\n                <li><a href=\"https://rondolandia.mt.gov.br/contratos\">Contratos de Licitações</a></li>\n                                  <li><a href=\"https://rondolandia.mt.gov.br/documentos\">Outros Documentos de Licitações</a></li>\n                              </ul>\n            </li>\n            <li class=\"dropdown\"><a href=\"#\"><span>Convênios</span> <i class=\"bi bi-chevron-right\"></i></a>\n              <ul>\n                <li><a href=\"https://rondolandia.mt.gov.br/portal?recurso=dados_convenios\">Dados de Convênios</a></li>\n                <li><a href=\"https://rondolandia.mt.gov.br/portal?recurso=convenios\">Outros</a></li>\n              </ul>\n            </li>\n            <li><a href=\"https://rondolandia.mt.gov.br/mapa\">Mapa do Site</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/emendas-parlamentares\">Emendas Parlamentares</a></li>\n\n          </ul>\n        </li>\n      </ul>\n      <i class=\"bi bi-list mobile-nav-toggle\"></i>\n    </nav>\n    <a href=\"https://rondolandia.mt.gov.br/acessibilidade\" class=\"header-btn scrollto bold\"><i class=\"fa-solid fa-wheelchair\"></i></a>\n  </div>\n</header>\n    <br><br><br><br><br><br>\n\n    \n<style>\n    .ouvidoria-card{\n        transition: all .3s ease;\n    }\n    .ouvidoria-card:hover{\n        transform: translateY(-10px);\n    }\n</style>\n\n<div class=\"container mt-5 mb-5\">\n        <nav aria-label=\"breadcrumb\">\n            <ol class=\"breadcrumb\">\n            <li class=\"breadcrumb-item\"><a href=\"https://rondolandia.mt.gov.br/inicio\">Início</a></li>\n            <li class=\"breadcrumb-item active\" aria-current=\"page\">Ouvidoria</li>\n            </ol>\n        </nav>\n        <div class=\"section-title\">\n            <h2>Ouvidoria</h2>\n            <p>Mande-nos uma mensagem através deste canal.</p>\n        </div>\n        <div class=\"ouvidoria\">\n                        <div class=\"card\">\n                <div class=\"card-body\">\n                    <section id=\"ouvidoria\" class=\"mb-5\">\n                        <div class=\"container\">\n                            <div class=\"row justify-content-center mt-3\">\n                                <div class=\"col-lg-12\">\n                                    <form action=\"https://rondolandia.mt.gov.br/ouvidoria\" method=\"POST\">\n                                        <input type=\"hidden\" name=\"_token\" value=\"mEtglFqd0qUTmsur6N60KCydqG9YwPLArDOLaKKL\" autocomplete=\"off\">                                        <input type=\"hidden\" name=\"_method\" value=\"POST\">                                        <input type=\"hidden\" name=\"tipo\" id=\"tipo\" value=\"1\">\n                                        <div class=\"row\">\n                                            <div class=\"form-group mt-3 mb-3 col-md-12\">\n                                                <label for=\"setor\">Setor<span>*</span></label>\n                                                <select class=\"form-control \" id=\"setor\" name=\"setor\">\n                                                    <option>Escolha um Setor...</option>\n                                                                                                            <option value=\"1\">SECRETARIA DE ASSISTENCIA SOCIAL</option>\n                                                                                                            <option value=\"2\">SECRETARIA DE EDUCAÇÃO, ESPORTE E CULTURA</option>\n                                                                                                            <option value=\"3\">SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS</option>\n                                                                                                            <option value=\"4\">SECRETARIA DE SAÚDE</option>\n                                                                                                            <option value=\"5\">SECRETARIA DE MEIO AMBIENTE</option>\n                                                                                                            <option value=\"6\">SECRETARIA DE FINANÇAS E ORÇAMENTO</option>\n                                                                                                            <option value=\"7\">SECRETARIA DE ADMINISTRAÇÃO</option>\n                                                                                                            <option value=\"8\">SECRETARIA DE AGRICULTURA</option>\n                                                                                                            <option value=\"9\">DEPARTAMENTO DE RECURSOS HUMANOS - RH</option>\n                                                                                                            <option value=\"10\">DEPARTAMENTO DE LICITAÇÃO</option>\n                                                                                                            <option value=\"11\">DEPARTAMENTO DE CONVÊNIOS E ENGENHARIA</option>\n                                                                                                            <option value=\"12\">DEPARTAMENTO DE CONTABILIDADE</option>\n                                                                                                            <option value=\"14\">CONTROLADORIA GERAL DO MUNICÍPIO</option>\n                                                                                                            <option value=\"15\">PROCURADORIA GERAL DO MUNICÍPIO</option>\n                                                                                                    </select>\n                                                                                            </div>\n                                            <div class=\"form-group col-md-6\">\n                                                <label for=\"nome\">Seu Nome<span>*</span></label>\n                                                <input type=\"text\" id=\"nome\" name=\"nome\" class=\"form-control \" placeholder=\"Nome\" value=\"\">\n                                                                                            </div>\n                                            <div class=\"form-group mt-3 mt-md-0 col-md-6\">\n                                                <label for=\"cpfcnpj\">Seu CPF/CNPJ<span>*</span></label>\n                                                <input type=\"text\" id=\"cpfcnpj\" class=\"form-control \" placeholder=\"CPF/CNPJ\" name=\"cpfcnpj\" value=\"\">\n                                                                                            </div>\n                                            <div class=\"form-group mt-3 col-md-6\">\n                                                <label for=\"telefone\">Seu Telefone<span>*</span></label>\n                                                <input type=\"text\" id=\"telefone\" name=\"telefone\" class=\"form-control \" placeholder=\"(00) 00000-0000\" value=\"\" maxlength=\"15\">\n                                                                                            </div>\n                                            <div class=\"form-group mt-3 col-md-6\">\n                                                <label for=\"email\">Seu Email<span>*</span></label>\n                                                <input type=\"email\" id=\"email\" class=\"form-control \" name=\"email\" autocomplete=\"email\" placeholder=\"nome@exemplo.com\" value=\"\">\n                                                                                            </div>\n                                            <div class=\"form-group mt-3 col-md-3\">\n                                                <label for=\"cep\">CEP<span>*</span></label>\n                                                <input type=\"text\" id=\"cep\" class=\"form-control \" name=\"cep\" placeholder=\"00000-000\" value=\"\" maxlength=\"9\">\n                                                                                                </div>\n                                            <div class=\"form-group mt-3 col-md-8\">\n                                                <label for=\"endereco\">Seu Endereço<span>*</span></label>\n                                                <input type=\"text\" id=\"endereco\" class=\"form-control \" name=\"endereco\" placeholder=\"Endereço\" value=\"\">\n                                                                                                </div>\n                                            <div class=\"form-group mt-3 col-md-1\">\n                                                <label for=\"numero\">Número</label>\n                                                <input type=\"number\" id=\"numero\" class=\"form-control \" name=\"numero\" placeholder=\"N°\" value=\"\">\n                                                                                                </div>\n                                            <div class=\"form-group mt-3 col-md-4\">\n                                                <label for=\"bairro\">Bairro <span>*</span></label>\n                                                <input type=\"bairro\" id=\"bairro\" class=\"form-control \" name=\"bairro\" placeholder=\"Bairro\" value=\"\">\n                                                                                                </div>\n                                            <div class=\"form-group mt-3 col-md-4\">\n                                                <label for=\"cidade\">Cidade <span>*</span></label>\n                                                <input type=\"cidade\" id=\"cidade\" class=\"form-control \" name=\"cidade\" placeholder=\"Cidade\" value=\"\">\n                                                                                                </div>\n                                            <div class=\"form-group mt-3 col-md-4\">\n                                                <label for=\"estado\">Estado <span>*</span></label>\n                                                <input type=\"estado\" id=\"estado\" class=\"form-control \" name=\"estado\" placeholder=\"Estado\" value=\"\">\n                                                                                                </div>\n                                            <div class=\"form-group mt-3\">\n                                                <label for=\"mensagem\">Mensagem<span>*</span></label>\n                                                <textarea class=\"form-control \" id=\"mensagem\" name=\"mensagem\" rows=\"5\" placeholder=\"Mensagem\"></textarea>\n                                                                                                </div>\n                                            <div class=\"form-group mt-3 d-flex justify-content-center\">\n                                                <div class=\"g-recaptcha\" data-sitekey=\"\"></div>\n                                                                                            </div>\n                                            <div class=\" text-center\">\n                                                <button class=\"btn mt-5 appointment-btn\" type=\"submit\">Enviar\n                                                    Mensagem</button>\n                                            </div>\n                                        </div>\n                                    </form>\n                                </div>\n                            </div>\n                        </div>\n                    </section>\n                    <small>Campos com [<span class=\"text-danger\">*</span>] são obrigatórios</small>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n\n    <footer id=\"footer\" class=\"footer\">\n\n    <div class=\"container footer-top\">\n      <div class=\"row gy-4\">\n        <div class=\"col-lg-4 col-md-6 footer-about\">\n          <div class=\"footer-contact pt-3\">\n                        <p>PRINCIPAL, 450, CENTRO</p>\n              <p>RONDOLANDIA- 78338000</p>\n              <p class=\"mt-3\"><strong>Telefone:</strong> <span>(66) 40622-778</span></p>\n              <p><strong>Email:</strong> <span>gabinete@rondolandia.mt.gov.br</span></p>\n                    </div>\n          <div class=\"social-links d-flex mt-4\">\n            <a href=\"https://www.instagram.com/prefeituraderondolandia/\" target=\"_blank\" class=\"instagram\"><i class=\"bi bi-instagram\"></i></a>            <a href=\"https://www.facebook.com/prefeituraderondolandia/\" target=\"_blank\" class=\"facebook\"><i class=\"bi bi-facebook\"></i></a>             <a href=\"https://www.youtube.com/@prefeiturarondolandia9452\" target=\"_blank\" class=\"youtube\"><i class=\"bi bi-youtube\"></i></a>                       </div>\n        </div>\n\n        <div class=\"col-lg-2 col-md-3 footer-links\">\n          <h4>Navegação</h4>\n          <ul>\n            <li><a href=\"https://rondolandia.mt.gov.br/noticias\">Notícias</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/videos\">Vídeos</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/ouvidoria\">Ouvidoria</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/esic\">E-SIC</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/politica-de-privacidade\">Política de Privacidade</a></li>\n          </ul>\n        </div>\n\n        <div class=\"col-lg-2 col-md-3 footer-links\">\n          <h4>Guias e Manuais</h4>\n          <ul>\n            <li><a href=\"https://www.gov.br/plataformamaisbrasil/pt-br/ajuda/glossario\">Glossário</a></li>\n            <li><a href=\"https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/vlibras\">VLibras</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/acessibilidade\">Acessibilidade</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/mapa\">Mapa do Site</a></li>      \n            <li><a href=\"https://rondolandia.mt.gov.br/faq\">FAQ</a></li>              \n            <li><a href=\"https://rondolandia.mt.gov.br/emendas-parlamentares\">Emendas Parlamentares</a></li>\n          </ul>\n        </div>\n\n        <div class=\"col-lg-2 col-md-3 footer-links\">\n          <h4>Documentos</h4>\n          <ul>\n            <li><a href=\"https://rondolandia.mt.gov.br/legislacoes\">Legislações</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/publicacoes\">Publicações</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/contratos\">Contratos de Licitação</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/editais\">Editais de Licitação</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/obras\">Obras</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/concursos\">Concursos</a></li>\n          </ul>\n        </div>\n\n        <div class=\"col-lg-2 col-md-3 footer-links\">\n          <h4>Fiscal</h4>\n          <ul>\n            <li><a href=\"https://rondolandia.mt.gov.br/transparencia\">Transparência Fiscal</a></li>\n            <li><a href=\"https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html\" target=\"_blank\">Radar da Transparência</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/portal?recurso=receitas\">Receitas Orçamentárias</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/portal?recurso=despesas\">Despesas Orçamentárias</a></li>\n            <li><a href=\"https://rondolandia.mt.gov.br/portal?recurso=frota\">Frota</a></li>\n          </ul>\n        </div>\n\n      </div>\n    </div>\n\n    <div class=\"container copyright text-center mt-4\">\n      <p><strong class=\"sitename\">Prefeitura Municipal de Rondolândia</strong> <span class=\"px-1 \">2026</span> © <span>Todos os direitos Reservados</span></p>\n      <div class=\"credits\">\n        Desenvolvido por <a style=\"color:#f26700;\" href=\"https://eticons.com.br/\" target=\"_blank\">E-Ticons</a> | Versão: 2.4.1\n      </div>\n    </div>\n\n  </footer>\n\n    <div vw=\"\" class=\"enabled\">\n      <div vw-access-button=\"\" class=\"active\"></div>\n        <div vw-plugin-wrapper=\"\">\n            <div class=\"vw-plugin-top-wrapper\"></div>\n        </div>\n    </div>\n\n    <a href=\"#\" class=\"back-to-top d-flex align-items-center justify-content-center\"><i class=\"bi bi-arrow-up-short\"></i></a>\n\n    <div class=\"alert text-center cookiealert\" role=\"alert\">\n🍪 Usamos cookies essenciais para melhor experiência, ao navegar você concorda com isso.\n\n    <button type=\"button\" class=\"btn btn-cookies btn-sm acceptcookies\">\n        Aceito\n    </button>\n</div>\n    <script type=\"text/javascript\" async=\"\" charset=\"utf-8\" src=\"https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js\" crossorigin=\"anonymous\" integrity=\"sha384-zKvX1tZtoUZjakAq6NG+v14XLO6jHaCtSniDaDnvzrORQB0ysw4QsbpTR9k0YMmj\"></script><script src=\"https://rondolandia.mt.gov.br/site/vendor/nprogress/nprogress.js\"></script>\n\n    <script>\n        NProgress.start();\n    </script>\n\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf.min.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/@popperjs/core/dist/umd/popper.min.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/bootstrap/js/bootstrap.bundle.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/jquery/jquery3.7.1.min.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/jquery/jquery.mask.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/bootstrap/js/bootstrap.bundle.min.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/swiper/swiper-bundle.min.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/glightbox/js/glightbox.min.js\"></script>\n    <script src=\"https://rondolandia.mt.gov.br/site/vendor/sweetalert2/dist/sweetalert2.all.min.js\"></script>\n            <script src=\"https://rondolandia.mt.gov.br/site/vendor/aos/aos.js\"></script>\n    \n    <script src=\"https://rondolandia.mt.gov.br/site/js/cookies.js\"></script>\n\n    <script src=\"https://rondolandia.mt.gov.br/site/js/main.js\"></script>\n\n    <script src=\"https://rondolandia.mt.gov.br/site/js/theme.js\"></script>\n\n    <script src=\"https://rondolandia.mt.gov.br/site/js/submit-prevent.js\"></script>\n\n    <script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\"></script>\n\n            <script>\n            AOS.init();\n        </script>\n    \n        \n    \n    \n    <script>\n        new window.VLibras.Widget('https://vlibras.gov.br/app');\n    </script><div id=\"vlibras-access-wrapper\"></div>\n\n    <script>\n        document.addEventListener('DOMContentLoaded', function () {\n            return;\n\n            const cookieName = 'pesquisa_satisfacao_avaliada';\n\n            function getCookie(name) {\n                return document.cookie.split('; ').find(function (cookie) {\n                    return cookie.indexOf(name + '=') === 0;\n                });\n            }\n\n            function setCookie(name, value, days) {\n                const date = new Date();\n                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));\n                document.cookie = name + '=' + value + '; expires=' + date.toUTCString() + '; path=/; SameSite=Lax';\n            }\n\n            if (getCookie(cookieName) || typeof Swal === 'undefined') {\n                return;\n            }\n\n            setTimeout(function () {\n                Swal.fire({\n                    title: 'O que está achando dos nossos serviços?',\n                    html:\n                        '<div class=\"text-start\">' +\n                        '<input id=\"swal-nota\" type=\"hidden\">' +\n                        '<div id=\"swal-estrelas\" class=\"text-center mb-3\" style=\"font-size: 2.2rem; line-height: 1;\">' +\n                        '<button type=\"button\" class=\"btn btn-link p-1 text-secondary estrela-satisfacao\" data-nota=\"1\" aria-label=\"1 estrela\">☆</button>' +\n                        '<button type=\"button\" class=\"btn btn-link p-1 text-secondary estrela-satisfacao\" data-nota=\"2\" aria-label=\"2 estrelas\">☆</button>' +\n                        '<button type=\"button\" class=\"btn btn-link p-1 text-secondary estrela-satisfacao\" data-nota=\"3\" aria-label=\"3 estrelas\">☆</button>' +\n                        '<button type=\"button\" class=\"btn btn-link p-1 text-secondary estrela-satisfacao\" data-nota=\"4\" aria-label=\"4 estrelas\">☆</button>' +\n                        '<button type=\"button\" class=\"btn btn-link p-1 text-secondary estrela-satisfacao\" data-nota=\"5\" aria-label=\"5 estrelas\">☆</button>' +\n                        '</div>' +\n                        '<label for=\"swal-comentario\" class=\"form-label\">Comentário <small class=\"text-muted\">(opcional)</small></label>' +\n                        '<textarea id=\"swal-comentario\" class=\"form-control\" rows=\"3\"></textarea>' +\n                        '</div>',\n                    confirmButtonText: 'Enviar avaliação',\n                    showCancelButton: true,\n                    cancelButtonText: 'Agora não',\n                    focusConfirm: false,\n                    didOpen: function () {\n                        const estrelas = document.querySelectorAll('.estrela-satisfacao');\n                        const notaInput = document.getElementById('swal-nota');\n\n                        estrelas.forEach(function (estrela) {\n                            estrela.addEventListener('click', function () {\n                                const nota = parseInt(estrela.getAttribute('data-nota'));\n                                notaInput.value = nota;\n\n                                estrelas.forEach(function (item) {\n                                    const itemNota = parseInt(item.getAttribute('data-nota'));\n                                    item.textContent = itemNota <= nota ? '★' : '☆';\n                                    item.classList.toggle('text-warning', itemNota <= nota);\n                                    item.classList.toggle('text-secondary', itemNota > nota);\n                                });\n                            });\n                        });\n                    },\n                    preConfirm: function () {\n                        const nota = document.getElementById('swal-nota').value;\n\n                        if (!nota) {\n                            Swal.showValidationMessage('Clique em uma estrela para enviar sua avaliação.');\n                            return false;\n                        }\n\n                        return fetch('https://rondolandia.mt.gov.br/pesquisa-satisfacao', {\n                            method: 'POST',\n                            headers: {\n                                'Accept': 'application/json',\n                                'Content-Type': 'application/json',\n                                'X-CSRF-TOKEN': 'mEtglFqd0qUTmsur6N60KCydqG9YwPLArDOLaKKL'\n                            },\n                            body: JSON.stringify({\n                                servico: 'Site',\n                                nota: nota,\n                                comentario: document.getElementById('swal-comentario').value\n                            })\n                        }).then(function (response) {\n                            if (!response.ok) {\n                                throw new Error('Não foi possível registrar a avaliação.');\n                            }\n\n                            return response.json();\n                        }).catch(function (error) {\n                            Swal.showValidationMessage(error.message);\n                        });\n                    }\n                }).then(function (result) {\n                    if (result.isConfirmed) {\n                        setCookie(cookieName, '1', 365);\n                        Swal.fire({\n                            toast: true,\n                            position: 'top',\n                            icon: 'success',\n                            text: 'Obrigado pela avaliação!',\n                            showConfirmButton: false,\n                            timerProgressBar: true,\n                            timer: 3000\n                        });\n                    } else if (result.dismiss === Swal.DismissReason.cancel) {\n                        setCookie(cookieName, 'adiado', 1);\n                    }\n                });\n            }, 2500);\n        });\n    </script>\n    \n    <script src=\"https://www.google.com/recaptcha/api.js\" async=\"\" defer=\"\"></script>\n\n<script>\n    $('#cpfcnpj').on('input', function () {\n        var value = $(this).val().replace(/\\D/g, '');\n        var maskedValue;\n\n        if (value.length <= 11) {\n            maskedValue = value.replace(/^(\\d{3})(\\d{3})(\\d{3})(\\d{0,2}).*/, '$1.$2.$3-$4');\n        } else {\n            maskedValue = value.replace(/^(\\d{2})(\\d{3})(\\d{3})(\\d{4})(\\d{0,2}).*/, '$1.$2.$3/$4-$5');\n        }\n\n        $(this).val(maskedValue);\n    });\n    $(document).ready(function () {\n        $('#telefone').mask('(00) 00000-0000');\n    });\n    $(document).ready(function () {\n        $('#cep').mask('00000-000');\n    });\n</script>\n<script>\n    $(document).ready(function() {\n        $('#cep').blur(function() {\n            const cep = $(this).val().replace(/\\D/g, '');\n            \n            if (cep) {\n                const url = `https://viacep.com.br/ws/${cep}/json/`;\n                \n                $.ajax({\n                    url: url,\n                    dataType: 'json',\n                    success: function(data) {\n                        if (!data.erro) {\n                            $('#endereco').val(data.logradouro, data.bairro);\n                            $('#cidade').val(data.localidade);\n                            $('#bairro').val(data.bairro);\n                            $('#estado').val(data.uf);\n                        } else {\n                            alert(\"CEP não encontrado!\");\n                        }\n                    },\n                    error: function(jqXHR, textStatus, errorThrown) {\n                        Swal.fire({\n                            icon: 'error',\n                            title: 'Atenção',\n                            text: 'CEP não encontrado! Verifique o CEP digitado e tente novamente.',\n                            showConfirmButton: true,\n                            timer: 100000\n                        });\n                    }\n                });\n            } else {\n                Swal.fire({\n                    icon: 'warning',\n                    title: 'Atenção',\n                    text: 'CEP não encontrado! Verifique o CEP digitado e tente novamente.',\n                    showConfirmButton: true,\n                    timer: 100000\n                });\n            }\n        });\n    });\n  </script>\n\n\n\n</body></html>",
+    "data": {
+      "title": "Prefeitura Municipal de Rondolândia",
+      "rawUrl": "https://rondolandia.mt.gov.br/ouvidoria?tipo=1",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 2,
+        "buttonAname": 2,
+        "a": 44,
+        "linkAName": 44,
+        "elementDec": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaStPermitted": 2,
+        "ariaAtribDefined": 2,
+        "ariaStValid": 2,
+        "linkIdentAName": 3,
+        "img": 2,
+        "autoCmpltValid": 1,
+        "hxHasAName": 5,
+        "headers": 0,
+        "elementHiddenFocus": 1,
+        "menuItem": 0,
+        "id": 89,
+        "colorContrast": 1,
+        "elementPresentChildrenNoFocus": 5,
+        "textContrastHNot": 1,
+        "hxSkip": 1,
+        "aSkipFirstNo": 1,
+        "focusBlur": 1,
+        "colorFgBgNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 6,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "bannerTopLevel": 1,
+        "li": 30,
+        "liSemantically": 30,
+        "listCorrectly": 12,
+        "contentinfoTopLevel": 1,
+        "idAtt": 29,
+        "area": 0,
+        "inpImg": 74,
+        "label": 15,
+        "form": 1,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Prefeitura Municipal de Rondolândia</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt\" class=\" \"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn mt-5 appointment-btn\" type=\"submit\">Enviar\n                                                    Mensagem</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(14) > button:nth-child(1)",
+                "accessibleName": "Enviar\n                                                    Mensagem"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/ouvidoria\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/transparencia\">Transparência</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)",
+                "accessibleName": "Transparência"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/esic\">E-SIC</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)",
+                "accessibleName": "E-SIC"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/prefeituraderondolandia/\" title=\"Instagram\" target=\"_blank\" class=\"instagram d-none d-md-flex\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/prefeituraderondolandia/\" title=\"facebook\" target=\"_blank\" class=\"facebook d-none d-md-flex\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.youtube.com/@prefeiturarondolandia9452\" title=\"YouTube\" target=\"_blank\" class=\"youtube d-none d-md-flex\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\" id=\"increaseFont\" class=\"font-size-up d-none d-md-flex\" title=\"Aumentar Fonte\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(4)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\" id=\"decreaseFont\" class=\"font-size-down d-none d-md-flex\" title=\"Diminuir Fonte\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(5)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\" class=\"contrast\" title=\"Alto Contraste\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(6)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/inicio\" class=\"logo me-auto\">\n    \n  </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Brasao"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\">Prefeitura </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Prefeitura"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link scrollto\" href=\"https://rondolandia.mt.gov.br/noticias\">Notícias</a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Notícias"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link scrollto\" href=\"https://rondolandia.mt.gov.br/galerias\">Galerias</a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Galerias"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"nav-link scrollto\" href=\"https://rondolandia.mt.gov.br/videos\">Vídeos</a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Vídeos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\">Publicações </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "Publicações"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\">Transparência </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)",
+                "accessibleName": "Transparência"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/acessibilidade\" class=\"header-btn scrollto bold\"></a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > a:nth-child(3)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/inicio\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Início"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/prefeituraderondolandia/\" target=\"_blank\" class=\"instagram\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/prefeituraderondolandia/\" target=\"_blank\" class=\"facebook\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.youtube.com/@prefeiturarondolandia9452\" target=\"_blank\" class=\"youtube\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/noticias\">Notícias</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Notícias"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/videos\">Vídeos</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Vídeos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/ouvidoria\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/esic\">E-SIC</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "E-SIC"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/politica-de-privacidade\">Política de Privacidade</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "Política de Privacidade"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.gov.br/plataformamaisbrasil/pt-br/ajuda/glossario\">Glossário</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Glossário"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/vlibras\">VLibras</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "VLibras"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/acessibilidade\">Acessibilidade</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Acessibilidade"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/mapa\">Mapa do Site</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Mapa do Site"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/faq\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "FAQ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/emendas-parlamentares\">Emendas Parlamentares</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1)",
+                "accessibleName": "Emendas Parlamentares"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/legislacoes\">Legislações</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Legislações"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/publicacoes\">Publicações</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Publicações"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/contratos\">Contratos de Licitação</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Contratos de Licitação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/editais\">Editais de Licitação</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Editais de Licitação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/obras\">Obras</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "Obras"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/concursos\">Concursos</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1)",
+                "accessibleName": "Concursos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/transparencia\">Transparência Fiscal</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Transparência Fiscal"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html\" target=\"_blank\">Radar da Transparência</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Radar da Transparência"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/portal?recurso=receitas\">Receitas Orçamentárias</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Receitas Orçamentárias"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/portal?recurso=despesas\">Despesas Orçamentárias</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+                "accessibleName": "Despesas Orçamentárias"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/portal?recurso=frota\">Frota</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+                "accessibleName": "Frota"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a style=\"color:#f26700;\" href=\"https://eticons.com.br/\" target=\"_blank\">E-Ticons</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "E-Ticons"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"breadcrumb\">\n            \n            Início\n            Ouvidoria\n            \n        </nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `aria-current` property is supported or inherited by the `role` listitem.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active\" aria-current=\"page\">Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"breadcrumb\">\n            \n            Início\n            Ouvidoria\n            \n        </nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active\" aria-current=\"page\">Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav aria-label=\"breadcrumb\">\n            \n            Início\n            Ouvidoria\n            \n        </nav>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-current` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active\" aria-current=\"page\">Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkIdentAName": [
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/prefeituraderondolandia/\" target=\"_blank\" class=\"instagram\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com/prefeituraderondolandia/\" title=\"Instagram\" target=\"_blank\" class=\"instagram d-none d-md-flex\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/prefeituraderondolandia/\" target=\"_blank\" class=\"facebook\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              },
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/prefeituraderondolandia/\" title=\"facebook\" target=\"_blank\" class=\"facebook d-none d-md-flex\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.youtube.com/@prefeiturarondolandia9452\" target=\"_blank\" class=\"youtube\"></a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)"
+              },
+              {
+                "htmlCode": "<a href=\"https://www.youtube.com/@prefeiturarondolandia9452\" title=\"YouTube\" target=\"_blank\" class=\"youtube d-none d-md-flex\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select class=\"form-control \" id=\"setor\" name=\"setor\">\n                                                    Escolha um Setor...\n                                                                                                            SECRETARIA DE ASSISTENCIA SOCIAL\n                                                                                                            SECRETARIA DE EDUCAÇÃO, ESPORTE E CULTURA\n                                                                                                            SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS\n                                                                                                            SECRETARIA DE SAÚDE\n                                                                                                            SECRETARIA DE MEIO AMBIENTE\n                                                                                                            SECRETARIA DE FINANÇAS E ORÇAMENTO\n                                                                                                            SECRETARIA DE ADMINISTRAÇÃO\n                                                                                                            SECRETARIA DE AGRICULTURA\n                                                                                                            DEPARTAMENTO DE RECURSOS HUMANOS - RH\n                                                                                                            DEPARTAMENTO DE LICITAÇÃO\n                                                                                                            DEPARTAMENTO DE CONVÊNIOS E ENGENHARIA\n                                                                                                            DEPARTAMENTO DE CONTABILIDADE\n                                                                                                            CONTROLADORIA GERAL DO MUNICÍPIO\n                                                                                                            PROCURADORIA GERAL DO MUNICÍPIO\n                                                                                                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(1) > select:nth-child(2)",
+                "accessibleName": "Setor *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"nome\" name=\"nome\" class=\"form-control \" placeholder=\"Nome\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > input:nth-child(2)",
+                "accessibleName": "Seu Nome *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"cpfcnpj\" class=\"form-control \" placeholder=\"CPF/CNPJ\" name=\"cpfcnpj\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(3) > input:nth-child(2)",
+                "accessibleName": "Seu CPF/CNPJ *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"telefone\" name=\"telefone\" class=\"form-control \" placeholder=\"(00) 00000-0000\" value=\"\" maxlength=\"15\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(4) > input:nth-child(2)",
+                "accessibleName": "Seu Telefone *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"email\" id=\"email\" class=\"form-control \" name=\"email\" autocomplete=\"email\" placeholder=\"nome@exemplo.com\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(5) > input:nth-child(2)",
+                "accessibleName": "Seu Email *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"cep\" class=\"form-control \" name=\"cep\" placeholder=\"00000-000\" value=\"\" maxlength=\"9\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(6) > input:nth-child(2)",
+                "accessibleName": "CEP *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"endereco\" class=\"form-control \" name=\"endereco\" placeholder=\"Endereço\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(7) > input:nth-child(2)",
+                "accessibleName": "Seu Endereço *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"number\" id=\"numero\" class=\"form-control \" name=\"numero\" placeholder=\"N°\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(8) > input:nth-child(2)",
+                "accessibleName": "Número"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea class=\"form-control \" id=\"mensagem\" name=\"mensagem\" rows=\"5\" placeholder=\"Mensagem\"></textarea>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(12) > textarea:nth-child(2)",
+                "accessibleName": "Mensagem *"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"logo-img\" src=\"https://rondolandia.mt.gov.br/site/img/Logos/Logo.png\" alt=\"Brasao\" class=\"img-fluid\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Brasao"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "autoCmpltValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `autocomplete` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"email\" id=\"email\" class=\"form-control \" name=\"email\" autocomplete=\"email\" placeholder=\"nome@exemplo.com\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(5) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Ouvidoria</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(2) > h2:nth-child(1)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Navegação</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)",
+                "accessibleName": "Navegação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Guias e Manuais</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h4:nth-child(1)",
+                "accessibleName": "Guias e Manuais"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Documentos</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > h4:nth-child(1)",
+                "accessibleName": "Documentos"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Fiscal</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > h4:nth-child(1)",
+                "accessibleName": "Fiscal"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a style=\"color:#f26700;\" href=\"https://eticons.com.br/\" target=\"_blank\">E-Ticons</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"logo-img\" src=\"https://rondolandia.mt.gov.br/site/img/Logos/Logo.png\" alt=\"Brasao\" class=\"img-fluid\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn mt-5 appointment-btn\" type=\"submit\">Enviar\n                                                    Mensagem</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(14) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"btn btn-cookies btn-sm acceptcookies\">\n        Aceito\n    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(14) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a style=\"color:#f26700;\" href=\"https://eticons.com.br/\" target=\"_blank\">E-Ticons</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxSkip": [
+          {
+            "verdict": "failed",
+            "description": "Headings are not in the correct order.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Ouvidoria</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page does not links to local content.",
+            "resultCode": "F3",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://rondolandia.mt.gov.br/ouvidoria\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "formSubmit": [
+          {
+            "verdict": "passed",
+            "description": "The form contains one of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form action=\"https://rondolandia.mt.gov.br/ouvidoria\" method=\"POST\">\n                                                                                                                        \n                                        \n                                            \n                                                Setor*\n                                                \n                                                    Escolha um Setor...\n                                                                                                            SECRETARIA DE ASSISTENCIA SOCIAL\n                                                                                                            SECRETARIA DE EDUCAÇÃO, ESPORTE E CULTURA\n                                                                                                            SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS\n                                                                                                            SECRETARIA DE SAÚDE\n                                                                                                            SECRETARIA DE MEIO AMBIENTE\n                                                                                                            SECRETARIA DE FINANÇAS E ORÇAMENTO\n                                                                                                            SECRETARIA DE ADMINISTRAÇÃO\n                                                                                                            SECRETARIA DE AGRICULTURA\n                                                                                                            DEPARTAMENTO DE RECURSOS HUMANOS - RH\n                                                                                                            DEPARTAMENTO DE LICITAÇÃO\n                                                                                                            DEPARTAMENTO DE CONVÊNIOS E ENGENHARIA\n                                                                                                            DEPARTAMENTO DE CONTABILIDADE\n                                                                                                            CONTROLADORIA GERAL DO MUNICÍPIO\n                                                                                                            PROCURADORIA GERAL DO MUNICÍPIO\n                                                                                                    \n                                                                                            \n                                            \n                                                Seu Nome*\n                                                \n                                                                                            \n                                            \n                                                Seu CPF/CNPJ*\n                                                \n                                                                                            \n                                            \n                                                Seu Telefone*\n                                                \n                                                                                            \n                                            \n                                                Seu Email*\n                                                \n                                                                                            \n                                            \n                                                CEP*\n                                                \n                                                                                                \n                                            \n                                                Seu Endereço*\n                                                \n                                                                                                \n                                            \n                                                Número\n                                                \n                                                                                                \n                                            \n                                                Bairro *\n                                                \n                                                                                                \n                                            \n                                                Cidade *\n                                                \n                                                                                                \n                                            \n                                                Estado *\n                                                \n                                                                                                \n                                            \n                                                Mensagem*\n                                                \n                                                                                                \n                                            \n                                                \n                                                                                            \n                                            \n                                                Enviar\n                                                    Mensagem\n                                            \n                                        \n                                    </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "focusBlur": [
+          {
+            "verdict": "failed",
+            "description": "Element didn't keep focus.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"endereco\" class=\"form-control \" name=\"endereco\" placeholder=\"Endereço\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(7) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorFgBgNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a style=\"color:#f26700;\" href=\"https://eticons.com.br/\" target=\"_blank\">E-Ticons</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Ouvidoria</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Navegação</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Guias e Manuais</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Documentos</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h4>Fiscal</h4>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > h4:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"swal2-title\" id=\"swal2-title\" style=\"display: block;\">Atenção</h2>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(6) > div:nth-of-type(1) > h2:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header id=\"header\" class=\"fixed-top\" aria-hidden=\"true\">\n  \n\n\n  \n    \n  \n\n\n    \n      \n        Prefeitura \n          \n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          \n        \n        Notícias\n        Galerias\n        Vídeos\n        \n        Publicações   \n          \n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          \n        \n        \n        Transparência \n          \n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          \n        \n      \n      \n    \n    \n  \n</header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer id=\"footer\" class=\"footer\" aria-hidden=\"true\">\n\n    \n      \n        \n          \n                        PRINCIPAL, 450, CENTRO\n              RONDOLANDIA- 78338000\n              Telefone: (66) 40622-778\n              Email: gabinete@rondolandia.mt.gov.br\n                    \n          \n                                                            \n        \n\n        \n          Navegação\n          \n            Notícias\n            Vídeos\n            Ouvidoria\n            E-SIC\n            Política de Privacidade\n          \n        \n\n        \n          Guias e Manuais\n          \n            Glossário\n            VLibras\n            Acessibilidade\n            Mapa do Site      \n            FAQ              \n            Emendas Parlamentares\n          \n        \n\n        \n          Documentos\n          \n            Legislações\n            Publicações\n            Contratos de Licitação\n            Editais de Licitação\n            Obras\n            Concursos\n          \n        \n\n        \n          Fiscal\n          \n            Transparência Fiscal\n            Radar da Transparência\n            Receitas Orçamentárias\n            Despesas Orçamentárias\n            Frota\n          \n        \n\n      \n    \n\n    \n      Prefeitura Municipal de Rondolândia 2026 © Todos os direitos Reservados\n      \n        Desenvolvido por E-Ticons | Versão: 2.4.1\n      \n    \n\n  </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header id=\"header\" class=\"fixed-top\" aria-hidden=\"true\">\n  \n\n\n  \n    \n  \n\n\n    \n      \n        Prefeitura \n          \n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          \n        \n        Notícias\n        Galerias\n        Vídeos\n        \n        Publicações   \n          \n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          \n        \n        \n        Transparência \n          \n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          \n        \n      \n      \n    \n    \n  \n</header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"dropdown\">Prefeitura \n          \n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          \n        </li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Notícias</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Galerias</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Vídeos</li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"dropdown w-100\">Publicações   \n          \n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          \n        </li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"dropdown\">Transparência \n          \n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          \n        </li>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item\">Início</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"breadcrumb-item active\" aria-current=\"page\">Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Notícias</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Vídeos</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>E-SIC</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Política de Privacidade</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Glossário</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>VLibras</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Acessibilidade</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Mapa do Site</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>FAQ</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Emendas Parlamentares</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Legislações</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Publicações</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Contratos de Licitação</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Editais de Licitação</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Obras</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Concursos</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Transparência Fiscal</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Radar da Transparência</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Receitas Orçamentárias</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Despesas Orçamentárias</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>Frota</li>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n        Prefeitura \n          \n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          \n        \n        Notícias\n        Galerias\n        Vídeos\n        \n        Publicações   \n          \n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          \n        \n        \n        Transparência \n          \n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          \n        \n      </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                Portal da Transparência\n                Portal Fiscal\n              </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > ul:nth-child(2) > li:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > ul:nth-child(2) > li:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                Dados de Convênios\n                Outros\n              </ul>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(6) > ul:nth-child(2) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ol class=\"breadcrumb\">\n            Início\n            Ouvidoria\n            </ol>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > nav:nth-child(1) > ol:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n            Notícias\n            Vídeos\n            Ouvidoria\n            E-SIC\n            Política de Privacidade\n          </ul>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n            Glossário\n            VLibras\n            Acessibilidade\n            Mapa do Site      \n            FAQ              \n            Emendas Parlamentares\n          </ul>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n            Legislações\n            Publicações\n            Contratos de Licitação\n            Editais de Licitação\n            Obras\n            Concursos\n          </ul>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n            Transparência Fiscal\n            Radar da Transparência\n            Receitas Orçamentárias\n            Despesas Orçamentárias\n            Frota\n          </ul>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer id=\"footer\" class=\"footer\" aria-hidden=\"true\">\n\n    \n      \n        \n          \n                        PRINCIPAL, 450, CENTRO\n              RONDOLANDIA- 78338000\n              Telefone: (66) 40622-778\n              Email: gabinete@rondolandia.mt.gov.br\n                    \n          \n                                                            \n        \n\n        \n          Navegação\n          \n            Notícias\n            Vídeos\n            Ouvidoria\n            E-SIC\n            Política de Privacidade\n          \n        \n\n        \n          Guias e Manuais\n          \n            Glossário\n            VLibras\n            Acessibilidade\n            Mapa do Site      \n            FAQ              \n            Emendas Parlamentares\n          \n        \n\n        \n          Documentos\n          \n            Legislações\n            Publicações\n            Contratos de Licitação\n            Editais de Licitação\n            Obras\n            Concursos\n          \n        \n\n        \n          Fiscal\n          \n            Transparência Fiscal\n            Radar da Transparência\n            Receitas Orçamentárias\n            Despesas Orçamentárias\n            Frota\n          \n        \n\n      \n    \n\n    \n      Prefeitura Municipal de Rondolândia 2026 © Todos os direitos Reservados\n      \n        Desenvolvido por E-Ticons | Versão: 2.4.1\n      \n    \n\n  </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"topbar\" class=\"d-flex align-items-center fixed-top\" aria-hidden=\"true\">\n  \n    \n       Ouvidoria\n       Transparência\n       E-SIC\n\n    \n    \n                            \n      \n      \n      \n  \n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\" id=\"increaseFont\" class=\"font-size-up d-none d-md-flex\" title=\"Aumentar Fonte\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\" id=\"decreaseFont\" class=\"font-size-down d-none d-md-flex\" title=\"Diminuir Fonte\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header id=\"header\" class=\"fixed-top\" aria-hidden=\"true\">\n  \n\n\n  \n    \n  \n\n\n    \n      \n        Prefeitura \n          \n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          \n        \n        Notícias\n        Galerias\n        Vídeos\n        \n        Publicações   \n          \n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          \n        \n        \n        Transparência \n          \n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          \n        \n      \n      \n    \n    \n  \n</header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"logo-img\" src=\"https://rondolandia.mt.gov.br/site/img/Logos/Logo.png\" alt=\"Brasao\" class=\"img-fluid\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<nav id=\"navbar\" class=\"navbar order-last order-lg-0\">\n      \n        Prefeitura \n          \n            Instituição\n            Prefeito(a)\n            Vice-Prefeito(a)\n            Secretários\n            Estruturas Organizacionais\n            Política de Privacidade\n            FAQs\n          \n        \n        Notícias\n        Galerias\n        Vídeos\n        \n        Publicações   \n          \n              Legislação\n              Obras do Município\n              Concursos\n              Diário Oficial\n              Secretaria da Educação\n              Secretaria de Saúde\n              Processos Seletivos\n              PNAB\n              Outras Publicações\n          \n        \n        \n        Transparência \n          \n            Transparência Pública \n              \n                Portal da Transparência\n                Portal Fiscal\n              \n            \n            Licitações, Contratos e Editais \n              \n                Licitações\n                Editais de Licitações\n                Contratos de Licitações\n                                  Outros Documentos de Licitações\n                              \n            \n            Convênios \n              \n                Dados de Convênios\n                Outros\n              \n            \n            Mapa do Site\n            Emendas Parlamentares\n\n          \n        \n      \n      \n    </nav>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(2) > div:nth-child(1) > nav:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<section id=\"ouvidoria\" class=\"mb-5\">\n                        \n                            \n                                \n                                    \n                                                                                                                        \n                                        \n                                            \n                                                Setor*\n                                                \n                                                    Escolha um Setor...\n                                                                                                            SECRETARIA DE ASSISTENCIA SOCIAL\n                                                                                                            SECRETARIA DE EDUCAÇÃO, ESPORTE E CULTURA\n                                                                                                            SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS\n                                                                                                            SECRETARIA DE SAÚDE\n                                                                                                            SECRETARIA DE MEIO AMBIENTE\n                                                                                                            SECRETARIA DE FINANÇAS E ORÇAMENTO\n                                                                                                            SECRETARIA DE ADMINISTRAÇÃO\n                                                                                                            SECRETARIA DE AGRICULTURA\n                                                                                                            DEPARTAMENTO DE RECURSOS HUMANOS - RH\n                                                                                                            DEPARTAMENTO DE LICITAÇÃO\n                                                                                                            DEPARTAMENTO DE CONVÊNIOS E ENGENHARIA\n                                                                                                            DEPARTAMENTO DE CONTABILIDADE\n                                                                                                            CONTROLADORIA GERAL DO MUNICÍPIO\n                                                                                                            PROCURADORIA GERAL DO MUNICÍPIO\n                                                                                                    \n                                                                                            \n                                            \n                                                Seu Nome*\n                                                \n                                                                                            \n                                            \n                                                Seu CPF/CNPJ*\n                                                \n                                                                                            \n                                            \n                                                Seu Telefone*\n                                                \n                                                                                            \n                                            \n                                                Seu Email*\n                                                \n                                                                                            \n                                            \n                                                CEP*\n                                                \n                                                                                                \n                                            \n                                                Seu Endereço*\n                                                \n                                                                                                \n                                            \n                                                Número\n                                                \n                                                                                                \n                                            \n                                                Bairro *\n                                                \n                                                                                                \n                                            \n                                                Cidade *\n                                                \n                                                                                                \n                                            \n                                                Estado *\n                                                \n                                                                                                \n                                            \n                                                Mensagem*\n                                                \n                                                                                                \n                                            \n                                                \n                                                                                            \n                                            \n                                                Enviar\n                                                    Mensagem\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    </section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select class=\"form-control \" id=\"setor\" name=\"setor\">\n                                                    Escolha um Setor...\n                                                                                                            SECRETARIA DE ASSISTENCIA SOCIAL\n                                                                                                            SECRETARIA DE EDUCAÇÃO, ESPORTE E CULTURA\n                                                                                                            SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS\n                                                                                                            SECRETARIA DE SAÚDE\n                                                                                                            SECRETARIA DE MEIO AMBIENTE\n                                                                                                            SECRETARIA DE FINANÇAS E ORÇAMENTO\n                                                                                                            SECRETARIA DE ADMINISTRAÇÃO\n                                                                                                            SECRETARIA DE AGRICULTURA\n                                                                                                            DEPARTAMENTO DE RECURSOS HUMANOS - RH\n                                                                                                            DEPARTAMENTO DE LICITAÇÃO\n                                                                                                            DEPARTAMENTO DE CONVÊNIOS E ENGENHARIA\n                                                                                                            DEPARTAMENTO DE CONTABILIDADE\n                                                                                                            CONTROLADORIA GERAL DO MUNICÍPIO\n                                                                                                            PROCURADORIA GERAL DO MUNICÍPIO\n                                                                                                    </select>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(1) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"nome\" name=\"nome\" class=\"form-control \" placeholder=\"Nome\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"cpfcnpj\" class=\"form-control \" placeholder=\"CPF/CNPJ\" name=\"cpfcnpj\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"telefone\" name=\"telefone\" class=\"form-control \" placeholder=\"(00) 00000-0000\" value=\"\" maxlength=\"15\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(4) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"email\" id=\"email\" class=\"form-control \" name=\"email\" autocomplete=\"email\" placeholder=\"nome@exemplo.com\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(5) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"cep\" class=\"form-control \" name=\"cep\" placeholder=\"00000-000\" value=\"\" maxlength=\"9\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(6) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" id=\"endereco\" class=\"form-control \" name=\"endereco\" placeholder=\"Endereço\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(7) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"number\" id=\"numero\" class=\"form-control \" name=\"numero\" placeholder=\"N°\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(8) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"bairro\" id=\"bairro\" class=\"form-control \" name=\"bairro\" placeholder=\"Bairro\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(9) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"cidade\" id=\"cidade\" class=\"form-control \" name=\"cidade\" placeholder=\"Cidade\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(10) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"estado\" id=\"estado\" class=\"form-control \" name=\"estado\" placeholder=\"Estado\" value=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(11) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea class=\"form-control \" id=\"mensagem\" name=\"mensagem\" rows=\"5\" placeholder=\"Mensagem\"></textarea>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(10) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > section:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(12) > textarea:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer id=\"footer\" class=\"footer\" aria-hidden=\"true\">\n\n    \n      \n        \n          \n                        PRINCIPAL, 450, CENTRO\n              RONDOLANDIA- 78338000\n              Telefone: (66) 40622-778\n              Email: gabinete@rondolandia.mt.gov.br\n                    \n          \n                                                            \n        \n\n        \n          Navegação\n          \n            Notícias\n            Vídeos\n            Ouvidoria\n            E-SIC\n            Política de Privacidade\n          \n        \n\n        \n          Guias e Manuais\n          \n            Glossário\n            VLibras\n            Acessibilidade\n            Mapa do Site      \n            FAQ              \n            Emendas Parlamentares\n          \n        \n\n        \n          Documentos\n          \n            Legislações\n            Publicações\n            Contratos de Licitação\n            Editais de Licitação\n            Obras\n            Concursos\n          \n        \n\n        \n          Fiscal\n          \n            Transparência Fiscal\n            Radar da Transparência\n            Receitas Orçamentárias\n            Despesas Orçamentárias\n            Frota\n          \n        \n\n      \n    \n\n    \n      Prefeitura Municipal de Rondolândia 2026 © Todos os direitos Reservados\n      \n        Desenvolvido por E-Ticons | Versão: 2.4.1\n      \n    \n\n  </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(11)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"swal2-title\" id=\"swal2-title\" style=\"display: block;\">Atenção</h2>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(6) > div:nth-of-type(1) > h2:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"swal2-html-container\" id=\"swal2-html-container\" style=\"display: block;\">CEP não encontrado! Verifique o CEP digitado e tente novamente.</div>",
+                "pointer": "html:nth-of-type(1) > body > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(35)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 14:15:27",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "Prefeitura Municipal de Rondolândia",
+          "date": "2026-09-22 14:15:27",
+          "htmlTags": 694,
+          "roles": {
+            "document": 1,
+            "generic": 104,
+            "link": 74,
+            "banner": 1,
+            "img": 3,
+            "navigation": 2,
+            "list": 13,
+            "listitem": 59,
+            "heading": 6,
+            "paragraph": 6,
+            "region": 1,
+            "form": 1,
+            "combobox": 2,
+            "textbox": 9,
+            "spinbutton": 1,
+            "button": 7,
+            "contentinfo": 1,
+            "strong": 3,
+            "alert": 1,
+            "dialog": 1,
+            "slider": 1,
+            "status": 1,
+            "checkbox": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 3,
+            "title": 1,
+            "link": 10,
+            "style": 307,
+            "script": 31,
+            "body": 1,
+            "div": 60,
+            "i": 21,
+            "a": 74,
+            "header": 1,
+            "img": 4,
+            "nav": 2,
+            "ul": 12,
+            "li": 59,
+            "span": 23,
+            "br": 6,
+            "ol": 1,
+            "h2": 2,
+            "p": 6,
+            "section": 1,
+            "form": 1,
+            "input": 17,
+            "label": 13,
+            "select": 2,
+            "option": 15,
+            "textarea": 2,
+            "button": 7,
+            "small": 1,
+            "footer": 1,
+            "strong": 3,
+            "h4": 4,
+            "output": 1
+          },
+          "size": 1541741,
+          "encoding": "utf-8",
+          "lang": "pt",
+          "content": "text/html",
+          "hash": "4bc32aa3464f86f4b62af002e4d00768",
+          "tests": 32,
+          "conform": "3@1@1",
+          "score": "8.3"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 2,
+          "buttonAname": 2,
+          "a": 44,
+          "linkAName": 44,
+          "elementDec": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaStPermitted": 2,
+          "ariaAtribDefined": 2,
+          "ariaStValid": 2,
+          "linkIdentAName": 3,
+          "img": 2,
+          "autoCmpltValid": 1,
+          "hxHasAName": 5,
+          "headers": 0,
+          "elementHiddenFocus": 1,
+          "menuItem": 0,
+          "id": 89,
+          "colorContrast": 1,
+          "elementPresentChildrenNoFocus": 5,
+          "textContrastHNot": 1,
+          "hxSkip": 1,
+          "aSkipFirstNo": 1,
+          "focusBlur": 1,
+          "colorFgBgNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 6,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "bannerTopLevel": 1,
+          "li": 30,
+          "liSemantically": 30,
+          "listCorrectly": 12,
+          "contentinfoTopLevel": 1,
+          "idAtt": 29,
+          "area": 0,
+          "inpImg": 74,
+          "label": 15,
+          "form": 1,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@18",
+          "a_10": "10@18",
+          "element_02": "10@18",
+          "aria_05": "10@18",
+          "aria_07": "10@18",
+          "aria_03": "10@18",
+          "a_12": "10@18",
+          "input_02b": "something",
+          "img_01a": "10@16.2",
+          "autocomplete_01": "10@18",
+          "heading_01": "10@18",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "hx_03": "3@9.5",
+          "a_01b": "3@4.859999999999999",
+          "form_01a": "10@18",
+          "focus_01": "3@4.32",
+          "color_01": "something",
+          "layout_01a": "10@18",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "landmark_11": "10@18",
+          "heading_04": "1@1.8",
+          "landmark_01": "10@18",
+          "listitem_01": "10@18",
+          "list_02": "10@18",
+          "landmark_05": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "3@1@1",
+      "score": "8.3"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T14:15:27.690Z",
+    "requestedUrl": "https://rondolandia.mt.gov.br/ouvidoria?tipo=1",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32864,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_rondolandia.mt.gov.br_078.html"
+    }
+  }
+}

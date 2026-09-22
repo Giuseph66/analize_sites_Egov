@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="Câmara de Vereadores de Nova Mutum mato grosso" />
+    <meta name="description" content="Site Oficial da Câmara de Vereadores de Nova Mutum ©" />
+        <meta http-equiv="content-language" content="pt-br" />
+
+    
+    <link rel="shortcut icon" href="/imgs/default/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="shortcut icon" href="/imgs/default/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="/imgs/default/apple-touch-icon.png" sizes="180x180">
+
+    <script async src="https://cdn.ampproject.org/amp-story-player-v0.js"></script>
+    <link href="https://cdn.ampproject.org/amp-story-player-v0.css" rel='stylesheet' type='text/css'>
+
+    <title>
+                Câmara de Vereadores de Nova Mutum
+            </title>
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=5.2.3&ck=79ff9637b74326c362fb6f7f5801a7ba' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=5.2.3&ck=79ff9637b74326c362fb6f7f5801a7ba' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_popper.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_bootstrap.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_select2.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.accessibility.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=5.2.3&ck=79ff9637b74326c362fb6f7f5801a7ba'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=5.2.3&ck=79ff9637b74326c362fb6f7f5801a7ba'></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140298859-11"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140298859-11');
+</script>
+</head>
+<body>
+    <div id="p5fw-accessibility-buttons">
+    <div id="p5fw-a-menu" title="Acessibilidade" role="button" tabindex="0" aria-label="Abrir menu de acessibilidade">
+                    <i class="mdi mdi-human"></i>
+            <span>Acessibilidade</span>
+            </div>
+    <div id="p5fw-a-menus">
+        <div  class="p5fw-a-menus-title">Acessibilidade</div>
+        <div class="p-a-b-m-menu" id="p5fw-a-increase">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-format-font-size-increase"></i>
+            </div>
+            <div>
+                Fonte Maior 
+                <div class="p-a-b-m-m-fonts">
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-3"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-6"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-9"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-a-b-m-menu" id="p5fw-a-contrast">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-contrast-circle"></i>
+            </div>
+            <div>
+                Contrastes 
+                <div class="p-a-b-m-m-contrasts">
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-2"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-3"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-4"></div>
+                </div>
+            </div>
+        </div>
+        <a href="/#/mapa">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-map"></i>
+                </div>
+                <div>
+                    Mapa do Site 
+                </div>
+            </div>
+        </a>
+        <a href="http://www.vlibras.com.br/#baixar" target="_blank">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-hand-right"></i>
+                </div>
+                <div>
+                    Libras
+                </div>
+            </div>
+        </a>
+
+        
+        <div class="p-a-b-m-menu" id="p5fw-a-reset">
+            Redefinir
+        </div>
+    </div>
+</div>
+
+            
+    <div id="p5fw-accessibility">
+        <div class="d-md-none d-sm-block menu-mobile">
+    <nav class="navbar fixed-top navbar-expand-sm m-m-light navbar-light">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="menu-dropdown-2"
+                        role="button" data-toggle="dropdown" >
+                        A Câmara
+                    </a>
+                                            <div class="dropdown-menu" aria-labelledby="menu-dropdown-2">
+                                                            <a href="/#/page/sala-da-mulher" class="dropdown-item">
+                                    Sala da Mulher
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/camara/comissoes" class="dropdown-item">
+                                    Comissões
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/estrutura-organizacional" class="dropdown-item">
+                                    Estrutura Organizacional
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/camara/mesa" class="dropdown-item">
+                                    Mesa Diretora
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/camara/vereadores" class="dropdown-item">
+                                    Vereadores
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                    </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="menu-dropdown-3"
+                        role="button" data-toggle="dropdown" >
+                        Município
+                    </a>
+                                            <div class="dropdown-menu" aria-labelledby="menu-dropdown-3">
+                                                            <a href="/#/page/cultura" class="dropdown-item">
+                                    Cultura
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/dados-geograficos" class="dropdown-item">
+                                    Dados Geográficos
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/economia" class="dropdown-item">
+                                    Economia
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/hino-oficial" class="dropdown-item">
+                                    Hino Oficial
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/historia" class="dropdown-item">
+                                    História
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/simbolos-oficiais" class="dropdown-item">
+                                    Símbolos Oficiais
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/turismo" class="dropdown-item">
+                                    Turismo
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                    </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="menu-dropdown-4"
+                        role="button" data-toggle="dropdown" >
+                        Consultas
+                    </a>
+                                            <div class="dropdown-menu" aria-labelledby="menu-dropdown-4">
+                                                            <a href="/atividade-legislativa" class="dropdown-item">
+                                    Atividade Legislativa
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/consultas/concursos" class="dropdown-item">
+                                    Concursos
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a target="_blank" rel="noopener noreferrer" href="https://leismunicipais.com.br/camara/mt/novamutum" class="dropdown-item">
+                                    Legislação
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/consultas/leiorganica" class="dropdown-item">
+                                    Lei Orgânica
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/consultas/pautas" class="dropdown-item">
+                                    Pautas
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/consultas/ppaldoloa" class="dropdown-item">
+                                    PPA LDO LOA
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/atividade-legislativa/proposituras" class="dropdown-item">
+                                    Proposituras
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/transparencia/publicacoes" class="dropdown-item">
+                                    Publicações
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/consultas/regimentointerno" class="dropdown-item">
+                                    Regimento Interno
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/atividade-legislativa/sessoes" class="dropdown-item">
+                                    Sessões
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                    </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="menu-dropdown-5"
+                        role="button" data-toggle="dropdown" >
+                        Imprensa
+                    </a>
+                                            <div class="dropdown-menu" aria-labelledby="menu-dropdown-5">
+                                                            <a href="/#/imprensa/noticias" class="dropdown-item">
+                                    Notícias
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/imprensa/ultimas_sessoes" class="dropdown-item">
+                                    Sessões
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/imprensa/videos" class="dropdown-item">
+                                    Vídeos TV Câmara
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                            <a href="/#/page/2-concurso-cultural-de-frases" class="dropdown-item">
+                                    2ª Concurso de Frases
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                                    </div>
+                                    </li>
+                                    <li class="nav-item ">
+                        <a class="nav-link " href="https://www.portalcr2.com.br/entidade/cm-mutum"
+                             target="_blank" rel="noopener noreferrer"
+                                                    >
+                        Transparência
+                    </a>
+                                    </li>
+                                    <li class="nav-item ">
+                        <a class="nav-link " href="/#/contato"
+                                                    >
+                        Contato
+                    </a>
+                                    </li>
+                                <li class="nav-item">
+                    <div class="m-m-search nav-link">
+                        <input type="text" class="m-m-s-input" placeholder="Pesquise no Site" />
+                        <div class="m-m-s-button-close">
+                            <i class="mdi mdi-magnify"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="p5-player">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-12 p-p-text">
+
+            </div>
+            <div class="col-md-6 col-12 pt-1 p-p-audio">
+                <audio controls preload="auto" autoplay="1" id='sessao_audio_player'></audio>
+            </div>
+            <div class="col-md-1 col-12">
+                <div class="p-p-close" id="p5-player-close-btn">
+                    <i class="mdi mdi-close"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="p5-live py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-12 p-l-text">
+
+            </div>
+            <div class="col-md-7 col-12 pt-1">
+                <a class="p-l-link" href="" target="_blank">
+                    Clique aqui para assistir a transmissão ao vivo
+                    <span class="mdi mdi-play"></span>
+                </a>
+            </div>
+            <div class="col-md-1 col-12">
+                <div class="p-l-close" id="p5-live-close-btn">
+                    <i class="mdi mdi-close"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="container-fluid d-none d-md-block d-print-none h-bar">
+        <div class="h-b-grid">
+            <div class="text-uppercase h-b-links">
+                <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank">
+                    <div class="h-b-link h-b-link-sep">
+                        <img src="/imgs/default/e-sic.svg" alt="">
+                        Lei de acesso à informação
+                    </div>
+                </a>
+                <a href=" https://radardatransparencia.atricon.org.br">
+                    <div class="h-b-link h-b-link-sep">
+                        Radar da Transparência Pública
+                    </div>
+                </a>
+                <a href="https://www.portalcr2.com.br/entidade/cm-mutum" target="_blank" rel="noopener">
+                    <div class="h-b-link h-b-link-sep">
+                        Transparência
+                    </div>
+                </a>
+                <a href="https://camnm.ouvidoriabr.com/" target="_blank">
+                    <div class="h-b-link h-b-link-sep">
+                        Ouvidoria
+                    </div>
+                </a>
+                <a href="https://esiccamnm.ouvidoriabr.com" target="_blank">
+                    <div class="h-b-link h-b-link-sep">
+                        SIC
+                    </div>
+                </a>
+                <a href="https://cmnovamutum.1doc.com.br/b.php?pg=o/wp" target="_blank">
+                    <div class="h-b-link h-b-link-sep">
+                        Central de Serviços
+                    </div>
+                </a>
+            </div>
+            <div class="h-b-hours">
+                <div class="h-b-item text-uppercase">
+                    Atendimento: Seg. a Sex. - 07:00 às 11:00 | 13:00 às 17:00
+                </div>
+            </div>
+            <div class="h-b-contact">
+                <div class="h-b-item">
+                    <i class="mdi mdi-whatsapp"></i>
+                    <a href="https://wa.me/556533086000" target="_blank" rel="noopener">
+                        Telefone: (65) 3308-6000
+                    </a>
+                    Ouvidoria: 0800 810 9999
+                </div>
+            </div>
+            <div class="h-b-social-wrap">
+                                <a href="https://www.facebook.com/camaranovamutum/" target="_blank">
+                    <div class="h-b-link-social">
+                        <i class="mdi mdi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/camaranovamutum/" target="_blank">
+                    <div class="h-b-link-social">
+                        <i class="mdi mdi-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/camaranovamutum" target="_blank">
+                    <div class="h-b-link-social">
+                        <i class="mdi mdi-youtube"></i>
+                    </div>
+                </a>
+                <div class="h-b-social">
+                    @camaranovamutum
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-none d-md-block d-print-none h-menu">
+        <div class="container py-4">
+            <div class="row h-transparency-row">
+                <div class="col-12">
+                    <div class="h-transparency-cta">
+                        <div class="h-t-c-copy">
+                            <i class="mdi mdi-shield-check h-t-c-icon"></i>
+                            <div>
+                                <span class="h-t-c-kicker">Portal da Transparência</span>
+                                <span class="h-t-c-text">Acompanhe informações públicas da Câmara.</span>
+                            </div>
+                        </div>
+                        <a class="h-t-c-button" href="https://www.portalcr2.com.br/entidade/cm-mutum" target="_blank" rel="noopener">
+                            Acessar portal
+                            <i class="mdi mdi-open-in-new"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-3 h-brand">
+                    <a class="h-brand-logo" href="/#/home" aria-label="Página inicial">
+                        <img src="/imgs/default/logo_nova.png" alt="Câmara Municipal de Nova Mutum">
+                    </a>
+                </div>
+
+                <div class="col-9 h-navigation">
+    <div class="menu">
+                    <div class="m-item">
+                <a >
+                    <div class="m-i-button">
+                        A Câmara
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                            </div>
+                </a>
+                                    <div class="m-i-submenu">
+                                                    <a href="/#/page/sala-da-mulher" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Sala da Mulher
+                                </div>
+                            </a>
+                                                    <a href="/#/camara/comissoes" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Comissões
+                                </div>
+                            </a>
+                                                    <a href="/#/page/estrutura-organizacional" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Estrutura Organizacional
+                                </div>
+                            </a>
+                                                    <a href="/#/camara/mesa" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Mesa Diretora
+                                </div>
+                            </a>
+                                                    <a href="/#/camara/vereadores" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Vereadores
+                                </div>
+                            </a>
+                                            </div>
+                            </div>
+                    <div class="m-item">
+                <a >
+                    <div class="m-i-button">
+                        Município
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                            </div>
+                </a>
+                                    <div class="m-i-submenu">
+                                                    <a href="/#/page/cultura" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Cultura
+                                </div>
+                            </a>
+                                                    <a href="/#/page/dados-geograficos" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Dados Geográficos
+                                </div>
+                            </a>
+                                                    <a href="/#/page/economia" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Economia
+                                </div>
+                            </a>
+                                                    <a href="/#/page/hino-oficial" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Hino Oficial
+                                </div>
+                            </a>
+                                                    <a href="/#/page/historia" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    História
+                                </div>
+                            </a>
+                                                    <a href="/#/page/simbolos-oficiais" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Símbolos Oficiais
+                                </div>
+                            </a>
+                                                    <a href="/#/page/turismo" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Turismo
+                                </div>
+                            </a>
+                                            </div>
+                            </div>
+                    <div class="m-item">
+                <a >
+                    <div class="m-i-button">
+                        Consultas
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                            </div>
+                </a>
+                                    <div class="m-i-submenu">
+                                                    <a href="/atividade-legislativa" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Atividade Legislativa
+                                </div>
+                            </a>
+                                                    <a href="/#/consultas/concursos" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Concursos
+                                </div>
+                            </a>
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://leismunicipais.com.br/camara/mt/novamutum" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Legislação
+                                </div>
+                            </a>
+                                                    <a href="/#/consultas/leiorganica" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Lei Orgânica
+                                </div>
+                            </a>
+                                                    <a href="/#/consultas/pautas" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Pautas
+                                </div>
+                            </a>
+                                                    <a href="/#/consultas/ppaldoloa" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    PPA LDO LOA
+                                </div>
+                            </a>
+                                                    <a href="/atividade-legislativa/proposituras" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Proposituras
+                                </div>
+                            </a>
+                                                    <a href="/#/transparencia/publicacoes" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Publicações
+                                </div>
+                            </a>
+                                                    <a href="/#/consultas/regimentointerno" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Regimento Interno
+                                </div>
+                            </a>
+                                                    <a href="/atividade-legislativa/sessoes" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Sessões
+                                </div>
+                            </a>
+                                            </div>
+                            </div>
+                    <div class="m-item">
+                <a >
+                    <div class="m-i-button">
+                        Imprensa
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                            </div>
+                </a>
+                                    <div class="m-i-submenu">
+                                                    <a href="/#/imprensa/noticias" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Notícias
+                                </div>
+                            </a>
+                                                    <a href="/#/imprensa/ultimas_sessoes" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Sessões
+                                </div>
+                            </a>
+                                                    <a href="/#/imprensa/videos" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    Vídeos TV Câmara
+                                </div>
+                            </a>
+                                                    <a href="/#/page/2-concurso-cultural-de-frases" >
+                                <div class="m-i-s-item">
+                                    <i class="mdi mdi-chevron-right"></i>
+                                    2ª Concurso de Frases
+                                </div>
+                            </a>
+                                            </div>
+                            </div>
+                    <div class="m-item">
+                <a href="https://www.portalcr2.com.br/entidade/cm-mutum" target="_blank" rel="noopener noreferrer">
+                    <div class="m-i-button">
+                        Transparência
+                                            </div>
+                </a>
+                            </div>
+                    <div class="m-item">
+                <a href="/#/contato" >
+                    <div class="m-i-button">
+                        Contato
+                                            </div>
+                </a>
+                            </div>
+        
+        <div class="m-search m-item">
+            <input type="text" class="m-s-input" placeholder="Pesquise no Site" />
+            <div class="m-s-button">
+                <i class="mdi mdi-magnify"></i>
+            </div>
+            <div class="m-s-button-close">
+                <i class="mdi mdi-magnify"></i>
+            </div>
+        </div>
+        <a class="m-seal" href="https://radardatransparencia.atricon.org.br" target="_blank" rel="noopener" aria-label="Selo PNTP Prata">
+            <img src="/imgs/default/Selo_PNTP_Prata.png" alt="Selo PNTP Prata">
+        </a>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-md-none d-sm-block d-print-none h-menu mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 h-brand h-brand-mobile">
+                    <a class="h-brand-logo" href="/#/home" aria-label="Página inicial">
+                        <img src="/imgs/default/logo_nova.png" alt="Câmara Municipal de Nova Mutum">
+                    </a>
+                </div>
+                <div class="col-12 h-mobile-transparency-wrap">
+                    <div class="h-transparency-cta h-transparency-cta-mobile">
+                        <div class="h-t-c-copy">
+                            <i class="mdi mdi-shield-check h-t-c-icon"></i>
+                            <div>
+                                <span class="h-t-c-kicker">Portal da Transparência</span>
+                                <span class="h-t-c-text">Acompanhe informações públicas da Câmara.</span>
+                            </div>
+                        </div>
+                        <a class="h-t-c-button" href="https://www.portalcr2.com.br/entidade/cm-mutum" target="_blank" rel="noopener">
+                            Acessar portal
+                            <i class="mdi mdi-open-in-new"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 h-mobile-social-wrap">
+                    <a href="https://www.facebook.com/camaranovamutum/" target="_blank" aria-label="Facebook da Câmara de Nova Mutum">
+                        <div class="h-mobile-link-social">
+                            <i class="mdi mdi-facebook"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/camaranovamutum/" target="_blank" aria-label="Instagram da Câmara de Nova Mutum">
+                        <div class="h-mobile-link-social">
+                            <i class="mdi mdi-instagram"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/camaranovamutum" target="_blank" aria-label="YouTube da Câmara de Nova Mutum">
+                        <div class="h-mobile-link-social">
+                            <i class="mdi mdi-youtube"></i>
+                        </div>
+                    </a>
+                    <div class="h-mobile-social">
+                        @camaranovamutum
+                    </div>
+                </div>
+                <div class="col-12 h-mobile-seal-wrap">
+                    <a class="m-seal" href="https://radardatransparencia.atricon.org.br" target="_blank" rel="noopener" aria-label="Selo PNTP Prata">
+                        <img src="/imgs/default/Selo_PNTP_Prata.png" alt="Selo PNTP Prata">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<lgpd-agreement color='#1badf6'></lgpd-agreement>
+        <div id='content' class='content-loading'>
+                    </div>
+
+        <div class="container-fluid footer d-print-none">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-3 col-12 f-logo">
+                <a href="/#/home">
+                    <img class="" src="/imgs/default/logo_nova.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 offset-md-1 col-12">
+                <h4>
+                    <a class="f-contact-link" href="https://wa.me/556533086000" target="_blank" rel="noopener">
+                        <i class="mdi mdi-whatsapp"></i>
+                        (65) 3308-6000
+                    </a>
+                </h4>
+                <h4>
+                    <i class="mdi mdi-chat-outline"></i>
+                    0800 810 9999
+                </h4>
+                <p class="p5-font-12">
+                    Avenida Mutum - 920N - Centro
+                </p>
+                <p class="p5-font-12">
+                    CEP: 78450-106
+                </p>
+                <p class="p5-font-12">
+                    camara@novamutum.mt.leg.br
+                </p>
+            </div>
+            <div class="col-md-4 col-12 f-social mt-2">
+                <span class="f-s-light text-uppercase">
+                    Siga-nos nas
+                </span>
+                <span class="f-s-bold text-uppercase">
+                    Redes Sociais
+                </span>
+                <div>
+                                        <a href="https://www.facebook.com/camaranovamutum/" target="_blank">
+                        <div class="f-s-link-social">
+                            <i class="mdi mdi-facebook"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/camaranovamutum/" target="_blank">
+                        <div class="f-s-link-social">
+                            <i class="mdi mdi-instagram"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/camaranovamutum" target="_blank">
+                        <div class="f-s-link-social">
+                            <i class="mdi mdi-youtube"></i>
+                        </div>
+                    </a>
+                    <div class="f-s-social">
+                        @camaranovamutum
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p class="f-hours text-center mb-0">
+                    <strong>Horário de funcionamento:</strong>
+                    Segunda a Sexta-feira - Manhã: das 07:00 ás 11:00 | Tarde: das 13:00 ás 17:00
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-rights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-12 f-r-left">
+                    Câmara de Vereadores de Nova Mutum - todos os direitos reservados &copy;
+                </div>
+                <div class="col-md-3 col-12 f-r-center">
+                    <a href="/#/page/politica-de-cookies-e-privacidade" class="f-r-center">
+                        Politica de Cookies e Privacidade
+                    </a>
+                </div>
+                <div class="col-md-4 col-12 f-r-right">
+                    DESENVOLVIDO POR
+                    <a href="https://pentagono.info/" target="_blank"> PENTÁGONO SISTEMAS</a>
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+</body>

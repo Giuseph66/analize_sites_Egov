@@ -1,0 +1,13 @@
+{
+  "url": "https://rondolandia.mt.gov.br/ouvidoria?tipo=1",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=utf-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_rondolandia.mt.gov.br_078.html",
+  "html_bytes": 32864,
+  "html_title": "Prefeitura Municipal de Rondolândia",
+  "nota": "8.3",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_rondolandia.mt.gov.br_078.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_rondolandia.mt.gov.br_078.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

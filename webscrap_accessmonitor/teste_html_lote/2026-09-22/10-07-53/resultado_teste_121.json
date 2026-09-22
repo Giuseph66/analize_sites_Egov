@@ -1,0 +1,13 @@
+{
+  "url": "https://santacruzdoxingu.mt.leg.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_santacruzdoxingu.mt.leg.br_121.html",
+  "html_bytes": 229148,
+  "html_title": "Câmara Legislativa – PODER LEGISLATIVO DE SANTA CRUZ DO XINGU",
+  "nota": "7.8",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_santacruzdoxingu.mt.leg.br_121.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_santacruzdoxingu.mt.leg.br_121.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefeitura Municipal de Rondolândia</title>
+    <!-- Brasão -->
+    <link rel="shortcut icon" href="https://rondolandia.mt.gov.br/site/img/Logos/Brasao.png">
+    <!-- Vendor's -->
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/glightbox/css/glightbox.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/nprogress/nprogress.css">
+
+            <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/aos/aos.css">
+        <!-- Style -->
+    <link id="theme-style" rel="stylesheet" href="https://rondolandia.mt.gov.br/site/css/style.css">
+</head>
+
+<body>
+
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+  <div class="container d-flex justify-content-between">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-chat"></i> <a href="https://rondolandia.mt.gov.br/ouvidoria">Ouvidoria</a>
+      <i class="bi bi-globe"></i> <a href="https://rondolandia.mt.gov.br/transparencia">Transparência</a>
+      <i class="bi bi-info-circle"></i> <a href="https://rondolandia.mt.gov.br/esic">E-SIC</a>
+
+    </div>
+    <div class="d-lg-flex social-links align-items-center">
+    <a href="https://www.instagram.com/prefeituraderondolandia/" title="Instagram" target="_blank" class="instagram d-none d-md-flex"><i class="bi bi-instagram"></i></a>    <a href="https://www.facebook.com/prefeituraderondolandia/" title="facebook" target="_blank" class="facebook d-none d-md-flex"><i class="bi bi-facebook"></i></a>       <a href="https://www.youtube.com/@prefeiturarondolandia9452" title="YouTube" target="_blank" class="youtube d-none d-md-flex"><i class="bi bi-youtube"></i></a>             <a href="#" id="increaseFont" class="font-size-up d-none d-md-flex" title="Aumentar Fonte"><i class="fas fa-magnifying-glass-plus"></i></a>
+      <a href="#" id="decreaseFont" class="font-size-down d-none d-md-flex" title="Diminuir Fonte"><i class="fas fa-magnifying-glass-minus"></i></a>
+      <a href="#" class="contrast" title="Alto Contraste"><i class="bi bi-circle-half"></i></a>
+      </div>
+  </div>
+</div>
+
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+
+
+  <a href="https://rondolandia.mt.gov.br/inicio" class="logo me-auto">
+    <img id="logo-img" src="https://rondolandia.mt.gov.br/site/img/Logos/Logo.png" alt="Brasao" class="img-fluid">
+  </a>
+
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li class="dropdown"><a href="#"><span>Prefeitura</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/instituicao">Instituição</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/prefeito">Prefeito(a)</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/vice-prefeito">Vice-Prefeito(a)</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/secretarios">Secretários</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/estruturas-organizacionais">Estruturas Organizacionais</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/politica-de-privacidade">Política de Privacidade</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/faq">FAQs</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="https://rondolandia.mt.gov.br/noticias">Notícias</a></li>
+        <li><a class="nav-link scrollto" href="https://rondolandia.mt.gov.br/galerias">Galerias</a></li>
+        <li><a class="nav-link scrollto" href="https://rondolandia.mt.gov.br/videos">Vídeos</a></li>
+        
+        <li class="dropdown w-100"><a href="#"><span>Publicações</span> <i class="bi bi-chevron-down"></i></a>  
+          <ul>
+              <li><a href="https://rondolandia.mt.gov.br/legislacoes">Legislação</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/obras">Obras do Município</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/concursos">Concursos</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/diariooficial">Diário Oficial</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/secretaria-da-educacao">Secretaria da Educação</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/secretaria-de-saude">Secretaria de Saúde</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/processos-seletivos">Processos Seletivos</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/pnab">PNAB</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/publicacoes">Outras Publicações</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown"><a href="#"><span>Transparência</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li class="dropdown"><a href="#"><span>Transparência Pública</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://rondolandia.mt.gov.br/transparencia">Portal da Transparência</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/portal">Portal Fiscal</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Licitações, Contratos e Editais</span> <i
+                  class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://rondolandia.mt.gov.br/licitacoes">Licitações</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/editais">Editais de Licitações</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/contratos">Contratos de Licitações</a></li>
+                                  <li><a href="https://rondolandia.mt.gov.br/documentos">Outros Documentos de Licitações</a></li>
+                              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Convênios</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://rondolandia.mt.gov.br/portal?recurso=dados_convenios">Dados de Convênios</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/portal?recurso=convenios">Outros</a></li>
+              </ul>
+            </li>
+            <li><a href="https://rondolandia.mt.gov.br/mapa">Mapa do Site</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/emendas-parlamentares">Emendas Parlamentares</a></li>
+
+          </ul>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <a href="https://rondolandia.mt.gov.br/acessibilidade" class="header-btn scrollto bold"><i class="fa-solid fa-wheelchair"></i></a>
+  </div>
+</header>
+    <br><br><br><br><br><br>
+
+    
+<style>
+    .ouvidoria-card{
+        transition: all .3s ease;
+    }
+    .ouvidoria-card:hover{
+        transform: translateY(-10px);
+    }
+</style>
+
+<div class="container mt-5 mb-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://rondolandia.mt.gov.br/inicio">Início</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ouvidoria</li>
+            </ol>
+        </nav>
+        <div class="section-title">
+            <h2>Ouvidoria</h2>
+            <p>Mande-nos uma mensagem através deste canal.</p>
+        </div>
+        <div class="ouvidoria">
+                        <div class="card">
+                <div class="card-body">
+                    <section id="ouvidoria" class="mb-5">
+                        <div class="container">
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-lg-12">
+                                    <form action="https://rondolandia.mt.gov.br/ouvidoria" method="POST">
+                                        <input type="hidden" name="_token" value="mEtglFqd0qUTmsur6N60KCydqG9YwPLArDOLaKKL" autocomplete="off">                                        <input type="hidden" name="_method" value="POST">                                        <input type="hidden" name="tipo" id="tipo" value="1" >
+                                        <div class="row">
+                                            <div class="form-group mt-3 mb-3 col-md-12">
+                                                <label for="setor">Setor<span>*</span></label>
+                                                <select class="form-control " id="setor" name="setor">
+                                                    <option>Escolha um Setor...</option>
+                                                                                                            <option value="1" >SECRETARIA DE ASSISTENCIA SOCIAL</option>
+                                                                                                            <option value="2" >SECRETARIA DE EDUCAÇÃO, ESPORTE E CULTURA</option>
+                                                                                                            <option value="3" >SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS</option>
+                                                                                                            <option value="4" >SECRETARIA DE SAÚDE</option>
+                                                                                                            <option value="5" >SECRETARIA DE MEIO AMBIENTE</option>
+                                                                                                            <option value="6" >SECRETARIA DE FINANÇAS E ORÇAMENTO</option>
+                                                                                                            <option value="7" >SECRETARIA DE ADMINISTRAÇÃO</option>
+                                                                                                            <option value="8" >SECRETARIA DE AGRICULTURA</option>
+                                                                                                            <option value="9" >DEPARTAMENTO DE RECURSOS HUMANOS - RH</option>
+                                                                                                            <option value="10" >DEPARTAMENTO DE LICITAÇÃO</option>
+                                                                                                            <option value="11" >DEPARTAMENTO DE CONVÊNIOS E ENGENHARIA</option>
+                                                                                                            <option value="12" >DEPARTAMENTO DE CONTABILIDADE</option>
+                                                                                                            <option value="14" >CONTROLADORIA GERAL DO MUNICÍPIO</option>
+                                                                                                            <option value="15" >PROCURADORIA GERAL DO MUNICÍPIO</option>
+                                                                                                    </select>
+                                                                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="nome">Seu Nome<span>*</span></label>
+                                                <input type="text" id="nome" name="nome" class="form-control "
+                                                    placeholder="Nome" value="">
+                                                                                            </div>
+                                            <div class="form-group mt-3 mt-md-0 col-md-6">
+                                                <label for="cpfcnpj">Seu CPF/CNPJ<span>*</span></label>
+                                                <input type="text" id="cpfcnpj" class="form-control " id="cpfcnpj"
+                                                    placeholder="CPF/CNPJ" name="cpfcnpj" value="">
+                                                                                            </div>
+                                            <div class="form-group mt-3 col-md-6">
+                                                <label for="telefone">Seu Telefone<span>*</span></label>
+                                                <input type="text" id="telefone" name="telefone" id="telefone"
+                                                    class="form-control " placeholder="(00) 00000-0000" value="">
+                                                                                            </div>
+                                            <div class="form-group mt-3 col-md-6">
+                                                <label for="email">Seu Email<span>*</span></label>
+                                                <input type="email" id="email" class="form-control " name="email"
+                                                    autocomplete="email" placeholder="nome@exemplo.com" value="">
+                                                                                            </div>
+                                            <div class="form-group mt-3 col-md-3">
+                                                <label for="cep">CEP<span>*</span></label>
+                                                <input type="text" id="cep" class="form-control " name="cep"
+                                                    placeholder="00000-000"  value="">
+                                                                                                </div>
+                                            <div class="form-group mt-3 col-md-8">
+                                                <label for="endereco">Seu Endereço<span>*</span></label>
+                                                <input type="text" id="endereco" class="form-control " name="endereco"
+                                                    placeholder="Endereço"  value="">
+                                                                                                </div>
+                                            <div class="form-group mt-3 col-md-1">
+                                                <label for="numero">Número</label>
+                                                <input type="number" id="numero" class="form-control " name="numero"
+                                                    placeholder="N°"  value="">
+                                                                                                </div>
+                                            <div class="form-group mt-3 col-md-4">
+                                                <label for="bairro">Bairro <span>*</span></label>
+                                                <input type="bairro" id="bairro" class="form-control " name="bairro"
+                                                    placeholder="Bairro"  value="">
+                                                                                                </div>
+                                            <div class="form-group mt-3 col-md-4">
+                                                <label for="cidade">Cidade <span>*</span></label>
+                                                <input type="cidade" id="cidade" class="form-control " name="cidade"
+                                                    placeholder="Cidade"  value="">
+                                                                                                </div>
+                                            <div class="form-group mt-3 col-md-4">
+                                                <label for="estado">Estado <span>*</span></label>
+                                                <input type="estado" id="estado" class="form-control " name="estado"
+                                                    placeholder="Estado"  value="">
+                                                                                                </div>
+                                            <div class="form-group mt-3">
+                                                <label for="mensagem">Mensagem<span>*</span></label>
+                                                <textarea class="form-control " id="mensagem" name="mensagem" rows="5"
+                                                    placeholder="Mensagem"></textarea>
+                                                                                                </div>
+                                            <div class="form-group mt-3 d-flex justify-content-center">
+                                                <div class="g-recaptcha" data-sitekey=""></div>
+                                                                                            </div>
+                                            <div class=" text-center">
+                                                <button class="btn mt-5 appointment-btn" type="submit">Enviar
+                                                    Mensagem</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <small>Campos com [<span class="text-danger">*</span>] são obrigatórios</small>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <div class="footer-contact pt-3">
+                        <p>PRINCIPAL, 450, CENTRO</p>
+              <p>RONDOLANDIA- 78338000</p>
+              <p class="mt-3"><strong>Telefone:</strong> <span>(66) 40622-778</span></p>
+              <p><strong>Email:</strong> <span>gabinete@rondolandia.mt.gov.br</span></p>
+                    </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/prefeituraderondolandia/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>            <a href="https://www.facebook.com/prefeituraderondolandia/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>             <a href="https://www.youtube.com/@prefeiturarondolandia9452" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>                       </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/noticias">Notícias</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/videos">Vídeos</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/ouvidoria">Ouvidoria</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/esic">E-SIC</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/politica-de-privacidade">Política de Privacidade</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Guias e Manuais</h4>
+          <ul>
+            <li><a href="https://www.gov.br/plataformamaisbrasil/pt-br/ajuda/glossario">Glossário</a></li>
+            <li><a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/vlibras">VLibras</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/acessibilidade">Acessibilidade</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/mapa">Mapa do Site</a></li>      
+            <li><a href="https://rondolandia.mt.gov.br/faq">FAQ</a></li>              
+            <li><a href="https://rondolandia.mt.gov.br/emendas-parlamentares">Emendas Parlamentares</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Documentos</h4>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/legislacoes">Legislações</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/publicacoes">Publicações</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/contratos">Contratos de Licitação</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/editais">Editais de Licitação</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/obras">Obras</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/concursos">Concursos</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Fiscal</h4>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/transparencia">Transparência Fiscal</a></li>
+            <li><a href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html" target="_blank">Radar da Transparência</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/portal?recurso=receitas">Receitas Orçamentárias</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/portal?recurso=despesas">Despesas Orçamentárias</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/portal?recurso=frota">Frota</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p><strong class="sitename">Prefeitura Municipal de Rondolândia</strong> <span class="px-1 ">2026</span> &copy; <span>Todos os direitos Reservados</span></p>
+      <div class="credits">
+        Desenvolvido por <a style="color:#f26700;" href="https://eticons.com.br/" target="_blank">E-Ticons</a> | Versão: 2.4.1
+      </div>
+    </div>
+
+  </footer>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div class="alert text-center cookiealert" role="alert">
+&#x1F36A; Usamos cookies essenciais para melhor experiência, ao navegar você concorda com isso.
+
+    <button type="button" class="btn btn-cookies btn-sm acceptcookies">
+        Aceito
+    </button>
+</div>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/nprogress/nprogress.js"></script>
+
+    <script>
+        NProgress.start();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/jquery/jquery3.7.1.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/jquery/jquery.mask.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/sweetalert2/dist/sweetalert2.all.min.js"></script>
+            <script src="https://rondolandia.mt.gov.br/site/vendor/aos/aos.js"></script>
+    
+    <script src="https://rondolandia.mt.gov.br/site/js/cookies.js"></script>
+
+    <script src="https://rondolandia.mt.gov.br/site/js/main.js"></script>
+
+    <script src="https://rondolandia.mt.gov.br/site/js/theme.js"></script>
+
+    <script src="https://rondolandia.mt.gov.br/site/js/submit-prevent.js"></script>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+            <script>
+            AOS.init();
+        </script>
+    
+        
+    
+    
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            return;
+
+            const cookieName = 'pesquisa_satisfacao_avaliada';
+
+            function getCookie(name) {
+                return document.cookie.split('; ').find(function (cookie) {
+                    return cookie.indexOf(name + '=') === 0;
+                });
+            }
+
+            function setCookie(name, value, days) {
+                const date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value + '; expires=' + date.toUTCString() + '; path=/; SameSite=Lax';
+            }
+
+            if (getCookie(cookieName) || typeof Swal === 'undefined') {
+                return;
+            }
+
+            setTimeout(function () {
+                Swal.fire({
+                    title: 'O que está achando dos nossos serviços?',
+                    html:
+                        '<div class="text-start">' +
+                        '<input id="swal-nota" type="hidden">' +
+                        '<div id="swal-estrelas" class="text-center mb-3" style="font-size: 2.2rem; line-height: 1;">' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="1" aria-label="1 estrela">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="2" aria-label="2 estrelas">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="3" aria-label="3 estrelas">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="4" aria-label="4 estrelas">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="5" aria-label="5 estrelas">☆</button>' +
+                        '</div>' +
+                        '<label for="swal-comentario" class="form-label">Comentário <small class="text-muted">(opcional)</small></label>' +
+                        '<textarea id="swal-comentario" class="form-control" rows="3"></textarea>' +
+                        '</div>',
+                    confirmButtonText: 'Enviar avaliação',
+                    showCancelButton: true,
+                    cancelButtonText: 'Agora não',
+                    focusConfirm: false,
+                    didOpen: function () {
+                        const estrelas = document.querySelectorAll('.estrela-satisfacao');
+                        const notaInput = document.getElementById('swal-nota');
+
+                        estrelas.forEach(function (estrela) {
+                            estrela.addEventListener('click', function () {
+                                const nota = parseInt(estrela.getAttribute('data-nota'));
+                                notaInput.value = nota;
+
+                                estrelas.forEach(function (item) {
+                                    const itemNota = parseInt(item.getAttribute('data-nota'));
+                                    item.textContent = itemNota <= nota ? '★' : '☆';
+                                    item.classList.toggle('text-warning', itemNota <= nota);
+                                    item.classList.toggle('text-secondary', itemNota > nota);
+                                });
+                            });
+                        });
+                    },
+                    preConfirm: function () {
+                        const nota = document.getElementById('swal-nota').value;
+
+                        if (!nota) {
+                            Swal.showValidationMessage('Clique em uma estrela para enviar sua avaliação.');
+                            return false;
+                        }
+
+                        return fetch('https://rondolandia.mt.gov.br/pesquisa-satisfacao', {
+                            method: 'POST',
+                            headers: {
+                                'Accept': 'application/json',
+                                'Content-Type': 'application/json',
+                                'X-CSRF-TOKEN': 'mEtglFqd0qUTmsur6N60KCydqG9YwPLArDOLaKKL'
+                            },
+                            body: JSON.stringify({
+                                servico: 'Site',
+                                nota: nota,
+                                comentario: document.getElementById('swal-comentario').value
+                            })
+                        }).then(function (response) {
+                            if (!response.ok) {
+                                throw new Error('Não foi possível registrar a avaliação.');
+                            }
+
+                            return response.json();
+                        }).catch(function (error) {
+                            Swal.showValidationMessage(error.message);
+                        });
+                    }
+                }).then(function (result) {
+                    if (result.isConfirmed) {
+                        setCookie(cookieName, '1', 365);
+                        Swal.fire({
+                            toast: true,
+                            position: 'top',
+                            icon: 'success',
+                            text: 'Obrigado pela avaliação!',
+                            showConfirmButton: false,
+                            timerProgressBar: true,
+                            timer: 3000
+                        });
+                    } else if (result.dismiss === Swal.DismissReason.cancel) {
+                        setCookie(cookieName, 'adiado', 1);
+                    }
+                });
+            }, 2500);
+        });
+    </script>
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script>
+    $('#cpfcnpj').on('input', function () {
+        var value = $(this).val().replace(/\D/g, '');
+        var maskedValue;
+
+        if (value.length <= 11) {
+            maskedValue = value.replace(/^(\d{3})(\d{3})(\d{3})(\d{0,2}).*/, '$1.$2.$3-$4');
+        } else {
+            maskedValue = value.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{0,2}).*/, '$1.$2.$3/$4-$5');
+        }
+
+        $(this).val(maskedValue);
+    });
+    $(document).ready(function () {
+        $('#telefone').mask('(00) 00000-0000');
+    });
+    $(document).ready(function () {
+        $('#cep').mask('00000-000');
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#cep').blur(function() {
+            const cep = $(this).val().replace(/\D/g, '');
+            
+            if (cep) {
+                const url = `https://viacep.com.br/ws/${cep}/json/`;
+                
+                $.ajax({
+                    url: url,
+                    dataType: 'json',
+                    success: function(data) {
+                        if (!data.erro) {
+                            $('#endereco').val(data.logradouro, data.bairro);
+                            $('#cidade').val(data.localidade);
+                            $('#bairro').val(data.bairro);
+                            $('#estado').val(data.uf);
+                        } else {
+                            alert("CEP não encontrado!");
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Atenção',
+                            text: 'CEP não encontrado! Verifique o CEP digitado e tente novamente.',
+                            showConfirmButton: true,
+                            timer: 100000
+                        });
+                    }
+                });
+            } else {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Atenção',
+                    text: 'CEP não encontrado! Verifique o CEP digitado e tente novamente.',
+                    showConfirmButton: true,
+                    timer: 100000
+                });
+            }
+        });
+    });
+  </script>
+
+</body>
+</html>

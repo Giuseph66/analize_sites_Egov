@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="Prefeitura Municipal de Colniza" />
+    <meta name="description" content="Prefeitura Municipal de Colniza" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" href="/imgs/default/favicon32.png" sizes="32x32" type="image/png" />
+    <link rel="shortcut icon" href="/imgs/default/favicon16.png" sizes="16x16" type="image/png" />
+
+    <title>
+                    Prefeitura Municipal de Colniza - MT
+            </title>
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=3.6.4&ck=f56d3e84f8f4fb156548d390a8a85d8e' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=3.6.4&ck=f56d3e84f8f4fb156548d390a8a85d8e' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_popper.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_bootstrap.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_icheck.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.accessibility.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/jquery.cookies.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=3.6.4&ck=f56d3e84f8f4fb156548d390a8a85d8e'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=3.6.4&ck=f56d3e84f8f4fb156548d390a8a85d8e'></script>
+
+
+</head>
+<body>
+    <div class="skip-links" aria-label="Atalhos de navegação">
+        <a href="#content" accesskey="1">Ir para o conteúdo [1]</a>
+        <a href="#menu-desktop" accesskey="2">Ir para o menu [2]</a>
+        <a href="#search" accesskey="3">Ir para a busca [3]</a>
+        <a href="#site-footer" accesskey="4">Ir para o rodapé [4]</a>
+    </div>
+    <div id="p5fw-accessibility-buttons">
+    <button type="button" id="p5fw-a-menu" aria-label="Abrir recursos de acessibilidade" aria-controls="p5fw-a-menus" aria-expanded="false">
+        <i class="mdi mdi-human" aria-hidden="true"></i>
+    </button>
+
+    <section id="p5fw-a-menus" aria-labelledby="p5fw-a-title" hidden>
+        <header class="p5fw-a-header">
+            <div>
+                <span class="p5fw-a-eyebrow">Recursos do portal</span>
+                <h2 id="p5fw-a-title">Acessibilidade</h2>
+            </div>
+            <button type="button" id="p5fw-a-close" aria-label="Fechar recursos de acessibilidade">
+                <i class="mdi mdi-close" aria-hidden="true"></i>
+            </button>
+        </header>
+
+        <div class="p5fw-a-section" aria-labelledby="p5fw-a-shortcuts-title">
+            <h3 id="p5fw-a-shortcuts-title">Atalhos de navegação</h3>
+            <div class="p5fw-a-shortcuts">
+                <button type="button" data-p5fw-target="content"><span>Conteúdo</span><kbd>1</kbd></button>
+                <button type="button" data-p5fw-target="menu"><span>Menu</span><kbd>2</kbd></button>
+                <button type="button" data-p5fw-target="search"><span>Busca</span><kbd>3</kbd></button>
+                <button type="button" data-p5fw-target="footer"><span>Rodapé</span><kbd>4</kbd></button>
+            </div>
+        </div>
+
+        <div class="p5fw-a-section" aria-labelledby="p5fw-a-preferences-title">
+            <h3 id="p5fw-a-preferences-title">Preferências visuais</h3>
+            <div class="p5fw-a-preference">
+                <i class="mdi mdi-format-font-size-increase p5fw-a-preference-icon" aria-hidden="true"></i>
+                <div class="p5fw-a-preference-copy">
+                    <strong>Tamanho do texto</strong>
+                    <span id="p5fw-a-font-status">Padrão</span>
+                </div>
+                <div class="p5fw-a-font-controls" role="group" aria-label="Ajustar tamanho do texto">
+                    <button type="button" id="p5fw-a-decrease" aria-label="Diminuir texto">A−</button>
+                    <button type="button" id="p5fw-a-reset-font" aria-label="Usar tamanho de texto padrão" aria-pressed="true">A</button>
+                    <button type="button" id="p5fw-a-increase" aria-label="Aumentar texto">A+</button>
+                </div>
+            </div>
+
+            <div class="p5fw-a-preference">
+                <i class="mdi mdi-contrast-circle p5fw-a-preference-icon" aria-hidden="true"></i>
+                <div class="p5fw-a-preference-copy">
+                    <strong>Alto contraste</strong>
+                    <span id="p5fw-a-contrast-status">Desativado</span>
+                </div>
+                <button type="button" id="p5fw-a-contrast" role="switch" aria-checked="false" aria-label="Ativar alto contraste"><span aria-hidden="true"></span></button>
+            </div>
+        </div>
+
+        <nav class="p5fw-a-resources" aria-label="Outros recursos de acessibilidade">
+            <a href="/#/mapa"><i class="mdi mdi-map-outline" aria-hidden="true"></i><span>Mapa do site</span><i class="mdi mdi-chevron-right" aria-hidden="true"></i></a>
+            <a href="/#/acessibilidade"><i class="mdi mdi-information-outline" aria-hidden="true"></i><span>Sobre a acessibilidade</span><i class="mdi mdi-chevron-right" aria-hidden="true"></i></a>
+            <a href="https://prefcolniza.ouvidoriabr.com/" target="_blank" rel="noopener noreferrer"><i class="mdi mdi-message-alert-outline" aria-hidden="true"></i><span>Comunicar barreira de acessibilidade</span><i class="mdi mdi-open-in-new" aria-hidden="true"></i></a>
+        </nav>
+
+        <button type="button" id="p5fw-a-reset"><i class="mdi mdi-restore" aria-hidden="true"></i>Redefinir preferências</button>
+    </section>
+</div>
+    <div id="p5fw-accessibility">
+        <div id="overlay" class="sticky"></div>
+
+<div id="menu-mobile" class="sidenav" aria-hidden="true" inert>
+    <button type="button" class="menu-mobile-closebtn" aria-label="Fechar menu">&times;</button>
+
+                        <a class="nav-link" href="/#/home" >Home</a>
+                                        <button type="button" class="nav-link mobile-submenu-toggle" submenu="submenu-2"
+                aria-controls="submenu-2" aria-expanded="false" >A Cidade</button>
+                            <div class="n-l-submenu" id="submenu-2">
+                                    <a class="nav-link" href="/#/municipio/historia-de-colniza/1">HISTÓRIA DE COLNIZA</a>
+                                    <a class="nav-link" href="/#/municipio/prefeito/2">PREFEITO</a>
+                                    <a class="nav-link" href="/#/imprensa/noticias">Notícias</a>
+                                    <a class="nav-link" href="/#/imprensa/eventos">Eventos</a>
+                                    <a class="nav-link" href="/#/imprensa/videos">Vídeos</a>
+                                    <a class="nav-link" href="/#/imprensa/albuns">Álbuns</a>
+                                    <a class="nav-link" href="/#/acs/agentes">Agentes de Saúde</a>
+                                    <a class="nav-link" href="/#/telefones">Telefones Úteis</a>
+                            </div>
+                                <button type="button" class="nav-link mobile-submenu-toggle" submenu="submenu-3"
+                aria-controls="submenu-3" aria-expanded="false" >Serviços</button>
+                            <div class="n-l-submenu" id="submenu-3">
+                                    <a class="nav-link" href="https://colniza.mt.leg.br/">Câmara Municipal</a>
+                                    <a class="nav-link" href="https://colniza.servicos.pentagono.info/">Carta de Serviço</a>
+                                    <a class="nav-link" href="https://scpi-colnizamt.i7sgp.app.br/scpi9/">Compras Web</a>
+                                    <a class="nav-link" href="https://scpi-colnizamt.i7sgp.app.br/comprasedital/">Edital Web</a>
+                                    <a class="nav-link" href="https://www.colniza.mt.gov.br/#/page/empresas-suspensas">Empresas Suspensas</a>
+                                    <a class="nav-link" href="https://colniza.mt.gov.br/publicacoes/publicacao/13626">Estoque de Medicamentos</a>
+                                    <a class="nav-link" href="https://portalservidor-pm-colnizamt.i7sgp.app.br/sipweb/">Holerite</a>
+                                    <a class="nav-link" href="https://www.colniza.mt.gov.br/#/cidadao/itbi">ITBI RURAL</a>
+                                    <a class="nav-link" href="https://www.colniza.mt.gov.br/#/page/tabela-atualizada-vtn">ITR (VTN) </a>
+                                    <a class="nav-link" href="https://www.colniza.mt.gov.br/#/page/lei-paulo-gustavo-">Lei Paulo Gustavo</a>
+                                    <a class="nav-link" href="https://sistema.digitalconsig.com.br/">Portal Consignado</a>
+                                    <a class="nav-link" href="https://sse-pm-colnizamt.i7sgp.app.br/sse_protocolo/">Protocolo Web</a>
+                                    <a class="nav-link" href="https://colniza.mt.gov.br/publicacoes/publicacao/12691">Relatório de Gestão da Ouvidoria</a>
+                                    <a class="nav-link" href="https://sip-pm-colnizamt.i7sgp.app.br/sip/">SIP WEB</a>
+                                    <a class="nav-link" href="https://www.colniza.mt.gov.br/#/substitutos">Substitutos Tributários</a>
+                                    <a class="nav-link" href="https://www.colniza.mt.gov.br/#/cidadao/upfm">UPFM 2022</a>
+                                    <a class="nav-link" href="https://webmail.colniza.mt.gov.br/">Webmail </a>
+                            </div>
+                                <a class="nav-link" href="https://tcloud-colnizamt.i7sgp.app.br/dashboard/prefeitura-colniza-mt/estruturaAdministrativa" >Secretarias</a>
+                                        <button type="button" class="nav-link mobile-submenu-toggle" submenu="submenu-5"
+                aria-controls="submenu-5" aria-expanded="false" >Publicações</button>
+                            <div class="n-l-submenu" id="submenu-5">
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/147/agricultura">AGRICULTURA</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/178/aldir-blanc">Aldir Blanc</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/137/audiencias-publicas">Audiências Públicas</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/18/balancos">Balanços</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/73/comunicados">Comunicados</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/114/conselhos-municipais">CONSELHOS MUNICIPAIS</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/159/contas-de-gestao-e-governo">CONTAS DE GESTÃO E GOVERNO</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/98/covid-19">COVID-19</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/153/cronograma-de-desembolso">Cronograma de desembolso</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/171/decretos">Decretos</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/113/educacao">Educação</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/164/estoque-de-medicamentos">Estoque de Medicamentos</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/13/financas-publicas">Finanças Públicas</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/95/gestao-de-pessoas">Gestão de Pessoas</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/72/imprensa">Imprensa</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/140/ldo">LDO</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/93/legislacao">Legislação</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/166/lei-paulo-gustavo">Lei Paulo Gustavo</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/165/lgpd-conteudo-de-apoio">LGPD CONTEUDO DE APOIO</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/1/licitacoes">Licitações</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/145/loa">LOA</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/129/notificacoes">Notificações</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/23/organograma">Organograma</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/83/patrimonio">Patrimonio</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/5/plano-diretor">Plano diretor</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/11/portarias">Portarias</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/24/previ-colniza">Previ-Colniza</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/182/processo-de-escolha-para-funcao-de-gestor-escolar">PROCESSO DE ESCOLHA PARA FUNÇÃO DE GESTOR ESCOLAR</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/181/processo-seletivo-simplificado-n-001-2025">PROCESSO SELETIVO SIMPLIFICADO Nº 001/2025</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/86/projetos-municipais">PROJETOS MUNICIPAIS</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/142/publicacao-dos-balancos">Publicação dos Balanços</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/2/publicacoes">Publicações</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/144/publicacoes-siconfi">PUBLICAÇÕES SICONFI</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/8/regulamentos">Regulamentos</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/134/tabela-salarial--rga-reajuste-anual">TABELA SALARIAL- RGA/REAJUSTE ANUAL</a>
+                                    <a class="nav-link" href="/#/transparencia/publicacoes/43/unidade-controle-interno">Unidade Controle Interno</a>
+                                    <a class="nav-link" href="/servicos/editalweb/">Edital web</a>
+                            </div>
+                                <a class="nav-link" href="/#/transparencia/home" >Portal Transparência</a>
+                                        <button type="button" class="nav-link mobile-submenu-toggle" submenu="submenu-7"
+                aria-controls="submenu-7" aria-expanded="false" >Imprensa</button>
+                            <div class="n-l-submenu" id="submenu-7">
+                                    <a class="nav-link" href="/#/municipio/historia-de-colniza/1">HISTÓRIA DE COLNIZA</a>
+                                    <a class="nav-link" href="/#/municipio/prefeito/2">PREFEITO</a>
+                                    <a class="nav-link" href="/#/imprensa/noticias">Notícias</a>
+                                    <a class="nav-link" href="/#/imprensa/eventos">Eventos</a>
+                                    <a class="nav-link" href="/#/imprensa/videos">Vídeos</a>
+                                    <a class="nav-link" href="/#/imprensa/albuns">Álbuns</a>
+                                    <a class="nav-link" href="/#/acs/agentes">Agentes de Saúde</a>
+                                    <a class="nav-link" href="/#/telefones">Telefones Úteis</a>
+                            </div>
+                                <a class="nav-link" href="https://prefcolniza.ouvidoriabr.com/" >Ouvidoria</a>
+                        <a href="http://24.152.31.86:8079/transparencia/?AcessoIndividual=lnkESIC" target="_blank" class="nav-link">
+        <img src="/imgs/icons/esic.png" width="120px" alt="">
+    </a>
+</div>
+
+<div id="search-mobile" class="sidenav" aria-hidden="true" inert>
+    <button type="button" class="menu-mobile-closebtn closebtn-search" aria-label="Fechar busca">&times;</button>
+    <input type="text" id="search-mobile-input" placeholder="Digite aqui sua pesquisa">
+    <div class="search-mobile-result">
+
+    </div>
+</div>
+
+
+<div class="navbar-mobile row sticky">
+    <div class="col-4">
+        <button type="button" class="btn menu-mobile-btn" aria-label="Abrir menu" aria-controls="menu-mobile" aria-expanded="false"><i class="mdi mdi-menu" aria-hidden="true"></i></button>
+    </div>
+    <div class="col-4">
+        <a href="/#/home">
+            <img class="n-m-logo" src="/imgs/default/logo_footer.svg" alt="">
+        </a>
+    </div>
+    <div class="col-4 text-right">
+        <button type="button" class="btn menu-mobile-btn-search" aria-label="Abrir busca" aria-controls="search-mobile" aria-expanded="false"><i class="mdi mdi-magnify" aria-hidden="true"></i></button>
+    </div>
+</div><!-- <div class="container-fluid h-t-notice">
+    <div class="container text-center">
+        Prestação de contas geral - COVID-19 <a href="/#/transparencia/finder/OTg="
+            class="btn btn-sm btn-warning ml-3">Clique
+            aqui</a>
+    </div>
+</div> -->
+<div class="header d-print-none d-none d-md-block">
+    <div class="h-top text-uppercase d-none d-md-block">
+        <div class="h-top-inner">
+            <div class="h-top-links">
+                <a href="https://prefcolniza.ouvidoriabr.com/protocolo/novo/109" target="_blank">
+                    <img src="/imgs/icons/LAI.svg" width="12px" class="mr-1" alt=""> E-SIC
+                </a>
+                <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank">
+                    Lei de acesso à informação
+                </a>
+                <a href="https://radardatransparencia.atricon.org.br" target="_blank">
+                    Radar da Transparência Pública
+                </a>
+                <a href="/#/transparencia/home">
+                    Portal Transparência
+                </a>
+                <a href="/#/dados-abertos">
+                    Dados abertos
+                </a>
+                <a href="https://prefcolniza.ouvidoriabr.com/" target="_blank">
+                    Ouvidoria
+                </a>
+            </div>
+            <div class="h-top-hours">
+                ATENDIMENTO: De Segunda á Sexta das 07:00 ás 11:00 das 13:00 ás 17:00
+            </div>
+        </div>
+    </div>
+    <div class="h-bottom container">
+        <div class="row">
+            <div class="col-md-6 col-12 d-flex align-items-center">
+                <a href="/#/home">
+                    <img src="/imgs/default/logo.jpg">
+                </a>
+            </div>
+            <div class="col-md-2 col-12 d-flex align-items-center justify-content-end">
+                <a href="https://prefcolniza.ouvidoriabr.com/protocolo/novo/109" target="_blank">
+                    <img src="/imgs/icons/esic.jpg" class="mr-1" width="140px">
+                </a>
+                <a href="https://www.instagram.com/prefeitura_de_colniza/?igshid=MjEwN2IyYWYwYw%3D%3D" target="_blank">
+                    <i class="mdi mdi-instagram h-social-icon"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1NQHXUWNSx/?mibextid=wwXIfr" target="_blank">
+                    <i class="mdi mdi-facebook h-social-icon"></i>
+                </a>
+                <a href="https://www.tiktok.com/@prefeituradecolniza?_t=8dCA7IPep5q&_r=1" target="_blank">
+                    <img src="/imgs/icons/tiktok.svg" class="mr-1" height="33">
+                </a>
+                <a href="/#/page/contato">
+                    <i class="mdi mdi-whatsapp h-social-icon"></i>
+                </a>
+            </div>
+            <div class="col-md-4 col-12 d-flex align-items-center justify-content-end">
+                <div class="input-group search-wrapper">
+                    <input type="text" class="form-control form-control-custom" placeholder="Pesquisar..." id="search">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-custom" id="search-btn">
+                            <i class="mdi mdi-magnify"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid no-padding-container menu">
+    <div class="d-none d-md-block d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light" id='menu-desktop' tabindex="-1">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/home"  >
+                                    Home
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"  >
+                                    A Cidade
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                                                    <a class="dropdown-item"  href="/#/municipio/historia-de-colniza/1">
+                                                <i class="mdi mdi-chevron-right"></i> HISTÓRIA DE COLNIZA
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/prefeito/2">
+                                                <i class="mdi mdi-chevron-right"></i> PREFEITO
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/noticias">
+                                                <i class="mdi mdi-chevron-right"></i> Notícias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/eventos">
+                                                <i class="mdi mdi-chevron-right"></i> Eventos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/videos">
+                                                <i class="mdi mdi-chevron-right"></i> Vídeos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/albuns">
+                                                <i class="mdi mdi-chevron-right"></i> Álbuns
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/acs/agentes">
+                                                <i class="mdi mdi-chevron-right"></i> Agentes de Saúde
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/telefones">
+                                                <i class="mdi mdi-chevron-right"></i> Telefones Úteis
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown3" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"  >
+                                    Serviços
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://colniza.mt.leg.br/">
+                                                <i class="mdi mdi-bank"></i> Câmara Municipal
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://colniza.servicos.pentagono.info/">
+                                                <i class="mdi mdi-notebook"></i> Carta de Serviço
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://scpi-colnizamt.i7sgp.app.br/scpi9/">
+                                                <i class="mdi mdi-cart-arrow-right"></i> Compras Web
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://scpi-colnizamt.i7sgp.app.br/comprasedital/">
+                                                <i class="mdi mdi-file-document-outline"></i> Edital Web
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.colniza.mt.gov.br/#/page/empresas-suspensas">
+                                                <i class="mdi mdi-stop-circle-outline"></i> Empresas Suspensas
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://colniza.mt.gov.br/publicacoes/publicacao/13626">
+                                                <i class="mdi mdi-medical-bag"></i> Estoque de Medicamentos
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://portalservidor-pm-colnizamt.i7sgp.app.br/sipweb/">
+                                                <i class="mdi mdi-cash"></i> Holerite
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.colniza.mt.gov.br/#/cidadao/itbi">
+                                                <i class="mdi mdi-information-outline"></i> ITBI RURAL
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.colniza.mt.gov.br/#/page/tabela-atualizada-vtn">
+                                                <i class="mdi mdi-account-box-outline"></i> ITR (VTN) 
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.colniza.mt.gov.br/#/page/lei-paulo-gustavo-">
+                                                <i class="mdi mdi-smart-card-outline"></i> Lei Paulo Gustavo
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://sistema.digitalconsig.com.br/">
+                                                <i class="mdi mdi-cash-multiple"></i> Portal Consignado
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://sse-pm-colnizamt.i7sgp.app.br/sse_protocolo/">
+                                                <i class="mdi mdi-web"></i> Protocolo Web
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://colniza.mt.gov.br/publicacoes/publicacao/12691">
+                                                <i class="mdi mdi-phone-ring"></i> Relatório de Gestão da Ouvidoria
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://sip-pm-colnizamt.i7sgp.app.br/sip/">
+                                                <i class="mdi mdi-access-point"></i> SIP WEB
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.colniza.mt.gov.br/#/substitutos">
+                                                <i class="mdi mdi-refresh"></i> Substitutos Tributários
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.colniza.mt.gov.br/#/cidadao/upfm">
+                                                <i class="mdi mdi-monitor-cellphone-star"></i> UPFM 2022
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://webmail.colniza.mt.gov.br/">
+                                                <i class="mdi mdi-email"></i> Webmail 
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="https://tcloud-colnizamt.i7sgp.app.br/dashboard/prefeitura-colniza-mt/estruturaAdministrativa"   target="_blank" >
+                                    Secretarias
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown5" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"  >
+                                    Publicações
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/147/agricultura">
+                                                <i class="mdi mdi-chevron-right"></i> AGRICULTURA
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/178/aldir-blanc">
+                                                <i class="mdi mdi-chevron-right"></i> Aldir Blanc
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/137/audiencias-publicas">
+                                                <i class="mdi mdi-chevron-right"></i> Audiências Públicas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/18/balancos">
+                                                <i class="mdi mdi-chevron-right"></i> Balanços
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/73/comunicados">
+                                                <i class="mdi mdi-chevron-right"></i> Comunicados
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/114/conselhos-municipais">
+                                                <i class="mdi mdi-chevron-right"></i> CONSELHOS MUNICIPAIS
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/159/contas-de-gestao-e-governo">
+                                                <i class="mdi mdi-chevron-right"></i> CONTAS DE GESTÃO E GOVERNO
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/98/covid-19">
+                                                <i class="mdi mdi-chevron-right"></i> COVID-19
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/153/cronograma-de-desembolso">
+                                                <i class="mdi mdi-chevron-right"></i> Cronograma de desembolso
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/171/decretos">
+                                                <i class="mdi mdi-chevron-right"></i> Decretos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/113/educacao">
+                                                <i class="mdi mdi-chevron-right"></i> Educação
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/164/estoque-de-medicamentos">
+                                                <i class="mdi mdi-chevron-right"></i> Estoque de Medicamentos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/13/financas-publicas">
+                                                <i class="mdi mdi-chevron-right"></i> Finanças Públicas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/95/gestao-de-pessoas">
+                                                <i class="mdi mdi-chevron-right"></i> Gestão de Pessoas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/72/imprensa">
+                                                <i class="mdi mdi-chevron-right"></i> Imprensa
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/140/ldo">
+                                                <i class="mdi mdi-chevron-right"></i> LDO
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/93/legislacao">
+                                                <i class="mdi mdi-chevron-right"></i> Legislação
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/166/lei-paulo-gustavo">
+                                                <i class="mdi mdi-chevron-right"></i> Lei Paulo Gustavo
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/165/lgpd-conteudo-de-apoio">
+                                                <i class="mdi mdi-chevron-right"></i> LGPD CONTEUDO DE APOIO
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/1/licitacoes">
+                                                <i class="mdi mdi-chevron-right"></i> Licitações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/145/loa">
+                                                <i class="mdi mdi-chevron-right"></i> LOA
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/129/notificacoes">
+                                                <i class="mdi mdi-chevron-right"></i> Notificações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/23/organograma">
+                                                <i class="mdi mdi-chevron-right"></i> Organograma
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/83/patrimonio">
+                                                <i class="mdi mdi-chevron-right"></i> Patrimonio
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/5/plano-diretor">
+                                                <i class="mdi mdi-chevron-right"></i> Plano diretor
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/11/portarias">
+                                                <i class="mdi mdi-chevron-right"></i> Portarias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/24/previ-colniza">
+                                                <i class="mdi mdi-chevron-right"></i> Previ-Colniza
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/182/processo-de-escolha-para-funcao-de-gestor-escolar">
+                                                <i class="mdi mdi-chevron-right"></i> PROCESSO DE ESCOLHA PARA FUNÇÃO DE GESTOR ESCOLAR
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/181/processo-seletivo-simplificado-n-001-2025">
+                                                <i class="mdi mdi-chevron-right"></i> PROCESSO SELETIVO SIMPLIFICADO Nº 001/2025
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/86/projetos-municipais">
+                                                <i class="mdi mdi-chevron-right"></i> PROJETOS MUNICIPAIS
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/142/publicacao-dos-balancos">
+                                                <i class="mdi mdi-chevron-right"></i> Publicação dos Balanços
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/2/publicacoes">
+                                                <i class="mdi mdi-chevron-right"></i> Publicações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/144/publicacoes-siconfi">
+                                                <i class="mdi mdi-chevron-right"></i> PUBLICAÇÕES SICONFI
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/8/regulamentos">
+                                                <i class="mdi mdi-chevron-right"></i> Regulamentos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/134/tabela-salarial--rga-reajuste-anual">
+                                                <i class="mdi mdi-chevron-right"></i> TABELA SALARIAL- RGA/REAJUSTE ANUAL
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/43/unidade-controle-interno">
+                                                <i class="mdi mdi-chevron-right"></i> Unidade Controle Interno
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/servicos/editalweb/">
+                                                <i class="mdi mdi-chevron-right"></i> Edital web
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/transparencia/home"  >
+                                    Portal Transparência
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown7" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"  >
+                                    Imprensa
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown7">
+                                                                                    <a class="dropdown-item"  href="/#/municipio/historia-de-colniza/1">
+                                                <i class="mdi mdi-chevron-right"></i> HISTÓRIA DE COLNIZA
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/prefeito/2">
+                                                <i class="mdi mdi-chevron-right"></i> PREFEITO
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/noticias">
+                                                <i class="mdi mdi-chevron-right"></i> Notícias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/eventos">
+                                                <i class="mdi mdi-chevron-right"></i> Eventos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/videos">
+                                                <i class="mdi mdi-chevron-right"></i> Vídeos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/albuns">
+                                                <i class="mdi mdi-chevron-right"></i> Álbuns
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/acs/agentes">
+                                                <i class="mdi mdi-chevron-right"></i> Agentes de Saúde
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/telefones">
+                                                <i class="mdi mdi-chevron-right"></i> Telefones Úteis
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="https://prefcolniza.ouvidoriabr.com/"   target="_blank" >
+                                    Ouvidoria
+                                </a>
+                                                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+    <div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://forms.gle/sSSioRKUu8Tv82Dc6" target="_blank">                        <img src="/imgs/cds/c546b1a9-470e-466d-8c0b-64a96b005a5f.jpg" class="h-popup-image">
+                        </a>                </div>
+            </div>
+        </div>
+    </div>
+
+<lgpd-agreement color='#2B66FF'></lgpd-agreement>
+
+        <div id='content' class='content-loading' tabindex='-1'></div>
+
+        <div class="container-fluid footer d-print-none" id="site-footer" tabindex="-1">
+    <div class="container">
+        <div class="f-top">
+            <div class="f-brand">
+                <img src="/imgs/default/logo_footer.svg" alt="Prefeitura municipal de Colniza">
+            </div>
+            <nav class="f-nav">
+                <a href="/#/home">Início</a>
+                <a href="/#/imprensa/noticias">Notícias</a>
+                <a href="/#/page/contato">Contato</a>
+            </nav>
+            <div class="f-socials">
+                <a class="f-social" href="https://www.instagram.com/prefeitura_de_colniza/?igshid=MjEwN2IyYWYwYw%3D%3D"
+                    target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="mdi mdi-instagram"></i>
+                </a>
+                <a class="f-social" href="https://www.facebook.com/share/1NQHXUWNSx/?mibextid=wwXIfr" target="_blank"
+                    rel="noopener" aria-label="Facebook">
+                    <i class="mdi mdi-facebook"></i>
+                </a>
+                <a class="f-social" href="https://www.tiktok.com/@prefeituradecolniza?_t=8dCA7IPep5q&_r=1" target="_blank"
+                    rel="noopener" aria-label="TikTok">
+                    <img src="/imgs/icons/tiktok.svg" alt="">
+                </a>
+                <a class="f-social" href="/#/page/contato" aria-label="WhatsApp">
+                    <i class="mdi mdi-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="f-info">
+            <div class="f-info-col">
+                <h3>Endereço</h3>
+                <p>Avenida dos Pinhais, 119 - Centro</p>
+                <p>CEP 78.335-000</p>
+            </div>
+            <div class="f-info-col">
+                <h3>Contato</h3>
+                <p>(66) 98146-0173</p>
+                <p>ouvidoria@colniza.mt.gov.br</p>
+            </div>
+            <div class="f-info-col">
+                <h3>Atendimento</h3>
+                <p>De Segunda á Sexta das 07:00 ás 11:00 das 13:00 ás 17:00</p>
+            </div>
+            <div class="f-info-col">
+                <h3>Transparência</h3>
+                <p><a href="/#/transparencia/home">Portal da Transparência</a></p>
+                <p>
+                    <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank"
+                        rel="noopener">Acesso à Informação</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-rights d-print-none">
+    <div class="container f-rights-inner">
+        <div class="f-rights-copy">
+            Prefeitura Municipal de Colniza — todos os direitos reservados
+        </div>
+        <a class="f-rights-privacy" href="/#/page/politica-de-privacidade">
+            Política de Privacidade
+        </a>
+        <div class="f-rights-dev">
+            DESENVOLVIDO POR <a href="http://pentagono.info/" target="_blank" rel="noopener">PENTÁGONO SISTEMAS</a>
+        </div>
+    </div>
+</div>
+
+<div id="footer-buttons">
+    <a href="/#/page/contato">
+        <div id="footer-btn-whats">
+            <i class="mdi mdi-whatsapp"></i>
+        </div>
+    </a>
+</div>
+    </div>
+</body>

@@ -1,0 +1,13 @@
+{
+  "url": "https://www.portoestrela.mt.gov.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.portoestrela.mt.gov.br_115.html",
+  "html_bytes": 656830,
+  "html_title": "Prefeitura Municipal de Porto Estrela | Gestão 2025-2028",
+  "nota": "6.9",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.portoestrela.mt.gov.br_115.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.portoestrela.mt.gov.br_115.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

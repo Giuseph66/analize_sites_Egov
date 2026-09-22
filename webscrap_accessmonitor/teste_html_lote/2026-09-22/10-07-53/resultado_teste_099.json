@@ -1,0 +1,13 @@
+{
+  "url": "https://novamutum.mt.leg.br/#/home",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_novamutum.mt.leg.br_099.html",
+  "html_bytes": 39833,
+  "html_title": "Câmara de Vereadores de Nova Mutum",
+  "nota": "6.5",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_novamutum.mt.leg.br_099.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_novamutum.mt.leg.br_099.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}

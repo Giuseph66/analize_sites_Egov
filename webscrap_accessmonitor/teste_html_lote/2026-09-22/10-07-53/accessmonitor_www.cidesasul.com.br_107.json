@@ -1,0 +1,2477 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-br\" class=\" js_active  vc_desktop  vc_transform  vc_transform \"><head><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\n\t\n\n\t\t<base href=\"https://www.cidesasul.com.br/\">\n        \n\n\n\n\n\n\n\n\n\n\t\t<base href=\"https://www.cidesasul.com.br/\">\n                \n<!--[if lte IE 10]>\n\tP�gina n�o suportada por navegador Internet Explorer com vers�o menor ou igual a 8.0;\n\t<script language= \"JavaScript\">\n\tlocation.href=\"./navegador.html\"\n\t</script>\n<![endif]-->\n\n\t\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t\t<meta http-equiv=\"pragma\" content=\"no-cache\">\n\t\t\t<meta http-equiv=\"cache-control\" content=\"no-cache\"> \n            <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t\t<title>CIDESASUL</title>\n            <meta name=\"revisit-after\" content=\"1 days\">\n            <meta name=\"description\" content=\"\">\n            <meta name=\"keywords\" content=\"Cons�rcio Intermunicipal,Sul, prefeituras, legisla��o, desenvilvimento, econ�mico, social, ambiental, licita��o, transpar�ncia, MT, Mato Grosso, Brasil\">\n\t\t\t<meta name=\"robots\" content=\"index,follow\">\n\t\t\t<meta name=\"googlebot\" content=\"all\">\n            <meta name=\"distribution\" content=\"Global\">\n            <meta name=\"rating\" content=\"General\">\n            <meta name=\"author\" content=\"Kanix Web Developers\">\n            <meta name=\"copyright\" content=\"CIDESASUL\">\n            <meta name=\"language\" content=\"pt-br\">\n            <meta name=\"doc-class\" content=\"Completed\">\n            <meta name=\"doc-rights\" content=\"Public\">\n            <meta http-equiv=\"imagetoolbar\" content=\"no\">\n\n            <link rel=\"Start\" title=\"Pagina Oficial do CIDESASUL\" lang=\"pt-br\">\n\n            <link rel=\"shortcut icon\" href=\"favicon.ico\">\n\n\n\t<link rel=\"icon\" href=\"favicon.ico\">\n\n<!-- consorciados -->\n\t<link rel=\"stylesheet\" id=\"themescode.style.owl.carousel-css\" href=\"plugins/owl-carousel/owl.carousel.css?ver=4.6.4\" type=\"text/css\" media=\"all\">\n\t<link rel=\"stylesheet\" id=\"custom-style-css\" href=\"plugins/owl-carousel/custom/style.custom.css?ver=4.6.4\" type=\"text/css\" media=\"all\">\n<!-- fim consorciados -->\n\n\t<link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"css/estilo.css?date=20230204\">\n\t<link rel=\"stylesheet\" href=\"css/estilo-padrao.css\">\n\t<link rel=\"stylesheet\" href=\"css/effetcs.css\">\n    <link rel=\"stylesheet\" href=\"css/style.css?ver=20230204\">\n    <link rel=\"stylesheet\" href=\"css/c-paginacao.css\">\n\n    \n\n\t\t\n\t\n    <!-- Unite Gallery -->\n\t\t\n\t\n\t\n\t\n\t<link rel=\"stylesheet\" href=\"css/skin-right-thumb.css\" type=\"text/css\">\n\t<link rel=\"stylesheet\" href=\"css/unite-gallery.css\" type=\"text/css\">\n\n\t<!-- Plugins -->\n    <link href=\"plugins/nprogress/nprogress.css\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"css/font-awesome.css\">\n\n\t\n\t<title>CIDESASUL</title>\n\n\t<!--Abertura-->\n\t\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style-abertura.css?v=9868g543\">\n\t\n \n   \t\n\t<!--Fim Abertura-->\n\n\n\t<!--Padr�o-->\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n<!-- paginacao -->\n\n<!-- fim paginacao -->\n\n\n<!-- Acessibilidade -->\n\n\n\n<!--<noscript>Seu Navegador n�o tem suporte a esse JavaScript!</noscript>-->\n\n\n\n\n<!--<noscript>Seu Navegador n�o tem suporte a esse JavaScript!</noscript>-->\n\n<!-- fim acessibilidade -->\n\n\n     \n\n\n<title>    CIDESASUL</title>\n<meta name=\"description\" content=\"Cons�rcio Intermunicipal de Desenvolvimento Econ�mico Social e Ambiental da Regi�o Sul-MT\">\n<meta property=\"og:title\" content=\"\n    CIDESASUL\">\n<meta property=\"og:image\" content=\"https://www.cidesasul.com.br/images/logo_face.png\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<meta property=\"og:image:width\" content=\"400\">\n<meta property=\"og:image:height\" content=\"400\">\n\n\n\n\n\n<meta property=\"og:site_name\" content=\"CIDESASUL\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"fb:app_id\" content=\"1538182976478335\">\n\n\n \n\n\n\t<link media=\"screen\" rel=\"stylesheet\" href=\"colorbox/colorbox.css\">\n\t\n\t\n\n\n\t</head><body style=\"margin: 0px; padding: 0px; display: block;\"><div id=\"fb-root\" class=\" fb_reset\"><div style=\"position: absolute; top: -10000px; width: 0px; height: 0px;\"><div></div></div></div>\n\t<script>(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6\";\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));</script>\n<link rel=\"stylesheet\" href=\"./transparencia/font-awesome/css/font-awesome.min.css\">\n<link rel=\"stylesheet\" id=\"font-awesome-css\" href=\"./transparencia/css/font-awesome.css\" type=\"text/css\" media=\"all\">\n\n\n\n\n\n\n<!-- CARREGANDO SIC -->\n\t<div class=\"section\" style=\"background-color:#338533; border-bottom: 1px solid #FFF;\">\n\t  <div class=\"container\">\n\t   <div class=\"row\">\n\t    <div class=\"\" style=\"padding-top:5px;\">\n\n<table style=\"width:100%; height:50px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody><tr>\n\t\t<td class=\"fundoAcessibilidade\" id=\"fundoAcessibilidade\">\n\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" class=\"opcoesAcesso\">\n\t\t\t\t<tbody><tr>\n\t\t\t\t\t<td><i class=\"fa fa-universal-access\" aria-hidden=\"true\" style=\"font-size:24px; margin-right:5px; color:#FFF !important;\"></i></td>\n\t\t\t\t\t<td style=\"padding-left:3px; font-weight:bold; width:10%; color:#FFF;\" class=\"hidden-sm hidden-xs\">Recursos de<br>Acessibilidade:&nbsp;</td>\n\t\t\t\t\t<td style=\"padding-left:3px;\"><a href=\"/#conteudo\" accesskey=\"1\" onkeypress=\"#conteudo\" style=\"text-decoration:none;\" title=\"Tecle Alt+1 Ir ao conte�do\" tabindex=\"2\"><button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\"><span class=\"hidden-sm hidden-xs\">Tecle Alt+1 : </span>Ir ao conteúdo</button></a></td>\n\t\t\t\t\t<td style=\"padding-left:3px;\"><a href=\"./mapa-do-site/\" accesskey=\"2\" onkeypress=\"#mapa_site\" style=\"text-decoration:none;\" title=\"Mapa do site\" tabindex=\"3\"><button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\"><span class=\"hidden-sm hidden-xs\">Tecle Alt+2 : Ir ao </span>Mapa Site <i class=\"fa fa-sitemap\" aria-hidden=\"true\"></i></button></a></td>\n\t\t\t\t\t<td style=\"padding-left:3px;\"><a style=\"text-decoration:none; cursor:pointer;\" title=\"Diminuir texto\" tabindex=\"4\"><button class=\"btn btn-sm btn-default\" onclick=\"mudarFonte('menor');\" onkeypress=\"mudarFonte('menor');\" style=\"font-weight:bold;\"><span class=\"hidden-sm hidden-xs\">Texto Normal </span> A-</button></a></td>\n\t\t\t\t\t<td style=\"padding-left:3px;\"><a style=\"text-decoration:none; cursor:pointer;\" title=\"Aumentar texto\" tabindex=\"5\"><button class=\"btn btn-sm btn-default \" onclick=\"mudarFonte('maior');\" onkeypress=\"mudarFonte('maior');\" style=\"font-weight:bold;\"><span class=\"hidden-sm hidden-xs\">Texto Maior </span> A+</button></a></td>\n\t\t\t\t\t<td style=\"padding-left:3px;\"><a style=\"text-decoration:none; cursor:pointer;\" title=\"Contraste\" tabindex=\"6\"><button class=\"btn btn-sm btn-default\" onclick=\"mudarContraste();\" onkeypress=\"mudarContraste();\" style=\"font-weight:bold;\"><span class=\"hidden-sm hidden-xs\">Contraste </span><i class=\"fa fa-adjust\" style=\"font-size:18px;\" aria-hidden=\"true\"></i></button></a></td>\n\n\t\t\t\t\t<td style=\"padding-left:3px;\" class=\"hidden-sm hidden-xs\"><a href=\"./transparencia/ouvidoria/\" target=\"_blank\" style=\"text-decoration:none; cursor:pointer;\" title=\"Contraste\" tabindex=\"7\"><button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\"><img src=\"./images/icone_acesso.png\" width=\"60\" height=\"18\" alt=\"\"></button></a></td>\n\n\n\t\t\t\t</tr>\n\t\t\t</tbody></table>\n\n\t\t</td>\n\t</tr>\n</tbody></table>\n\t\t</div>\n\t   </div>\n     </div>\n    </div>\n<!-- fim acessibilidade --> \n\n\n\n<!-- <div id=\"divPagina\"> -->\n<div id=\"meio\" class=\"areaMeio\" style=\"margin:0px; padding:0;\">\n\n\n\n\t<!-- cabecalho -->\n\t<div class=\"container-full\">\n\t\t\n\t\t\t\t<div id=\"cabecalho\" style=\"background-size: Auto 100%; background-position: 100%; background-repeat: no-repeat;\">\n\t\t\n\t\t<div style=\"background:url(images/fundo.png) no-repeat; background-size: 100% auto; background-position: 0%;  opacity: 0.3;z-index: -1;height: 190px;position: absolute;\n\t\twidth: 100%;\"></div>\n\n\t\t<div class=\"topo\" style=\" position: relative;\" align=\"center\">\n\t\t\t<a href=\"./\"><img class=\"logo img-responsive \" src=\"images/logo-principal.png\" alt=\"CIDESASUL\"></a>\t\t\t\n\t\t</div>\n\t</div>\n\t\t<p style=\"border-bottom: 3px solid #0a51a2; margin: 0;\"></p>\n\t\t<div class=\"navegacao\" style=\"border-top: 3px solid #f5c500;\">\n\t\t\t<nav class=\"navbar navbar-default\" id=\"menu2\">\n\t\t\t\t<div class=\"navbar-header menu_mobile\">\n\t\t\t\t    <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#menu\" aria-expanded=\"false\">\n\t\t\t\t        <span class=\"sr-only\">Toggle navigation</span>\n\t\t\t\t        <span class=\"icon-bar\"></span>\n\t\t\t\t        <span class=\"icon-bar\"></span>\n\t\t\t\t        <span class=\"icon-bar\"></span>\n\t\t\t\t    </button>\n\t\t\t\t    \n\t\t\t\t    <a class=\"navbar-brand visible-xs\"><b>MENU</b></a>\n\t\t\t    </div>\n\t\t\t\t\n\t\t\t\t<div class=\"collapse navbar-collapse default_home menu_mobile\" id=\"menu\">\n\t\t\t\t\t<div class=\"container\">\n\n\n\t\t\t\t\t\t<ul class=\"nav navbar-nav menu\" id=\"menu1\">\n\t\t\t\t\t\t\t<li role=\"presentation\" class=\"dropdown\" id=\"inicio\">\n\t\t\t\t\t\t\t\t<a href=\"./\">IN�CIO</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li role=\"presentation\" class=\"dropdown\" id=\"institucional\" onmouseover=\"abrir(institucional)\">\n\t\t\t\t\t\t\t\t<a onclick=\"abrir(institucional)\" onmouseout=\"fechar(institucional)\">INSTITUCIONAL</a>\n\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\" onmouseout=\"fechar(institucional)\">\n\t\t\t\t\t\t\t\t\t<p style=\"border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;\"></p>\n\t\t\t\t\t\t\t\t\t<li><a href=\"./\">P�gina Inicial</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"quemsomos/\">Quem Somos</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"transparencia/competencia-jurisdicao-atribuicao/\" target=\"_blank\">Compet�ncia, Jurisdi��o e Atribui��es</a></li>\n\t\t\t\t\t\t            <li> <a href=\"arquivos/rn14/estatuto-cidesasul.pdf\" target=\"_blank\">Estatuto</a> </li>\n\t\t\t\t\t\t            <li> <a href=\"arquivos/rn14/Lei11107-2005-Dispoe-sobre-os-Consorcios-Publicos.pdf\" target=\"_blank\">Lei 11.107/2005 - Normas gerais de contrata��o Cons�rcios</a> </li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"presidente/\">Presidente</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"diretoria/\">Diretoria Executiva</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"consorciados/\">Munic�pios Participantes</a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t<li role=\"presentation\" class=\"dropdown\" id=\"legislacao\" onmouseover=\"abrir(legislacao)\">\n\t\t\t\t\t\t\t\t<a onmouseout=\"fechar(legislacao)\">LEGISLA��O</a>\n\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\" onmouseout=\"fechar(legislacao)\">\n\t\t\t\t\t\t\t\t\t<p style=\"border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;\"></p>\n\n\t\t\t\t\t\t\t\t\t<li><a href=\"transparencia/mostra_leis/Normativa/\" target=\"_blank\">Normativas</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"transparencia/mostra_leis/Portaria/\" target=\"_blank\">Portarias</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"transparencia/mostra_leis/Resolucao/\" target=\"_blank\">Resolu��es</a></li>\n\n\n\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.al.mt.gov.br/arquivos/legislacao/constituicao_estadual.pdf\" target=\"_blank\">Constitui��o Estadual</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"http://www.senado.gov.br/legislacao/const/con1988/CON1988_27.05.2014/CON1988.pdf\" target=\"_blank\">Constitui��o Federal</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.al.mt.gov.br/legislacao/\" target=\"_blank\">Legisla��o Estadual</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"http://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/leis-ordinarias\" target=\"_blank\">Legisla��o Federal</a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</li>\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t<li role=\"presentation\" id=\"noticias\"><a href=\"./noticias/9/Ultimas-Noticias/\">NOT�CIAS</a></li>\n\n\t\t\t\t\t\t\t<li role=\"presentation\" class=\"dropdown\" id=\"comunicacao\" onmouseover=\"abrir(comunicacao)\">\n\t\t\t\t\t\t\t\t<a onmouseout=\"fechar(comunicacao)\">SALA DE IMPRENSA</a>\n\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\" onmouseout=\"fechar(comunicacao)\">\n\t\t\t\t\t\t\t\t\t<p style=\"border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;\"></p>\n\t\t\t\t\t\t\t\t\t<li><a href=\"fotos/1/0/Galeria-de-Fotos/\">Galeria de Fotos</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"videos/\">Galeria de V�deos</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"noticias/9/Ultimas-Noticias/\">�ltimas Not�cias</a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t<li role=\"presentation\" class=\"dropdown\" id=\"transparencia\" onmouseover=\"abrir(transparencia)\">\n\t\t\t\t\t\t\t\t<a onmouseout=\"fechar(transparencia)\">TRANSPAR�NCIA</a>\n\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\" onmouseout=\"fechar(transparencia)\">\n\t\t\t\t\t\t\t\t\t<p style=\"border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;\"></p>\n\t\t\t\t\t\t\t\t\t<li><a href=\"http://intranet.cidesasul.com.br:8070/transparencia\" target=\"_blank\">Contas P�blicas</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkContratos\" target=\"_blank\">Contratos</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"./transparencia/pref_online/eleicoes/\" target=\"_blank\">Elei��es</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes\" target=\"_blank\">Licita��es</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"transparencia/\" target=\"_blank\">Portal Transpar�ncia</a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</li>\n\n\n\t\t\t\t\t\t\t<li role=\"presentation\" id=\"sim\"><a href=\"https://www.cidesasul.com.br/transparencia/mostra_publicacao/50/0/SIM/\" target=\"_blank\">SIM</a></li>\n\t\t\t\t\t\t\t<li role=\"presentation\" id=\"contato\"><a href=\"faleconosco\">FALE CONOSCO</a></li>\n\t\t\t\t\t\t\t<li role=\"presentation\" id=\"webmail\"><a href=\"https://www.cidesasul.com.br:2096\" target=\"_blank\">WEBMAIL</a></li>\n\n\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n\n\n<script>\n\tfunction abrir(menu){\n\t\tvar $menu = $(menu);\n\t\t$menu.addClass('open');\n\t}\n\n\tfunction fechar(menu){\n\t\tvar $menu = $(menu);\n\t\t$menu.removeClass('open');\n\t}\n</script>\n\n\n<div id=\"conteudo\"></div>\n\n      <!-- capa -->\n<div style=\"min-height:600px;\">\n\n\t<div class=\"section\">\n\t  <div class=\"container\">\n\t   <div class=\"row\" style=\"padding-bottom:15px;\">\n\t    <div class=\"col-md-12\">\n\t\t  <span style=\"font-family:arial; font-size:11px; text-transform:uppercase; font-weight:bold;\">Voc� est� em: <a href=\"./\">In�cio</a>\n          \t          </span>\n          \n\t\t</div>\n\t   </div>\n     </div>\n    </div>\n\n\n      <!-- popup de anuncio para home -->\n\n<!-- fim da popup -->\n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\n<style>\n\n/* �cone de v�deo */\n.ico-player{background: none;\n  width: 50px;\n  height: 50px;\n  border: solid 2px #fff;\n  border-radius: 100%;  \n  padding: 0;\n  text-indent:-9999px;\n  position:absolute;\n  left:50%;\n  margin-top:25%;\n  margin-left:-30px;\n  box-shadow: 1px 2px 3px #000;-webkit-transition:background .25s ease-out;-moz-transition:background .25s ease-out;-o-transition:background .25s ease-out;transition:background .25s ease-out; background-color:#006600; opacity: 0.8;}\n  \n\n.ico-player span{width: 0;\n  height: 0;\n  border-top: 12px solid transparent;\n  border-left: 15px solid #fff;\n  border-bottom: 12px solid transparent;\n  position: absolute;\n  left: 37%;\n  top: 25%;\n  }\n  \n</style>\n\n\t<!-- /Destaques -->\n\n\n\n\n<section id=\"acesso\" class=\"container-fluid vntd-section-default section-default-width\">\n<div class=\"col-md-12 col-sm-12 col-xs-12 pad_l10\" style=\"max-width:1750px;\">\n\t<div class=\"col-md-12 col-sm-12 col-xs-12\" style=\"padding-left:0px;\">\n\n\n\n\n\n\n\t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12\">\n\n\n\t<div class=\"col-md-6 col-sm-12 col-xs-12 noticias\" style=\"margin-bottom:15px;\">\n\t\t<a href=\"noticia/9/104/Parceria-entre-Cidesasul-e-Prefeitura-fortalece-producao-de-uvas-com-kit-de-irrigacao-em-Sao-Pedro-da-Cipa-MT/\"><img alt=\"Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/104.png\" data-image=\"imgs_noticias/104.png\">\n    \t<span class=\"noticiaslidas2\">Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)</span></a>\n\n    </div>\n\n\t<div class=\"col-md-6 col-sm-12 col-xs-12 noticias\" style=\" margin-bottom:15px;\">\n\t\t<a href=\"noticia/9/103/Mutirao-do-CAR-Digital-20-acontece-em-Jaciara-e-atende-produtores-dos-14-municipios-consorciados/\"><img alt=\"Mutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/103.jpeg\" data-image=\"imgs_noticias/103.jpeg\">\n    \t<span class=\"noticiaslidas2\">Mutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados</span>\n        </a>\n    </div>\n\n\n\t</div>\n\n\n\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12\">\n\t\t\t<div style=\"clear: both;\"></div>\n\t\t\t<p class=\"ultimas_noticias\">\n\t\t\t\t<a href=\"noticias\" style=\"color:#fff\">+ Not�cias</a>\n\t\t\t</p><p class=\"hidden-xs\" style=\"border-bottom: 2px solid #F4C415; margin: 0;\"></p>\n\t\t\t<p></p><br style=\"clear:both;\"></div>\n\n\n\n\n\t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12\">\n\n\n\t<div class=\"col-md-4 col-sm-6 noticias\" style=\"padding: 0; margin-bottom:15px;\">\n\t\t<a href=\"noticia/9/102/Mutirao-do-CAR-Digital-20-atendera-produtores-dos-14-municipios-consorciados/\"><img alt=\"Mutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/102.png\" data-image=\"imgs_noticias/102.png\">\n    \t<span class=\"noticiaslidas\">Mutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados</span></a>\n\n    </div>\n\n\t<div class=\"col-md-4 col-sm-6 noticias\" style=\"padding: 0; margin-bottom:15px;\">\n\t\t<a href=\"noticia/9/101/Cidesasul-reune-prefeitos-e-fortalece-acoes-estrategicas-para-o-desenvolvimento-sustentavel-da-regiao-Sul-de-MT/\"><img alt=\"Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/101.png\" data-image=\"imgs_noticias/101.png\">\n    \t<span class=\"noticiaslidas\">Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT</span></a>\n    </div>\n\n\t<div class=\"col-md-4 col-sm-6 noticias hidden-sm \" style=\"padding: 0; margin-bottom:15px;\">\n\t\t<a href=\"noticia/9/100/Cidesasul-amplia-atuacao-e-recebe-Alto-Taquari-como-novo-municipio-consorciado/\"><img alt=\"Cidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/100.jpeg\" data-image=\"imgs_noticias/100.jpeg\">\n    \t<span class=\"noticiaslidas\">Cidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado</span></a>\n    </div>\n\n\t</div>\n    </div>\n    </div>\n    </section>\n\n\n\t<!-- /Consorciados -->\n<section id=\"clientes\" class=\"container-fluid vntd-section-default section-default-width\">\n<div class=\"col-md-12 col-sm-12 pad_l10\" style=\"max-width:1750px;\">\n\t<div class=\"col-md-12 col-sm-12\" style=\"padding-left:0px;\">\n\t\t\t<div class=\"col-md-12 col-sm-12\" style=\"padding-top: 25px;\">\n\t\t\t<div style=\"clear: both;\"></div>\n\t\t\t<p class=\"ultimas_noticias\">\n\t\t\t\t<a href=\"./consorciados/\" style=\"color:#fff\">Munic�pios Consorciados</a>\n\t\t\t</p><p class=\"hidden-xs\" style=\"border-bottom: 2px solid #F4C415; margin: 0;\"></p>\n\t\t\t<p></p><br style=\"clear:both;\"></div>\n\n      <div class=\"vc_row wpb_row vc_row-fluid\" style=\"padding-top:50px; max-width:90%;\">\n        <div class=\"inner vc_row-inner default\">\n          <div class=\"inner-margin\">\n            <div class=\"wpb_column vc_column_container vc_col-sm-12\">\n              <div class=\"vc_column-inner \">\n                <div class=\"wpb_wrapper\">\n                  <div class=\"wpb_text_column wpb_content_element \">\n                    <div class=\"wpb_wrapper\">\n                      <div class=\"tc-carousel-container\">\n                        <div class=\"tc-carousel-demo\">\n\n\t\t\t\t\t\t<a href=\"http://www.altogarcas.mt.gov.br\" title=\"Alto Gar�as\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/alto-garcas.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Alto Gar�as\" title=\"Alto Gar�as\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.altotaquari.mt.gov.br\" title=\"Alto Taquari\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/alto-taquari.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Alto Taquari\" title=\"Alto Taquari\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.campoverde.mt.gov.br\" title=\"Campo Verde\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/campo-verde.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Campo Verde\" title=\"Campo Verde\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.domaquino.mt.gov.br\" title=\"Dom Aquino\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/dom-aquino.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Dom Aquino\" title=\"Dom Aquino\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.itiquira.mt.gov.br\" title=\"Itiquira\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/itiquira.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Itiquira\" title=\"Itiquira\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.jaciara.mt.gov.br\" title=\"Jaciara\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/jaciara.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Jaciara\" title=\"Jaciara\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.juscimeira.mt.gov.br\" title=\"Juscimeira\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/juscimeira.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Juscimeira\" title=\"Juscimeira\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.pedrapreta.mt.gov.br\" title=\"Pedra Preta\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/pedra-preta.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Pedra Preta\" title=\"Pedra Preta\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.poxoreu.mt.gov.br\" title=\"Poxor�u\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/poxoreu.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Poxor�u\" title=\"Poxor�u\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.primaveradoleste.mt.gov.br\" title=\"Primavera do Leste\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/primavera_do_leste.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Primavera do Leste\" title=\"Primavera do Leste\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.santoantoniodoleste.mt.gov.br\" title=\"Santo Ant�nio do Leste\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/santo-antonio-do-leste.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Santo Ant�nio do Leste\" title=\"Santo Ant�nio do Leste\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.saojosedopovo.mt.gov.br\" title=\"S�o Jos� do Povo\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/sjpovo.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"S�o Jos� do Povo\" title=\"S�o Jos� do Povo\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.saopedrodacipa.mt.gov.br\" title=\"S�o Pedro da Cipa\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/sao-pedro-da-cipa.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"S�o Pedro da Cipa\" title=\"S�o Pedro da Cipa\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\t\t\t\t\t\t<a href=\"http://www.tesouro.mt.gov.br\" title=\"Tesouro\" style=\"text-decoration:none;\" target=\"_blank\">\n                          <div class=\"carousel-item\"><img width=\"350\" height=\"250\" src=\"imgs_municipios/tesouro.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Tesouro\" title=\"Tesouro\"></div>\n\t\t\t\t\t\t</a>\n\n  \n\n                        </div>\n                        <!--/.tc-carousel-containe--></div>\n                      <!--/.tc-carousel-demo--> \n                      \n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"vc_row-full-width\"></div>\n\n\n            </div>\n            </div>\n    </section>\n\n\n\t<!-- /�ltimas not�cias - galeria - v�deos -->\n<section id=\"noticias\" class=\"container-fluid vntd-section-default section-default-width\">\n\n<div class=\"col-md-12 col-sm-12 pad_l10\" style=\"max-width:1750px;\">\n\t<div class=\"col-md-6 col-sm-12\" style=\"padding-left:0px;\">\n\t\t\t<div class=\"col-md-12 col-sm-12\" style=\"padding-top: 25px;\">\n\t\t\t<div style=\"clear: both;\"></div>\n\t\t\t<p class=\"ultimas_noticias\">\n\t\t\t\t<a href=\"fotos/1/Galeria-de-Fotos/\" style=\"color:#fff\">Fotos</a>\n\t\t\t</p><p class=\"hidden-xs\" style=\"border-bottom: 2px solid #F4C415; margin: 0;\"></p>\n\t\t\t<p></p><br style=\"clear:both;\"></div>\n\t\t\t\t\n                \n    \t\t\t\t\t<div class=\"col-md-6 col-sm-6\"><a href=\"galerias/1/25/Entrega-de-kit-de-irrigacao-para-producao-de-uvas-em-Sao-Pedro-da-Cipa/\" title=\"Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa\" style=\"text-decoration:none;\" class=\"noticias-inicial\">\n\t\t\t\t\t\t\t\t\t<img src=\"gd3.php?larg=650&amp;alt=400&amp;foto=imgs_coberturas/25/IMG_2155JPG.jpeg\" class=\"img-responsive\" alt=\"Parreiral Santar�m | \">\n\t\t\t\t\t\t\t\t\t</a><p class=\"titulo_noticia\" style=\"font-size:14px; text-decoration:none;\"><a href=\"galerias/1/25/Entrega-de-kit-de-irrigacao-para-producao-de-uvas-em-Sao-Pedro-da-Cipa/\" title=\"Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa\" style=\"text-decoration:none;\" class=\"noticias-inicial\">Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t</p></div>\n          \t\t\t\t\t<div class=\"col-md-6 col-sm-6\"><a href=\"galerias/1/24/Mutirao-do-CAR-Digital-20/\" title=\"Mutir�o do CAR Digital 2.0\" style=\"text-decoration:none;\" class=\"noticias-inicial\">\n\t\t\t\t\t\t\t\t\t<img src=\"gd3.php?larg=650&amp;alt=400&amp;foto=imgs_coberturas/24/20260804_085435jpg.jpeg\" class=\"img-responsive\" alt=\" | Assessoria\">\n\t\t\t\t\t\t\t\t\t</a><p class=\"titulo_noticia\" style=\"font-size:14px; text-decoration:none;\"><a href=\"galerias/1/24/Mutirao-do-CAR-Digital-20/\" title=\"Mutir�o do CAR Digital 2.0\" style=\"text-decoration:none;\" class=\"noticias-inicial\">Mutir�o do CAR Digital 2.0\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t</p></div>\n          \n                                \n</div>                                \n\t<div class=\"col-md-6 col-sm-12\" style=\"padding-left:0px;\">\n\t\t\t<div class=\"col-md-12 col-sm-12\" style=\"padding-top: 25px;\">\n\t\t\t<div style=\"clear: both;\"></div>\n\t\t\t<p class=\"ultimas_noticias\">\n\t\t\t\t<a href=\"videos/\" style=\"color:#fff\">V�deos</a>\n\t\t\t</p><p class=\"hidden-xs\" style=\"border-bottom: 2px solid #F4C415; margin: 0;\"></p>\n\t\t\t<p></p><br style=\"clear:both;\"></div>\n                                \n\n      <!--VIDEOS-->\n      \n                                      \n                                \n                                \n                                <div class=\"col-md-6 col-sm-6\">\n                                \n                                \n                                <a class=\"noticias-inicial img-responsive thumb-gallery\" data-toggle=\"lightbox\" data-gallery=\"youtubevideos\" data-width=\"800\" href=\"https://www.youtube.com/embed/GS3s9rw0jkg\">\n<span class=\"ico-player\"><span></span></span>\n\t\t\t\t\t\t\t\t\t<img src=\"gd3v.php?larg=650&amp;alt=400&amp;foto=https://img.youtube.com/vi/GS3s9rw0jkg/0.jpg\" class=\"img-responsive ug-textpanel-bg\" alt=\"CIDESASUL: AUXILIAR� ATIVIDADES DESENVOLVIDAS PELO MUNIC�PIO\">    \n\t\t\t\t\t\t\t\t\t</a><p class=\"titulo_noticia\" style=\"font-size:14px; text-decoration:none;\"><a class=\"noticias-inicial img-responsive thumb-gallery\" data-toggle=\"lightbox\" data-gallery=\"youtubevideos\" data-width=\"800\" href=\"https://www.youtube.com/embed/GS3s9rw0jkg\">CIDESASUL: AUXILIAR� ATIVIDADES DESENVOLVIDAS PELO MUNIC�PIO\n\t\t\t\t\t\t\t\t</a>\n\n                                \n                                </p></div>\n\n                                      \n                                \n                                \n                                <div class=\"col-md-6 col-sm-6\">\n                                \n                                \n                                <a class=\"noticias-inicial img-responsive thumb-gallery\" data-toggle=\"lightbox\" data-gallery=\"youtubevideos\" data-width=\"800\" href=\"https://www.youtube.com/embed/EQVElRVCuDk\">\n<span class=\"ico-player\"><span></span></span>\n\t\t\t\t\t\t\t\t\t<img src=\"gd3v.php?larg=650&amp;alt=400&amp;foto=https://img.youtube.com/vi/EQVElRVCuDk/0.jpg\" class=\"img-responsive ug-textpanel-bg\" alt=\"MUNIC�PIO ENTRA PARA O CONS�RCIO INTERMUNICIPAL DE DEV. ECON�MICO SOCIAL E AMBIENTAL DO SUL\">    \n\t\t\t\t\t\t\t\t\t</a><p class=\"titulo_noticia\" style=\"font-size:14px; text-decoration:none;\"><a class=\"noticias-inicial img-responsive thumb-gallery\" data-toggle=\"lightbox\" data-gallery=\"youtubevideos\" data-width=\"800\" href=\"https://www.youtube.com/embed/EQVElRVCuDk\">MUNIC�PIO ENTRA PARA O CONS�RCIO INTERMUNICIPAL DE DEV. ECON�MICO SOCIAL E AMBIENTAL DO SUL\n\t\t\t\t\t\t\t\t</a>\n\n                                \n                                </p></div>\n\n          \n                                \n                                \n                                \n                                </div>\n</div>\n\n</section>\n\n\n\t<!-- /ACESSO R�PIDO -->\n<section id=\"acesso\" class=\"container-fluid vntd-section-default section-default-width\">\n<div class=\"col-md-12 col-sm-12 col-xs-12 pad_l10\" style=\"max-width:1750px;\">\n\t<div class=\"col-md-12 col-sm-12 col-xs-12\" style=\"padding-left:0px;\">\n\n\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12\" style=\"padding-top: 25px;\">\n\t\t\t<div style=\"clear: both;\"></div>\n\t\t\t<p class=\"ultimas_noticias\">\n\t\t\t\t<a href=\"noticias\" style=\"color:#fff\">Acesso R�pido</a>\n\t\t\t</p><p class=\"hidden-xs\" style=\"border-bottom: 2px solid #F4C415; margin: 0;\"></p>\n\t\t\t<p></p><br style=\"clear:both;\"></div>\n\n\n\n\n\t\t\t\t<div class=\"col-md-12 col-sm-12 col-xs-12\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"fotos/1/0/Galeria-de-Fotos/\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/galeria-fotos.png\" class=\"img-responsive\">\n\t\t\t\t\t</div></a></div>\n\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"videos/\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/galeria-videos.png\" class=\"img-responsive\">\n\t\t\t\t\t</div></a></div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"http://www.tce.mt.gov.br\" class=\"dadosiconis\" target=\"_blank\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/tribunal-contas.png\" class=\"img-responsive\">\n\t\t\t\t\t\t\n\t\t\t\t\t</div></a></div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"http://intranet.cidesasul.com.br:8070/transparencia\" target=\"_blank\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/contas-publicas.png\" class=\"img-responsive\">\n\t\t\t\t\t\t\n\t\t\t\t\t</div></a></div>\n\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes\" target=\"_blank\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/licitacao.png\" class=\"img-responsive\">\t\t\t\t\t\t\n\t\t\t\t\t</div></a></div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"faleconosco/\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/fale-conosco.png\" class=\"img-responsive\">\n\t\t\t\t\t</div></a></div>\n\n\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"https://www.instagram.com.br/cidesasul/\" target=\"_blank\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/instagram.png\" class=\"img-responsive\">\n\t\t\t\t\t\t\n\t\t\t\t\t</div></a></div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"col-md-3 col-sm-4 col-xs-6 pad_b2\"><a href=\"https://www.facebook.com/CidesasulConsorcioRegiaoSul/\" target=\"_blank\" class=\"dadosiconis\"><div class=\"iconButton\">\n\t\t\t\t\t\t<img src=\"images/ButtonIcons/facebook.png\" class=\"img-responsive\">\n\t\t\t\t\t</div></a></div>\n\t\t\t\t</div>\n</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t</section>\n      \n      <!-- /BANNER DE NOTICIA --> \n      \n\n\n\n<!--INFORMA��ES--> \n\n  <script>\n  $(document).ready(function(){\n    $('#myModal').modal('show')\n  });\n  </script>\n<!-- Fim Modal -->   </div>\n      \n      <!-- capa -->\n\n\n<br><br>\n<section class=\"container-fluid vntd-section-default section-default-width hidden-print\" id=\"rodape\" name=\"rodape\">\n<div class=\"row\">\n<div id=\"rodape\">\n<div class=\"col-md-12 col-sm-12 col-xs-12 pad_l10\" style=\"max-width:1750px;\">\n\t<div class=\"col-md-12 col-sm-12 col-xs-12\" style=\"padding-left:0px;\">\n\t\t\t<div style=\"padding: 2% 0;\">\n\t\t\t\t<div class=\"del-rodape\">\n\t\t\t\t\t<br>\n\t\t\t\t\t<div class=\"final\" style=\"clear:left;\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-md-4\">\n\t\t\t\t\t\t\t<img class=\"logo_footer\" src=\"images/logo-rodape.png\" alt=\"CIDESASUL\"><br style=\"clear:both;\">\n\t\t\t\t\t\t\t<p style=\"color: #fff; text-decoration: none; padding: 1%; margin-left:5%\">Av. Presidente Dutra, S/N - Centro<br>S�o Pedro da Cipa - MT - CEP 78835-000<br>\n\t\t\t\t\t\t\tcidesasul@hotmail.com</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-md-8\">\n\t\t\t\t\t\t\t<div class=\"informacoes\">\n\t\t\t\t\t\t\t\t<div class=\"half col-md-4 col-lg-4 col-sm-6 col-xs-12\">\n\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none;\">\n\t\t\t\t\t\t\t\t\t\t<li>Institucional<hr>\n\t\t\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"quemsomos/\"><li class=\"opcao\">Quem Somos</li></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"presidente/\"><li class=\"opcao\">Presidente</li></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"diretoria/\"><li class=\"opcao\">Diretoria</li></a>\n\t\t\t\t\t\t\t\t\t\t\t</ul> \n\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<br style=\"clear:left;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li class=\"conta\" style=\"margin-top:10px;\">Contato<hr>\n\t\t\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"faleconosco\"><li class=\"opcao\">Fale Conosco</li></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"comochegar\"><li class=\"opcao\">Como Chegar</li></a>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t</li>\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"half col-md-4 col-lg-4 col-sm-6 col-xs-12\">\n\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none;\">\n\t\t\t\t\t\t\t\t\t\t<li>Acesso � Informa��o\n\t\t\t\t\t\t\t\t\t\t<hr>\n\t\t\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"http://intranet.cidesasul.com.br:8070/transparencia\" target=\"_blank\"><li class=\"opcao\">Contas P�blicas</li></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes\" target=\"_blank\"><li class=\"opcao\">Licita��es</li></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<a target=\"_blank\" href=\"transparencia/\"><li class=\"opcao\">Portal Transpar�ncia</li></a>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\t\n\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"half col-md-4 col-lg-4 col-sm-6 col-xs-12\">\n\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none;\">\n\t\t\t\t\t\t\t\t\t\t<li>Comunica��o\n\t\t\t\t\t\t\t\t\t\t  <hr>\n\t\t\t\t\t\t\t\t\t\t  <ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t    <li class=\"opcao\"><a href=\"agenda/\">Agenda de Eventos</a></li>\n\t\t\t\t\t\t\t\t\t\t    <li class=\"opcao\"><a href=\"fotos/1/0/Galeria-de-Fotos/\">Galeria de Fotos</a></li>\n\t\t\t\t\t\t\t\t\t\t    <li class=\"opcao\"><a href=\"videos\">TV Cons�rcio</a></li>\n\t\t\t\t\t\t\t\t\t      </ul>\n\t\t\t\t\t\t\t\t\t  </li>\n\t\t\t\t\t\t\t\t\t\t<li class=\"conta\" style=\"margin-top:10px;\"><a href=\"noticias\" style=\"color:#fff;\">Not�cias</a><hr>\n\t\t\t\t\t\t\t\t\t\t\t<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"noticias/9/Noticias/\"><li class=\"opcao\">Todas as Not�cias</li></a>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n</div>\n</section>\n\t\t<a href=\"#\"><img class=\"img-responsive subir hidden-print\" style=\"min-width: 60px;\" id=\"subir\" src=\"images/subir.png\"></a>\n\n\t\t<script type=\"text/javascript\">\n\n\t\t\twindow.onscroll = function(){\n\t\t\t   var top = window.pageYOffset;\n\t\t\t\tif( top > 30 ) {\n\t\t\t\t\tdocument.getElementById(\"subir\").style.display = \"block\";\t\n\t\t\t\t} else {\n\t\t\t\t\tdocument.getElementById(\"subir\").style.display = \"none\";\t\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tjQuery(document).ready(function(){\n\n\t\t\t\tjQuery(\"#gallery\").unitegallery();\n\n\t\t\t\tjQuery(\"#eventos_gallery\").unitegallery({\n\t\t\t\t\tgallery_width: \"100%\",\n\t\t\t\t\ttile_width: 330,\n\t\t\t\t\ttile_height: 290,\n\t\t\t\t\tgallery_theme: \"tilesgrid\",\n\t\t\t\t\ttile_enable_border: false,\n\t\t\t\t\ttile_enable_image_effect: true,\n\t\t\t\t\ttile_image_effect_reverse: true,\n\t\t\t\t\ttile_enable_textpanel: true,\n\t\t\t\t\ttile_textpanel_source: \"title\",\t\n\t\t\t\t\tlightbox_slider_control_swipe: true,\n\t\t\t\t\tlightbox_slider_control_zoom: true,\n\t\t\t\t\tgrid_num_rows: 5,\n\t\t\t\t\ttile_enable_shadow: false\n\t\t\t\t});\n\n\t\t\t\tjQuery(\"#tv_camara\").unitegallery({\n\t\t\t\t\tgallery_theme: \"video\"\n\t\t\t\t});\n\n\t\t\t   \t$('#subir').click(function(){ \n\t\t\t\t  \t$('html, body').animate({scrollTop:0}, 'slow');\n\t\t\t  \t\treturn false;\n\t\t\t\t});\n\n\t\t\t});\n\t\t\t\n\t\t</script>\n\n\t\t<!-- Plugins -->\n\t\t<script src=\"plugins/nprogress/nprogress.js\"></script>\n\t\t<script src=\"plugins/custom.min.js\"></script>\n\t\t<script src=\"js/jquery.slimscroll.js\"></script>\n\t\t<script src=\"js/demo.js\"></script>\n\t\t<script src=\"js/app.min.js\"></script>\n\n\n<script type=\"text/javascript\">\n\njQuery(document).ready(function(){\n    jQuery(\".tc-carousel-demo\").owlCarousel({\n        autoPlay: 3000,\n        items :4,\n        itemsDesktop : [1199,3],\n        itemsDesktopSmall : [979,3],\n        navigation :true,\n        navigationText : [\"<\",\">\"],\n        Pagination:true,\n        theme : \"tc-owl-theme\",\n      });\n\n});\n\n\n</script> \n<script type=\"text/javascript\" src=\"js/scripts.js?ver=4.4.1\"></script> \n<script type=\"text/javascript\" src=\"js/owl-carousel/owl.carousel.min.js?ver=1\"></script> \n\n\n            <!--Mapa do Site-->\n            <div id=\"rodape3\" align=\"center\" style=\"background-color:#006600; opacity:0.8;\">\n                <div class=\"content\">\n                    <p style=\"color:#f3f3f3; padding:12px; margin:0;\"><a href=\"./politica-de-privacidade.html\" target=\"_blank\" style=\"color:#FFF;\">Pol�tica de Privacidade</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"./politica-de-cookies.html\" target=\"_blank\" style=\"color:#FFF;\">Pol�tica de Cookies</a></p>\n                    <p style=\"color:#f3f3f3; margin:0; padding-bottom:15px;\">2026 © Cons�rcio Intermunicipal de Desenvolvimento Econ�mico Social e Ambiental da Regi�o Sul - Mato Grosso</p>\n                </div>\n                <!--/content-->\n            </div>\n            <!--/rodape3-->\n                \n</div>    <!--Acessibilidade -->\n    <script type=\"text/javascript\" src=\"js/lgpd.min.js\"></script>\n\t<script>\n\t\tfunction busca_required_mobile() {\n\t\tif (document.getElementById('c-busca-input').value == \"\" || document.getElementById('c-busca-input').value == \"Digite sua Busca...\") {\n\t\t\talert(\"Informe o termo para busca!\");\n\t\t\treturn false;\n\t\t}\n\t\treturn true;\n\t\t}\n\t</script>\n\t<script>\n\t\tfunction busca_required_desktop() {\n\t\tif (document.getElementById('c-busca-input-desktop').value == \"\" || document.getElementById('c-busca-input-desktop').value == \"Digite sua Busca...\") {\n\t\t\talert(\"Informe o termo para busca!\");\n\t\t\treturn false;\n\t\t}\n\t\treturn true;\n\t\t}\n\t</script>\n\n    </body></html>",
+    "data": {
+      "title": "CIDESASUL",
+      "rawUrl": "https://www.cidesasul.com.br/",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 6,
+        "buttonNotAname": 1,
+        "a": 66,
+        "linkNotAName": 9,
+        "elementDec": 3,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaAtribDefined": 4,
+        "roleValid": 9,
+        "img": 34,
+        "imgAltNo": 8,
+        "imgAltNull": 1,
+        "headers": 0,
+        "elementHiddenFocus": 10,
+        "menuItem": 0,
+        "id": 56,
+        "colorContrast": 10,
+        "elementPresentChildrenNoFocus": 46,
+        "textContrastHNot": 17,
+        "aSkipFirst": 1,
+        "tableDataCaption": 2,
+        "tableComplexError": 1,
+        "tableLayout": 2,
+        "aTitleMatch": 3,
+        "aImgAltNo": 9,
+        "ehandBothNo": 8,
+        "colorFgBgNo": 7,
+        "dd,dt": 0,
+        "dl": 0,
+        "imgAltLong": 2,
+        "tableNested": 1,
+        "layoutElem": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "aGroupNo": 1,
+        "li": 17,
+        "liNotSemantically": 9,
+        "listNotCorrectly": 9,
+        "idAttNot": 3,
+        "area": 0,
+        "inpImg": 97,
+        "label": 0,
+        "form": 0,
+        "tableData": 2,
+        "tableComplex": 2,
+        "iframe": 0,
+        "ehandler": 15
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>CIDESASUL</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-br\" class=\" js_active  vc_desktop  vc_transform  vc_transform \"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonNotAname": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\"><img src=\"./images/icone_acesso.png\" width=\"60\" height=\"18\" alt=\"\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(8) > a:nth-child(1) > button:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"fotos/1/0/Galeria-de-Fotos/\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"videos/\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://www.tce.mt.gov.br\" class=\"dadosiconis\" target=\"_blank\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://intranet.cidesasul.com.br:8070/transparencia\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"faleconosco/\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com.br/cidesasul/\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(7) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/CidesasulConsorcioRegiaoSul/\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) > a:nth-child(1)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > a:nth-child(8)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<i class=\"fa fa-universal-access\" aria-hidden=\"true\" style=\"font-size:24px; margin-right:5px; color:#FFF !important;\"></i>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > i:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<i class=\"fa fa-sitemap\" aria-hidden=\"true\"></i>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(4) > a:nth-child(1) > button:nth-child(1) > i:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<i class=\"fa fa-adjust\" style=\"font-size:18px;\" aria-hidden=\"true\"></i>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1) > button:nth-child(1) > i:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<i class=\"fa fa-universal-access\" aria-hidden=\"true\" style=\"font-size:24px; margin-right:5px; color:#FFF !important;\"></i>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > i:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<i class=\"fa fa-sitemap\" aria-hidden=\"true\"></i>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(4) > a:nth-child(1) > button:nth-child(1) > i:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<i class=\"fa fa-adjust\" style=\"font-size:18px;\" aria-hidden=\"true\"></i>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1) > button:nth-child(1) > i:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#menu\" aria-expanded=\"false\">\n\t\t\t\t        Toggle navigation\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "roleValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"inicio\">\n\t\t\t\t\t\t\t\tIN�CIO\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"institucional\" onmouseover=\"abrir(institucional)\">\n\t\t\t\t\t\t\t\tINSTITUCIONAL\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tP�gina Inicial\n\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\tCompet�ncia, Jurisdi��o e Atribui��es\n\t\t\t\t\t\t             Estatuto \n\t\t\t\t\t\t             Lei 11.107/2005 - Normas gerais de contrata��o Cons�rcios \n\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\tDiretoria Executiva\n\t\t\t\t\t\t\t\t\tMunic�pios Participantes\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"legislacao\" onmouseover=\"abrir(legislacao)\">\n\t\t\t\t\t\t\t\tLEGISLA��O\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\tNormativas\n\t\t\t\t\t\t\t\t\tPortarias\n\t\t\t\t\t\t\t\t\tResolu��es\n\n\n\t\t\t\t\t\t\t\t\tConstitui��o Estadual\n\t\t\t\t\t\t\t\t\tConstitui��o Federal\n\t\t\t\t\t\t\t\t\tLegisla��o Estadual\n\t\t\t\t\t\t\t\t\tLegisla��o Federal\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"noticias\">NOT�CIAS</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"comunicacao\" onmouseover=\"abrir(comunicacao)\">\n\t\t\t\t\t\t\t\tSALA DE IMPRENSA\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tGaleria de Fotos\n\t\t\t\t\t\t\t\t\tGaleria de V�deos\n\t\t\t\t\t\t\t\t\t�ltimas Not�cias\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"transparencia\" onmouseover=\"abrir(transparencia)\">\n\t\t\t\t\t\t\t\tTRANSPAR�NCIA\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\tContratos\n\t\t\t\t\t\t\t\t\tElei��es\n\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"sim\">SIM</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"contato\">FALE CONOSCO</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a valid `role` attribute.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"webmail\">WEBMAIL</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/galeria-fotos.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/galeria-videos.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/tribunal-contas.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/contas-publicas.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/licitacao.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/fale-conosco.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/instagram.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(7) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/facebook.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltNull": [
+          {
+            "verdict": "passed",
+            "description": "The test target is decorative.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"./images/icone_acesso.png\" width=\"60\" height=\"18\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(8) > a:nth-child(1) > button:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"./images/icone_acesso.png\" width=\"60\" height=\"18\" alt=\"\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(8) > a:nth-child(1) > button:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"inicio\">\n\t\t\t\t\t\t\t\tIN�CIO\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"institucional\" onmouseover=\"abrir(institucional)\">\n\t\t\t\t\t\t\t\tINSTITUCIONAL\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tP�gina Inicial\n\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\tCompet�ncia, Jurisdi��o e Atribui��es\n\t\t\t\t\t\t             Estatuto \n\t\t\t\t\t\t             Lei 11.107/2005 - Normas gerais de contrata��o Cons�rcios \n\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\tDiretoria Executiva\n\t\t\t\t\t\t\t\t\tMunic�pios Participantes\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"legislacao\" onmouseover=\"abrir(legislacao)\">\n\t\t\t\t\t\t\t\tLEGISLA��O\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\tNormativas\n\t\t\t\t\t\t\t\t\tPortarias\n\t\t\t\t\t\t\t\t\tResolu��es\n\n\n\t\t\t\t\t\t\t\t\tConstitui��o Estadual\n\t\t\t\t\t\t\t\t\tConstitui��o Federal\n\t\t\t\t\t\t\t\t\tLegisla��o Estadual\n\t\t\t\t\t\t\t\t\tLegisla��o Federal\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"noticias\">NOT�CIAS</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"comunicacao\" onmouseover=\"abrir(comunicacao)\">\n\t\t\t\t\t\t\t\tSALA DE IMPRENSA\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tGaleria de Fotos\n\t\t\t\t\t\t\t\t\tGaleria de V�deos\n\t\t\t\t\t\t\t\t\t�ltimas Not�cias\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"transparencia\" onmouseover=\"abrir(transparencia)\">\n\t\t\t\t\t\t\t\tTRANSPAR�NCIA\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\tContratos\n\t\t\t\t\t\t\t\t\tElei��es\n\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"sim\">SIM</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"contato\">FALE CONOSCO</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" id=\"webmail\">WEBMAIL</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./\">IN�CIO</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onclick=\"abrir(institucional)\" onmouseout=\"fechar(institucional)\">INSTITUCIONAL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(legislacao)\">LEGISLA��O</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./noticias/9/Ultimas-Noticias/\">NOT�CIAS</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(comunicacao)\">SALA DE IMPRENSA</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(transparencia)\">TRANSPAR�NCIA</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.cidesasul.com.br/transparencia/mostra_publicacao/50/0/SIM/\" target=\"_blank\">SIM</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"faleconosco\">FALE CONOSCO</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.cidesasul.com.br:2096\" target=\"_blank\">WEBMAIL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p style=\"color:#f3f3f3; margin:0; padding-bottom:15px;\">2026 © Cons�rcio Intermunicipal de Desenvolvimento Econ�mico Social e Ambiental da Regi�o Sul - Mato Grosso</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(18) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\">Tecle Alt+1 : Ir ao conteúdo</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) > a:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\">Tecle Alt+2 : Ir ao Mapa Site </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(4) > a:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default\" onclick=\"mudarFonte('menor');\" onkeypress=\"mudarFonte('menor');\" style=\"font-weight:bold;\">Texto Normal  A-</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(5) > a:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default \" onclick=\"mudarFonte('maior');\" onkeypress=\"mudarFonte('maior');\" style=\"font-weight:bold;\">Texto Maior  A+</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(6) > a:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default\" onclick=\"mudarContraste();\" onkeypress=\"mudarContraste();\" style=\"font-weight:bold;\">Contraste </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button class=\"btn btn-sm btn-default\" style=\"font-weight:bold;\"></button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(8) > a:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"logo img-responsive \" src=\"images/logo-principal.png\" alt=\"CIDESASUL\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#menu\" aria-expanded=\"false\">\n\t\t\t\t        Toggle navigation\n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t        \n\t\t\t\t    </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(1) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/104.png\" data-image=\"imgs_noticias/104.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Mutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/103.jpeg\" data-image=\"imgs_noticias/103.jpeg\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Mutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/102.png\" data-image=\"imgs_noticias/102.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/101.png\" data-image=\"imgs_noticias/101.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Cidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/100.jpeg\" data-image=\"imgs_noticias/100.jpeg\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/alto-garcas.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Alto Gar�as\" title=\"Alto Gar�as\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/alto-taquari.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Alto Taquari\" title=\"Alto Taquari\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/campo-verde.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Campo Verde\" title=\"Campo Verde\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/dom-aquino.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Dom Aquino\" title=\"Dom Aquino\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/itiquira.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Itiquira\" title=\"Itiquira\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(5) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/jaciara.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Jaciara\" title=\"Jaciara\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/juscimeira.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Juscimeira\" title=\"Juscimeira\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(7) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/pedra-preta.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Pedra Preta\" title=\"Pedra Preta\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(8) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/poxoreu.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Poxor�u\" title=\"Poxor�u\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(9) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/primavera_do_leste.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Primavera do Leste\" title=\"Primavera do Leste\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(10) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/santo-antonio-do-leste.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Santo Ant�nio do Leste\" title=\"Santo Ant�nio do Leste\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(11) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/sjpovo.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"S�o Jos� do Povo\" title=\"S�o Jos� do Povo\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(12) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/sao-pedro-da-cipa.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"S�o Pedro da Cipa\" title=\"S�o Pedro da Cipa\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(13) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img width=\"350\" height=\"250\" src=\"imgs_municipios/tesouro.jpg\" class=\"attachment-full size-full wp-post-image \" alt=\"Tesouro\" title=\"Tesouro\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(14) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"gd3.php?larg=650&amp;alt=400&amp;foto=imgs_coberturas/25/IMG_2155JPG.jpeg\" class=\"img-responsive\" alt=\"Parreiral Santar�m | \">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"gd3.php?larg=650&amp;alt=400&amp;foto=imgs_coberturas/24/20260804_085435jpg.jpeg\" class=\"img-responsive\" alt=\" | Assessoria\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"gd3v.php?larg=650&amp;alt=400&amp;foto=https://img.youtube.com/vi/GS3s9rw0jkg/0.jpg\" class=\"img-responsive ug-textpanel-bg\" alt=\"CIDESASUL: AUXILIAR� ATIVIDADES DESENVOLVIDAS PELO MUNIC�PIO\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"gd3v.php?larg=650&amp;alt=400&amp;foto=https://img.youtube.com/vi/EQVElRVCuDk/0.jpg\" class=\"img-responsive ug-textpanel-bg\" alt=\"MUNIC�PIO ENTRA PARA O CONS�RCIO INTERMUNICIPAL DE DEV. ECON�MICO SOCIAL E AMBIENTAL DO SUL\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > img:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/galeria-fotos.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/galeria-videos.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/tribunal-contas.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/contas-publicas.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/licitacao.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/fale-conosco.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/instagram.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(7) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"images/ButtonIcons/facebook.png\" class=\"img-responsive\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) > a:nth-child(1) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"logo_footer\" src=\"images/logo-rodape.png\" alt=\"CIDESASUL\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > hr:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > hr:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > hr:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > hr:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<hr>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > hr:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img class=\"img-responsive subir hidden-print\" style=\"min-width: 60px;\" id=\"subir\" src=\"images/subir.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > a:nth-child(8) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<td style=\"padding-left:3px; font-weight:bold; width:10%; color:#FFF;\" class=\"hidden-sm hidden-xs\">Recursos deAcessibilidade:&nbsp;</td>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./\">IN�CIO</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onclick=\"abrir(institucional)\" onmouseout=\"fechar(institucional)\">INSTITUCIONAL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(legislacao)\">LEGISLA��O</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./noticias/9/Ultimas-Noticias/\">NOT�CIAS</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(comunicacao)\">SALA DE IMPRENSA</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(transparencia)\">TRANSPAR�NCIA</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.cidesasul.com.br/transparencia/mostra_publicacao/50/0/SIM/\" target=\"_blank\">SIM</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"faleconosco\">FALE CONOSCO</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.cidesasul.com.br:2096\" target=\"_blank\">WEBMAIL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./\">In�cio</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"noticias\" style=\"color:#fff\">+ Not�cias</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./consorciados/\" style=\"color:#fff\">Munic�pios Consorciados</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"fotos/1/Galeria-de-Fotos/\" style=\"color:#fff\">Fotos</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"videos/\" style=\"color:#fff\">V�deos</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"noticias\" style=\"color:#fff\">Acesso R�pido</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p style=\"color:#f3f3f3; margin:0; padding-bottom:15px;\">2026 © Cons�rcio Intermunicipal de Desenvolvimento Econ�mico Social e Ambiental da Regi�o Sul - Mato Grosso</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(18) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirst": [
+          {
+            "verdict": "warning",
+            "description": "The first focusable control is a visible link to some content in the Web Page. Verify if it links to the main content.",
+            "resultCode": "W2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"/#conteudo\" accesskey=\"1\" onkeypress=\"#conteudo\" style=\"text-decoration:none;\" title=\"Tecle Alt+1 Ir ao conte�do\" tabindex=\"2\">Tecle Alt+1 : Ir ao conteúdo</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "tableDataCaption": [
+          {
+            "verdict": "failed",
+            "description": "The `caption` element doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<table style=\"width:100%; height:50px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tRecursos deAcessibilidade:&nbsp;\n\t\t\t\t\tTecle Alt+1 : Ir ao conteúdo\n\t\t\t\t\tTecle Alt+2 : Ir ao Mapa Site \n\t\t\t\t\tTexto Normal  A-\n\t\t\t\t\tTexto Maior  A+\n\t\t\t\t\tContraste \n\n\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\n\t\t\n\t\n</table>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The `caption` element doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" class=\"opcoesAcesso\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tRecursos deAcessibilidade:&nbsp;\n\t\t\t\t\tTecle Alt+1 : Ir ao conteúdo\n\t\t\t\t\tTecle Alt+2 : Ir ao Mapa Site \n\t\t\t\t\tTexto Normal  A-\n\t\t\t\t\tTexto Maior  A+\n\t\t\t\t\tContraste \n\n\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t</table>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "tableComplexError": [
+          {
+            "verdict": "failed",
+            "description": "This table is a layout table with id or headers attributes.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<table style=\"width:100%; height:50px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tRecursos deAcessibilidade:&nbsp;\n\t\t\t\t\tTecle Alt+1 : Ir ao conteúdo\n\t\t\t\t\tTecle Alt+2 : Ir ao Mapa Site \n\t\t\t\t\tTexto Normal  A-\n\t\t\t\t\tTexto Maior  A+\n\t\t\t\t\tContraste \n\n\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\n\t\t\n\t\n</table>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "tableLayout": [
+          {
+            "verdict": "failed",
+            "description": "There are missing table child elements.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<table style=\"width:100%; height:50px;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tRecursos deAcessibilidade:&nbsp;\n\t\t\t\t\tTecle Alt+1 : Ir ao conteúdo\n\t\t\t\t\tTecle Alt+2 : Ir ao Mapa Site \n\t\t\t\t\tTexto Normal  A-\n\t\t\t\t\tTexto Maior  A+\n\t\t\t\t\tContraste \n\n\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\n\t\t\n\t\n</table>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "There are missing table child elements.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" class=\"opcoesAcesso\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tRecursos deAcessibilidade:&nbsp;\n\t\t\t\t\tTecle Alt+1 : Ir ao conteúdo\n\t\t\t\t\tTecle Alt+2 : Ir ao Mapa Site \n\t\t\t\t\tTexto Normal  A-\n\t\t\t\t\tTexto Maior  A+\n\t\t\t\t\tContraste \n\n\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t</table>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aTitleMatch": [
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a style=\"text-decoration:none; cursor:pointer;\" title=\"Contraste\" tabindex=\"6\">Contraste </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"galerias/1/25/Entrega-de-kit-de-irrigacao-para-producao-de-uvas-em-Sao-Pedro-da-Cipa/\" title=\"Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa\" style=\"text-decoration:none;\" class=\"noticias-inicial\">Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa\n\t\t\t\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"galerias/1/24/Mutirao-do-CAR-Digital-20/\" title=\"Mutir�o do CAR Digital 2.0\" style=\"text-decoration:none;\" class=\"noticias-inicial\">Mutir�o do CAR Digital 2.0\n\t\t\t\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aImgAltNo": [
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"fotos/1/0/Galeria-de-Fotos/\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"videos/\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://www.tce.mt.gov.br\" class=\"dadosiconis\" target=\"_blank\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://intranet.cidesasul.com.br:8070/transparencia\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"faleconosco/\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.instagram.com.br/cidesasul/\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(7) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://www.facebook.com/CidesasulConsorcioRegiaoSul/\" target=\"_blank\" class=\"dadosiconis\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The image doesn't have an accessible name.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#\"></a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > a:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ehandBothNo": [
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"institucional\" onmouseover=\"abrir(institucional)\">\n\t\t\t\t\t\t\t\tINSTITUCIONAL\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tP�gina Inicial\n\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\tCompet�ncia, Jurisdi��o e Atribui��es\n\t\t\t\t\t\t             Estatuto \n\t\t\t\t\t\t             Lei 11.107/2005 - Normas gerais de contrata��o Cons�rcios \n\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\tDiretoria Executiva\n\t\t\t\t\t\t\t\t\tMunic�pios Participantes\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<a onclick=\"abrir(institucional)\" onmouseout=\"fechar(institucional)\">INSTITUCIONAL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"legislacao\" onmouseover=\"abrir(legislacao)\">\n\t\t\t\t\t\t\t\tLEGISLA��O\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\tNormativas\n\t\t\t\t\t\t\t\t\tPortarias\n\t\t\t\t\t\t\t\t\tResolu��es\n\n\n\t\t\t\t\t\t\t\t\tConstitui��o Estadual\n\t\t\t\t\t\t\t\t\tConstitui��o Federal\n\t\t\t\t\t\t\t\t\tLegisla��o Estadual\n\t\t\t\t\t\t\t\t\tLegisla��o Federal\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(legislacao)\">LEGISLA��O</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"comunicacao\" onmouseover=\"abrir(comunicacao)\">\n\t\t\t\t\t\t\t\tSALA DE IMPRENSA\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tGaleria de Fotos\n\t\t\t\t\t\t\t\t\tGaleria de V�deos\n\t\t\t\t\t\t\t\t\t�ltimas Not�cias\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(comunicacao)\">SALA DE IMPRENSA</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<li role=\"presentation\" class=\"dropdown\" id=\"transparencia\" onmouseover=\"abrir(transparencia)\">\n\t\t\t\t\t\t\t\tTRANSPAR�NCIA\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\tContratos\n\t\t\t\t\t\t\t\t\tElei��es\n\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The mouse event attribute doesn't have a keyboard equivalent.",
+            "resultCode": "RC3",
+            "elements": [
+              {
+                "htmlCode": "<a onmouseout=\"fechar(transparencia)\">TRANSPAR�NCIA</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorFgBgNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"noticias\" style=\"color:#fff\">+ Not�cias</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"./consorciados/\" style=\"color:#fff\">Munic�pios Consorciados</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"fotos/1/Galeria-de-Fotos/\" style=\"color:#fff\">Fotos</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"videos/\" style=\"color:#fff\">V�deos</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"noticias\" style=\"color:#fff\">Acesso R�pido</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<p style=\"color: #fff; text-decoration: none; padding: 1%; margin-left:5%\">Av. Presidente Dutra, S/N - CentroS�o Pedro da Cipa - MT - CEP 78835-000\n\t\t\t\t\t\t\tcidesasul@hotmail.com</p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined color css property but not a background css property.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"noticias\" style=\"color:#fff;\">Not�cias</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAltLong": [
+          {
+            "verdict": "failed",
+            "description": "The img alt text attribute has more than 100 characters.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/104.png\" data-image=\"imgs_noticias/104.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The img alt text attribute has more than 100 characters.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/101.png\" data-image=\"imgs_noticias/101.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "tableNested": [
+          {
+            "verdict": "failed",
+            "description": "There are table elements inside other table elements",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" class=\"opcoesAcesso\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tRecursos deAcessibilidade:&nbsp;\n\t\t\t\t\tTecle Alt+1 : Ir ao conteúdo\n\t\t\t\t\tTecle Alt+2 : Ir ao Mapa Site \n\t\t\t\t\tTexto Normal  A-\n\t\t\t\t\tTexto Maior  A+\n\t\t\t\t\tContraste \n\n\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t</table>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "layoutElem": [
+          {
+            "verdict": "failed",
+            "description": "The webpage uses the element b to control the visual content presentation.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<b>MENU</b>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(1) > a:nth-child(2) > b:nth-child(1)"
+              }
+            ],
+            "attributes": [
+              "b"
+            ]
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "aGroupNo": [
+          {
+            "verdict": "failed",
+            "description": "It was found a group of 10 or more links not grouped within a nav element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"http://www.altogarcas.mt.gov.br\" title=\"Alto Gar�as\" style=\"text-decoration:none;\" target=\"_blank\">\n                          \n\t\t\t\t\t\t</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "liNotSemantically": [
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Quem Somos</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > a:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Presidente</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > a:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Diretoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > a:nth-child(3) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Fale Conosco</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2) > a:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Como Chegar</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2) > a:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Contas P�blicas</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > a:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Licita��es</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > a:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Portal Transpar�ncia</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > a:nth-child(3) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Listitem is not used semantically not used semantically",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"opcao\">Todas as Not�cias</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(3) > a:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listNotCorrectly": [
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\" onmouseout=\"fechar(institucional)\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tP�gina Inicial\n\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\tCompet�ncia, Jurisdi��o e Atribui��es\n\t\t\t\t\t\t             Estatuto \n\t\t\t\t\t\t             Lei 11.107/2005 - Normas gerais de contrata��o Cons�rcios \n\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\tDiretoria Executiva\n\t\t\t\t\t\t\t\t\tMunic�pios Participantes\n\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\" onmouseout=\"fechar(legislacao)\">\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\tNormativas\n\t\t\t\t\t\t\t\t\tPortarias\n\t\t\t\t\t\t\t\t\tResolu��es\n\n\n\t\t\t\t\t\t\t\t\tConstitui��o Estadual\n\t\t\t\t\t\t\t\t\tConstitui��o Federal\n\t\t\t\t\t\t\t\t\tLegisla��o Estadual\n\t\t\t\t\t\t\t\t\tLegisla��o Federal\n\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\" onmouseout=\"fechar(comunicacao)\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tGaleria de Fotos\n\t\t\t\t\t\t\t\t\tGaleria de V�deos\n\t\t\t\t\t\t\t\t\t�ltimas Not�cias\n\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"dropdown-menu\" onmouseout=\"fechar(transparencia)\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\tContratos\n\t\t\t\t\t\t\t\t\tElei��es\n\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(3) > nav:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul style=\"list-style: none;\">\n\t\t\t\t\t\t\t\t\t\tInstitucional\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tContato\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t\t\t\t\t\t\tComo Chegar\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t\t\t\t\t\t\tComo Chegar\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "List is not used correctly",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<ul style=\"list-style: none; font-weight: normal;\">\n\t\t\t\t\t\t\t\t\t\t\t\tTodas as Not�cias\n\t\t\t\t\t\t\t\t\t\t\t</ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > ul:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAttNot": [
+          {
+            "verdict": "failed",
+            "description": "",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<section id=\"acesso\" class=\"container-fluid vntd-section-default section-default-width\">\n\n\t\n\n\n\n\n\n\n\t\t\t\t\n\n\n\t\n\t\t\n    \tParceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)\n\n    \n\n\t\n\t\t\n    \tMutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados\n        \n    \n\n\n\t\n\n\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t+ Not�cias\n\t\t\t\n\t\t\t\n\n\n\n\n\t\t\t\t\n\n\n\t\n\t\t\n    \tMutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados\n\n    \n\n\t\n\t\t\n    \tCidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT\n    \n\n\t\n\t\t\n    \tCidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado\n    \n\n\t\n    \n    \n    </section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4)"
+              },
+              {
+                "htmlCode": "<section id=\"acesso\" class=\"container-fluid vntd-section-default section-default-width\">\n\n\t\n\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\tAcesso R�pido\n\t\t\t\n\t\t\t\n\n\n\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\n\t\t</section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<img alt=\"Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/104.png\" data-image=\"imgs_noticias/104.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              },
+              {
+                "htmlCode": "<img alt=\"Mutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados\" id=\"1\" src=\"gd3.php?larg=800&amp;alt=475&amp;foto=imgs_noticias/103.jpeg\" data-image=\"imgs_noticias/103.jpeg\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              },
+              {
+                "htmlCode": "<img alt=\"Mutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/102.png\" data-image=\"imgs_noticias/102.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              },
+              {
+                "htmlCode": "<img alt=\"Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/101.png\" data-image=\"imgs_noticias/101.png\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1) > img:nth-child(1)"
+              },
+              {
+                "htmlCode": "<img alt=\"Cidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado\" id=\"1\" src=\"gd3.php?larg=720&amp;alt=475&amp;foto=imgs_noticias/100.jpeg\" data-image=\"imgs_noticias/100.jpeg\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > div:nth-child(4) > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<section class=\"container-fluid vntd-section-default section-default-width hidden-print\" id=\"rodape\" name=\"rodape\">\n\n\n\n\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tAv. Presidente Dutra, S/N - CentroS�o Pedro da Cipa - MT - CEP 78835-000\n\t\t\t\t\t\t\tcidesasul@hotmail.com\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tInstitucional\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tContato\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t\t\t\t\t\t\tComo Chegar\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAcesso � Informa��o\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tComunica��o\n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\t    Agenda de Eventos\n\t\t\t\t\t\t\t\t\t\t    Galeria de Fotos\n\t\t\t\t\t\t\t\t\t\t    TV Cons�rcio\n\t\t\t\t\t\t\t\t\t      \n\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\tNot�cias\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tTodas as Not�cias\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\n</section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7)"
+              },
+              {
+                "htmlCode": "<div id=\"rodape\">\n\n\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tAv. Presidente Dutra, S/N - CentroS�o Pedro da Cipa - MT - CEP 78835-000\n\t\t\t\t\t\t\tcidesasul@hotmail.com\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tInstitucional\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tQuem Somos\n\t\t\t\t\t\t\t\t\t\t\t\tPresidente\n\t\t\t\t\t\t\t\t\t\t\t\tDiretoria\n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tContato\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tFale Conosco\n\t\t\t\t\t\t\t\t\t\t\t\tComo Chegar\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAcesso � Informa��o\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tContas P�blicas\n\t\t\t\t\t\t\t\t\t\t\t\tLicita��es\n\t\t\t\t\t\t\t\t\t\t\t\tPortal Transpar�ncia\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tComunica��o\n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\t    Agenda de Eventos\n\t\t\t\t\t\t\t\t\t\t    Galeria de Fotos\n\t\t\t\t\t\t\t\t\t\t    TV Cons�rcio\n\t\t\t\t\t\t\t\t\t      \n\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\tNot�cias\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tTodas as Not�cias\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(6) > section:nth-child(7) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 14:17:33",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "CIDESASUL",
+          "date": "2026-09-22 14:17:33",
+          "htmlTags": 801,
+          "roles": {
+            "document": 1,
+            "generic": 133,
+            "table": 2,
+            "rowgroup": 2,
+            "row": 2,
+            "cell": 9,
+            "link": 89,
+            "button": 7,
+            "presentation": 10,
+            "img": 34,
+            "paragraph": 27,
+            "navigation": 1,
+            "list": 13,
+            "listitem": 31,
+            "region": 5,
+            "separator": 5
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 29,
+            "base": 2,
+            "title": 3,
+            "link": 19,
+            "script": 49,
+            "style": 297,
+            "body": 1,
+            "div": 109,
+            "table": 2,
+            "tbody": 2,
+            "tr": 2,
+            "td": 9,
+            "i": 3,
+            "br": 13,
+            "a": 97,
+            "button": 7,
+            "span": 19,
+            "img": 35,
+            "p": 27,
+            "nav": 1,
+            "b": 1,
+            "ul": 13,
+            "li": 49,
+            "section": 5,
+            "hr": 5
+          },
+          "size": 1866943,
+          "encoding": "utf-8",
+          "lang": "pt-br",
+          "content": "text/html",
+          "hash": "08545d7d52c18189c932cca3b285acf7",
+          "tests": 30,
+          "conform": "15@3@0",
+          "score": "3.6"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 6,
+          "buttonNotAname": 1,
+          "a": 66,
+          "linkNotAName": 9,
+          "elementDec": 3,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaAtribDefined": 4,
+          "roleValid": 9,
+          "img": 34,
+          "imgAltNo": 8,
+          "imgAltNull": 1,
+          "headers": 0,
+          "elementHiddenFocus": 10,
+          "menuItem": 0,
+          "id": 56,
+          "colorContrast": 10,
+          "elementPresentChildrenNoFocus": 46,
+          "textContrastHNot": 17,
+          "aSkipFirst": 1,
+          "tableDataCaption": 2,
+          "tableComplexError": 1,
+          "tableLayout": 2,
+          "aTitleMatch": 3,
+          "aImgAltNo": 9,
+          "ehandBothNo": 8,
+          "colorFgBgNo": 7,
+          "dd,dt": 0,
+          "dl": 0,
+          "imgAltLong": 2,
+          "tableNested": 1,
+          "layoutElem": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "aGroupNo": 1,
+          "li": 17,
+          "liNotSemantically": 9,
+          "listNotCorrectly": 9,
+          "idAttNot": 3,
+          "area": 0,
+          "inpImg": 97,
+          "label": 0,
+          "form": 0,
+          "tableData": 2,
+          "tableComplex": 2,
+          "iframe": 0,
+          "ehandler": 15
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_02": "1@3.6",
+          "a_11": "3@9.327272727272728",
+          "element_02": "10@18",
+          "aria_07": "10@18",
+          "role_01": "10@18",
+          "img_01b": "3@6.88235294117647",
+          "img_02": "something",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01a": "something",
+          "table_02": "3@1.8",
+          "table_06": "4@6.4",
+          "table_05a": "4@10.8",
+          "a_05": "5@11.454545454545453",
+          "a_03": "3@3",
+          "ehandler_02": "1@2.6",
+          "color_01": "something",
+          "img_04": "something",
+          "table_04": "something",
+          "layout_01b": "1@2.2",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "a_07": "5@9",
+          "listitem_02": "4@6.776470588235294",
+          "list_03": "4@6.776470588235294",
+          "id_02": "3@10.221428571428572"
+        }
+      },
+      "conform": "15@3@0",
+      "score": "3.6"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T14:17:34.218Z",
+    "requestedUrl": "https://www.cidesasul.com.br/",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=ISO-8859-1",
+      "bytes": 63090,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.cidesasul.com.br_107.html"
+    }
+  }
+}

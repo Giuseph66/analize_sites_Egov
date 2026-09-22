@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="Cisva MT mato grosso Cisva mt saude consorcio publico regional" />
+    <meta name="description" content="Consórcio de Desenvolvimento Norte Araguaia - Site Oficial" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" href="/imgs/default/favicon32.png" sizes="32x32" type="image/png"/>
+    <link rel="shortcut icon" href="/imgs/default/favicon16.png" sizes="16x16" type="image/png"/>
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://cisva.com.br" />
+    <meta property="og:title" content="Consórcio Intermunicipal de Saúde da Região do Vale do Arinos">
+    <meta property="og:site_name" content="Consórcio Intermunicipal de Saúde da Região do Vale do Arinos">
+    <meta property="og:description" content="Consórcio de Desenvolvimento Norte Araguaia - Site Oficial">
+    <meta property="og:image" content="https://cisva.com.br/imgs/default/icon.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="533">
+    <meta property="og:type" content="website">
+    
+    <title>
+                    Cisva
+            </title>
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?t=1790086188' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?t=1790086188' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?t=1790086188'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?t=1790086188'></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140298859-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-140298859-2');
+    </script>
+</head>
+<body>
+    
+<div class="container-fluid h-topbar d-none d-md-block">
+    <div class="container">
+        <div class="row h-t-top">
+            <div class="col-md-2">
+                <a href="">
+                    <i class="mdi mdi-chat"></i> Ouvidoria
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="">
+                    <i class="mdi mdi-information"></i> e-SIC
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="/publicacoes/publicacao/43">
+                    <i class="mdi mdi-help"></i> FAQ
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank">
+                    <i class="mdi mdi-information"></i> Lei de Acesso à Informação
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://radardatransparencia.atricon.org.br/panel.html" target="_blank">
+                    <i class="mdi mdi-search-web"></i> Radar da Transparência
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <i class="mdi mdi-phone-outline"></i> (66) 3556-1158
+            </div>
+            <div class="col-md-5">
+                <i class="mdi mdi-map-marker-outline"></i> R. Ronaldo Gomes, 500w - Jardim Boa Vista
+            </div>
+
+            <div class="col-md-5">
+                <a href="/#/transparencia/home" class="h-link">
+                    <i class="mdi mdi-monitor"></i> Portal transparência
+                </a>
+                <div class="input-group search-wrapper d-md-flex justify-content-end">
+                    <input type="text" class="s-w-input" id="search" placeholder="Pesquisar">
+                    <div class="input-group-append" id="search-btn">
+                        <span class="input-group-text"><i class="mdi mdi-magnify"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="dropdown-search" aria-labelledby="dropdownSearch">
+    <div class="search-result row">
+
+    </div>
+</div><div class="header container-fluid">
+    <div id="overlay" class="sticky"></div>
+
+<div id="menu-mobile" class="sidenav">
+    <a href="javascript:;" class="menu-mobile-closebtn">&times;</a>
+            <a class="nav-link" href="/#/home">Home</a>
+            <a class="nav-link" href="/#/servicos">Serviços</a>
+            <a class="nav-link" href="/#/imprensa/noticias">Notícias</a>
+            <a class="nav-link" href="/#/institucional">Gestão</a>
+            <a class="nav-link" href="/#/publicacoes">Publicações</a>
+            <a class="nav-link" href="/#/contato">Contato</a>
+            <a class="nav-link" href="/#/transparencia/home">Transparência</a>
+    </div>
+
+<div id="search-mobile" class="sidenav">
+    <a href="javascript:;" class="menu-mobile-closebtn closebtn-search">&times;</a>
+    <input type="text" id="search-mobile-input" placeholder="Digite aqui sua pesquisa">
+    <div class="search-mobile-result">
+
+    </div>
+</div>
+
+
+<div class="navbar-mobile row sticky">
+    <div class="col-4">
+        <div class="btn menu-mobile-btn"><i class="mdi mdi-menu"></i></div>
+    </div>
+    <div class="col-4">
+        <a href="/#/home">
+            <img class="n-m-logo" src="/imgs/default/logo.jpeg" alt="">
+        </a>
+    </div>
+    <div class="col-4 text-right">
+        <div class="btn menu-mobile-btn-search"><i class="mdi mdi-magnify"></i></div>
+    </div>
+</div>    <div class="container d-none d-md-block">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-md-11 col-12">
+                        <a href="/#/home">
+                            <img class="h-b-logo" src="/imgs/default/logo.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-end">
+                                <a class="h-link" target="_blank" href="https://cisva.pentagono.info/dash">
+                    <i class="mdi mdi-view-dashboard-outline"></i> Acesso ao sistema
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu container-fluid no-padding">
+    <div class="menu container-fluid no-padding">
+    <div class="container d-none d-md-block d-print-none">
+        <div class="row no-padding">
+            <div class="col-9 m-navbar">
+                                <a class="m-n-link" href="/#/home" ref="home">
+                    Home
+                </a>
+                                <a class="m-n-link" href="/#/servicos" ref="servicos">
+                    Serviços
+                </a>
+                                <a class="m-n-link" href="/#/imprensa/noticias" ref="imprensa/noticias">
+                    Notícias
+                </a>
+                                <a class="m-n-link" href="/#/institucional" ref="institucional">
+                    Gestão
+                </a>
+                                <a class="m-n-link" href="/#/publicacoes" ref="publicacoes">
+                    Publicações
+                </a>
+                                <a class="m-n-link" href="/#/contato" ref="contato">
+                    Contato
+                </a>
+                                <a class="m-n-link" href="/#/transparencia/home" ref="transparencia/home">
+                    Transparência
+                </a>
+                                <div class="m-n-underbar"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+    <input type="hidden" class="an-categoria" value="home">
+    <div id='content' class='content-loading' home-load='0'>
+        <div class="skeleton-loading-wrapper">
+    <div class="row">
+        <div class="col-12 slw-child h-l-ad-inicio"></div>
+    </div>
+</div>    </div>
+
+    <div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <img src="/imgs/default/logo.jpeg" alt="">
+            </div>
+            <div class="col-12 col-md-4 d-md-flex justify-content-md-center mt-4 text-center mt-md-0 text-md-left">
+                <ul class="f-info-list">
+                    <li class="f-i-l-title">(66) 3556-1158</li>
+                    <li>06.153.406/0001-90</li>
+                    <li>R. Ronaldo Gomes, 500w - Jardim Boa Vista</li>
+                    <li>Juara</li>
+                    <li>78575-000</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 d-md-flex justify-content-md-center mt-4 text-center mt-md-0 text-md-left">
+                <ul class="f-info-list">
+                    <li class="f-i-l-title">Horário de atendimento</li>
+                    <li>de Segunda á Sexta</li>
+                    <li>Manhã: das 08:00 às 11:00</li>
+                    <li>Tarde: das 13:00 às 17:00</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid d-print-none footer-rights px-5 py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                Cisva - todos os direitos reservados©
+            </div>
+            <div class="col-md-6 col-xs-12 text-right">
+                Desenvolvido por
+                <a href="https://pentagono.info/" target="_blank"><span>Pentágono Sistemas</span></a>
+            </div>
+        </div>
+    </div>
+</div></body>

@@ -1,0 +1,13 @@
+{
+  "url": "https://domaquino.oxy.elotech.com.br/portaltransparencia/3/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=utf-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_domaquino.oxy.elotech.com.br_097.html",
+  "html_bytes": 2922,
+  "html_title": "Portal Transparência",
+  "nota": "7.1",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_domaquino.oxy.elotech.com.br_097.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_domaquino.oxy.elotech.com.br_097.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}

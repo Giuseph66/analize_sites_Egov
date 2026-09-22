@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="camara câmara municipal de nova ubiratã mato grosso legislativo" />
+    <meta name="description" content="Site oficial da Câmara de Vereadores de Nova Ubiratã ©" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" href="/imgs/default/favicon32.png" sizes="32x32" type="image/png" />
+    <link rel="shortcut icon" href="/imgs/default/favicon16.png" sizes="16x16" type="image/png" />
+
+    <meta property="og:title" content="Câmara de Vereadores de Nova Ubiratã" />
+    <meta property="og:url" content="http://novaubirata.mt.leg.br" />
+    <meta property="og:description" content="Site oficial da Câmara de Vereadores de Nova Ubiratã ©">
+    <meta property="og:image" content="http://novaubirata.mt.leg.br/imgs/default/brasao.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <title>
+                    Câmara de Vereadores de Nova Ubiratã
+            </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css">
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140298859-7');
+    </script>
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=2.3.8&ck=ae34ef73805b6d777c47a30836ba9c2b' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=2.3.8&ck=ae34ef73805b6d777c47a30836ba9c2b' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/jalendar.min.css?v=2.3.8&ck=ae34ef73805b6d777c47a30836ba9c2b' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_popper.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_bootstrap.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.accessibility.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_audio.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jalendar.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_hc_offcanvas.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=2.3.8&ck=ae34ef73805b6d777c47a30836ba9c2b'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=2.3.8&ck=ae34ef73805b6d777c47a30836ba9c2b'></script>
+
+</head><body>
+    <div id="p5fw-accessibility-buttons">
+    <div id="p5fw-a-menu" title="Acessibilidade">
+        <i class="mdi mdi-human"></i>
+    </div>
+    <div id="p5fw-a-menus">
+        <div  class="p5fw-a-menus-title">Acessibilidade</div>
+        <div class="p-a-b-m-menu" id="p5fw-a-increase">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-format-font-size-increase"></i>
+            </div>
+            <div>
+                Fonte Maior 
+                <div class="p-a-b-m-m-fonts">
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-3"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-6"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-9"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-a-b-m-menu" id="p5fw-a-contrast">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-contrast-circle"></i>
+            </div>
+            <div>
+                Contrastes 
+                <div class="p-a-b-m-m-contrasts">
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-2"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-3"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-4"></div>
+                </div>
+            </div>
+        </div>
+        <a href="/#/mapa">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-map"></i>
+                </div>
+                <div>
+                    Mapa do Site 
+                </div>
+            </div>
+        </a>
+
+        <div class="p-a-b-m-menu" id="p5fw-a-libras">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-hand-right"></i>
+            </div>
+            <div>
+                Libras
+            </div>
+        </div>
+
+        <div class="p-a-b-m-menu" id="p5fw-a-reset">
+            Redefinir
+        </div>
+    </div>
+</div>
+
+<div vw class="enabled">
+        <div vw-access-button class="active" style="visibility: hidden"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>   
+    <div id="p5fw-accessibility">
+        <div class="menu-mobile d-md-none d-sm-block">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-3">
+                <div class="menu-mobile-button">
+                    <i class="mdi mdi-menu"></i>
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                <div class="pt-2 text-white">
+                    Nova Ubiratã
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>    
+    </div>    
+</div>
+
+      
+<nav id="main-nav" style="display:none">
+    <ul>
+                    <li>
+                                    <a href="/#/home">Página Inicial</a>    
+                
+                            </li>
+                    <li>
+                                    <span>A Câmara</span>
+                
+                                    <ul>
+                                                    <li>
+                                <a href="/#/camara/vereadores">Vereadores</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/camara/mesa">Mesa Diretora</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/municipio/organograma/4">Organograma</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/municipio/hino/1">Hino Oficial</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/municipio/brasao/7">Brasão e Bandeira</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/municipio/historico/3">Breve Histórico</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/municipio/leiorganica/2">Lei Orgânica Municipal</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/municipio/politica-de-privacidade/5">Politica de Privacidade</a>
+                            </li>
+                                            </ul>
+                            </li>
+                    <li>
+                                    <span>Licitações</span>
+                
+                                    <ul>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/15/carta-convite">Carta Convite</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/97/concorrencia-publica">Concorrência Pública</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/34/dispensa">Dispensa</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/18/inexigibilidade">Inexigibilidade</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/19/leilao">Leilão</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/96/plano-de-contratacoes-anual">Plano de Contratações Anual</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/98/pregao-eletronico">Pregão eletrônico</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/17/pregao-eletronico-e-presencial">Pregão Eletrônico e Presenci</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/16/tomada-de-preco">Tomada de Preço</a>
+                            </li>
+                                            </ul>
+                            </li>
+                    <li>
+                                    <a href="/#/transparencia/publicacoes/6/legislacao">Legislação</a>    
+                
+                            </li>
+                    <li>
+                                    <span>Publicações</span>
+                
+                                    <ul>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/78/acordos-firmados-que-nao-envolvem-transferencias-de-recursos">Acordos Firmados Que Não Envolvem Transferências de Recursos</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/52/concurso-publico">Concurso Público</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/5/contabilidade">Contabilidade</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/2/contratos">Contratos</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/77/convenios-e-transferencias">Convênios e Transferências</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/33/edital">Edital</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/31/geral">Geral</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/6/legislacao">Legislação</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/8/lei-de-responsabilidade-fiscal-(lrf)">Lei de Responsabilidade Fiscal (LRF)</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/99/licitacoes">Licitações</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/105/obras">Obras</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/43/ouvidoria">Ouvidoria</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/88/planejamento-estrategico">Planejamento Estratégico</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/3/portarias">Portarias</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/122/regulamentacao-das-verbas-indenizatorias">REGULAMENTAÇÃO DAS VERBAS INDENIZATORIAS</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/86/relatorio-de-gestao">Relatório de Gestão</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/40/relatorio-de-gestao-fiscal-(rgf)">Relatório de Gestão Fiscal (RGF)</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/7/relatorios">RELATÓRIOS</a>
+                            </li>
+                                                    <li>
+                                <a href="/#/transparencia/publicacoes/87/resultado-da-apreciacao-das-contas-pelo-tce">Resultado da apreciação das contas pelo TCE</a>
+                            </li>
+                                            </ul>
+                            </li>
+                    <li>
+                                    <a href="/#/imprensa/albuns">Galerias</a>    
+                
+                            </li>
+                    <li>
+                                    <a href="/#/contato">Contato</a>    
+                
+                            </li>
+                    <li>
+                                    <a href="/#/municipio/LGPD/6">LGPD</a>    
+                
+                            </li>
+                    <li>
+                                    <a href="/#/municipio/governo-digital/8">Governo Digital</a>    
+                
+                            </li>
+            </ul>
+</nav>
+    <div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a href=" https://transparencia.novaubirata.mt.gov.br/camnovaubiratamt" target="_blank">                        <img src="/imgs/cds/2fecf2f7ba07b05442f3ec7c867de816.jpg" style="width:100%">
+                        </a>                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="menu-right d-md-block">
+    <a href="/#/transparencia/publicacoes/6/legislacao">
+        <div class="m-r-item">
+            <div class="m-r-i-img">
+                <img src="/imgs/icons/legis.png">
+            </div>
+            <div class="m-r-i-text">
+                Legislação
+            </div>
+        </div>
+    </a>
+    <a href="https://transparencia.agilicloud.com.br/camnovaubiratamt" target="_blank">
+        <div class="m-r-item">
+            <div class="m-r-i-img">
+                <img src="/imgs/icons/trans.png">
+            </div>
+            <div class="m-r-i-text">
+                Transparência
+            </div>
+        </div>
+    </a>
+    <a href="http://cmnubirata.ouvidoriabr.com" target="_blank">
+        <div class="m-r-item">
+            <div class="m-r-i-img">
+                <img src="/imgs/icons/ouvid.png">
+            </div>
+            <div class="m-r-i-text">
+                Ouvidoria
+            </div>
+        </div>
+    </a>
+    <a href="/#/transparencia/publicacoes">
+        <div class="m-r-item">
+            <div class="m-r-i-img">
+                <img src="/imgs/icons/publi.png">
+            </div>
+            <div class="m-r-i-text">
+                Publicações
+            </div>
+        </div>
+    </a>
+    <a href="/#/camara/vereadores">
+        <div class="m-r-item">
+            <div class="m-r-i-img">
+                <img src="/imgs/icons/verea.png">
+            </div>
+            <div class="m-r-i-text">
+                Vereadores
+            </div>
+        </div>
+    </a>
+</div>
+<div class="container-fluid header-top d-none d-md-block d-print-none">
+    <div class="row">
+        <div class="col-md-10 h-t-links">
+            <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank">
+                <div class="h-t-l-link">
+                    Lei de acesso à informação <i class="mdi mdi-information-outline"></i>
+                </div>
+            </a>
+            <a href="/download/publicacao/p/NzMw/f/NzMw" target="_blank">
+                <div class="h-t-l-link">
+                    Lei Orgânica
+                </div>
+            </a>
+                        <a href="https://radardatransparencia.atricon.org.br">
+                <div class="h-t-l-link">
+                    Radar da Transparência Pública
+                </div>
+            </a>
+            <a href="https://transparencia.agilicloud.com.br/camnovaubiratamt" target="_blank">
+                <div class="h-t-l-link">
+                    Portal da Transparência
+                </div>
+            </a>
+            <a href="http://cmnubirata.ouvidoriabr.com/" target="_blank">
+                <div class="h-t-l-link">
+                    Ouvidoria
+                </div>
+            </a>
+            <a href="http://esiccmnubirata.ouvidoriabr.com/" target="_blank">
+                <div class="h-t-l-link">
+                    E-SIC
+                </div>
+            </a>
+
+
+            <div class="h-t-l-link">
+                <i class="mdi mdi-clock"></i> Horário de atendimento: 07:00 às 13:00
+            </div>
+        </div>
+        <div class="col-md-2 h-t-links h-t-socials">
+            <span class="h-t-socials-label">Redes sociais</span>
+            <div>
+                <a href="https://www.facebook.com/camaranovaubiratamt"
+                    target="_blank" title="Facebook">
+                    <div class="h-t-l-social h-t-l-social-facebook">
+                        <i class="mdi mdi-facebook-box"></i>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="https://webmail.novaubirata.mt.leg.br/" target="_blank" title="Webmail">
+                    <div class="h-t-l-social h-t-l-social-email">
+                        <i class="mdi mdi-email-open"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid header-top-mobile d-md-none d-print-none">
+    <div class="h-t-links h-t-socials">
+        <span class="h-t-socials-label">Redes sociais</span>
+        <a href="https://www.facebook.com/camaranovaubiratamt"
+            target="_blank" title="Facebook">
+            <div class="h-t-l-social h-t-l-social-facebook">
+                <i class="mdi mdi-facebook-box"></i>
+            </div>
+        </a>
+        <a href="https://webmail.novaubirata.mt.leg.br/" target="_blank" title="Webmail">
+            <div class="h-t-l-social h-t-l-social-email">
+                <i class="mdi mdi-email-open"></i>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class='header-bottom pb-5 d-print-none d-none d-md-block'>
+
+    <div class="container">
+        <div class="row">
+            <div class='col-md-2 col-12 mt-4'>
+                <div class='row'>
+                    <div class='col-md-9'>
+                        <a href='/#/home'>
+                            <img class="h-b-barsao" src="/imgs/default/brasaocamara.png?v=2" title="Voltar a página inicial" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+                                    <div class='col-md-2 offset-md-8 col-12 text-right mt-5'>
+                <a href='/#/home'>
+                    <img class="h-b-barsao" src="/imgs/default/brasao.png?v=2" title="Voltar a página inicial" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header-mobile d-md-none d-sm-block my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <a href='/#/home'>
+                    <img class="w-100" src="/imgs/default/brasao.png" title="Voltar a página inicial" />
+                </a>
+            </div>
+            <div class="col-12 text-center mt-5 p5-font-12">
+                <div>
+                    <i class="mdi mdi-map-marker-radius"></i> Endereço: Avenida Getúlio Vargas nº 110 - Centro
+                </div>
+                <div>
+                    <i class="mdi mdi-phone-classic"></i> Telefone: (66) 3579-1137
+                </div>
+                <div>
+                    <i class="mdi mdi-email"></i> CEP: 78.888-000
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid no-padding-container menus" style="margin-top: -6px;">
+    <div class="d-none d-md-block d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light" id='menu-desktop'>
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/home"  >
+                                    Página Inicial
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    A Câmara
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                                                    <a class="dropdown-item"  href="/#/camara/vereadores">
+                                                <i class="mdi chevron-right"></i> Vereadores
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/camara/mesa">
+                                                <i class="mdi chevron-right"></i> Mesa Diretora
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/organograma/4">
+                                                <i class="mdi chevron-right"></i> Organograma
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/hino/1">
+                                                <i class="mdi chevron-right"></i> Hino Oficial
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/brasao/7">
+                                                <i class="mdi chevron-right"></i> Brasão e Bandeira
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/historico/3">
+                                                <i class="mdi chevron-right"></i> Breve Histórico
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/leiorganica/2">
+                                                <i class="mdi chevron-right"></i> Lei Orgânica Municipal
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/politica-de-privacidade/5">
+                                                <i class="mdi chevron-right"></i> Politica de Privacidade
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Licitações
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/15/carta-convite">
+                                                <i class="mdi chevron-right"></i> Carta Convite
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/97/concorrencia-publica">
+                                                <i class="mdi chevron-right"></i> Concorrência Pública
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/34/dispensa">
+                                                <i class="mdi chevron-right"></i> Dispensa
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/18/inexigibilidade">
+                                                <i class="mdi chevron-right"></i> Inexigibilidade
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/19/leilao">
+                                                <i class="mdi chevron-right"></i> Leilão
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/96/plano-de-contratacoes-anual">
+                                                <i class="mdi chevron-right"></i> Plano de Contratações Anual
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/98/pregao-eletronico">
+                                                <i class="mdi chevron-right"></i> Pregão eletrônico
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/17/pregao-eletronico-e-presencial">
+                                                <i class="mdi chevron-right"></i> Pregão Eletrônico e Presenci
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/16/tomada-de-preco">
+                                                <i class="mdi chevron-right"></i> Tomada de Preço
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/transparencia/publicacoes/6/legislacao"  >
+                                    Legislação
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Publicações
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/78/acordos-firmados-que-nao-envolvem-transferencias-de-recursos">
+                                                <i class="mdi chevron-right"></i> Acordos Firmados Que Não Envolvem Transferências de Recursos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/52/concurso-publico">
+                                                <i class="mdi chevron-right"></i> Concurso Público
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/5/contabilidade">
+                                                <i class="mdi chevron-right"></i> Contabilidade
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/2/contratos">
+                                                <i class="mdi chevron-right"></i> Contratos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/77/convenios-e-transferencias">
+                                                <i class="mdi chevron-right"></i> Convênios e Transferências
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/33/edital">
+                                                <i class="mdi chevron-right"></i> Edital
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/31/geral">
+                                                <i class="mdi chevron-right"></i> Geral
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/6/legislacao">
+                                                <i class="mdi chevron-right"></i> Legislação
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/8/lei-de-responsabilidade-fiscal-(lrf)">
+                                                <i class="mdi chevron-right"></i> Lei de Responsabilidade Fiscal (LRF)
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/99/licitacoes">
+                                                <i class="mdi chevron-right"></i> Licitações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/105/obras">
+                                                <i class="mdi chevron-right"></i> Obras
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/43/ouvidoria">
+                                                <i class="mdi chevron-right"></i> Ouvidoria
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/88/planejamento-estrategico">
+                                                <i class="mdi chevron-right"></i> Planejamento Estratégico
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/3/portarias">
+                                                <i class="mdi chevron-right"></i> Portarias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/122/regulamentacao-das-verbas-indenizatorias">
+                                                <i class="mdi chevron-right"></i> REGULAMENTAÇÃO DAS VERBAS INDENIZATORIAS
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/86/relatorio-de-gestao">
+                                                <i class="mdi chevron-right"></i> Relatório de Gestão
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/40/relatorio-de-gestao-fiscal-(rgf)">
+                                                <i class="mdi chevron-right"></i> Relatório de Gestão Fiscal (RGF)
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/7/relatorios">
+                                                <i class="mdi chevron-right"></i> RELATÓRIOS
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/87/resultado-da-apreciacao-das-contas-pelo-tce">
+                                                <i class="mdi chevron-right"></i> Resultado da apreciação das contas pelo TCE
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/imprensa/albuns"  >
+                                    Galerias
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/contato"  >
+                                    Contato
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/municipio/LGPD/6"  >
+                                    LGPD
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/municipio/governo-digital/8"  >
+                                    Governo Digital
+                                </a>
+                                                            </li>
+                                            </ul>
+                </div>
+                <div class="form-inline my-0 py-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-sm" placeholder="Pesquise" maxlength="45" id="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-sm p5-btn-custom" type="button" id="search-btn"><i class="mdi mdi-magnify"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<lgpd-agreement color='#49ad6e'></lgpd-agreement>        <div id='content' class='content-loading bg-white' ></div>
+        <div class="container-fluid footer d-print-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12 f-links">
+                <h4>LINKS ÚTEIS</h4>
+                                    <h6>
+                        <a href="http://www.novaubirata.mt.gov.br/" target="_blank">
+                            Prefeitura Municipal
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://www.detran.mt.gov.br/" target="_blank">
+                            detran - MT
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://www.mt.gov.br/" target="_blank">
+                            Governo - MT
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://www.tre-mt.jus.br/" target="_blank">
+                            tre - MT
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://www.pm.mt.gov.br/" target="_blank">
+                            Polícia Militar - MT
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://idg.receita.fazenda.gov.br/" target="_blank">
+                            Receita Federal
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://www.correios.com.br/" target="_blank">
+                            correios
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="http://www.al.mt.gov.br/" target="_blank">
+                            Assembleia Legislativa-MT
+                        </a>
+                    </h6>
+                                    <h6>
+                        <a href="https://www.tce.mt.gov.br/" target="_blank">
+                            TCE -MT
+                        </a>
+                    </h6>
+                            </div>
+            <div class="col-md-6 col-12 f-maps">
+                <div class="radius">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1943.501193696791!2d-55.2583911!3d-13.0355197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x930a63b3670d7285%3A0x6e6a1a711cdf77cb!2sC%C3%A2mara+Municipal+de+Nova+Ubirat%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1495465441082"
+                        width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 f-contato text-center mt-5">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div><i class="mdi mdi-phone-classic"></i></div>
+                        <div>(66) 3579-1137</div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div><i class="mdi mdi-email"></i></div>
+                        <div>camara@novaubirata.mt.leg.br</div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div><i class="mdi mdi-google-maps"></i></div>
+                        <div>Avenida Getúlio Vargas nº 110 - Centro <br> Nova Ubiratã - MT, 78.888-000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid footer-rights d-print-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12 f-r-left">
+                Câmara de Vereadores de Nova Ubiratã - todos os direitos reservados©
+            </div>
+            <div class="col-md-6 col-12 f-r-right">
+                <span>Desenvolvido por</span>
+                <a href="http://web.pentagono.info/" target="_blank">Pentágono Sistemas</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer-btn-back-top">
+    <i class="mdi mdi-chevron-double-up"></i>
+</div>    </div>
+</body>

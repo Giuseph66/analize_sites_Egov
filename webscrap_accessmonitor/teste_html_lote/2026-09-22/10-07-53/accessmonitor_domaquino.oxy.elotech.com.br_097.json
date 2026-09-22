@@ -1,0 +1,374 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-br\"><head><meta http-equiv=\"origin-trial\" content=\"A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\"><meta charset=\"utf-8\"><link rel=\"icon\" href=\"/portaltransparencia/favicon.ico\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"theme-color\" content=\"#000000\"><link rel=\"apple-touch-icon\" href=\"/portaltransparencia/logo192.png\"><link rel=\"manifest\" href=\"/portaltransparencia/manifest.json\"><title>Portal Transparência</title><link href=\"/portaltransparencia/static/css/2.a5f1aeb1.chunk.css\" rel=\"stylesheet\"><link href=\"/portaltransparencia/static/css/main.b68f1063.chunk.css\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root\"></div><div vw=\"\" class=\"enabled\"><div vw-access-button=\"\" id=\"btnPluginVLibras\" style=\"opacity:0!important\"></div><div vw-plugin-wrapper=\"\" id=\"wrapperPluginVLibras\"><div class=\"vw-plugin-top-wrapper\"></div></div></div><script type=\"text/javascript\" async=\"\" charset=\"utf-8\" src=\"https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js\" crossorigin=\"anonymous\" integrity=\"sha384-zKvX1tZtoUZjakAq6NG+v14XLO6jHaCtSniDaDnvzrORQB0ysw4QsbpTR9k0YMmj\"></script><script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\"></script><script>new window.VLibras.Widget(\"https://vlibras.gov.br/app\")</script><div id=\"vlibras-access-wrapper\"></div><script src=\"https://www.google.com/recaptcha/api.js?render=explicit\" async=\"\" defer=\"defer\"></script><script>!function(e){function r(r){for(var n,u,l=r[0],p=r[1],i=r[2],f=0,s=[];f<l.length;f++)u=l[f],Object.prototype.hasOwnProperty.call(o,u)&&o[u]&&s.push(o[u][0]),o[u]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(c&&c(r);s.length;)s.shift()();return a.push.apply(a,i||[]),t()}function t(){for(var e,r=0;r<a.length;r++){for(var t=a[r],n=!0,l=1;l<t.length;l++){var p=t[l];0!==o[p]&&(n=!1)}n&&(a.splice(r--,1),e=u(u.s=t[0]))}return e}var n={},o={1:0},a=[];function u(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,u),t.l=!0,t.exports}u.m=e,u.c=n,u.d=function(e,r,t){u.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},u.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(e,\"__esModule\",{value:!0})},u.t=function(e,r){if(1&r&&(e=u(e)),8&r)return e;if(4&r&&\"object\"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(u.r(t),Object.defineProperty(t,\"default\",{enumerable:!0,value:e}),2&r&&\"string\"!=typeof e)for(var n in e)u.d(t,n,function(r){return e[r]}.bind(null,n));return t},u.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return u.d(r,\"a\",r),r},u.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},u.p=\"/portaltransparencia/\";var l=this[\"webpackJsonp@elotech/portaltransparencia\"]=this[\"webpackJsonp@elotech/portaltransparencia\"]||[],p=l.push.bind(l);l.push=r,l=l.slice();for(var i=0;i<l.length;i++)r(l[i]);var c=p;t()}([])</script><script src=\"/portaltransparencia/static/js/2.96e27844.chunk.js\"></script><script src=\"/portaltransparencia/static/js/main.cc9d361e.chunk.js\"></script></body></html>",
+    "data": {
+      "title": "Portal Transparência",
+      "rawUrl": "https://domaquino.oxy.elotech.com.br/portaltransparencia/3/",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 1,
+        "buttonAname": 1,
+        "a": 1,
+        "elementDec": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 1,
+        "headers": 0,
+        "elementHiddenFocus": 1,
+        "menuItem": 0,
+        "id": 0,
+        "elementPresentChildrenNoFocus": 2,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "idAtt": 7,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Portal Transparência</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-br\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"root\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div vw-access-button=\"\" id=\"btnPluginVLibras\" style=\"opacity:0!important\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div vw-plugin-wrapper=\"\" id=\"wrapperPluginVLibras\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(3) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access-wrapper\">       #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; right: 10px; flex-direction: row; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &amp;:hover, &amp;:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { right: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &amp;:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &amp;:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(7)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 14:16:42",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "Portal Transparência",
+          "date": "2026-09-22 14:16:42",
+          "htmlTags": 128,
+          "roles": {
+            "document": 1,
+            "generic": 8,
+            "img": 1,
+            "button": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 4,
+            "link": 5,
+            "title": 1,
+            "style": 90,
+            "script": 14,
+            "body": 1,
+            "noscript": 1,
+            "div": 7,
+            "img": 2,
+            "button": 1
+          },
+          "size": 1590367,
+          "encoding": "utf-8",
+          "lang": "pt-br",
+          "content": "text/html",
+          "hash": "9b335f2ed4789a89e29d92dbe8b27175",
+          "tests": 14,
+          "conform": "4@1@0",
+          "score": "7.1"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 1,
+          "buttonAname": 1,
+          "a": 1,
+          "elementDec": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 1,
+          "headers": 0,
+          "elementHiddenFocus": 1,
+          "menuItem": 0,
+          "id": 0,
+          "elementPresentChildrenNoFocus": 2,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "idAtt": 7,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@18",
+          "element_02": "10@18",
+          "img_01a": "10@16.2",
+          "element_04": "10@18",
+          "element_08": "10@18",
+          "a_01b": "3@4.859999999999999",
+          "layout_01a": "10@18",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "4@1@0",
+      "score": "7.1"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T14:16:42.865Z",
+    "requestedUrl": "https://domaquino.oxy.elotech.com.br/portaltransparencia/3/",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 2922,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_domaquino.oxy.elotech.com.br_097.html"
+    }
+  }
+}

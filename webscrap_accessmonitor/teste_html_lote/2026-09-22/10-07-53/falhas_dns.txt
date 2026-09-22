@@ -1,0 +1,23 @@
+Falha DNS
+Total: 5
+
+
+1. https://amaramirassoldoeste.mt.gov.br
+Explicação: Domínio não resolveu DNS durante a coleta; registro ausente, expirado ou falha temporária.
+Erro: Não foi possível baixar HTML: [Errno -2] Name or service not known
+
+2. https://camaradevarzeagrande.com.br/
+Explicação: Domínio não resolveu DNS durante a coleta; registro ausente, expirado ou falha temporária.
+Erro: Não foi possível baixar HTML: [Errno -2] Name or service not known
+
+3. https://www.camarapontebranca.com.br/
+Explicação: Domínio não resolveu DNS durante a coleta; registro ausente, expirado ou falha temporária.
+Erro: Não foi possível baixar HTML: [Errno -2] Name or service not known
+
+4. https://www.camaracamposdejulio.mt.gov.br/home
+Explicação: Domínio não resolveu DNS durante a coleta; registro ausente, expirado ou falha temporária.
+Erro: Não foi possível baixar HTML: [Errno -3] Temporary failure in name resolution
+
+5. https://ouvidoria.pm.altoboavista.gws-sistemas.com.br/
+Explicação: Domínio não resolveu DNS durante a coleta; registro ausente, expirado ou falha temporária.
+Erro: Não foi possível baixar HTML: [Errno -2] Name or service not known

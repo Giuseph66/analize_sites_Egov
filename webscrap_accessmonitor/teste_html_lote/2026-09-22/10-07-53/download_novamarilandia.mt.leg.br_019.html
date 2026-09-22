@@ -1,0 +1,1367 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <base href="/">
+    
+    <meta http-equiv="Content-Language" content="pt-br">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   	<meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Câmara, Nova Marilândia, Leis, Legislativo, Vereadores" />
+    <meta name="description" content="Site da Câmara Municipal de Nova Marilândia " />
+    <meta name="author" content="Dinamika WebSites e Sistemas" />
+    <meta http-equiv="Content-Language" content="pt-br">
+    
+   	<link rel="shortcut icon" href="publico/logotipo/ico_logo.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link type="text/css" href="vendors/font-awesome_5.15.3/css/all.css" rel="stylesheet">
+    <link href="css/red.css" rel="stylesheet" type="text/css" />
+	<link href="css/slick.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="js/jquery.1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/form_mask.js"></script>
+    <script type="text/javascript" src="js/jquery-clickout.min.js"></script>
+	<script type="text/javascript" src="js/acessibilidade.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/cookies.js"></script>
+    
+    <meta property="og:url" content="https://novamarilandia.mt.leg.br/"/>
+			  <meta property="og:type" content="article"/>
+			  <meta property="og:title" content="Câmara Municipal de Nova Marilândia"/>
+			  <meta property="og:description" content="Site da Câmara Municipal de Nova Marilândia "/>
+			  <meta property="og:image:width" content="600" />
+			  <meta property="og:image:height" content="600" />
+			  <meta property="og:image" content="https://novamarilandia.mt.leg.br/publico/logotipo/600x600.png" /><title>Câmara Municipal de Nova Marilândia</title></head>
+
+<body class="contraste">
+	<input id="ban_" type="hidden" value="S">	
+    <div class="container-fluid">
+    	<div id="loadingTela">
+            <div class="loadingTela">
+                <table width="164" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="46" align="center">
+                            <i class="fas fa-spinner fa-spin" style="font-size:38px;"></i>
+                            <h4 id="loader_mensagem"></h4>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    	
+		
+<script type="text/javascript">
+    $(document).ready(function(){
+		    });
+</script>
+
+<style type="text/css">
+	.modal-content{
+		background-color: transparent;
+		box-shadow: none;
+		border: none;
+	}
+	
+	.modal-body{
+		padding: 0px !important;
+	}
+	
+	.close{
+		font-size: 36px;
+		right: 8px;
+		color: #f5f4f4;
+	}
+	
+	.close:hover{
+		color: #ffffff;
+	}
+</style>
+
+<script type="text/javascript" src="modulos/cabecalho/js/menu.js"></script>
+
+<div class="row hidden-xs hidden-sm">
+    <div class="topo">
+        <div class="max-width">
+            <div class="col-lg-5 col-md-7">
+                <div class="col-xs-12 no-padding">
+                	<strong>Atendimento:</strong> Segunda a Sexta-feira das 7:00h às 13:00h
+              	</div>
+            </div>
+            <div class="col-lg-7 col-md-5 no-padding">
+                <a href="tel:65999699946" class="visible-lg">
+					<i class="fas fa-phone"></i> (65) 9.9969-9946				</a>
+                
+                <div class="divisor-1 visible-lg"></div>
+                <a href="/localizacao" class="visible-lg">
+					<i class="fas fa-map-marker-alt"></i> Localização
+				</a>
+                
+                <!--<div class="divisor-1"></div>
+                <a href="/vereador/">
+					<i class="fas fa-user-tie"></i> Presidente da Câmara
+				</a>-->
+				
+				<div class="divisor-1"></div>
+				<a href="https://www.facebook.com/camaranovamarilandia" target="_blank" title="Curta nossa página">
+                    <i class="fab fa-facebook"></i> Curta nossa página
+                </a>
+				<a href="https://www.instagram.com/camaranovamarilandia/?igsh=M2x6N21zd283eDc5&utm_source=qr" target="_blank" title="Siga no Instagram">
+                    <i class="fab fa-instagram"></i> Siga no Instagram
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row visible-sm visible-xs">
+    <div class="topo">
+        <div id="menu_mobile" class="col-sm-2 col-xs-3" style="padding-right: 0px;">
+            <a href="#" class="bt_menu_mobile"><i class="fas fa-bars"></i> MENU</a>
+            <div class="box_menu_mobile">
+                <div class="menu_mobile_limit">
+                    <a href="/"><i class="fas fa-home"></i> Início</a>
+                    
+                    <a href="/localizacao"><i class="fas fa-map-marker-alt"></i> Localização</a>
+                    <div class="menu_v_links">
+                        <button><i class="fas fa-city"></i> Município <i class="fas fa-angle-down"></i></button>
+                        <div>
+							<a href="/municipio/prefeito/1">
+								<span class="fas fa-angle-right"></span> Prefeito
+							</a>
+							<a href="/municipio/vice-prefeito/2">
+								<span class="fas fa-angle-right"></span> Vice-prefeito
+							</a>
+                            <a href="/municipio/telefones-uteis/2"><span class="fas fa-angle-right"></span> Telefones Úteis</a><a href="/municipio/demografia/3"><span class="fas fa-angle-right"></span> Demografia</a><a href="/municipio/brasao/4"><span class="fas fa-angle-right"></span> Brasão</a><a href="/municipio/economia/5"><span class="fas fa-angle-right"></span> Economia</a><a href="/municipio/turismo/6"><span class="fas fa-angle-right"></span> Turismo</a><a href="/municipio/simbolos-e-hino/7"><span class="fas fa-angle-right"></span> Símbolos e Hino</a><a href="/municipio/historia-do-municipio-de-nova-marilandia/8"><span class="fas fa-angle-right"></span> História do Município de Nova Marilândia</a>                        </div>
+                    </div>
+                    <div class="menu_v_links">
+                        <button>
+							<i class="fas fa-university"></i> A Câmara <i class="fas fa-angle-down"></i>
+						</button>
+                        <div>
+							<a href="/vereador/valmir-silva-leite/4">
+								<span class="fas fa-angle-right"></span> Presidente da Câmara
+							</a>
+							<a href="/vereador/neucireno-francisco-gomes/2">
+								<span class="fas fa-angle-right"></span> Vice-presidente da Câmara
+							</a>
+							<a href="/vereador/manoel-fernandes-da-silva-neto/8">
+								<span class="fas fa-angle-right"></span> 1º Secretário
+							</a>
+							<a href="/vereador/fabio-soares-de-oliveira/6">
+								<span class="fas fa-angle-right"></span> 2º Secretário
+							</a>
+							<a href="/camara/vereadores/1">
+								<span class="fas fa-angle-right"></span> Vereadores
+							</a>
+							<a href="/camara/ex-vereadores/1">
+								<span class="fas fa-angle-right"></span> Ex-Vereadores
+							</a>
+                            <a href="/camara/historia-da-camara/10"><span class="fas fa-angle-right"></span> História da Câmara</a><a href="/camara/procuradoria-da-mulher/13"><span class="fas fa-angle-right"></span> Procuradoria da Mulher</a><a href="/camara/servidores/14"><span class="fas fa-angle-right"></span> Servidores</a><a href="/camara/calendario-das-sessoes/15"><span class="fas fa-angle-right"></span> Calendário das Sessões</a><a href="/camara/lei-geral-de-protecao-de-dados-(lgpd)-/17"><span class="fas fa-angle-right"></span> Lei Geral de Proteção de Dados (LGPD) </a>                        </div>
+                    </div>
+                    <div class="menu_v_links">
+                        <button>
+							<i class="fas fa-info-circle"></i> SIC <i class="fas fa-angle-down"></i>
+						</button>
+                        <div>
+                            <a href="/sic/atas-e-pautas-das-sessoes/3"><span class="fas fa-angle-right"></span> Atas e Pautas das Sessões</a><a href="/sic/ato-dos-vereadores/4"><span class="fas fa-angle-right"></span> Ato dos Vereadores</a><a href="/sic/balancetes-mensais/8"><span class="fas fa-angle-right"></span> Balancetes Mensais</a><a href="/sic/balanco-anual/9"><span class="fas fa-angle-right"></span> Balanço Anual</a><a href="/sic/comissoes-permanentes---bienio-2025-2026/644"><span class="fas fa-angle-right"></span> COMISSÕES PERMANENTES - BIÊNIO 2025/2026</a><a href="/sic/comissoes-permanentes-bienio-2022-2024/548"><span class="fas fa-angle-right"></span> COMISSÕES PERMANENTES Biênio 2022/2024</a><a href="/sic/competencias-e-atribuicoes-/757"><span class="fas fa-angle-right"></span> Competências e Atribuições </a><a href="/sic/concurso-publico-e-processo-seletivo/12"><span class="fas fa-angle-right"></span> Concurso Público e Processo Seletivo</a><a href="/sic/contas-anuais-de-governo---prefeitura-/607"><span class="fas fa-angle-right"></span> Contas Anuais de Governo / Prefeitura </a><a href="/sic/contas-anuais-gestao-camara-/763"><span class="fas fa-angle-right"></span> Contas Anuais Gestão Câmara </a><a href="/sic/contratos-e-aditivos-/7"><span class="fas fa-angle-right"></span> Contratos e Aditivos </a><a href="/sic/convenios-e-transferencias/588"><span class="fas fa-angle-right"></span> Convênios e Transferências</a><a href="/sic/decreto/733"><span class="fas fa-angle-right"></span> Decreto</a><a href="/sic/demonstrativos-anuais/547"><span class="fas fa-angle-right"></span> Demonstrativos Anuais</a><a href="/sic/diario-oficial-eletronico-do-municipio/640"><span class="fas fa-angle-right"></span> Diário Oficial Eletrônico do Município</a><a href="/sic/documentos-diversos/13"><span class="fas fa-angle-right"></span> Documentos Diversos</a><a href="/sic/editais/2"><span class="fas fa-angle-right"></span> Editais</a><a href="/sic/estrutura-organizada-e-norma-instituidora-/758"><span class="fas fa-angle-right"></span> Estrutura Organizada e Norma Instituidora </a><a href="/sic/gestao-de-pessoas/10"><span class="fas fa-angle-right"></span> Gestão de Pessoas</a><a href="/sic/legislacao/6"><span class="fas fa-angle-right"></span> Legislação</a><a href="/sic/licitacoes/1"><span class="fas fa-angle-right"></span> Licitações</a><a href="/sic/notificacao/620"><span class="fas fa-angle-right"></span> NOTIFICAÇÃO</a><a href="/sic/obras/605"><span class="fas fa-angle-right"></span> Obras</a><a href="/sic/oficios/554"><span class="fas fa-angle-right"></span> Ofícios</a><a href="/sic/planejamento-estrategico-/756"><span class="fas fa-angle-right"></span> Planejamento Estratégico </a><a href="/sic/planejamento-orcamentario/5"><span class="fas fa-angle-right"></span> Planejamento Orçamentário</a><a href="/sic/relatorio-de-gestao-fiscal/11"><span class="fas fa-angle-right"></span> Relatório de Gestão Fiscal</a><a href="/sic/relatorios-anuais/721"><span class="fas fa-angle-right"></span> Relatórios Anuais</a><a href="/sic/sessoes-solenes/713"><span class="fas fa-angle-right"></span> Sessões Solenes</a>                        </div>
+                    </div>
+                    <a href="/ouvidoria"><i class="far fa-comments"></i> Ouvidoria</a>
+                    
+                    <!--<div class="menu_v_links">
+                        <button>
+							<i class="far fa-newspaper"></i> Imprensa <i class="fas fa-angle-down"></i>
+						</button>
+                        <div>
+                            <a href="/noticias/noticias-da-camara"><span class="fas fa-angle-right"></span> Notícias</a>
+                            <a href="/galeria_fotos/albuns"><span class="fas fa-angle-right"></span> Galeria de Fotos</a>
+							<a href="/galeria_videos/albuns"><span class="fas fa-angle-right"></span> Galeria de Vídeos</a>
+                        </div>
+                    </div>-->
+                        
+                    <a href="/contato"><i class="far fa-envelope-open"></i> Contato</a>
+                    <a href="tel:65999699946">
+                        <i class="fas fa-phone"></i> (65) 9.9969-9946                    </a>
+                    <div class="col-xs-12" style="margin-bottom: 50px;">
+                        <strong><i class="fas fa-clock"></i> Atendimento:</strong> Segunda a Sexta-Feira das 07:00h às 13:00h
+                    </div>
+					<div class="col-xs-12">
+						<form id="form_pesquisa" name="form_pesquisa" method="get" action="pesquisa">
+							<input type="search" name="palavra_chave" id="palavra_chave" class="form-control" placeholder="O que você procura?" style="height: 42px;">
+						</form>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-10 col-xs-9">
+            <a href="/vereador/valmir-silva-leite/4"><i class="fas fa-user-tie"></i> Presidente da Câmara</a>
+			<div class="divisor-1"></div>
+			<a href="https://www.facebook.com/camaranovamarilandia" target="_blank" title="Curta nossa página">
+				<i class="fab fa-facebook"></i> <span class="hidden-xs">Curta nossa página<span/>
+			</a>
+			<a href="https://www.instagram.com/camaranovamarilandia/?igsh=M2x6N21zd283eDc5&utm_source=qr" target="_blank" title="Siga no Instagram">
+				<i class="fab fa-instagram"></i> <span class="hidden-xs">Siga no Instagram</span>
+			</a>
+        </div>
+    </div>
+</div>
+
+	<div class="row">
+		<div class="carousel visible-lg">
+							<a href="" target="_blank" style="background-image: url(publico/banners/6322b633add4a86eed3b987dcb3c90a5.png); height: 426px; background-repeat: no-repeat; background-size: cover;" title="Banner 2026">
+				</a>
+						</div>
+		
+		<div class="carousel visible-md">
+						
+				<a href="" target="_blank" style="background-image: url(publico/banners/6322b633add4a86eed3b987dcb3c90a5.png); height: 309px; background-repeat: no-repeat; background-size: 100%;" title="Banner 2026">
+				</a>
+						</div>
+		
+		<div class="carousel visible-sm">
+						
+				<a href="" target="_blank" style="background-image: url(publico/banners/6322b633add4a86eed3b987dcb3c90a5.png); height: 240px; background-repeat: no-repeat; background-size: 100%;" title="Banner 2026">
+				</a>
+						</div>
+	</div>
+		<div class="row">
+		<div class="carousel visible-xs">
+							<a href="" target="_blank" style="background-image: url(publico/banners/9d1adac7e5f18bf335a2d066f43d1fba.png); height: 200px; background-repeat: no-repeat; background-size: cover;" title="Banner 2026">
+				</a>
+						</div>
+	</div>
+	
+<div class="row menu_h hidden-xs hidden-sm">
+    <div class="max-width">
+        <div class="col-xs-12 col-sm-9 no-padding">
+            <div><a href="/"><i class="fas fa-home"></i> Início</a></div>
+            <div class="menu_h_links">
+                <button><i class="fas fa-city"></i> Município <i class="fas fa-angle-down"></i></button>
+                <div>
+					<a href="/municipio/prefeito/1">
+						<span class="fas fa-angle-right"></span> PREFEITO
+					</a>
+					<a href="/municipio/vice-prefeito/2">
+						<span class="fas fa-angle-right"></span> VICE-PREFEITO
+					</a>
+                    <a href="/municipio/telefones-uteis/2"><span class="fas fa-angle-right"></span> Telefones Úteis</a><a href="/municipio/demografia/3"><span class="fas fa-angle-right"></span> Demografia</a><a href="/municipio/brasao/4"><span class="fas fa-angle-right"></span> Brasão</a><a href="/municipio/economia/5"><span class="fas fa-angle-right"></span> Economia</a><a href="/municipio/turismo/6"><span class="fas fa-angle-right"></span> Turismo</a><a href="/municipio/simbolos-e-hino/7"><span class="fas fa-angle-right"></span> Símbolos e Hino</a><a href="/municipio/historia-do-municipio-de-nova-marilandia/8"><span class="fas fa-angle-right"></span> História do Município de Nova Marilândia</a>                </div>
+            </div>
+            <div class="menu_h_links">
+                <button><i class="fas fa-university"></i> A Câmara <i class="fas fa-angle-down"></i></button>
+                <div>
+					<a href="/vereador/valmir-silva-leite/4">
+						<span class="fas fa-angle-right"></span> PRESIDENTE DA CÂMARA
+					</a>
+					<a href="/vereador/neucireno-francisco-gomes/2">
+						<span class="fas fa-angle-right"></span> VICE-PRESIDENTE DA CÂMARA
+					</a>
+					<a href="/vereador/manoel-fernandes-da-silva-neto/8">
+						<span class="fas fa-angle-right"></span> 1º SECRETÁRIO
+					</a>
+					<a href="/vereador/fabio-soares-de-oliveira/6">
+						<span class="fas fa-angle-right"></span> 2º SECRETÁRIO
+					</a>
+					<a href="/camara/vereadores/1">
+						<span class="fas fa-angle-right"></span> Vereadores
+					</a>
+					<a href="/camara/ex-vereadores/1">
+						<span class="fas fa-angle-right"></span> Ex-Vereadores
+					</a>
+                    <a href="/camara/historia-da-camara/10"><span class="fas fa-angle-right"></span> História da Câmara</a><a href="/camara/procuradoria-da-mulher/13"><span class="fas fa-angle-right"></span> Procuradoria da Mulher</a><a href="/camara/servidores/14"><span class="fas fa-angle-right"></span> Servidores</a><a href="/camara/calendario-das-sessoes/15"><span class="fas fa-angle-right"></span> Calendário das Sessões</a><a href="/camara/lei-geral-de-protecao-de-dados-(lgpd)-/17"><span class="fas fa-angle-right"></span> Lei Geral de Proteção de Dados (LGPD) </a>                </div>
+            </div>
+            <div class="menu_h_links">
+                <button><i class="fas fa-info-circle"></i> SIC <i class="fas fa-angle-down"></i></button>
+                <div>
+                    <a href="/sic/atas-e-pautas-das-sessoes/3"><span class="fas fa-angle-right"></span> Atas e Pautas das Sessões</a><a href="/sic/ato-dos-vereadores/4"><span class="fas fa-angle-right"></span> Ato dos Vereadores</a><a href="/sic/balancetes-mensais/8"><span class="fas fa-angle-right"></span> Balancetes Mensais</a><a href="/sic/balanco-anual/9"><span class="fas fa-angle-right"></span> Balanço Anual</a><a href="/sic/comissoes-permanentes---bienio-2025-2026/644"><span class="fas fa-angle-right"></span> COMISSÕES PERMANENTES - BIÊNIO 2025/2026</a><a href="/sic/comissoes-permanentes-bienio-2022-2024/548"><span class="fas fa-angle-right"></span> COMISSÕES PERMANENTES Biênio 2022/2024</a><a href="/sic/competencias-e-atribuicoes-/757"><span class="fas fa-angle-right"></span> Competências e Atribuições </a><a href="/sic/concurso-publico-e-processo-seletivo/12"><span class="fas fa-angle-right"></span> Concurso Público e Processo Seletivo</a><a href="/sic/contas-anuais-de-governo---prefeitura-/607"><span class="fas fa-angle-right"></span> Contas Anuais de Governo / Prefeitura </a><a href="/sic/contas-anuais-gestao-camara-/763"><span class="fas fa-angle-right"></span> Contas Anuais Gestão Câmara </a><a href="/sic/contratos-e-aditivos-/7"><span class="fas fa-angle-right"></span> Contratos e Aditivos </a><a href="/sic/convenios-e-transferencias/588"><span class="fas fa-angle-right"></span> Convênios e Transferências</a><a href="/sic/decreto/733"><span class="fas fa-angle-right"></span> Decreto</a><a href="/sic/demonstrativos-anuais/547"><span class="fas fa-angle-right"></span> Demonstrativos Anuais</a><a href="/sic/diario-oficial-eletronico-do-municipio/640"><span class="fas fa-angle-right"></span> Diário Oficial Eletrônico do Município</a><a href="/sic/documentos-diversos/13"><span class="fas fa-angle-right"></span> Documentos Diversos</a><a href="/sic/editais/2"><span class="fas fa-angle-right"></span> Editais</a><a href="/sic/estrutura-organizada-e-norma-instituidora-/758"><span class="fas fa-angle-right"></span> Estrutura Organizada e Norma Instituidora </a><a href="/sic/gestao-de-pessoas/10"><span class="fas fa-angle-right"></span> Gestão de Pessoas</a><a href="/sic/legislacao/6"><span class="fas fa-angle-right"></span> Legislação</a><a href="/sic/licitacoes/1"><span class="fas fa-angle-right"></span> Licitações</a><a href="/sic/notificacao/620"><span class="fas fa-angle-right"></span> NOTIFICAÇÃO</a><a href="/sic/obras/605"><span class="fas fa-angle-right"></span> Obras</a><a href="/sic/oficios/554"><span class="fas fa-angle-right"></span> Ofícios</a><a href="/sic/planejamento-estrategico-/756"><span class="fas fa-angle-right"></span> Planejamento Estratégico </a><a href="/sic/planejamento-orcamentario/5"><span class="fas fa-angle-right"></span> Planejamento Orçamentário</a><a href="/sic/relatorio-de-gestao-fiscal/11"><span class="fas fa-angle-right"></span> Relatório de Gestão Fiscal</a><a href="/sic/relatorios-anuais/721"><span class="fas fa-angle-right"></span> Relatórios Anuais</a><a href="/sic/sessoes-solenes/713"><span class="fas fa-angle-right"></span> Sessões Solenes</a>                </div>
+            </div>
+			
+            <a href="/ouvidoria"><i class="far fa-comments"></i> Ouvidoria</a>
+            
+            <!--<div class="menu_h_links">
+                <button class="hidden-sm"><i class="far fa-newspaper"></i> Imprensa <i class="fas fa-angle-down"></i></button>
+                <div>
+                    <a href="/noticias/noticias-da-camara"><span class="fas fa-angle-right"></span> Notícias</a>
+                    <a href="/galeria_fotos/albuns"><span class="fas fa-angle-right"></span> Galeria de Fotos</a>
+					<a href="/galeria_videos/albuns"><span class="fas fa-angle-right"></span> Galeria de Vídeos</a>
+                </div>
+            </div>-->
+            
+            <a href="/contato" class="hidden-sm hidden-md"><i class="far fa-envelope-open"></i> Contato</a>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 no-padding">
+            <form id="form_pesquisa" name="form_pesquisa" method="get" action="pesquisa" style="margin-top: 6px;">
+                <input type="search" name="palavra_chave" id="palavra_chave" class="form-control" placeholder="O que você procura?" style="height: 42px;">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+</div><script type="text/javascript">
+    $(document).ready(function(){        
+        $('.noticia').mouseover(function(){
+            $(this).find('img').css('filter', 'brightness(0.9)');
+        }).mouseout(function(){
+            $(this).find('img').css('filter', 'brightness(0.8)');
+        });
+    });
+</script>
+
+<div class="row atalhos">
+	<div class="col-xs-12 no-padding">
+		<div class="max-width">
+			<div class="col-xs-12" style="margin-top: 30px; margin-bottom: 30px;">
+				<style type="text/css">    
+    .vereador a{
+        float: left;
+        position: relative;
+        width: 98%;
+        height: 210px;
+        background-size: cover;
+	    background-position:top center;
+        background-repeat: no-repeat;
+        padding: 0px !important;
+        margin-top: 10px;
+        opacity: 1;
+        border-radius: 5px !important;
+        margin-bottom: 20px;
+    }
+    
+    .vereador a:hover{
+        box-shadow: 1px 0px 1px #444;
+    }
+    
+    .vereador h5{
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .vereador span{
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        color: #ffffff;
+        padding: 5px;
+        letter-spacing: .3px;
+        z-index: 99;
+        text-shadow: 1px 1px 5px #000;
+    }
+    
+    .carousel_vereador a{
+        float: left;
+        position: relative;
+        width: 98%;
+        height: 210px;
+        background-size: cover;
+	    background-position:top center;
+        background-repeat: no-repeat;
+        padding: 0px !important;
+        margin-top: 10px;
+        opacity: 1;
+        border-radius: 5px !important;
+        margin-bottom: 20px;
+    }
+    
+    .carousel_vereador a:hover{
+        box-shadow: 1px 0px 1px #444;
+    }
+    
+    .carousel_vereador h5{
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .carousel_vereador span{
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        color: #ffffff;
+        padding: 5px;
+        letter-spacing: .3px;
+        z-index: 99;
+		text-shadow: 1px 1px 5px #000;
+    }
+</style>
+
+<!--MD & LG-->
+<div class="col-lg-3 col-md-3 vereador hidden-sm hidden-xs">
+    <h5>Presidente</h5>
+    <a href="/vereador/valmir-silva-leite/4" style="background-image: url(publico/vereadores/b005290c6a8cf29f77ac220488310b2f.jpg); height:400px; margin-bottom:20px;" title="Valmir Silva Leite">
+        <span style="width: 100%;">Valmir Silva Leite</span>
+    </a>
+    <div class="col-xs-12 no-padding">
+		<img src="publico/logotipo/94398b7f6f4f924e1762af07e779860b.webp" class="img-responsive"/>
+	</div>
+</div>
+
+<div class="col-lg-9 col-md-9 hidden-sm hidden-xs">
+    			<div class="col-lg-3 col-md-3 vereador">
+				<h5>Vice-Presidente</h5>
+				<a href="/vereador/neucireno-francisco-gomes/2" style="background-image: url(publico/vereadores/c8ee25b263a8c949a72a97fbcfffb148.jpg)" title="Neucireno Francisco Gomes">
+					<span>Neucireno Francisco Gomes</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>1º Secretário</h5>
+				<a href="/vereador/manoel-fernandes-da-silva-neto/8" style="background-image: url(publico/vereadores/9ccd7b6abe91575900b483836ac92ba1.jpg)" title="Manoel Fernandes da Silva Neto">
+					<span>Manoel Fernandes da Silva Neto</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>2º Secretário</h5>
+				<a href="/vereador/fabio-soares-de-oliveira/6" style="background-image: url(publico/vereadores/879a57b1226c68c65bc8f6a912d9cb5c.jpg)" title="Fábio Soares de Oliveira">
+					<span>Fábio Soares de Oliveira</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>Vereador</h5>
+				<a href="/vereador/elzo-aparecido-picalho/7" style="background-image: url(publico/vereadores/2d1608ccbaf5cb377f8c87bb5e3c4d42.jpg)" title="Elzo Aparecido Picalho">
+					<span>Elzo Aparecido Picalho</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>Vereador</h5>
+				<a href="/vereador/odir-hernandes-piovezan/40" style="background-image: url(publico/vereadores/3b512b6ef39194750f496e22879df8d8.jpg)" title="Odir Hernandes Piovezan">
+					<span>Odir Hernandes Piovezan</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>Vereador</h5>
+				<a href="/vereador/ronie-de-souza-soave/41" style="background-image: url(publico/vereadores/0d797d1b42754f23171739898786c458.jpg)" title="Ronie de Souza Soave">
+					<span>Ronie de Souza Soave</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>Vereador</h5>
+				<a href="/vereador/jomar-manoel/42" style="background-image: url(publico/vereadores/6b24b7375b5f8b6ef7f70b3d4483993d.jpg)" title="Jomar Manoel">
+					<span>Jomar Manoel</span>
+				</a>
+			</div>
+						<div class="col-lg-3 col-md-3 vereador">
+				<h5>Vereador</h5>
+				<a href="/vereador/maicon-souto-nogueira/44" style="background-image: url(publico/vereadores/81f8bb623c93c5aae6417d5a9860c4b1.jpg)" title="Maicon Souto Nogueira">
+					<span>Maicon Souto Nogueira</span>
+				</a>
+			</div>
+			</div>
+
+<!--XS & SM-->
+<div class="carousel_vereador visible-xs visible-sm">
+    <div>
+        <h5>Presidente</h5>
+        <a href="/vereador/valmir-silva-leite/4" style="background-image: url(publico/vereadores/b005290c6a8cf29f77ac220488310b2f.jpg)" title="Valmir Silva Leite">
+            <span>Valmir Silva Leite</span>
+        </a>
+    </div>
+    			<div>
+				<h5>Vice-Presidente</h5>
+				<a href="/vereador/neucireno-francisco-gomes/2" style="background-image: url(publico/vereadores/c8ee25b263a8c949a72a97fbcfffb148.jpg)" title="Neucireno Francisco Gomes">
+					<span>Neucireno Francisco Gomes</span>
+				</a>
+			</div>
+						<div>
+				<h5>1º Secretário</h5>
+				<a href="/vereador/manoel-fernandes-da-silva-neto/8" style="background-image: url(publico/vereadores/9ccd7b6abe91575900b483836ac92ba1.jpg)" title="Manoel Fernandes da Silva Neto">
+					<span>Manoel Fernandes da Silva Neto</span>
+				</a>
+			</div>
+						<div>
+				<h5>2º Secretário</h5>
+				<a href="/vereador/fabio-soares-de-oliveira/6" style="background-image: url(publico/vereadores/879a57b1226c68c65bc8f6a912d9cb5c.jpg)" title="Fábio Soares de Oliveira">
+					<span>Fábio Soares de Oliveira</span>
+				</a>
+			</div>
+						<div>
+				<h5>Vereador</h5>
+				<a href="/vereador/elzo-aparecido-picalho/7" style="background-image: url(publico/vereadores/2d1608ccbaf5cb377f8c87bb5e3c4d42.jpg)" title="Elzo Aparecido Picalho">
+					<span>Elzo Aparecido Picalho</span>
+				</a>
+			</div>
+						<div>
+				<h5>Vereador</h5>
+				<a href="/vereador/odir-hernandes-piovezan/40" style="background-image: url(publico/vereadores/3b512b6ef39194750f496e22879df8d8.jpg)" title="Odir Hernandes Piovezan">
+					<span>Odir Hernandes Piovezan</span>
+				</a>
+			</div>
+						<div>
+				<h5>Vereador</h5>
+				<a href="/vereador/ronie-de-souza-soave/41" style="background-image: url(publico/vereadores/0d797d1b42754f23171739898786c458.jpg)" title="Ronie de Souza Soave">
+					<span>Ronie de Souza Soave</span>
+				</a>
+			</div>
+						<div>
+				<h5>Vereador</h5>
+				<a href="/vereador/jomar-manoel/42" style="background-image: url(publico/vereadores/6b24b7375b5f8b6ef7f70b3d4483993d.jpg)" title="Jomar Manoel">
+					<span>Jomar Manoel</span>
+				</a>
+			</div>
+						<div>
+				<h5>Vereador</h5>
+				<a href="/vereador/maicon-souto-nogueira/44" style="background-image: url(publico/vereadores/81f8bb623c93c5aae6417d5a9860c4b1.jpg)" title="Maicon Souto Nogueira">
+					<span>Maicon Souto Nogueira</span>
+				</a>
+			</div>
+			</div>
+
+<script type="text/javascript">
+    $('.carousel_vereador').slick({
+        arrows: true,
+        nextArrow: '<button id="bt_right"><i class="fa fa-arrow-right"></i></button>',
+        prevArrow: '<button id="bt_left"><i class="fa fa-arrow-left"></i></button>',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        slidesToShow: 9,
+        slidesToScroll: 1,
+        infinite: false,
+        responsive: [
+            {
+              breakpoint: 1070,
+              settings: {
+                slidesToShow: 7
+              }
+            },
+            {
+              breakpoint: 1190,
+              settings: {
+                slidesToShow: 8
+              }
+            },
+            {
+              breakpoint: 940,
+              settings: {
+                slidesToShow: 6
+              }
+            },
+            {
+              breakpoint: 805,
+              settings: {
+                slidesToShow: 5
+              }
+            },
+            {
+              breakpoint: 676,
+              settings: {
+                slidesToShow: 4
+              }
+            },
+            {
+              breakpoint: 548,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+          ]
+    });
+</script>			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row" style="background-color: #0b2742;">
+	<div class="max-width">
+		<div class="col-sm-6 hidden-xs">
+			<a href="/noticias/sessoes-ordinarias/116" style="color: #ffffff; float: left; width: 100%; text-align: center;">
+				<h2 style="margin: 15px; font-weight: bold;"><i class="fas fa-calendar-alt"></i> CALENDÁRIO DAS SESSÕES<br><small style="color: #ffffff; font-size: 15px; font-weight: bold;">CLIQUE AQUI E ACESSE  <i class="fas fa-mouse-pointer"></i></small></h2>
+			</a>
+		</div>
+		<div class="col-sm-6 hidden-xs">
+			<a href="https://www.facebook.com/camaranovamarilandia" style="color: #ffffff; float: left; width: 100%; text-align: center;" target="_blank">
+				<h2 style="margin: 15px; font-weight: bold;"><i class="fas fa-video"></i> SESSÕES ONLINE<br><small style="color: #ffffff; font-size: 15px; font-weight: bold;">CLIQUE AQUI E ACESSE  <i class="fas fa-mouse-pointer"></i></small></h2>
+			</a>
+		</div>
+		<div class="col-xs-12 visible-xs no-padding">
+			<a href="/noticias/sessoes-ordinarias/116" style="color: #ffffff; float: left; width: 100%; text-align: center;">
+				<h2 style="margin: 15px; font-weight: bold;"><i class="fas fa-calendar-alt"></i> CALENDÁRIO DAS SESSÕES<br><small style="color: #ffffff; font-size: 14px; font-weight: bold;">CLIQUE AQUI E ACESSE  <i class="fas fa-mouse-pointer"></i></small></h2>
+			</a>
+		</div>
+		<div class="col-xs-12 visible-xs no-padding">
+			<a href="https://www.facebook.com/camaranovamarilandia" style="color: #ffffff; float: left; width: 100%; text-align: center;" target="_blank">
+				<h2 style="margin: 15px; font-weight: bold;"><i class="fas fa-video"></i> SESSÕES ONLINE<br><small style="color: #ffffff; font-size: 14px; font-weight: bold;">CLIQUE AQUI E ACESSE  <i class="fas fa-mouse-pointer"></i></small></h2>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="row" style="background-color:#f5f4f4; padding-bottom:20px; padding-top: 20px;">
+	<div class="max-width">
+    	<div class="col-xs-12">
+        	<h4 class="titulo col-xs-12 no-padding"><i class="far fa-newspaper"></i> ÚLTIMAS NOTÍCIAS</h4>
+                                    <div class="col-xs-12 col-sm-6" style="margin-top:20px;">
+                            <a href="noticias/entrega-de-alimentos-arrecadados-/344" class="noticia noticia-a">
+                                <div class="col-xs-12 hidden-xs hidden-sm" style="padding:0px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4; height: 370px; background-image: url(/publico/noticias/3526c3820b3a63fc47653c52634177ed.jpeg); background-position: center top; background-size: cover;"></div>
+                                <div class="col-xs-12 visible-xs visible-sm" style="padding:0px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    <img src="/publico/noticias/3526c3820b3a63fc47653c52634177ed.jpeg" title="ENTREGA DE ALIMENTOS ARRECADADOS " class="img-responsive"/>
+                                </div>
+
+                                <div class="col-xs-12 noticia-titulo" style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    ENTREGA DE ALIMENTOS ARRECADADOS                                 </div>
+
+                                <small class="col-xs-12" style="padding:0px 5px 0px 5px;">
+                                    <i class="fa fa-clock-o"></i>
+                                    Publicado em 28-08-2026 —Geral                                </small>
+
+                                <div class="col-xs-12"  style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4; margin-top:10px;">
+                                    Foram entregues os alimentos arrecadados durante o Jogo Quadrangular.                                </div>
+
+                                <span class="tema"></span>
+                            </a>
+                        </div>
+                                                <div class="col-xs-12 col-sm-6" style="margin-top:20px;">
+                            <a href="noticias/carlos-favaro/343" class="noticia noticia-a">
+                                <div class="col-xs-12 hidden-xs hidden-sm" style="padding:0px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4; height: 370px; background-image: url(/publico/noticias/fa251919e0beb23b33746ff838cd8d0b.jpeg); background-position: center top; background-size: cover;"></div>
+                                <div class="col-xs-12 visible-xs visible-sm" style="padding:0px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    <img src="/publico/noticias/fa251919e0beb23b33746ff838cd8d0b.jpeg" title="CARLOS FAVARO" class="img-responsive"/>
+                                </div>
+
+                                <div class="col-xs-12 noticia-titulo" style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    CARLOS FAVARO                                </div>
+
+                                <small class="col-xs-12" style="padding:0px 5px 0px 5px;">
+                                    <i class="fa fa-clock-o"></i>
+                                    Publicado em 29-06-2026 —Geral                                </small>
+
+                                <div class="col-xs-12"  style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4; margin-top:10px;">
+                                    PRESIDENTE DA C&Acirc;MARA, VEREADORES, PREFEITO E DEMAIS AUTORIDADES RECEBEM O SENADOR CARLOS FAVARO                                </div>
+
+                                <span class="tema"></span>
+                            </a>
+                        </div>
+                        <div class="col-xs-12"></div>                        <div class="col-xs-12 col-sm-4" style="margin-top:40px;">
+                            <a href="noticias/prefeito-atende-indicacao-dos-vereadores-/342" class="noticia  noticia-b">
+                                <div class="col-xs-12 hidden-xs hidden-sm" style="padding:0px; border-left:1px solid #e5e4e4;
+                                border-right:1px solid #e5e4e4; height: 250px; background-image: url(/publico/noticias/70e58f43683c7b11595bc05ab799afa3.jpeg); background-position: center top; background-size: cover;"></div>
+                                <div class="col-xs-12 visible-xs visible-sm" style="padding:0px; border-left:1px solid #e5e4e4;
+                                border-right:1px solid #e5e4e4;">
+                                    <img src="/publico/noticias/70e58f43683c7b11595bc05ab799afa3.jpeg" title="Prefeito atende indica&ccedil;&atilde;o dos vereadores " class="img-responsive"/>
+                                </div>
+
+                                <div class="col-xs-12 noticia-titulo"  style="padding:0px 5px 0px 5px;
+                                border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    Prefeito atende indica&ccedil;&atilde;o dos vereadores                                 </div>
+
+                                <div class="col-xs-12"  style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    A C&acirc;mara Municipal de Nova Maril&acirc;ndia agradece o prefeito Jefferson Nogueira Souto                                </div>
+                            </a>
+                        </div>
+                                                <div class="col-xs-12 col-sm-4" style="margin-top:40px;">
+                            <a href="noticias/presidente-vereadores-e-demais-autoridades-recepcionam-a-deputada-janaina-riva-/341" class="noticia  noticia-b">
+                                <div class="col-xs-12 hidden-xs hidden-sm" style="padding:0px; border-left:1px solid #e5e4e4;
+                                border-right:1px solid #e5e4e4; height: 250px; background-image: url(/publico/noticias/9942c3476b51add9e0e2d75b1b41307e.jpeg); background-position: center top; background-size: cover;"></div>
+                                <div class="col-xs-12 visible-xs visible-sm" style="padding:0px; border-left:1px solid #e5e4e4;
+                                border-right:1px solid #e5e4e4;">
+                                    <img src="/publico/noticias/9942c3476b51add9e0e2d75b1b41307e.jpeg" title="PRESIDENTE, VEREADORES E DEMAIS AUTORIDADES RECEPCIONAM A DEPUTADA JANAINA RIVA " class="img-responsive"/>
+                                </div>
+
+                                <div class="col-xs-12 noticia-titulo"  style="padding:0px 5px 0px 5px;
+                                border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    PRESIDENTE, VEREADORES E DEMAIS AUTORIDADES RECEPCIONAM A DEPUTADA JANAINA RIVA                                 </div>
+
+                                <div class="col-xs-12"  style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                     O presidente da C&acirc;mara, Valmir, juntamente com os demais vereadores e autoridades, receberam com satisfa&ccedil;&atilde;o a deputada estadual Jana&iacute;na Riva.                                </div>
+                            </a>
+                        </div>
+                                                <div class="col-xs-12 col-sm-4" style="margin-top:40px;">
+                            <a href="noticias/decreto-municipal/316" class="noticia  noticia-b">
+                                <div class="col-xs-12 hidden-xs hidden-sm" style="padding:0px; border-left:1px solid #e5e4e4;
+                                border-right:1px solid #e5e4e4; height: 250px; background-image: url(/publico/noticias/01a45bffd74e23f2165b2dee3c034730.jpg); background-position: center top; background-size: cover;"></div>
+                                <div class="col-xs-12 visible-xs visible-sm" style="padding:0px; border-left:1px solid #e5e4e4;
+                                border-right:1px solid #e5e4e4;">
+                                    <img src="/publico/noticias/01a45bffd74e23f2165b2dee3c034730.jpg" title="DECRETO MUNICIPAL" class="img-responsive"/>
+                                </div>
+
+                                <div class="col-xs-12 noticia-titulo"  style="padding:0px 5px 0px 5px;
+                                border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    DECRETO MUNICIPAL                                </div>
+
+                                <div class="col-xs-12"  style="padding:0px 5px 0px 5px; border-left:1px solid #e5e4e4; border-right:1px solid #e5e4e4;">
+                                    Em conformidade com o Decreto Municipal n&ordm; 12/2025                                </div>
+                            </a>
+                        </div>
+                                    
+            <div class="col-xs-12">
+                <a href="noticias/noticias-da-camara" class="pull-right btn btn-primary" style="margin-top: 30px;">
+                <i class="fa fa-plus"></i> Ver mais notícias</a>
+            </div>
+        </div>
+    </div>
+</div><script type="text/javascript">
+    $(document).ready(function(){
+        $('.atalhos a').mouseover(function(){
+            $(this).find('small').css('color', '#ffffff');
+        }).mouseout(function(){
+            $(this).find('small').css('color', '#444');
+        });
+    });
+</script>
+
+<div class="row atalhos">
+	<div class="col-xs-12 no-padding">
+		<div class="max-width">
+			<div class="col-xs-12 links">
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/ouvidoria">
+						<i class="far fa-comments"></i>
+						<br>OUVIDORIA<br>
+						<small>Elogie, denúncie, dê sugestões</small>
+					</a>
+				</div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://www.gp.srv.br/portalservidor_novamarilandia/servlet/mlogin" target="_blank">
+						<i class="fas fa-user-tie"></i>
+						<br>PORTAL DO SERVIDOR<br>
+					</a>
+				</div>
+				
+				<div class="col-xs-12 visible-xs"></div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/atas-e-pautas-das-sessoes/3">
+						<i class="fas fa-file-signature"></i>
+						<br>ATAS & PAUTAS<br>
+						<small>Das Sessões Ordinárias e Solenes</small>
+					</a>
+				</div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://www.gp.srv.br/transparencia_novamarilandia/servlet/home_portal_v2?2" target="_blank">
+						<i class="fas fa-university"></i>
+						<br>PORTAL TRANSPARÊNCIA<br>
+						<small>Receitas & Despesas</small>
+					</a>
+				</div>
+				
+				<div class="col-xs-12 visible-sm"></div>
+				<div class="col-xs-12 visible-xs"></div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/home">
+						<i class="fas fa-info-circle"></i>
+						<br>SIC<br>
+						<small>Serviço de informação ao cidadão</small>
+					</a>
+				</div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/licitacoes/1">
+						<i class="far fa-file-alt"></i>
+						<br>LICITAÇÕES<br>
+						<small>Pregão, carta convite, dispensa...</small>
+					</a>
+				</div>
+				
+				<div class="col-md-12 hidden-sm"></div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://leismunicipais.com.br/legislacao-municipal/2332/leis-de-nova-marilandia/" target="_blank">
+						<i class="fas fa-gavel"></i>
+						<br>LEIS MUNICIPAIS<br>
+						<small>Nova Marilândia - MT</small>
+					</a>
+				</div>
+				
+
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/ato-dos-vereadores/4">
+						<i class="fas fa-user-check"></i>
+						<br>ATO DOS VEREADORES<br>
+						<small>Indicações, Requerimentos, Projetos de Leis e Moções</small>
+					</a>
+				</div>
+				
+				<div class="col-sm-12 visible-sm"></div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/contratos-e-aditivos/7">
+						<i class="fas fa-file-signature"></i>
+						<br>CONTRATOS & ADITIVOS<br>
+						<small>Firmados e Rescindidos</small>
+					</a>
+				</div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/gestao-de-pessoas/10">
+						<i class="fas fa-users"></i>
+						<br>GESTÃO DE PESSOAS<br>
+						<small>Servidores, PCCS, Lotacionograma</small>
+					</a>
+				</div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/legislacao/6">
+						<i class="fas fa-signature"></i>
+						<br>LEGISLAÇÃO<br>
+						<small>Leis, Portarias, Decretos, Resoluções</small>
+					</a>
+				</div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/regimento-interno/107">
+						<i class="fas fa-scroll"></i>
+						<br>REGIMENTO INTERNO<br>
+						<small>Regimento interno da câmara de Nova Marilândia</small>
+					</a>
+				</div>
+				
+				<div class="col-md-12 hidden-sm"></div>
+				
+				<!--<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/edital/2">
+						<i class="fas fa-file-invoice"></i>
+						<br>EDITAIS<br>
+						<small>Consulte editais</small>
+					</a>
+				</div>-->
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/sic/balanco-anual/9">
+						<i class="fas fa-balance-scale"></i>
+						<br>BALANÇO ANUAL<br>
+						<small>Balanço Patrimonial, Orçamentário, Financeiro e etc</small>
+					</a>
+				</div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://radardatransparencia.atricon.org.br" target="_blank">
+						<img src="publico/logotipo/radar.png" class="img-responsive" style="margin: 0px auto;">PORTAL RADAR<br>
+						<small>Portal Radar de Controle Público</small>
+					</a>
+				</div>
+				
+				<div class="col-xs-12 visible-xs"></div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="/carta-servico/home">
+						<i class="fas fa-briefcase"></i>
+						<br>CARTA DE SERVIÇOS AO CIDADÃO<br>
+						<small>Consulte serviços prestados pela câmara</small>
+					</a>
+				</div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://www.gp.srv.br/transparencia_novamarilandia/servlet/contrato_servidor_v3?2" target="_blank">
+						<i class="fas fa-user-friends"></i>
+						<br>SERVIDOR<br>
+						<small>Pesquisa avançada para servidores</small>
+					</a>
+				</div>
+				
+				<div class="col-xs-12 visible-sm visible-xs"></div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://www.gp.srv.br/transparencia_novamarilandia/servlet/folha_pagamento_v2?2" target="_blank">
+						<i class="fas fa-hand-holding-usd"></i>
+						<br>FOLHA DE PAGAMENTO<br>
+						<small>Pesquisa avançada em folha de pagamento</small>
+					</a>
+				</div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://www.gp.srv.br/transparencia_novamarilandia/servlet/diarias_v2?2" target="_blank">
+						<i class="fas fa-hand-holding-usd"></i>
+						<br>DIÁRIAS<br>
+						<small></small>
+					</a>
+				</div>
+				
+				<div class="col-xs-12 hidden-sm"></div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://leismunicipais.com.br/a1/mt/n/nova-marilandia/lei-ordinaria/2013/66/652/lei-ordinaria-n-652-2013-ementa-regulamenta-o-direito-constitucional-de-acesso-a-informacao-a-fim-de-garantir-sua-efetividade-consoante-previsto-no-inciso-xxxiii-do-artigo-5-no-inciso-ii-do-3-do-artigo-37-e-no-2-do-artigo-216-da-constituicao-federal-bem-como-os-regramentos-encartados-na-lei-federal-n-12527-2011-e-da-outras-providencias?q=acesso+a+informa%C3%A7%C3%A3o">
+						<i class="fas fa-gavel"></i>
+						<br>LAI<br>
+						<small>Nova Marilândia - MT</small>
+					</a>
+				</div>
+				
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a href="https://novamarilandia.mt.leg.br/sic/planejamento-estrategico-/756">
+						<i class="fas fa-bullseye"></i>
+						<br>Planejamento Estratégico<br>
+						<small>Missão, Visão e Valores</small>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row" style="margin-bottom: 30px;">
+	<div class="max-width">
+		<div class="col-sm-7 col-xs-12">
+				<h4 class="titulo col-xs-12 visible-sm visible-md visible-lg" style="margin-top: 40px;">
+		<i class="fas fa-bullhorn"></i> INFORMATIVO
+	</h4>
+	<div class="col-xs-12 hidden-xs no-padding">
+		<div class="carousel">
+							<div>
+					<a href="" target="_blank">
+						<img src="publico/banners/3bd9f45511a598af081e228cedd0c1f1.png" title="Banner2" width="100%;"/>
+					</a>
+				</div>
+								<div>
+					<a href="" target="_blank">
+						<img src="publico/banners/d413e76485fca0cd6b450e5114be753f.png" title="Banner3" width="100%;"/>
+					</a>
+				</div>
+								<div>
+					<a href="" target="_blank">
+						<img src="publico/banners/c030cea0e36092d672ed036ecff700f8.png" title="Banner4" width="100%;"/>
+					</a>
+				</div>
+						</div>
+	</div>
+		<h4 class="titulo col-xs-12 visible-xs" style="margin-top: 30px;">
+		<i class="fas fa-bullhorn"></i> INFORMATIVO
+	</h4>
+	<div class="col-xs-12 visible-xs no-padding">
+		<div class="carousel">
+							<div>
+					<a href="" target="_blank">
+						<img src="publico/banners/2bf1a2b6745d138856c4eff6d061f23a.png" title="Banner2" width="100%"/>
+					</a>
+				</div>
+								<div>
+					<a href="" target="_blank">
+						<img src="publico/banners/66debd63e62d39739fe2746cdfae7f63.png" title="Banner3" width="100%"/>
+					</a>
+				</div>
+								<div>
+					<a href="" target="_blank">
+						<img src="publico/banners/b7346dce894ee71f9fcc26318c07420e.png" title="Banner4" width="100%"/>
+					</a>
+				</div>
+						</div>
+	</div>
+			</div>
+		<div class="col-sm-5 col-xs-12">
+			<h4 class="titulo col-xs-12" style="margin-top: 40px;">
+				<i class="fas fa-link"></i> LINKS ÚTEIS
+			</h4>
+			<div class="col-xs-12 no-padding">
+				<div class="col-xs-6">
+					<a href="http://www.al.mt.gov.br/" target="_blank">
+						<img src="publico/site/assembleia.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="http://www.brasil.gov.br/" target="_blank">
+						<img src="publico/site/portal-brasil.jpg" class="img-responsive">
+					</a>
+				</div>
+				
+				<div class="col-xs-12" style="margin-top: 5px; margin-bottom: 5px;"></div>
+				
+				<div class="col-xs-6">
+					<a href="http://www.amm.org.br/" target="_blank">
+						<img src="publico/site/amm.jpg" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="http://idg.receita.fazenda.gov.br/" target="_blank">
+						<img src="publico/site/receita.jpg" class="img-responsive">
+					</a>
+				</div>
+				
+				<div class="col-xs-12" style="margin-top: 5px; margin-bottom: 5px;"></div>
+				
+				<div class="col-xs-6">
+					<a href="http://www12.senado.leg.br/hpsenado" target="_blank">
+						<img src="publico/site/senado.jpg" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="http://www.tce.mt.gov.br/" target="_blank">
+						<img src="publico/site/tce.jpg" class="img-responsive">
+					</a>
+				</div>
+				
+				<div class="col-xs-12" style="margin-top: 5px; margin-bottom: 5px;"></div>
+				
+				<div class="col-xs-6">
+					<a href="https://www.pm.mt.gov.br/" target="_blank">
+						<img src="publico/site/policiamt.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="https://web.mt.gov.br/" target="_blank">
+						<img src="publico/site/governomt.png" class="img-responsive">
+					</a>
+				</div>
+				
+				<div class="col-xs-12" style="margin-top: 5px; margin-bottom: 5px;"></div>
+				
+				<div class="col-xs-6">
+					<a href="https://www.camara.leg.br/" target="_blank">
+						<img src="publico/site/camaradeputados.png" class="img-responsive">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <style type="text/css">
+        .carousel_albuns{
+            float: left;
+            width: 100%;
+        }
+        
+        .carousel_albuns a{
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <!--SM, MD, LG-->
+    <div class="row hidden-xs" style="background-color:#f5f4f4; padding-bottom:20px; padding-top: 20px;">
+        <div class="max-width">
+            <div class="col-xs-12" style="margin-bottom: 30px;">
+                <h4 class="titulo_centralizado">
+					<span style="background-color: #ffffff;">
+						<i class="fas fa-file-video"></i> GALERIA DE VÍDEOS
+					</span>
+				</h4>
+            </div>
+            <div class="col-xs-12">
+                                    <a href="/galeria_videos/juntos-somos-mais-fortes/7" class="col-md-3 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/RjE8YbgHXNI/hqdefault.jpg); border: 3px solid #f5f4f4;">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>27-02-2025</medium><h2>JUNTOS SOMOS MAIS FORTES</h2>                        </div>
+                    </a>
+                                        <a href="/galeria_videos/campeonato-estadual-de-judo/6" class="col-md-3 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/vECzN0finq4/hqdefault.jpg); border: 3px solid #f5f4f4;">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>23-03-2023</medium><h2>Campeonato Estadual de Judô</h2>                        </div>
+                    </a>
+                                        <a href="/galeria_videos/cerimonia-de-posse-bienio-2023-2024/5" class="col-md-3 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/Bv4r1qurLpI/hqdefault.jpg); border: 3px solid #f5f4f4;">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>01-01-2023</medium><h2>Cerimônia de posse Biênio 2023/2024</h2>                        </div>
+                    </a>
+                                        <a href="/galeria_videos/reabertura-do-projeto-de-judo-sandokan.-ong-transformacao/3" class="col-md-3 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/p4O8qcDRQpY/hqdefault.jpg); border: 3px solid #f5f4f4;">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>18-02-2022</medium><h2>Reabertura do Projeto de Judô Sandokan. Ong Transformação</h2>                        </div>
+                    </a>
+                                </div>
+            
+             <div class="col-xs-12">
+                <a href="galeria_videos/albuns" class="pull-right btn btn-primary" style="margin-top: 30px;">
+                <i class="fa fa-plus"></i> Ver mais vídeos</a>
+            </div>
+        </div>
+    </div>
+
+	<!--XS-->
+    <div class="row visible-xs" style="background-color:#f5f4f4; padding-bottom:20px; padding-top: 20px;">
+        <div class="col-xs-12">
+            <h4 class="titulo_centralizado">
+				<span style="background-color: #ffffff;">
+					<i class="fas fa-file-video"></i> GALERIA DE VÍDEOS
+				</span>
+			</h4>
+        </div>
+        <div class="col-xs-12 carousel_albuns">
+                            <div>
+                    <a href="/galeria_videos/juntos-somos-mais-fortes/7" class="col-md-4 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/RjE8YbgHXNI/hqdefault.jpg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>27-02-2025</medium><h2>JUNTOS SOMOS MAIS FORTES</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_videos/campeonato-estadual-de-judo/6" class="col-md-4 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/vECzN0finq4/hqdefault.jpg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>23-03-2023</medium><h2>Campeonato Estadual de Judô</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_videos/cerimonia-de-posse-bienio-2023-2024/5" class="col-md-4 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/Bv4r1qurLpI/hqdefault.jpg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>01-01-2023</medium><h2>Cerimônia de posse Biênio 2023/2024</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_videos/reabertura-do-projeto-de-judo-sandokan.-ong-transformacao/3" class="col-md-4 col-sm-6 no-padding album" style="background-image: url(https://img.youtube.com/vi/p4O8qcDRQpY/hqdefault.jpg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>18-02-2022</medium><h2>Reabertura do Projeto de Judô Sandokan. Ong Transformação</h2>                        </div>
+                    </a>
+                </div>
+                        </div>
+        
+        <div class="col-xs-12">
+            <a href="galeria_videos/albuns" class="pull-right btn btn-primary">
+                <i class="fa fa-plus"></i> Ver mais vídeos
+            </a>
+        </div>
+    </div>
+    <!--XS-->
+        <style type="text/css">
+        .carousel_albuns{
+            float: left;
+            width: 100%;
+        }
+        
+        .carousel_albuns a{
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+    
+    <!--SM, MD, LG-->
+    <div class="row hidden-xs" style="padding-bottom:20px; padding-top: 20px; background-color: #ffffff;">
+        <div class="max-width">
+            <div class="col-xs-12 no-padding" style="margin-bottom: 30px;">
+                <h4 class="titulo_centralizado" style="text-align: left;">
+					<span style="background-color: #f5f4f4;">
+						<i class="fas fa-images"></i> GALERIA DE FOTOS
+					</span>
+				</h4>
+            </div>
+            <div class="col-xs-12">
+                                
+                    <a href="/galeria_fotos/posse-para-o-mandato-2025---2028/113" class="col-md-4 col-sm-6 no-padding album " style="background-image: url(publico/noticias/44cb72fd1621ec24b93ba8dfeca57573.jpg);">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>quinta-feira, 2 de janeiro de 2025</medium><h2>Posse para o mandato 2025 - 2028</h2>                        </div>
+                    </a>
+                                    
+                    <a href="/galeria_fotos/camara-municipal-de-nova-marilandia-realiza-ultima-sessao-ordinaria-da-legislatura-2021-2024/111" class="col-md-4 col-sm-6 no-padding album " style="background-image: url(publico/noticias/bd8f49471afee0def0b46e1f53152d97.jpg);">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>sexta-feira, 20 de dezembro de 2024</medium><h2>Câmara Municipal de Nova Marilândia realiza última s...</h2>                        </div>
+                    </a>
+                                    
+                    <a href="/galeria_fotos/sessao-solene-de-entrega-de-t&iacute;tulos-honor&iacute;ficos-moc&otilde;es-de-aplauso-e-certificados-mulher-cidada-de-nova-maril&acirc;ndia/112" class="col-md-4 col-sm-6 no-padding album " style="background-image: url(publico/noticias/f48902b954bbc3150ff3a8daf87f26de.JPG);">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>sexta-feira, 20 de dezembro de 2024</medium><h2>Sess&atilde;o Solene de Entrega de T&iacute;tulos Ho...</h2>                        </div>
+                    </a>
+                                    
+                    <a href="/galeria_fotos/encerramento-do-projeto-&ldquo;c&acirc;mara-mirim&rdquo;./110" class="col-md-4 col-sm-6 no-padding album " style="background-image: url(publico/noticias/790961ef41e5988a93b448cbf133c52e.jpeg);">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>segunda-feira, 24 de junho de 2024</medium><h2>Encerramento do projeto &ldquo;C&acirc;mara Mirim&rd...</h2>                        </div>
+                    </a>
+                                    
+                    <a href="/galeria_fotos/sessao-solene/109" class="col-md-4 col-sm-6 no-padding album hidden-sm" style="background-image: url(publico/noticias/b2a54c9e7d59b4811340a61161823c24.JPG);">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>quinta-feira, 28 de setembro de 2023</medium><h2>Sessão Solene</h2>                        </div>
+                    </a>
+                                    
+                    <a href="/galeria_fotos/sessao-ordinaria-da-c&acirc;mara-mirim/108" class="col-md-4 col-sm-6 no-padding album hidden-sm" style="background-image: url(publico/noticias/b557f0e6791b39d066a096d05e7e6440.jpeg);">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>sexta-feira, 28 de abril de 2023</medium><h2>Sess&atilde;o Ordinaria da C&acirc;mara Mirim</h2>                        </div>
+                    </a>
+                                </div>
+            
+             <div class="col-xs-12">
+                <a href="galeria_fotos/albuns" class="pull-right btn btn-primary" style="margin-top: 30px;">
+                <i class="fa fa-plus"></i> Ver mais fotos</a>
+            </div>
+        </div>
+    </div>
+
+	<!--XS-->
+    <div class="col-xs-12 no-padding visible-xs" style="background-color:#ffffff; padding-bottom:20px; padding-top: 20px;">
+        <div class="col-xs-12">
+            <h4 class="titulo_centralizado">
+				<span style="background-color: #f5f4f4;">
+					<i class="fas fa-images"></i> GALERIA DE FOTOS
+				</span>
+			</h4>
+        </div>
+        <div class="carousel_albuns">
+                            <div>
+                    <a href="/galeria_fotos/posse-para-o-mandato-2025---2028/113" class="col-xs-12 no-padding album" style="background-image: url(publico/noticias/44cb72fd1621ec24b93ba8dfeca57573.jpg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>quinta-feira, 2 de janeiro de 2025</medium><h2>Posse para o mandato 2025 - 2028</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_fotos/camara-municipal-de-nova-marilandia-realiza-ultima-sessao-ordinaria-da-legislatura-2021-2024/111" class="col-xs-12 no-padding album" style="background-image: url(publico/noticias/bd8f49471afee0def0b46e1f53152d97.jpg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>sexta-feira, 20 de dezembro de 2024</medium><h2>Câmara Municipal de Nova Marilândia realiza últ...</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_fotos/sessao-solene-de-entrega-de-t&iacute;tulos-honor&iacute;ficos-moc&otilde;es-de-aplauso-e-certificados-mulher-cidada-de-nova-maril&acirc;ndia/112" class="col-xs-12 no-padding album" style="background-image: url(publico/noticias/f48902b954bbc3150ff3a8daf87f26de.JPG)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>sexta-feira, 20 de dezembro de 2024</medium><h2>Sess&atilde;o Solene de Entrega de T&iacute;tul...</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_fotos/encerramento-do-projeto-&ldquo;c&acirc;mara-mirim&rdquo;./110" class="col-xs-12 no-padding album" style="background-image: url(publico/noticias/790961ef41e5988a93b448cbf133c52e.jpeg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>segunda-feira, 24 de junho de 2024</medium><h2>Encerramento do projeto &ldquo;C&acirc;mara Mir...</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_fotos/sessao-solene/109" class="col-xs-12 no-padding album" style="background-image: url(publico/noticias/b2a54c9e7d59b4811340a61161823c24.JPG)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>quinta-feira, 28 de setembro de 2023</medium><h2>Sessão Solene</h2>                        </div>
+                    </a>
+                </div>
+                                <div>
+                    <a href="/galeria_fotos/sessao-ordinaria-da-c&acirc;mara-mirim/108" class="col-xs-12 no-padding album" style="background-image: url(publico/noticias/b557f0e6791b39d066a096d05e7e6440.jpeg)">
+                        <div class="img-overlay"></div>
+                        <div class="album-titulo">
+                            <medium>sexta-feira, 28 de abril de 2023</medium><h2>Sess&atilde;o Ordinaria da C&acirc;mara Mirim</h2>                        </div>
+                    </a>
+                </div>
+                        </div>
+        
+        <div class="col-xs-12">
+            <a href="galeria_fotos/albuns" class="pull-right btn btn-primary">
+                <i class="fa fa-plus"></i> Ver mais fotos
+            </a>
+        </div>
+    </div>
+    <!--XS-->
+    
+<div class="row" style="background-color:#f5f4f4; padding-bottom:20px; padding-top: 20px;">
+	<div class="col-xs-12 no-padding">
+		<div class="max-width">
+			<div class="col-sm-5 col-xs-12">
+				<a href="/sic/contas-anuais-de-gestao/607" target="_blank"><img src="publico/banners/ban2.jpeg" class="img-responsive"></a>
+			</div>
+			<div class="col-sm-7 col-xs-12">
+				<img src="publico/banners/wifi.png" class="img-responsive">
+			</div>
+		</div>
+	</div>
+</div><div class="row">
+    <div id="rodape">
+        <div class="max-width">
+            <div class="col-sm-3 col-xs-12">
+                <label class="rodape-titulo"><i class="fas fa-map-marker-alt"></i> Endereço</label>
+                <label class="rodape-texto">
+                    Câmara Municipal de Nova Marilândia<br>CNPJ: 24.977.902/0001-40<br>Av. Mato Grosso, N.366, Centro, Nova Marilândia - MT, 78415-000                </label>
+                <label class="rodape-link" style="margin-bottom: 30px;">
+                    <i class="far fa-copyright"></i> 2026 - Câmara Municipal de Nova Marilândia                </label>
+				<a target="_blank" href="/" title="Fale com a Dinâmika" class="rodape-link" style="margin-bottom: 30px;">Desenvolvido por: <img src="publico/site/d_branco.png" class="hidden-xs">
+					<img src="publico/site/d_branco.png" class="visible-xs" width="160">
+				</a>
+            </div>
+            
+            <div class="col-sm-3 col-xs-12" style="margin-bottom: 30px;">
+                <label class="rodape-titulo" style="margin-bottom:20px;">
+                    <i class="fas fa-university"></i> A Câmara
+                </label>
+                <a href="/vereador/valmir-silva-leite/4" class="rodape-link">
+					Presidente da Câmara
+				</a>
+				<a href="/vereador/neucireno-francisco-gomes/2" class="rodape-link">
+					Vice-presidente da Câmara
+				</a>
+				<a href="/vereador/manoel-fernandes-da-silva-neto/8" class="rodape-link">
+					1º Secretário
+				</a>
+				<a href="/vereador/fabio-soares-de-oliveira/6" class="rodape-link">
+					2º Secretário
+				</a>
+				<a href="/camara/vereadores/1" class="rodape-link">
+					Vereadores
+				</a>
+				<a href="/camara/ex-vereadores/1" class="rodape-link">
+					Ex-Vereadores
+				</a>
+                <a href="/camara/historia-da-camara/10" class="rodape-link">História da Câmara</a><a href="/camara/procuradoria-da-mulher/13" class="rodape-link">Procuradoria da Mulher</a><a href="/camara/servidores/14" class="rodape-link">Servidores</a><a href="/camara/calendario-das-sessoes/15" class="rodape-link">Calendário das Sessões</a><a href="/camara/lei-geral-de-protecao-de-dados-(lgpd)-/17" class="rodape-link">Lei Geral de Proteção de Dados (LGPD) </a>            </div>
+            
+            <div class="col-sm-3 col-xs-12" style="margin-bottom: 30px;">
+                <label class="rodape-titulo" style="margin-bottom:20px;">
+                    <i class="fas fa-info-circle"></i> SIC
+                </label>
+                
+                <a href="/sic/atas-e-pautas-das-sessoes/3" class="rodape-link">Atas e Pautas das Sessões</a><a href="/sic/ato-dos-vereadores/4" class="rodape-link">Ato dos Vereadores</a><a href="/sic/balancetes-mensais/8" class="rodape-link">Balancetes Mensais</a><a href="/sic/balanco-anual/9" class="rodape-link">Balanço Anual</a><a href="/sic/comissoes-permanentes---bienio-2025-2026/644" class="rodape-link">COMISSÕES PERMANENTES - BIÊNIO 2025/2026</a><a href="/sic/comissoes-permanentes-bienio-2022-2024/548" class="rodape-link">COMISSÕES PERMANENTES Biênio 2022/2024</a><a href="/sic/competencias-e-atribuicoes-/757" class="rodape-link">Competências e Atribuições </a><a href="/sic/concurso-publico-e-processo-seletivo/12" class="rodape-link">Concurso Público e Processo Seletivo</a><a href="/sic/contas-anuais-de-governo---prefeitura-/607" class="rodape-link">Contas Anuais de Governo / Prefeitura </a><a href="/sic/contas-anuais-gestao-camara-/763" class="rodape-link">Contas Anuais Gestão Câmara </a><a href="/sic/contratos-e-aditivos-/7" class="rodape-link">Contratos e Aditivos </a><a href="/sic/convenios-e-transferencias/588" class="rodape-link">Convênios e Transferências</a><a href="/sic/decreto/733" class="rodape-link">Decreto</a><a href="/sic/demonstrativos-anuais/547" class="rodape-link">Demonstrativos Anuais</a><a href="/sic/diario-oficial-eletronico-do-municipio/640" class="rodape-link">Diário Oficial Eletrônico do Município</a><a href="/sic/documentos-diversos/13" class="rodape-link">Documentos Diversos</a><a href="/sic/editais/2" class="rodape-link">Editais</a><a href="/sic/estrutura-organizada-e-norma-instituidora-/758" class="rodape-link">Estrutura Organizada e Norma Instituidora </a><a href="/sic/gestao-de-pessoas/10" class="rodape-link">Gestão de Pessoas</a><a href="/sic/legislacao/6" class="rodape-link">Legislação</a><a href="/sic/licitacoes/1" class="rodape-link">Licitações</a><a href="/sic/notificacao/620" class="rodape-link">NOTIFICAÇÃO</a><a href="/sic/obras/605" class="rodape-link">Obras</a><a href="/sic/oficios/554" class="rodape-link">Ofícios</a><a href="/sic/planejamento-estrategico-/756" class="rodape-link">Planejamento Estratégico </a><a href="/sic/planejamento-orcamentario/5" class="rodape-link">Planejamento Orçamentário</a><a href="/sic/relatorio-de-gestao-fiscal/11" class="rodape-link">Relatório de Gestão Fiscal</a><a href="/sic/relatorios-anuais/721" class="rodape-link">Relatórios Anuais</a><a href="/sic/sessoes-solenes/713" class="rodape-link">Sessões Solenes</a>            </div>
+            
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <a href="https://www.facebook.com/camaranovamarilandia" target="_blank" class="rodape-titulo">
+                    <i class="fab fa-facebook"></i> Curta nossa página
+                </a>
+				<a href="https://www.instagram.com/camaranovamarilandia/?igsh=M2x6N21zd283eDc5&utm_source=qr" target="_blank" class="rodape-titulo">
+                    <i class="fab fa-instagram"></i> Siga no Instagram
+                </a>
+                
+                <!--<div class="col-xs-12" style="margin-top: 10px;">
+                    <a href="/">
+                        <img src="publico/logotipo/logotipob.webp" class="img-responsive"/>
+                    </a>
+                </div>-->
+                
+                <label class="rodape-titulo" style="margin-top: 30px;">
+                    <i class="fas fa-mail-bulk"></i> Contato
+                </label>
+                
+                <div class="col-xs-12 no-padding rodape-link">
+                    <a href="tel:659.99699946" class="rodape-link">(65) 9.9969-9946                    </a>
+                    Atendimento:<br>Segunda a Sexta-feira das 7:00h às 13:00h<br />
+                </div>
+                
+                <div class="col-xs-12 no-padding" style="margin-top: 20px;">
+                    <span style="font-size: 15px; color: #fff;"><i class="glyphicon glyphicon-envelope"></i> secretaria@novamarilandia.mt.leg.br</span>
+					<a href="/site/politica-privacidade/1" class="rodape-link"><i class="fas fa-cookie"></i> Política de Privacidade</a>
+					<a href="/site/mapa-do-site/sitemap" class="rodape-link"><i class="fas fa-sitemap"></i> Mapa do Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a id="contraste" target="_blank" href="#" class="acessibilidade btn-primary" title="Escurecer" style="bottom: 245px;">
+	<i class="fas fa-adjust" style="font-size: 25px;"></i>
+</a>
+<a id="font_up" target="_blank" href="#" class="acessibilidade btn-primary" title="Aumentar Texto" style="bottom: 190px;">
+	<i class="fas fa-plus" style="font-size: 25px;"></i>
+</a>
+<a id="font_down" target="_blank" href="#" class="acessibilidade btn-primary" title="Diminuir Texto" style="bottom: 135px;">
+	<i class="fas fa-minus" style="font-size: 25px;"></i>
+</a>
+
+<a id="scrolltoTop" target="_blank" href="#" class="acessibilidade btn-info" title="Voltar ao início" style="bottom: 80px;">
+	<i class="fas fa-angle-up" style="font-size: 30px; line-height: 25px;"></i>
+</a>
+
+	<div class="cookies">
+		<div class="col-lg-8 col-md-7 col-xs-12">
+			<b>Este site utiliza cookies para melhorar a experiência de navegação e disponibilizar funcionalidades adicionais.</b>
+		</div>
+		<div class="col-lg-4 col-md-5 col-xs-12"><a href="https://novamarilandia.mt.leg.br/site/politica-privacidade/1" target="_blank" class="btn btn-info btn-md">Política de privacidade</a><a id="bt_autorizar_cookies" href="#" class="btn btn-primary btn-md">ACEITAR</a>
+		</div>
+	</div>
+	
+<div vw class="enabled" style="right: 5px;">
+	<div vw-access-button class="active"></div>
+	<div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>	 </div>
+</body>
+</html>

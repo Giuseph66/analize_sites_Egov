@@ -1,0 +1,13 @@
+{
+  "url": "http://www.camarageneralcarneiro.mt.gov.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.camarageneralcarneiro.mt.gov.br_095.html",
+  "html_bytes": 126217,
+  "html_title": "Câmara Municipal de General Carneiro – MT – A casa do povo Generalcarneirense",
+  "nota": "8.3",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.camarageneralcarneiro.mt.gov.br_095.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.camarageneralcarneiro.mt.gov.br_095.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

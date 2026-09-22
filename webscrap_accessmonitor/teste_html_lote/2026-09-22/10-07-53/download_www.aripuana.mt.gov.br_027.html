@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="Prefeitura Municipal de Aripuanã mato grosso" />
+    <meta name="description" content="Site Oficial da Prefeitura Municipal de Aripuanã ©" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" href="/imgs/default/favicon32.png" sizes="32x32" type="image/png"/>
+    <link rel="shortcut icon" href="/imgs/default/favicon16.png" sizes="16x16" type="image/png"/>
+
+    <title>
+                    Prefeitura Municipal de Aripuanã
+            </title>
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=1.8.1&ck=5dbcc382ed2dae515a76de652999ed92' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=1.8.1&ck=5dbcc382ed2dae515a76de652999ed92' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_popper.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_bootstrap.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.accessibility.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_audio.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=1.8.1&ck=5dbcc382ed2dae515a76de652999ed92'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=1.8.1&ck=5dbcc382ed2dae515a76de652999ed92'></script>
+
+
+</head><body>
+    <div id="p5fw-accessibility-buttons">
+    <div id="p5fw-a-menu" title="Acessibilidade">
+                    <i class="mdi mdi-human"></i>
+            </div>
+    <div id="p5fw-a-menus">
+        <div  class="p5fw-a-menus-title">Acessibilidade</div>
+        <div class="p-a-b-m-menu" id="p5fw-a-increase">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-format-font-size-increase"></i>
+            </div>
+            <div>
+                Fonte Maior 
+                <div class="p-a-b-m-m-fonts">
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-3"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-6"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-9"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-a-b-m-menu" id="p5fw-a-contrast">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-contrast-circle"></i>
+            </div>
+            <div>
+                Contrastes 
+                <div class="p-a-b-m-m-contrasts">
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-2"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-3"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-4"></div>
+                </div>
+            </div>
+        </div>
+        <a href="/#/mapa">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-map"></i>
+                </div>
+                <div>
+                    Mapa do Site 
+                </div>
+            </div>
+        </a>
+                            
+        <div class="p-a-b-m-menu" id="p5fw-a-libras">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-hand-right"></i>
+            </div>
+            <div>
+                Libras
+            </div>
+        </div>
+
+        <div class="p-a-b-m-menu" id="p5fw-a-reset">
+            Redefinir
+        </div>
+    </div>
+</div>
+
+<div vw class="enabled">
+        <div vw-access-button class="active" style="visibility: hidden"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>    
+    <div id="p5fw-accessibility">
+        <div class="bg-white">
+    <span class="menu-mobile d-md-none d-sm-block">
+    <i class="mdi mdi-menu"></i>
+</span>
+
+<div class="d-md-none d-sm-block menu-mobile-container">
+    <div class="list-group">
+                    <a href="#menu_1"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false" >
+                <i class='mdi mdi-chevron-double-down'></i>COVID-19
+            </a>
+                            <div class="collapse" id="menu_1">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_1" href="/#/covid" >
+                            <i class='mdi mdi-chevron-double-right'></i> Boletim Epidemiológico
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_1" href="/#/vacina" >
+                            <i class='mdi mdi-chevron-double-right'></i> Vacinômetro
+                        </a>
+                                    </div>
+                                <a href="/#/home"  class="list-group-item menu-mobile-container-click" >
+                <i class='mdi mdi-chevron-double-right'></i>Home
+            </a>
+                                <a href="#menu_3"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false" >
+                <i class='mdi mdi-chevron-double-down'></i>Aripuanã
+            </a>
+                            <div class="collapse" id="menu_3">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/municipio/breve-historico/1/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Breve Histórico
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/municipio/hino-oficial/2/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Hino Oficial
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/municipio/turismo/3/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Turismo
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/municipio/lei-organica-municipal/4/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Lei Orgânica Municipal
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/municipio/aripuana-em-numeros/5/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Aripuanã em Números
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/municipio/gestao-2025-2028/6/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Gestão 2025-2028
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/page/consulta-publica--ppa---2022-2025" >
+                            <i class='mdi mdi-chevron-double-right'></i> Consulta Pública | PPA - 2022/2025
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/telefones" >
+                            <i class='mdi mdi-chevron-double-right'></i> Telefones Úteis
+                        </a>
+                                    </div>
+                                <a href="#menu_4"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false" >
+                <i class='mdi mdi-chevron-double-down'></i>Legislação
+            </a>
+                            <div class="collapse" id="menu_4">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="https://leismunicipais.com.br/prefeitura/mt/aripuana" >
+                            <i class='mdi mdi-chevron-double-right'></i> Leis Municipais
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="/#/publicacoes/17/legislacao" >
+                            <i class='mdi mdi-chevron-double-right'></i> Legislação - Publicações
+                        </a>
+                                    </div>
+                                <a href="#menu_5"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false" >
+                <i class='mdi mdi-chevron-double-down'></i>Publicações
+            </a>
+                            <div class="collapse" id="menu_5">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/345/ASSISTÊNCIA FARMACÊUTICA MUNICIPAL" >
+                            <i class='mdi mdi-chevron-double-right'></i> ASSISTÊNCIA FARMACÊUTICA MUNICIPAL
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/288/Audiências Públicas" >
+                            <i class='mdi mdi-chevron-double-right'></i> Audiências Públicas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/549/Calendario de Eventos " >
+                            <i class='mdi mdi-chevron-double-right'></i> Calendario de Eventos 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/131/Controladoria Geral do Município" >
+                            <i class='mdi mdi-chevron-double-right'></i> Controladoria Geral do Município
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/177/Convênios" >
+                            <i class='mdi mdi-chevron-double-right'></i> Convênios
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/351/Cultura" >
+                            <i class='mdi mdi-chevron-double-right'></i> Cultura
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/316/Escalas Médicas" >
+                            <i class='mdi mdi-chevron-double-right'></i> Escalas Médicas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/535/Fórum Municipal de Educação Aripuanã" >
+                            <i class='mdi mdi-chevron-double-right'></i> Fórum Municipal de Educação Aripuanã
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/411/GESTÃO DE OBRAS PÚBLICAS" >
+                            <i class='mdi mdi-chevron-double-right'></i> GESTÃO DE OBRAS PÚBLICAS
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/129/Gestão De Pessoas" >
+                            <i class='mdi mdi-chevron-double-right'></i> Gestão De Pessoas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/17/Legislação" >
+                            <i class='mdi mdi-chevron-double-right'></i> Legislação
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/675/LGPD " >
+                            <i class='mdi mdi-chevron-double-right'></i> LGPD 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/16/Licitações" >
+                            <i class='mdi mdi-chevron-double-right'></i> Licitações
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/693/Manifestação de Interesse Privado – MIP" >
+                            <i class='mdi mdi-chevron-double-right'></i> Manifestação de Interesse Privado – MIP
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/558/PARECER ATOS DE PESSOAL" >
+                            <i class='mdi mdi-chevron-double-right'></i> PARECER ATOS DE PESSOAL
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/692/Plano anual de contratações PAC " >
+                            <i class='mdi mdi-chevron-double-right'></i> Plano anual de contratações PAC 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/739/PME" >
+                            <i class='mdi mdi-chevron-double-right'></i> PME
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/28/Prestação de Contas" >
+                            <i class='mdi mdi-chevron-double-right'></i> Prestação de Contas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/378/PROJETO DE LEI  PPA 2022-2025" >
+                            <i class='mdi mdi-chevron-double-right'></i> PROJETO DE LEI  PPA 2022-2025
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/512/Secretaria Municipal de Saúde - SEMUSA" >
+                            <i class='mdi mdi-chevron-double-right'></i> Secretaria Municipal de Saúde - SEMUSA
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/310/Sinfra" >
+                            <i class='mdi mdi-chevron-double-right'></i> Sinfra
+                        </a>
+                                    </div>
+                                <a href="/#/transparencia/home"  class="list-group-item menu-mobile-container-click" >
+                <i class='mdi mdi-chevron-double-right'></i>Transparência
+            </a>
+                                <a href="#menu_7"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false" >
+                <i class='mdi mdi-chevron-double-down'></i>Tributos
+            </a>
+                            <div class="collapse" id="menu_7">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_7" href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/guias" >
+                            <i class='mdi mdi-chevron-double-right'></i> 2º via de boletos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_7" href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/guiasIptu" >
+                            <i class='mdi mdi-chevron-double-right'></i> IPTU
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_7" href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/certidao" >
+                            <i class='mdi mdi-chevron-double-right'></i> Emissão de Certidão
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_7" href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/alvara" >
+                            <i class='mdi mdi-chevron-double-right'></i> 2º via de alvará
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_7" href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/autenticidade" >
+                            <i class='mdi mdi-chevron-double-right'></i> Autenticidade de Documento
+                        </a>
+                                    </div>
+                    
+        <a class="list-group-item" href=" https://www.cip.aripuana.mt.gov.br/#/home"
+            target="_blank">
+            <i class="mdi mdi-lightbulb"></i>
+            Iluminação Pública
+        </a>
+        <a class="list-group-item" href=" https://eprotocolo.org"
+            target="_blank">
+            <img src="./imgs/default/eprotocol-resize.png" alt="">
+        </a>
+        <a class="list-group-item" href=" https://esicprefaripuana.ouvidoriabr.com/"
+            target="_blank">
+            SIC
+        </a>
+        <div class="list-group-item d-flex">
+            <a class="mr-3" style="font-size: 24px;" href=" https://www.instagram.com/prefeituradearipuana/" target="_blank">
+                <i class="mdi mdi-instagram"></i>
+            </a>
+            <a class="mr-3" style="font-size: 24px;" href=" https://www.facebook.com/prefeituradearipuana/" target="_blank">
+                <i class="mdi mdi-facebook-box"></i>
+            </a>
+            <a class="mr-3" style="font-size: 24px;" href=" https://webmail.aripuana.mt.gov.br/" target="_blank">
+                <i class="mdi mdi-email-open"></i>
+            </a>
+        </div>
+    </div>
+</div>
+    
+    <div class="side-bar d-none d-md-block d-print-none">
+        <a href="/#/publicacoes">
+            <div class="s-b-item">
+                <div class="s-b-i-icon">
+                    <i class="mdi mdi-file-multiple"></i>
+                </div>
+                <div class="s-b-i-text">
+                    Publicações
+                </div>
+            </div>
+        </a>
+        <a href="/#/transparencia/home">
+            <div class="s-b-item">
+                <div class="s-b-i-icon">
+                    <i class="mdi mdi-monitor"></i>
+                </div>
+                <div class="s-b-i-text">
+                    Transparência
+                </div>
+            </div>
+        </a>
+        <a href="http://prefaripuana.ouvidoriabr.com" target="_blank">
+            <div class="s-b-item">
+                <div class="s-b-i-icon">
+                    <i class="mdi mdi-wechat"></i>
+                </div>
+                <div class="s-b-i-text">
+                    Ouvidoria
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="container-fluid d-block d-sm-none header-topbar d-print-none">
+        <div class='container'>
+            <div class="row">
+                <div class="col-12 header-content text-center">
+                    (66) 3565-3909
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container-fluid header-bottom d-print-none'>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-none d-md-block">
+                    <div class="h-b-links">
+                        <a href="https://www.cip.aripuana.mt.gov.br/#/home"
+                            target="_blank" class="btn btn-sm h-b-l-link">
+                            <i class="mdi mdi-lightbulb"></i>
+                            Iluminação Pública
+                        </a>
+                        <a href="https://eprotocolo.org"
+                            target="_blank" class="btn btn-sm h-b-l-link">
+                            <img src="./imgs/default/eprotocol-resize.png" alt="">
+                        </a>
+                        <a href="https://esicprefaripuana.ouvidoriabr.com/"
+                            target="_blank" class="btn btn-sm h-b-l-link">
+                            SIC
+                        </a>
+                        <a href="https://www.instagram.com/prefeituradearipuana/" target="_blank"
+                            class="btn btn-sm h-b-l-link">
+                            <i class="mdi mdi-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/prefeituradearipuana/" target="_blank"
+                            class="btn btn-sm h-b-l-link">
+                            <i class="mdi mdi-facebook-box"></i>
+                        </a>
+                        <a href="https://webmail.aripuana.mt.gov.br/" target="_blank" class="btn btn-sm h-b-l-link">
+                            <i class="mdi mdi-email-open"></i>
+                        </a>
+                        <a href="/admin" target="_blank" class="btn btn-sm h-b-l-link">
+                            <i class="mdi mdi-lock"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class='col-md-3 col-12'>
+                    <a href="/#/home">
+                        <img src="/imgs/default/logo_full.png" class='h-b-logo' title="Voltar a página inicial" />
+                    </a>
+                </div>
+                <div class="col-md-4 col-12 pt-3 h-b-address">
+                    <p class="h-b-a-endereco">Praça São Francisco de Assis, Nº 128 - Centro, 78325-000</p>
+                    <p class="h-b-a-horario">Seg a Qui das 07:00 às 11:00 | 13:00 às 17:00 | Sexta das 07:00 às 13:00</p>
+                </div>
+                <div class="offset-md-2 col-md-3 col-12 pt-3">
+                    <div class="input-group input-group-lg mb-3">
+                        <input type="text" class="form-control" placeholder="Pesquisar no site" maxlength="45"
+                            id="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-info" type="button" id="search-btn"><i
+                                    class="mdi mdi-magnify"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-none d-md-block d-print-none">
+    <div class="col-md-12 px-0">
+        <div class="menus">
+                            <div class="m-menu-wrapper">
+                                            <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-virus'></i></div>
+                                                                <div class="m-m-title">COVID-19</div>
+                            </div>
+                                                            <div class="m-m-submenu bg1">
+                                                                            <a  href="/#/covid">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Boletim Epidemiológico
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/vacina">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Vacinômetro
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                        </div>
+                            <div class="m-menu-wrapper">
+                    <a href="/#/home" >                        <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-home'></i></div>
+                                                                <div class="m-m-title">Home</div>
+                            </div>
+                                                    </div>
+                        </a>                </div>
+                            <div class="m-menu-wrapper">
+                                            <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-river'></i></div>
+                                                                <div class="m-m-title">Aripuanã</div>
+                            </div>
+                                                            <div class="m-m-submenu bg3">
+                                                                            <a  href="/#/municipio/breve-historico/1/">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Breve Histórico
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/municipio/hino-oficial/2/">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Hino Oficial
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/municipio/turismo/3/">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Turismo
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/municipio/lei-organica-municipal/4/">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Lei Orgânica Municipal
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/municipio/aripuana-em-numeros/5/">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Aripuanã em Números
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/municipio/gestao-2025-2028/6/">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Gestão 2025-2028
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/page/consulta-publica--ppa---2022-2025">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Consulta Pública | PPA - 2022/2025
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/telefones">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Telefones Úteis
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                        </div>
+                            <div class="m-menu-wrapper">
+                                            <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-auction'></i></div>
+                                                                <div class="m-m-title">Legislação</div>
+                            </div>
+                                                            <div class="m-m-submenu bg4">
+                                                                            <a  target="_blank"  href="https://leismunicipais.com.br/prefeitura/mt/aripuana">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Leis Municipais
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/17/legislacao">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Legislação - Publicações
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                        </div>
+                            <div class="m-menu-wrapper">
+                                            <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-files'></i></div>
+                                                                <div class="m-m-title">Publicações</div>
+                            </div>
+                                                            <div class="m-m-submenu bg5">
+                                                                            <a  href="/#/publicacoes/345/ASSISTÊNCIA FARMACÊUTICA MUNICIPAL">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                ASSISTÊNCIA FARMACÊUTICA MUNICIPAL
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/288/Audiências Públicas">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Audiências Públicas
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/549/Calendario de Eventos ">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Calendario de Eventos 
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/131/Controladoria Geral do Município">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Controladoria Geral do Município
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/177/Convênios">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Convênios
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/351/Cultura">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Cultura
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/316/Escalas Médicas">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Escalas Médicas
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/535/Fórum Municipal de Educação Aripuanã">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Fórum Municipal de Educação Aripuanã
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/411/GESTÃO DE OBRAS PÚBLICAS">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                GESTÃO DE OBRAS PÚBLICAS
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/129/Gestão De Pessoas">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Gestão De Pessoas
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/17/Legislação">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Legislação
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/675/LGPD ">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                LGPD 
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/16/Licitações">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Licitações
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/693/Manifestação de Interesse Privado – MIP">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Manifestação de Interesse Privado – MIP
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/558/PARECER ATOS DE PESSOAL">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                PARECER ATOS DE PESSOAL
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/692/Plano anual de contratações PAC ">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Plano anual de contratações PAC 
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/739/PME">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                PME
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/28/Prestação de Contas">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Prestação de Contas
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/378/PROJETO DE LEI  PPA 2022-2025">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                PROJETO DE LEI  PPA 2022-2025
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/512/Secretaria Municipal de Saúde - SEMUSA">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Secretaria Municipal de Saúde - SEMUSA
+                                            </div>
+                                        </a>
+                                                                            <a  href="/#/publicacoes/310/Sinfra">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Sinfra
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                        </div>
+                            <div class="m-menu-wrapper">
+                    <a href="/#/transparencia/home" >                        <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-monitor'></i></div>
+                                                                <div class="m-m-title">Transparência</div>
+                            </div>
+                                                    </div>
+                        </a>                </div>
+                            <div class="m-menu-wrapper">
+                                            <div class="m-menu">
+                            <div class="m-m-overlay"></div>
+                            <div class="m-m-content">
+                                                                    <div class="m-m-icon"><i class='flaticon flaticon-tax'></i></div>
+                                                                <div class="m-m-title">Tributos</div>
+                            </div>
+                                                            <div class="m-m-submenu bg7">
+                                                                            <a  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/guias">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                2º via de boletos
+                                            </div>
+                                        </a>
+                                                                            <a  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/guiasIptu">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                IPTU
+                                            </div>
+                                        </a>
+                                                                            <a  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/certidao">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Emissão de Certidão
+                                            </div>
+                                        </a>
+                                                                            <a  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/alvara">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                2º via de alvará
+                                            </div>
+                                        </a>
+                                                                            <a  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/aripuana/#/autenticidade">
+                                            <div class="m-m-s-item">
+                                                                                                    <i class="flaticon flaticon-chevron-right"></i>
+                                                                                                Autenticidade de Documento
+                                            </div>
+                                        </a>
+                                                                    </div>
+                                                    </div>
+                                        </div>
+                    </div>
+    </div>
+</div></div>
+        <div id='content' class='content-loading bg-white'></div>
+
+        <div class="container-fluid footer d-print-none">
+    <div class="container">
+        <div class="row footer-main">
+            <div class="col-12 col-md-5 f-links">
+                <h2 style="margin-bottom: 30px!important">LINKS ÚTEIS</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                                                    <a href="http://www.camaraaripuanamt.com.br" target="_blank">Câmara Municipal</a><br>
+                                                                                                            <a href="http://www.detran.mt.gov.br/" target="_blank">Detran - MT</a><br>
+                                                                                                            <a href="http://www.mt.gov.br/" target="_blank">Governo - MT</a><br>
+                                                                                                            <a href="http://www.tre-mt.jus.br/" target="_blank">TRE - MT</a><br>
+                                                                                                            <a href="http://www.pm.mt.gov.br/" target="_blank">Polícia Militar - MT</a><br>
+                                                                                                            <a href="http://idg.receita.fazenda.gov.br/" target="_blank">Receita Federal</a><br>
+                                                        </div>
+                        <div class="col-12 col-md-4">                                                                                <a href="http://www.esportes.mt.gov.br/inicio" target="_blank">Esportes - MT</a><br>
+                                                                                                            <a href="http://www.procon.mt.gov.br" target="_blank">Procon - MT</a><br>
+                                                                                                            <a href="http://www.jucemat.mt.gov.br" target="_blank">JUCEMAT</a><br>
+                                                                                                            <a href="http://portal.unemat.br" target="_blank">UNEMAT</a><br>
+                                                                                                            <a href="http://www.gestao.mt.gov.br" target="_blank">Gestão - MT</a><br>
+                                                                                                            <a href="www.ufmt.br/" target="_blank">UFMT</a><br>
+                                                                                                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-7 footer-brand">
+                <div class="footer-brand-identity">
+                    <img src="/imgs/default/logo-o.png" class="footer-logo" alt="Prefeitura de Aripuanã">
+                    <div class="footer-social">
+                        <a class="footer-social-link" href="https://www.facebook.com/prefeituradearipuana" target="_blank">
+                            <img src="/imgs/icons/facebook.png" alt="Facebook">
+                        </a>
+                        <a class="footer-social-link" href="https://www.instagram.com/prefeituradearipuana" target="_blank">
+                            <img src="/imgs/icons/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="f-contato">
+                    <div class="footer-contact-item footer-contact-phone">
+                        <img class="footer-contact-icon" src="/imgs/icons/whatsapp.svg" alt="">
+                        <div class="footer-contact-content">
+                            <div class="footer-contact-heading">Somente WhatsApp</div>
+                            <div class="footer-contact-value footer-phone-value">(66) 3565-3909</div>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <img class="footer-contact-icon" src="/imgs/icons/map-marker.svg" alt="">
+                        <div class="footer-contact-content">
+                            <div class="footer-contact-value">Praça São Francisco de Assis, Nº 128 - Centro<br>Aripuanã - MT,
+                                78325-000</div>
+                            <div class="footer-contact-cnpj">CNPJ: 03.507.498/0001-71</div>                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <img class="footer-contact-icon" src="/imgs/icons/mail.svg" alt="">
+                        <div class="footer-contact-content">
+                            <div class="footer-contact-value">prefeito@aripuana.mt.gov.br</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-rights d-print-none">
+    <div class="container">
+        <div class="row footer-rights-row">
+            <div class="col-md-5 col-12 footer-rights-copy">
+                <div>Prefeitura Municipal de Aripuanã <span class="footer-muted">&nbsp;-&nbsp; todos os direitos reservados&nbsp;©</span></div>
+            </div>
+            <div class="col-md-4 col-12 footer-rights-actions">
+                <a href="/admin" target="_blank"><i class="mdi mdi-lock"></i> Painel Gestor</a>
+                <a href="/#/page/politica-de-privacidade" target="_blank">Política de privacidade</a>
+            </div>
+            <div class="col-md-3 col-12 text-right footer-dev">
+                <span class="footer-muted">DESENVOLVIDO POR</span>&nbsp;<a href="https://pentagono.info/"
+                    target="_blank">PENTÁGONO SISTEMAS</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div id="footer-btn-back-top">
+    <i class="mdi mdi-chevron-double-up"></i>
+</div> -->
+
+<div>
+    <style>
+        #omz-button {
+            /*box-shadow: 0 2px 2px rgba(0,0,0,.4); border: unset;*/
+            border-radius: 50px;
+            margin: 0 0 0 2px;
+            padding: 0;
+            padding-top: 12px;
+            width: 65px;
+            height: 65px;
+            cursor: pointer;
+            animation: createBox .5s;
+            opacity: 1;
+            position: fixed;
+            bottom: 17px;
+            right: 20px;
+            z-index: 999999999;
+        }
+
+        #divChatZenvia {
+            display: none;
+            width: 400px;
+            height: calc(100% - 115px);
+            position: fixed;
+            overflow: hidden;
+            z-index: 999999999;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 0px 30px 5px;
+            border-radius: 6px;
+            bottom: 95px;
+            max-height: 480px;
+            min-height: 300px;
+            right: 20px;
+        }
+    </style><a id="lickChatZenvia" href="https://covid.zenvia.com/aripuana.mt"
+        onclick="document.getElementById('divChatZenvia').style.display == 'block' ? document.getElementById('divChatZenvia').style.display = 'none' : document.getElementById('divChatZenvia').style.display = 'block'; document.getElementById('frameChatZenvia').focus();"
+        target="frameChatZenvia"><button id="omz-button"
+            style="background-size: cover;background-image:url('/imgs/default/covid_chat.svg');"></button></a>
+    <div id="divChatZenvia" style=""><iframe name="frameChatZenvia" id="frameChatZenvia"
+            allow="geolocation https://covid.zenvia.com" frameborder="0" scrolling="no"
+            style="width:100%;height:100%;"></iframe></div>
+</div>
+    </div>
+    <lgpd-agreement color="#1F86C2" />
+</body>

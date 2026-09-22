@@ -1,0 +1,15 @@
+Falha SSL/TLS
+Total: 3
+
+
+1. https://camaraguarantadonorte.mt.gov.br
+Explicação: Falha na validação TLS: certificado expirado ou incompatível com o domínio.
+Erro: Não foi possível baixar HTML: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'camaraguarantadonorte.mt.gov.br'. (_ssl.c:1033)
+
+2. https://canarana.mt.gov.br/portal/
+Explicação: Falha na validação TLS: certificado expirado ou incompatível com o domínio.
+Erro: Não foi possível baixar HTML: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1033)
+
+3. https://www.camaraleverger.mt.gov.br/
+Explicação: Falha na validação TLS: certificado expirado ou incompatível com o domínio.
+Erro: Não foi possível baixar HTML: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1033)

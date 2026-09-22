@@ -1,0 +1,340 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\" data-beasties-container=\"\"><head><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n  <meta charset=\"utf-8\">\n  <title>Câmara Municipal de Matupá - MT - Portal Oficial</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"icon\" type=\"image/png\" href=\"images/logo.png\">\n  \n  <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" href=\"styles-H6T5NUMB.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles-H6T5NUMB.css\"></noscript></head>\n<body>\n  <app-root></app-root>\n\n  <!-- VLibras: tradutor de Libras do gov.br. A versão atual do plugin monta a\n       própria marcação e injeta o próprio estilo — o bloco <div vw> das\n       integrações antigas não é mais necessário. -->\n  <script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\" defer=\"\"></script>\n  <script>\n    window.addEventListener('load', function () {\n      if (window.VLibras) {\n        new window.VLibras.Widget({ rootPath: 'https://vlibras.gov.br/app' });\n      }\n    });\n  </script>\n<link rel=\"modulepreload\" href=\"chunk-YFNJVSLY.js\"><link rel=\"modulepreload\" href=\"chunk-RROADH2H.js\"><link rel=\"modulepreload\" href=\"chunk-RRSGUHXW.js\"><link rel=\"modulepreload\" href=\"chunk-EPKUCWCM.js\"><script src=\"main-BA4VHNQC.js\" type=\"module\"></script>\n\n<div id=\"vlibras-access-wrapper\"></div></body></html>",
+    "data": {
+      "title": "Câmara Municipal de Matupá - MT - Portal Oficial",
+      "rawUrl": "https://matupa.mt.leg.br/",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 1,
+        "buttonAname": 1,
+        "a": 1,
+        "elementDec": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 1,
+        "headers": 0,
+        "elementHiddenFocus": 1,
+        "menuItem": 0,
+        "id": 0,
+        "elementPresentChildrenNoFocus": 2,
+        "aSkipFirstNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "idAtt": 4,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Câmara Municipal de Matupá - MT - Portal Oficial</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\" data-beasties-container=\"\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access-wrapper\">       #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; right: 10px; flex-direction: row; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &amp;:hover, &amp;:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { right: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &amp;:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &amp;:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(9)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 14:08:33",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "Câmara Municipal de Matupá - MT - Portal Oficial",
+          "date": "2026-09-22 14:08:33",
+          "htmlTags": 119,
+          "roles": {
+            "document": 1,
+            "generic": 3,
+            "img": 1,
+            "button": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "link": 8,
+            "meta": 2,
+            "title": 1,
+            "base": 1,
+            "style": 87,
+            "noscript": 1,
+            "script": 10,
+            "body": 1,
+            "app-root": 1,
+            "div": 2,
+            "img": 2,
+            "button": 1
+          },
+          "size": 526219,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "cb265f1835ffb4ba82aa3b6d75f00f61",
+          "tests": 14,
+          "conform": "4@1@0",
+          "score": "7.1"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 1,
+          "buttonAname": 1,
+          "a": 1,
+          "elementDec": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 1,
+          "headers": 0,
+          "elementHiddenFocus": 1,
+          "menuItem": 0,
+          "id": 0,
+          "elementPresentChildrenNoFocus": 2,
+          "aSkipFirstNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "idAtt": 4,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@18",
+          "element_02": "10@18",
+          "img_01a": "10@16.2",
+          "element_04": "10@18",
+          "element_08": "10@18",
+          "a_01b": "3@4.859999999999999",
+          "layout_01a": "10@18",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "4@1@0",
+      "score": "7.1"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T14:08:34.022Z",
+    "requestedUrl": "https://matupa.mt.leg.br/",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 17372,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_matupa.mt.leg.br_017.html"
+    }
+  }
+}

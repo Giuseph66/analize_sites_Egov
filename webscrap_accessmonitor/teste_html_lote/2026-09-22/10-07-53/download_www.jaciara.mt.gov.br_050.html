@@ -1,0 +1,2401 @@
+				
+	
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+				<base href="https://www.jaciara.mt.gov.br/">
+					<!--[if lte IE 10]>
+		P�gina n�o suportada por navegador Internet Explorer com vers�o menor ou igual a 8.0;
+		<script language= "JavaScript">
+		location.href="https://www.jaciara.mt.gov.br/navegador.html"
+		</script>
+	<![endif]-->
+
+	<script>
+	  // lgpd
+	  var LGPD_VERSION = '1.0';
+	</script>
+		
+	<meta name="theme-color" content="#2c5568" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="#2c5568" />
+	<meta name="msapplication-navbutton-color" content="#2c5568" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Cache-Control" content="public, max-age=3600, must-revalidate">
+
+		<meta name="revisit-after" content="1 days" />
+	<meta name="keywords" content="Prefeitura Municipal,Jaciara,Servidor, p�blico, legisla��o, municipal, lei, cidad�o, licita��o, concurso, transpar�ncia, SIC, Ouvidoria, C�mara, MT, Mato Grosso, Brasil" />
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="all" />
+	<meta name="distribution" content="Global" />
+	<meta name="rating" content="General" />
+	<meta name="author" content="Prefeitura Municipal de Jaciara" />
+	<meta name="copyright" content="PREFEITURA MUNICIPAL DE JACIARA" />
+	<meta name="language" content="pt-br" />
+	<meta name="doc-class" content="Completed" />
+	<meta name="doc-rights" content="Public" />
+	<meta http-equiv="imagetoolbar" content="no" />
+
+    <link href="https://www.jaciara.mt.gov.br/favicon.ico" type="image/x-icon" rel="icon"/>
+	<link href="https://www.jaciara.mt.gov.br/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+
+	
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/ie10-viewport-bug-workaround.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/docs.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/midiassociais.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/bootstrap-select.min.css"/>
+	<script src="js/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="https://www.jaciara.mt.gov.br/css/sweetalert.css">
+
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/jquery.min.js"></script>
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/ie-emulation-modes-warning.js"></script>
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/ie10-viewport-bug-workaround.js"></script>
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/scripts-v1.1.3.js?ver=1.0"></script>
+	
+	<script>
+			// Picture element HTML5 shiv
+			document.createElement( "picture" );
+	</script>
+	<script>// Policies version
+      const version = 'v0.1.0';
+
+      // CSS Element
+      const styleElement = `
+        <style id="inpeace-policies-style" type="text/css">
+          .inpeace-policies-banner {
+            width: 100vw;
+            position: fixed;
+            z-index: 999999999999;
+            left: 0;
+            bottom: 0;
+            font-family: sans-serif;
+            background-color: rgba(21, 21, 21, 0.95);
+            color: #ffffff;
+            display: flex;
+          }
+          .inpeace-policies-banner .inpeace-policies-banner__content {
+            width: 100%;
+            padding: 24px 32px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+          }
+          .inpeace-policies-banner .inpeace-policies-banner__text {
+            flex: 1;
+            color: white;
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 0;
+          }
+          .inpeace-policies-banner .inpeace-policies-banner__link {
+            outline: none;
+            color: #fff;
+            text-decoration: underline;
+          }
+          .inpeace-policies-banner .inpeace-policies-banner__button {
+            background-color: #ffffff;
+            color: #000000;
+            border: 0;
+            outline: 0;
+            margin: 0;
+            padding: 12px 22px;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: 0.2s all ease-out;
+            font-size: 14px;
+          }
+          .inpeace-policies-banner .inpeace-policies-banner__button:hover {
+            transform: scale(1.1);
+            transition: 0.2s all ease-in;
+            cursor: pointer;
+          }
+          .inpeace-policies-banner.inpeace-policies-banner--accepted {
+            animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          }
+          @media(max-width: 768px){
+            .inpeace-policies-banner .inpeace-policies-banner__content {
+              flex-direction: column;
+            }
+            .inpeace-policies-banner .inpeace-policies-banner__text {
+              font-size: 14px;
+            }
+            .inpeace-policies-banner .inpeace-policies-banner__button {
+              width: 100%;
+              margin-top: 16px;
+              font-size: 14px;
+            }
+          }
+          @-webkit-keyframes slide-out-bottom {
+            0% {
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              opacity: 1;
+            }
+            100% {
+              -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+              opacity: 0;
+            }
+          }
+          @keyframes slide-out-bottom {
+            0% {
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              opacity: 1;
+            }
+            100% {
+              -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+              opacity: 0;
+            }
+          }
+        </style>
+        `;
+      // HTML Element
+      const htmlElement = `
+        <div id="inpeace-policies-banner" class="inpeace-policies-banner">
+          <div class="inpeace-policies-banner__content">
+            <p class="inpeace-policies-banner__text">
+              Este website est� em conformidade com a Lei Geral
+              da prote��o de Dados (LGPD) e utiliza cookies para oferecer 
+              uma melhor  experi�ncia ao visitante. <br/> Ao  navegar em 
+              nosso site, voc� concorda com a utiliza��o de cookies e com nossa 
+              <a
+              class="inpeace-policies-banner__link" 
+              target="_blank" href="https://www.jaciara.mt.gov.br/politica-de-privacidade.html">
+              Pol�tica de Privacidade.</a>
+            </p>
+			
+			<a href="https://www.jaciara.mt.gov.br/politica-de-privacidade.html" target="_blank" class="btn btn-primary inpeace-policies-banner__button" style="padding: 12px 5px; margin: 10px 10px; font-size:12px;">Pol�tica de Privacidade</a>
+
+			<a href="https://www.jaciara.mt.gov.br/politica-de-cookies.html" target="_blank" class="btn btn-primary inpeace-policies-banner__button" style="padding: 12px 5px; margin: 10px 10px; font-size:12px;">Pol�tica de Cookies</a>
+
+			<button id="inpeace-policies-banner-accept-button" class="inpeace-policies-banner__button" style="margin: 10px 10px;" aria-label="Aceitar">Aceitar</button>
+
+          </div>
+        </div>
+      `;
+
+      // Waitting page load
+      window.addEventListener('load', function() {
+        // Checking if localStorage is supported and storage has the same version from this file
+        if(storageIsSupported() && localStorage.getItem('inpeace-terms-accept') === version){
+          return;
+        }
+
+        // Adding Scripts
+        document.head.insertAdjacentHTML('beforeend', styleElement);
+        document.body.insertAdjacentHTML('beforeend', htmlElement);
+
+        // Getting accept button
+        const acceptButton = document.getElementById('inpeace-policies-banner-accept-button');
+
+        // Accept event
+        acceptButton.addEventListener('click', async () => {
+          // Setting accept to local storage if storage is supported
+          if (storageIsSupported()) {
+            localStorage.setItem('inpeace-terms-accept', version);
+          }
+          // Selection policies banner
+          const policiesBanner = document.getElementById('inpeace-policies-banner');
+
+          // Adding accept class
+          policiesBanner.classList.add('inpeace-policies-banner--accepted');
+
+          // Removing from DOM
+          setTimeout(() => {
+            policiesBanner.remove();
+          }, 2000);
+        });
+      });
+
+      function storageIsSupported() {
+        var testValue = 'value-test';
+
+        try {
+          // Set
+          localStorage.setItem('check-storage', testValue);
+          // Get
+          const isTheSameValue = localStorage.getItem('check-storage') === testValue ? true : false;
+
+          // Remove
+          localStorage.removeItem('check-storage');
+
+          return isTheSameValue;
+        } catch(e) {
+          return false;
+        }
+      }
+	</script>	
+	
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1VNHPNGHEW"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-1VNHPNGHEW');
+	</script>	
+
+	<!-- Bootstrap -->
+    <!-- Vers�o antiga -->
+    <link href="https://www.jaciara.mt.gov.br/css/bootstrap-5-0-2.min.css" rel="stylesheet">
+    <!-- FIm Vers�o antiga -->
+
+    <!-- Vers�o mais atual -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <!-- fim Vers�o mais atual -->
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/styles3-v1.0.0.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/styles2-v1.0.0.css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/styles-v1.0.0.css?date=2026-09-03"/>
+
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/select2.min.css">
+	<script type="text/javascript" src="https://www.jaciara.mt.gov.br/js/select2.full.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/responsive.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/select.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css" />
+	<script src="js/jquery.dataTables.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
+
+	<script type="text/javascript" language="javascript" src="https://www.jaciara.mt.gov.br/js/dataTables.responsive.min.js">
+	</script>
+	
+	<style>
+
+		.dt-button {
+			color: #fff !important;
+			background-color: #325F74 !important;
+			border-color: #325F74 !important;
+			background-image: none !important;
+		}
+		.dt-button:active, .dt-button:hover, .dt-button:focus, .dt-button:active:active, .dt-button:hover
+		{ background-color: #325F74 !important;
+		 border-color: #325F74 !important;
+		}
+		.buttons-html5 {
+			color: #fff !important;
+			background-color: #325F74 !important;
+			border-color: #325F74 !important;
+			background-image: none !important;
+		}
+		.buttons-html5:active, .buttons-html5:hover, .buttons-html5:focus, .buttons-html5:active:active, .buttons-html5:hover
+		{ background-color: #325F74 !important;
+		 border-color: #325F74 !important;
+		}
+
+		.btn-relatorio {
+		   color: #fff;
+		   background-color:  #FF4000;
+		   border-color:  #FF4000;
+		}
+		.btn-relatorio:active, .btn-relatorio:hover, .btn-relatorio:focus, .btn-relatorio:active:active, .btn-relatorio:hover
+		{ background-color: #FF9326;
+		 border-color: #FF9326;
+		 color: #fff;
+		}
+	</style>	
+	<style type="text/css">
+
+		ul.tabs {
+			margin: 0;
+			padding: 0;
+			margin-left:1px;
+			float: left;
+			list-style: none;
+			height: 27px;
+			width: 100%;
+			font-family: Arial, 'sans-serif';
+			font-size:12px;
+			font-weight:normal;
+		}
+		ul.tabs li {
+			float: left;
+			margin: 0;
+			cursor: pointer;
+			padding: 0px 11px ;
+			height: 26px;
+			margin-bottom:2px;
+			line-height: 26px;
+			border: 1px solid #999999;
+			border-left: none;
+			font-weight: bold;
+			background: #EEEEEE;
+			overflow: hidden;
+			position: relative;
+		}
+		ul.tabs li:hover {
+			background: #CCCCCC;
+		}	
+		ul.tabs li.active{
+			background: #E7F3FF;
+			border-bottom: 1px solid #999999;
+			font-weight:bold;
+			font-size:12px;
+			color:#333333;
+		}
+		.dataTables_wrapper {
+			font-family: 'Arial';
+		}
+		.titleDataTables{
+			color: #fff;
+			font-size: 1.5rem;
+		}
+
+		.table {
+			border-spacing: 0;
+			border-collapse: collapse
+		}
+		td, th {
+			padding: 0;
+			font-size:1.5rem !important;
+		}
+
+		@media print {
+		.table {
+			border-collapse: collapse!important
+		}
+		.table td, .table th {
+			background-color: #fff!important
+		}
+		.table-bordered td, .table-bordered th {
+			border: 1px solid #ddd!important
+		}
+		}
+
+		.table-hover > tbody > tr:hover {
+			background-color: #E9EAEB;
+			cursor: pointer;
+			text-decoration:none;
+		}
+		.select_cor_fundo{
+			background-color:#325F74 !important;
+			color: #FFFFFF;
+		}
+		.select_cor{
+			color:#666666;
+		}
+
+	</style>
+		  
+	
+    
+	
+
+			<meta name="description" content="Portal Oficial da Prefeitura Municipal de Jaciara. Notícias, Portal Transparência, Concursos, Processos Seletivos, Legislação, Licitação, Ouvidoria e muito mais." />
+		<meta property="og:title" content="
+		Governo de Jaciara - Poder Executivo" />
+
+					<title>
+						Governo de Jaciara - Poder Executivo</title>
+			<meta property="og:image" content="https://www.jaciara.mt.gov.br/images/logo-face.png" />
+			<meta property="og:image:type" content="image/png" />
+			<meta property="og:image:width" content="400" />
+			<meta property="og:image:height" content="400" />
+		
+		
+									
+						
+			
+			
+	
+	<meta property="og:site_name" content="Prefeitura Municipal de Jaciara" />
+	<meta property="og:type" content="website" />
+	<!--
+	<meta property="place:location:latitude"              content="-15.96707457" /> 
+	<meta property="place:location:longitude"             content="-54.96710815" /> 
+	<meta property="business:contact_data:street_address" content="Av. Antonio Ferreira Sobrinho, 1075 - Centro"/> 
+	<meta property="business:contact_data:locality"       content="Jaciara-MT" /> 
+	<meta property="business:contact_data:postal_code"    content="78820-000" /> 
+	<meta property="business:contact_data:country_name"   content="Brasil" /> 
+	-->
+	<meta property="fb:app_id" content="1538182976478335" />
+	
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v21.0&appId=1538182976478335"></script>
+	
+	<link media="screen" rel="stylesheet" href="colorbox/colorbox.css" />
+	<script src="colorbox/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".group1").colorbox({rel:'group1', maxWidth:"100%", maxHeight:"100%",});
+			$(".group2").colorbox({rel:'group2', transition:"fade"});
+			$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+			$(".group4").colorbox({rel:'group4', transition:"none", maxWidth:"1024", maxHeight:"680", slideshow:true});
+			$(".ajax").colorbox();
+			$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+			$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: Colorbox est� prestes a abrir.'); },
+				onLoad:function(){ alert('onLoad: ColorBox come�ou a carregar o conte�do.'); },
+				onComplete:function(){ alert('onComplete: ColorBox exibindo o conte�do carregado.'); },
+				onCleanup:function(){ alert('onCleanup: ColorBox iniciou o processo de fechamento.'); },
+				onClosed:function(){ alert('onClosed: ColorBox fechado'); }
+			});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Abra esta janela novamente e esta mensagem ainda estar� aqui.");
+				return false;
+			});
+		});
+	</script>
+	
+
+<style>
+	/* Remove outline em cliques de mouse, mant�m em navega��o por teclado */
+	a:focus, button:focus, [tabindex]:focus {
+	  outline: none;
+	}
+	a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+	  outline: 2px solid none !important;
+	  outline-offset: 2px;
+	  border-radius: 4px;
+	}
+</style>
+  
+	
+</head>
+
+<body id="inicio">
+    <div class="menuMobile" data-aos="fade-right">
+        <div class="optCl" data-aos="fade-right" data-aos-delay="100">
+            <div class="optBckIcon">
+                <i class="fa-solid fa-chevron-left" id="backMenu"></i>
+            </div>
+            <div class="optClIcon">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+        <div class="logoMb" data-aos="fade-right" data-aos-delay="200">
+            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/logo-prefeitura-2021-ok.png" alt="Logo PMJ" title="P�gina Inicial">
+        </div>
+        <!-- SCRIPT: puxar o campo de pesquisa -->
+        <div class="searchMb" data-aos="fade-right" data-aos-delay="300"></div>
+        <!-- apenas os icones com suas funcionalidades -->
+        <div class="accsMb" data-aos="fade-right" data-aos-delay="400">
+            <div class="iconOpt" id="fontMaMb">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+            <div class="iconOpt" id="fontMeMb">
+                <i class="fa-solid fa-magnifying-glass-minus"></i>
+            </div>
+            <div class="iconOpt" id="fontDiMb">
+                <img class="fa-solid fa-magnifying-glass-minus" src="https://www.jaciara.mt.gov.br/images/dislexia_preto.png" width="25" height="25">
+            </div>
+            <div class="iconOpt" id="contMb">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="iconOpt" id="contNMb">
+                <i class="fa-regular fa-circle"></i>
+            </div>
+            <div class="iconOpt" id="accsPMb">
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+            <script type="text/javascript">
+                $('.menuMobile .accsMb .iconOpt').click(function() {
+                    if (this.id == 'fontMaMb') {
+                        fonteMais();
+                    } else if (this.id == 'fontMeMb') {
+                        fonteMenos();
+                    } else if (this.id == 'fontDiMb') {
+                        fonteDislexia();
+                    } else if (this.id == 'contMb') {
+                        contraste();
+                    } else if (this.id == 'contNMb') {
+                        normal();
+                    } else if (this.id == 'accsPMb') {
+                        padrao();
+                        normal();
+                    } else {}
+                })
+            </script>
+        </div>
+        <!-- SCRIPT: puxar do menu header -->
+        <div class="categMb" data-aos="fade-right" data-aos-delay="500">
+        </div>
+        <!-- apenas os icones: igual ao rodap� -->
+        <div class="rdScMb" data-aos="fade-right" data-aos-delay="600">
+            <a href="https://www.facebook.com/prefeiturajaciara" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/prefeiturajaciara/" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+                        <a href="https://www.youtube.com/prefeiturajaciara" title="Youtube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+        <!-- SCRIPT: sub menu -->
+        <div class="subMnMb" data-aos="fade-right"></div>
+        <div class="sbSbMenu" data-aos="fade-right"></div>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <div class="headerTop hidden-print">
+        <div class="container-fluid">
+            <div class="menuTop">
+                <a class="optMenuTop d-none d-md-block" href="https://www.jaciara.mt.gov.br/acessibilidade/" title="Acessibilidade">Acessibilidade &nbsp;|</a>
+                <a class="optMenuTop" href="https://servicos.jaciara.mt.gov.br/" target="_blank">Carta de Servi�os &nbsp;|</a>
+                <a class="optMenuTop" href="https://www.jaciara.mt.gov.br/transparencia/ouvidoria/" target="_blank">e-SIC &nbsp;|</a>
+                <a class="optMenuTop d-none d-md-block" href="https://www.jaciara.mt.gov.br/transparencia/ouvidoria/" target="_blank">Ouvidoria &nbsp;|</a>
+				<a class="optMenuTop" href="https://www.jaciara.mt.gov.br/transparencia/" target="_blank">Transpar�ncia &nbsp;|</a>
+                <a class="optMenuTop" href="https://www.jaciara.mt.gov.br/fale_conosco/">Fale Conosco &nbsp;|</a>
+                <a class="optMenuTop" href="https://www.jaciara.mt.gov.br/transparencia/estruturaorg/" target="_blank">Telefones</a>                
+				            </div>
+        </div>
+    </div>
+	<div class="logo visible-print" align="center" style="min-width: 100% !important; margin-bottom: 0 !important; padding-bottom: 0 !important; height: 0px;">
+		<a href="https://www.jaciara.mt.gov.br/" title="P�gina Inicial"><img src="https://www.jaciara.mt.gov.br/images/logo-prefeitura-2021.png" class="img-responsive" alt="Logo Prefeitura" style="max-width: 300px !important; padding-top: 15px;"/></a>
+	</div>
+    <div class="headerDiv hidden-print">
+        <div class="headerBottom">
+            <div class="container-fluid">
+                <div class="hdr">
+                    <div class="logo hidden-print">
+                        <a href="https://www.jaciara.mt.gov.br/" title="P�gina Incial"><img src="https://www.jaciara.mt.gov.br/images/logo-prefeitura-2021.png" alt="Logo Prefeitura"/></a>
+					</div>
+                    <div class="menu hidden-print" style="z-index: 1254587">
+                        <div class="iconMenu">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                        <div class="optMenu btnDrop" id="btnPref">
+                            <div class="dropTitle">
+                                <h4>Administra��o</h4>
+                            </div>
+                            <div class="dropdownMenu" id="ddPref">
+								<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/prefeita/">Prefeita</a>
+								<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/viceprefeita/">Vice-Prefeita</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/28/0/Administracao-e-Financas/">Secretaria Mun. de Administra��o e Finan�as</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/29/0/Agricultura/">Secretaria Mun. de Agricultura</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/14/0/Assistencia-Social-Cultura-Desporto-e-Lazer/">Secretaria Mun. de Assist�ncia Social, Cultura, Desporto e Lazer</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/25/0/Educacao/">Secretaria Mun. de Educa��o</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/30/0/Governo/">Secretaria Mun. de Governo</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/6/0/Infraestrutura-e-Urbanismo/">Secretaria Mun. de Infraestrutura e Urbanismo</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/32/0/Meio-Ambiente-Turismo-e-Desenvolvimento-Economico/">Secretaria Mun. de Meio Ambiente, Turismo e Desenvolvimento Econ�mico</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/26/0/Planejamento/">Secretaria Mun. de Planejamento</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/secretarias/7/0/Saude/">Secretaria Mun. de Sa�de</a>
+																<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/estruturaorg/Estrutura-Organizacional/">Estrutura Organizacional</a>
+								<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/prefeitos/">Galeria de Prefeitos</a>
+								<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/transparencia/organograma/" target="_blank">Organograma</a>
+								<a class="dropOpt" href="https://seliga.jaciara.mt.gov.br/" target="_blank">Se Liga Jaciara (Aplicativo)</a>
+																                            </div>
+                        </div>
+
+                        <div class="optMenu btnDrop" id="btnSec">
+                            <div class="dropTitle">
+                                <h4>Munic�pio</h4>
+                            </div>
+                            <div class="dropdownMenu" id="ddSec">
+								<div>
+									<a class="dropOpt url-link" href="bairros/">Bairros</a>
+									<a class="dropOpt url-link" href="dados/">Dados Gerais</a>
+									<a class="dropOpt url-link" href="conhecajaciara/">Conhe�a Jaciara</a>
+									<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/estrutura/">Estrutura</a>
+									<a class="dropOpt url-link" href="historia/">Hist�ria</a>
+									<a class="dropOpt url-link" href="como_chegar/">Localiza��o</a>
+									<a class="dropOpt url-link" href="perfil/">Perfil Econ�mico</a>
+
+								<div class="dropOpt" id="subMenuSimbolos">
+                                    <div class="dropOptTitle">
+                                        S�mbolos Municipais&nbsp;
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </div>
+                                    <div class="dropdownMenu dropSubMenu" id="ddSmAO" style="min-width: 200px;">
+                                        <h4>S�mbolos Municipais</h4>
+                                        <a class="dropOpt" href="https://www.jaciara.mt.gov.br/bandeira">Bandeira</a>
+                                        <a class="dropOpt" href="https://www.jaciara.mt.gov.br/brasao">Bras�o</a>
+                                        <a class="dropOpt" href="https://www.jaciara.mt.gov.br/hino">Hino</a>
+                                    </div>
+                                </div>
+									
+								</div>
+                            </div>
+                        </div>
+
+						
+                        <div class="optMenu btnDrop" id="btnImp">
+                            <div class="dropTitle">
+                                <h4>Imprensa</h4>
+                            </div>
+                            <div class="dropdownMenu" id="ddImp">
+								<div>
+									<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/fotos/1/Galeria-de-Fotos/">Galeria de Fotos</a>																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/29/0/Agricultura/">Agricultura</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/25/0/Assistencia-Social/">Assist�ncia Social</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/54/0/Cultura/">Cultura</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/22/0/Desenv-Economico/">Desenv. Econ�mico</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/56/0/Economia-e-Financas/">Economia e Finan�as</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/19/0/Educacao/">Educa��o</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/60/0/Esportes-e-Lazer/">Esportes e Lazer</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/59/0/Gabinete-e-Governo/">Gabinete e Governo</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/34/0/Geral/">Geral</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/24/0/Gestao-e-Controle/">Gest�o e Controle</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/27/0/Infraestrutura/">Infraestrutura</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/31/0/Meio-Ambiente/">Meio Ambiente</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/58/0/Planejamento-/">Planejamento </a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/32/0/Saude/">Sa�de</a>
+																			<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/noticias/30/0/Turismo/">Turismo</a>
+																										<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/arquivos/2023/MANUAL-DE-IDENTIDADE-PREFEITURA-DE-JACIARA-2023.pdf" target="_blank">Manual de Identidade da Marca </a>								
+									<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/estruturaorg/Telefones-Uteis/">Telefones �teis</a>
+									<a class="dropOpt url-link"  href="https://www.jaciara.mt.gov.br/videos/">TV Prefeitura</a>
+									<a class="dropOpt url-link"  href="Ultimas-Noticias/Todas/">�ltimas Not�cias</a>
+								</div>
+							</div>
+						</div>
+						
+                        <div class="optMenu btnDrop" id="btnTra">
+                            <div class="dropTitle">
+                                <h4>Transpar�ncia</h4>
+                            </div>
+                            <div class="dropdownMenu" id="ddTra">
+								<div>
+									
+									<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/transparencia/ouvidoria/" target="_blank">Acesso � Informa&ccedil;&atilde;o - SIC</a>
+									<a class="dropOpt url-link" href="https://protocolo.jaciara.mt.gov.br/consulta/" target="_blank">Acompanhamento de Processos</a>
+									<a class="dropOpt url-link" href="dengue/">Boletim Epidemiol�gico Vig. Ambiental</a>
+									<a class="dropOpt"  href="https://servicos.jaciara.mt.gov.br/" target="_blank">Carta de Servi�os ao Usu�rio</a>
+									<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/transparencia/pref_online/concursos/" target="_blank">Concursos</a>
+									<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/transparencia/pref_online/seletivos/" target="_blank">Processos Seletivos</a>
+									<a class="dropOpt" href="https://intranet.jaciara.mt.gov.br:5656/transparencia/" target="_blank">Contas P�blicas / Execu��o Or�ament�ria</a>
+									<a class="dropOpt url-link" href="determinacao/">Editais de Determina��o</a>
+									<a class="dropOpt url-link" href="interdicao/">Editais de Interdi��o</a>
+									<a class="dropOpt url-link" href="intimacao/">Editais de Intima��o</a>
+									<a class="dropOpt url-link" href="notificacao/">Editais de Notifica��o</a>
+									<a class="dropOpt url-link" href="visa/">Editais - Vigil�ncia Sanit�ria</a>
+																	<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/transparencia/pref_online/eleicoes/" target="_blank">Elei��es</a>
+									<a class="dropOpt url-link" href="formularios/Modelo-Padrao/">Formul�rios - Modelo Padr�o</a>
+									<a class="dropOpt url-link" href="links/Links-Uteis/">Links �teis</a>
+									<a class="dropOpt" href="https://www.jaciara.mt.gov.br/transparencia/ouvidoria/" target="_blank">Ouvidoria</a>
+									<a class="dropOpt" href="https://www.jaciara.mt.gov.br/transparencia/" target="_blank">Portal Transpar�ncia</a>
+									<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/transparencia/mostra_publicacao/34/0/Publicacoes/" target="_blank">Publica��es</a>
+									<a class="dropOpt" href="https://www.jaciara.mt.gov.br/transparencia/faq/" target="_blank">Perguntas Frequentes</a>
+									<a class="dropOpt" href="https://radardatransparencia.atricon.org.br/" target="_blank">Radar da Transpar�ncia P�blica</a>
+									<a class="dropOpt" href="https://seliga.jaciara.mt.gov.br/" target="_blank">Se Liga Jaciara (Aplicativo)</a>
+									<a class="dropOpt url-link">UPFM 2026: R$ 7,69</a>
+									<a class="dropOpt url-link" href="https://www.jaciara.mt.gov.br/vtn">VTN / ITR - Valor da Terra Nua</a>
+								</div>
+							</div>
+						</div>
+						
+						                        <div class="optMenu" id="btnLGPD">
+                            <div class="dropTitle">
+                                <h4>LGPD</h4>
+                            </div>
+                        </div>
+                        <script>
+                            // alterer para link produ��o e link pag servi�os
+                            $('#btnLGPD').click(function() {
+                                $('body')[0].className.includes('mobile') ? $('.menuMobile .optCl .optClIcon i').click() : {};
+                               window.open('./transparencia/mostra_publicacao/52/0/Lei-Geral-de-Protecao-de-Dados/', '_blank');
+                            })
+                            // alterer para link produ��o e link pag servi�os
+                        </script>
+                    </div>
+
+                    <!-- alterar -->
+                    <div class="search hidden-print">
+                        <div class="iconSearch">
+                            <i class="fa-solid fa-magnifying-glass" id="searchButton"></i>
+                            <div class="inp">
+                                <form action="https://www.jaciara.mt.gov.br/busca/" id="fileDisplayForm" method="post" accept-charset="utf-8" autocomplete="off"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div><input type="hidden" name="chave" value="" id="BuscaModelo"/>
+								<div class="input-group">
+									<div class="input text"><input name="chave" class="form-control" placeholder="Pesquisar no site..." value="" type="text" id="BuscaTexto"/>
+									</div>
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="submit" aria-label="Pesquisar">
+											<i class="d-flex fas fa-search"></i>
+										</button>
+									</span>
+								</div>
+								</form>
+							</div>
+                        </div>
+                    </div>
+                    <div class="accessibility hidden-print">
+                        <div class="optMenu">
+                            <div class="btnAcc">
+                                <i class="fa-solid fa-universal-access"></i>
+                            </div>
+                            <ul class="dropdownMenu" id="accs">
+
+								<li class="dropOpt hidden">
+									<a href="https://www.jaciara.mt.gov.br/" accesskey="0" style="text-decoration:none;"></a>
+								</li>
+								<li class="dropOpt hidden">
+									<a href="/#inicio" accesskey="1" onkeypress="#inicio" style="text-decoration:none;"></a>
+								</li>
+								<li class="dropOpt hidden">
+									<a href="/#ondeEstou" accesskey="2" onkeypress="#ondeEstou" style="text-decoration:none;"></a>
+								</li>
+								<li class="dropOpt" id="fontMa" onClick="fonteMais();" onkeypress="fonteMais();" accesskey="+">
+                                    									A+
+                                    <span>Aumentar Letra (Alt +)</span>
+                                </li>
+                                <li class="dropOpt" id="fontMe" onClick="fonteMenos();" onkeypress="fonteMenos();" accesskey="-">
+                                    									A-
+                                    <span>&nbsp;Diminuir Letra (Alt -)</span>
+                                </li>
+								<li class="dropOpt" id="mapa_site">
+									<a href="https://www.jaciara.mt.gov.br/mapa-do-site/" accesskey="3" onkeypress="https://www.jaciara.mt.gov.br/mapa-do-site/" style="color: #fff">
+									<i class="fa-solid fa-sitemap"></i>
+									<span style="margin-left: -3px; font-weight: normal;">Mapa Site (Alt 3)</span>
+									</a>
+								</li>
+                                <li class="dropOpt" id="fontDi" onClick="fonteDislexia();" onkeypress="fonteDislexia();" accesskey="4">
+                                    <img class="fa-solid fa-magnifying-glass-minus" src="https://www.jaciara.mt.gov.br/images/dislexia.png" width="23" height="23">
+                                    <span>Fonte Dislexia (Alt 4)</span>
+                                </li>
+                                <li class="dropOpt" id="cont" onClick="contraste();" onkeypress="contraste();" accesskey="5">
+                                    <i class="fa-solid fa-circle-half-stroke"></i>
+                                    <span>Contraste (Alt 5)</span>
+                                </li>
+                                <li class="dropOpt" id="contN" onClick="normal();" onkeypress="normal();" accesskey="6">
+                                    <i class="fa-regular fa-circle"></i>
+                                    <span>Remover Contraste(Alt 6)</span>
+                                </li>
+                                <li class="dropOpt" id="accsP" onClick="normal();padrao();" onkeypress="normal();padrao();" accesskey="*">
+                                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                                    <span>Voltar ao Padr�o (Alt *)</span>
+                                </li>
+                            </ul>
+                        </div>
+						<script>
+                            function positionDropdownAcc() {
+                                $('#accs')[0].style.right = String($('body')[0].offsetWidth - ($('.accessibility')[0].offsetLeft + $('.accessibility')[0].offsetWidth)) + 'px';
+                            }
+
+                            $(document).ready(function() {
+                                positionDropdownAcc();
+                            })
+                            window.onresize = () => {
+                                positionDropdownAcc()
+                            }
+
+                            var texts;
+                            $(document).ready(function() {
+                                texts = [$(".secretaria"),
+                                    $(".secretarias-titulo"),
+                                    $(".secretarias-caminho-texto h5"),
+                                    $(".secretarias-caminho-arrow"),
+                                    $(".secretarias-caminho-texto-atual h5"),
+                                    $(".secretarias-subtitulo"),
+                                    $(".secretarias-card-titulo"),
+                                    $(".ver-mais a"),
+                                    $(".caption h5 p"),
+                                    $(".caption h4"),
+                                    $(".caption p"),
+                                    $(".pagination li a"),
+                                    $(".btn"),
+                                    $(".ttCatSctn"),
+                                    $(".sectionTt"),
+                                    $(".subtitle"),
+                                    $(".info-news span"),
+                                    $(".area-noticia .description"),
+                                    $(".social-media .text"),
+                                    $(".licitacoes-subtitulo"),
+                                    $(".licitacoes-filtro-button"),
+                                    $(".licitacoes-filtro-button img"),
+                                    $(".licitacoes-filtro-titulo h2"),
+                                    $("form label"),
+                                    $(".form-control option"),
+                                    $(".licitacoes-filtro-radio input"),
+                                    $(".licitacoes-filtro label"),
+                                    $(".licitacoes-filtro-texto input"),
+                                    $(".licitacao-titulo"),
+                                    $(".licitacao-texto"),
+                                    $(".card"),
+                                    $(".description .licitacao-texto"),
+                                    $(".form-control"),
+                                    $(".licitacoes-servicos-card"),
+                                    $(".text-2"),
+                                    $(".setores-card-titulo"),
+                                    $(".setores-card-link"),
+                                    $(".cards-filter input"),
+                                    $(".secretaria-sobre-descricao"),
+                                    $(".secretaria-sobre-endereco"),
+                                    $(".secretario-descricao"),
+                                    $(".secretario-contato"),
+                                    $("h4"),
+                                    $("h5"),
+                                    $("h2"),
+                                    $(".h4"),
+                                    $("h3"),
+                                    $(".sttCS div"),
+                                    $(".cardInfo"),
+                                    $(".cardInfo .description"),
+                                    $(".list-group-item a"),
+                                    $(".cardInfo"),
+                                    $("h1"),
+                                    $("h6"),
+                                    $('.optMenuTop'),
+									$('.dropTitle h4'),
+									$('.dropOpt'),
+									$('.dropSubMenu h4'),
+									$('#BuscaTexto'),
+									$('.carousel-caption h3'),
+									$('.carousel-caption h1'),
+									$('.carousel-caption h2'),
+									$('.allNoti h4 a'),
+									$('.ttDtqs'),
+									$('.dtqs .txtDv .tt'),
+									$('.dtqs .txtDv .sbtt'),
+									$('.ttDv .ttCatSctn'),
+									$('.ttDv .ttSctn'),
+									$('.categDv .txt h4'),
+									$('.categDv .optsDv .opt .ttOpt h5'),
+									$('.servDv .txt h4'),
+									$('.servDv .optsDv .opt .ttOpt h4'),
+									$('.allServ h4 a'),
+									$('#rdSociais .ttDv .ttSctn'),
+									$('.txtRd'),
+									$('#prvwInsta .topInst .tt .title'),
+									$('#prvwInsta .topInst .tt .subtitle'),
+									$('#prvwInsta .bottomInst'),
+									$('.btnMore a'),
+									$('.sbrDv .sbr .txtSbr h2'),
+									$('.sbrDv .sbr .txtSbr span'),
+									$('.sbrDv .sbr .txtSbr a'),
+									$('.sbrOpt > span'),
+									$('.sbrOpt .optDv .opts .txt'),
+									$('.allSobreJACIARA h4 a'),
+									$('#app .ttDv .ttSctn'),
+									$('#app .ttDv h4'),
+									$('.ftInfo'),
+									$('.footer-bottom .dvFlx span'),
+									$('.footer-bottom .rd-sociais a')
+                                ]
+                            })
+
+							function contraste(){
+								if(sessionStorage.contraste_atual==''){
+									sessionStorage.contraste_atual='s';
+									document.location.reload(true);
+								} else {
+									sessionStorage.contraste_atual='';
+								}
+								MudarContraste();
+							}
+							function fonteDislexia(){
+								if(sessionStorage.dislexia_atual==''){
+									sessionStorage.dislexia_atual='s';
+									document.location.reload(true);
+								} else {
+									sessionStorage.dislexia_atual='';
+								}
+								MudarDislexia();
+							}
+							
+							
+							
+							function MudarContraste() {
+								if (sessionStorage.contraste_atual && sessionStorage.contraste_atual=='s'){	
+									$('body')[0].classList.add('contraste');
+									$('.headerBottom a img')[0].src = './images/logo-prefeitura-2021-.png';
+								}
+                            }
+
+                            function normal() {
+                                $('body')[0].classList.remove('contraste');
+								sessionStorage.contraste_atual='';
+								MudarContraste();
+								document.location.reload(true);
+                            }
+
+                            function fonteMais() {
+									for (txt of texts) {
+										txt.css("fontSize", parseInt(txt.css('font-size')) + 1);
+									}
+                            }
+
+                            function fonteMenos() {
+									for (txt of texts) {
+										txt.css("fontSize", parseInt(txt.css('font-size')) - 1);
+									}
+                            }
+                            function MudarDislexia() {
+								if (sessionStorage.dislexia_atual && sessionStorage.dislexia_atual=='s'){	
+									sessionStorage.dislexia_atual='s';
+									$('body')[0].classList.add('dislexia');
+								}
+                            }
+
+                            function padrao() {
+                                $('body')[0].classList.remove('contraste');
+                                $('body')[0].classList.remove('dislexia');
+                                for (txt of texts) {
+                                    txt.css("fontSize", '');
+                                }
+								sessionStorage.contraste_atual='';
+								sessionStorage.dislexia_atual='';
+								document.location.reload(true);
+                            }
+
+                            $('#accs li').click(function() {
+                                if (this.id == 'fontMa') {
+                                    fonteMais();
+                                } else if (this.id == 'fontMe') {
+                                    fonteMenos();
+                                } else if (this.id == 'fontDi') {
+                                    fonteDislexia();
+                                } else if (this.id == 'cont') {
+                                    contraste();
+                                } else if (this.id == 'contN') {
+                                    normal();
+                                } else if (this.id == 'accsP') {
+                                    padrao();
+                                    normal();
+                                } else {}
+                            })
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			MudarContraste();
+			MudarDislexia();
+		});
+	</script>
+    <script type="text/javascript">
+		window.onscroll = function() {
+            window.pageYOffset >= 28 ? $('.headerDiv')[0].classList.add('scrolling') : $('.headerDiv')[0].classList.remove('scrolling');
+        }
+
+        function mobileHeader() {
+            (window.innerWidth <= 992 || window.outerWidth <= 992) ? $('body')[0].classList.add('mobile'): $('.hdr .logo')[0].after($('.hdr .menu')[0]) + $('body')[0].classList.remove('mobile');
+
+            (window.innerWidth <= 992 || window.outerWidth <= 992) ? $('.lg')[0].append($('.rd-sociais')[0]): $('.dvFlx')[0].append($('.rd-sociais')[0]);
+        }
+
+        // Click Open Menu
+        var navigation = []
+        $('.menu .iconMenu').click(function() {
+            if ($('body')[0].className.includes('mobile')) {
+                // Travar tela
+                $('html')[0].style.overflow = 'hidden';
+                $('.menuMobile')[0].style.display = 'grid';
+
+                // Fechar outros menus abertos
+                $('.search .iconSearch')[0].classList.remove('act');
+                animationsDropDown('fadeOutDown', inputElementDiv, 400);
+                $('.accessibility .btnAcc')[0].classList.remove('act');
+                animationsDropDown('fadeOutDown', accElementDiv, 400);
+
+                // Alterar cor icone
+                this.className.includes('act') ? this.classList.remove('act') : this.classList.add('act');
+
+                // Inserindo Dados - Formulario
+                $('.menuMobile .searchMb')[0].append($('.search .iconSearch .inp form')[0]);
+
+                // Inserindo Dados - Menu
+                for (a of $('.menu .optMenu')) {
+                    $('.menuMobile .categMb')[0].append(a)
+                };
+
+                // Anima��o
+                // ANIMA��O CONTEUDO 
+                animationsMenuMobile('fadeInMenu')
+            }
+
+        })
+
+        // Clicks
+        $('.btnDrop').click(function() {
+            if ($('body')[0].className.includes('mobile')) {
+                navigation.push(this.id, this.lastElementChild.id)
+
+                // Inserindo Dados
+                $('.menuMobile .subMnMb').append(this.lastElementChild);
+
+                // ANIMA��O CONTEUDO 
+
+                // Esconder Divs
+                for (dv of $('.menuMobile > div')) {
+                    dv.className.includes('optCl') || dv.className.includes('logoMb') || dv.className.includes('subMnMb') ? {} : dv.style.display = 'none';
+                }
+
+                // Alterando tamanhos
+                $('.menuMobile')[0].style.gridTemplateRows = '0fr 0fr 1fr';
+                /*
+				$('.menuMobile .logoMb img')[0].style.width = '50%';
+                $('.menuMobile .logoMb img')[0].style.maxwidth = '300px';
+				*/
+
+                // Bot�o Voltar Id
+                $('.menuMobile .optCl')[0].classList.add('backActive');
+            }
+        })
+
+        $('.dropdownMenu div.dropOpt').click(function() {
+            if ($('body')[0].className.includes('mobile')) {
+                navigation.push(this.id, this.lastElementChild.id)
+
+                // Inserindo Dados
+                $('.menuMobile .sbSbMenu').append(this.getElementsByClassName('dropdownMenu'));
+                $('.menuMobile .sbSbMenu')[0].style.display = 'block';
+
+                // Esconder SubMenu
+                $('.menuMobile .subMnMb')[0].style.display = 'none';
+                $('.menuMobile .optCl .optBckIcon i')[0].id = 'backSubMenu';
+
+
+                // ANIMA��O CONTEUDO 
+            }
+        })
+
+        // Click Back Menu
+        $('.menuMobile .optCl .optBckIcon i').click(function() {
+            if (this.id == 'backMenu') {
+                $('#' + navigation[0])[0].append($('#' + navigation[1])[0]);
+                for (dv of $('.menuMobile > div')) {
+                    dv.style.display = '';
+                }
+                $('.menuMobile')[0].style.gridTemplateRows = '';
+                $('.menuMobile .logoMb img')[0].style.width = '';
+                $('.menuMobile .optCl')[0].classList.remove('backActive');
+                navigation = []
+            } else if (this.id == 'backSubMenu') {
+                $('#' + navigation[2])[0].append($('#' + navigation[3])[0]);
+                $('.menuMobile .subMnMb')[0].style.display = '';
+                $('.menuMobile .sbSbMenu')[0].style.display = '';
+                navigation = navigation.splice(0, 2);
+                this.id = 'backMenu';
+            }
+        });
+
+        // Click Close Menu
+        $('.menuMobile .optCl .optClIcon i').click(function() {
+            animationsMenuMobile('fadeOutMenu');
+            setTimeout(() => {
+                $('html')[0].style.overflow = '';
+                $('.menuMobile')[0].style.display = 'none';
+                $('.search .iconSearch .inp')[0].append($('.menuMobile .searchMb form')[0])
+                for (a of $('.menuMobile .optMenu')) {
+                    $('.menu')[0].append(a)
+                }
+                $('.menu .iconMenu')[0].classList.remove('act')
+            }, 400)
+        })
+
+        // Click Search
+        var inputElementDiv = $('.search .iconSearch .inp')[0];
+        $('#searchButton').click(function() {
+            if ($('body')[0].className.includes('mobile')) {
+                if (this.parentElement.className.includes('act')) {
+                    this.parentElement.classList.remove('act');
+                    animationsDropDown('fadeOutDown', inputElementDiv, 400);
+                } else {
+                    this.parentElement.classList.add('act');
+                    animationsDropDown('fadeInDown', inputElementDiv, 400)
+                }
+            }
+        })
+
+        // Click Accessibility
+        var accElementDiv = $('.accessibility #accs')[0];
+        $('.accessibility .btnAcc').click(function() {
+            if ($('body')[0].className.includes('mobile')) {
+                if (this.className.includes('act')) {
+                    this.classList.remove('act');
+                    animationsDropDown('fadeOutDown', accElementDiv, 400);
+                } else {
+                    this.classList.add('act');
+                    animationsDropDown('fadeInDown', accElementDiv, 400);
+                }
+            }
+        })
+
+        // Animation DropDown 
+        function animationsDropDown(animation, menu, time) {
+            menu.style.animation = 'fadeInDown ease';
+            menu.style.animationDuration = String(time) + 'ms';
+
+            if (animation == 'fadeInDown') {
+                menu.style.display = 'block';
+                menu.style.animationDirection = 'normal';
+            } else if (animation == 'fadeOutDown') {
+                menu.style.animationDirection = 'reverse';
+                setTimeout(() => {
+                    menu.style.display = 'none'
+                }, time)
+            }
+
+            setTimeout(() => {
+                menu.style.animation = '';
+            }, time)
+        }
+
+        // Animation Menu Mobile
+        function animationsMenuMobile(animation) {
+            var time = 0;
+            var menu = $('.menuMobile')[0];
+            if (animation == 'fadeInMenu') {
+                menu.classList.remove('aos-animate');
+                for (child of menu.children) {
+                    child.classList.remove('aos-animate')
+                }
+
+                setTimeout(() => {
+                    menu.classList.add('aos-animate');
+                    for (child of menu.children) {
+                        child.classList.add('aos-animate')
+                    }
+                }, 100);
+            } else if (animation == 'fadeOutMenu') {
+                menu.classList.remove('aos-animate');
+            } else if (animation == 'fadeInPage') {} else if (animation == 'fadeOutPage') {
+
+            }
+
+
+        }
+
+        window.onresize = function() {
+            mobileHeader()
+        }
+        window.onload = function() {
+            mobileHeader()
+        }
+    </script>
+
+    <!--</header>-->
+
+    <div class="contentDv">
+		<div class="ifrs hidden">
+			<div id="prvwInsta">
+				<a class="topInst" target="_blank" href="https://www.instagram.com/prefeiturajaciara/" title="Instagram">
+					<div class="logo">
+						<img class="url-img" src="https://www.jaciara.mt.gov.br/images/insta_logo.png" alt="Logo Instagram PMJ">
+					</div>
+					<div class="tt d-flex flex-column justify-content-center ms-2">
+						<div class="title">@prefeiturajaciara
+							<img class="url-img verified ms-2" src="https://www.jaciara.mt.gov.br/images/verified.svg" alt="verificado"></img>
+						</div>
+						<div class="subtitle">Prefeitura de Jaciara</div>
+					</div>
+				</a>
+				<div class="content"></div>
+				<div class="bottomInst">
+					<a href="https://www.instagram.com/prefeiturajaciara/" target="_blank" title="Instagram">
+						Ver mais
+					</a>
+				</div>
+
+			</div>
+
+			<div id="prvwFace">
+				<div class="ifrDv">
+					
+					<a class="topInst" target="_blank" href="https://www.facebook.com/prefeiturajaciara" title="Facebook">
+						<div class="logo">
+							<img class="url-img img-responsive" src="https://www.jaciara.mt.gov.br/images/chamada-facebook.png" alt="Logo Facebook PMJ">
+						</div>
+					</a>
+					
+				</div>
+				<div class="btnMore">
+					<a href="https://www.facebook.com/prefeiturajaciara" data-aos="fade-up" target="_blank" title="Youtube">Ver mais</a>
+				</div>
+			</div>
+					<div id="prvwYout">
+				<div class="ifrDv">
+					
+					<a class="topInst" target="_blank" href="https://www.youtube.com/watch?v=J8w6j15pKm0" title="Youtube">
+						<div class="logo">
+							<img class="url-img img-responsive" src="https://www.jaciara.mt.gov.br/images/chamada-youtube.png" alt="Logo Youtube PMJ">
+						</div>
+						<div class="tt d-flex flex-column justify-content-center ms-2">
+							<div class="subtitle">Prefeitura de Jaciara</div>
+						</div>
+					</a>
+									</div>
+				<div class="btnMore">
+					<a href="https://www.youtube.com/PrefeituradeJaciara" data-aos="fade-up" target="_blank" title="Youtube">Ver mais</a>
+				</div>
+			</div>
+		</div>	
+
+
+
+
+	
+	
+
+<section class="sctn py-md-5" id="ondeEstou" style="border-bottom: none; padding-top: 10px !important; padding-bottom: 25px !important;">
+    <div class="container-fluid" style="padding: 0; font-size:11px; text-transform:uppercase; font-weight:600;">
+		Voc� est� em: <a href="https://www.jaciara.mt.gov.br/">In�cio</a>
+          		</div>
+</section>
+
+	
+    
+    
+
+	<div style="min-height:500px; ">
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<div class="section">
+			<div class="container-fluid"><div class="row">
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" style="padding-top:10px;">
+										<button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close" style="position: relative;min-height: 32px !important;min-width: 32px !important;padding: 0 !important;background: #F2f2f2;border-radius: 100%;margin-right: 20px;margin-top: 10px; cursor: pointer; float: right;">
+												<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="15.000000pt" height="15.000000pt" viewBox="0 0 1280.000000 1280.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#666666" stroke="none"><path d="M1545 12784 c-85 -19 -167 -51 -243 -95 -69 -41 -1089 -1049 -1157 -1144 -101 -141 -140 -263 -140 -440 0 -169 36 -293 125 -427 29 -43 705 -726 2149 -2170 l2106 -2108 -2111 -2112 c-1356 -1358 -2124 -2133 -2147 -2169 -88 -137 -121 -249 -121 -419 -1 -181 37 -302 139 -445 68 -95 1088 -1103 1157 -1144 273 -159 604 -143 853 42 22 17 986 976 2143 2131 l2102 2101 2103 -2101 c1156 -1155 2120 -2114 2142 -2131 69 -51 130 -82 224 -113 208 -70 431 -44 629 71 69 41 1089 1049 1157 1144 101 141 140 263 140 440 0 166 -36 290 -121 422 -25 39 -746 767 -2148 2171 l-2111 2112 2107 2108 c2207 2208 2162 2161 2219 2303 75 187 77 392 4 572 -53 132 -74 157 -615 700 -289 291 -552 548 -585 572 -141 101 -263 140 -440 140 -166 0 -289 -35 -420 -120 -41 -26 -724 -702 -2172 -2149 l-2113 -2111 -2112 2111 c-1454 1452 -2132 2123 -2173 2150 -64 41 -149 78 -230 101 -79 22 -258 26 -340 7z"/></g></svg>
+					</button>	
+					<br />
+											<div class="modal-dialog modal-sm"  style="min-width: 30% !important; " align="center">
+							<div class="modal-content"  style="max-width:97% !important; margin-bottom: 10px;"> 
+								<div class="modal-body" align="center" style="padding: 0.2rem !important; border-radius: 0.8rem;">
+																			<a id="click351"  href="https://www.jaciara.mt.gov.br/noticia/30/4472/Inscricoes-para-a-17-Temporada-dos-Esportes-Radicais-comecam-a-ser-liberadas-em-Jaciara/" target="_self" ><img src="anuncio/a325c13c646db838b2264dd2966d7ee7.jpeg" max-width="1280" width="100%" height="auto" title="17� TEMPORADA DE ESPORTES RADICAIS" border="0" style="border-radius: 1rem;"></a>												<script type="text/javascript">
+													$("#click351").click(function(){
+													$.ajax({
+													url: "cont_pub_anuncios.php?codigo=351",})
+													});
+												</script>
+																				</div>      
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- fim da popup -->
+
+
+<!-- noticias + destaques -->
+<section class="sctn py-md-5" id="home">
+    <div class="container-fluid d-lg-flex justify-content-between gap-5 flex-column flex-lg-row">
+		<div class="ntcDv">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-aos="fade-down">
+                <ol class="carousel-indicators">
+                                            <li data-target="#carousel-example-generic" data-slide-to="0"  class="active"></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="2" ></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="3" ></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="4" ></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="5" ></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="6" ></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="7" ></li>
+                                    </ol>
+
+                <div class="carousel-inner">
+										
+					
+					<div class="item active">
+						<a href="https://www.jaciara.mt.gov.br/noticia/60/4480/Jaciara-segue-com-programacao-da-17-Temporada-de-Esportes-Radicais/" title="Jaciara segue com programa��o da 17� Temporada de Esportes Radicais"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4480.jpg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/60/4480/Jaciara-segue-com-programacao-da-17-Temporada-de-Esportes-Radicais/" class="link-banner-topo" title="Jaciara segue com programa��o da 17� Temporada de Esportes Radicais">
+									ESPORTE E AVENTURA							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/60/4480/Jaciara-segue-com-programacao-da-17-Temporada-de-Esportes-Radicais/" class="link-banner-topo" title="Jaciara segue com programa��o da 17� Temporada de Esportes Radicais">
+									Jaciara segue com programa��o da 17� Temporada de Esportes Radicais								</a>
+							</h2>
+						</div>
+					</div>
+                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/54/4479/Milhares-de-pessoas-celebram-a-17-Temporada-de-Esportes-Radicais-em-quatro-noites-de-shows/" title="Milhares de pessoas celebram a 17� Temporada de Esportes Radicais em quatro noites de shows"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4479.jpeg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/54/4479/Milhares-de-pessoas-celebram-a-17-Temporada-de-Esportes-Radicais-em-quatro-noites-de-shows/" class="link-banner-topo" title="Milhares de pessoas celebram a 17� Temporada de Esportes Radicais em quatro noites de shows">
+									JACIARA VIBROU							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/54/4479/Milhares-de-pessoas-celebram-a-17-Temporada-de-Esportes-Radicais-em-quatro-noites-de-shows/" class="link-banner-topo" title="Milhares de pessoas celebram a 17� Temporada de Esportes Radicais em quatro noites de shows">
+									Milhares de pessoas celebram a 17� Temporada de Esportes Radicais em quatro noites de shows								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/32/4477/NOTA-DE-ESCLARECIMENTO/" title="NOTA DE ESCLARECIMENTO"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4477.jpg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/32/4477/NOTA-DE-ESCLARECIMENTO/" class="link-banner-topo" title="NOTA DE ESCLARECIMENTO">
+									SA�DE							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/32/4477/NOTA-DE-ESCLARECIMENTO/" class="link-banner-topo" title="NOTA DE ESCLARECIMENTO">
+									NOTA DE ESCLARECIMENTO								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/56/4475/IPTU-Premiado-2026-entrega-moto-zero-Km-a-contribuinte-de-Jaciara/" title="IPTU Premiado 2026 entrega moto zero Km � contribuinte de Jaciara"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4475.jpeg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/56/4475/IPTU-Premiado-2026-entrega-moto-zero-Km-a-contribuinte-de-Jaciara/" class="link-banner-topo" title="IPTU Premiado 2026 entrega moto zero Km � contribuinte de Jaciara">
+									IPTU PREMIADO 2026							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/56/4475/IPTU-Premiado-2026-entrega-moto-zero-Km-a-contribuinte-de-Jaciara/" class="link-banner-topo" title="IPTU Premiado 2026 entrega moto zero Km � contribuinte de Jaciara">
+									IPTU Premiado 2026 entrega moto zero Km � contribuinte de Jaciara								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/54/4474/17-Temporada-dos-Esportes-Radicais-prepara-noites-de-festa-com-shows-gratuitos-para-todos-os-gostos/" title="17� Temporada dos Esportes Radicais prepara noites de festa com shows gratuitos para todos os gostos"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4474.jpg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/54/4474/17-Temporada-dos-Esportes-Radicais-prepara-noites-de-festa-com-shows-gratuitos-para-todos-os-gostos/" class="link-banner-topo" title="17� Temporada dos Esportes Radicais prepara noites de festa com shows gratuitos para todos os gostos">
+									M�SICA E ENTRETENIMENTO							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/54/4474/17-Temporada-dos-Esportes-Radicais-prepara-noites-de-festa-com-shows-gratuitos-para-todos-os-gostos/" class="link-banner-topo" title="17� Temporada dos Esportes Radicais prepara noites de festa com shows gratuitos para todos os gostos">
+									17� Temporada dos Esportes Radicais prepara noites de festa com shows gratuitos para todos os gostos								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/30/4473/Aventura-que-vai-alem-do-esporte-e-transforma-diversao-em-solidariedade/" title="Aventura que vai al�m do esporte e transforma divers�o em solidariedade"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4473.jpeg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/30/4473/Aventura-que-vai-alem-do-esporte-e-transforma-diversao-em-solidariedade/" class="link-banner-topo" title="Aventura que vai al�m do esporte e transforma divers�o em solidariedade">
+									ESPORTES RADICAIS 2026							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/30/4473/Aventura-que-vai-alem-do-esporte-e-transforma-diversao-em-solidariedade/" class="link-banner-topo" title="Aventura que vai al�m do esporte e transforma divers�o em solidariedade">
+									Aventura que vai al�m do esporte e transforma divers�o em solidariedade								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/30/4472/Novas-modalidades-estao-com-inscricoes-abertas-para-a-17-Temporada-dos-Esportes-Radicais-de-Jaciara/" title="Novas modalidades est�o com inscri��es abertas para a 17� Temporada dos Esportes Radicais de Jaciara"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4472.jpg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/30/4472/Novas-modalidades-estao-com-inscricoes-abertas-para-a-17-Temporada-dos-Esportes-Radicais-de-Jaciara/" class="link-banner-topo" title="Novas modalidades est�o com inscri��es abertas para a 17� Temporada dos Esportes Radicais de Jaciara">
+									VAGAS ABERTAS							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/30/4472/Novas-modalidades-estao-com-inscricoes-abertas-para-a-17-Temporada-dos-Esportes-Radicais-de-Jaciara/" class="link-banner-topo" title="Novas modalidades est�o com inscri��es abertas para a 17� Temporada dos Esportes Radicais de Jaciara">
+									Novas modalidades est�o com inscri��es abertas para a 17� Temporada dos Esportes Radicais de Jaciara								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+					<div class="item">
+						<a href="https://www.jaciara.mt.gov.br/noticia/30/4471/Mais-de-20-modalidades-movimentam-Jaciara-na-17-Temporada-de-Esportes-Radicais/" title="Mais de 20 modalidades movimentam Jaciara na 17� Temporada de Esportes Radicais"><img src="https://www.jaciara.mt.gov.br/gd3.php?larg=735&alt=380&foto=imgs_noticias/4471.jpeg" alt=""/></a>
+						<div class="carousel-caption">
+														<h3>
+								<a href="https://www.jaciara.mt.gov.br/noticia/30/4471/Mais-de-20-modalidades-movimentam-Jaciara-na-17-Temporada-de-Esportes-Radicais/" class="link-banner-topo" title="Mais de 20 modalidades movimentam Jaciara na 17� Temporada de Esportes Radicais">
+									TERRA DA AVENTURA							
+								</a>
+							</h3>
+							<h2>
+								<a href="https://www.jaciara.mt.gov.br/noticia/30/4471/Mais-de-20-modalidades-movimentam-Jaciara-na-17-Temporada-de-Esportes-Radicais/" class="link-banner-topo" title="Mais de 20 modalidades movimentam Jaciara na 17� Temporada de Esportes Radicais">
+									Mais de 20 modalidades movimentam Jaciara na 17� Temporada de Esportes Radicais								</a>
+							</h2>
+						</div>
+					</div>                                            
+					                                            
+                                            
+                                            
+                                            
+                                    </div>
+
+                <button class="left carousel-control" href="#carousel-example-generic" data-slide="prev" style="border: none;" aria-label="Anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="right carousel-control" href="#carousel-example-generic" data-slide="next" style="border: none;" aria-label="Pr�xima">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="allNoti" data-aos="fade-up">
+                <h1></h1><h2></h2><h3></h3>
+				<h4 class="text-right">
+                    <a href="https://www.jaciara.mt.gov.br/Ultimas-Noticias/Todas/" title="�ltimas Not�cias">Todas as not�cias</a>                </h4>
+            </div>
+        </div>
+
+		<div class="dtqsSctn">
+            <div class="ttDtqsDv" align="right">
+				<div class="btn btn-blue" style="min-height: 0px !important; cursor: default;">
+            		<h4 class="ttCatSctn" data-aos="fade-right" style="padding: 5px 0 1px ;">UPFM 2026: R$ 7,69</h4>
+				</div>
+            </div>
+            <div class="dtqsDVT gap-4 d-flex flex-lg-column">
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <a href="./conhecajaciara/" class="dtqs" id="dtq1" target="_blank" title="Portal Turismo">
+                        <div class="iconDv">
+                            <div class="sdwBk"></div>
+                            <div class="icon">
+                                <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-turismo.png" alt="Icone Turismo">
+                            </div>
+                        </div>
+                        <div class="txtDv">
+                            <h4 class="tt">Conhe�a Jaciara</h4>
+                            <h5 class="sbtt">CAT, Pontos Tur�sticos, Turismo de Aventura, Hoteis, Pousadas, Guias e Condutores</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                        <div class="dtqsDV gap-4 d-flex flex-lg-column" style="gap: 1rem !important;">
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <a href="https://www.jaciara.mt.gov.br/transparencia/" class="dtqs" id="dtq1" target="_blank" title="Portal Transpar�ncia">
+                        <div class="iconDv">
+                            <div class="sdwBk"></div>
+                            <div class="icon">
+                                <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-por.png" alt="Icone Transpar�ncia">
+                            </div>
+                        </div>
+                        <div class="txtDv">
+                            <h4 class="tt">Portal da Transpar�ncia</h4>
+                            <h5 class="sbtt">Receitas, Despesas, Publica��es, Sa�de e Educa��o P�blica</h5>
+                        </div>
+                    </a>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://www.jaciara.mt.gov.br/transparencia/ouvidoria/" class="dtqs" id="dtq2" target="_blank" title="e-SIC/Ouvidoria">
+                        <div class="iconDv">
+                            <div class="sdwBk"></div>
+                            <div class="icon">
+                                <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-esic.png" alt="Icone e-SIC/Ouvidoria">
+                            </div>
+                        </div>
+                        <div class="txtDv">
+                            <h4 class="tt">e-SIC | Ouvidoria</h4>
+                            <h5 class="sbtt">Den�ncias, Reclama��es, Pedido de Informa��es, Elogios, Solicita��es e Sugest�es</h5>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://www.jaciara.mt.gov.br/transparencia/ouvidoriasus/" class="dtqs" id="dtq3" target="_blank" title="Ouvidoria SUS">
+                        <div class="iconDv">
+                            <div class="sdwBk"></div>
+                            <div class="icon">
+                                <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-ouvidoriaSUS.png" alt="Icone Ouvidoria SUS">
+                            </div>
+                        </div>
+                        <div class="txtDv">
+                            <h4 class="tt">Ouvidoria SUS | Sa�de</h4>
+                            <h5 class="sbtt">Den�ncias, Reclama��es, Pedido de Informa��es, Elogios, Solicita��es e Sugest�es</h5>
+                        </div>
+                    </a>
+                </div>
+
+				
+			</div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var noticias = $('.carousel-inner .item > a');
+        for (c = 0; c < noticias.length; c++) {
+            var bgNoti = document.createElement('div');
+            bgNoti.className = 'bgNotiDiv';
+            bgNoti.innerHTML = '<div class="bgNoti"></div>';
+
+            noticias[c].append(bgNoti);
+        }
+    </script>
+</section>
+
+<!-- servicos -->
+<section class="sctn" id="servicos">
+    <div class="container-fluid">
+        <div class="ttDv pt-5">
+            <h4 class="ttCatSctn" data-aos="fade-right">Servi�os</h4>
+            <h3 class="ttSctn" data-aos="fade-right" data-aos-delay="200">Veja alguns dos nossos servi�os</h3>
+        </div>
+
+        <div class="categDv">
+            <div class="txt">
+                <h4 data-aos="fade-up">Categorias:</h4>
+            </div>
+            <div class="optsDv">
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <div class="opt active" id="ctCid">
+                        <div class="iconOpt">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="ttOpt">
+                            <h5>Cidad�o</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <div class="opt" id="ctSer">
+                        <div class="iconOpt">
+                            <i class="fa-solid fa-address-card"></i>
+                        </div>
+                        <div class="ttOpt">
+                            <h5>Servidor</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <div class="opt" id="ctEmp">
+                        <div class="iconOpt">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div class="ttOpt">
+                            <h5>Empresa</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="servDv">
+            <div class="txt">
+                <h4 data-aos="fade-up">Principais servi�os:</h4>
+            </div>
+
+            <div class="optsDv" id="opts" style="display: flex;"></div>
+
+            <div class="allServ">
+                <h4 class="text-right" data-aos="fade-up">
+                    <a class="url-link" href="https://www.jaciara.mt.gov.br/todos-servicos/">Todos os servi�os</a>
+                </h4>
+            </div>
+
+
+        </div>
+        <script type="text/javascript">
+            function createCardServico(link, icon, title, time) {
+                return `
+                    <div class="aos-init" data-aos="fade-up" data-aos-delay="${time}">
+                        <a class="opt" href="${link}" title="${title}" target="_blank">
+                            <div class="iconOpt">
+                                <div class="sdwBk"></div>
+                                <div class="icon">
+                                    <img class="url-img" src="https://www.jaciara.mt.gov.br/images/${icon}" alt="Icone ${title}">
+                                </div>
+                            </div>
+                            <div class="ttOpt">
+                                <h4>${title}</h4>
+                            </div>
+                        </a>
+                    </div>
+                `
+            }
+
+            var ServicosHome = {}
+
+            async function getData() {
+                try {
+                    const response = await fetch('./data/servicos_v1.1.12.json?date=20260304');
+                    servicos = await response.json();
+
+                    ServicosHome.Cidadao = servicos.Cidadao.filter((servico) => servico.positionHomePage != false).sort((a, b) => (a.positionHomePage < b.positionHomePage ? -1 : a.positionHomePage > b.positionHomePage ? 1 : 0)).slice(0, 7);
+                    ServicosHome.Servidor = servicos.Servidor.filter((servico) => servico.positionHomePage != false).sort((a, b) => (a.positionHomePage < b.positionHomePage ? -1 : a.positionHomePage > b.positionHomePage ? 1 : 0)).slice(0, 7);
+                    ServicosHome.Empresa = servicos.Empresa.filter((servico) => servico.positionHomePage != false).sort((a, b) => (a.positionHomePage < b.positionHomePage ? -1 : a.positionHomePage > b.positionHomePage ? 1 : 0)).slice(0, 7);
+
+                    for (servico of ServicosHome.Cidadao) {
+                        $('#opts')[0].innerHTML += createCardServico(servico.link, servico.icon, servico.title, servico.positionHomePage * 100);
+                    }
+                } catch (error) {};
+            }
+
+            getData();
+
+            var botoes = ['#ctCid', '#ctSer', '#ctEmp'];
+            var opcoes = $('.servDv .optsDv .opt');
+
+            function alterCards(numCat, servCat) {
+                for (btn of botoes) {
+                    btn == botoes[numCat] ? $(btn).addClass('active') : $(btn).removeClass('active')
+                };
+
+                for (s of $('#opts > div')) {
+                    s.classList.remove('aos-animate')
+                };
+
+                setTimeout(() => {
+                    $('#opts')[0].innerHTML = '';
+
+                    for (servico of ServicosHome[servCat]) {
+                        $('#opts')[0].innerHTML += createCardServico(servico.link, servico.icon, servico.title, servico.positionHomePage * 100);
+                    }
+                }, 400);
+				
+            }
+
+
+            $('#ctCid').click(function() {
+                !this.className.includes('active') ? alterCards(0, "Cidadao") : {}
+				/*
+				setTimeout(() => {
+					$("a.opt[title='Nota Fiscal Eletr�nica<br/>ISS On-line']").click(function(event) {
+						event.preventDefault();
+						$('#nota-fiscal-modal').modal('show');
+					});
+				}, 400);
+				*/
+			});
+
+            $('#ctSer').click(function() {
+                !this.className.includes('active') ? alterCards(1, "Servidor") : {}
+            });
+
+            $('#ctEmp').click(function() {
+        		!this.className.includes('active') ? alterCards(2, "Empresa") : {}
+				/*
+				setTimeout(() => {
+					$("a.opt[title='Nota Fiscal Eletr�nica<br/>ISS On-line']").click(function(event) {
+						event.preventDefault();
+						$('#nota-fiscal-modal').modal('show');
+					});
+				}, 400);
+				*/
+
+				/*
+				!this.className.includes('active') ? alterCards(2, "Empresa") : {};
+                setTimeout(() => {
+                    $("a.opt[title='Nota Fiscal Eletr�nica<br/>ISS On-line']").click(function(event) {
+                        event.preventDefault();
+                        $('#nota-fiscal-modal').modal('show');
+                    });
+                }, 400);
+				*/			
+			});
+			
+			
+			/*
+				setTimeout(() => {
+					$("a.opt[title='Nota Fiscal Eletr�nica<br/>ISS On-line']").click(function(event) {
+						event.preventDefault();
+						$('#nota-fiscal-modal').modal('show');
+					});
+				}, 400);
+				*/
+
+			
+		</script>
+	</div>
+</section>
+
+	
+	<link media="screen" rel="stylesheet" href="colorbox/colorbox.css?date=2021-02-17" />
+	<script src="colorbox/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".group1").colorbox({rel:'group1', maxWidth:"100%", maxHeight:"100%",});
+			$(".group2").colorbox({rel:'group2', transition:"fade"});
+			$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+			$(".group4").colorbox({rel:'group4', transition:"none", maxWidth:"1024", maxHeight:"680", slideshow:true});
+			$(".ajax").colorbox();
+			$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+			$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: Colorbox est� prestes a abrir.'); },
+				onLoad:function(){ alert('onLoad: ColorBox come�ou a carregar o conte�do.'); },
+				onComplete:function(){ alert('onComplete: ColorBox exibindo o conte�do carregado.'); },
+				onCleanup:function(){ alert('onCleanup: ColorBox iniciou o processo de fechamento.'); },
+				onClosed:function(){ alert('onClosed: ColorBox fechado'); }
+			});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Abra esta janela novamente e esta mensagem ainda estar� aqui.");
+				return false;
+			});
+		});
+	</script>
+
+
+	
+<!-- Galeria de V�deos -->
+<section class="sctn" id="videos" style="padding-bottom: 25px;">
+    <div class="container-fluid">
+        <div class="ttDv pt-5">
+			<h3 class="ttSctn" data-aos="fade-right" data-aos-delay="200"style="color: #FFF;">TV Prefeitura</h3>
+        </div>
+
+		
+		
+        <div class="servDv">
+			<div class="row">
+
+					<style>
+					.absolute {
+						position: absolute;
+					}					
+					.justify-center {
+						justify-content: center;
+					}
+										.flex {
+						display: flex;
+					}
+
+								.items-center {
+						align-items: center
+					}
+				</style>				
+    				<div class=" col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+					<a href="https://www.youtube.com/embed/i7EzVAr5dYA" class="img-responsive" data-toggle="lightbox" data-gallery="youtubevideos">
+                		<div class="flex justify-center items-center img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://img.youtube.com/vi/i7EzVAr5dYA/sddefault.jpg" data-src="https://img.youtube.com/vi/i7EzVAr5dYA/sddefault.jpg" alt="AUDI�NCIA P�BLICA - PRESTA��O DE CONTAS 1� QUADRIMESTRE 2026 - 13/08/2026" itemprop="image">
+							<img alt="Play" loading="lazy" class="absolute scale-75" src="images/player.svg">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px; color:#FFFFFF;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/CalendarBlank.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">13 de Agosto de 2026</p>
+							</h5>
+							<h4 class="text-capitalize" style="text-transform: none !important; ">
+								AUDI�NCIA P�BLICA - PRESTA��O DE CONTAS 1� QUADRIMESTRE 2026 - 13/08/2026							</h4>
+													</div>
+					</a>
+				</div>
+					<div class=" col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+					<a href="https://www.youtube.com/embed/3jdnCQAPmdw" class="img-responsive" data-toggle="lightbox" data-gallery="youtubevideos">
+                		<div class="flex justify-center items-center img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://img.youtube.com/vi/3jdnCQAPmdw/sddefault.jpg" data-src="https://img.youtube.com/vi/3jdnCQAPmdw/sddefault.jpg" alt="AUDI�NCIA P�BLICA - PRESTA��O DE CONTAS 3� QUADRIMESTRE 2025 - 14/05/2026" itemprop="image">
+							<img alt="Play" loading="lazy" class="absolute scale-75" src="images/player.svg">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px; color:#FFFFFF;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/CalendarBlank.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">14 de Maio de 2026</p>
+							</h5>
+							<h4 class="text-capitalize" style="text-transform: none !important; ">
+								AUDI�NCIA P�BLICA - PRESTA��O DE CONTAS 3� QUADRIMESTRE 2025 - 14/05/2026							</h4>
+													</div>
+					</a>
+				</div>
+					<div class="hidden-xs  col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+					<a href="https://www.youtube.com/embed/EAiJCPF70Ts" class="img-responsive" data-toggle="lightbox" data-gallery="youtubevideos">
+                		<div class="flex justify-center items-center img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://img.youtube.com/vi/EAiJCPF70Ts/sddefault.jpg" data-src="https://img.youtube.com/vi/EAiJCPF70Ts/sddefault.jpg" alt="AUDI�NCIA P�BLICA - ELABORA��O DA LOA, LDO E PPA 2026 - 12/12/2025" itemprop="image">
+							<img alt="Play" loading="lazy" class="absolute scale-75" src="images/player.svg">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px; color:#FFFFFF;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/CalendarBlank.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">12 de Dezembro de 2025</p>
+							</h5>
+							<h4 class="text-capitalize" style="text-transform: none !important; ">
+								AUDI�NCIA P�BLICA - ELABORA��O DA LOA, LDO E PPA 2026 - 12/12/2025							</h4>
+													</div>
+					</a>
+				</div>
+	
+			</div>
+            <div class="allServ">
+                <h4 class="text-right" data-aos="fade-up">
+                    <a class="url-link" style="color: #FFFFFF;" href="videos/">Todas os V�deos</a>
+                </h4>
+            </div>
+        </div>
+	</div>
+</section>
+	
+	
+	
+<!-- Galeria de Fotos -->
+<section class="sctn" id="fotos">
+    <div class="container-fluid">
+        <div class="ttDv pt-5">
+            <h3 class="ttSctn" data-aos="fade-right" data-aos-delay="200">Galeria de Fotos</h3>
+        </div>
+
+		
+		
+        <div class="servDv">
+            			
+					
+			
+			<div class="row">
+				
+          						<div class=" col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+              		<a href="galerias/1/634/SHOW-BANDA-MALTA---ESPORTES-RADICAS-/" title="SHOW BANDA MALTA - ESPORTES RADICAS " style="text-decoration:none;">
+            		<div class="hoverzoom">
+                		<div class="img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=" data-src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=" alt="CENTRO DE EVENTOS  | FOTOS: GIDIANE PAIX�O DRONE: VITOR FICHIO" itemprop="image">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/calendar.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">11 de Setembro de 2026</p>
+							</h5>
+							<h4 class="text-capitalize">
+								SHOW BANDA MALTA - ESPORTES RADICAS 							</h4>
+							<p class="text-capitalize">
+															</p>
+						</div>
+              		</div>
+				  	</a>
+          		</div>
+          						<div class=" col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+              		<a href="galerias/1/633/SHOW-NACIONAL-NATANZINHO-LIMA/" title="SHOW NACIONAL NATANZINHO LIMA" style="text-decoration:none;">
+            		<div class="hoverzoom">
+                		<div class="img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=" data-src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=" alt="CENTRO DE EVENTOS | DRONE: VITOR FICHIO/ MATHEUS HENRIQUE" itemprop="image">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/calendar.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">10 de Setembro de 2026</p>
+							</h5>
+							<h4 class="text-capitalize">
+								SHOW NACIONAL NATANZINHO LIMA							</h4>
+							<p class="text-capitalize">
+															</p>
+						</div>
+              		</div>
+				  	</a>
+          		</div>
+          						<div class=" col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+              		<a href="galerias/1/632/SKATE---ESPORTES-RADICAIS/" title="SKATE - ESPORTES RADICAIS" style="text-decoration:none;">
+            		<div class="hoverzoom">
+                		<div class="img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=imgs_coberturas/563/f73c1088788a92adda2919b958815f45a.jpg" data-src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=imgs_coberturas/563/f73c1088788a92adda2919b958815f45a.jpg" alt="GINASIO MUNICIPAL | FOTOS: GIDIANE PAIX�O" itemprop="image">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/calendar.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">16 de Setembro de 2026</p>
+							</h5>
+							<h4 class="text-capitalize">
+								SKATE - ESPORTES RADICAIS							</h4>
+							<p class="text-capitalize">
+															</p>
+						</div>
+              		</div>
+				  	</a>
+          		</div>
+          						<div class="hidden-lg hidden-md hidden-sm  col-xs-12 col-sm-6 col-md-4 mb-4 mb-sm-5 secretaria-opts secretaria-servicos secretaria-card-img">
+              		<a href="galerias/1/631/CARROS-ANTIGOS---ESPORTES-RADICAIS/" title="CARROS ANTIGOS - ESPORTES RADICAIS" style="text-decoration:none;">
+            		<div class="hoverzoom">
+                		<div class="img-video-capa">
+							<img class="img-responsive" data-compensa-altura="1" src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=imgs_coberturas/562/f02bea8a2d4f800783762eb67ee937c12.jpeg" data-src="https://www.jaciara.mt.gov.br/gd3.php?larg=720&alt=400&foto=imgs_coberturas/562/f02bea8a2d4f800783762eb67ee937c12.jpeg" alt="ESTACIONAMENTO CENTRO DE EVENTOS | FOTOS: GIDIANE PAIX�O DRONE: MATHEUS HENRIQUE" itemprop="image">
+						</div>
+						<div class="caption" style="padding: 5px 0 3px;">
+                			<h1></h1><h2></h2><h3></h3><h4></h4>
+							<h5 class="d-flex text-align-center">
+								<img class="url-img" src="images/calendar.svg" width="15px" alt="Icone de Calendario">
+								<p class="mb-0 ms-2 mt-2 mb-2">13 de Setembro de 2026</p>
+							</h5>
+							<h4 class="text-capitalize">
+								CARROS ANTIGOS - ESPORTES RADICAIS							</h4>
+							<p class="text-capitalize">
+															</p>
+						</div>
+              		</div>
+				  	</a>
+          		</div>
+          		                    
+          
+        </div>
+            <div class="allServ">
+                <h4 class="text-right" data-aos="fade-up">
+                    <a class="url-link" href="fotos/1/">Todas as Galerias</a>
+                </h4>
+            </div>
+
+
+        </div>
+
+	</div>
+</section>
+
+
+<!-- divulgacao -->
+<section class="sctn" id="banners">
+    <div class="container-fluid d-flex">
+        <div class="ctr ctr-left d-flex align-items-center">
+            <i class="fa-solid fa-chevron-left" title="Anterior"></i>
+        </div>
+		        <div class="flDv" id="app">
+            <div class="imgCell">
+                <img class="url-img" src="https://www.jaciara.mt.gov.br/images/seligaJaciara.png" alt="Imagem App" data-aos="fade-up">
+            </div>
+
+            <div class="ttDv">
+                <div class="">
+                    <h3 class="ttSctn" data-aos="fade-up">
+                        Baixe app <span>SE LIGA JACIARA</span> e mantenha-se conectado com Jaciara
+                    </h3>
+                    <h4 data-aos="fade-up" data-aos-delay="200">
+                        Fa�a o download do aplicativo para uma intera��o ainda mais completa com a Prefeitura de Jaciara. Tenha acesso a informa��es, orienta��es e servi�os em um �nico lugar, de maneira intuitiva, r�pida e simples.
+                    </h4>
+
+                    <div class="lks">
+                        <a class="btn" style="text-align: right;" href="https://play.google.com/store/apps/details?id=br.com.app.gpu1660550.gpua8df18659d49651c80d40efa5260f4b2"><img class="url-img" src="https://www.jaciara.mt.gov.br/images/bt-google-play.png" alt="Imagem Google Play" data-aos="fade-up" data-aos-delay="400"></a><a class="btn" style="text-align: left;" href="https://itunes.apple.com/br/app/se-liga-jaciara/id6448675127"><img class="url-img" src="https://www.jaciara.mt.gov.br/images/bt-app-store.png" alt="Imagem App Store" data-aos="fade-up" data-aos-delay="400"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ctr ctr-right d-flex align-items-center">
+            <i class="fa-solid fa-chevron-right" title="Pr�ximo"></i>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- sobre Jaciara -->
+<section class="sctn" id="sobreJACIARA">
+    <div class="container-fluid">
+        <div class="ttDv pt-5">
+            <h4 class="ttCatSctn" data-aos="fade-right">Sobre Jaciara</h4>
+            <h3 class="ttSctn" data-aos="fade-right" data-aos-delay="200">Conhe�a Jaciara</h3>
+        </div>
+
+
+        <div class="sbrDv">
+            <div class="sbr" id="sbr0" data-aos="fade-up" data-aos-delay="0">
+                <div class="image">
+                    <div class="bgImg" data-aos="fade-up" data-aos-delay="0"></div>
+                    <div class="frtDv">
+                        <div class="frt">
+                            <div class="ctrll">
+                                <div class="controlSbr ctrLeft" data-aos="fade-up" data-aos-delay="600">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                            </div>
+
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/cachoeira-fumaca.jpg" alt="Imagem Convento" data-aos="fade-up" data-aos-delay="200" style="max-width: 100%;">
+
+                            <div class="ctrll">
+                                <div class="controlSbr ctrRight" data-aos="fade-up" data-aos-delay="600">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="txtSbr" data-aos="fade-up" data-aos-delay="200">
+                    <h2 data-aos="fade-up" data-aos-delay="200"></h2>
+
+                    <hr data-aos="fade-up" data-aos-delay="300" />
+
+                    <span data-aos="fade-up" data-aos-delay="400">
+                        Seja bem-vindo � Jaciara, a Capital dos Esportes Radicais, que preserva a sua hist�ria e se prepara para o futuro a cada dia. Fundada no dia 20 de dezembro de 1958 pela Lei Estadual n� 1.188, de 20 de dezembro de 1958 de autoria do Deputado Estadual Manoel J. Arruda, desmembrando dos munic�pios de Cuiab� e Poxor�o. Os vest�gios mais antigos existentes no Munic�pio, s�o as pinturas rupestres localizadas no vale das perdidas, que comprovam a exist�ncia de homens pr�-hist�ricos, por meio de artes pintadas em paredes de pedras e cavernas, como forma de comunica��o as quais retratam cenas do cotidiano.<br/><br/>A cidade oferece lindas cachoeiras, boa gastronomia, atividades de ecoturismo, turismo de aventura e rural, que juntos oferecem v�rias op��es para turistas e visitantes. Sedia os principais atrativos tur�sticos de Mato Grosso como os Esportes Radicais, Festival Gastron�mico, pinturas rupestres, entre outros.
+                    </span>
+
+                    <a href="conhecajaciara/" data-aos="fade-up" data-aos-delay="500" target="_blank">
+                        <i class="fa-solid fa-plus"></i>
+                        Visite o Portal Turismo
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+	</div>
+</section>
+
+<section class="sctn">
+    <div class="container-fluid">
+        <div class="ttDv pt-5">
+            <h3 class="ttSctn" data-aos="fade-right" data-aos-delay="200">Painel de Licita��es</h3>
+        </div>
+
+	<div class="servDv">
+		
+		
+        <div class="panels">
+
+
+        <!--PAINEL LICITA��ES-->
+        
+	<div class="licitacoes col-md-12 col-xs-12 col-sm-12" style="padding-bottom:20px;">
+        <div class="row">
+          <ul class="licitacoes-list row" style="margin:0;padding:0;border:0;font:inherit;font-weight:400;vertical-align:baseline;list-style:none;">
+            <li class="col-lg-2 col-md-4 col-xs-6 col-sm-4">
+              <div class="wrap">
+                <h3 class="number">
+                  87                </h3>
+                <p>Ades�o Realizada</p>
+                <a href="https://www.jaciara.mt.gov.br/transparencia/licitacao-e-contrato/ADESAO-REALIZADA/" target="_blank" title="Ades�o Realizada"></a> </div>
+            </li>
+            <li class="col-lg-2 col-md-4 col-xs-6 col-sm-4">
+              <div class="wrap">
+                <h3 class="number">
+                  244                </h3>
+                <p>Preg�o Eletr�nico</p>
+                <a href="https://www.jaciara.mt.gov.br/transparencia/licitacao-e-contrato/PREGAO-ELETRONICO/" target="_blank" title="Preg�o Eletr�nico"></a> </div>
+            </li>
+            <li class="col-lg-2 col-md-4 col-xs-6 col-sm-4">
+              <div class="wrap">
+                <h3 class="number">
+                  29                </h3>
+                <p>Concorr�ncia P�blica</p>
+                <a href="https://www.jaciara.mt.gov.br/transparencia/licitacao-e-contrato/CONCORRENCIA/" target="_blank" title="Concorr�ncia"></a> </div>
+            </li>
+            <li class="col-lg-2 col-md-4 col-xs-6 col-sm-4">
+              <div class="wrap">
+                <h3 class="number">
+                  100                </h3>
+                <p>Tomada de Pre�os</p>
+                <a href="https://www.jaciara.mt.gov.br/transparencia/licitacao-e-contrato/TOMADA-DE-PRECOS/" target="_blank" title="Tomada de Pre�os"></a> </div>
+            </li>
+            <li class="col-lg-2 col-md-4 col-xs-6 col-sm-4">
+              <div class="wrap">
+                <h3 class="number">
+                  2450                </h3>
+                <p>Ata de Registro de Pre�o</p>
+                <a href="itransparencia/licitacao-e-contrato/ATA-DE-REGISTRO-DE-PRECOS/" target="_blank" title="ATA de Registro de Pre�o"></a> </div>
+            </li>
+            <li class="col-lg-2 col-md-4 col-xs-6 col-sm-4">
+              <div class="wrap">
+                <h3 class="number">
+                  26                </h3>
+                <p>Chamamento P�blico</p>
+                <a href="https://www.jaciara.mt.gov.br/transparencia/licitacao-e-contrato/CHAMADA-PUBLICA/" target="_blank" title="Chamada P�blica"></a></div>
+            </li>
+          </ul>
+        </div>
+        </div>			
+			  
+			
+
+        <!-- /.licitacoes --> 
+      </div>
+	</div>
+    </div>	
+</section>
+	
+<!-- redes sociais -->
+
+<section class="sctn" id="rdSociais">
+    <div class="container-fluid">
+        <div class="ttDv py-5 ">
+            <h3 class="ttSctn" data-aos="fade-right">
+                Acompanhe a Prefeitura em <span>nossas redes sociais</span>
+            </h3>
+        </div>
+        <script></script>
+        <div class="rdsDv">
+            <div class="rdsOpt">
+                <!-- Instagram -->
+                <a data-aos="fade-right" data-aos-delay="100" class="db d-md-none" href="https://www.instagram.com/prefeiturajaciara/" target="_blank" title="@prefeiturajaciara">
+                    <div class="cdRd active">
+                        <div class="iconRd">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-rd-instagram.png" alt="Icone Instagram">
+                        </div>
+                        <div class="txtRd">
+                            @prefeiturajaciara
+                        </div>
+                    </div>
+                </a>
+                <div data-aos="fade-right" data-aos-delay="100" class="d-none d-md-block">
+                    <div class="cdRd active" id="instagram" for="prvwInsta">
+                        <div class="iconRd">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-rd-instagram.png" alt="Icone Instagram">
+                        </div>
+                        <div class="txtRd">
+                            <span>@prefeiturajaciara</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facebook -->
+                <a data-aos="fade-right" data-aos-delay="100" class="db d-md-none" href="https://www.facebook.com/prefeiturajaciara/" target="_blank" title="@prefeiturajaciara">
+                    <div class="cdRd">
+                        <div class="iconRd">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-rd-facebook.png" alt="Icone Facebook">
+                        </div>
+                        <div class="txtRd">
+                            <span>@prefeiturajaciara</span>
+                        </div>
+                    </div>
+                </a>
+                <div data-aos="fade-right" data-aos-delay="200" class="d-none d-md-block">
+                    <div class="cdRd" id="facebook" for="prvwFace">
+                        <div class="iconRd">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-rd-facebook.png" alt="Icone Facebook">
+                        </div>
+                        <div class="txtRd">
+                            <span>@prefeiturajaciara</span>
+                        </div>
+                    </div>
+                </div>
+
+				
+                <!-- Youtube link desktop -->
+                <a data-aos="fade-right" data-aos-delay="400" class="db d-md-none" href="https://www.youtube.com/@PrefeituradeJaciara" target="_blank" title="@PrefeituradeJaciara">
+                    <div class="cdRd">
+                        <div class="iconRd">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-rd-youtube.png" alt="Icone Youtube">
+                        </div>
+                        <div class="txtRd">
+                            <span>@PrefeituradeJaciara</span>
+                        </div>
+                    </div>
+                </a>
+                <div data-aos="fade-right" data-aos-delay="400" class="d-none d-md-block">
+                    <div class="cdRd" id="youtube" for="prvwYout">
+                        <div class="iconRd">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/icon-rd-youtube.png" alt="Icone Youtube">
+                        </div>
+                        <div class="txtRd">
+                            <span>@PrefeituradeJaciara</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview" data-aos="fade-down">
+            </div>
+
+            <script type="text/javascript">
+                // const isMobile = isMobile();
+
+                $('.preview')[0].append($('.ifrs > div')[0])
+
+                $('.cdRd').click(function() {
+
+                    // if(){
+
+                    // }else {
+                    if (!this.className.includes('active')) {
+                        for (y of $('.cdRd')) {
+                            y.classList.remove('active');
+                        }
+                        this.classList.add('active');
+
+                        $('.preview')[0].classList.remove('aos-animate');
+
+                        let rdId = this.getAttribute('for')
+                        setTimeout(function() {
+                            for (x of $('.preview > div')) {
+                                $('.ifrs')[0].append(x);
+                            }
+                            for (key of $('.ifrs > div')) {
+                                key.id == rdId ? $('.preview')[0].append(key) : {};
+                            }
+                            $('.preview')[0].classList.add('aos-animate')
+                        }, 500)
+                    }
+                    //  }
+
+                })
+            </script>
+
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    $(document).ready(() => {
+        $('#novo-telefone-modal').modal('show');
+    }); 
+</script>  
+
+  <script>
+  $(document).ready(function(){
+    $('#myModal').modal('show')
+  });
+  </script>
+</div>
+	</div>
+		
+
+    </div>
+
+    <footer class="hidden-print">
+        <div class="footer-top">
+            <div class="d-flex d-lg-none justify-content-center my-3">
+                <a href="https://www.jaciara.mt.gov.br/mapa-do-site/">
+                    <button class="btn btn-light btn-first-light d-flex justify-content-center align-items-center gap-3" aria-label="Mapa do Site"><i class="fa-solid fa-sitemap"></i> Mapa do Site</button>
+                </a>
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="col-12 col-md-3 col-lg-3 lg">
+                        <a href="#" class="logofooter" target="_blank">
+                            <img class="url-img" src="https://www.jaciara.mt.gov.br/images/logo-prefeitura-2021-ok.png" alt="Logo PMJ" height="70"  />
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-9 col-lg-9 footer-info">
+                        <div class="ftInfo">
+                            <span>Prefeitura Municipal de Jaciara</span>
+                            <span>
+                                Aberto das 07h00 �s 13h00
+                            </span>
+                            <a href="tel:66 98109-1234">
+                                (66) 98109-1234
+                            </a>
+                        </div>
+
+                        <div class="ftInfo">
+							Av. Ant�nio Ferreira Sobrinho, 1075<br />Centro, Jaciara-MT<br />CEP:
+							78.820-000
+                        </div>
+
+                        <a class="d-none d-lg-block" href="https://www.jaciara.mt.gov.br/mapa-do-site/">
+                            <button class="btn btn-light btn-first-light d-flex justify-content-center align-items-center gap-3" aria-label="Mapa do Site"><i class="fa-solid fa-sitemap"></i> Mapa do Site</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="" align="center">
+                    <a href="https://www.jaciara.mt.gov.br/politica-de-privacidade.html" style="color: #FFFFFF; font-size: 11px; margin-right: 15px;">Pol�tica de Privacidade</a> | 
+                    <a href="https://www.jaciara.mt.gov.br/politica-de-cookies.html" style="color: #FFFFFF; font-size: 11px; margin-left: 15px;">Pol�tica de Cookies</a>
+                </div>
+                <div class="dvFlx">
+					<span>&copy; 2024 Prefeitura Municipal de Jaciara - Mato Grosso</span>
+                    <div class="rd-sociais">
+                        <a href="https://www.facebook.com/prefeiturajaciara" target="_blank" title="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/prefeiturajaciara/" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+						                        <a href="https://www.youtube.com/PrefeituradeJaciara" target="_blank" title="Youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+        $(".search").addClass("order-2");
+        $(".accessibility").addClass("order-3");
+
+        if (window.innerWidth > 992) {
+            $(".logo").addClass("order-0");
+            $(".menu").addClass("order-1");
+        }
+
+        if (window.innerWidth <= 992) {
+            $(".logo").addClass("order-1");
+            $(".menu").addClass("order-0");
+        }
+
+        $(window).on('resize', function() {
+            if (window.innerWidth > 992) {
+                if ($(".logo").hasClass("order-0") && $(".menu").hasClass("order-1")) {
+                    return;
+                } else {
+                    $(".logo").addClass("order-0").removeClass("order-1");
+                    $(".menu").addClass("order-1").removeClass("order-0");
+                }
+            }
+
+            if (window.innerWidth <= 992) {
+                if ($(".logo").hasClass("order-1") && $(".menu").hasClass("order-0")) {
+                    return;
+                } else {
+                    $(".logo").addClass("order-1").removeClass("order-0");
+                    $(".menu").addClass("order-0").removeClass("order-1");
+                }
+            }
+        });
+
+        jQuery(document).ready(function($) {
+            $('#carousel-example-generic').on('slid.bs.carousel', function() {
+                $holder = $("ol li.active");
+                $holder.removeClass('active');
+                var idx = $('div.active').index('div.item');
+                $('ol.carousel-indicators li[data-slide-to="' + idx + '"]').addClass('active');
+            });
+
+
+            $('ol.carousel-indicators  li').on("click", function() {
+                $('ol.carousel-indicators li.active').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script src="js/index.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/383ad947bd.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,900"/>
+	<link rel="stylesheet" type="text/css" href="https://www.jaciara.mt.gov.br/css/font-awesome.min.css"/>
+
+	
+		
+</body>
+
+</html>

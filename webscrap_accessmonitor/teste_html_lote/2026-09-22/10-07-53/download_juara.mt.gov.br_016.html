@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-language" content="pt-br" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Prefeitura de Juara" />
+    <meta name="description" content="Site Oficial da Prefeitura de Juara" />
+
+    <link rel="shortcut icon" href="/imgs/default/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="shortcut icon" href="/imgs/default/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="search" href="/public/search.xml" type="application/opensearchdescription+xml"
+        title="Prefeitura de Juara" />
+
+    <title>
+        Juara - MT
+    </title>
+
+    
+        <script type="text/javascript">
+            (function(c, l, a, r, i, t, y) {
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t = l.createElement(r);
+                t.async = 1;
+                t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "e93qc6a17t");
+        </script>
+    
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=3.0.4&ck=85aded984d32e6df43893124b5aff573' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=3.0.4&ck=85aded984d32e6df43893124b5aff573' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_popper.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_bootstrap.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_icheck.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.accessibility.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/jquery.lazy.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/audio.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/jquery.cookies.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=3.0.4&ck=85aded984d32e6df43893124b5aff573'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=3.0.4&ck=85aded984d32e6df43893124b5aff573'></script>
+
+
+</head>
+<body>
+    <div id="p5fw-accessibility-buttons">
+    <div id="p5fw-a-menu" title="Acessibilidade" class="d-none d-md-block">
+                    <i class="mdi mdi-human"></i>
+                </div>
+    <div id="p5fw-a-menus">
+        <div class="p5fw-a-menus-title">Acessibilidade</div>
+        <div class="p-a-b-m-menu" id="p5fw-a-increase">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-format-font-size-increase"></i>
+            </div>
+            <div>
+                Fonte Maior
+                <div class="p-a-b-m-m-fonts">
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-3"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-6"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-9"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-a-b-m-menu" id="p5fw-a-contrast">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-contrast-circle"></i>
+            </div>
+            <div>
+                Contrastes
+                <div class="p-a-b-m-m-contrasts">
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-2"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-3"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-4"></div>
+                </div>
+            </div>
+        </div>
+        <a href="/#/mapa">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-map"></i>
+                </div>
+                <div>
+                    Mapa do Site
+                </div>
+            </div>
+        </a>
+        <a href="http://www.vlibras.com.br/#baixar" target="_blank">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-hand-right"></i>
+                </div>
+                <div>
+                    Libras
+                </div>
+            </div>
+        </a>
+        
+        <div class="p-a-b-m-menu" id="p5fw-a-reset">
+            Redefinir
+        </div>
+    </div>
+</div>
+
+            <div id="p5fw-accessibility">
+        <div id="overlay" class="sticky"></div>
+
+<div id="menu-mobile" class="sidenav">
+    <a href="javascript:;" class="menu-mobile-closebtn">&times;</a>
+
+        <a class="nav-link" href="/#/home"  >Início</a>
+            <a class="nav-link" submenu="submenu-1"  >A Prefeitura</a>
+        <div class="n-l-submenu" id="submenu-1">
+                <a class="nav-link" href="/#/conteudo/15">Lei Adir Blanc</a>
+                <a class="nav-link" href="https://www.museudovaledoarinos.org.br/">Museu</a>
+                <a class="nav-link" href="/#/cae">CAE</a>
+                <a class="nav-link" href="http://www.agendadatacenter.com.br/portaljuara/Login/Login.aspx">Segurado</a>
+                <a class="nav-link" href="https://agiliblue.agilicloud.com.br/nfse">Eletrônica</a>
+                <a class="nav-link" href="http://consultatransparencia.com.br/juaranovo">Prev-juara</a>
+                <a class="nav-link" href="/#/transparencia/finder/MTI1MA==">COVID-19</a>
+                <a class="nav-link" href="https://juara.es1.srv.br/contadigital">Digital</a>
+                <a class="nav-link" href="https://juara.servicos.pentagono.info/">Serviços</a>
+                <a class="nav-link" href=" https://juara.1doc.com.br/b.php?pg=o/central_servicos&amp;tab=categoria&amp;filter=01KCPAWWVRR92W44WC68286B8E">Engenharia </a>
+                <a class="nav-link" href="https://agiliblue.agilicloud.com.br/portal/prefjuara-mt/#/guiasIptu">IPTU</a>
+                <a class="nav-link" href="http://agiliblue.agilicloud.com.br/portal/prefjuara-mt/#/alvara">Funcionamento</a>
+                <a class="nav-link" href="/#/medicamentos">Medicamentos</a>
+                <a class="nav-link" href="https://juara.1doc.com.br/atendimento">Ambiental </a>
+                <a class="nav-link" href="http://agiliblue.agilicloud.com.br/portal/prefjuara-mt/#/">Portal do Cidadão</a>
+                <a class="nav-link" href="https://juara.redetransparencia.com.br/">Portal Transparência</a>
+                <a class="nav-link" href="https://radardatransparencia.atricon.org.br">Radar da Transparência Pública</a>
+                <a class="nav-link" href="/#/page/lei-geral-de-protecao-de-dados---lgpd">LGPD</a>
+                <a class="nav-link" href="https://prefjuara.ouvidoriabr.com/#/home">Ouvidoria | SIC</a>
+            </div>
+            <a class="nav-link" submenu="submenu-2"  >Município</a>
+        <div class="n-l-submenu" id="submenu-2">
+                <a class="nav-link" href="/#/conteudo/8">Prefeito</a>
+                <a class="nav-link" href="/#/conteudo/10">Símbolos e Hinos</a>
+                <a class="nav-link" href="/#/conteudo/11">História de Juara</a>
+                <a class="nav-link" href="/#/conteudo/12">Economia</a>
+                <a class="nav-link" href="/#/conteudo/13">Turismo</a>
+                <a class="nav-link" href="/#/conteudo/14">Telefones úteis</a>
+                <a class="nav-link" href="/#/conteudo/16">Demografia</a>
+                <a class="nav-link" href="/#/conteudo/17">Vice-Prefeito</a>
+                <a class="nav-link" href="/#/secretarias/home">Equipe de Governo</a>
+            </div>
+            <a class="nav-link" submenu="submenu-3"  >Consultas</a>
+        <div class="n-l-submenu" id="submenu-3">
+                <a class="nav-link" href="/#/transparencia/publicacoes/">Todas</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/205/audiencias-publicas">Audiências Públicas</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/93/balancetes-mensais">Balancetes Mensais</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/94/balanco-anual">Balanço Anual</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1478/banco-de-sangue">Banco de Sangue</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1416/centro-de-atendimento-empresarial-(cae)">Centro De Atendimento Empresarial (CAE)</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1283/concessoes-publicas">Concessões Públicas</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/123/concursos-publicos">Concursos Públicos</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/545/conselhos">Conselhos</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1252/contas-de-gestao-">Contas de Gestão </a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1218/contas-publicas">Contas Públicas</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/111/contratos-e-aditivos">Contratos e Aditivos</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1389/convenios-e-transferencias">Convênios e Transferências</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1250/covid19">Covid19</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1392/diarias">Diárias</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1385/divida-ativa">Divida Ativa</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/230/documentos-das-secretarias">Documentos das Secretarias</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/157/documentos-diversos">Documentos Diversos</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1382/emendas-parlamentares">Emendas Parlamentares</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/115/gestao-de-pessoas">Gestão de Pessoas</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1264/historia-do-municipio">História do Município</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1435/instrucao-normativa">Instrução Normativa</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1466/jari">JARI</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1286/lei-aldir-blanc">Lei Aldir Blanc</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1400/lei-paulo-gustavo">Lei Paulo Gustavo</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/99/licitacao">Licitação</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1228/obras-publicas">Obras Públicas</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1404/parceria-publico-privada(ppp)">Parceria Público-Privada(PPP)</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1266/pecas-de-planejamento">Peças de Planejamento</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1274/planos-municipais">Planos Municipais</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1299/portal-do-servidor">Portal do Servidor</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1203/portarias">Portarias</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/124/processo-seletivo">Processo Seletivo</a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1403/relatorio-de-atividades-">Relatório de Atividades </a>
+                <a class="nav-link" href="/#/transparencia/publicacoes/1391/renuncia-de-receita">Renúncia de Receita</a>
+            </div>
+            <a class="nav-link" submenu="submenu-4"  >Licitações</a>
+        <div class="n-l-submenu" id="submenu-4">
+                <a class="nav-link" href="/#/transparencia/publicacoes/99/licitacao">Licitações</a>
+                <a class="nav-link" href="/#/transparencia/licitacaoaovivo">Licitação Ao Vivo</a>
+            </div>
+            <a class="nav-link" submenu="submenu-5"  >Secretarias</a>
+        <div class="n-l-submenu" id="submenu-5">
+                <a class="nav-link" href="/#/secretaria/1/">Secretaria Municipal de Administração</a>
+                <a class="nav-link" href="/#/secretaria/3/">Secretaria Municipal de Saúde</a>
+                <a class="nav-link" href="/#/secretaria/4/">Secretaria Municipal de Agronegócio</a>
+                <a class="nav-link" href="/#/secretaria/5/">Secretaria Municipal de Educação</a>
+                <a class="nav-link" href="/#/secretaria/6/">Secretaria Municipal de Finanças</a>
+                <a class="nav-link" href="/#/secretaria/9/">Secretaria Municipal do Esporte, Lazer e da Juventude </a>
+                <a class="nav-link" href="/#/secretaria/11/">Secretaria Municipal de Desenvolvimento Econômico</a>
+                <a class="nav-link" href="/#/secretaria/12/">Gabinete do Prefeito Municipal</a>
+                <a class="nav-link" href="/#/secretaria/15/">Controladoria Geral do Municipio</a>
+                <a class="nav-link" href="/#/secretaria/16/">Secretaria Municipal de Assistência Social e Trabalho </a>
+                <a class="nav-link" href="/#/secretaria/18/">Procuradoria Geral do Município</a>
+                <a class="nav-link" href="/#/secretaria/19/">Secretaria Municipal de Transportes</a>
+                <a class="nav-link" href="/#/secretaria/20/">Secretaria Municipal da Cidade</a>
+            </div>
+            <a class="nav-link" submenu="submenu-6"  >Imprensa</a>
+        <div class="n-l-submenu" id="submenu-6">
+                <a class="nav-link" href="/#/imprensa/noticias">Notícias</a>
+                <a class="nav-link" href="/#/imprensa/videos">Vídeos</a>
+                <a class="nav-link" href="/#/imprensa/albuns">Álbuns</a>
+                <a class="nav-link" href="/#/imprensa/informes">Informes e notas</a>
+                <a class="nav-link" href="/#/imprensa/clipping">Clipping</a>
+                <a class="nav-link" href="/#/page/1">Identidade Visual</a>
+            </div>
+            <a class="nav-link" href="https://leismunicipais.com.br/prefeitura/mt/juara"  >Legislação</a>
+            <a class="nav-link" href="http://prefjuara.ouvidoriabr.com"  >Contato</a>
+        </div>
+
+<div id="search-mobile" class="sidenav">
+    <a href="javascript:;" class="menu-mobile-closebtn closebtn-search">&times;</a>
+    <input type="text" id="search-mobile-input" placeholder="Digite aqui sua pesquisa">
+    <div class="search-mobile-result">
+
+    </div>
+</div>
+
+
+<div class="navbar-mobile row">
+    <div class="col-12 navbar-mobile-brand-line">
+        <div class="btn menu-mobile-btn" aria-label="Abrir menu"><i class="mdi mdi-menu"></i></div>
+        <div class="navbar-mobile-brand-group">
+            <a href="/#/home" class="navbar-mobile-brand" aria-label="Prefeitura de Juara">
+                <img class="n-m-logo" src="/imgs/default/logo.png" alt="Prefeitura de Juara">
+            </a>
+            <img class="n-m-logo n-m-certificado" src="/imgs/default/certificado-ouro.png" alt="Certificado Ouro">
+        </div>
+        <div class="btn menu-mobile-btn-search" aria-label="Abrir pesquisa"><i class="mdi mdi-magnify"></i></div>
+    </div>
+    <div class="col-12 navbar-mobile-social-line">
+        <span class="navbar-mobile-social-title">Acompanhe a Prefeitura</span>
+        <div class="navbar-mobile-social">
+            <a href="https://www.facebook.com/prefeituradejuara" target="_blank" rel="noopener" class="navbar-mobile-social-link" aria-label="Facebook da Prefeitura de Juara">
+                <i class="mdi mdi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/prefeituradejuara/" target="_blank" rel="noopener" class="navbar-mobile-social-link" aria-label="Instagram da Prefeitura de Juara">
+                <i class="mdi mdi-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@prefeiturajuara4467" target="_blank" rel="noopener" class="navbar-mobile-social-link" aria-label="YouTube da Prefeitura de Juara">
+                <i class="mdi mdi-youtube"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid no-padding-container header d-none d-md-block">
+    <div class="container-fluid h-topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 h-t-links">
+                <a href="https://juara.mt.gov.br/#/transparencia/finder/MTI5OQ==" target="_blank" rel="noopener">
+                    <div class="h-t-link h-t-l-portal">
+                        <i class="mdi mdi-account"></i> Portal do servidor
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 text-center h-t-atendimento">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="h-t-a-title">Atendimento ao público: </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="h-t-a-title">Telefone: </div>
+                    </div>
+                    <div class="col-md-8">
+                        Segunda à sexta | 07:00 às 11:00 e das 13h às 17h
+                    </div>
+                    <div class="col-md-4">
+                        (66) 3556-5577
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-right h-t-search">
+                <input type="text" class="h-t-s-input" id="search" placeholder="Pesquise no Site">
+                <!-- <div class="h-t-s-btn" id="search-btn">
+                    <i class="mdi mdi-magnify"></i>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="h-main">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="h-m-brand">
+                        <a href="/#/home" class="h-m-logo-link" aria-label="Prefeitura de Juara">
+                            <img class="h-m-logo" src="/imgs/default/logo_new.png" alt="Prefeitura de Juara">
+                        </a>
+                        <img class="h-m-logo h-m-certificado" src="/imgs/default/certificado-ouro.png" alt="Certificado Ouro">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-m-social">
+                        <span class="h-m-social-title">Acompanhe a Prefeitura</span>
+                        <div class="h-m-social-links">
+                            <a href="https://www.facebook.com/prefeituradejuara" target="_blank" rel="noopener" class="h-m-social-link h-m-social-facebook" aria-label="Facebook da Prefeitura de Juara">
+                                <i class="mdi mdi-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/prefeituradejuara/" target="_blank" rel="noopener" class="h-m-social-link h-m-social-instagram" aria-label="Instagram da Prefeitura de Juara">
+                                <i class="mdi mdi-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.youtube.com/@prefeiturajuara4467" target="_blank" rel="noopener" class="h-m-social-link h-m-social-youtube" aria-label="YouTube da Prefeitura de Juara">
+                                <i class="mdi mdi-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid menu">
+        <div class="hidden-xs d-none d-md-block" id='menu-md'>
+    <div class="container">
+        <div class="menu-items">
+            <a href="/#/home" class="menu-logo menu-item">
+                <img src="/imgs/default/logo_wide.svg" alt="" loading="lazy">
+            </a>
+                                                                        <a class="menu-item" href='/#/home'  >
+                            <span class='mdi ' style='font-size: 16px'></span> Início
+                        </a>
+                    
+                                                                                    
+                                            <div class='menu-item sm' >
+                            A Prefeitura <span class='mdi mdi-chevron-down'></span>
+                            <div class='submenu' style='left: 0px'>
+                                                                                                            <a href='/#/conteudo/15' >
+                                            <div class='submenu-item'><span class='mdi '></span> Lei Adir Blanc</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://www.museudovaledoarinos.org.br/'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Museu</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/cae'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> CAE</div>
+                                        </a>
+                                                                                                                                                                                    <a href='http://www.agendadatacenter.com.br/portaljuara/Login/Login.aspx'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Segurado</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://agiliblue.agilicloud.com.br/nfse'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Eletrônica</div>
+                                        </a>
+                                                                                                                                                                                    <a href='http://consultatransparencia.com.br/juaranovo'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Prev-juara</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/finder/MTI1MA=='  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> COVID-19</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://juara.es1.srv.br/contadigital'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Digital</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://juara.servicos.pentagono.info/'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Serviços</div>
+                                        </a>
+                                                                                                                                                                                    <a href=' https://juara.1doc.com.br/b.php?pg=o/central_servicos&amp;tab=categoria&amp;filter=01KCPAWWVRR92W44WC68286B8E'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Engenharia </div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://agiliblue.agilicloud.com.br/portal/prefjuara-mt/#/guiasIptu'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> IPTU</div>
+                                        </a>
+                                                                                                                                                                                    <a href='http://agiliblue.agilicloud.com.br/portal/prefjuara-mt/#/alvara'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Funcionamento</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/medicamentos'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Medicamentos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://juara.1doc.com.br/atendimento'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Ambiental </div>
+                                        </a>
+                                                                                                                                                                                    <a href='http://agiliblue.agilicloud.com.br/portal/prefjuara-mt/#/'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Portal do Cidadão</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://juara.redetransparencia.com.br/'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Portal Transparência</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://radardatransparencia.atricon.org.br'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Radar da Transparência Pública</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/page/lei-geral-de-protecao-de-dados---lgpd'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> LGPD</div>
+                                        </a>
+                                                                                                                                                                                    <a href='https://prefjuara.ouvidoriabr.com/#/home'  target="_blank" >
+                                            <div class='submenu-item'><span class='mdi '></span> Ouvidoria | SIC</div>
+                                        </a>
+                                                                                                                                    </div>
+                        </div>
+                                                                                    
+                                            <div class='menu-item sm' >
+                            Município <span class='mdi mdi-chevron-down'></span>
+                            <div class='submenu' style='left: 0px'>
+                                                                                                            <a href='/#/conteudo/8' >
+                                            <div class='submenu-item'><span class='mdi '></span> Prefeito</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/10' >
+                                            <div class='submenu-item'><span class='mdi '></span> Símbolos e Hinos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/11' >
+                                            <div class='submenu-item'><span class='mdi '></span> História de Juara</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/12' >
+                                            <div class='submenu-item'><span class='mdi '></span> Economia</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/13' >
+                                            <div class='submenu-item'><span class='mdi '></span> Turismo</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/14' >
+                                            <div class='submenu-item'><span class='mdi '></span> Telefones úteis</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/16' >
+                                            <div class='submenu-item'><span class='mdi '></span> Demografia</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/conteudo/17' >
+                                            <div class='submenu-item'><span class='mdi '></span> Vice-Prefeito</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretarias/home' >
+                                            <div class='submenu-item'><span class='mdi '></span> Equipe de Governo</div>
+                                        </a>
+                                                                                                                                    </div>
+                        </div>
+                                                                                    
+                                            <div class='menu-item sm' >
+                            Consultas <span class='mdi mdi-chevron-down'></span>
+                            <div class='submenu' style='left: 0px'>
+                                                                                                            <a href='/#/transparencia/publicacoes/' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Todas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/205/audiencias-publicas' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Audiências Públicas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/93/balancetes-mensais' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Balancetes Mensais</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/94/balanco-anual' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Balanço Anual</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1478/banco-de-sangue' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Banco de Sangue</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1416/centro-de-atendimento-empresarial-(cae)' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Centro De Atendimento Empresarial (CAE)</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1283/concessoes-publicas' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Concessões Públicas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/123/concursos-publicos' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Concursos Públicos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/545/conselhos' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Conselhos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1252/contas-de-gestao-' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Contas de Gestão </div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1218/contas-publicas' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Contas Públicas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/111/contratos-e-aditivos' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Contratos e Aditivos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1389/convenios-e-transferencias' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Convênios e Transferências</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1250/covid19' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Covid19</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1392/diarias' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Diárias</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1385/divida-ativa' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Divida Ativa</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/230/documentos-das-secretarias' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Documentos das Secretarias</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/157/documentos-diversos' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Documentos Diversos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1382/emendas-parlamentares' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Emendas Parlamentares</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/115/gestao-de-pessoas' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Gestão de Pessoas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1264/historia-do-municipio' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> História do Município</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1435/instrucao-normativa' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Instrução Normativa</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1466/jari' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> JARI</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1286/lei-aldir-blanc' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Lei Aldir Blanc</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1400/lei-paulo-gustavo' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Lei Paulo Gustavo</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/99/licitacao' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Licitação</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1228/obras-publicas' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Obras Públicas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1404/parceria-publico-privada(ppp)' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Parceria Público-Privada(PPP)</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1266/pecas-de-planejamento' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Peças de Planejamento</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1274/planos-municipais' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Planos Municipais</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1299/portal-do-servidor' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Portal do Servidor</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1203/portarias' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Portarias</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/124/processo-seletivo' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Processo Seletivo</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1403/relatorio-de-atividades-' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Relatório de Atividades </div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/publicacoes/1391/renuncia-de-receita' >
+                                            <div class='submenu-item'><span class='mdi fa-angle-double-right'></span> Renúncia de Receita</div>
+                                        </a>
+                                                                                                                                    </div>
+                        </div>
+                                                                                    
+                                            <div class='menu-item sm' >
+                            Licitações <span class='mdi mdi-chevron-down'></span>
+                            <div class='submenu' style='left: 0px'>
+                                                                                                            <a href='/#/transparencia/publicacoes/99/licitacao' >
+                                            <div class='submenu-item'><span class='mdi '></span> Licitações</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/transparencia/licitacaoaovivo' >
+                                            <div class='submenu-item'><span class='mdi '></span> Licitação Ao Vivo</div>
+                                        </a>
+                                                                                                                                    </div>
+                        </div>
+                                                                                    
+                                            <div class='menu-item sm' >
+                            Secretarias <span class='mdi mdi-chevron-down'></span>
+                            <div class='submenu' style='left: 0px'>
+                                                                                                            <a href='/#/secretaria/1/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Administração</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/3/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Saúde</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/4/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Agronegócio</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/5/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Educação</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/6/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Finanças</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/9/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal do Esporte, Lazer e da Juventude </div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/11/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Desenvolvimento Econômico</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/12/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Gabinete do Prefeito Municipal</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/15/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Controladoria Geral do Municipio</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/16/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Assistência Social e Trabalho </div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/18/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Procuradoria Geral do Município</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/19/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal de Transportes</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/secretaria/20/' >
+                                            <div class='submenu-item'><span class='mdi '></span> Secretaria Municipal da Cidade</div>
+                                        </a>
+                                                                                                                                    </div>
+                        </div>
+                                                                                    
+                                            <div class='menu-item sm' >
+                            Imprensa <span class='mdi mdi-chevron-down'></span>
+                            <div class='submenu' style='left: 0px'>
+                                                                                                            <a href='/#/imprensa/noticias' >
+                                            <div class='submenu-item'><span class='mdi '></span> Notícias</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/imprensa/videos' >
+                                            <div class='submenu-item'><span class='mdi '></span> Vídeos</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/imprensa/albuns' >
+                                            <div class='submenu-item'><span class='mdi '></span> Álbuns</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/imprensa/informes' >
+                                            <div class='submenu-item'><span class='mdi '></span> Informes e notas</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/imprensa/clipping' >
+                                            <div class='submenu-item'><span class='mdi '></span> Clipping</div>
+                                        </a>
+                                                                                                                                                                                    <a href='/#/page/1' >
+                                            <div class='submenu-item'><span class='mdi '></span> Identidade Visual</div>
+                                        </a>
+                                                                                                                                    </div>
+                        </div>
+                                                                                                            <a class="menu-item" href='https://leismunicipais.com.br/prefeitura/mt/juara'  target="_blank"  >
+                            <span class='mdi ' style='font-size: 16px'></span> Legislação
+                        </a>
+                    
+                                                                                                            <a class="menu-item" href='http://prefjuara.ouvidoriabr.com'  target="_blank"  >
+                            <span class='mdi ' style='font-size: 16px'></span> Contato
+                        </a>
+                    
+                                                            <div class="menu-scrolled-icons text-right">
+                <a href="https://juara.redetransparencia.com.br/" class="menu-item" title="Portal Transparência" target="_blank">
+                    <i class="mdi mdi-file-search-outline"></i>
+                </a>
+                <a href="https://transparencia.atricon.org.br/" class="menu-item" title="Radar da Transparência Pública" target="_blank">
+                    <i class="mdi mdi-file-search-outline"></i>
+                </a>
+                <a href="https://prefjuara.ouvidoriabr.com/#/home" target="_blank" class="menu-item" title="SIC">
+                    <i class="mdi mdi-information-outline"></i>
+                </a>
+                <a href="https://prefjuara.ouvidoriabr.com/#/home" target="_blank" class="menu-item"
+                    title="Ouvidoria Municipal">
+                    <i class="mdi mdi-phone-outline"></i>
+                </a>
+                <a href="#" class="menu-item" title="Pesquisar no site" id='scrolled-search'>
+                    <i class="mdi mdi-magnify"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>    </div>
+
+    </div>
+
+<lgpd-agreement color='#009440' link='/#/page/politica-de-cookies' linkText='Politica de Cookies'></lgpd-agreement>
+
+        <div id='content' class='content-loading'></div>
+
+        <div class="container-fluid footer hidden-print">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="row">
+                    <div class="col-12 f-title">
+                        <img src="/imgs/default/logo_new2.png" width="50%" loading="lazy" alt="">
+                    </div>
+                    <div class="col-12">
+                        <div class="f-info-top"><i class="mdi mdi-clock-outline"></i> Atendimento:</div>
+                        <div class="f-info-bottom">Segunda à sexta<br /> 07:00 às 11:00 e das 13h às 17h</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="f-info-top"><i class="mdi mdi-map-marker-circle"></i> Endereço:</div>
+                        <div class="f-info-bottom">Rua Niterói, N° 81-N</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="f-info-top"><i class="mdi mdi-phone-outline"></i> Telefone:</div>
+                        <div class="f-info-bottom">(66) 3556-5577</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="f-info-top"><i class="mdi mdi-at"></i> Email:</div>
+                        <div class="f-info-bottom">gabinete@juara.mt.gov.br</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="f-info-top"><i class="mdi mdi-format-list-bulleted"></i> CNPJ:</div>
+                        <div class="f-info-bottom">15.072.663/0001-99</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="row">
+                    <div class="col-12 f-title">
+                        Links rápidos
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                                                                                                <a href="/#/home" class="col-12 mb-2 text-white">Início</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="https://leismunicipais.com.br/prefeitura/mt/juara" class="col-12 mb-2 text-white">Legislação</a>
+                                                                                                                                <a href="http://prefjuara.ouvidoriabr.com" class="col-12 mb-2 text-white">Contato</a>
+                                                                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="row">
+                    <div class="col-12 f-title">
+                        Onde estamos
+                    </div>
+                    <div class="col-12">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.1162229803667!2d-57.51318468467669!3d-11.252859891999332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93af716d8a1aa001%3A0x1991614e65e763d6!2sPrefeitura%20Municipal%20de%20Juara!5e0!3m2!1spt-BR!2sbr!4v1582900186025!5m2!1spt-BR!2sbr"
+                            width="420" height="225" frameborder="0" style="border:0;" class="f-map"
+                            allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-rights">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-12 f-r-left">
+                Prefeitura Municipal de Juara - todos os direitos reservados©
+            </div>
+            <div class="col-md-4 col-12 f-r-center">
+                <a href="/#/page/politica-de-privacidade">Política de privacidade</a> |
+                <a href="/#/page/politica-de-cookies">Política de cookies</a>
+            </div>
+            <div class="col-md-3 col-12 f-r-right">
+                DESENVOLVIDO POR <a href="http://pentagono.info" target="_blank">PENTÁGONO SISTEMAS</a>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>

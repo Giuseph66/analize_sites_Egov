@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefeitura Municipal de Rondolândia</title>
+    <!-- Brasão -->
+    <link rel="shortcut icon" href="https://rondolandia.mt.gov.br/site/img/Logos/Brasao.png">
+    <!-- Vendor's -->
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/glightbox/css/glightbox.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/nprogress/nprogress.css">
+
+            <link rel="stylesheet" href="https://rondolandia.mt.gov.br/site/vendor/aos/aos.css">
+        <!-- Style -->
+    <link id="theme-style" rel="stylesheet" href="https://rondolandia.mt.gov.br/site/css/style.css">
+</head>
+
+<body>
+
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+  <div class="container d-flex justify-content-between">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-chat"></i> <a href="https://rondolandia.mt.gov.br/ouvidoria">Ouvidoria</a>
+      <i class="bi bi-globe"></i> <a href="https://rondolandia.mt.gov.br/transparencia">Transparência</a>
+      <i class="bi bi-info-circle"></i> <a href="https://rondolandia.mt.gov.br/esic">E-SIC</a>
+
+    </div>
+    <div class="d-lg-flex social-links align-items-center">
+    <a href="https://www.instagram.com/prefeituraderondolandia/" title="Instagram" target="_blank" class="instagram d-none d-md-flex"><i class="bi bi-instagram"></i></a>    <a href="https://www.facebook.com/prefeituraderondolandia/" title="facebook" target="_blank" class="facebook d-none d-md-flex"><i class="bi bi-facebook"></i></a>       <a href="https://www.youtube.com/@prefeiturarondolandia9452" title="YouTube" target="_blank" class="youtube d-none d-md-flex"><i class="bi bi-youtube"></i></a>             <a href="#" id="increaseFont" class="font-size-up d-none d-md-flex" title="Aumentar Fonte"><i class="fas fa-magnifying-glass-plus"></i></a>
+      <a href="#" id="decreaseFont" class="font-size-down d-none d-md-flex" title="Diminuir Fonte"><i class="fas fa-magnifying-glass-minus"></i></a>
+      <a href="#" class="contrast" title="Alto Contraste"><i class="bi bi-circle-half"></i></a>
+      </div>
+  </div>
+</div>
+
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+
+
+  <a href="https://rondolandia.mt.gov.br/inicio" class="logo me-auto">
+    <img id="logo-img" src="https://rondolandia.mt.gov.br/site/img/Logos/Logo.png" alt="Brasao" class="img-fluid">
+  </a>
+
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li class="dropdown"><a href="#"><span>Prefeitura</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/instituicao">Instituição</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/prefeito">Prefeito(a)</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/vice-prefeito">Vice-Prefeito(a)</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/secretarios">Secretários</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/estruturas-organizacionais">Estruturas Organizacionais</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/politica-de-privacidade">Política de Privacidade</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/faq">FAQs</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="https://rondolandia.mt.gov.br/noticias">Notícias</a></li>
+        <li><a class="nav-link scrollto" href="https://rondolandia.mt.gov.br/galerias">Galerias</a></li>
+        <li><a class="nav-link scrollto" href="https://rondolandia.mt.gov.br/videos">Vídeos</a></li>
+        
+        <li class="dropdown w-100"><a href="#"><span>Publicações</span> <i class="bi bi-chevron-down"></i></a>  
+          <ul>
+              <li><a href="https://rondolandia.mt.gov.br/legislacoes">Legislação</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/obras">Obras do Município</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/concursos">Concursos</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/diariooficial">Diário Oficial</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/secretaria-da-educacao">Secretaria da Educação</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/secretaria-de-saude">Secretaria de Saúde</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/processos-seletivos">Processos Seletivos</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/pnab">PNAB</a></li>
+              <li><a href="https://rondolandia.mt.gov.br/publicacoes">Outras Publicações</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown"><a href="#"><span>Transparência</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li class="dropdown"><a href="#"><span>Transparência Pública</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://rondolandia.mt.gov.br/transparencia">Portal da Transparência</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/portal">Portal Fiscal</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Licitações, Contratos e Editais</span> <i
+                  class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://rondolandia.mt.gov.br/licitacoes">Licitações</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/editais">Editais de Licitações</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/contratos">Contratos de Licitações</a></li>
+                                  <li><a href="https://rondolandia.mt.gov.br/documentos">Outros Documentos de Licitações</a></li>
+                              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Convênios</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://rondolandia.mt.gov.br/portal?recurso=dados_convenios">Dados de Convênios</a></li>
+                <li><a href="https://rondolandia.mt.gov.br/portal?recurso=convenios">Outros</a></li>
+              </ul>
+            </li>
+            <li><a href="https://rondolandia.mt.gov.br/mapa">Mapa do Site</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/emendas-parlamentares">Emendas Parlamentares</a></li>
+
+          </ul>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <a href="https://rondolandia.mt.gov.br/acessibilidade" class="header-btn scrollto bold"><i class="fa-solid fa-wheelchair"></i></a>
+  </div>
+</header>
+    <br><br><br><br><br><br>
+
+    <div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form action="https://rondolandia.mt.gov.br/busca" method="GET">
+        <div class="p-1 bg-search rounded rounded-pill shadow-sm mb-4">
+          <div class="input-group">
+            <input type="search" name="b" placeholder="O que você está procurando?" aria-describedby="button-addon1"
+              class="form-control border-0 bg-light" autocomplete="busca">
+            <div class="input-group-append">
+              <button id="button-addon1" type="submit" class="btn btn-link color-search"><i
+                  class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<section id="hero-slider" class="hero-slider mt-4">
+  <div class="container-md">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="swiper sliderFeaturedPosts">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+              <a href="https://rondolandia.mt.gov.br/noticia/RESULTADO-FINAL-DO-PROCESSO-SELETIVO-SIMPLICADO-DISPON%C3%8DVEL" class="img-bg d-flex align-items-end"
+                style="background-image: url('https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1787598035.jpg');">
+                <div class="img-bg-inner">
+                  <h2>RESULTADO FINAL DO PROCESSO SELETIVO SIMPLICADO DISPONÍVEL</h2>
+                  <p>A Comissão Especial designada pelo Decreto Municipal n.o 366/GAB/PMR de 06 de ag...</p>
+                </div>
+              </a>
+            </div>
+                        <div class="swiper-slide">
+              <a href="https://rondolandia.mt.gov.br/noticia/AUDI%C3%8ANCIA-P%C3%9ABLICA-TRANSPORTE-ESCOLAR" class="img-bg d-flex align-items-end"
+                style="background-image: url('https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1784122283.jpg');">
+                <div class="img-bg-inner">
+                  <h2>AUDIÊNCIA PÚBLICA TRANSPORTE ESCOLAR</h2>
+                  <p>Apresentação e discussão dos serviços de transporte escolar</p>
+                </div>
+              </a>
+            </div>
+                        <div class="swiper-slide">
+              <a href="https://rondolandia.mt.gov.br/noticia/RATEIO-FUNDEB--PREFEITURA-DE-RONDOL%C3%82NDIA-FAZ-HIST%C3%93RIA-NA-EDUCA%C3%87%C3%83O" class="img-bg d-flex align-items-end"
+                style="background-image: url('https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1778535348.jpg');">
+                <div class="img-bg-inner">
+                  <h2>RATEIO FUNDEB: PREFEITURA DE RONDOLÂNDIA FAZ HISTÓRIA NA EDUCAÇÃO</h2>
+                  <p>Pela primeira vez na história de Rondolândia, os profissionais da educação receb...</p>
+                </div>
+              </a>
+            </div>
+                        
+          </div>
+          <div class="custom-swiper-button-next">
+            <span class="bi-chevron-right"></span>
+          </div>
+          <div class="custom-swiper-button-prev">
+            <span class="bi-chevron-left"></span>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      
+      
+                  <div class="col-lg-3 mt-3">
+        <div class="post-entry-1">
+          <a href="https://rondolandia.mt.gov.br/noticia/Planejamento-estrat%C3%A9gico-do-TCE-MT-reduz-pobreza-extrema-em-Rondol%C3%A2ndia"
+            style="display: block; width: 100%; height: 200px; overflow: hidden;">
+            <img src="https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1778535731.jpg"
+              style="width: 100%; height: 100%; object-fit: cover;" alt="" class="img-fluid ">
+          </a>
+          <h2><a href="https://rondolandia.mt.gov.br/noticia/Planejamento-estrat%C3%A9gico-do-TCE-MT-reduz-pobreza-extrema-em-Rondol%C3%A2ndia">Planejamento estratégico do TCE-MT reduz pobreza extrema em...</a></h2>
+        </div>
+      </div>
+            <div class="col-lg-3 mt-3">
+        <div class="post-entry-1">
+          <a href="https://rondolandia.mt.gov.br/noticia/Conhe%C3%A7a-Rondol%C3%A2ndia-MT"
+            style="display: block; width: 100%; height: 200px; overflow: hidden;">
+            <img src="https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1778535781.jpg"
+              style="width: 100%; height: 100%; object-fit: cover;" alt="" class="img-fluid ">
+          </a>
+          <h2><a href="https://rondolandia.mt.gov.br/noticia/Conhe%C3%A7a-Rondol%C3%A2ndia-MT">Conheça Rondolândia MT</a></h2>
+        </div>
+      </div>
+            <div class="col-lg-3 mt-3">
+        <div class="post-entry-1">
+          <a href="https://rondolandia.mt.gov.br/noticia/Rondolandia-lan%C3%A7a-novo-site-oficial"
+            style="display: block; width: 100%; height: 200px; overflow: hidden;">
+            <img src="https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1778535854.png"
+              style="width: 100%; height: 100%; object-fit: cover;" alt="" class="img-fluid ">
+          </a>
+          <h2><a href="https://rondolandia.mt.gov.br/noticia/Rondolandia-lan%C3%A7a-novo-site-oficial">Rondolandia lança novo site oficial</a></h2>
+        </div>
+      </div>
+            <div class="col-lg-3 mt-3">
+        <div class="post-entry-1">
+          <a href="https://rondolandia.mt.gov.br/noticia/Sudeco-parabeniza-o-munic%C3%ADpio-de-Rondol%C3%A2ndia-por-mais-um-anivers%C3%A1rio-"
+            style="display: block; width: 100%; height: 200px; overflow: hidden;">
+            <img src="https://rondolandia.mt.gov.br/arquivos/noticias/noticia_1778536012.png"
+              style="width: 100%; height: 100%; object-fit: cover;" alt="" class="img-fluid ">
+          </a>
+          <h2><a href="https://rondolandia.mt.gov.br/noticia/Sudeco-parabeniza-o-munic%C3%ADpio-de-Rondol%C3%A2ndia-por-mais-um-anivers%C3%A1rio-">Sudeco parabeniza o município de Rondolândia por mais um ani...</a></h2>
+        </div>
+      </div>
+                </div>
+        <a href="https://rondolandia.mt.gov.br/noticias" class="more">Mais notícias...</a>
+      </div>
+
+  </div>
+</section>
+
+<section class="mt-5 pt-5 mb-5 aos-init">
+  <div class="container">
+    <div class="section-title">
+      <h2>Serviços e Leis</h2>
+      <p>Confira os documentos de leis de cultura e empreendimento.</p>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-center">
+          <a href="https://rondolandia.mt.gov.br/pnab">
+            <img src="https://rondolandia.mt.gov.br/site/img/pnab/pnab.jpg" alt="PNAB" class="img-fluid w-100">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services acessorapido" class="services mb-5 mt-5">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Acesso Rápido</h2>
+      <p>Acesso facilitado aos serviços públicos mais utilizados.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="100">
+        <a href="https://rondolandia.mt.gov.br/transparencia" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h4 class="title">Transparência Pública</h4>
+            <p>Informações e ações do governo acessíveis para todos.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://rondolandia.portalcontribuinte-eticons.com.br" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h4 class="title">Portal do Contribuinte</h4>
+            <p>Plataforma central para acessar serviços fiscais e informações.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://eticons.com/cconline/faces/pages/inicio.xhtml" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-dollar"></i>
+            </div>
+            <h4 class="title">Contra-cheque Online</h4>
+            <p>Acesso rápido e conveniente aos seus registros salariais.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="400">
+        <a href="https://rondolandia.mt.gov.br/publicacoes" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-file-alt"></i>
+            </div>
+            <h4 class="title">Publicações</h4>
+            <p>Confira os comunicados oficiais, editais e avisos importantes da prefeitura.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="500">
+        <a href="https://rondolandia.mt.gov.br/licitacoes" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-gavel"></i>
+            </div>
+            <h4 class="title">Licitações</h4>
+            <p>Processos públicos para contratação de serviços ou aquisição de bens pela prefeitura.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="600">
+        <a href="https://rondolandia.mt.gov.br/portal?recurso=frota" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <h4 class="title">Frota</h4>
+            <p>Veículos e equipamentos da prefeitura, essenciais para a prestação de serviços públicos.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="700">
+        <a href="https://rondolandia.mt.gov.br/ouvidoria" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-comment"></i>
+            </div>
+            <h4 class="title">Ouvidoria</h4>
+            <p>Canal direto para feedback, sugestões e solução de problemas.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-stretch mt-4 acesso-rapido" data-aos="fade-up" data-aos-delay="800">
+        <a href="https://rondolandia.mt.gov.br/esic" class="text-decoration-none w-100 h-100" style="text-decoration: none;">
+          <div class="icon-box h-100" style="height: 100%;">
+            <div class="icon">
+              <i class="fa-solid fa-info-circle"></i>
+            </div>
+            <h4 class="title">E-SIC</h4>
+            <p>Sistema Eletrônico do Serviço de Informações ao Cidadão.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="videos" class="services mt-5 mb-5">
+  <div class="container">
+    <div class="section-title">
+      <h2>Vídeos</h2>
+      <p>Fique por dentro dos vídeos do município.</p>
+    </div>
+    <div class="row text-center">
+            <div class="text-danger text-center">
+        <p>Nenhum vídeo encontrado!</p>
+      </div>
+          </div>
+    <a href="https://rondolandia.mt.gov.br/videos" class="more"> Mais vídeos...</a>
+
+  </div>
+</section>
+
+<section id="team" class="team mt-5 mb-5">
+  <div class="container">
+    <div class="section-title">
+      <h2>Galerias</h2>
+      <p>Fique por dentro das galerias de imagem do município.</p>
+    </div>
+    <div class="row text-center">
+          <div class="text-center text-danger">
+        <p>Nenhuma galeria Encontrada!</p>
+      </div>
+          </div>
+    <a href="https://rondolandia.mt.gov.br/galerias" class="more"> Mais galerias...</a>
+  </div>
+</section>
+
+</div>
+
+    <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <div class="footer-contact pt-3">
+                        <p>PRINCIPAL, 450, CENTRO</p>
+              <p>RONDOLANDIA- 78338000</p>
+              <p class="mt-3"><strong>Telefone:</strong> <span>(66) 40622-778</span></p>
+              <p><strong>Email:</strong> <span>gabinete@rondolandia.mt.gov.br</span></p>
+                    </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/prefeituraderondolandia/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>            <a href="https://www.facebook.com/prefeituraderondolandia/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>             <a href="https://www.youtube.com/@prefeiturarondolandia9452" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>                       </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/noticias">Notícias</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/videos">Vídeos</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/ouvidoria">Ouvidoria</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/esic">E-SIC</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/politica-de-privacidade">Política de Privacidade</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Guias e Manuais</h4>
+          <ul>
+            <li><a href="https://www.gov.br/plataformamaisbrasil/pt-br/ajuda/glossario">Glossário</a></li>
+            <li><a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/vlibras">VLibras</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/acessibilidade">Acessibilidade</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/mapa">Mapa do Site</a></li>      
+            <li><a href="https://rondolandia.mt.gov.br/faq">FAQ</a></li>              
+            <li><a href="https://rondolandia.mt.gov.br/emendas-parlamentares">Emendas Parlamentares</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Documentos</h4>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/legislacoes">Legislações</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/publicacoes">Publicações</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/contratos">Contratos de Licitação</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/editais">Editais de Licitação</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/obras">Obras</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/concursos">Concursos</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Fiscal</h4>
+          <ul>
+            <li><a href="https://rondolandia.mt.gov.br/transparencia">Transparência Fiscal</a></li>
+            <li><a href="https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html" target="_blank">Radar da Transparência</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/portal?recurso=receitas">Receitas Orçamentárias</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/portal?recurso=despesas">Despesas Orçamentárias</a></li>
+            <li><a href="https://rondolandia.mt.gov.br/portal?recurso=frota">Frota</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p><strong class="sitename">Prefeitura Municipal de Rondolândia</strong> <span class="px-1 ">2026</span> &copy; <span>Todos os direitos Reservados</span></p>
+      <div class="credits">
+        Desenvolvido por <a style="color:#f26700;" href="https://eticons.com.br/" target="_blank">E-Ticons</a> | Versão: 2.4.1
+      </div>
+    </div>
+
+  </footer>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div class="alert text-center cookiealert" role="alert">
+&#x1F36A; Usamos cookies essenciais para melhor experiência, ao navegar você concorda com isso.
+
+    <button type="button" class="btn btn-cookies btn-sm acceptcookies">
+        Aceito
+    </button>
+</div>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/nprogress/nprogress.js"></script>
+
+    <script>
+        NProgress.start();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/jquery/jquery3.7.1.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/jquery/jquery.mask.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="https://rondolandia.mt.gov.br/site/vendor/sweetalert2/dist/sweetalert2.all.min.js"></script>
+            <script src="https://rondolandia.mt.gov.br/site/vendor/aos/aos.js"></script>
+    
+    <script src="https://rondolandia.mt.gov.br/site/js/cookies.js"></script>
+
+    <script src="https://rondolandia.mt.gov.br/site/js/main.js"></script>
+
+    <script src="https://rondolandia.mt.gov.br/site/js/theme.js"></script>
+
+    <script src="https://rondolandia.mt.gov.br/site/js/submit-prevent.js"></script>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+            <script>
+            AOS.init();
+        </script>
+    
+        
+    
+    
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            return;
+
+            const cookieName = 'pesquisa_satisfacao_avaliada';
+
+            function getCookie(name) {
+                return document.cookie.split('; ').find(function (cookie) {
+                    return cookie.indexOf(name + '=') === 0;
+                });
+            }
+
+            function setCookie(name, value, days) {
+                const date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value + '; expires=' + date.toUTCString() + '; path=/; SameSite=Lax';
+            }
+
+            if (getCookie(cookieName) || typeof Swal === 'undefined') {
+                return;
+            }
+
+            setTimeout(function () {
+                Swal.fire({
+                    title: 'O que está achando dos nossos serviços?',
+                    html:
+                        '<div class="text-start">' +
+                        '<input id="swal-nota" type="hidden">' +
+                        '<div id="swal-estrelas" class="text-center mb-3" style="font-size: 2.2rem; line-height: 1;">' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="1" aria-label="1 estrela">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="2" aria-label="2 estrelas">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="3" aria-label="3 estrelas">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="4" aria-label="4 estrelas">☆</button>' +
+                        '<button type="button" class="btn btn-link p-1 text-secondary estrela-satisfacao" data-nota="5" aria-label="5 estrelas">☆</button>' +
+                        '</div>' +
+                        '<label for="swal-comentario" class="form-label">Comentário <small class="text-muted">(opcional)</small></label>' +
+                        '<textarea id="swal-comentario" class="form-control" rows="3"></textarea>' +
+                        '</div>',
+                    confirmButtonText: 'Enviar avaliação',
+                    showCancelButton: true,
+                    cancelButtonText: 'Agora não',
+                    focusConfirm: false,
+                    didOpen: function () {
+                        const estrelas = document.querySelectorAll('.estrela-satisfacao');
+                        const notaInput = document.getElementById('swal-nota');
+
+                        estrelas.forEach(function (estrela) {
+                            estrela.addEventListener('click', function () {
+                                const nota = parseInt(estrela.getAttribute('data-nota'));
+                                notaInput.value = nota;
+
+                                estrelas.forEach(function (item) {
+                                    const itemNota = parseInt(item.getAttribute('data-nota'));
+                                    item.textContent = itemNota <= nota ? '★' : '☆';
+                                    item.classList.toggle('text-warning', itemNota <= nota);
+                                    item.classList.toggle('text-secondary', itemNota > nota);
+                                });
+                            });
+                        });
+                    },
+                    preConfirm: function () {
+                        const nota = document.getElementById('swal-nota').value;
+
+                        if (!nota) {
+                            Swal.showValidationMessage('Clique em uma estrela para enviar sua avaliação.');
+                            return false;
+                        }
+
+                        return fetch('https://rondolandia.mt.gov.br/pesquisa-satisfacao', {
+                            method: 'POST',
+                            headers: {
+                                'Accept': 'application/json',
+                                'Content-Type': 'application/json',
+                                'X-CSRF-TOKEN': 'e2HZSeWIjmoPMbaz2VxYkRi2xvjcUav4SkNqfxr5'
+                            },
+                            body: JSON.stringify({
+                                servico: 'Site',
+                                nota: nota,
+                                comentario: document.getElementById('swal-comentario').value
+                            })
+                        }).then(function (response) {
+                            if (!response.ok) {
+                                throw new Error('Não foi possível registrar a avaliação.');
+                            }
+
+                            return response.json();
+                        }).catch(function (error) {
+                            Swal.showValidationMessage(error.message);
+                        });
+                    }
+                }).then(function (result) {
+                    if (result.isConfirmed) {
+                        setCookie(cookieName, '1', 365);
+                        Swal.fire({
+                            toast: true,
+                            position: 'top',
+                            icon: 'success',
+                            text: 'Obrigado pela avaliação!',
+                            showConfirmButton: false,
+                            timerProgressBar: true,
+                            timer: 3000
+                        });
+                    } else if (result.dismiss === Swal.DismissReason.cancel) {
+                        setCookie(cookieName, 'adiado', 1);
+                    }
+                });
+            }, 2500);
+        });
+    </script>
+    
+    
+
+</body>
+</html>

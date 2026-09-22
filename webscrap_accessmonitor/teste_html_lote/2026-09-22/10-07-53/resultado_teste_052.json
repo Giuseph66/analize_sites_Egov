@@ -1,0 +1,13 @@
+{
+  "url": "https://www.juscimeira.mt.gov.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=iso-8859-1",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.juscimeira.mt.gov.br_052.html",
+  "html_bytes": 92487,
+  "html_title": "Prefeitura Municipal de Juscimeira",
+  "nota": "5.7",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.juscimeira.mt.gov.br_052.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.juscimeira.mt.gov.br_052.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}

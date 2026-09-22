@@ -1,0 +1,319 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html><head><meta http-equiv=\"origin-trial\" content=\"3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=\"><meta http-equiv=\"origin-trial\" content=\"A6iYDRdcg1LVww9DNZEU+JUx2g1IJxSxk4P6F+LimR0ElFa38FydBqtz/AmsKdGr11ZooRgDPCInHJfGzwtR+A4AAACXeyJvcmlnaW4iOiJodHRwczovL3d3dy5yZWNhcHRjaGEubmV0OjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n    <title>Bot Verification</title>\n    \n    \n</head>\n<body>\n    <div class=\"panel\">\n        <h3 class=\"title\">Verifying that you are not a robot...</h3>\n        <form id=\"lsrecaptcha-form\" method=\"POST\" action=\"/.lsrecap/recaptcha?\">\n            <div id=\"recaptchadiv\" class=\"recaptcha-center\"><div class=\"grecaptcha-badge\" data-style=\"bottomright\" style=\"width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;\"><div class=\"grecaptcha-logo\"><iframe title=\"reCAPTCHA\" width=\"256\" height=\"60\" role=\"presentation\" name=\"a-hdws69wj10ji\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&amp;k=6LfislMpAAAAADVkNMZlNDKmmjRI84UwCEL6lf64&amp;co=YWJvdXQ6&amp;hl=en&amp;v=zqB-6Xpbd3lCIvi7Tr2D0pob&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=r327ndll8ede\"></iframe></div><div class=\"grecaptcha-error\"></div><textarea id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>\n        </form>\n    </div>\n    <script src=\"https://www.recaptcha.net/recaptcha/api.js?onload=onloadCallback&amp;render=explicit\" async=\"\" defer=\"\">\n    </script>\n\n\n</body></html>",
+    "data": {
+      "title": "Bot Verification",
+      "rawUrl": "https://www.camarachapadadosguimaraes.mt.gov.br",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 0,
+        "a": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "hxHasAName": 1,
+        "headers": 0,
+        "elementHiddenFocus": 1,
+        "menuItem": 0,
+        "id": 1,
+        "colorContrastOk": 1,
+        "textContrastH": 1,
+        "aSkipFirstNo": 1,
+        "formSubmitNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "idAtt": 3,
+        "area": 0,
+        "inpImg": 0,
+        "label": 1,
+        "form": 1,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 2,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Bot Verification</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"title\">Verifying that you are not a robot...</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h3:nth-child(1)",
+                "accessibleName": "Verifying that you are not a robot..."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<iframe title=\"reCAPTCHA\" width=\"256\" height=\"60\" role=\"presentation\" name=\"a-hdws69wj10ji\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&amp;k=6LfislMpAAAAADVkNMZlNDKmmjRI84UwCEL6lf64&amp;co=YWJvdXQ6&amp;hl=en&amp;v=zqB-6Xpbd3lCIvi7Tr2D0pob&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=r327ndll8ede\"></iframe>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrastOk": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"title\">Verifying that you are not a robot...</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h3:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastH": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"title\">Verifying that you are not a robot...</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h3:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "This Web page does not have focusable controls.",
+            "resultCode": "F5",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "formSubmitNo": [
+          {
+            "verdict": "failed",
+            "description": "Form tag doesn't contain any of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<form id=\"lsrecaptcha-form\" method=\"POST\" action=\"/.lsrecap/recaptcha?\">\n            \n        </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h3 class=\"title\">Verifying that you are not a robot...</h3>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > h3:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form id=\"lsrecaptcha-form\" method=\"POST\" action=\"/.lsrecap/recaptcha?\">\n            \n        </form>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"recaptchadiv\" class=\"recaptcha-center\"></div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(1) > form:nth-child(2) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 14:09:23",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "Bot Verification",
+          "date": "2026-09-22 14:09:23",
+          "htmlTags": 201,
+          "roles": {
+            "document": 2,
+            "generic": 7,
+            "heading": 1,
+            "form": 1,
+            "presentation": 1,
+            "textbox": 1
+          },
+          "cTags": {
+            "html": 2,
+            "head": 2,
+            "meta": 5,
+            "title": 1,
+            "script": 10,
+            "style": 169,
+            "body": 2,
+            "div": 5,
+            "h3": 1,
+            "form": 1,
+            "iframe": 2,
+            "textarea": 1
+          },
+          "size": 767176,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "ee28303d3415dc918faaa47a72254534",
+          "tests": 14,
+          "conform": "5@1@0",
+          "score": "6.5"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 0,
+          "a": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "hxHasAName": 1,
+          "headers": 0,
+          "elementHiddenFocus": 1,
+          "menuItem": 0,
+          "id": 1,
+          "colorContrastOk": 1,
+          "textContrastH": 1,
+          "aSkipFirstNo": 1,
+          "formSubmitNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "idAtt": 3,
+          "area": 0,
+          "inpImg": 0,
+          "label": 1,
+          "form": 1,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 2,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@1.8",
+          "heading_01": "10@18",
+          "element_04": "10@18",
+          "color_02b": "10@18",
+          "textC_01": "10@18",
+          "a_01b": "3@4.859999999999999",
+          "form_01b": "3@0.72",
+          "layout_01a": "10@18",
+          "hx_01b": "something",
+          "heading_04": "1@1.8",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "5@1@0",
+      "score": "6.5"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T14:09:23.288Z",
+    "requestedUrl": "https://www.camarachapadadosguimaraes.mt.gov.br",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 1705,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.camarachapadadosguimaraes.mt.gov.br_031.html"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+API HTTP 500 / parser QualWeb
+Total: 33
+
+
+1. https://camaraacorizal.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:05.423Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+2. https://araguainha.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:06.750Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+3. https://baraodemelgaco.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:06.785Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+4. https://araguaiana.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:06.805Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+5. https://camaraaripuanamt.com.br/index.php
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:08.028Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+6. https://camaraplanaltodaserra.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:17.537Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+7. https://canabravadonorte.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:19.434Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+8. https://cidesa.com.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:19.838Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+9. https://camararibeiraocascalheira.com.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:25.430Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+10. https://camaraportoestrela.com.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:28.855Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+11. https://jangada.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:40.541Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+12. https://www.acorizal.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:53.916Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+13. https://www.altoboavista.mt.gov.br
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:08:58.367Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+14. https://www.baraodemelgaco.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:23.614Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+15. https://www.araguaiana.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:23.949Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+16. https://www.bomjesusdoaraguaia.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:24.840Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+17. https://www.camaranovabandeirantes.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:47.823Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+18. https://www.camaradealtoparaguai.com.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:48.188Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+19. https://www.camarajauru.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:48.733Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+20. https://www.camarasaojosedoxingu.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:09:49.027Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+21. https://www.cisvarc.com.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:10:10.871Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+22. https://www.confresa.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:10:13.407Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+23. https://www.novaubirata.mt.gov.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:12:33.168Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+24. https://gws-sistemas.com.br/ouvidoria.pm.acorizal/novo-protocolo
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:04.232Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+25. https://gws-sistemas.com.br/ouvidoria.pm.bomjesusdoaraguaia/novo-protocolo
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:11.112Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+26. https://gws-sistemas.com.br/ouvidoria.pm.indiavai/novo-protocolo
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:12.419Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+27. https://gws-sistemas.com.br/ouvidoria.pm.luciara
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:16.078Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+28. https://gws-sistemas.com.br/ouvidoria.pm.ribeiraocascalheira/novo-protocolo
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:22.003Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+29. https://prefeitura-de-planalto-da-serra.webnode.page/ouvidoria/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:23.585Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+30. https://www.novaubirata.mt.gov.br/ouvidoria
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:15:35.080Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+31. https://torixoreu.mt.leg.br/
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:19:36.263Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+32. https://www.gws-sistemas.com.br/cartadeservico.pm.generalcarneiro/geral/ouvidoria-municipal
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:20:47.286Z","stack":"TypeError: Cannot read properties of undefined (reading 'modules')\n    at getElementsMapping (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/mapping.ts:2092:45)\n    at parseEvaluation (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src
+
+33. https://www.canabravadonorte.org/transparencia/ouvidoria/cadastrar-manifestacao
+Explicação: QualWeb/backend retornou relatório vazio ou incompatível; parser falhou em mapping.ts:2092 (evaluation.modules indefinido). Não confirma site fora do ar ou Cloudflare.
+Erro: API HTML respondeu HTTP 500: {"statusCode":500,"error":"Internal Server Error","message":"Internal server error","path":"/amp/eval/html","timestamp":"2026-09-22T14:20:54.684Z","stack":"RangeError: Maximum call stack size exceeded\n    at DomHandler.callback (/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/src/util/middleware.ts:199:14)\n    at DomHandler.handleCallback (file:///home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/acessamonitor/accessmonitor-docker/node_

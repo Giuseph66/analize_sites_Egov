@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="Prefeitura Municipal de Itanhangá mato grosso" />
+    <meta name="description" content="Site Oficial da Prefeitura Municipal de Itanhangá ©" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" href="/imgs/default/favicon32.png" sizes="32x32" type="image/png"/>
+    <link rel="shortcut icon" href="/imgs/default/favicon16.png" sizes="16x16" type="image/png"/>
+
+    <title>
+                    Prefeitura Municipal de Itanhangá
+            </title>
+
+    
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=3.5.4&ck=963737a2e8279ba0f8d6a47cdb9488de' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=3.5.4&ck=963737a2e8279ba0f8d6a47cdb9488de' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/audio.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/jquery.cookies.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=3.5.4&ck=963737a2e8279ba0f8d6a47cdb9488de'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=3.5.4&ck=963737a2e8279ba0f8d6a47cdb9488de'></script>
+
+
+</head>
+<body class="p5-accessibility-body p5-bgcolor-white">
+    <span class="menu-mobile d-md-none d-sm-block">
+    <i class="mdi mdi-menu"></i>
+</span>
+
+<div class="d-md-none d-sm-block menu-mobile-container">
+    <div class="list-group">
+                    <a href="/#/home"  class="list-group-item menu-mobile-container-click" >
+                Home
+                            </a>
+                                <a href="#menu_2"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                Itanhangá
+                                    <div class="float-right">
+                        <i class='mdi mdi-chevron-down'></i>
+                    </div>
+                            </a>
+                            <div class="collapse" id="menu_2">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/breve-historico/1/" >
+                            Breve Histórico
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/calendario-de-eventos-/10/" >
+                            Calendário de Eventos 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/hino-oficial/2/" >
+                            Hino Oficial
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/itanhanga-em-numeros/5/" >
+                            Itanhangá em Números
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/politica-de-privacidade/11/" >
+                            Politica de Privacidade
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/telefones" >
+                            Telefones Úteis
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_3"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                Secretarias
+                                    <div class="float-right">
+                        <i class='mdi mdi-chevron-down'></i>
+                    </div>
+                            </a>
+                            <div class="collapse" id="menu_3">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/GP" >
+                            Gabinete do Prefeito
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SMA" >
+                            Secretária Municipal de Administração 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SAICM" >
+                            Secretaria Municipal de Agricultura, Indústria, Comércio, Meio Ambiente
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SMEC" >
+                            Secretaria Municipal de Educação e Cultura
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SMF" >
+                            Secretária Municipal de Finanças e Planejamento
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SMS" >
+                            Secretaria Municipal de Saúde 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SMDST" >
+                            Secretário Municipal de Desenvolvimento Social e Trabalho 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/SMO" >
+                            Secretário Municipal de Obras, Transporte, Serviços Públicos e Saneamento
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="/#/secretarias/home/Vice-Prefeita" >
+                            Vice-Prefeita 
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_4"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                Imprensa
+                                    <div class="float-right">
+                        <i class='mdi mdi-chevron-down'></i>
+                    </div>
+                            </a>
+                            <div class="collapse" id="menu_4">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="/#/imprensa/noticias" >
+                            Notícias
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="/#/imprensa/videos" >
+                            Vídeos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="/#/imprensa/albuns" >
+                            Albuns
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="/#/imprensa/eventos" >
+                            Eventos
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_5"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                Publicações
+                                    <div class="float-right">
+                        <i class='mdi mdi-chevron-down'></i>
+                    </div>
+                            </a>
+                            <div class="collapse" id="menu_5">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/420/Audiência Pública" >
+                            Audiência Pública
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/3/Concursos/Seletivo" >
+                            Concursos/Seletivo
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/1/Contas Públicas" >
+                            Contas Públicas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/775/Débitos" >
+                            Débitos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/667/Diárias" >
+                            Diárias
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/713/Editais" >
+                            Editais
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/731/Educação" >
+                            Educação
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/317/Eleição Conselho Tutelar" >
+                            Eleição Conselho Tutelar
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/791/Emendas Parlamentares" >
+                            Emendas Parlamentares
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/318/Esportes" >
+                            Esportes
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/625/Estoque disponível Farmácia Básica" >
+                            Estoque disponível Farmácia Básica
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/399/Estrutura Organizacional " >
+                            Estrutura Organizacional 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/338/Fiscal de Contrato" >
+                            Fiscal de Contrato
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/265/Geral" >
+                            Geral
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/216/Gestão de Pessoas" >
+                            Gestão de Pessoas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/678/Identidade Organizacional" >
+                            Identidade Organizacional
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/670/Informações Institucionais" >
+                            Informações Institucionais
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/2/Licitações" >
+                            Licitações
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/570/Meio Ambiente" >
+                            Meio Ambiente
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/732/Obras Públicas" >
+                            Obras Públicas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/288/Ouvidoria / SIC" >
+                            Ouvidoria / SIC
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/404/Patrimônio " >
+                            Patrimônio 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/413/Planejamento e Orçamento" >
+                            Planejamento e Orçamento
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/567/Planejamento Estratégico" >
+                            Planejamento Estratégico
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/280/poupap" >
+                            poupap
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/422/Prestação de Contas" >
+                            Prestação de Contas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/408/Publicações - Demonstrativos Fiscais - LRF" >
+                            Publicações - Demonstrativos Fiscais - LRF
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/627/Radar  da Transparência Pública" >
+                            Radar  da Transparência Pública
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/693/Repasses" >
+                            Repasses
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/541/Restos a Pagar" >
+                            Restos a Pagar
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/637/Saúde" >
+                            Saúde
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/421/SIAFIC" >
+                            SIAFIC
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/publicacoes/359/VTN - Valor da Terra Nua" >
+                            VTN - Valor da Terra Nua
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_6"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                Serviços
+                                    <div class="float-right">
+                        <i class='mdi mdi-chevron-down'></i>
+                    </div>
+                            </a>
+                            <div class="collapse" id="menu_6">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/imprensa/eventos" >
+                            Calendário De Eventos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/contato" >
+                            Contato
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="https://prefitanhanga.ouvidoriabr.com/#/home" >
+                            Ouvidoria
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="https://leismunicipais.com.br/prefeitura/mt/itanhanga" >
+                            Legislação
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="http://177.72.168.155:63123/Cidadao/ConsultaConselhosMunicipais.aspx" >
+                            Conselhos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/transparencia/finder/MjUz" >
+                            Publicações
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/transparencia/home" >
+                            Portal De Transparência
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="https://agiliblue.agilicloud.com.br/portal/itanhanga/#/alvara" >
+                            Emissão De Alvará
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="https://agiliblue.agilicloud.com.br/portal/itanhanga/#/guiasIptu" >
+                            Emissão De Iptu
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="https://agiliblue.agilicloud.com.br/portal/itanhanga/#/certidao" >
+                            Emissão De Certidões Tributárias
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="https://prefitanhanga.ouvidoriabr.com/#/protocolo/novo/95" >
+                            Peça Sua Iluminação Publica
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/transparencia/servicos/4" >
+                            Serviços Ao Servidores
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/transparencia/servicos/3" >
+                            Emissão De Nota Fiscal
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_6" href="/#/publicacoes/2/Licita%C3%A7%C3%B5es" >
+                            Licitações
+                        </a>
+                                        	   
+                </div>
+                                <a href="/#/transparencia/home"  class="list-group-item menu-mobile-container-click" >
+                Portal Transparência
+                            </a>
+                                <a href="/#/transparencia/finder/MjQ0"  class="list-group-item menu-mobile-container-click" >
+                Licitações
+                            </a>
+                                <a href="http://prefitanhanga.ouvidoriabr.com/"  target="_blank"  class="list-group-item menu-mobile-container-click" >
+                Ouvidoria
+                            </a>
+                                <a href="http://prefitanhanga.ouvidoriabr.com/"  target="_blank"  class="list-group-item menu-mobile-container-click" >
+                E-SIC
+                            </a>
+                                <a href="https://itanhanga.servicos.pentagono.info/"  target="_blank"  class="list-group-item menu-mobile-container-click" >
+                Carta de Serviços
+                            </a>
+                                <a href="/#/faq"  class="list-group-item menu-mobile-container-click" >
+                Perguntas Frequentes
+                            </a>
+                        </div>
+</div>
+            <div class="modal fade popup-modal" id="popupModal0" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <a href="https://leismunicipais.com.br/a1/mt/i/itanhanga/lei-ordinaria/2026/82/816/lei-ordinaria-n-816-2026-institui-campanha-de-incentivo-e-valorizacao-do-comercio-local-autoriza-e-institui-premiacao-e-da-outras-providencias?q=816%2F2026" target="_blank">                            <img src="/assets/image/i/F80C74A92C" style="width:100%">
+                            </a>                    </div>
+                </div>
+            </div>
+        </div>
+    
+<div class="side-bar d-none d-md-block d-print-none">
+    <a href="/#/publicacoes">
+        <div class="s-b-item">
+            <div class="s-b-i-icon">
+                <i class="mdi mdi-file-multiple"></i>
+            </div>
+            <div class="s-b-i-text">
+                Publicações
+            </div>
+        </div>
+    </a>
+    <a href="/#/transparencia/home">
+        <div class="s-b-item">
+            <div class="s-b-i-icon">
+                <i class="mdi mdi-monitor"></i>
+            </div>
+            <div class="s-b-i-text">
+                Transparência
+            </div>
+        </div>
+    </a>
+    <a href="http://prefitanhanga.ouvidoriabr.com" target="_blank">
+        <div class="s-b-item">
+            <div class="s-b-i-icon">
+                <i class="mdi mdi-wechat"></i>
+            </div>
+            <div class="s-b-i-text">
+                Ouvidoria
+            </div>
+        </div>
+    </a>
+
+    <div class="s-b-item s-b-accessibility" aria-label="Menu de acessibilidade">
+        <div class="s-b-i-icon">
+            <i class="mdi mdi-human"></i>
+        </div>
+        <div class="s-b-i-text s-b-accessibility-tools">
+            <span class="s-b-accessibility-title">Acessibilidade</span>
+            <button type="button" class="s-b-tool-button" id="font-plus-button" title="Aumentar fonte" aria-label="Aumentar fonte">
+                <i class="mdi mdi-magnify-plus"></i>
+            </button>
+            <button type="button" class="s-b-tool-button" id="font-less-button" title="Diminuir fonte" aria-label="Diminuir fonte">
+                <i class="mdi mdi-magnify-minus"></i>
+            </button>
+            <button type="button" class="s-b-tool-button" id="background-contrast-button" title="Alternar contraste" aria-label="Alternar contraste">
+                <i class="mdi mdi-invert-colors"></i>
+            </button>
+            <a href="/#/mapa" class="s-b-tool-button" title="Mapa do site" aria-label="Mapa do site">
+                <i class="mdi mdi-map"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="container-fluid header-top d-none d-md-block d-print-none">
+        <div class='container'>
+            <div class="row">
+                <div class="col-md-9 h-t-left">
+                    <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank">
+                        Lei de acesso à informação <i class="mdi mdi-information-outline"></i>
+                    </a>
+                    <a href="https://radardatransparencia.atricon.org.br" target="_blank">
+                        Radar da Transparência Pública
+                    </a>
+                    <a href="https://prefitanhanga.ouvidoriabr.com/" target="_blank">
+                        Ouvidoria | SIC
+                    </a>
+                </div>
+                <div class="icon col-md-3 h-t-right" style="font-size: 19px; color: #fff;">
+                    <a href="https://www.facebook.com/prefeituradeitanhaga" target="_blank">
+                        <i class="mdi mdi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/prefeituraitanhanga" target="_blank">
+                        <i class="mdi mdi-instagram"></i>
+                    </a>
+                    <a href="https://webmail.itanhanga.mt.gov.br/" target="_blank">
+                        <i class="mdi mdi-email-open"></i>
+                    </a>
+                    <a href="ftp://ftp.itanhanga.mt.gov.br:20019" target="_blank" title="FTP">
+                        <i class="mdi mdi-upload"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container header-main">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-4 col-12 h-logo text-center text-md-left">
+                <a href="/#/home">
+                    <img src="/imgs/default/logo_new.png?v=1" alt="Prefeitura Municipal de Itanhangá">
+                </a>
+            </div>
+                        <div class="col-lg-9 col-md-8 col-12 h-content">
+                <div class="h-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Pesquisar..." aria-label="Pesquisar" id="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-custom" type="button" id="search-btn">
+                                <i class="mdi mdi-magnify"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-info">
+                    <div class="h-info-grid">
+                        <div class="h-info-item">
+                            <div class="h-i-icon mr-2">
+                                <div class="h-i-i-container">
+                                    <i class="mdi mdi-map-marker-radius"></i>
+                                </div>
+                            </div>
+                            <div class="h-i-content text-left">
+                                <strong>Endereço</strong><br>
+                                Av. Santa Catarina, 314 - Centro <br> Itanhangá - MT, 78579-000
+                            </div>
+                        </div>
+                        <div class="h-info-item">
+                            <div class="h-i-icon mr-2">
+                                <div class="h-i-i-container">
+                                    <i class="mdi mdi-email"></i>
+                                </div>
+                            </div>
+                            <div class="h-i-content text-left">
+                                <strong>E-mail</strong><br>
+                                gabinete@itanhanga.mt.gov.br
+                            </div>
+                        </div>
+                        <div class="h-info-item">
+                            <div class="h-i-icon mr-2">
+                                <div class="h-i-i-container">
+                                    <i class="mdi mdi-phone"></i>
+                                </div>
+                            </div>
+                            <div class="h-i-content text-left">
+                                <strong>Telefone</strong><br>
+                                (66) 98149-0251
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid no-padding-container menus">
+    <div class="d-none d-md-block d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light" id='menu-desktop'>
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/home"  >
+                                    Home
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Itanhangá
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                                                                                            <a class="dropdown-item"  href="/#/municipio/breve-historico/1/">
+                                                Breve Histórico
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/calendario-de-eventos-/10/">
+                                                Calendário de Eventos 
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/hino-oficial/2/">
+                                                Hino Oficial
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/itanhanga-em-numeros/5/">
+                                                Itanhangá em Números
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/politica-de-privacidade/11/">
+                                                Politica de Privacidade
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/telefones">
+                                                Telefones Úteis
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Secretarias
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                                                                                                            <a class="dropdown-item"  href="/#/secretarias/home/GP">
+                                                Gabinete do Prefeito
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SMA">
+                                                Secretária Municipal de Administração 
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SAICM">
+                                                Secretaria Municipal de Agricultura, Indústria, Comércio, Meio Ambiente
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SMEC">
+                                                Secretaria Municipal de Educação e Cultura
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SMF">
+                                                Secretária Municipal de Finanças e Planejamento
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SMS">
+                                                Secretaria Municipal de Saúde 
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SMDST">
+                                                Secretário Municipal de Desenvolvimento Social e Trabalho 
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/SMO">
+                                                Secretário Municipal de Obras, Transporte, Serviços Públicos e Saneamento
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/home/Vice-Prefeita">
+                                                Vice-Prefeita 
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Imprensa
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                                                                                                            <a class="dropdown-item"  href="/#/imprensa/noticias">
+                                                Notícias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/videos">
+                                                Vídeos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/albuns">
+                                                Albuns
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/eventos">
+                                                Eventos
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Publicações
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                                                                                    <a class="dropdown-item" target="_blank" href="https://leismunicipais.com.br/prefeitura/mt/itanhanga">
+                                                Legislação
+                                            </a>
+                                                                                                                            <a class="dropdown-item"  href="/#/publicacoes/420/Audiência Pública">
+                                                Audiência Pública
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/3/Concursos/Seletivo">
+                                                Concursos/Seletivo
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/1/Contas Públicas">
+                                                Contas Públicas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/775/Débitos">
+                                                Débitos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/667/Diárias">
+                                                Diárias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/713/Editais">
+                                                Editais
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/731/Educação">
+                                                Educação
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/317/Eleição Conselho Tutelar">
+                                                Eleição Conselho Tutelar
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/791/Emendas Parlamentares">
+                                                Emendas Parlamentares
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/318/Esportes">
+                                                Esportes
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/625/Estoque disponível Farmácia Básica">
+                                                Estoque disponível Farmácia Básica
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/399/Estrutura Organizacional ">
+                                                Estrutura Organizacional 
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/338/Fiscal de Contrato">
+                                                Fiscal de Contrato
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/265/Geral">
+                                                Geral
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/216/Gestão de Pessoas">
+                                                Gestão de Pessoas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/678/Identidade Organizacional">
+                                                Identidade Organizacional
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/670/Informações Institucionais">
+                                                Informações Institucionais
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/2/Licitações">
+                                                Licitações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/570/Meio Ambiente">
+                                                Meio Ambiente
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/732/Obras Públicas">
+                                                Obras Públicas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/288/Ouvidoria / SIC">
+                                                Ouvidoria / SIC
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/404/Patrimônio ">
+                                                Patrimônio 
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/413/Planejamento e Orçamento">
+                                                Planejamento e Orçamento
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/567/Planejamento Estratégico">
+                                                Planejamento Estratégico
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/280/poupap">
+                                                poupap
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/422/Prestação de Contas">
+                                                Prestação de Contas
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/408/Publicações - Demonstrativos Fiscais - LRF">
+                                                Publicações - Demonstrativos Fiscais - LRF
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/627/Radar  da Transparência Pública">
+                                                Radar  da Transparência Pública
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/693/Repasses">
+                                                Repasses
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/541/Restos a Pagar">
+                                                Restos a Pagar
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/637/Saúde">
+                                                Saúde
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/421/SIAFIC">
+                                                SIAFIC
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/359/VTN - Valor da Terra Nua">
+                                                VTN - Valor da Terra Nua
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+                                    Serviços
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                                                                                                                            <a class="dropdown-item"  href="/#/imprensa/eventos">
+                                                Calendário De Eventos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/contato">
+                                                Contato
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://prefitanhanga.ouvidoriabr.com/#/home">
+                                                Ouvidoria
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://leismunicipais.com.br/prefeitura/mt/itanhanga">
+                                                Legislação
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://177.72.168.155:63123/Cidadao/ConsultaConselhosMunicipais.aspx">
+                                                Conselhos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/finder/MjUz">
+                                                Publicações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/home">
+                                                Portal De Transparência
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://agiliblue.agilicloud.com.br/portal/itanhanga/#/alvara">
+                                                Emissão De Alvará
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://agiliblue.agilicloud.com.br/portal/itanhanga/#/guiasIptu">
+                                                Emissão De Iptu
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://agiliblue.agilicloud.com.br/portal/itanhanga/#/certidao">
+                                                Emissão De Certidões Tributárias
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://prefitanhanga.ouvidoriabr.com/#/protocolo/novo/95">
+                                                Peça Sua Iluminação Publica
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/servicos/4">
+                                                Serviços Ao Servidores
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/servicos/3">
+                                                Emissão De Nota Fiscal
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/publicacoes/2/Licita%C3%A7%C3%B5es">
+                                                Licitações
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/transparencia/home"  >
+                                    Portal Transparência
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/transparencia/finder/MjQ0"  >
+                                    Licitações
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="http://prefitanhanga.ouvidoriabr.com/"   target="_blank" >
+                                    Ouvidoria
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="http://prefitanhanga.ouvidoriabr.com/"   target="_blank" >
+                                    E-SIC
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="https://itanhanga.servicos.pentagono.info/"   target="_blank" >
+                                    Carta de Serviços
+                                </a>
+                                                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/faq"  >
+                                    Perguntas Frequentes
+                                </a>
+                                                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<lgpd-agreement color='#0a4066'></lgpd-agreement>
+
+    <div id='content' class='content-loading' ></div>
+
+    <div class="container-fluid no-padding-container footer d-print-none pb-3">
+
+    <div class="f-logo">
+        <img src="/imgs/default/brasao.png?v=3" alt="">
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="col-12 f-contato">
+                    <div class="row">
+                        <div class="col-12 mt-3">
+                            <h4>Prefeitura Municipal de Itanhangá</h4>
+                        </div>
+                        <div class="col-12 mt-2">
+                            Av. Santa Catarina, 314 - Centro Itanhangá - MT, 78579-000
+                        </div>
+                        <div class="col-12 mt-2">
+                            (66) 98149-0251
+                        </div>
+                        <div class="col-12 mt-2">
+                            07:00 às 11:00 - 13:00 às 17:00
+                        </div>
+                        <div class="col-12">
+                            gabinete@itanhanga.mt.gov.br
+                        </div>
+                        <div class="col-12 f-social">
+                            <a href="https://www.facebook.com/prefeituradeitanhaga" target="_blank">
+                                <i class="mdi mdi-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/prefeituraitanhanga" target="_blank">
+                                <i class="mdi mdi-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer-rights d-print-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">Prefeitura Municipal de Itanhangá  <span>&nbsp;-&nbsp; todos os direitos reservados&nbsp;©</span>
+            </div>
+            <div class="col-md-6 col-12 text-right">
+                <span>DESENVOLVIDO POR</span>&nbsp;<a href="http://pentagono.info/" target="_blank"> PENTÁGONO SISTEMAS</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer-btn-back-top" class="d-print-none">
+    <i class="mdi mdi-chevron-double-up"></i>
+</div></body>

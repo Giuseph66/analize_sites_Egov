@@ -1,0 +1,13 @@
+{
+  "url": "https://www.ciscn.com.br/#/home",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.ciscn.com.br_038.html",
+  "html_bytes": 8090,
+  "html_title": "Consórcio Intermunicipal de Saúde Da Região Norte Matogrossense",
+  "nota": "5.8",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.ciscn.com.br_038.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.ciscn.com.br_038.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}

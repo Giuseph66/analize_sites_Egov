@@ -1,0 +1,75 @@
+Timeout no download HTML
+Total: 18
+
+
+1. https://www.generalcarneiro.mt.gov.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+2. https://www.indiavai.mt.gov.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+3. https://www.luciara.mt.gov.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+4. https://www.luciara.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+5. https://www.novabrasilandia.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+6. https://www.novalacerda.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+7. https://www.planaltodaserra.mt.gov.br
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+8. https://www.portoalegredonorte.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+9. https://www.prefeituradepontebranca-mt.com.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+10. https://www.ribeiraocascalheira.mt.gov.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+11. https://www.uniaodosul.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+12. https://araguaiana.mt.gov.br/ouvidoria-identificada
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+13. https://www.cocalinho.mt.gov.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+14. https://indiavai.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+15. https://novosantoantonio.mt.leg.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+16. https://www.rosariooeste.mt.gov.br/
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+17. https://santoafonso.mt.leg.br/index.php
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out
+
+18. https://www.jauru.mt.gov.br/ouvidoria-identificada
+Explicação: Download HTML excedeu 120s; servidor lento, indisponível ou conexão/firewall descartando resposta.
+Erro: Não foi possível baixar HTML: timed out

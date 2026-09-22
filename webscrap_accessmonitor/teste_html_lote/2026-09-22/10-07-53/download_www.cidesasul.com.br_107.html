@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	
+
+		<base href="https://www.cidesasul.com.br/">
+        
+
+
+
+
+
+
+<head>
+
+
+		<base href="https://www.cidesasul.com.br/">
+                
+<!--[if lte IE 10]>
+	P�gina n�o suportada por navegador Internet Explorer com vers�o menor ou igual a 8.0;
+	<script language= "JavaScript">
+	location.href="./navegador.html"
+	</script>
+<![endif]-->
+
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="pragma" content="no-cache">
+			<meta http-equiv="cache-control" content="no-cache"> 
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>CIDESASUL</title>
+            <meta name="revisit-after" content="1 days">
+            <meta name="description" content="">
+            <meta name="keywords" content="Cons�rcio Intermunicipal,Sul, prefeituras, legisla��o, desenvilvimento, econ�mico, social, ambiental, licita��o, transpar�ncia, MT, Mato Grosso, Brasil">
+			<meta name="robots" content="index,follow" />
+			<meta name="googlebot" content="all" />
+            <meta name="distribution" content="Global">
+            <meta name="rating" content="General">
+            <meta name="author" content="Kanix Web Developers">
+            <meta name="copyright" content="CIDESASUL">
+            <meta name="language" content="pt-br">
+            <meta name="doc-class" content="Completed">
+            <meta name="doc-rights" content="Public">
+            <meta http-equiv="imagetoolbar" content="no">
+
+            <link rel="Start" title="Pagina Oficial do CIDESASUL" lang="pt-br">
+
+            <link rel="shortcut icon" href="favicon.ico">
+
+
+	<link rel="icon" href="favicon.ico">
+
+<!-- consorciados -->
+	<link rel='stylesheet' id='themescode.style.owl.carousel-css'  href='plugins/owl-carousel/owl.carousel.css?ver=4.6.4' type='text/css' media='all' />
+	<link rel='stylesheet' id='custom-style-css'  href='plugins/owl-carousel/custom/style.custom.css?ver=4.6.4' type='text/css' media='all' />
+<!-- fim consorciados -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css?date=20230204">
+	<link rel="stylesheet" href="css/estilo-padrao.css">
+	<link rel="stylesheet" href="css/effetcs.css">
+    <link rel="stylesheet" href="css/style.css?ver=20230204">
+    <link rel="stylesheet" href="css/c-paginacao.css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script type='text/javascript' src='js/bootstrap.min.js'></script>	
+	
+    <!-- Unite Gallery -->
+	<script type='text/javascript' src='js/unitegallery.min.js'></script>	
+	<script type='text/javascript' src='js/ug-theme-slider.js'></script>
+	<script type='text/javascript' src='js/ug-theme-tilesgrid.js'></script>
+	<script type='text/javascript' src='js/ug-theme-video.js'></script>
+	<link rel='stylesheet' href='css/skin-right-thumb.css' type='text/css' />
+	<link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+
+	<!-- Plugins -->
+    <link href="plugins/nprogress/nprogress.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+	<script type="text/javascript" src="js/funcoes.js"></script>
+	<title>CIDESASUL</title>
+
+	<!--Abertura-->
+	<script type="text/javascript" src="js/jpreloader.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style-abertura.css?v=9868g543" >
+	<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+ 
+   	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		var i;
+		function mostrarElementos(first){
+			var totalLI = jQuery(".icons i").length;
+			if(first == true){
+				jQuery(".icons i").css({opacity:0});
+				i = 0;
+			}
+			if(i < totalLI){
+				var atual = jQuery(".icons i").eq(i);
+				TweenMax.to(atual, .2, {css:{opacity:1},  ease:Quad.easeOut, onComplete:function(){
+					i++;
+					if(i < totalLI){
+						mostrarElementos();
+					}
+				}});
+			}
+		}
+		function executa(){
+			mostrarElementos(true);
+		}
+		TweenMax.to(jQuery('#ola h3'), 0,{marginLeft:"-100%", opacity:0});
+		TweenMax.to(jQuery('#ola h2'), 0,{ opacity:0});
+		TweenMax.to(jQuery('#ola .the_content'), 0,{ opacity:0});
+		TweenMax.to(jQuery('#ola .icons i'), 0,{ opacity:0});
+		jQuery("body").jpreLoader({
+			splashID: "#hidepage",
+			loaderVPos: "100%",
+			autoClose: true,
+			closeBtnText: ""
+		},function(){
+			jQuery('#top .logo').show();
+			(new TimelineLite())
+			.append(
+				[TweenMax.from(jQuery("#icon_name"), 1,{left:"-30px", opacity:0})],
+				[TweenMax.from(jQuery("#icon_131"), 0.6,{delay:0.3, top:"-100px", right:"-100px"})],
+				[TweenMax.to(jQuery('#ola h3'), 1,{marginLeft:'30%', opacity:1})],
+				[TweenMax.to(jQuery('#ola h2'), 1,{delay:0.4, opacity:1})],
+				[TweenMax.to(jQuery('#ola .the_content'), 1,{delay:2.2, opacity:1})],
+				[TweenMax.to(jQuery('#ola .icons i'), 1, {css:{opacity: 0}, onComplete:executa})]
+				)
+			.append(
+				[TweenMax.from(jQuery("#icon_blankbg"), 2,{delay:0,opacity:0,scale:0, ease:"easeOutElastic"})]
+				)
+		});
+	})
+	</script>
+	<!--Fim Abertura-->
+
+
+	<!--Padr�o-->
+	<script>
+		// Picture element HTML5 shiv
+		document.createElement( "picture" );
+	</script>
+	<script type='text/javascript' src='js/js_composer_front.js?ver=3.7.4'></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/ekko-lightbox.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/jquery.treeview.js"></script>
+	
+
+<!-- paginacao -->
+<style type="text/css">
+
+#box-paginacao {
+    /*border: 1px solid #D7D7D7;*/
+    margin: 1em auto 0px auto;
+    padding: 1em 0pt;
+    text-align: center;
+    font: normal 12px Tahoma, Arial, verdana;
+    margin: 15px 0px 0px 0px;
+}
+
+.pageatual a {
+    font: bold 12px Arial, Tahoma, Helvetica;
+    margin-top: 2px;
+    background: #338533 !important;
+    color: #FFFFFF !important;
+}
+
+#box-paginacao ul li {
+    display: inline-table;
+    font-size: 12px;
+    margin: 0px 0px 12px 0px;
+    background: none!important;
+    text-align: center!important;
+    padding: 0 !important;
+    color: #CECECE;
+}
+
+#box-paginacao ul li a {
+    background: #CECECE;
+    color: #000;
+    font: bold 12px Arial, Tahoma, Helvetica;
+    padding: 4px 7px !important;
+    border-radius: 2px;
+}
+
+#box-paginacao ul li a:hover {
+    color: #FFFFFF;
+    background: #414141;
+}
+</style>
+<!-- fim paginacao -->
+
+
+<!-- Acessibilidade -->
+
+<style type="text/css">
+.fundoAcessibilidade {
+}
+
+.opcoesAcesso{
+	font-family: Arial;
+    font-size: 12px;
+	font-weight:bold;
+    color: #5e5e5e;
+}
+
+.iconeDeficiente{
+	background-image:url('../images/icone_deficiente.jpg');
+	background-repeat:no-repeat;
+	background-position:left;
+	width:40px;
+	height:50px;
+}
+
+.separador{
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:0 10 0 10;
+}
+
+.teclaAlt{
+	background-image:url('../images/tecla_alt.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:30px;
+}
+
+.botaoAumentaTexto{
+	background-image:url('../images/botao_aumenta_texto.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:30px;
+}
+
+.botaoDiminuiTexto{
+	background-image:url('../images/botao_diminui_texto.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:30px;
+}
+
+.iconeContraste{
+	background-image:url('../images/icone_contraste.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:22px;
+}
+
+.iconeAcessoInformacao{
+	background-image:url('../images/icone_acesso.png');
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-left:5px;
+	width:62px;
+}
+
+.linksOpcoesAcesso{
+	color:#5e5e5e;
+}
+</style>
+
+<!--<noscript>Seu Navegador n�o tem suporte a esse JavaScript!</noscript>-->
+<style type="text/css">
+.scw           {padding:1px;vertical-align:middle;}iframe.scw     {position:absolute;z-index:1;top:0px;left:0px;visibility:hidden;width:1px;height:1px;}table.scw      {padding:0px;visibility:hidden;position:absolute;cursor:default;width:200px;top:0px;left:0px;z-index:2;text-align:center;}
+</style>
+<style type="text/css">
+/* IMPORTANT:  The SCW calendar script requires all                the classes defined here.*/table.scw      {padding:       1px;vertical-align:middle;border:        ridge 2px;font-size:     10pt;font-family:   Verdana,Arial,Helvetica,Sans-Serif;font-weight:   bold;}td.scwDrag,td.scwHead                 {padding:       0px 0px;text-align:    center;}td.scwDrag                 {font-size:     8pt;}select.scwHead             {margin:        3px 1px;text-align:    center;}input.scwHead              {height:        22px;width:         22px;vertical-align:middle;text-align:    center;margin:        2px 1px;font-weight:   bold;font-size:     10pt;font-family:   fixedSys;}td.scwWeekNumberHead,td.scwWeek                 {padding:       0px;text-align:    center;font-weight:   bold;}td.scwNow,td.scwNowHover,td.scwNow:hover,td.scwNowDisabled          {padding:       0px;text-align:    center;vertical-align:middle;font-weight:   normal;}table.scwCells             {text-align:    right;font-size:     8pt;width:         96%;}td.scwCells,td.scwCellsHover,td.scwCells:hover,td.scwCellsDisabled,td.scwCellsExMonth,td.scwCellsExMonthHover,td.scwCellsExMonth:hover,td.scwCellsExMonthDisabled,td.scwCellsWeekend,td.scwCellsWeekendHover,td.scwCellsWeekend:hover,td.scwCellsWeekendDisabled,td.scwInputDate,td.scwInputDateHover,td.scwInputDate:hover,td.scwInputDateDisabled,td.scwWeekNo,td.scwWeeks                {padding:           3px;width:             16px;height:            16px;border-width:      1px;border-style:      solid;font-weight:       bold;vertical-align:    middle;}/* Blend the colours into your page here...    *//* Calendar background */table.scw                  {background-color:  #6666CC;}/* Drag Handle */td.scwDrag                 {background-color:  #9999CC;color:             #CCCCFF;}/* Week number heading */td.scwWeekNumberHead       {color:             #6666CC;}/* Week day headings */td.scwWeek                 {color:             #CCCCCC;}/* Week numbers */td.scwWeekNo               {background-color:  #776677;color:             #CCCCCC;}/* Enabled Days *//* Week Day */td.scwCells                {background-color:  #CCCCCC;color:             #000000;}/* Day matching the input date */td.scwInputDate            {background-color:  #CC9999;color:             #FF0000;}/* Weekend Day */td.scwCellsWeekend         {background-color:  #CCCCCC;color:             #CC6666;}/* Day outside the current month */td.scwCellsExMonth         {background-color:  #CCCCCC;color:             #666666;}/* Today selector */td.scwNow                  {background-color:  #6666CC;color:             #FFFFFF;}/* Clear Button */td.scwClear                {padding:           0px;}input.scwClear             {padding:           0px;text-align:        center;font-size:         8pt;}/* MouseOver/Hover formatting        If you want to "turn off" any of the formatting        then just set to the same as the standard format       above.        Note: The reason that the following are       implemented using both a class and a :hover       pseudoclass is because Opera handles the rendering       involved in the class swap very poorly and IE6        (and below) only implements pseudoclasses on the       anchor tag.*//* Active cells */td.scwCells:hover,td.scwCellsHover           {background-color:  #FFFF00;cursor:            pointer;color:             #000000;}/* Day matching the input date */td.scwInputDate:hover,td.scwInputDateHover       {background-color:  #FFFF00;cursor:            pointer;color:             #000000;}/* Weekend cells */td.scwCellsWeekend:hover,td.scwCellsWeekendHover    {background-color:  #FFFF00;cursor:            pointer;color:             #000000;}/* Day outside the current month */td.scwCellsExMonth:hover,td.scwCellsExMonthHover    {background-color:  #FFFF00;cursor:            pointer;color:             #000000;}/* Today selector */td.scwNow:hover,td.scwNowHover             {color:             #FFFF00;cursor:            pointer;font-weight:       bold;}/* Disabled cells *//* Week Day *//* Day matching the input date */td.scwInputDateDisabled    {background-color:  #999999;color:             #000000;}td.scwCellsDisabled        {background-color:  #999999;color:             #000000;}/* Weekend Day */td.scwCellsWeekendDisabled {background-color:  #999999;color:             #CC6666;}/* Day outside the current month */td.scwCellsExMonthDisabled {background-color:  #999999;color:             #666666;}td.scwNowDisabled          {background-color:  #6666CC;color:             #FFFFFF;}
+</style>
+<script type="text/javascript">
+	function mudarContraste(){
+		if(sessionStorage.contraste_atual=='s'){
+			sessionStorage.contraste_atual='';
+			var contraste = 1;
+			document.location.reload(true);	
+		}else{
+			sessionStorage.contraste_atual='s';
+			var contraste = 1;
+			document.location.reload(true);	
+		}
+	
+		contraste();
+	}
+	function mudarFonte(fonte){
+		if(fonte=='maior'){
+			if(!sessionStorage.fonte_atual || parseInt(sessionStorage.fonte_atual)<=7){
+				if(!sessionStorage.fonte_atual){
+					sessionStorage.fonte_atual=1;
+				}
+				sessionStorage.fonte_atual++;
+				$("*").each(function (i) {
+				aumentaFonte(this);
+				});
+			}
+		}else{
+			if( parseInt(sessionStorage.fonte_atual)>0){
+				sessionStorage.fonte_atual--;
+					sessionStorage.fonte_atual=0; // para normal
+			document.location.reload(true);	
+			}
+			
+		}
+		
+	}
+	
+	function contraste(){
+		if (sessionStorage.contraste_atual && sessionStorage.contraste_atual=='s'){	
+			$(".iconeDeficiente").css("background-image","url(images/icone_deficiente_contraste.jpg)");
+			$(".banner_footer").css("background-image","url(images/slider_floor_contraste.png)"); 
+			$(".iconeAcessoInformacao").css("background-image","url(images/icone_acesso_contraste.png)");
+			
+		
+			$(".fundoAcessibilidade").css("background", "#000000");
+
+			$("#meio").css("background", "#000000");
+			$(".wrap").css("background", "#000000");
+			$(".licitacoes").css("background", "#000000");
+			$("#box-paginacao").css("background", "#000000");
+			$(".container").css("background", "#000000");
+			$(".topo").css("background", "#000000");
+			$("#section").css("background", "#000000");
+			$(".pdd-header-logo").css("background", "#000000");
+			$(".container-fluid").css("background", "#000000");
+			$(".pdd-header-items-bg").css("background", "#000000");
+			$(".assistencia-med").css("background", "#000000");
+			$(".previdencia").css("background", "#000000");
+			$(".regime-proprio").css("background", "#000000");
+			$(".simulador").css("background", "#000000");
+			$(".panel-collapse").css("background", "#000000");
+			$(".list-group-list").css("background", "#000000");
+			$(".list-group").css("background", "#000000");
+			$(".panel-default").css("background", "#000000");
+			$(".list-group-item").css("background", "#000000");
+			$(".list-group-item-md").css("background", "#000000");
+			$(".panels-list").css("background", "#000000");
+			$(".menu-item").css("background", "#000000");
+
+			$(".pdd-footer-mapa-bg").css("background", "#000000");
+			$(".pdd-footer-mapa-bg").css("borderTop", "2px solid #cccccc");
+			$(".pdd-header-menu-bg").css("borderBottom", "1px solid #cccccc");
+			$(".pdd-header-menu-bg").css("borderTop", "1px solid #cccccc");
+			$("#rodape3").css("borderTop", "1px solid #cccccc");
+
+			$("#divPaginaTitulo").css("background", "#000000");
+			$("#rodape3").css("background", "#000000");
+			$(".tdSubMenu").css("background", "#000000");
+			$(".linksOpcoesAcesso").css("color", "#FFFFFF");
+			$("#areaMeio").css("borderTop", "1px solid #cccccc");
+			$(".fundo_capa").css("background","url(./images/fundo_topo_contraste.jpg) repeat-x 0px 50px");
+			$(".barraData").css("background", "#000000");
+			$(".rodape").css("background", "#000000");
+			$("#botInformativo").css("background", "#000000");
+			$(".month").css("background", "#333333");
+			$(".fa-search").css("background", "#333333");
+			$(".section").css("background-color", "#000000");
+			$(".pdd-content-title").css("color", "#FFFFFF");
+			$(".text-left").css("color", "#FFFFFF");
+			$("hr").css("border-color", "#FFFFFF");
+			$(".text-contraste").css("color", "#FFFFFF");
+			$(".titulonotcapa").css("color", "#FFFFFF");
+			$(".pdd-hover-title").css("color", "#FFFFFF");
+
+			$(".menu_inicio").css("color", "#FFFFFF");
+			$(".menu_inicio_conteudo").css("color", "#FFFFFF");
+			$(".menu_inicio").css("background", "#000000");
+			$(".menu_inicio_conteudo").css("borderTop", "1px solid #cccccc");
+			$(".menu_inicio_conteudo").css("borderBottom", "1px solid #cccccc");
+			$(".menu_inicio").css("borderTop", "1px solid #cccccc");
+			$(".menu_inicio").css("borderBottom", "1px solid #cccccc");
+			$(".panel-heading").css("background", "#000000");
+
+			$(".pdd-footer-mapa").css("background", "#000000");
+			$(".row").css("background", "#000000");
+
+			$(".menu_inicio_conteudo").css("background", "#000000");
+
+
+
+			if(document.getElementById('imgGalerias')) { document.getElementById('imgGalerias').src = 'images/galeria_multimidia_contraste.png'; }
+
+			if(document.getElementById('logonoticias')) { document.getElementById('logonoticias').src = 'images/noticias_contraste.png'; }
+			
+			
+			
+			if(document.getElementById('logowebmail')) { document.getElementById('logowebmail').src = 'images/webmail_contraste.png'; }
+			if(document.getElementById('logotransparencia')) { document.getElementById('logotransparencia').src = 'images/transparencia_contraste.png'; }
+			if(document.getElementById('logoe-sic')) { document.getElementById('logoe-sic').src = 'images/e-sic_contraste.png'; }
+			if(document.getElementById('logo-governo')) { document.getElementById('logo-governo').src = '../images/logo-contraste.png'; }
+			if(document.getElementById('logo-adm')) { document.getElementById('logo-adm').src = '../images/logo-contraste.png'; }
+
+			if(document.getElementById('transmissao2')) { document.getElementById('transmissao2').src = 'images/transmissao2_contraste.png'; }
+			if(document.getElementById('hino2')) { document.getElementById('hino2').src = 'images/hino_contraste.png'; }
+
+			$("*","#meio").each(function (i) {
+
+				if(this.className.toLowerCase().indexOf('tdsubmenu')>-1){
+					//alert(this.className);
+					$("."+this.className).css("background", "#000000");
+				}
+
+				if(this.className.toLowerCase().indexOf('box')>-1 || this.className.toLowerCase().indexOf('titulodestaqueprincipal')>-1 ){
+					//alert(this.className);
+					$("."+this.className).css("background", "#0D6BD6");
+					$("."+this.className).css("color", "yellow");
+					//$(this).animate({'background':''});
+				}
+				
+			
+				if (this.style.color=="blue" || $(this).css('color') == "blue" ||  $(this).css('color') == "#898989" || $(this).css('color') =="rgb(255, 255, 255)" || $(this).css('color') =="rgb(255, 255, 0)"  || $(this).css('color') == "yellow"  ) {
+				  this.style.color = this.style.color ;
+				} else if(this.type!=null && (this.type=='text' || this.type=='password' || this.type=='textarea' || this.type=='select-one') ){
+					$(this).animate({'background-color' : '#000000',
+									 'font-weight': 'bold'});
+									 
+					this.style.color = "yellow";
+					this.style.fontWeight = "bold";
+					this.bgColor="#000000";
+					this.style.backgroundColor='#000000';
+				}else{
+				   this.style.color = "#FFFFFF";
+				}
+
+				if($(this).css('background-color') =="rgba(0, 0, 0, 0)" || $(this).css('background-color') =="rgb(0, 0, 0)" || $(this).css('background-color') =="rgb(255, 255, 255)" || $(this).css('background-color') =="rgb(240, 240, 240)" || $(this).css('background-color') =="rgb(123, 123, 123)"){
+					$(this).animate({'background-color' : '#000000'});
+					//this.style.backgroundColor='';
+					this.style.background='#0000000';
+					this.style.backgroundColor='#0000000';
+					this.onmouseover="";
+					this.onmouseout="";
+					
+				}else{
+					 var parentTag = $(this).parent().get(0).tagName;
+
+				}
+
+				if((this.bgColor != null && this.bgColor !='') && (this.bgColor=="#ffffff" || this.bgColor=="#FFFFFF")){
+					this.bgColor="#000000";
+					this.style.backgroundColor='#000000';
+					this.onmouseover="";
+					this.onmouseout="";
+				}else if(this.bgColor != null && this.bgColor !=''){
+					this.bgColor="0d6bd6";
+					this.style.backgroundColor='#0d6bd6';
+					this.style.color = "yellow";
+					this.onmouseover="";
+					this.onmouseout="";
+					var parentTag = $(this).parent().get(0).tagName;
+					$("*", this).each(function () {
+						this.style.color = "yellow";
+						this.style.backgroundColor='';
+					});
+				}else if(this.bgColor != null && this.bgColor !='' && (this.bgColor=="#2E698B" || this.bgColor=="#2e698B")){
+					this.bgColor="0d6bd6";
+					this.style.backgroundColor='#0d6bd6';
+					this.style.color = "yellow";
+					this.onmouseover="";
+					this.onmouseout="";
+					var parentTag = $(this).parent().get(0).tagName;
+					$("*", this).each(function () {
+						this.style.color = "yellow";
+						this.style.backgroundColor='';
+					});
+				}
+				
+			});
+			$(".gridResultados").css("background", "#000000");
+			$(".gridResultados").css("background-color", "#000000");
+			$(".pdd-header-fone h1").css("color", "#ffffff");
+			$(".pdd-header-fone h3").css("color", "#ffffff");
+			$(".pdd-header-search").css("color", "#ffffff");
+			$(".text-left").css("color", "#ffffff");
+			$("ul li.mapa").css("color", "#ffffff");
+			$("ul li.mapa a").css("color", "#ffffff");
+			$("a").css("color", "#ffffff");
+			$("a:hover").css("color", "#ffffff");
+			$(".acessivel").css("background-color", "#000000");
+			$(".col-md-12").css("color", "#ffffff");
+			$(".col-md-6").css("color", "#ffffff");
+			$(".col-md-4").css("color", "#ffffff");
+			$(".col-md-3").css("color", "#ffffff");
+			$(".col-md-2").css("color", "#ffffff");
+			$(".col-md-1").css("color", "#ffffff");
+			$(".wrap").css("color", "#ffffff");
+			$("p").css("color", "#ffffff");
+			$(".c-titulo").css("color", "#ffffff");
+			$(".c-sumario").css("color", "#ffffff");
+			$(".c-intertitulo").css("color", "#ffffff");
+			$(".btn").css("background-color", "#FFFFFF");
+			$(".btn").css("color", "#000000");
+			$(".quemsomostexto").css("background-color", "#000000");
+			$(".quemsomostexto").css("color", "#FFFFFF");
+			$(".quemsomostexto span").css("background-color", "#000000");
+			$(".quemsomostexto span").css("color", "#FFFFFF");
+			$("strong").css("background-color", "#000000");
+			$("h1 span").css("color", "#FFFFFF");
+			$("h2 span").css("color", "#FFFFFF");
+			$("h3 span").css("color", "#FFFFFF");
+			$("h4 span").css("color", "#FFFFFF");
+			$("h5 span").css("color", "#FFFFFF");
+
+			$(".banner").css("background", "#000000");
+
+			$(".sorting_1").css("background", "#000000");
+			$(".sorting_1").css("color", "#FFFFFF");
+			$(".select_cor_fundo").css("background", "#000000");
+			$(".select_cor_fundo").css("color", "#FFFFFF");
+			$("img").css("-webkit-filter", "grayscale(100%)");
+			$("img").css("filter", "grayscale(100%)");
+			$("img").css("filter", "gray");
+
+			$(".btnSelect").css("background", "#000000");
+			$(".btnSelect-active").css("background", "#FFFFFF");
+			$(".btnSelect-active").css("color", "#000000");
+			$(".titulo0045").css("background", "#000000");
+			$(".titulo004").css("color", "#FFFFFF");
+			$(".sorting_1").css("background", "#000000");
+			$(".sorting_1").css("color", "#ffffff");
+			$(".sorting").css("background", "#000000");
+			$(".sorting").css("color", "#ffffff");
+			$(".btnImprimir").css("background", "#FFFFFF");
+			$(".btnImprimir").css("color", "#000000");
+			$(".panel-body").css("background", "#000000");
+			$(".ultimas_noticias").css("background", "#000000");
+			$(".panel-body").css("color", "#FFFFFF");
+			$(".link_inicio").css("background", "#FFFFFF");
+			$(".link_inicio").css("color", "#000000");
+			$(".panel-primary").css("border-color", "#FFFFFF");
+			$(".panel-heading").css("border-color", "#FFFFFF");
+
+
+/*			panel panel-primary*/
+
+		
+		/*
+		$("*", document.body).each(function () {
+			var parentTag = $(this).parent().get(0).tagName;
+			$(this).prepend(document.createTextNode(parentTag + " > "));
+		});
+		*/
+		
+		}
+	}
+	
+</script>
+
+<!--<noscript>Seu Navegador n�o tem suporte a esse JavaScript!</noscript>-->
+<script type="text/javascript">
+	function aumentaFonte(tag) {
+		var size = $(tag).css('font-size');
+
+		if(size!=null){
+			size = size.replace('px', '');
+			
+			if((parseInt(size)+parseInt(sessionStorage.fonte_atual))<50){
+				size = parseInt(size) + parseInt(sessionStorage.fonte_atual);
+			}else{
+				size = 16;
+			}
+			
+			
+			$(tag).animate({ fontSize: ""+size+"px" }, 1000 );
+
+		}
+
+	}
+	
+	$(document).ready(function(){
+		
+	
+	//console.log('teste1');
+
+	//console.log('teste');
+	contraste();
+
+	
+
+
+	if (sessionStorage.fonte_atual>0){
+	
+		
+			$("*").each(function (i) {
+				aumentaFonte(this);
+			});
+	
+		
+	}
+	
+	
+		
+});
+	
+</script>
+<!-- fim acessibilidade -->
+
+
+     
+
+
+<title>    CIDESASUL</title>
+<meta name="description" content="Cons�rcio Intermunicipal de Desenvolvimento Econ�mico Social e Ambiental da Regi�o Sul-MT">
+<meta property="og:title" content="
+    CIDESASUL">
+<meta property="og:image" content="https://www.cidesasul.com.br/images/logo_face.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+
+
+
+
+
+<meta property="og:site_name" content="CIDESASUL" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="1538182976478335" />
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-114732604-1', 'auto');
+  ga('send', 'pageview');
+</script> 
+
+
+	<link media="screen" rel="stylesheet" href="colorbox/colorbox.css" />
+	<script src="colorbox/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".group1").colorbox({rel:'group1', maxWidth:"100%", maxHeight:"100%",});
+			$(".group2").colorbox({rel:'group2', transition:"fade"});
+			$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+			$(".group4").colorbox({rel:'group4', transition:"none", maxWidth:"1024", maxHeight:"680", slideshow:true});
+			$(".ajax").colorbox();
+			$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+			$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: Colorbox est� prestes a abrir.'); },
+				onLoad:function(){ alert('onLoad: ColorBox come�ou a carregar o conte�do.'); },
+				onComplete:function(){ alert('onComplete: ColorBox exibindo o conte�do carregado.'); },
+				onCleanup:function(){ alert('onCleanup: ColorBox iniciou o processo de fechamento.'); },
+				onClosed:function(){ alert('onClosed: ColorBox fechado'); }
+			});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Abra esta janela novamente e esta mensagem ainda estar� aqui.");
+				return false;
+			});
+		});
+	</script>
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<link rel="stylesheet" href="./transparencia/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" id="font-awesome-css" href="./transparencia/css/font-awesome.css" type="text/css" media="all" />
+
+</head>
+
+<body style="margin:0px; padding:0px;">
+
+
+<!-- CARREGANDO SIC -->
+	<div class="section" style="background-color:#338533; border-bottom: 1px solid #FFF;">
+	  <div class="container">
+	   <div class="row">
+	    <div class="" style="padding-top:5px;">
+
+<table style="width:100%; height:50px;" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="fundoAcessibilidade" id="fundoAcessibilidade">
+			<table border="0" cellpadding="0" cellspacing="0" align="center" class="opcoesAcesso">
+				<tr>
+					<td><i class="fa fa-universal-access" aria-hidden="true" style="font-size:24px; margin-right:5px; color:#FFF !important;"></i></td>
+					<td style="padding-left:3px; font-weight:bold; width:10%; color:#FFF;" class="hidden-sm hidden-xs">Recursos de<br />Acessibilidade:&nbsp;</td>
+					<td style="padding-left:3px;"><a href="/#conteudo" accesskey="1" onkeypress="#conteudo" style="text-decoration:none;" title="Tecle Alt+1 Ir ao conte�do" tabindex="2"><button class="btn btn-sm btn-default" style="font-weight:bold;"><span class="hidden-sm hidden-xs">Tecle Alt+1 : </span>Ir ao conte&uacute;do</button></a></td>
+					<td style="padding-left:3px;"><a href="./mapa-do-site/" accesskey="2" onkeypress="#mapa_site" style="text-decoration:none;"  title="Mapa do site" tabindex="3"><button class="btn btn-sm btn-default" style="font-weight:bold;"><span class="hidden-sm hidden-xs">Tecle Alt+2 : Ir ao </span>Mapa Site <i class="fa fa-sitemap" aria-hidden="true"></i></button></a></td>
+					<td style="padding-left:3px;"><a style="text-decoration:none; cursor:pointer;" title="Diminuir texto" tabindex="4"><button class="btn btn-sm btn-default" onClick="mudarFonte('menor');" onkeypress="mudarFonte('menor');" style="font-weight:bold;"><span class="hidden-sm hidden-xs">Texto Normal </span> A-</button></a></td>
+					<td style="padding-left:3px;"><a style="text-decoration:none; cursor:pointer;" title="Aumentar texto" tabindex="5"><button class="btn btn-sm btn-default " onClick="mudarFonte('maior');" onkeypress="mudarFonte('maior');" style="font-weight:bold;"><span class="hidden-sm hidden-xs">Texto Maior </span> A+</button></a></td>
+					<td style="padding-left:3px;"><a style="text-decoration:none; cursor:pointer;" title="Contraste" tabindex="6"><button class="btn btn-sm btn-default" onClick="mudarContraste();" onkeypress="mudarContraste();" style="font-weight:bold;"><span class="hidden-sm hidden-xs">Contraste </span><i class="fa fa-adjust" style="font-size:18px;" aria-hidden="true"></i></button></a></td>
+
+					<td style="padding-left:3px;" class="hidden-sm hidden-xs"><a href="./transparencia/ouvidoria/" target="_blank" style="text-decoration:none; cursor:pointer;" title="Contraste" tabindex="7"><button class="btn btn-sm btn-default" style="font-weight:bold;"><img src="./images/icone_acesso.png" width="60" height="18"  alt=""/></button></a></td>
+
+
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+</table>
+		</div>
+	   </div>
+     </div>
+    </div>
+<!-- fim acessibilidade --> 
+
+
+
+<!-- <div id="divPagina"> -->
+<div id="meio" class="areaMeio" style="margin:0px; padding:0;">
+
+
+
+	<!-- cabecalho -->
+	<div class="container-full">
+		
+				<div id="cabecalho" style="background-size: Auto 100%; background-position: 100%; background-repeat: no-repeat;">
+		
+		<div  style="background:url(images/fundo.png) no-repeat; background-size: 100% auto; background-position: 0%;  opacity: 0.3;z-index: -1;height: 190px;position: absolute;
+		width: 100%;"></div>
+
+		<div class="topo" style=" position: relative;" align="center">
+			<a href="./" ><img class="logo img-responsive " src="images/logo-principal.png" alt="CIDESASUL" /></a>			
+		</div>
+	</div>
+		<p style="border-bottom: 3px solid #0a51a2; margin: 0;"></p>
+		<div class="navegacao" style="border-top: 3px solid #f5c500;">
+			<nav class="navbar navbar-default" id="menu2">
+				<div class="navbar-header menu_mobile">
+				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				    
+				    <a class="navbar-brand visible-xs"><b>MENU</b></a>
+			    </div>
+				
+				<div class="collapse navbar-collapse default_home menu_mobile" id="menu">
+					<div class="container">
+
+
+						<ul class="nav navbar-nav menu" id="menu1">
+							<li role="presentation" class="dropdown" id="inicio">
+								<a href="./">IN�CIO</a>
+							</li>
+							<li role="presentation" class="dropdown" id="institucional" onmouseover="abrir(institucional)">
+								<a onclick="abrir(institucional)" onmouseout="fechar(institucional)">INSTITUCIONAL</a>
+								<ul class="dropdown-menu" onmouseout="fechar(institucional)">
+									<p style="border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;"></p>
+									<li><a href="./">P�gina Inicial</a></li>
+									<li><a href="quemsomos/">Quem Somos</a></li>
+									<li><a href="transparencia/competencia-jurisdicao-atribuicao/" target="_blank">Compet�ncia, Jurisdi��o e Atribui��es</a></li>
+						            <li> <a href="arquivos/rn14/estatuto-cidesasul.pdf" target="_blank">Estatuto</a> </li>
+						            <li> <a href="arquivos/rn14/Lei11107-2005-Dispoe-sobre-os-Consorcios-Publicos.pdf" target="_blank">Lei 11.107/2005 - Normas gerais de contrata��o Cons�rcios</a> </li>
+									<li><a href="presidente/">Presidente</a></li>
+									<li><a href="diretoria/">Diretoria Executiva</a></li>
+									<li><a href="consorciados/">Munic�pios Participantes</a></li>
+								</ul>
+							</li>
+
+							<li role="presentation" class="dropdown" id="legislacao" onmouseover="abrir(legislacao)">
+								<a onmouseout="fechar(legislacao)">LEGISLA��O</a>
+								<ul class="dropdown-menu" onmouseout="fechar(legislacao)">
+									<p style="border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;"></p>
+
+									<li><a href="transparencia/mostra_leis/Normativa/" target="_blank">Normativas</a></li>
+									<li><a href="transparencia/mostra_leis/Portaria/" target="_blank">Portarias</a></li>
+									<li><a href="transparencia/mostra_leis/Resolucao/" target="_blank">Resolu��es</a></li>
+
+
+									<li><a href="https://www.al.mt.gov.br/arquivos/legislacao/constituicao_estadual.pdf" target="_blank">Constitui��o Estadual</a></li>
+									<li><a href="http://www.senado.gov.br/legislacao/const/con1988/CON1988_27.05.2014/CON1988.pdf" target="_blank">Constitui��o Federal</a></li>
+									<li><a href="https://www.al.mt.gov.br/legislacao/" target="_blank">Legisla��o Estadual</a></li>
+									<li><a href="http://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/leis-ordinarias" target="_blank">Legisla��o Federal</a></li>
+								</ul>
+							</li>							
+
+							<li role="presentation" id="noticias"><a href="./noticias/9/Ultimas-Noticias/">NOT�CIAS</a></li>
+
+							<li role="presentation" class="dropdown" id="comunicacao" onmouseover="abrir(comunicacao)">
+								<a onmouseout="fechar(comunicacao)">SALA DE IMPRENSA</a>
+								<ul class="dropdown-menu" onmouseout="fechar(comunicacao)">
+									<p style="border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;"></p>
+									<li><a href="fotos/1/0/Galeria-de-Fotos/">Galeria de Fotos</a></li>
+									<li><a href="videos/">Galeria de V�deos</a></li>
+									<li><a href="noticias/9/Ultimas-Noticias/">�ltimas Not�cias</a></li>
+								</ul>
+							</li>
+
+							<li role="presentation" class="dropdown" id="transparencia" onmouseover="abrir(transparencia)">
+								<a onmouseout="fechar(transparencia)">TRANSPAR�NCIA</a>
+								<ul class="dropdown-menu" onmouseout="fechar(transparencia)">
+									<p style="border-bottom: 1px solid #fff; max-width: 80%; margin-left: 10% !important; margin-bottom: 0;"></p>
+									<li><a href="http://intranet.cidesasul.com.br:8070/transparencia" target="_blank">Contas P�blicas</a></li>
+									<li><a href="http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkContratos" target="_blank">Contratos</a></li>
+									<li><a href="./transparencia/pref_online/eleicoes/" target="_blank">Elei��es</a></li>
+									<li><a href="http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes" target="_blank">Licita��es</a></li>
+									<li><a href="transparencia/" target="_blank">Portal Transpar�ncia</a></li>
+								</ul>
+							</li>
+
+
+							<li role="presentation" id="sim"><a href="https://www.cidesasul.com.br/transparencia/mostra_publicacao/50/0/SIM/" target="_blank">SIM</a></li>
+							<li role="presentation" id="contato"><a href="faleconosco">FALE CONOSCO</a></li>
+							<li role="presentation" id="webmail"><a href="https://www.cidesasul.com.br:2096" target="_blank">WEBMAIL</a></li>
+
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+
+<script>
+	function abrir(menu){
+		var $menu = $(menu);
+		$menu.addClass('open');
+	}
+
+	function fechar(menu){
+		var $menu = $(menu);
+		$menu.removeClass('open');
+	}
+</script>
+
+
+<div id="conteudo"></div>
+
+      <!-- capa -->
+<div style="min-height:600px;">
+
+	<div class="section">
+	  <div class="container">
+	   <div class="row" style="padding-bottom:15px;">
+	    <div class="col-md-12">
+		  <span style="font-family:arial; font-size:11px; text-transform:uppercase; font-weight:bold;">Voc� est� em: <a href="./">In�cio</a>
+          	          </span>
+          
+		</div>
+	   </div>
+     </div>
+    </div>
+
+
+      <!-- popup de anuncio para home -->
+
+<!-- fim da popup -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<style>
+
+/* �cone de v�deo */
+.ico-player{background: none;
+  width: 50px;
+  height: 50px;
+  border: solid 2px #fff;
+  border-radius: 100%;  
+  padding: 0;
+  text-indent:-9999px;
+  position:absolute;
+  left:50%;
+  margin-top:25%;
+  margin-left:-30px;
+  box-shadow: 1px 2px 3px #000;-webkit-transition:background .25s ease-out;-moz-transition:background .25s ease-out;-o-transition:background .25s ease-out;transition:background .25s ease-out; background-color:#006600; opacity: 0.8;}
+  
+
+.ico-player span{width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 15px solid #fff;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  left: 37%;
+  top: 25%;
+  }
+  
+</style>
+
+	<!-- /Destaques -->
+
+
+
+
+<section id="acesso" class="container-fluid vntd-section-default section-default-width">
+<div class="col-md-12 col-sm-12 col-xs-12 pad_l10"  style="max-width:1750px;">
+	<div class="col-md-12 col-sm-12 col-xs-12" style="padding-left:0px;">
+
+
+
+
+
+
+				<div class="col-md-12 col-sm-12 col-xs-12">
+
+
+	<div class='col-md-6 col-sm-12 col-xs-12 noticias' style='margin-bottom:15px;'>
+		<a href='noticia/9/104/Parceria-entre-Cidesasul-e-Prefeitura-fortalece-producao-de-uvas-com-kit-de-irrigacao-em-Sao-Pedro-da-Cipa-MT/'><img alt='Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)' id='1' src='gd3.php?larg=800&alt=475&foto=imgs_noticias/104.png' data-image='imgs_noticias/104.png'>
+    	<span class="noticiaslidas2">Parceria entre Cidesasul e Prefeitura fortalece produ��o de uvas com kit de irriga��o em S�o Pedro da Cipa (MT)</span></a>
+
+    </div>
+
+	<div class='col-md-6 col-sm-12 col-xs-12 noticias' style=' margin-bottom:15px;'>
+		<a href='noticia/9/103/Mutirao-do-CAR-Digital-20-acontece-em-Jaciara-e-atende-produtores-dos-14-municipios-consorciados/'><img alt='Mutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados' id='1' src='gd3.php?larg=800&alt=475&foto=imgs_noticias/103.jpeg' data-image='imgs_noticias/103.jpeg'>
+    	<span class="noticiaslidas2">Mutir�o do CAR Digital 2.0 acontece em Jaciara e atende produtores dos 14 munic�pios consorciados</span>
+        </a>
+    </div>
+
+
+	</div>
+
+
+			<div class="col-md-12 col-sm-12 col-xs-12" >
+			<div style="clear: both;"></div>
+			<p class="ultimas_noticias">
+				<a href="noticias" style="color:#fff">+ Not�cias</a>
+			<p class="hidden-xs" style="border-bottom: 2px solid #F4C415; margin: 0;"></p>
+			</p><br style="clear:both;"/></div>
+
+
+
+
+				<div class="col-md-12 col-sm-12 col-xs-12">
+
+
+	<div class='col-md-4 col-sm-6 noticias' style='padding: 0; margin-bottom:15px;'>
+		<a href='noticia/9/102/Mutirao-do-CAR-Digital-20-atendera-produtores-dos-14-municipios-consorciados/'><img alt='Mutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados' id='1' src='gd3.php?larg=720&alt=475&foto=imgs_noticias/102.png' data-image='imgs_noticias/102.png'>
+    	<span class="noticiaslidas">Mutir�o do CAR Digital 2.0 atender� produtores dos 14 munic�pios consorciados</span></a>
+
+    </div>
+
+	<div class='col-md-4 col-sm-6 noticias' style='padding: 0; margin-bottom:15px;'>
+		<a href='noticia/9/101/Cidesasul-reune-prefeitos-e-fortalece-acoes-estrategicas-para-o-desenvolvimento-sustentavel-da-regiao-Sul-de-MT/'><img alt='Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT' id='1' src='gd3.php?larg=720&alt=475&foto=imgs_noticias/101.png' data-image='imgs_noticias/101.png'>
+    	<span class="noticiaslidas">Cidesasul re�ne prefeitos e fortalece a��es estrat�gicas para o desenvolvimento sustent�vel da regi�o Sul de MT</span></a>
+    </div>
+
+	<div class='col-md-4 col-sm-6 noticias hidden-sm ' style='padding: 0; margin-bottom:15px;'>
+		<a href='noticia/9/100/Cidesasul-amplia-atuacao-e-recebe-Alto-Taquari-como-novo-municipio-consorciado/'><img alt='Cidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado' id='1' src='gd3.php?larg=720&alt=475&foto=imgs_noticias/100.jpeg' data-image='imgs_noticias/100.jpeg'>
+    	<span class="noticiaslidas">Cidesasul amplia atua��o e recebe Alto Taquari como novo munic�pio consorciado</span></a>
+    </div>
+
+	</div>
+    </div>
+    </div>
+    </section>
+
+
+	<!-- /Consorciados -->
+<section id="clientes" class="container-fluid vntd-section-default section-default-width">
+<div class="col-md-12 col-sm-12 pad_l10"  style="max-width:1750px;">
+	<div class="col-md-12 col-sm-12" style="padding-left:0px;">
+			<div class="col-md-12 col-sm-12" style="padding-top: 25px;">
+			<div style="clear: both;"></div>
+			<p class="ultimas_noticias">
+				<a href="./consorciados/" style="color:#fff">Munic�pios Consorciados</a>
+			<p class="hidden-xs" style="border-bottom: 2px solid #F4C415; margin: 0;"></p>
+			</p><br style="clear:both;"/></div>
+
+      <div class="vc_row wpb_row vc_row-fluid" style="padding-top:50px; max-width:90%;">
+        <div class="inner vc_row-inner default">
+          <div class="inner-margin">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+              <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                  <div class="wpb_text_column wpb_content_element ">
+                    <div class="wpb_wrapper">
+                      <div class="tc-carousel-container">
+                        <div class="tc-carousel-demo">
+
+						<a href="http://www.altogarcas.mt.gov.br" title="Alto Gar�as" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/alto-garcas.jpg" class="attachment-full size-full wp-post-image " alt="Alto Gar�as" title="Alto Gar�as" /></div>
+						</a>
+
+  
+						<a href="http://www.altotaquari.mt.gov.br" title="Alto Taquari" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/alto-taquari.jpg" class="attachment-full size-full wp-post-image " alt="Alto Taquari" title="Alto Taquari" /></div>
+						</a>
+
+  
+						<a href="http://www.campoverde.mt.gov.br" title="Campo Verde" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/campo-verde.jpg" class="attachment-full size-full wp-post-image " alt="Campo Verde" title="Campo Verde" /></div>
+						</a>
+
+  
+						<a href="http://www.domaquino.mt.gov.br" title="Dom Aquino" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/dom-aquino.jpg" class="attachment-full size-full wp-post-image " alt="Dom Aquino" title="Dom Aquino" /></div>
+						</a>
+
+  
+						<a href="http://www.itiquira.mt.gov.br" title="Itiquira" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/itiquira.jpg" class="attachment-full size-full wp-post-image " alt="Itiquira" title="Itiquira" /></div>
+						</a>
+
+  
+						<a href="http://www.jaciara.mt.gov.br" title="Jaciara" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/jaciara.jpg" class="attachment-full size-full wp-post-image " alt="Jaciara" title="Jaciara" /></div>
+						</a>
+
+  
+						<a href="http://www.juscimeira.mt.gov.br" title="Juscimeira" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/juscimeira.jpg" class="attachment-full size-full wp-post-image " alt="Juscimeira" title="Juscimeira" /></div>
+						</a>
+
+  
+						<a href="http://www.pedrapreta.mt.gov.br" title="Pedra Preta" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/pedra-preta.jpg" class="attachment-full size-full wp-post-image " alt="Pedra Preta" title="Pedra Preta" /></div>
+						</a>
+
+  
+						<a href="http://www.poxoreu.mt.gov.br" title="Poxor�u" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/poxoreu.jpg" class="attachment-full size-full wp-post-image " alt="Poxor�u" title="Poxor�u" /></div>
+						</a>
+
+  
+						<a href="http://www.primaveradoleste.mt.gov.br" title="Primavera do Leste" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/primavera_do_leste.jpg" class="attachment-full size-full wp-post-image " alt="Primavera do Leste" title="Primavera do Leste" /></div>
+						</a>
+
+  
+						<a href="http://www.santoantoniodoleste.mt.gov.br" title="Santo Ant�nio do Leste" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/santo-antonio-do-leste.jpg" class="attachment-full size-full wp-post-image " alt="Santo Ant�nio do Leste" title="Santo Ant�nio do Leste" /></div>
+						</a>
+
+  
+						<a href="http://www.saojosedopovo.mt.gov.br" title="S�o Jos� do Povo" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/sjpovo.jpg" class="attachment-full size-full wp-post-image " alt="S�o Jos� do Povo" title="S�o Jos� do Povo" /></div>
+						</a>
+
+  
+						<a href="http://www.saopedrodacipa.mt.gov.br" title="S�o Pedro da Cipa" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/sao-pedro-da-cipa.jpg" class="attachment-full size-full wp-post-image " alt="S�o Pedro da Cipa" title="S�o Pedro da Cipa" /></div>
+						</a>
+
+  
+						<a href="http://www.tesouro.mt.gov.br" title="Tesouro" style="text-decoration:none;" target="_blank">
+                          <div class="carousel-item"><img width="350" height="250" src="imgs_municipios/tesouro.jpg" class="attachment-full size-full wp-post-image " alt="Tesouro" title="Tesouro" /></div>
+						</a>
+
+  
+
+                        </div>
+                        <!--/.tc-carousel-containe--></div>
+                      <!--/.tc-carousel-demo--> 
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vc_row-full-width"></div>
+
+
+            </div>
+            </div>
+    </section>
+
+
+	<!-- /�ltimas not�cias - galeria - v�deos -->
+<section id="noticias" class="container-fluid vntd-section-default section-default-width">
+
+<div class="col-md-12 col-sm-12 pad_l10"  style="max-width:1750px;">
+	<div class="col-md-6 col-sm-12" style="padding-left:0px;">
+			<div class="col-md-12 col-sm-12" style="padding-top: 25px;">
+			<div style="clear: both;"></div>
+			<p class="ultimas_noticias">
+				<a href="fotos/1/Galeria-de-Fotos/" style="color:#fff">Fotos</a>
+			<p class="hidden-xs" style="border-bottom: 2px solid #F4C415; margin: 0;"></p>
+			</p><br style="clear:both;"/></div>
+				
+                
+    					<div class='col-md-6 col-sm-6'><a href="galerias/1/25/Entrega-de-kit-de-irrigacao-para-producao-de-uvas-em-Sao-Pedro-da-Cipa/" title="Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa" style="text-decoration:none;" class='noticias-inicial'>
+									<img src='gd3.php?larg=650&alt=400&foto=imgs_coberturas/25/IMG_2155JPG.jpeg' class='img-responsive' alt="Parreiral Santar�m | ">
+									<p class='titulo_noticia' style="font-size:14px; text-decoration:none;">Entrega de kit de irriga��o para produ��o de uvas em S�o Pedro da Cipa</h2>
+								</a>
+					</div>
+          					<div class='col-md-6 col-sm-6'><a href="galerias/1/24/Mutirao-do-CAR-Digital-20/" title="Mutir�o do CAR Digital 2.0" style="text-decoration:none;" class='noticias-inicial'>
+									<img src='gd3.php?larg=650&alt=400&foto=imgs_coberturas/24/20260804_085435jpg.jpeg' class='img-responsive' alt=" | Assessoria">
+									<p class='titulo_noticia' style="font-size:14px; text-decoration:none;">Mutir�o do CAR Digital 2.0</h2>
+								</a>
+					</div>
+          
+                                
+</div>                                
+	<div class="col-md-6 col-sm-12" style="padding-left:0px;">
+			<div class="col-md-12 col-sm-12" style="padding-top: 25px;">
+			<div style="clear: both;"></div>
+			<p class="ultimas_noticias">
+				<a href="videos/" style="color:#fff">V�deos</a>
+			<p class="hidden-xs" style="border-bottom: 2px solid #F4C415; margin: 0;"></p>
+			</p><br style="clear:both;"/></div>
+                                
+
+      <!--VIDEOS-->
+      
+                                      
+                                
+                                
+                                <div class='col-md-6 col-sm-6'>
+                                
+                                
+                                <a class="noticias-inicial img-responsive thumb-gallery" data-toggle="lightbox" data-gallery="youtubevideos" data-width="800" href="https://www.youtube.com/embed/GS3s9rw0jkg">
+<span class="ico-player"><span></span></span>
+									<img src='gd3v.php?larg=650&alt=400&foto=https://img.youtube.com/vi/GS3s9rw0jkg/0.jpg' class='img-responsive ug-textpanel-bg' alt="CIDESASUL: AUXILIAR� ATIVIDADES DESENVOLVIDAS PELO MUNIC�PIO">    
+									<p class='titulo_noticia' style="font-size:14px; text-decoration:none;">CIDESASUL: AUXILIAR� ATIVIDADES DESENVOLVIDAS PELO MUNIC�PIO</h2>
+								</a>
+
+                                
+                                </div>
+
+                                      
+                                
+                                
+                                <div class='col-md-6 col-sm-6'>
+                                
+                                
+                                <a class="noticias-inicial img-responsive thumb-gallery" data-toggle="lightbox" data-gallery="youtubevideos" data-width="800" href="https://www.youtube.com/embed/EQVElRVCuDk">
+<span class="ico-player"><span></span></span>
+									<img src='gd3v.php?larg=650&alt=400&foto=https://img.youtube.com/vi/EQVElRVCuDk/0.jpg' class='img-responsive ug-textpanel-bg' alt="MUNIC�PIO ENTRA PARA O CONS�RCIO INTERMUNICIPAL DE DEV. ECON�MICO SOCIAL E AMBIENTAL DO SUL">    
+									<p class='titulo_noticia' style="font-size:14px; text-decoration:none;">MUNIC�PIO ENTRA PARA O CONS�RCIO INTERMUNICIPAL DE DEV. ECON�MICO SOCIAL E AMBIENTAL DO SUL</h2>
+								</a>
+
+                                
+                                </div>
+
+          
+                                
+                                
+                                
+                                </div>
+</div>
+
+</section>
+
+
+	<!-- /ACESSO R�PIDO -->
+<section id="acesso" class="container-fluid vntd-section-default section-default-width">
+<div class="col-md-12 col-sm-12 col-xs-12 pad_l10"  style="max-width:1750px;">
+	<div class="col-md-12 col-sm-12 col-xs-12" style="padding-left:0px;">
+
+			<div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 25px;">
+			<div style="clear: both;"></div>
+			<p class="ultimas_noticias">
+				<a href="noticias" style="color:#fff">Acesso R�pido</a>
+			<p class="hidden-xs" style="border-bottom: 2px solid #F4C415; margin: 0;"></p>
+			</p><br style="clear:both;"/></div>
+
+
+
+
+				<div class="col-md-12 col-sm-12 col-xs-12">
+				
+										
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="fotos/1/0/Galeria-de-Fotos/" class='dadosiconis'><div Class="iconButton"  >
+						<img src="images/ButtonIcons/galeria-fotos.png" class="img-responsive">
+					</div></a></div>
+
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="videos/" class='dadosiconis'><div Class="iconButton">
+						<img src="images/ButtonIcons/galeria-videos.png" class="img-responsive">
+					</div></a></div>
+					
+										
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="http://www.tce.mt.gov.br" class='dadosiconis' target="_blank"><div Class="iconButton">
+						<img src="images/ButtonIcons/tribunal-contas.png" class="img-responsive">
+						
+					</div></a></div>
+					
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="http://intranet.cidesasul.com.br:8070/transparencia" target="_blank" class='dadosiconis'><div Class="iconButton">
+						<img src="images/ButtonIcons/contas-publicas.png" class="img-responsive">
+						
+					</div></a></div>
+
+					
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes" target="_blank" class='dadosiconis'><div Class="iconButton">
+						<img src="images/ButtonIcons/licitacao.png" class="img-responsive">						
+					</div></a></div>
+					
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="faleconosco/" class='dadosiconis'><div Class="iconButton">
+						<img src="images/ButtonIcons/fale-conosco.png" class="img-responsive">
+					</div></a></div>
+
+
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="https://www.instagram.com.br/cidesasul/" target="_blank" class='dadosiconis'><div Class="iconButton">
+						<img src="images/ButtonIcons/instagram.png" class="img-responsive">
+						
+					</div></a></div>
+					
+					<div class="col-md-3 col-sm-4 col-xs-6 pad_b2"><a href="https://www.facebook.com/CidesasulConsorcioRegiaoSul/" target="_blank" class='dadosiconis'><div Class="iconButton">
+						<img src="images/ButtonIcons/facebook.png" class="img-responsive">
+					</div></a></div>
+				</div>
+</div>
+				
+			</div>
+		</section>
+      
+      <!-- /BANNER DE NOTICIA --> 
+      
+
+
+
+<!--INFORMA��ES--> 
+
+  <script>
+  $(document).ready(function(){
+    $('#myModal').modal('show')
+  });
+  </script>
+<!-- Fim Modal -->   </div>
+      
+      <!-- capa -->
+
+
+<br><br>
+<section class="container-fluid vntd-section-default section-default-width hidden-print" id="rodape" name="rodape">
+<div class="row">
+<div id="rodape">
+<div class="col-md-12 col-sm-12 col-xs-12 pad_l10"  style="max-width:1750px;">
+	<div class="col-md-12 col-sm-12 col-xs-12" style="padding-left:0px;">
+			<div style="padding: 2% 0;">
+				<div class="del-rodape">
+					<br>
+					<div class="final" style="clear:left;">
+						
+						<div class="col-md-4">
+							<img class="logo_footer" src="images/logo-rodape.png" alt="CIDESASUL" /><br style="clear:both;"/>
+							<p style="color: #fff; text-decoration: none; padding: 1%; margin-left:5%">Av. Presidente Dutra, S/N - Centro<br />S�o Pedro da Cipa - MT - CEP 78835-000<br>
+							cidesasul@hotmail.com</p>
+						</div>
+						
+						<div class="col-md-8">
+							<div class="informacoes">
+								<div class="half col-md-4 col-lg-4 col-sm-6 col-xs-12">
+									<ul style="list-style: none;">
+										<li>Institucional<hr />
+											<ul style="list-style: none; font-weight: normal;">
+												<a href="quemsomos/"><li class="opcao">Quem Somos</li></a>
+												<a href="presidente/"><li class="opcao">Presidente</li></a>
+												<a href="diretoria/"><li class="opcao">Diretoria</li></a>
+											</ul> 
+										</li>
+										<br style="clear:left;"/>
+										
+										<li class="conta" style="margin-top:10px;">Contato<hr />
+											<ul style = "list-style: none; font-weight: normal;">
+												<a href="faleconosco"><li class="opcao">Fale Conosco</li></a>
+												<a href="comochegar"><li class="opcao">Como Chegar</li></a>
+											</ul>
+										</li>		
+									
+									</ul>
+								</div>
+									
+								<div class="half col-md-4 col-lg-4 col-sm-6 col-xs-12">
+									<ul style="list-style: none;">
+										<li>Acesso � Informa��o
+										<hr />
+											<ul style="list-style: none; font-weight: normal;">
+												<a href="http://intranet.cidesasul.com.br:8070/transparencia" target="_blank"><li class="opcao">Contas P�blicas</li></a>
+												<a href="http://intranet.cidesasul.com.br:8070/transparencia/?AcessoIndividual=lnkLicitacoes" target="_blank"><li class="opcao">Licita��es</li></a>
+												<a target="_blank" href="transparencia/"><li class="opcao">Portal Transpar�ncia</li></a>
+											</ul>	
+										</li>
+										
+									</ul>
+								</div>
+									
+								<div class="half col-md-4 col-lg-4 col-sm-6 col-xs-12">
+									<ul style="list-style: none;">
+										<li>Comunica��o
+										  <hr />
+										  <ul style = "list-style: none; font-weight: normal;">
+										    <li class="opcao"><a href="agenda/">Agenda de Eventos</a></li>
+										    <li class="opcao"><a href="fotos/1/0/Galeria-de-Fotos/">Galeria de Fotos</a></li>
+										    <li class="opcao"><a href="videos">TV Cons�rcio</a></li>
+									      </ul>
+									  </li>
+										<li class="conta" style="margin-top:10px;"><a href="noticias" style="color:#fff;">Not�cias</a><hr />
+											<ul style="list-style: none; font-weight: normal;">
+												<a href="noticias/9/Noticias/"><li class="opcao">Todas as Not�cias</li></a>
+											</ul>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+		<a href="#"><img class="img-responsive subir hidden-print" style="min-width: 60px;" id="subir" src="images/subir.png" /></a>
+
+		<script type="text/javascript">
+
+			window.onscroll = function(){
+			   var top = window.pageYOffset;
+				if( top > 30 ) {
+					document.getElementById("subir").style.display = "block";	
+				} else {
+					document.getElementById("subir").style.display = "none";	
+				}
+			}
+
+			jQuery(document).ready(function(){
+
+				jQuery("#gallery").unitegallery();
+
+				jQuery("#eventos_gallery").unitegallery({
+					gallery_width: "100%",
+					tile_width: 330,
+					tile_height: 290,
+					gallery_theme: "tilesgrid",
+					tile_enable_border: false,
+					tile_enable_image_effect: true,
+					tile_image_effect_reverse: true,
+					tile_enable_textpanel: true,
+					tile_textpanel_source: "title",	
+					lightbox_slider_control_swipe: true,
+					lightbox_slider_control_zoom: true,
+					grid_num_rows: 5,
+					tile_enable_shadow: false
+				});
+
+				jQuery("#tv_camara").unitegallery({
+					gallery_theme: "video"
+				});
+
+			   	$('#subir').click(function(){ 
+				  	$('html, body').animate({scrollTop:0}, 'slow');
+			  		return false;
+				});
+
+			});
+			
+		</script>
+
+		<!-- Plugins -->
+		<script src="plugins/nprogress/nprogress.js"></script>
+		<script src="plugins/custom.min.js"></script>
+		<script src="js/jquery.slimscroll.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/app.min.js"></script>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+    jQuery(".tc-carousel-demo").owlCarousel({
+        autoPlay: 3000,
+        items :4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        navigation :true,
+        navigationText : ["<",">"],
+        Pagination:true,
+        theme : "tc-owl-theme",
+      });
+
+});
+
+
+</script> 
+<script type='text/javascript' src='js/scripts.js?ver=4.4.1'></script> 
+<script type='text/javascript' src='js/owl-carousel/owl.carousel.min.js?ver=1'></script> 
+
+
+            <!--Mapa do Site-->
+            <div id="rodape3" align="center" style="background-color:#006600; opacity:0.8;">
+                <div class="content">
+                    <p style="color:#f3f3f3; padding:12px; margin:0;"><a href="./politica-de-privacidade.html" target="_blank" style="color:#FFF;">Pol�tica de Privacidade</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./politica-de-cookies.html" target="_blank" style="color:#FFF;">Pol�tica de Cookies</a></p>
+                    <p style="color:#f3f3f3; margin:0; padding-bottom:15px;">2026 &copy; Cons�rcio Intermunicipal de Desenvolvimento Econ�mico Social e Ambiental da Regi�o Sul - Mato Grosso</p>
+                </div>
+                <!--/content-->
+            </div>
+            <!--/rodape3-->
+                
+</div>    <!--Acessibilidade -->
+    <script type="text/javascript" src="js/lgpd.min.js"></script>
+	<script>
+		function busca_required_mobile() {
+		if (document.getElementById('c-busca-input').value == "" || document.getElementById('c-busca-input').value == "Digite sua Busca...") {
+			alert("Informe o termo para busca!");
+			return false;
+		}
+		return true;
+		}
+	</script>
+	<script>
+		function busca_required_desktop() {
+		if (document.getElementById('c-busca-input-desktop').value == "" || document.getElementById('c-busca-input-desktop').value == "Digite sua Busca...") {
+			alert("Informe o termo para busca!");
+			return false;
+		}
+		return true;
+		}
+	</script>
+
+    </body></html>

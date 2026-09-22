@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="Prefeitura Municipal de Campinápolis" />
+    <meta name="description" content="Prefeitura Municipal de Campinápolis" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <link rel="shortcut icon" href="/imgs/default/favicon32.png" sizes="32x32" type="image/png"/>
+    <link rel="shortcut icon" href="/imgs/default/favicon16.png" sizes="16x16" type="image/png"/>
+
+	<title>
+                    Prefeitura Municipal de Campinápolis - MT
+            </title>
+  
+	
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/p5.min.css?v=2.0.7&ck=a0dfa7336568a5287223f087d69c4fbe' />
+
+
+  <link rel='stylesheet' type='text/css' href='/public/css/dist/site/default.min.css?v=2.0.7&ck=a0dfa7336568a5287223f087d69c4fbe' />
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_jquery.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_popper.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_bootstrap.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.accessibility.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/p5fw.Helpers.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/apis/_webcomponents/lgpd-agreement.min.js'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/URI.min.js?v=2.0.7&ck=a0dfa7336568a5287223f087d69c4fbe'></script>
+
+
+  <script type='text/javascript' src='/public/js/dist/site/default.min.js?v=2.0.7&ck=a0dfa7336568a5287223f087d69c4fbe'></script>
+
+ 
+  
+</head>
+
+<body>
+  <div id="p5fw-accessibility-buttons">
+    <div id="p5fw-a-menu" title="Acessibilidade" class="d-none d-md-block">
+                <i class="mdi mdi-human"></i> Acessibilidade
+            </div>
+    <div id="p5fw-a-menus">
+        <div class="p5fw-a-menus-title">Acessibilidade</div>
+        <div class="p-a-b-m-menu" id="p5fw-a-increase">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-format-font-size-increase"></i>
+            </div>
+            <div>
+                Fonte Maior
+                <div class="p-a-b-m-m-fonts">
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-3"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-6"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-9"></div>
+                    <div class="p-a-b-m-m-font p-a-b-m-m-font-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="p-a-b-m-menu" id="p5fw-a-contrast">
+            <div class="p-a-b-m-m-icon">
+                <i class="mdi mdi-contrast-circle"></i>
+            </div>
+            <div>
+                Contrastes
+                <div class="p-a-b-m-m-contrasts">
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-2"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-3"></div>
+                    <div class="p-a-b-m-m-contrast p-a-b-m-m-contrast-4"></div>
+                </div>
+            </div>
+        </div>
+        <a href="/#/mapa">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-map"></i>
+                </div>
+                <div>
+                    Mapa do Site
+                </div>
+            </div>
+        </a>
+        <a href="http://www.vlibras.com.br/#baixar" target="_blank">
+            <div class="p-a-b-m-menu">
+                <div class="p-a-b-m-m-icon">
+                    <i class="mdi mdi-hand-right"></i>
+                </div>
+                <div>
+                    Libras
+                </div>
+            </div>
+        </a>
+        
+        <div class="p-a-b-m-menu" id="p5fw-a-reset">
+            Redefinir
+        </div>
+    </div>
+</div>
+
+  <div id="p5fw-accessibility">
+    <span class="menu-mobile d-md-none d-sm-block">
+    <i class="mdi mdi-menu"></i>
+</span>
+
+<div class="d-md-none d-sm-block menu-mobile-container">
+    <div class="list-group">
+        <div class="menu-mobile-social">
+            <a href="https://www.facebook.com/prefeituradecamp" target="_blank" rel="noopener" aria-label="Facebook da Prefeitura de Campinapolis">
+                <i class="mdi mdi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/prefeituradecamp/" target="_blank" rel="noopener" aria-label="Instagram da Prefeitura de Campinapolis">
+                <i class="mdi mdi-instagram"></i>
+            </a>
+        </div>
+                    <a href="/#/home"  class="list-group-item menu-mobile-container-click" >
+                <i class='mdi mdi-chevron-double-right'></i>Home
+            </a>
+                                <a href="#menu_2"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                <i class='mdi mdi-chevron-double-down'></i>A Cidade
+            </a>
+                            <div class="collapse menu-collapse" id="menu_2">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/historia-de-campinapolis/1" >
+                            <i class='mdi mdi-chevron-double-right'></i> História de Campinápolis
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/municipio/politica-de-privacidade/3" >
+                            <i class='mdi mdi-chevron-double-right'></i> Politica de Privacidade
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/imprensa/noticias" >
+                            <i class='mdi mdi-chevron-double-right'></i> Notícias
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/imprensa/eventos" >
+                            <i class='mdi mdi-chevron-double-right'></i> Eventos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/imprensa/videos" >
+                            <i class='mdi mdi-chevron-double-right'></i> Vídeos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/imprensa/albuns" >
+                            <i class='mdi mdi-chevron-double-right'></i> Álbuns
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_2" href="/#/telefones" >
+                            <i class='mdi mdi-chevron-double-right'></i> Telefones Úteis
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_3"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                <i class='mdi mdi-chevron-double-down'></i>Serviços
+            </a>
+                            <div class="collapse menu-collapse" id="menu_3">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://daecampinapolis.cogesan.com.br/portal/" >
+                            <i class='mdi mdi-chevron-double-right'></i> 2º Via DAE
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/autenticidade" >
+                            <i class='mdi mdi-chevron-double-right'></i> Autenticidade
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTQ5" >
+                            <i class='mdi mdi-chevron-double-right'></i> Chamada Pública
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTI4" >
+                            <i class='mdi mdi-chevron-double-right'></i> Compras
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://portal.institutoatame.org.br/edital/ver/14" >
+                            <i class='mdi mdi-chevron-double-right'></i> Concurso
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/OTM=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Conselhos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/ODU=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Contas Públicas
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/Mw==" >
+                            <i class='mdi mdi-chevron-double-right'></i> Contratos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://portaltransparencia.gov.br/convenios/consulta?paginacaoSimples=true&amp;amp;amp;tamanhoPagina=&amp;amp;amp;offset=&amp;amp;amp;direcaoOrdenacao=asc&amp;amp;amp;colunasSelecionadas=linkDetalhamento%2CnumeroConvenio%2CnumeroOriginal%2Cuf%2CmunicipioConvenente%2Csituacao%2Cobjetivo%2CorgaoSuperior%2Corgao%2Cconcedente%2Cconvenente%2CdataInicioVigencia%2CdataFimVigencia%2CvalorCelebrado&amp;amp;amp;periodoLiberacaoRecursosDe=01%2F01%2F2000&amp;amp;amp;periodoLiberacaoRecursosAte=31%2F12%2F2030&amp;amp;amp;convenente=5820355&amp;amp;amp;ordenarPor=orgao&amp;amp;amp;direcao=desc" >
+                            <i class='mdi mdi-chevron-double-right'></i> Convênios
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MjI=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Decretos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://mail.google.com/mail/u/0/?hl=pt-BR&amp;amp;amp;tf=cm&amp;amp;amp;fs=1&amp;amp;amp;to=pmprotocolocampinapolis@gmail.com" >
+                            <i class='mdi mdi-chevron-double-right'></i> E-MAIL
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/OTI=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Editais
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://educagil.prefcampinapolis-mt.agilicloud.com.br/login.aspx" >
+                            <i class='mdi mdi-chevron-double-right'></i> Educágil
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/guias" >
+                            <i class='mdi mdi-chevron-double-right'></i> Emitir
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/certidao" >
+                            <i class='mdi mdi-chevron-double-right'></i> Emitir
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/alvara" >
+                            <i class='mdi mdi-chevron-double-right'></i> Emitir
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/guias" >
+                            <i class='mdi mdi-chevron-double-right'></i> IPTU
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MjE=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Leis
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MQ==" >
+                            <i class='mdi mdi-chevron-double-right'></i> Licitações
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/nfse" >
+                            <i class='mdi mdi-chevron-double-right'></i> NFS-e ÁgilBlue
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://prefcampinapolis.ouvidoriabr.com/#/home" >
+                            <i class='mdi mdi-chevron-double-right'></i> Ouvidoria
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTMy" >
+                            <i class='mdi mdi-chevron-double-right'></i> Planejamento
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.agendadatacenter.com.br/portal/campinapolis/login" >
+                            <i class='mdi mdi-chevron-double-right'></i> PORTAL DO
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Portal do Cidadão
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/Mjk=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Portarias
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/153/previcamp" >
+                            <i class='mdi mdi-chevron-double-right'></i> PREVICAMP
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://inscricoes.pentagono.info/processosseletivos/inscricao/processo/NTU=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Processo Seletivo 002/2025
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTIy" >
+                            <i class='mdi mdi-chevron-double-right'></i> Projeto
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://docs.google.com/forms/d/e/1FAIpQLSeZJmsjEWqaYlwnc4zmyHF2u8QBJjsz0Hol2dZimFA1-x1-KA/viewform?usp=header" >
+                            <i class='mdi mdi-chevron-double-right'></i> PROVA DE VIDA
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/5/concursos-pss-psp" >
+                            <i class='mdi mdi-chevron-double-right'></i> PSS/PSP
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTI1" >
+                            <i class='mdi mdi-chevron-double-right'></i> Requerimentos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MzQ=" >
+                            <i class='mdi mdi-chevron-double-right'></i> Resoluções
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/127/siafic" >
+                            <i class='mdi mdi-chevron-double-right'></i> SIAFIC
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://agiliblue.agilicloud.com.br/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Sistema
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/7/convenios" >
+                            <i class='mdi mdi-chevron-double-right'></i> Têrmos e 
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_3" href="http://portal.prefcampinapolis-mt.agilicloud.com.br/" >
+                            <i class='mdi mdi-chevron-double-right'></i> Transparência
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_4"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                <i class='mdi mdi-chevron-double-down'></i>Secretarias
+            </a>
+                            <div class="collapse menu-collapse" id="menu_4">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_4" href="/#/secretarias/16/secretaria-municipal-de-saude" >
+                            <i class='mdi mdi-chevron-double-right'></i> SECRETARIA MUNICIPAL DE SAUDE
+                        </a>
+                                        	   
+                </div>
+                                <a href="#menu_5"  class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false">
+                <i class='mdi mdi-chevron-double-down'></i>Publicações
+            </a>
+                            <div class="collapse menu-collapse" id="menu_5">
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/96/atividades-escolares" >
+                            <i class='mdi mdi-chevron-double-right'></i> Atividades Escolares
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/5/concursos-pss-psp-e-chamada-publica" >
+                            <i class='mdi mdi-chevron-double-right'></i> Concursos/PSS/PSP e Chamada Pública
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/93/conselhos" >
+                            <i class='mdi mdi-chevron-double-right'></i> Conselhos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/3/contratos" >
+                            <i class='mdi mdi-chevron-double-right'></i> Contratos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/7/convenios" >
+                            <i class='mdi mdi-chevron-double-right'></i> Convênios
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/151/dispensa" >
+                            <i class='mdi mdi-chevron-double-right'></i> DISPENSA
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/92/editais-itr---vtn" >
+                            <i class='mdi mdi-chevron-double-right'></i> Editais ITR / VTN
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/150/fiscais-de-contrato" >
+                            <i class='mdi mdi-chevron-double-right'></i> FISCAIS DE CONTRATO
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/2/legislacao" >
+                            <i class='mdi mdi-chevron-double-right'></i> Legislação
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/122/lei-aldir-blanc" >
+                            <i class='mdi mdi-chevron-double-right'></i> Lei Aldir Blanc
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/1/licitacoes" >
+                            <i class='mdi mdi-chevron-double-right'></i> Licitações
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/132/planejamento-publico" >
+                            <i class='mdi mdi-chevron-double-right'></i> Planejamento Público
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/4/plano-diretor" >
+                            <i class='mdi mdi-chevron-double-right'></i> Plano Diretor
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/153/previcamp" >
+                            <i class='mdi mdi-chevron-double-right'></i> PREVICAMP
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/143/relatorios" >
+                            <i class='mdi mdi-chevron-double-right'></i> Relatorios
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/125/requerimentos" >
+                            <i class='mdi mdi-chevron-double-right'></i> Requerimentos
+                        </a>
+                                            <a class="list-group-item menu-mobile-container-click" data-parent="#menu_5" href="/#/transparencia/publicacoes/127/siafic" >
+                            <i class='mdi mdi-chevron-double-right'></i> SIAFIC
+                        </a>
+                                        	   
+                </div>
+                                <a href="https://transparencia.agilicloud.com.br/prefcampinapolismt"  target="_blank"  class="list-group-item menu-mobile-container-click" >
+                <i class='mdi mdi-chevron-double-right'></i>Portal Transparência
+            </a>
+                                <a href="/#/imprensa/noticias"  class="list-group-item menu-mobile-container-click" >
+                <i class='mdi mdi-chevron-double-right'></i>Notícias
+            </a>
+                                <a href="https://prefcampinapolis.ouvidoriabr.com/"  target="_blank"  class="list-group-item menu-mobile-container-click" >
+                <i class='mdi mdi-chevron-double-right'></i>Ouvidoria
+            </a>
+                        </div>
+</div>
+
+<div class="header d-print-none">
+    <div class="h-top py-2 text-uppercase d-none d-md-block">
+        <div class="container p5-font-11 h-top-content">
+            <div class="h-top-links">
+                <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" target="_blank">
+                    Lei de acesso à informação
+                </a>
+                <span class="h-top-separator">|</span>
+                <a href="https://radardatransparencia.atricon.org.br">
+                    Radar da Transparência Pública
+                </a>
+                <span class="h-top-separator">|</span>
+                <a href="https://transparencia.agilicloud.com.br/prefcampinapolismt" target="_blank">
+                    Portal Transparência
+                </a>
+                <span class="h-top-separator">|</span>
+                <a href="https://prefcampinapolis.ouvidoriabr.com/" target="_blank">
+                    Ouvidoria - SIC
+                </a>
+            </div>
+            <div class="h-top-right">
+                <div class="h-social-links">
+                    <a class="h-social-link" href="https://www.facebook.com/prefeituradecamp" target="_blank" rel="noopener" aria-label="Facebook da Prefeitura de Campinapolis">
+                        <i class="mdi mdi-facebook"></i>
+                    </a>
+                    <a class="h-social-link" href="https://www.instagram.com/prefeituradecamp/" target="_blank" rel="noopener" aria-label="Instagram da Prefeitura de Campinapolis">
+                        <i class="mdi mdi-instagram"></i>
+                    </a>
+                </div>
+                <span>ATENDIMENTO AO PÚBLICO: De Segunda á Sexta das 12:00 ás 18:00</span>
+            </div>
+        </div>
+    </div>
+    <div class="h-bottom container my-5">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <a href="/#/home">
+                    <img src="/imgs/default/logo_full.png" alt="" style="width: 100%">
+                </a>
+            </div>
+            <div class="col-md-2 col-12 text-center p5-font-12">
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <img src="/imgs/default/icon_email1.svg" style="height: 40px;" alt="">
+                    </div>
+                    <div class="col-12">
+                        ouvidoria@campinapolis.mt.gov.br
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-12 text-center p5-font-12">
+                <div class="row mt-4">
+                    <div class="col-12 mb-2">
+                        <img src="/imgs/default/icon_phone.svg" alt="">
+                    </div>
+                    <div class="col-12">
+                        (66) 3437-1992
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-12 text-center p5-font-12">
+                <div class="row mt-4">
+                    <div class="col-12 mb-2">
+                        <img src="/imgs/default/icon_map.svg" alt="">
+                    </div>
+                    <div class="col-12">
+                        Avenida Benônio José Lourenço, 2170 - Setor Uniao
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-12 mt-5 p-0">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control form-control-custom" placeholder="Pesquisar..." id="search">
+                    <div class="input-group-append">
+                        <button class="btn btn-custom" id="search-btn">
+                            <i class="mdi mdi-magnify"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid no-padding-container menus">
+    <div class="d-none d-md-block d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light" id='menu-desktop'>
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/home"  >
+                                    Home
+                                </a>
+                                                            
+                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    A Cidade
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                                                    <a class="dropdown-item"  href="/#/municipio/historia-de-campinapolis/1">
+                                                <i class="mdi mdi-chevron-right"></i> História de Campinápolis
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/municipio/politica-de-privacidade/3">
+                                                <i class="mdi mdi-chevron-right"></i> Politica de Privacidade
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/noticias">
+                                                <i class="mdi mdi-chevron-right"></i> Notícias
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/eventos">
+                                                <i class="mdi mdi-chevron-right"></i> Eventos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/videos">
+                                                <i class="mdi mdi-chevron-right"></i> Vídeos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/imprensa/albuns">
+                                                <i class="mdi mdi-chevron-right"></i> Álbuns
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/telefones">
+                                                <i class="mdi mdi-chevron-right"></i> Telefones Úteis
+                                            </a>
+                                                                            </div>
+                                                            
+                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    Serviços
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://daecampinapolis.cogesan.com.br/portal/">
+                                                <i class="mdi mdi-water-pump"></i> 2º Via DAE
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/autenticidade">
+                                                <i class="mdi mdi-shield-plus"></i> Autenticidade
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTQ5">
+                                                <i class="mdi mdi-account-search-outline"></i> Chamada Pública
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTI4">
+                                                <i class="mdi mdi-gavel"></i> Compras
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://portal.institutoatame.org.br/edital/ver/14">
+                                                <i class="mdi mdi-clipboard-text-outline"></i> Concurso
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/OTM=">
+                                                <i class="mdi mdi-account-group"></i> Conselhos
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/ODU=">
+                                                <i class="mdi mdi-chart-pie"></i> Contas Públicas
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/Mw==">
+                                                <i class="mdi mdi-file-document-outline"></i> Contratos
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://portaltransparencia.gov.br/convenios/consulta?paginacaoSimples=true&amp;amp;amp;tamanhoPagina=&amp;amp;amp;offset=&amp;amp;amp;direcaoOrdenacao=asc&amp;amp;amp;colunasSelecionadas=linkDetalhamento%2CnumeroConvenio%2CnumeroOriginal%2Cuf%2CmunicipioConvenente%2Csituacao%2Cobjetivo%2CorgaoSuperior%2Corgao%2Cconcedente%2Cconvenente%2CdataInicioVigencia%2CdataFimVigencia%2CvalorCelebrado&amp;amp;amp;periodoLiberacaoRecursosDe=01%2F01%2F2000&amp;amp;amp;periodoLiberacaoRecursosAte=31%2F12%2F2030&amp;amp;amp;convenente=5820355&amp;amp;amp;ordenarPor=orgao&amp;amp;amp;direcao=desc">
+                                                <i class="mdi mdi-clipboard-check-outline"></i> Convênios
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MjI=">
+                                                <i class="mdi mdi-certificate"></i> Decretos
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://mail.google.com/mail/u/0/?hl=pt-BR&amp;amp;amp;tf=cm&amp;amp;amp;fs=1&amp;amp;amp;to=pmprotocolocampinapolis@gmail.com">
+                                                <i class="mdi mdi-email-outline"></i> E-MAIL
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/OTI=">
+                                                <i class="mdi mdi-tree"></i> Editais
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://educagil.prefcampinapolis-mt.agilicloud.com.br/login.aspx">
+                                                <i class="mdi mdi-school"></i> Educágil
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/guias">
+                                                <i class="mdi mdi-file-document-outline"></i> Emitir
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/certidao">
+                                                <i class="mdi mdi-certificate"></i> Emitir
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/alvara">
+                                                <i class="mdi mdi-clipboard-check-outline"></i> Emitir
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/guias">
+                                                <i class="mdi mdi-city-variant-outline"></i> IPTU
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MjE=">
+                                                <i class="mdi mdi-gavel"></i> Leis
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MQ==">
+                                                <i class="mdi mdi-file-cabinet"></i> Licitações
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/nfse">
+                                                <i class="mdi mdi-file-document-outline"></i> NFS-e ÁgilBlue
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://prefcampinapolis.ouvidoriabr.com/#/home">
+                                                <i class="mdi mdi-message-outline"></i> Ouvidoria
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTMy">
+                                                <i class="mdi mdi-chart-bar"></i> Planejamento
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.agendadatacenter.com.br/portal/campinapolis/login">
+                                                <i class="mdi mdi-cellphone-iphone"></i> PORTAL DO
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://agiliblue.agilicloud.com.br/portal/prefcampinapolismt/#/">
+                                                <i class="mdi mdi-account-multiple-plus-outline"></i> Portal do Cidadão
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/Mjk=">
+                                                <i class="mdi mdi-file-document-box-multiple"></i> Portarias
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/153/previcamp">
+                                                <i class="mdi mdi-alpha-p-box"></i> PREVICAMP
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://inscricoes.pentagono.info/processosseletivos/inscricao/processo/NTU=">
+                                                <i class="mdi mdi-account-box-multiple"></i> Processo Seletivo 002/2025
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTIy">
+                                                <i class="mdi mdi-lighthouse"></i> Projeto
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLSeZJmsjEWqaYlwnc4zmyHF2u8QBJjsz0Hol2dZimFA1-x1-KA/viewform?usp=header">
+                                                <i class="mdi mdi-angular"></i> PROVA DE VIDA
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/5/concursos-pss-psp">
+                                                <i class="mdi mdi-account-multiple-outline"></i> PSS/PSP
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MTI1">
+                                                <i class="mdi mdi-file-document-box-outline"></i> Requerimentos
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/finder/MzQ=">
+                                                <i class="mdi mdi-lightbulb-on-outline"></i> Resoluções
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/127/siafic">
+                                                <i class="mdi mdi-cash"></i> SIAFIC
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://agiliblue.agilicloud.com.br/">
+                                                <i class="mdi mdi-server"></i> Sistema
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="https://www.campinapolis.mt.gov.br/#/transparencia/publicacoes/7/convenios">
+                                                <i class="mdi mdi-file-chart"></i> Têrmos e 
+                                            </a>
+                                                                                    <a class="dropdown-item"  target="_blank"  href="http://portal.prefcampinapolis-mt.agilicloud.com.br/">
+                                                <i class="mdi mdi-eye-outline"></i> Transparência
+                                            </a>
+                                                                            </div>
+                                                            
+                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    Secretarias
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                                                                    <a class="dropdown-item"  href="/#/secretarias/16/secretaria-municipal-de-saude">
+                                                <i class="mdi mdi-chevron-right"></i> SECRETARIA MUNICIPAL DE SAUDE
+                                            </a>
+                                                                            </div>
+                                                            
+                            </li>
+                                                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    Publicações
+                                </a>
+                                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/96/atividades-escolares">
+                                                <i class="mdi mdi-chevron-right"></i> Atividades Escolares
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/5/concursos-pss-psp-e-chamada-publica">
+                                                <i class="mdi mdi-chevron-right"></i> Concursos/PSS/PSP e Chamada Pública
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/93/conselhos">
+                                                <i class="mdi mdi-chevron-right"></i> Conselhos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/3/contratos">
+                                                <i class="mdi mdi-chevron-right"></i> Contratos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/7/convenios">
+                                                <i class="mdi mdi-chevron-right"></i> Convênios
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/151/dispensa">
+                                                <i class="mdi mdi-chevron-right"></i> DISPENSA
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/92/editais-itr---vtn">
+                                                <i class="mdi mdi-chevron-right"></i> Editais ITR / VTN
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/150/fiscais-de-contrato">
+                                                <i class="mdi mdi-chevron-right"></i> FISCAIS DE CONTRATO
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/2/legislacao">
+                                                <i class="mdi mdi-chevron-right"></i> Legislação
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/122/lei-aldir-blanc">
+                                                <i class="mdi mdi-chevron-right"></i> Lei Aldir Blanc
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/1/licitacoes">
+                                                <i class="mdi mdi-chevron-right"></i> Licitações
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/132/planejamento-publico">
+                                                <i class="mdi mdi-chevron-right"></i> Planejamento Público
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/4/plano-diretor">
+                                                <i class="mdi mdi-chevron-right"></i> Plano Diretor
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/153/previcamp">
+                                                <i class="mdi mdi-chevron-right"></i> PREVICAMP
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/143/relatorios">
+                                                <i class="mdi mdi-chevron-right"></i> Relatorios
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/125/requerimentos">
+                                                <i class="mdi mdi-chevron-right"></i> Requerimentos
+                                            </a>
+                                                                                    <a class="dropdown-item"  href="/#/transparencia/publicacoes/127/siafic">
+                                                <i class="mdi mdi-chevron-right"></i> SIAFIC
+                                            </a>
+                                                                            </div>
+                                                            
+                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="https://transparencia.agilicloud.com.br/prefcampinapolismt"   target="_blank" >
+                                    Portal Transparência
+                                </a>
+                                                            
+                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="/#/imprensa/noticias"  >
+                                    Notícias
+                                </a>
+                                                            
+                            </li>
+                                                    <li class="nav-item ">
+                                <a class="nav-link " href="https://prefcampinapolis.ouvidoriabr.com/"   target="_blank" >
+                                    Ouvidoria
+                                </a>
+                                                            
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+    <div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://www.campinapolis.mt.gov.br/publicacoes/publicacao/18276/" target="_blank">                        <img src="/imgs/cds/chatgpt-image-13-08-2026-16-51-42.jpg" style="width:100%">
+                        </a>                </div>
+            </div>
+        </div>
+    </div>
+
+<lgpd-agreement color='#0d3164'></lgpd-agreement>
+    <div id='content' class='content-loading'></div>
+
+    <div class="container-fluid footer d-print-none py-5 mt-5" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 text-center text-md-right text-light mt-3">
+                <div class="p5-font-11 mb-2">
+                    Prefeitura Municipal de
+                </div>
+                <h6 class="mb-2">
+                    Campinápolis - Mato Grosso
+                </h6>
+                <div class="mb-2 p5-font-12">
+                    Avenida Benônio José Lourenço, 2170 - Setor Uniao
+                </div>
+                <div class="p5-font-12">
+                    CEP: 78630-000
+                </div>
+            </div>
+            <div class="col-12 col-md-3 text-center">
+                <img src="/imgs/default/logo.png" width="150" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-left text-light mt-3">
+                <div class="mb-3 p5-font-12">
+                    Horário de atendimento ao Público:
+                </div>
+                <h6>
+                    De Segunda á Sexta das 12:00 ás 18:00
+                </h6>
+                <h6>
+                    Telefone: (66) 3437-1992
+                </h6>
+                <h6>
+                    Email: ouvidoria@campinapolis.mt.gov.br
+                </h6>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+  
+
+
+<div class="container-fluid footer-rights d-print-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">Prefeitura Municipal de Campinápolis <span>&nbsp;-&nbsp; todos os direitos reservados&nbsp;©</span>
+            </div>
+            <div class="col-md-6 col-12 text-right">
+                <span>DESENVOLVIDO POR</span>&nbsp;<a href="http://pentagono.info/" target="_blank"> PENTÁGONO SISTEMAS</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+  </div>
+</body>

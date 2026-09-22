@@ -1,0 +1,13 @@
+{
+  "url": "https://www.altogarcas.mt.gov.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/download_www.altogarcas.mt.gov.br_024.html",
+  "html_bytes": 116742,
+  "html_title": "Página Inicial - Prefeitura de Altos Garças - MT",
+  "nota": "8.4",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.altogarcas.mt.gov.br_024.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.altogarcas.mt.gov.br_024.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}
