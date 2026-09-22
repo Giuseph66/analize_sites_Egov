@@ -1,0 +1,13 @@
+{
+  "url": "https://lambaridoeste.mt.gov.br",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/09-57-19/download_lambaridoeste.mt.gov.br_003.html",
+  "html_bytes": 87490,
+  "html_title": "Prefeitura Municipal de Lambari D‘Oeste",
+  "nota": "7.8",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/09-57-19/accessmonitor_lambaridoeste.mt.gov.br_003.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/09-57-19/accessmonitor_lambaridoeste.mt.gov.br_003.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

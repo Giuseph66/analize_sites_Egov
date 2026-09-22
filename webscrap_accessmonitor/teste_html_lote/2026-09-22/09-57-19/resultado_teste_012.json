@@ -1,0 +1,13 @@
+{
+  "url": "https://www.valedesaodomingos.mt.gov.br/ouvidoria/formulario-on-line",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/09-57-19/download_www.valedesaodomingos.mt.gov.br_012.html",
+  "html_bytes": 86268,
+  "html_title": "Ouvidoria da Prefeitura Municipal de Vale de São Domingos",
+  "nota": "7.5",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/09-57-19/accessmonitor_www.valedesaodomingos.mt.gov.br_012.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-22/09-57-19/accessmonitor_www.valedesaodomingos.mt.gov.br_012.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}
