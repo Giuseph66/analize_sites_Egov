@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Relatório AMAWeb — —</title>
+  <style>
+    @page { size: A4; margin: 14mm; }
+    * { box-sizing: border-box; }
+    body { color: #25343b; font: 10pt Arial, sans-serif; line-height: 1.4; }
+    h1 { color: #104736; font-size: 22pt; margin: 0; }
+    h2 { border-bottom: 2px solid #73e2c9; color: #104736; font-size: 14pt; margin: 26px 0 10px; padding-bottom: 4px; }
+    .muted { color: #566774; }
+    .url { overflow-wrap: anywhere; }
+    .score { background: #104736; border-radius: 8px; color: white; display: inline-block; font-size: 28pt; font-weight: bold; margin: 18px 0; padding: 12px 22px; }
+    .score small { display: block; font-size: 9pt; font-weight: normal; text-align: center; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .card { background: #eef3f6; border-radius: 5px; padding: 10px; }
+    .card b { display: block; font-size: 16pt; }
+    table { border-collapse: collapse; table-layout: fixed; width: 100%; }
+    th, td { border: 1px solid #d6e0e5; padding: 7px; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+    th { background: #104736; color: white; }
+    th:nth-child(1) { width: 15%; } th:nth-child(2) { width: 19%; } th:nth-child(3) { width: 10%; }
+    tr { break-inside: avoid; }
+    code { font-size: 8pt; }
+    .status { border-radius: 10px; font-size: 8pt; font-weight: bold; padding: 3px 7px; white-space: nowrap; }
+    .passed { background: #dff5ea; color: #165c3d; } .failed { background: #fbe4e4; color: #9b1c1c; } .warning { background: #fff4d8; color: #7a5200; }
+    footer { color: #566774; font-size: 8pt; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Relatório de acessibilidade</h1>
+    <p class="muted">Avaliação realizada pelo AMAWeb</p>
+    <p><b>Página:</b> —<br><b>URL:</b> <span class="url">https://riobranco.mt.gov.br/</span><br><b>Data AMAWeb:</b> 2026-09-22 00:43:56</p>
+  </header>
+  <section>
+    <div class="score">3.4<small>Nota AMAWeb (0–10)</small></div>
+    <div class="cards">
+      <div class="card"><b>3</b>Elementos (x)HTML</div>
+      <div class="card"><b>7</b>Práticas identificadas</div>
+      <div class="card"><b>53 bytes</b>Tamanho da página</div>
+    </div>
+  </section>
+  <section>
+    <h2>Resumo dos testes</h2>
+    <div class="cards">
+      <div class="card"><b>0</b>Aceitáveis</div>
+      <div class="card"><b>3</b>Não aceitáveis</div>
+      <div class="card"><b>0</b>Verificar manualmente</div>
+    </div>
+  </section>
+  <section>
+    <h2>Práticas retornadas pelo AMAWeb</h2>
+    <table>
+      <thead><tr><th>Prática</th><th>Status</th><th>Elementos</th><th>Descrição</th></tr></thead>
+      <tbody><tr><td><code>langNo</code></td><td><span class="status failed">Não aceitável</span></td><td>1</td><td>The `lang` attribute doesn&#x27;t exist or is empty (&#x27;&#x27;).</td></tr><tr><td><code>hxNone</code></td><td><span class="status failed">Não aceitável</span></td><td>0</td><td>This page doesn&#x27;t use headings.</td></tr><tr><td><code>aSkipNo</code></td><td><span class="status failed">Não aceitável</span></td><td>0</td><td>This page does not have links.</td></tr></tbody>
+    </table>
+  </section>
+  <footer>JSON anexo contém resposta bruta completa do AMAWeb. Relatório gerado em 21/09/2026 20:43.</footer>
+</body>
+</html>

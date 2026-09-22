@@ -1,0 +1,1140 @@
+
+
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+        <script>
+(function(){
+  var ua=navigator.userAgent||'';
+  var referrer=document.referrer||'';
+  var phpApp="";
+  var platform='';
+  try{
+    var standalone=window.matchMedia('(display-mode: standalone)').matches||window.matchMedia('(display-mode: fullscreen)').matches;
+    if(referrer.indexOf('android-app://')===0&&standalone){sessionStorage.setItem('meuci_store_app','Android');}
+    platform=sessionStorage.getItem('meuci_store_app')||'';
+  }catch(e){}
+  if(/PWAShell/i.test(ua)||/(?:^|; )app-platform=iOS App Store/.test(document.cookie)){
+    platform='ios';
+    try{sessionStorage.setItem('meuci_store_app','ios');}catch(e){}
+  }
+  if(platform!=='Android'&&platform!=='ios'){platform='';}
+  var secure=location.protocol==='https:'?'; Secure':'';
+  function reloadOnce(){
+    try{
+      if(sessionStorage.getItem('meuci_store_app_reloaded')){return;}
+      sessionStorage.setItem('meuci_store_app_reloaded','1');
+      location.reload();
+    }catch(e){}
+  }
+  if(platform){
+    document.cookie='is_app='+platform+'; path=/; SameSite=Lax'+secure;
+    if(!phpApp){reloadOnce();}
+    window.MEUCI_STORE_APP_SYNCED=true;
+    return;
+  }
+  document.cookie='is_app=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax'+secure;
+  if(phpApp){reloadOnce();}
+  window.MEUCI_STORE_APP_SYNCED=true;
+})();
+</script>
+        <base href="https://figueiropolisdoeste.mt.leg.br/" />
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Language" content="pt-br">
+        <meta name="copyright" content="Meuci - Soluões web" />
+        <title>Câmara Municipal de Figueirópolis d´Oeste</title> 
+<meta name="description" content="Casa Legislativa - Câmara Municipal de Figueirópolis d´Oeste"/>
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://figueiropolisdoeste.mt.leg.br "/>
+<link rel="shortcut icon" href="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/64-64/uploads-meuci-cfig-site-2023-06-conf-icon.png" />
+<meta name="title" content="Câmara Municipal de Figueirópolis d´Oeste"/>
+<meta property="og:site_name" content="Câmara Municipal de Figueirópolis d´Oeste"/>
+<meta property="og:title" content="Câmara Municipal de Figueirópolis d´Oeste"/>
+<meta property="og:description" content="Casa Legislativa - Câmara Municipal de Figueirópolis d´Oeste"/>
+<meta property="og:image" content="https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig/site/2024/05/conf-capa21f053f757582bbac7215240.png"/>
+<meta property="og:url" content="https://figueiropolisdoeste.mt.leg.br"/>
+
+<meta itemprop="name" content="Câmara Municipal de Figueirópolis d´Oeste "/>
+<meta itemprop="description" content="Casa Legislativa - Câmara Municipal de Figueirópolis d´Oeste "/>
+<meta itemprop="url" content="https://figueiropolisdoeste.mt.leg.br"/>
+        <meta name="apple-mobile-web-app-title" content="Câmara Municipal de Figueirópolis d´Oeste">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+                <meta name="theme-color" content="#ffffff">
+        <!-- coloque isso dentro de `head` -->
+                    <link rel="apple-touch-icon" href="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/200-/uploads-meuci-cfig-site-2024-04-app-srce4cce3901e6c43a4490ec0fe.png">
+            <link rel="apple-touch-icon" sizes="512x512" href="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/512-512/uploads-meuci-cfig-site-2024-04-app-srce4cce3901e6c43a4490ec0fe.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/152-152/uploads-meuci-cfig-site-2024-04-app-srce4cce3901e6c43a4490ec0fe.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/180-180/uploads-meuci-cfig-site-2024-04-app-srce4cce3901e6c43a4490ec0fe.png">
+            <link rel="apple-touch-icon" sizes="167x167" href="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/167-167/uploads-meuci-cfig-site-2024-04-app-srce4cce3901e6c43a4490ec0fe.png">
+        
+
+
+        <link rel="manifest" href="uploads-meuci/cfig/manifest-2025-10-08-10-14-55.webmanifest?v=3">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        
+        <link href="https://figueiropolisdoeste.mt.leg.br/themes/padrao/css/cfig-all.min.css?v=2026-08-25-15-33-01" rel="stylesheet">
+                <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
+
+
+                            <link empresa="cfig" rel='stylesheet' id='styleContraste' type='text/css' media='all' />
+
+            <script async src="https://figueiropolisdoeste.mt.leg.br/_cdn/js/acessibilidade.js?v=2"></script>
+
+        
+
+        
+
+
+                            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        
+            </head>
+
+            <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K27JEQ1R78"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-K27JEQ1R78');
+        </script>
+    
+    <body class="div-principal-ajax ">
+
+
+
+        <div id="MSW-block-page" style="background: rgba(255, 255, 255, 0.50); display: none; z-index: 9999;" class="MSW-block-page MSW-block-page-G">
+            <img width="130" height="130"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/130-/uploads-meuci-cfig-site-2023-06-conf-icon.png" class="animacao-circular-not" alt="carregando" style="background: #fff; padding: 13px; border-radius: 3px; margin-top: 22%; opacity: 1; visibility: visible;"> <br>
+            <div class="progress2 progress ">
+                <div class="animated-bar2 animated-bar"></div>
+            </div>
+        </div>
+        
+        
+        
+
+
+    
+    <div class="header-all" > 
+<div  class="w-100 all-mobile mb-3 d-lg-none">
+    <div style="z-index: 99; "  class="dl-menu MSW-menu-mobile " >
+        <div style="       background: rgba(255, 255, 255, 0.92);   z-index: 9; display: none;  " class="MSW-block-page dl-menu-f">
+        </div>
+        <a href="https://figueiropolisdoeste.mt.leg.br/" >
+            <img style="      height: 44px;
+                 float: left;
+             
+                 margin-top: -2px;
+                 margin-bottom: -2px; " class="logo7773"  src="https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig/site/2024/03/conf-logo57f87564fc02f6099f3dc4b5.png" alt="logo">
+        </a>
+       <div  id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger "><i style="color: #fff;  font-size: 25px;     padding: 4px;" class="fa fa-bars"></i></button>
+            <ul style="z-index: 9999;" class="dl-menu MSW-menu-add">
+
+            </ul>
+        </div>
+         <i  class="fa fa-search pesquisar-new-i"></i>
+   
+
+    </div><!-- /dl-menuwrapper -->
+        <div   class="MSW-logo-mobile pesquisar-new ">
+        <div style=" padding: 20px;    display: flex; " >
+            <div   class="bingoSearchTop">
+                <form id="bingoSearchbox" class="" action="https://figueiropolisdoeste.mt.leg.br/categoria/" method="get">
+                    <input style="height: 40px;   padding-left: 16px;" class="form-control bingoSearch"  type="search" name="pesquisa" value="" placeholder="O que procura?"  autocomplete="off">
+                    <button id="bingoSearchButton" class="btn btnbingoSearch" type="submit">
+                       <!-- <span class="btnSearchText">Pesquisar</span>-->
+                        Buscar
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+<style>
+    .header-fundo {
+    z-index: -9;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+   
+    background: #e1ce84d9 url(https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig/fundo.jpg);
+    background-size: cover;
+    background-attachment3: fixed;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+</style>
+<header style="background: #e1ce84d9;padding: 0!important; margin-bottom: 30px!important; " class="  header-page   mb-4  d-none d-sm-block ">
+
+    <div class=" header-fundo "></div>
+    <div style=" position: relative" class="container  ">
+
+        <div class="  d-none d-lg-block mb-0 w-100  ">
+  
+            <div style="background: #fff; color: #168051;  font-size: 13px;" class="menu1 m-0 shadow-sm  ">
+                <i class="fas fa-phone "></i> (65) 3235-1122 - Seg. a Sex, das 07:00 às 13:00  
+                <ul style="margin-top: -2px;" class="ul-234">
+                <li class="mr-3"><a href="mapa-site"><span><i class="fas fa-sitemap"></i> Mapa site</span></a></li>
+                <li class="mr-3"><a href="/artigo/acessibilidade"><span><i class="fas fa-universal-access fa-lg"></i> Acessibilidade </span></a></li>
+
+                <span class="font-con">
+                    <button class="btn btn-light btn-p" Onclick="mudaFonte('menos'); return false;">A-</button>
+                    <button class="btn btn-light btn-p" Onclick="mudaFonte('padrao'); return false;">A</button>
+                    <button class="btn btn-light btn-p" Onclick="mudaFonte('mais'); return false;">A+</button>
+
+                </span>
+            
+                <span class="font-con">
+                    <button class="btn btn-info btn-p" id="mudaEstilo" onClick="mudaContraste()"><i class="far fa-adjust"></i> PRETO</button>
+                </span>
+                     <a class="icf" href="https://www.youtube.com/@CamaraFigueiropolisdoeste"><i  class="fab  fa-youtube"></i></a>  <a class="icf" href="https://www.facebook.com/profile.php?id=100090641634906"><i  class="fab  fa-facebook"></i></a>  <a class="icf" href="https://www.instagram.com/camara.figueiropolis/"><i  class="fab  fa-instagram"></i></a>                 </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="container py-3">
+
+        <div style="    padding: 31px 0;" class="row ">
+            <div class=" col-md-8  text-left">
+                <a href="https://figueiropolisdoeste.mt.leg.br/" class="logo " title="logo">
+
+                    <img style="height: 70PX;" class="" src="https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig/site/2024/03/conf-logo57f87564fc02f6099f3dc4b5.png" alt="Logo">
+
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="menu-h gradient2 rounded-0 d-flex">
+        <div class="container ">
+            <div style="background: #e1ce84;display: flow-root;border-radius: 3px 3px 0 0;" class="w-100 h-8jhh ">
+ 
+                <ul class="menu-h-ul MSW-gerate-menu float-left">
+                    <li><a href="https://figueiropolisdoeste.mt.leg.br/"><span>INICIO</span></a></li>
+
+
+                    <li>
+                        <a href="#"><span class="sibolo-sub">Câmara</span></a>
+                        <ul class="sub-1">
+                            <li><a href="https://figueiropolisdoeste.mt.leg.br/artigo/lei-organica">Lei Organica</a></li><li><a href="https://figueiropolisdoeste.mt.leg.br/artigo/estrutura-organizacional">Estrutura Organizacional</a></li><li><a href="https://figueiropolisdoeste.mt.leg.br/artigo/regimento-interno">Regimento Interno</a></li>                            <li><a href="info/mesa-diretora">Mesa Diretora<img src="https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig//novoin.png" alt="" class="rounded float-right mb-1 " height="22"></a></li>
+                            <li><a href="info/vereadores">Vereadores</a></li>
+                            <li><a href="mapa">Mapa</a></li>
+
+                            <li><a href="categoria/carta-de-servicos-ao-usuario">Carta de Serviços ao Usuário</a></li>
+                            <li><a href="artigo/perguntas-frequentes"> Perguntas Frequentes <img src="https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig//novoin.png" alt="" class="rounded float-right mb-1 " height="22"></a></li>
+                            <li><a href="lgpd">LGPD<img src="https://figueiropolisdoeste.mt.leg.br/uploads-meuci/cfig//novoin.png" alt="" class="rounded float-right mb-1 " height="22"></a></li>
+                            
+                         
+                        </ul> 
+                    </li>
+                    <li><a href="https://figueiropolisdoeste.mt.leg.br/equipes/comissoes"><span>  Comissões</span></a></li>
+                     
+                    <li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/legislacao"><span class="sibolo-sub">Legislação</span></a><ul class="sub-1" ><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/ata-sessao">Ata sessão</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/ato">Ato</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/certificado-mocao-de-aplausos">Certificado Moção de Aplausos</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/decretos">Decretos</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/edital-de-convocacao">Edital de Convocação</a>  </li><li><a href="/categoria/materias-legislativas?&tipo=8">Indicação</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/julgamento-de-contas-do-executivo">Julgamento de contas do executivo</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/leis">Leis</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/leis-complementares">Leis Complementares</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/materias-legislativas">matérias legislativas</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/nota-de-repudio">Nota de repúdio</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/plano-de-cargos-carreiras-e-salario">PCCS</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/portaria">Portaria</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/artigo/regimento-interno">Regimento Interno</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/resolucoes">Resoluções</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/sessoes-plenarias">Sessões plenárias</a>  </li></ul></li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/licitacao"><span class="sibolo-sub">Licitação</span></a><ul class="sub-1" ><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/atas-de-adesao-srp">Atas de Adesão – SRP</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/contrato">Contrato</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/despesa-de-pequeno-vulto">Despesa de Pequeno Vulto</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/dispensa">Dispensa</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/edital">Edital</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/fiscais-de-contratos">Fiscais de contratos</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/inexigibilidade">Inexigibilidade</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/licitantes-e-ou-contratados-sancionados">licitantes e/ou contratados sancionados</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/plano-de-contratacoes-anual">Plano de Contratações Anual</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/pregao">Pregão</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/publicacao-de-contrato">Públicação de Contrato</a>  </li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/termos">Termos</a>  </li></ul></li><li><a href="https://figueiropolisdoeste.mt.leg.br/categoria/noticias"><span>Notícias</span></a></li> 
+                    
+
+                    <li><a href="https://figueiropolisdoeste.mt.leg.br/contato"><span>ouvidoria</span> </a></li>
+                    <li><a href="https://figueiropolisdoeste.mt.leg.br/portal-transparencia"><span>Transparência</span></a></li>
+
+
+
+                </ul>
+                <div style="    width: 20%; height: AUTO;   margin: 2px 0;" class="bingoSearchTop mr-2 mt-1">
+                    <form id="bingoSearchbox" class="form-pesquisa" action="https://figueiropolisdoeste.mt.leg.br/categoria/" method="get">
+
+
+
+                        <input style="height: 34px;       margin-top: 3px;   width: 100%; padding-left: 12px;" class="form-control bingoSearch" type="search" name="pesquisa" value="" placeholder="O que procura?" autocomplete="off">
+                        <button id="bingoSearchButton" class="btn btnbingoSearch bg-transparent" type="submit">
+                            <!-- <span class="btnSearchText">Pesquisar</span>-->
+                            <i class="fa fa-search"> </i>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    
+
+
+</header></div><div style=" min-height: 50vh;" class="div-principal " >
+<style>
+    .equipe-graficos .nav-link {
+        line-height: 19px;
+        border-radius: 6px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .nav-per .active {
+        color: #1287b8;
+        background: #ffffff;
+    }
+
+    .links-uteis:not(:last-child) {
+        border-bottom: 2px dashed #e7e7e7 !important;
+    }
+
+    .links-uteis {
+        margin-bottom: 6px;
+        padding-bottom: 6px;
+        margin-top: 6px;
+        padding-top: 6px;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-radius: 3px;
+    }
+
+    .tab-content .title {
+        font-size: 14px;
+        color: #7d7d7d;
+
+    }
+
+    .links-uteis:hover {
+        background: #fceb16;
+    }
+
+    .links-uteis i {
+        font-size: 18px;
+        color: #eaeaea;
+    }
+
+    .links-uteis:hover i {
+        color: #676767;
+    }
+
+    .topo-janela2 {
+        border-radius: 3px 3px 0 0;
+    }
+
+    .text-muted {
+        color: #b5b5c3 !important;
+    }
+
+    .carousel-item h2,
+    .destaque-fixed {
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient(180deg, #ffffff00, #000000cc) !important;
+        padding: 20px;
+        width: 100%;
+
+        font-size: 24px;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+        color: #fff !important;
+        margin: 0;
+    }
+
+    .btn-link:hover {
+        color: #f5eca3;
+        text-decoration: underline;
+    }
+
+    .link-ef {
+        width: 24%;
+        margin-bottom: 7px;
+        text-align: center;
+        display: inline-table;
+    }
+
+    .link-ef:hover {
+        background: #1287b8;
+        border-radius: 3px;
+    }
+
+    .link-ef:hover a {
+        color: #fff;
+    }
+
+    .parlamentares a:hover .badge {
+        background: #fff;
+    }
+</style>
+
+<div class="container ">
+
+    <div class="row-3">
+
+        <div class=" col-md-8">
+            <div class="row-3 ">
+                <div class=" col-12 ">
+
+
+                <div id="carouselExampleIndicators2" class="carousel slide mb-4 " data-ride="carousel">
+                 <ol class="carousel-indicators">
+                     <li data-target="#noticia-1" data-slide-to="0" class="active"></li>
+                     <li data-target="#noticia-2" data-slide-to="1"></li>
+                     <li data-target="#noticia-3" data-slide-to="2"></li>
+                 </ol>
+                 <div style=" position: relative;" class="carousel-inner">
+                          
+
+                        <div class=" artigo-d   w-100 position-relative carousel-item active">
+                            <a href="https://figueiropolisdoeste.mt.leg.br/artigo/reuniao-interna-com-o-agerr-pantanal-e-os-vereadores-da-camara-municipal-6a872c971624a">
+                                <img class="  h-auto" width="790" height="440"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/790-440/uploads-meuci-cfig-images-2026-08-reuniao-interna-com-o-agerr-pantanal-e-os-vereadores-da-camara-municipal-6a872c971624a-2026-08-20-12-3415228964631344dba3e8d43b.jpeg" alt="img">
+                                <h2>Reunião Interna com o Agerr Pantanal e os Vereadores da Câmara Municipal </h2>
+                                                            </a>
+                        </div>
+
+                    
+
+                        <div class=" artigo-d   w-100 position-relative carousel-item ">
+                            <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicadoo-tre-mt-69ea4d32a0f41">
+                                <img class="  h-auto" width="790" height="440"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/790-440/uploads-meuci-cfig-images-2026-04-comunicadoo-tre-mt-69ea4d32a0f41-2026-04-23-12-4762f20600dadf12e2e31f7d24.jpeg" alt="img">
+                                <h2>Comunicadoo TRE-MT </h2>
+                                                            </a>
+                        </div>
+
+                    
+
+                        <div class=" artigo-d   w-100 position-relative carousel-item ">
+                            <a href="https://figueiropolisdoeste.mt.leg.br/artigo/perguntas-frequentes">
+                                <img class="  h-auto" width="790" height="440"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/790-440/uploads-meuci-cfig-images-2024-04-perguntas-frequentes-2024-04-05-17-35bc29de9a32b552566be56398.png" alt="img">
+                                <h2>Perguntas Frequentes </h2>
+                                                            </a>
+                        </div>
+
+                    
+                 </div>
+                 <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                 </a>
+                 <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                 </a>
+             </div>
+
+            
+
+
+                </div>
+                <div class=" col-12 py-2 ">
+
+
+                                            <div class="d-md-flex  mx-0 artigo-m py-2">
+                            <div class=" flex-shrink-0 pr-md-3">
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/camara-municipal-empossa-davino-bulhoes-como-vereador-69a69e8cef942"> <img class="d-block w-100 h-auto" width="255" height="136"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/255-136/uploads-meuci-cfig-images-2026-03-camara-municipal-empossa-davino-bulhoes-como-vereador-69a69e8cef942-2026-03-03-04-40f12db88a908c97669eb71d68.jpeg" alt="img"> </a>
+
+                            </div>
+                            <div class=" w-100">
+                                <h2 class="titulo">Câmara Municipal empossa Davino Bulhoes como vereador</h2>
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/camara-municipal-empossa-davino-bulhoes-como-vereador-69a69e8cef942">
+                                    <p class="mt-2 subtitulo">Na manhã de Segunda-feira, 02 de Março de 2026, a Câmara Municipal de Figueirópolis D'Oeste realizou a solenidade de posse...</p>
+
+                                    
+                                </a>
+
+
+
+                            </div>
+                        </div>
+
+                                            <div class="d-md-flex  mx-0 artigo-m py-2">
+                            <div class=" flex-shrink-0 pr-md-3">
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/smas-encaminha-plano-municipal-de-assistencia-social-a-camara-de-figueiropolis-d-oeste-699dd03a67d1e"> <img class="d-block w-100 h-auto" width="255" height="136"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/255-136/uploads-meuci-cfig-images-2026-02-smas-encaminha-plano-municipal-de-assistencia-social-a-camara-de-figueiropolis-d-oeste-699dd03a67d1e-2026-02-24-12-55d77ea4d0fa83775e4fbf7a91.png" alt="img"> </a>
+
+                            </div>
+                            <div class=" w-100">
+                                <h2 class="titulo">SMAS encaminha Plano Municipal de Assistência Social à Câmara de Figueirópolis d’Oeste</h2>
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/smas-encaminha-plano-municipal-de-assistencia-social-a-camara-de-figueiropolis-d-oeste-699dd03a67d1e">
+                                    <p class="mt-2 subtitulo">A Secretaria Municipal de Assistência Social (SMAS) de Figueirópolis D’Oeste encaminhou oficialmente à Câmara Municipal o Plano Municipal de Assistência...</p>
+
+                                    
+                                </a>
+
+
+
+                            </div>
+                        </div>
+
+                    
+
+                </div>
+                <style>.id-32837 {
+    background: #fff;
+    display: block;
+    color: #9a9a9a;
+    font-size: 16px;
+    font-size: 17px;
+}
+</style>
+                <div class="col-md-12">
+                        <a class=" id-32837 p-2 w-100 text-center mb-4 shadow-sm   rounded-sm" href="categoria/noticias" role="button"><i class="fas fa-link mr-2"></i> Ver mais notícias</a>
+                    </div>
+                <div class=" col-12 py-2 ">
+                    <div class="hr mb-4">
+                        <div style="padding-left: 8px; margin-left: 20px;" class="hr-title">PARLAMENTARES</div>
+                    </div>
+                    <style>
+                        .parlamentares .box {
+                            border: 4px solid #fff;
+                        }
+                    </style>
+                    <div class="row row-3 parlamentares">
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/marcio-farias-pinheiro" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-marcio-farias-pinheiro-2025-09-17-07-26a7f7aeea7625af55454ba17b.jpg" alt="img">
+<div class="p-2">Marcio Farias Pinheiro</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/sergio-visintin" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-12-sergio-visintin-2025-12-19-09-467987506ae2410a123ab8bd72.jpg" alt="img">
+<div class="p-2">Sergio Visintin</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/jose-lucas-da-silva-1" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-jose-lucas-da-silva-1-2025-09-17-07-24928c4d93fcaf7e6a2084cd64.jpg" alt="img">
+<div class="p-2">Jose Lucas da Silva</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/ernane-jeronimo-da-silva-filho-togo" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-ernane-jeronimo-da-silva-filho-togo-2025-09-17-07-21a480c2c21e6c865a5c91a2d8.jpg" alt="img">
+<div class="p-2">Ernane Jerônimo da Silva Filho Togo</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/davino-martins-de-bulhoes-1" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2026-05-davino-martins-de-bulhoes-1-2026-05-26-08-047b94f2bff7e38379fae3037d.jpg" alt="img">
+<div class="p-2">Davino Martins de Bulhões</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/anisio-aparecido-peres-2" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-anisio-aparecido-peres-1-2025-09-17-07-22285d800b0e9a9543872dd160.jpg" alt="img">
+<div class="p-2">Anísio Aparecido Peres</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/geraldo-de-assis-rocha-1" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-geraldo-de-assis-rocha-1-2025-09-17-07-2556cd324f9f208530ed4f95f4.jpg" alt="img">
+<div class="p-2">Geraldo de Assis Rocha</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/vera-lucia-de-souza-mariano" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-vera-lucia-de-souza-mariano-2025-09-17-07-251367bcb83f9689d4c3198187.jpg" alt="img">
+<div class="p-2">Vera Lucia de Souza Mariano</div>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-4  mb-3  ">
+                                <div style="font-size: 16px;" class="box h-100 shadow-sm p-0  position-relative rounded-sm text-center  gal-item ">
+                                    <a href="https://figueiropolisdoeste.mt.leg.br/perfil/rugle-ferreira-de-amurim-1" class="  " >
+                                        <img class="d-block w-100 h-auto" width="273" height="350"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/273-350/uploads-meuci-cfig-images-2025-09-rugle-ferreira-de-amurim-1-2025-09-17-07-25142e31d9c6e85b8f7e7efca6.jpg" alt="img">
+<div class="p-2">Rugle Ferreira de Amurim</div>
+                                    </a>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+
+            </div>
+
+
+            <div class="row mb-3 mb-md-4 ">
+
+                 <div class="col-md-12 mb-3   ">
+                     <div class="hr mb-4">
+                         <div style="padding-left: 8px; margin-left: 20px;" class="hr-title">ARQUIVOS RECENTES</div>
+                     </div>
+
+                     <div class=" app-content shadow-sm">
+                        
+                                                          <div style="    border-bottom: 1px solid #e5e2e2;" class="artigo-m   mb-0">
+                                     <div class=" pt-3 pl-3 pr-3 pb-2 ">
+                                         <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-verba-indenizatoria">
+                                             <h2 class="categoria preto mt-0 mb-0 "> COMUNICADO Verba Indenizatoria!!!!</h2>
+                                         </a>
+                                         <div class="desc desc p-0 m-0 ">
+                                             <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-verba-indenizatoria">
+                                                 <p class="mt-2 preto subtitulo">
+                                                     A Câmara Municipal de de Figueirópolis d'Oeste divulga aos valores recebidos pelos Parlamentares e servidores dessa casa.&nbsp;Fundamentação: Arts. 37, "caput" (princípios da publicidade e moralidade) e 39, § 6º, da CF; arts. 3º, incisos I, II, III, IV e V,...                                                 </p>
+                                             </a>
+
+                                             <span class="more-link btn-read-more  ">
+                                                 Transparência <i class="fas fa-caret-right"></i> Verba indenizatoria
+                                             </span>
+
+
+                                             <span class="more-link btn-read-more   ml-3"> Há 3 Dias</span>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                                                          <div style="    border-bottom: 1px solid #e5e2e2;" class="artigo-m   mb-0">
+                                     <div class=" pt-3 pl-3 pr-3 pb-2 ">
+                                         <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-diaria-6a846ff5f24df">
+                                             <h2 class="categoria preto mt-0 mb-0 "> Comunicado diaria</h2>
+                                         </a>
+                                         <div class="desc desc p-0 m-0 ">
+                                             <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-diaria-6a846ff5f24df">
+                                                 <p class="mt-2 preto subtitulo">
+                                                     Informa aos interessados que, no período de referência, não foram concedidas diárias                                                 </p>
+                                             </a>
+
+                                             <span class="more-link btn-read-more  ">
+                                                 Transparência <i class="fas fa-caret-right"></i> Solicitação de diaria
+                                             </span>
+
+
+                                             <span class="more-link btn-read-more   ml-3"> Há 4 Dias</span>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                                                          <div style="    border-bottom: 1px solid #e5e2e2;" class="artigo-m   mb-0">
+                                     <div class=" pt-3 pl-3 pr-3 pb-2 ">
+                                         <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-adesao">
+                                             <h2 class="categoria preto mt-0 mb-0 "> Comunicado(adesão)</h2>
+                                         </a>
+                                         <div class="desc desc p-0 m-0 ">
+                                             <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-adesao">
+                                                 <p class="mt-2 preto subtitulo">
+                                                     A Câmara Municipal de Figueirópolis d'Oeste, Estado de Mato Grosso, vem a público informar que não houve Adesão a Ata de Registro de Preço nos últimos 30 dias, sendo o ultima adesão ocorreu na data de 05 Dezembro 2024.Reiteramos nosso...                                                 </p>
+                                             </a>
+
+                                             <span class="more-link btn-read-more  ">
+                                                 Transparência <i class="fas fa-caret-right"></i> Atas de Adesão – SRP
+                                             </span>
+
+
+                                             <span class="more-link btn-read-more   ml-3"> Há 4 Dias</span>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                                                          <div style="    border-bottom: 1px solid #e5e2e2;" class="artigo-m   mb-0">
+                                     <div class=" pt-3 pl-3 pr-3 pb-2 ">
+                                         <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-julgamento-contas-camara">
+                                             <h2 class="categoria preto mt-0 mb-0 "> Comunicado(julgamento contas câmara)</h2>
+                                         </a>
+                                         <div class="desc desc p-0 m-0 ">
+                                             <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-julgamento-contas-camara">
+                                                 <p class="mt-2 preto subtitulo">
+                                                     A Câmara Municipal de Figueirópolis D'Oeste, Estado de Mato Grosso, vem a público informar sobre o julgamento das contas pelo Tribunal de Contas do Estado de Mato Grosso (TCE-MT).Não houve julgamento de contas pelo TCE-MT no período de 2014 a...                                                 </p>
+                                             </a>
+
+                                             <span class="more-link btn-read-more  ">
+                                                 Transparência <i class="fas fa-caret-right"></i> Julgamento das contas
+                                             </span>
+
+
+                                             <span class="more-link btn-read-more   ml-3"> Há 4 Dias</span>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                                                          <div style="    border-bottom: 1px solid #e5e2e2;" class="artigo-m   mb-0">
+                                     <div class=" pt-3 pl-3 pr-3 pb-2 ">
+                                         <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-pregao">
+                                             <h2 class="categoria preto mt-0 mb-0 "> Comunicado(Pregão)</h2>
+                                         </a>
+                                         <div class="desc desc p-0 m-0 ">
+                                             <a href="https://figueiropolisdoeste.mt.leg.br/artigo/comunicado-pregao">
+                                                 <p class="mt-2 preto subtitulo">
+                                                     A Câmara Municipal Figueirópolis d’oeste vem por meio desta divulgar aos interessados os procedimentos para acompanhar os pregões. Fundamentação: Arts. 37, "caput" (princípios da publicidade e moralidade) e 39, § 6º, da CF; arts. 3º, incisos I, II, III, IV...                                                 </p>
+                                             </a>
+
+                                             <span class="more-link btn-read-more  ">
+                                                 Licitações <i class="fas fa-caret-right"></i> Pregão
+                                             </span>
+
+
+                                             <span class="more-link btn-read-more   ml-3"> Há 4 Dias</span>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                         
+                     </div>
+
+
+
+                 </div>
+
+
+
+             </div>
+
+
+
+
+
+        </div>
+
+        <div class="col-md-4 ">
+
+
+            <style>
+                .facebook-responsive {
+                    overflow: hidden;
+
+                    position: relative;
+                    border: 5px solid #88573145;
+                    border-radius: 3px
+                }
+
+                .facebook-responsive {
+                    max-width: 800px;
+                    margin: 0 auto;
+                }
+
+                .facebook-responsive iframe {
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                }
+
+                .play-tv {
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -25px;
+                    top: 27%;
+                }
+
+                .banner-tv:hover {
+                    filter: grayscale(70%);
+                }
+            </style>
+            <div class="conteudo-yout shadow-sm bg-white p-2 mb-3">
+                <div class="conteudo-tv mb-3">
+
+
+                    <a href="https://figueiropolisdoeste.mt.leg.br/artigo/13-sessao-ordinaria-de-31-de-agosto-de-2026-6aa2a6c553e93">
+                        <img style="    left: 35px;  top: 10px;width: 90px;opacity: 0.4;" class="play-tv" width="50" src="https://figueiropolisdoeste.mt.leg.br/themes/padrao/images/logo-tv.png" alt="">
+                        <img class="d-block w-100" width="350" height="224"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/350-224/uploads-meuci-cfig-images-2026-09-13-sessao-ordinaria-de-31-de-agosto-de-2026-6aa2a6c553e93-2026-09-10-08-475649ede9ef26567f128fed2c.jpg" alt="tv">
+
+                        <i style="    
+ 
+    font-size: 41px;
+    position: absolute;
+    color: #fff;
+    left: 157px;
+    top: 91px;" class="  far fa-play-circle  "></i>
+                    </a>
+
+                    <a href="https://figueiropolisdoeste.mt.leg.br/artigo/13-sessao-ordinaria-de-31-de-agosto-de-2026-6aa2a6c553e93">
+                        <h2 class="mt-2">13° SESSÃO ORDINÁRIA DE 08 DE SETEMBRO DE 2026</h2>
+                    </a>
+                </div>
+
+                
+
+
+
+                    <hr style="    border-top: 3px solid #dbe2e87a;">
+
+                    <div class="artigo-p  d-none  d-md-block">
+                        <div class="row-3">
+
+                            <div style=" position: relative" class="col-md-4  ">
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/12-sessao-ordinaria-de-03-de-agosto-de-2026-6a95915c5ec10">
+                                    <img class=" float-left w25 pr-2 w-100" width="90" height="34"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/90-/uploads-meuci-cfig-images-2026-08-12-sessao-ordinaria-de-03-de-agosto-de-2026-6a95915c5ec10-2026-08-31-10-363eafddcf3e4fc3120df0116c.jpg" alt="img">
+                                    <i style="     font-size: 22px;   position: absolute;  color: #fff;  left: 41px;  top: 22px;" class="  far fa-play-circle  "></i> </a>
+                            </div>
+                            <div class="col-md-8 mpl">
+                                <time class="text-muted  d-block ">Há 21 Dias</time>
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/12-sessao-ordinaria-de-03-de-agosto-de-2026-6a95915c5ec10" title="12° SESSÃO ORDINÁRIA DE 31 DE AGOSTO DE 2026">
+                                    <h2 style="      font-size: 13px;     line-height: 16px; " class="mb-2 mt-2 titulo preto">12° SESSÃO ORDINÁRIA DE 31 DE AGOSTO DE 2026 </h2>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                 <hr style="     border-top: 2px solid #eeeeee;  margin: 10px 0;">
+
+
+
+                    <hr style="    border-top: 3px solid #dbe2e87a;">
+
+                    <div class="artigo-p  d-none  d-md-block">
+                        <div class="row-3">
+
+                            <div style=" position: relative" class="col-md-4  ">
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/11-sessao-ordinaria-de-03-de-agosto-de-2026-6a733cdb75c72">
+                                    <img class=" float-left w25 pr-2 w-100" width="90" height="34"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/90-/uploads-meuci-cfig-images-2026-08-11-sessao-ordinaria-de-03-de-agosto-de-2026-6a733cdb75c72-2026-08-05-09-38e3592aa0e11259c021f31627.jpg" alt="img">
+                                    <i style="     font-size: 22px;   position: absolute;  color: #fff;  left: 41px;  top: 22px;" class="  far fa-play-circle  "></i> </a>
+                            </div>
+                            <div class="col-md-8 mpl">
+                                <time class="text-muted  d-block ">Há 49 Dias</time>
+                                <a href="https://figueiropolisdoeste.mt.leg.br/artigo/11-sessao-ordinaria-de-03-de-agosto-de-2026-6a733cdb75c72" title="11° SESSÃO ORDINÁRIA DE 03 DE AGOSTO DE 2026">
+                                    <h2 style="      font-size: 13px;     line-height: 16px; " class="mb-2 mt-2 titulo preto">11° SESSÃO ORDINÁRIA DE 03 DE AGOSTO DE 2026 </h2>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                                <a href="https://figueiropolisdoeste.mt.leg.br/categoria/sessoes-plenarias" id="" class="btn btn-light text-muted w-100 mt-2" href="#" role="button">VER MAIS</a>
+            </div>
+
+
+
+
+
+
+
+
+
+            <a  href="https://radardatransparencia.atricon.org.br/" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="225"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2024-03-radar-da-transparencia-2024-03-26-11-560353d58e0b23af795a33b946.png"      /></picture></a><a  href="https://www.facebook.com/profile.php?id=100090641634906" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="61"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2023-07-facebook-2023-07-13-15-35.png"      /></picture></a><a  href="/portal-transparencia" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="119"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2024-05-portal-transparencia-novo-2024-05-04-12-138aec30c79354992bcc8a6619.png"      /></picture></a><a  href="https://sic.tce.mt.gov.br/27" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="119"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2024-05-portal-transparencia-antigo-2024-05-04-12-13bc388d7b0275da6c4733bba2.png"      /></picture></a><a  href="https://webmail-seguro.com.br/figueiropolisdoeste.mt.gov.br/" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="111"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2024-07-e-mail-2024-07-18-09-584171debfb1277125b1d66bca.png"      /></picture></a>
+            <a  href="https://figueiropolisdoeste.mt.leg.br/contato" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="222"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2023-07-e-sic-2023-07-10-11-28.jpeg"      /></picture></a><a  href="https://figueiropolisdoeste.mt.gov.br/" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="92"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2024-02-prefeitura-de-figueiropolis-d-oeste-2024-02-09-21-22e4b35b0dc446bc34b7bbe2d1.png"      /></picture></a><a  href="/lgpd" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="136"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2024-04-lgpd-2024-04-07-20-021166f0a19089d91049bf9b81.jpg"      /></picture></a><a  href="https://www.instagram.com/camara.figueiropolis/" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="61"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2023-07-instagram-2023-07-13-15-36.png"      /></picture></a><a  href="https://docs.google.com/forms/d/e/1FAIpQLSfaLi2JUZcaTRWE2pCsi1Dh4uhPOOvryWgTfAxbW4zSLQRaZQ/viewform?fbzx=-2907906485794549732" target="_blank" ><picture><img  class="bmM  w-100   mb-3   pre-img" width="400" height="259"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/400-/uploads-meuci-cfig-banner-2023-09-pesquisa-de-satisfacao-2023-09-20-10-58.png"      /></picture></a>
+
+
+
+
+            <style>
+                .card {
+                    margin-bottom: 5px;
+                }
+
+                .card-header {
+                    padding: 0;
+                    border-radius: 3px !important;
+                }
+
+                .card-header button {
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+
+                .card {
+                    border: none;
+                    border-radius: 3px;
+                }
+
+                .card-body {
+                    padding: 5px;
+                }
+
+                .card .btn {
+                    padding: 3px 6px;
+                }
+            </style>
+
+
+            <style>
+                .servicos {
+                    margin-bottom: 20px
+                }
+
+                .servicos .s-title {
+                    background-color: #00684c;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px 0;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-bottom: 6px
+                }
+
+                .servicos .s-itens .s-item {
+                    border-radius: 3px;
+                    display: grid;
+                    grid-template-columns: 64px 1fr 30px;
+                    background-color: #fff;
+                    max-height: 64px;
+                    min-height: 64px;
+
+
+                }
+
+                .servicos .s-itens .s-item .i-icon {
+                    border-radius: 3px 0 0 3px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #02944112;
+                    position: relative;
+                    max-height: 64px
+                }
+
+                .servicos .s-itens .s-item .i-text {
+                    padding: 8px 15px 8px 22px;
+                    color: #00684c;
+                    display: flex;
+                    align-items: center
+                }
+
+                .servicos .s-itens .s-item .i-text .t-wrapper .t-title {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-transform: uppercase
+                }
+
+                .servicos .s-itens .s-item .i-text .t-wrapper .t-subtitle {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px
+                }
+
+                .servicos .s-itens .s-item .i-chevron {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-height: 64px
+                }
+            </style>
+
+            <div class="servicos">
+                <div class="s-itens ">
+                    <a class="s-item shadow-sm  mb-3" href="http://179.125.13.129:8088/sipweb/" target="_self">
+                        <div class="i-icon  ">
+                            <i style="font-size: 35px;color: #00afef;" class="fas fa-file-invoice"></i>
+                        </div>
+                        <div class="i-text">
+                            <div class="t-wrapper">
+                                <div class="t-title">Holerite</div>
+
+                            </div>
+                        </div>
+                        <div class="i-chevron"><img src="assets/images/icons/chevron_right.svg" alt=""></div>
+                    </a>
+                    <a class="s-item shadow-sm  mb-3" href="https://figueiropolisdoeste.mt.leg.br/contato" target="_self">
+                        <div class="i-icon  ">
+                            <i style="font-size: 35px;color: #00afef;" class="fas fa-comments "></i>
+                        </div>
+                        <div class="i-text">
+                            <div class="t-wrapper">
+                                <div class="t-title">OUVIDORIA</div>
+
+                            </div>
+                        </div>
+                        <div class="i-chevron"><img src="assets/images/icons/chevron_right.svg" alt=""></div>
+                    </a>
+                    
+                </div>
+            </div>
+
+
+
+        </div>
+        
+
+
+
+
+
+    </div>
+</div></div>
+
+
+<footer style=" padding-top: 35px;    background: #474749;" class="footer-page    background  ">
+
+
+
+    <div style=" z-index: 99;" class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-3 text-center">
+                <img style=" height: auto " class=" mb-2 footer-page-logo" width="126" height="126"  src="https://figueiropolisdoeste.mt.leg.br/cache/uploads-meuci/-126/uploads-meuci-cfig-site-2023-06-conf-icon.png" alt="Logo">
+
+            </div>
+            <div class="col-md-5"> 
+
+                <p style="    margin-top: 3px; padding-left: 20px;    font-size: 16px; position: relative;" class="text">
+                    
+                    <i class=" fa fa-envelope " aria-hidden="true"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dab9bbb7bba8bb9abcb3bdafbfb3a8b5aab5b6b3a9beb5bfa9aebff4b7aef4bdb5acf4b8a8">[email&#160;protected]</a> <br>
+                    <i class=" fa fa-home" aria-hidden="true"></i> Rua Rio Grande do Sul, 142 - Centro - Figueirópolis d'Oeste - MT | 78290-000 <br>                                <i class="fa fa-clock" aria-hidden="true"></i> Seg. a Sex, das 07:00 às 13:00  <br>                    <i class=" fa fa-phone" aria-hidden="true"></i> (65) 3235-1122<br> 
+                    <a href="artigo/politica-de-privacidade" class=" not-link">POLÍTICA DE PRIVACIDADE </a>   <br>
+                    <a href="artigo/termo-de-uso-e-politica-de-privacidade-2024-04-08-09" class=" not-link">TERMO DE USO E POLÍTICA DE PRIVACIDADE</a>   <br>
+
+                </p> 
+            </div> 
+        </div> 
+        <div class="row">
+            <p  class="meuci" >
+                Desenvolvido por Meuci Soluções Web <a  href="http://www.meuci.com.br">meuci.com.br</a></p>
+        </div> 
+    </div> 
+
+
+
+
+
+
+
+
+
+
+    <div style="pointer-events: none;" class="footer-telefone ">
+        <div class="container">
+
+            <div style=" padding-left: 50px;" class="left">
+                <h4 class="caps pt-4 light">
+                    <strong>Dúvidas?</strong> 
+                    Ligue para nós:				    </h4>
+                <h1 class="color">(65) 3235-1122</h1>
+            </div><!-- end left -->
+
+
+
+        </div>
+    </div>
+
+
+</footer>
+
+
+<input class="titlePageAjax" type="hidden" value="Câmara Municipal de Figueirópolis d´Oeste" /><input id="home-index" type="hidden" value="https://figueiropolisdoeste.mt.leg.br" />            <div class="rodapeSamu">
+            <div  class="  modal modal-99953880 fade modal-full"  id="modal-padrao"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div  class="modal-dialog" role="document">
+                    <div class="modal-content">
+                         <button type="button" class="close d-print-none" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button> 
+                        <div class="modal-conteudo modal-block-info"></div></div></div></div> 
+            <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css" />
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://unpkg.com/@popperjs/core@2"></script>
+            <script src="https://unpkg.com/tippy.js@6"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+            <script src="https://figueiropolisdoeste.mt.leg.br/_cdn/js/jquery-3.4.1.min.js"></script><!--jquery-3.3.1.slim.min.js-->
+
+            
+            <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+
+
+
+                            <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+                        <script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
+            <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/extensions/export/bootstrap-table-export.min.js"></script>
+            
+                        <script src="https://figueiropolisdoeste.mt.leg.br/themes/padrao/js/cfig.min.js?v=2026-08-25-15-33-01"></script>
+                        
+            <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+            <div class="MchatList  "> </div>
+            <div class="Mchat-live">
+                                                            </div>
+        </div>
+        <script class="scriptRemoveScript">console.log("_cdn\/include\/cfig\/index.php (_app\/Models\/Link.class.php:262)");</script>    
+
+
+
+        
+        
+            <div class="alert text-left cookiealert rouded-sm" role="alert">
+                <b>Você gosta cookies?</b> &#x1F36A; Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com nossa. <br>
+                                <a href="artigo/politica-de-privacidade" target="_blank">Política de privacidade</a> <br>
+                <button type="button" class="btn btn-primary btn-sm acceptcookies mt-3">
+                    ACEITAR
+                </button>
+            </div>
+            
+            <script>
+                (function() {
+                    "use strict";
+
+                    var cookieAlert = document.querySelector(".cookiealert");
+                    var acceptCookies = document.querySelector(".acceptcookies");
+                    //   var fundoCookies = document.querySelector(".fundo-cookie");
+                    if (!cookieAlert) {
+                        return;
+                    }
+
+                    cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+                    // Show the alert if we cant find the "acceptCookies" cookie
+                    if (!getCookie("acceptCookies")) {
+                        cookieAlert.classList.add("show");
+                        //    fundoCookies.classList.add("show");
+
+                    }
+
+                    // When clicking on the agree button, create a 1 year
+                    // cookie to remember user's choice and close the banner
+                    acceptCookies.addEventListener("click", function() {
+                        setCookie("acceptCookies", true, 300);
+                        cookieAlert.classList.remove("show");
+                        //   fundoCookies.classList.remove("show");
+
+                        // dispatch the accept event
+                        window.dispatchEvent(new Event("cookieAlertAccept"))
+                    });
+
+                    // Cookie functions from w3schools
+                    function setCookie(cname, cvalue, exdays) {
+                        var d = new Date();
+                        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                        var expires = "expires=" + d.toUTCString();
+                        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+                    }
+
+                    function getCookie(cname) {
+                        var name = cname + "=";
+                        var decodedCookie = decodeURIComponent(document.cookie);
+                        var ca = decodedCookie.split(';');
+                        for (var i = 0; i < ca.length; i++) {
+                            var c = ca[i];
+                            while (c.charAt(0) === ' ') {
+                                c = c.substring(1);
+                            }
+                            if (c.indexOf(name) === 0) {
+                                return c.substring(name.length, c.length);
+                            }
+                        }
+                        return "";
+                    }
+                })();
+            </script>
+            <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f4ce1fed6f9640c9a6e1a7c4cd43d6e1","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+    </html>

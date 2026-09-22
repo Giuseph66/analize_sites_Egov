@@ -1,0 +1,13 @@
+{
+  "url": "https://figueiropolisdoeste.mt.leg.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/download_figueiropolisdoeste.mt.leg.br_004.html",
+  "html_bytes": 64580,
+  "html_title": "Câmara Municipal de Figueirópolis d´Oeste",
+  "nota": "5.4",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_figueiropolisdoeste.mt.leg.br_004.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_figueiropolisdoeste.mt.leg.br_004.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

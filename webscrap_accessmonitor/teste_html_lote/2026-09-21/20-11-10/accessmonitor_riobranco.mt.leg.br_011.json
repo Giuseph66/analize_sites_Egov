@@ -1,0 +1,153 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html><head></head><body>Acesso negado.</body></html>",
+    "data": {
+      "title": "",
+      "rawUrl": "https://riobranco.mt.leg.br/",
+      "elems": {
+        "titleNo": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 0,
+        "a": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 0,
+        "dd,dt": 0,
+        "dl": 0,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 00:12:33",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "",
+          "date": "2026-09-22 00:12:33",
+          "htmlTags": 200,
+          "roles": {
+            "document": 1,
+            "generic": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "style": 190,
+            "script": 7,
+            "body": 1
+          },
+          "size": 3426133,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "33f43e02fd5467ff8d570943eec3b6ce",
+          "tests": 7,
+          "conform": "5@1@0",
+          "score": "3.0"
+        },
+        "elems": {
+          "titleNo": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 0,
+          "a": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 0,
+          "dd,dt": 0,
+          "dl": 0,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_02": "1@2.8",
+          "lang_03": "1@1.8",
+          "layout_01a": "10@18",
+          "hx_01a": "3@5.4",
+          "heading_04": "1@1.8",
+          "a_04": "3@5.4",
+          "a_02a": "3@4.859999999999999"
+        }
+      },
+      "conform": "5@1@0",
+      "score": "3.0"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T00:12:34.331Z",
+    "requestedUrl": "https://riobranco.mt.leg.br/",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 14,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/download_riobranco.mt.leg.br_011.html"
+    }
+  }
+}

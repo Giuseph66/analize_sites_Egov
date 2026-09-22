@@ -1,0 +1,13 @@
+{
+  "url": "https://www.mirassoldoeste.mt.gov.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/download_www.mirassoldoeste.mt.gov.br_026.html",
+  "html_bytes": 111058,
+  "html_title": "Prefeitura de Mirassol D Oeste - MT",
+  "nota": "4.9",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_www.mirassoldoeste.mt.gov.br_026.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_www.mirassoldoeste.mt.gov.br_026.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://santaterezinha.mt.gov.br/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Encode+Sans:100,200,300,regular,500,600,700,800,900|Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHiVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGOHjVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGD_jVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHjVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGFPjVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGL_kVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGOHkVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGMjkVtyF6A.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u-w4BMUTPHjxsIPx-mPCc.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI9w2_FQfo.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAUi-v.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI5wq_FQfo.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI3wi_FQfo.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHh30AUi-v.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPHA.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwWw.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPHA.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPHA.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHiVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGOHjVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGD_jVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHjVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGFPjVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGL_kVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGOHkVtyF6w.woff) format('woff');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGMjkVtyF6w.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u-w4BMUTPHjxsIPx-mPCQ.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI9w2_FQfr.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAUi-s.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI5wq_FQfr.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI3wi_FQfr.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHh30AUi-s.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPHw.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwWA.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPHw.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPHw.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 100;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHiVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 200;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGOHjVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGD_jVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGGHjVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGFPjVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGL_kVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGIbkVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGOHkVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Encode Sans';font-style: normal;font-weight: 900;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/encodesans/v23/LDIcapOFNxEwR-Bd1O9uYNmnUQomAgE25imKSbHhROjLsZBWTSrQGMjkVtyF7Q.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u-w4BMUTPHjxsIPx-mPCI.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI9w2_FQft.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAUi-q.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI5wq_FQft.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI3wi_FQft.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHh30AUi-q.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPGQ.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwXg.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGQ.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPGQ.woff2) format('woff2');}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Administração - Prefeitura de Santa Terezinha / MT</title>
+	<link rel="canonical" href="https://santaterezinha.mt.gov.br/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Administração - Prefeitura de Santa Terezinha / MT" />
+	<meta property="og:url" content="https://santaterezinha.mt.gov.br/" />
+	<meta property="og:site_name" content="Prefeitura de Santa Terezinha / MT" />
+	<meta property="article:modified_time" content="2026-05-29T10:54:10+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/santaterezinha.mt.gov.br\/","url":"https:\/\/santaterezinha.mt.gov.br\/","name":"Administração - Prefeitura de Santa Terezinha \/ MT","isPartOf":{"@id":"https:\/\/santaterezinha.mt.gov.br\/#website"},"about":{"@id":"https:\/\/santaterezinha.mt.gov.br\/#organization"},"datePublished":"2021-02-09T19:25:32+00:00","dateModified":"2026-05-29T10:54:10+00:00","breadcrumb":{"@id":"https:\/\/santaterezinha.mt.gov.br\/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/santaterezinha.mt.gov.br\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/santaterezinha.mt.gov.br\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/santaterezinha.mt.gov.br\/#website","url":"https:\/\/santaterezinha.mt.gov.br\/","name":"Prefeitura de Santa Terezinha \/ MT","description":"Juntos, construindo um futuro melhor para o nosso município.","publisher":{"@id":"https:\/\/santaterezinha.mt.gov.br\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/santaterezinha.mt.gov.br\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https:\/\/santaterezinha.mt.gov.br\/#organization","name":"Prefeitura Municipal de Santa Terezinha - MT","url":"https:\/\/santaterezinha.mt.gov.br\/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https:\/\/santaterezinha.mt.gov.br\/#\/schema\/logo\/image\/","url":"https:\/\/santaterezinha.mt.gov.br\/wp-content\/uploads\/2021\/02\/Logo-Prefeitura-de-Santa-Terezinha.png","contentUrl":"https:\/\/santaterezinha.mt.gov.br\/wp-content\/uploads\/2021\/02\/Logo-Prefeitura-de-Santa-Terezinha.png","width":1346,"height":238,"caption":"Prefeitura Municipal de Santa Terezinha - MT"},"image":{"@id":"https:\/\/santaterezinha.mt.gov.br\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<script type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 11.2.3');</script>
+<link rel="alternate" type="application/rss+xml" title="Feed para Prefeitura de Santa Terezinha / MT &raquo;" href="https://santaterezinha.mt.gov.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Prefeitura de Santa Terezinha / MT &raquo;" href="https://santaterezinha.mt.gov.br/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://santaterezinha.mt.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsantaterezinha.mt.gov.br%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://santaterezinha.mt.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsantaterezinha.mt.gov.br%2F&#038;format=xml" />
+<meta content="Divi v.4.27.4" name="generator"/><link rel='stylesheet' id='divi-file-upload-styles-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/divi-contact-module-pro/styles.min.css?ver=7.0.5' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='dashicons-css' href='https://santaterezinha.mt.gov.br/wp-includes/css/dashicons.min.css?ver=7.0.5' media='all' />
+<link rel='stylesheet' id='qmn_quiz_animation_style-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/css/animate.css?ver=11.2.6' media='all' />
+<link rel='stylesheet' id='jquery-redmond-theme-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/css/jquery-ui.css?ver=11.2.6' media='all' />
+<link rel='stylesheet' id='slider-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/css/jquery.ui.slider-rtl.css?ver=11.2.6' media='all' />
+<link rel='stylesheet' id='qsm-quiz-styles-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/renderer/assets/css/qsm-quiz-style.css?ver=11.2.6' media='all' />
+<link rel='stylesheet' id='qmn_quiz_common_style-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/renderer/assets/css/qsm-common.css?ver=11.2.6' media='all' />
+<link rel='stylesheet' id='qsm_primary_css-css' href='https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/templates/qmn_primary.css?ver=11.2.6' media='all' />
+<link rel='stylesheet' id='divi-style-css' href='https://santaterezinha.mt.gov.br/wp-content/themes/Divi/style-static.min.css?ver=4.27.4' media='all' />
+<script id="jquery-core-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="jquery-js-after">
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+//# sourceURL=jquery-js-after
+</script>
+<link rel="https://api.w.org/" href="https://santaterezinha.mt.gov.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://santaterezinha.mt.gov.br/wp-json/wp/v2/pages/83" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://santaterezinha.mt.gov.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.5" />
+<link rel='shortlink' href='https://santaterezinha.mt.gov.br/' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><script type='application/javascript' id='pys-config-warning-script'>console.warn('PixelYourSite: no pixel configured.');</script>
+<meta name="google-site-verification" content="Ruzvp9DV4v7Uiky63hrd1W6zufYty0CK1qzvREr--0o">
+
+<script>
+jQuery('document').ready(function() {
+	$("figure a").attr("data-lightbox","image");
+});
+</script>
+
+<link href="https://wtgfiles.s3.amazonaws.com/lightbox/css/lightbox.css" rel="stylesheet">
+
+<script>
+jQuery('document').ready(function() {
+	jQuery(".wp-block-file a").attr('target','_blank');
+
+	var s = document.createElement("script");
+	s.type = "text/javascript";
+	s.src = "https://wtgfiles.s3.amazonaws.com/lightbox/js/lightbox.js";
+	jQuery("footer").append(s);
+});
+</script>
+
+<script>
+	(function ($) {
+		var pa_equalize_button_height = "true";
+
+		if (pa_equalize_button_height == "false") {
+			function pa_equalize_blog_post_height(blog) {
+				var articles = blog.find('article');
+				var heights = [];
+
+				articles.each(function () {
+					var height = 0;
+					height += ($(this).find('.et_pb_image_container, .et_main_video_container').length != 0) ? $(this).find('.et_pb_image_container, .et_main_video_container').outerHeight(true) : 0;
+					height += $(this).find('.entry-title').outerHeight(true);
+					height += ($(this).find('.post-meta').length != 0) ? $(this).find('.post-meta').outerHeight(true) : 0;
+					height += ($(this).find('.post-content').length != 0) ? $(this).find('.post-content').outerHeight(true) : 0;
+
+					heights.push(height);
+				});
+
+				var max_height = Math.max.apply(Math, heights);
+
+				articles.each(function () {
+					$(this).height(max_height);
+				});
+			}
+		} else {
+			function pa_equalize_blog_post_height(blog) {
+				var articles = blog.find('article');
+				var heights = [];
+				var btnheights = [];
+
+				articles.each(function () {
+					var height = 0;
+					var btnheight = 0;
+					var basebtnmargin = 20;
+
+					height += ($(this).find('.et_pb_image_container, .et_main_video_container').length != 0) ? $(this).find('.et_pb_image_container, .et_main_video_container').outerHeight(true) : 0;
+					height += $(this).find('.entry-title').outerHeight(true);
+					height += $(this).find('.post-meta').outerHeight(true);
+					height += $(this).find('.post-content').outerHeight(true);
+
+					btnheight += ($(this).find('.et_pb_image_container, .et_main_video_container').length != 0) ? $(this).find('.et_pb_image_container, .et_main_video_container').outerHeight(true) : 0;
+					btnheight += $(this).find('.entry-title').outerHeight(true);
+					btnheight += $(this).find('.post-meta').outerHeight(true);
+					btnheight += $(this).find(".post-content p").outerHeight(true);
+					btnheight += basebtnmargin;
+
+					heights.push(height);
+					btnheights.push(btnheight);
+
+				});
+
+				var max_height = Math.max.apply(Math, heights);
+				var max_btn_height = Math.max.apply(Math, btnheights);
+
+				articles.each(function () {
+					$(this).height(max_height);
+
+					var eachheight = 0;
+					var eachbasebtnmargin = 20;
+					eachheight += ($(this).find('.et_pb_image_container, .et_main_video_container').length != 0) ? $(this).find('.et_pb_image_container, .et_main_video_container').outerHeight(true) : 0;
+					eachheight += $(this).find('.entry-title').outerHeight(true);
+					eachheight += $(this).find('.post-meta').outerHeight(true);
+					eachheight += $(this).find(".post-content p").outerHeight(true);
+					eachheight += eachbasebtnmargin;
+
+					var requiredbtnmargin = (max_btn_height - eachheight) + eachbasebtnmargin;
+					$(this).find(".more-link").css("margin-top", requiredbtnmargin + "px");
+				});
+			}
+		}
+    
+		$(document).ready(function () {
+			$(window).resize(function () {
+				if ($(this).width() >= 768) {
+
+					$(".pa-blog-equal-height article").each(function () {
+						$(this).removeClass("pa-auto-height");
+						$(this).find(".more-link").removeClass("pa-auto-margin");
+					})
+					$('.pa-blog-equal-height').each(function () {
+						pa_equalize_blog_post_height($(this));
+					});
+
+					$('.pa-blog-equal-height').each(function () {
+						var pa_blog = $(this);
+
+						pa_equalize_blog_post_height(pa_blog);
+
+						var observer = new MutationObserver(function (mutations) {
+							pa_equalize_blog_post_height(pa_blog);
+						});
+
+						var config = {
+							subtree: true,
+							childList: true
+						};
+
+						observer.observe(pa_blog[0], config);
+					});
+
+					$(document).ajaxComplete(function () {
+						$('.pa-blog-equal-height').imagesLoaded().then(function () {
+							$('.pa-blog-equal-height').each(function () {
+								pa_equalize_blog_post_height($(this));
+							});
+						});
+					});
+
+					$.fn.imagesLoaded = function () {
+						var $imgs = this.find('img[src!=""]');
+						var dfds = [];
+
+						if (!$imgs.length) {
+							return $.Deferred().resolve().promise();
+						}
+
+						$imgs.each(function () {
+							var dfd = $.Deferred();
+							dfds.push(dfd);
+							var img = new Image();
+
+							img.onload = function () {
+								dfd.resolve();
+							};
+
+							img.onerror = function () {
+								dfd.resolve();
+							};
+
+							img.src = this.src;
+						});
+
+						return $.when.apply($, dfds);
+					}
+				} else {
+					$(".pa-blog-equal-height article").each(function () {
+						$(this).addClass("pa-auto-height");
+						$(this).find(".more-link").addClass("pa-auto-margin");
+					})
+				}
+			});
+		});
+	})(jQuery); 
+</script>
+<link rel="stylesheet" id="et-core-unified-tb-102-tb-819-83-cached-inline-styles" href="https://santaterezinha.mt.gov.br/wp-content/et-cache/83/et-core-unified-tb-102-tb-819-83.min.css?ver=1780052054" /><link rel="stylesheet" id="et-core-unified-83-cached-inline-styles" href="https://santaterezinha.mt.gov.br/wp-content/et-cache/83/et-core-unified-83.min.css?ver=1780052053" /><link rel='stylesheet' id='mediaelement-css' href='https://santaterezinha.mt.gov.br/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://santaterezinha.mt.gov.br/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.0.5' media='all' />
+
+</head>
+<body class="home wp-singular page-template-default page page-id-83 page-parent wp-theme-Divi et-tb-has-template et-tb-has-header et-tb-has-footer ally-default et_pb_button_helper_class et_cover_background et_pb_gutter linux et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		<header class="et-l et-l--header">
+			<div class="et_builder_inner_content et_pb_gutters1"><div class="et_pb_with_border et_pb_section et_pb_section_0_tb_header et_section_regular et_pb_section--with-menu" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_header et_pb_row--with-menu">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column--with-menu">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_menu et_pb_menu_0_tb_header et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--with-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						<div class="et_pb_menu__logo-wrap">
+			  <div class="et_pb_menu__logo">
+				<a href="https://santaterezinha.mt.gov.br/" ><img decoding="async" width="230" height="41" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2024/07/Logo-Prefeitura-de-Santa-Terezinha-Menu.png" alt="" class="wp-image-14059" /></a>
+			  </div>
+			</div>
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-menu-topo" class="et-menu nav"><li class="et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-83 current_page_item menu-item-has-children menu-item-151"><a href="https://santaterezinha.mt.gov.br/" aria-current="page">Administração</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-128 menu-item menu-item-type-post_type menu-item-object-page menu-item-14269"><a href="https://santaterezinha.mt.gov.br/administracao/prefeito/">Prefeito</a></li>
+	<li class="et_pb_menu_page_id-206 menu-item menu-item-type-post_type menu-item-object-page menu-item-14834"><a href="https://santaterezinha.mt.gov.br/administracao/vice-prefeito/">Vice-Prefeito</a></li>
+	<li class="et_pb_menu_page_id-137 menu-item menu-item-type-post_type menu-item-object-page menu-item-14833"><a href="https://santaterezinha.mt.gov.br/administracao/secretarios/">Secretários</a></li>
+	<li class="et_pb_menu_page_id-3711 menu-item menu-item-type-post_type menu-item-object-page menu-item-3732"><a href="https://santaterezinha.mt.gov.br/agenda-positiva/">Agenda Positiva</a></li>
+	<li class="et_pb_menu_page_id-657 menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="https://santaterezinha.mt.gov.br/administracao/ex-prefeitos/">Ex-Prefeitos</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-342 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1373"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/">O Município</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-342 menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/">Sobre o Município</a></li>
+	<li class="et_pb_menu_page_id-124 menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/historia/">História</a></li>
+	<li class="et_pb_menu_page_id-1199 menu-item menu-item-type-post_type menu-item-object-page menu-item-1208"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/simbolos-oficiais/">Símbolos Oficiais</a></li>
+	<li class="et_pb_menu_page_id-1983 menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/como-chegar/">Como Chegar</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-122 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1808"><a href="https://santaterezinha.mt.gov.br/turismo/">Turismo</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-1837 menu-item menu-item-type-post_type menu-item-object-page menu-item-1851"><a href="https://santaterezinha.mt.gov.br/turismo/temporada-de-praias/">Temporada de Praias</a></li>
+	<li class="et_pb_menu_page_id-1844 menu-item menu-item-type-post_type menu-item-object-page menu-item-1850"><a href="https://santaterezinha.mt.gov.br/turismo/pesca-esportiva/">Pesca Esportiva</a></li>
+	<li class="et_pb_menu_page_id-1793 menu-item menu-item-type-post_type menu-item-object-page menu-item-1807"><a href="https://santaterezinha.mt.gov.br/turismo/eventos-e-atrativos-turisticos/">Eventos e Festividades</a></li>
+	<li class="et_pb_menu_page_id-1347 menu-item menu-item-type-post_type menu-item-object-page menu-item-1353"><a href="https://santaterezinha.mt.gov.br/turismo/rede-hoteleira/">Rede Hoteleira</a></li>
+	<li class="et_pb_menu_page_id-1354 menu-item menu-item-type-post_type menu-item-object-page menu-item-1359"><a href="https://santaterezinha.mt.gov.br/turismo/bares-e-restaurantes/">Bares e Restaurantes</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-188 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-578"><a href="https://santaterezinha.mt.gov.br/publicacoes/">Publicações</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-61 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13306"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/leis-municipais/">Leis Municipais</a></li>
+	<li class="et_pb_menu_page_id-59 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11491"><a href="https://santaterezinha.mt.gov.br/category/lei-de-diretrizes-orcamentarias-ldo/">Lei de Diretrizes Orçamentárias – LDO</a></li>
+	<li class="et_pb_menu_page_id-58 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11492"><a href="https://santaterezinha.mt.gov.br/category/lei-orcamentaria-anual-loa/">Lei Orçamentária Anual &#8211; LOA</a></li>
+	<li class="et_pb_menu_page_id-60 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11493"><a href="https://santaterezinha.mt.gov.br/category/plano-plurianual-ppa/">Plano Plurianual – PPA</a></li>
+	<li class="et_pb_menu_page_id-63 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15782"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/atas/">Atas</a></li>
+	<li class="et_pb_menu_page_id-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-561"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/audiencia-publica/">Audiência Pública</a></li>
+	<li class="et_pb_menu_page_id-49 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2446"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/balanco-anual/">Balanço Anual</a></li>
+	<li class="et_pb_menu_page_id-57 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10068"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/portal-covid-19/">Portal Covid-19</a></li>
+	<li class="et_pb_menu_page_id-48 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2447"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/boletim-epidemiologico/">Boletim Epidemiológico</a></li>
+	<li class="et_pb_menu_page_id-7 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-562"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/concurso-publico/">Concurso Público</a></li>
+	<li class="et_pb_menu_page_id-18 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-563"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/contratos/">Contratos</a></li>
+	<li class="et_pb_menu_page_id-62 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13336"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/conselhos-municipais/">Conselhos Municipais</a></li>
+	<li class="et_pb_menu_page_id-8 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-564"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/controle-interno/">Controle Interno</a></li>
+	<li class="et_pb_menu_page_id-66 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15933"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/convenios-e-transferencias/">Convênios e Transferências</a></li>
+	<li class="et_pb_menu_page_id-10 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-565"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/decretos/">Decretos</a></li>
+	<li class="et_pb_menu_page_id-68 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15935"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/diarias/">Diárias</a></li>
+	<li class="et_pb_menu_page_id-11 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-566"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/editais/">Editais</a></li>
+	<li class="et_pb_menu_page_id-72 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15941"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/educacao/">Educação</a></li>
+	<li class="et_pb_menu_page_id-69 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15940"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/emendas-parlamentares/">Emendas Parlamentares</a></li>
+	<li class="et_pb_menu_page_id-20 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-567"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/escalas-medicas/">Escalas Médicas</a></li>
+	<li class="et_pb_menu_page_id-70 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15943"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/fiscais-de-contrato/">Fiscais de Contrato</a></li>
+	<li class="et_pb_menu_page_id-12 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-568"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/instrucoes-normativas/">Instruções Normativas</a></li>
+	<li class="et_pb_menu_page_id-13 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-569"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/legislacao/">Legislação</a>
+	<ul class="sub-menu">
+		<li class="et_pb_menu_page_id-34 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1043"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/legislacao/lei-organica/">Lei Orgânica</a></li>
+		<li class="et_pb_menu_page_id-35 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1045"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/legislacao/leis-ordinarias/">Leis Ordinárias</a></li>
+		<li class="et_pb_menu_page_id-36 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1044"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/legislacao/leis-complementares/">Leis Complementares</a></li>
+	</ul>
+</li>
+	<li class="et_pb_menu_page_id-64 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15906"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/lgpd/">LGPD</a></li>
+	<li class="et_pb_menu_page_id-5 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-570"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/licitacoes/">Licitações</a></li>
+	<li class="et_pb_menu_page_id-17 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-571"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/notificacoes/">Notificações</a></li>
+	<li class="et_pb_menu_page_id-14 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-572"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/planejamento/">Planejamento</a></li>
+	<li class="et_pb_menu_page_id-15 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-573"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/portarias/">Portarias</a></li>
+	<li class="et_pb_menu_page_id-9 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-574"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/processo-seletivo/">Processo Seletivo</a></li>
+	<li class="et_pb_menu_page_id-16 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-575"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/requerimentos/">Requerimentos</a></li>
+	<li class="et_pb_menu_page_id-67 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15934"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/recursos-humanos/">Recursos Humanos</a></li>
+	<li class="et_pb_menu_page_id-65 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15932"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/receita/">Receita</a></li>
+	<li class="et_pb_menu_page_id-40 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15942"><a href="https://santaterezinha.mt.gov.br/category/saude/">Saúde</a></li>
+	<li class="et_pb_menu_page_id-21 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-577"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/vtn/">VTN</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-197 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14265"><a href="https://santaterezinha.mt.gov.br/noticias/">Notícias</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-197 menu-item menu-item-type-post_type menu-item-object-page menu-item-14552"><a href="https://santaterezinha.mt.gov.br/noticias/">Notícias</a></li>
+	<li class="et_pb_menu_page_id-43 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14272"><a href="https://santaterezinha.mt.gov.br/category/galeria-de-fotos/">Galeria de Fotos</a></li>
+	<li class="et_pb_menu_page_id-24 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14273"><a href="https://santaterezinha.mt.gov.br/category/galeria-de-videos/">Galeria de Vídeos</a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-200 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-201"><a href="https://santaterezinha.mt.gov.br/contato/">Contato</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-200 menu-item menu-item-type-post_type menu-item-object-page menu-item-1780"><a href="https://santaterezinha.mt.gov.br/contato/">Prefeitura</a></li>
+	<li class="et_pb_menu_page_id-17162 menu-item menu-item-type-custom menu-item-object-custom menu-item-17162"><a href="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria">Ouvidoria</a></li>
+	<li class="et_pb_menu_page_id-1746 menu-item menu-item-type-custom menu-item-object-custom menu-item-1746"><a href="https://santaterezinha.mt.gov.br/contato/#telefones-uteis">Telefones Úteis</a></li>
+</ul>
+</li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</header>
+	<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-83" class="post-83 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_slider et_pb_slider_0 et_animated et_pb_slider_fullwidth_off et_pb_slider_no_arrows et_slider_auto et_slider_speed_6000">
+				<div class="et_pb_slides">
+					<div class="et_pb_slide et_pb_slide_0 et_clickable et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide" data-slide-id="et_pb_slide_0">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			
+				</div>
+				
+			</div>
+			
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h1>Acesse os Principais Serviços</h1></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_3 et_pb_gutters1">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Portal da Transparência</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_2 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Licitações</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Despesas Com Diárias</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_4 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Contratos</p></div>
+			</div><div id="livro-eletrônico" class="et_pb_module et_pb_text et_pb_text_5 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Perguntas Frequentes</p></div>
+			</div><div id="outros-serviços" class="et_pb_module et_pb_text et_pb_text_6 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Carta de Serviços ao Usuário</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_7 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Medicamentos disponíveis na Farmácia Básica</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_8 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Portal Covid-19</p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_9 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Emissão de IPTU</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_10 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Emissão de Certidão</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_11 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Escala Médica</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_12 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Cidadão Web</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_13 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Servidores</p></div>
+			</div><div id="frotas" class="et_pb_module et_pb_text et_pb_text_14 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Frotas</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_15 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Resultado de Exames</p></div>
+			</div><div id="outros-serviços" class="et_pb_module et_pb_text et_pb_text_16 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Outros Serviços</p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_17 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Holerite Servidor Público</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_18 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Tabela VTN</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_19 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Nota Fiscal Eletrônica</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_20 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Câmara Municipal</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_21 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Protocolo</p></div>
+			</div><div id="webmail" class="et_pb_module et_pb_text et_pb_text_22 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Webmail</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_23 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Regulação médica</p></div>
+			</div><div id="outros-serviços" class="et_pb_module et_pb_text et_pb_text_24 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Pesquisa de Satisfação</p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_25 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Emissão de Alvará</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_26 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Apuração da base de cálculo do ITBI</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_27 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Ouvidoria</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_28 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Receitas</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_29 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Audiência Pública</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_30 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Controle Interno</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_31 et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Geo-Obras Cidadão</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_with_border et_pb_section et_pb_section_2 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_5">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_32  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Últimas Notícias</h2></div>
+			</div><div id="ultimas-noticias" class="et_pb_with_border et_pb_module et_pb_blog_0 et_pb_blog_grid_wrapper et_pb_bg_layout_light">
+					<div class="et_pb_blog_grid clearfix ">
+					
+					
+					
+					
+					<div class="et_pb_ajax_pagination_container">
+						<div class="et_pb_salvattore_content" data-columns>
+			<article id="post-17456" class="et_pb_post clearfix et_pb_blog_item_0_0 post-17456 post type-post status-publish format-standard has-post-thumbnail hentry category-noticias">
+
+				<div class="et_pb_image_container"><a href="https://santaterezinha.mt.gov.br/noticias/prefeitura-de-santa-terezinha-e-tre-mt-firmam-acordo-para-ampliar-acessibilidade-nas-eleicoes-2026/" class="entry-featured-image-url"><img fetchpriority="high" decoding="async" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2026/09/ChatGPT-Image-17-de-set.-de-2026-05_33_46-400x250.png" alt="Prefeitura de Santa Terezinha e TRE-MT firmam acordo para ampliar acessibilidade nas Eleições 2026" class="" srcset="https://santaterezinha.mt.gov.br/wp-content/uploads/2026/09/ChatGPT-Image-17-de-set.-de-2026-05_33_46.png 479w, https://santaterezinha.mt.gov.br/wp-content/uploads/2026/09/ChatGPT-Image-17-de-set.-de-2026-05_33_46-400x250.png 480w " sizes="(max-width:479px) 479px, 100vw "  width="400" height="250" /></a></div>
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/noticias/prefeitura-de-santa-terezinha-e-tre-mt-firmam-acordo-para-ampliar-acessibilidade-nas-eleicoes-2026/">Prefeitura de Santa Terezinha e TRE-MT firmam acordo para ampliar acessibilidade nas Eleições 2026</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">set 17, 2026</span> | <a href="https://santaterezinha.mt.gov.br/category/noticias/" rel="tag">Notícias</a></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17452" class="et_pb_post clearfix et_pb_blog_item_0_1 post-17452 post type-post status-publish format-standard has-post-thumbnail hentry category-noticias">
+
+				<div class="et_pb_image_container"><a href="https://santaterezinha.mt.gov.br/noticias/prefeitura-de-santa-terezinha-abre-processo-seletivo-para-diretores-escolares/" class="entry-featured-image-url"><img decoding="async" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2026/09/ChatGPT-Image-11-de-set.-de-2026-17_28_40-400x250.png" alt="Prefeitura de Santa Terezinha abre processo seletivo para diretores escolares" class="" srcset="https://santaterezinha.mt.gov.br/wp-content/uploads/2026/09/ChatGPT-Image-11-de-set.-de-2026-17_28_40.png 479w, https://santaterezinha.mt.gov.br/wp-content/uploads/2026/09/ChatGPT-Image-11-de-set.-de-2026-17_28_40-400x250.png 480w " sizes="(max-width:479px) 479px, 100vw "  width="400" height="250" /></a></div>
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/noticias/prefeitura-de-santa-terezinha-abre-processo-seletivo-para-diretores-escolares/">Prefeitura de Santa Terezinha abre processo seletivo para diretores escolares</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">set 11, 2026</span> | <a href="https://santaterezinha.mt.gov.br/category/noticias/" rel="tag">Notícias</a></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17440" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_0_2 post-17440 post type-post status-publish format-standard hentry category-editais category-noticias category-publicacoes">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/publicacoes/editais/edital-de-concorrencia-publica-eletronica-no-008-2026/">EDITAL DE CONCORRÊNCIA PÚBLICA ELETRÔNICA Nº 008/2026</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">ago 17, 2026</span> | <a href="https://santaterezinha.mt.gov.br/category/publicacoes/editais/" rel="tag">Editais</a>, <a href="https://santaterezinha.mt.gov.br/category/noticias/" rel="tag">Notícias</a>, <a href="https://santaterezinha.mt.gov.br/category/publicacoes/" rel="tag">Publicações</a></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				</div>
+					</div>
+					</div> 
+				</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_33 et_clickable  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Ver Todas as Notícias</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_4 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_7 et_pb_equal_columns et_pb_gutters1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_34  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Últimas Publicações</h2></div>
+			</div><div id="publicacoes" class="et_pb_with_border et_pb_module et_pb_blog_1 et_pb_blog_grid_wrapper et_pb_bg_layout_light">
+					<div class="et_pb_blog_grid clearfix ">
+					
+					
+					
+					
+					<div class="et_pb_ajax_pagination_container">
+						<div class="et_pb_salvattore_content" data-columns>
+			<article id="post-17448" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_1_0 post-17448 post type-post status-publish format-standard hentry category-editais category-processo-seletivo category-publicacoes">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/publicacoes/editais/edital-de-selecao-de-diretor-escolar-da-rede-publica-municipal-desanta-terezinha/">EDITAL DE SELEÇÃO DE DIRETOR ESCOLAR DA REDE PÚBLICA MUNICIPAL DESANTA TEREZINHA.</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">set 11, 2026</span></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17444" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_1_1 post-17444 post type-post status-publish format-standard hentry category-balanco-anual">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/publicacoes/balanco-anual/balanco-anual-2025-contas-de-governo/">BALANÇO ANUAL 2025 &#8211; CONTAS DE GOVERNO</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">ago 27, 2026</span></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17440" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_1_2 post-17440 post type-post status-publish format-standard hentry category-editais category-noticias category-publicacoes">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/publicacoes/editais/edital-de-concorrencia-publica-eletronica-no-008-2026/">EDITAL DE CONCORRÊNCIA PÚBLICA ELETRÔNICA Nº 008/2026</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">ago 17, 2026</span></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17432" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_1_3 post-17432 post type-post status-publish format-standard hentry category-medicamentos-disponiveis-na-farmacia-basica">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/publicacoes/medicamentos-disponiveis-na-farmacia-basica/relacao-de-medicamentos-disponiveis-na-farmacia-basica-agosto-2026/">RELAÇÃO DE MEDICAMENTOS DISPONÍVEIS NA FARMACIA BASICA AGOSTO 2026</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">ago 17, 2026</span></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17418" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_1_4 post-17418 post type-post status-publish format-standard has-post-thumbnail hentry category-educacao category-noticias">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/noticias/santa-terezinha-avanca-91-posicoes-no-imqe-e-conquista-um-dos-maiores-crescimentos-da-educacao-em-mato-grosso/">Santa Terezinha avança 91 posições no IMQE e conquista um dos maiores crescimentos da educação em Mato Grosso</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">ago 7, 2026</span></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				
+			<article id="post-17408" class="et_pb_post clearfix et_pb_no_thumb et_pb_blog_item_1_5 post-17408 post type-post status-publish format-standard has-post-thumbnail hentry category-audiencia-publica category-noticias">
+
+				
+														<h2 class="entry-title">
+													<a href="https://santaterezinha.mt.gov.br/noticias/prefeitura-de-santa-terezinha-realizara-audiencia-publica-virtual-sobre-metas-fiscais-e-ldo-2027/">Prefeitura de Santa Terezinha realizará audiência pública virtual sobre metas fiscais e LDO 2027</a>
+											</h2>
+				
+					<p class="post-meta"><span class="published">jul 23, 2026</span></p><div class="post-content"><div class="post-content-inner"></div></div>			
+			</article>
+				</div>
+					</div>
+					</div> 
+				</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_8">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_35 et_clickable  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Ver Todas as Publicações</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+						</div>
+
+				
+				</article>
+
+			
+
+</div>
+
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_divider et_pb_divider_0_tb_footer et_pb_divider_position_ et_pb_space"><div class="et_pb_divider_internal"></div></div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_with_border et_pb_section et_pb_section_2_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Links Úteis</h2></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_2_tb_footer et_pb_gutters2">
+				<div class="et_pb_column et_pb_column_1_5 et_pb_column_2_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0_tb_footer">
+				
+				
+				
+				
+				<a href="http://www.mt.gov.br/" target="_blank"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="260" height="110" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2021/03/logo-governo-mato-grosso.jpg" alt="" title="logo-governo-mato-grosso" class="wp-image-1757" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_3_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_1_tb_footer">
+				
+				
+				
+				
+				<a href="https://www.tce.mt.gov.br/" target="_blank"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="260" height="110" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2021/02/logomarca_tce.png" alt="" title="logomarca_tce" class="wp-image-1088" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_4_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_2_tb_footer">
+				
+				
+				
+				
+				<a href="https://www.al.mt.gov.br/" target="_blank"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="260" height="110" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2021/02/brasao.assembleia-mt.png" alt="" title="brasao.assembleia-mt" class="wp-image-1086" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_5_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_3_tb_footer">
+				
+				
+				
+				
+				<a href="https://www.amm.org.br/" target="_blank"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="260" height="110" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2021/02/logo-amm.png" alt="" title="logo-amm" class="wp-image-1087" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_6_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_4_tb_footer">
+				
+				
+				
+				
+				<a href="https://www.santaterezinha.mt.leg.br/" target="_blank"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="260" height="110" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2021/03/logo-camara-municipal.jpg" alt="" title="logo-camara-municipal" class="wp-image-1997" /></span></a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_4_tb_footer et_pb_with_background et_section_regular et_pb_section--with-menu" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_3_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Mapa do Site</h3></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div id="colunas-menu-rodape" class="et_pb_row et_pb_row_4_tb_footer et_pb_gutters1 et_pb_row--with-menu">
+				<div class="et_pb_column et_pb_column_1_5 et_pb_column_8_tb_footer c1  et_pb_css_mix_blend_mode_passthrough et_pb_column--with-menu">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Administração</p></div>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_0_tb_footer menu-footer et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-administracao" class="et-menu nav"><li id="menu-item-14271" class="et_pb_menu_page_id-128 menu-item menu-item-type-post_type menu-item-object-page menu-item-14271"><a href="https://santaterezinha.mt.gov.br/administracao/prefeito/">Prefeito</a></li>
+<li id="menu-item-14832" class="et_pb_menu_page_id-206 menu-item menu-item-type-post_type menu-item-object-page menu-item-14832"><a href="https://santaterezinha.mt.gov.br/administracao/vice-prefeito/">Vice-Prefeito</a></li>
+<li id="menu-item-14831" class="et_pb_menu_page_id-137 menu-item menu-item-type-post_type menu-item-object-page menu-item-14831"><a href="https://santaterezinha.mt.gov.br/administracao/secretarios/">Secretários</a></li>
+<li id="menu-item-891" class="et_pb_menu_page_id-657 menu-item menu-item-type-post_type menu-item-object-page menu-item-891"><a href="https://santaterezinha.mt.gov.br/administracao/ex-prefeitos/">Ex-Prefeitos</a></li>
+<li id="menu-item-3716" class="et_pb_menu_page_id-3711 menu-item menu-item-type-post_type menu-item-object-page menu-item-3716"><a href="https://santaterezinha.mt.gov.br/agenda-positiva/">Agenda Positiva</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div><div class="et_pb_module et_pb_text et_pb_text_3_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Turismo</p></div>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_1_tb_footer menu-footer et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-turismof" class="et-menu nav"><li id="menu-item-1853" class="et_pb_menu_page_id-1837 menu-item menu-item-type-post_type menu-item-object-page menu-item-1853"><a href="https://santaterezinha.mt.gov.br/turismo/temporada-de-praias/">Temporada de Praias</a></li>
+<li id="menu-item-1852" class="et_pb_menu_page_id-1844 menu-item menu-item-type-post_type menu-item-object-page menu-item-1852"><a href="https://santaterezinha.mt.gov.br/turismo/pesca-esportiva/">Pesca Esportiva</a></li>
+<li id="menu-item-1813" class="et_pb_menu_page_id-1793 menu-item menu-item-type-post_type menu-item-object-page menu-item-1813"><a href="https://santaterezinha.mt.gov.br/turismo/eventos-e-atrativos-turisticos/">Eventos e Festividades</a></li>
+<li id="menu-item-1641" class="et_pb_menu_page_id-1354 menu-item menu-item-type-post_type menu-item-object-page menu-item-1641"><a href="https://santaterezinha.mt.gov.br/turismo/bares-e-restaurantes/">Bares e Restaurantes</a></li>
+<li id="menu-item-1642" class="et_pb_menu_page_id-1347 menu-item menu-item-type-post_type menu-item-object-page menu-item-1642"><a href="https://santaterezinha.mt.gov.br/turismo/rede-hoteleira/">Rede Hoteleira</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_9_tb_footer c2  et_pb_css_mix_blend_mode_passthrough et_pb_column--with-menu">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>O Município</p></div>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_2_tb_footer menu-footer et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-o-municipio" class="et-menu nav"><li id="menu-item-904" class="et_pb_menu_page_id-342 menu-item menu-item-type-post_type menu-item-object-page menu-item-904"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/">Sobre o Município</a></li>
+<li id="menu-item-905" class="et_pb_menu_page_id-124 menu-item menu-item-type-post_type menu-item-object-page menu-item-905"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/historia/">História</a></li>
+<li id="menu-item-1377" class="et_pb_menu_page_id-1199 menu-item menu-item-type-post_type menu-item-object-page menu-item-1377"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/simbolos-oficiais/">Símbolos Oficiais</a></li>
+<li id="menu-item-1991" class="et_pb_menu_page_id-1983 menu-item menu-item-type-post_type menu-item-object-page menu-item-1991"><a href="https://santaterezinha.mt.gov.br/sobre-o-municipio/como-chegar/">Como Chegar</a></li>
+<li id="menu-item-17165" class="et_pb_menu_page_id-17165 menu-item menu-item-type-custom menu-item-object-custom menu-item-17165"><a href="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria">Ouvidoria</a></li>
+<li id="menu-item-15880" class="et_pb_menu_page_id-15873 menu-item menu-item-type-post_type menu-item-object-page menu-item-15880"><a href="https://santaterezinha.mt.gov.br/sistema-em-manutencao/">Sistema em Manutenção</a></li>
+<li id="menu-item-16308" class="et_pb_menu_page_id-16307 menu-item menu-item-type-post_type menu-item-object-page menu-item-16308"><a href="https://santaterezinha.mt.gov.br/secretaria-de-assistencia-social/">SECRETARIA DE ASSISTÊNCIA SOCIAL</a></li>
+<li id="menu-item-17015" class="et_pb_menu_page_id-17008 menu-item menu-item-type-post_type menu-item-object-page menu-item-17015"><a href="https://santaterezinha.mt.gov.br/apuracao-da-base-de-calculo-do-itbi/">Apuração da base de cálculo do ITBI</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div><div class="et_pb_module et_pb_text et_pb_text_5_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Notícias</p></div>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_3_tb_footer menu-footer et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-noticiasf" class="et-menu nav"><li id="menu-item-1526" class="et_pb_menu_page_id-197 menu-item menu-item-type-post_type menu-item-object-page menu-item-1526"><a href="https://santaterezinha.mt.gov.br/noticias/">Todas as Notícias</a></li>
+<li id="menu-item-1574" class="et_pb_menu_page_id-24 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1574"><a href="https://santaterezinha.mt.gov.br/category/galeria-de-videos/">Galeria de Vídeos</a></li>
+<li id="menu-item-1575" class="et_pb_menu_page_id-43 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1575"><a href="https://santaterezinha.mt.gov.br/category/galeria-de-fotos/">Galeria de Fotos</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div><div class="et_pb_module et_pb_text et_pb_text_6_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Contato</p></div>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_4_tb_footer menu-footer et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-contato" class="et-menu nav"><li id="menu-item-1833" class="et_pb_menu_page_id-1833 menu-item menu-item-type-custom menu-item-object-custom menu-item-1833"><a href="https://santaterezinha.mt.gov.br/contato/">Prefeitura</a></li>
+<li id="menu-item-17167" class="et_pb_menu_page_id-17167 menu-item menu-item-type-custom menu-item-object-custom menu-item-17167"><a href="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria">Ouvidoria</a></li>
+<li id="menu-item-1834" class="et_pb_menu_page_id-1834 menu-item menu-item-type-custom menu-item-object-custom menu-item-1834"><a href="https://santaterezinha.mt.gov.br/contato/#telefones-uteis">Telefones Úteis</a></li>
+<li id="menu-item-3717" class="et_pb_menu_page_id-3711 menu-item menu-item-type-post_type menu-item-object-page menu-item-3717"><a href="https://santaterezinha.mt.gov.br/agenda-positiva/">Agenda Positiva</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_10_tb_footer c3  et_pb_css_mix_blend_mode_passthrough et_pb_column--with-menu">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_7_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Publicações</p></div>
+			</div><div class="et_pb_module et_pb_menu et_pb_menu_5_tb_footer menu-footer et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-publicacoes" class="et-menu nav"><li id="menu-item-689" class="et_pb_menu_page_id-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-689"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/audiencia-publica/">Audiência Pública</a></li>
+<li id="menu-item-690" class="et_pb_menu_page_id-7 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-690"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/concurso-publico/">Concurso Público</a></li>
+<li id="menu-item-691" class="et_pb_menu_page_id-18 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-691"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/contratos/">Contratos</a></li>
+<li id="menu-item-692" class="et_pb_menu_page_id-8 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-692"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/controle-interno/">Controle Interno</a></li>
+<li id="menu-item-693" class="et_pb_menu_page_id-10 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-693"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/decretos/">Decretos</a></li>
+<li id="menu-item-694" class="et_pb_menu_page_id-20 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-694"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/escalas-medicas/">Escalas Médicas</a></li>
+<li id="menu-item-695" class="et_pb_menu_page_id-12 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-695"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/instrucoes-normativas/">Instruções Normativas</a></li>
+<li id="menu-item-696" class="et_pb_menu_page_id-13 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-696"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/legislacao/">Legislação</a></li>
+<li id="menu-item-697" class="et_pb_menu_page_id-5 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-697"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/licitacoes/">Licitações</a></li>
+<li id="menu-item-698" class="et_pb_menu_page_id-17 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-698"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/notificacoes/">Notificações</a></li>
+<li id="menu-item-699" class="et_pb_menu_page_id-14 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-699"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/planejamento/">Planejamento</a></li>
+<li id="menu-item-10079" class="et_pb_menu_page_id-57 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10079"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/portal-covid-19/">Portal Covid-19</a></li>
+<li id="menu-item-700" class="et_pb_menu_page_id-15 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-700"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/portarias/">Portarias</a></li>
+<li id="menu-item-701" class="et_pb_menu_page_id-9 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-701"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/processo-seletivo/">Processo Seletivo</a></li>
+<li id="menu-item-702" class="et_pb_menu_page_id-16 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-702"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/requerimentos/">Requerimentos</a></li>
+<li id="menu-item-703" class="et_pb_menu_page_id-19 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-703"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/rh/">RH</a></li>
+<li id="menu-item-704" class="et_pb_menu_page_id-21 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-704"><a href="https://santaterezinha.mt.gov.br/category/publicacoes/vtn/">VTN</a></li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_11_tb_footer  et_pb_css_mix_blend_mode_passthrough et_pb_column_empty">
+				
+				
+				
+				
+				
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_12_tb_footer c4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_8_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h3>Telefones Úteis</h3></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_9_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><strong>Recepção Prefeitura:</strong><span> (66) 99255-9077</span><br /><strong>Departamento de Compras:</strong><span> (66) 99255-5639</span><br /><strong>Departamento de Licitações e Contratos:</strong><span> (66) 99254-5935</span><br /><strong>Departamento de Tributos:</strong><span> (66) 99255-1153</span><br /><strong>Departamento de Recursos humanos:<span> </span></strong><span>(66) 992536568</span><br /><strong>Ouvidoria Prefeitura:<span> </span></strong><span>(66) 99227-9568</span><br /><strong>Secretaria de Educação:</strong><span> (66) 99254-7294</span><br /><strong>Secretaria de Finanças e Planejamento:</strong><span> (66) 99255-3187</span><br /><strong>Secretaria de Agricultura:</strong><span> (66) 99256-2254</span></p>
+<p><strong>Atendimento:</strong> Segunda a Sexta<br />Das 7h às 11h e das 13h às 17h</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_10_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Siga a Prefeitura nas Redes Sociais</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_11_tb_footer social-ig et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Instagram</p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_12_tb_footer social-fb et_clickable  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Facebook</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_5_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_5_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_13_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_5_tb_footer">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="250" height="44" src="https://santaterezinha.mt.gov.br/wp-content/uploads/2024/07/logo-prefeitura-negativo.png" alt="" title="logo-prefeitura-negativo" class="wp-image-14062" /></span>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_with_border et_pb_row et_pb_row_6_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_14_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_13_tb_footer  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Prefeitura de Santa Terezinha &#8211; MT &#8211; Todos os Direitos Reservados 2021.<br />Endereço: R. 25, S/N Santa Terezinha, MT. CEP: 78650-000</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const registerAllyAction = () => {
+					if ( ! window?.ElementorProFrontendConfig || ! window?.elementorFrontend?.utils?.urlActions ) {
+						return;
+					}
+
+					elementorFrontend.utils.urlActions.addAction( 'allyWidget:open', () => {
+						if (window?.ea11yWidget?.widget?.open) {
+							return window.ea11yWidget.widget.isOpen()
+								? window.ea11yWidget.widget.close()
+								: window.ea11yWidget.widget.open();
+						}
+					} );
+				};
+
+				const waitingLimit = 30;
+				let retryCounter = 0;
+
+				const waitForElementorPro = () => {
+					return new Promise( ( resolve ) => {
+						const intervalId = setInterval( () => {
+							if ( retryCounter === waitingLimit ) {
+								resolve( null );
+							}
+
+							retryCounter++;
+
+							if ( window.elementorFrontend && window?.elementorFrontend?.utils?.urlActions ) {
+								clearInterval( intervalId );
+								resolve( window.elementorFrontend );
+							}
+								}, 100 ); // Check every 100 milliseconds for availability of elementorFrontend
+					});
+				};
+
+				waitForElementorPro().then( () => { registerAllyAction(); });
+			</script>
+				<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_slider_0","style":"fold","repeat":"once","duration":"700ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"}];
+					var et_link_options_data = [{"class":"et_pb_slide_0","url":"https:\/\/santaterezinha.mt.gov.br\/noticias\/santa-terezinha-e-incluida-no-mapa-do-turismo-brasileiro-2022\/","target":"_self"},{"class":"et_pb_text_1","url":"https:\/\/transparencia.betha.cloud\/#\/pEAECnf5YJUCZD5uZeS-Qw==","target":"_blank"},{"class":"et_pb_text_2","url":"https:\/\/santaterezinha.mt.gov.br\/category\/publicacoes\/licitacoes\/","target":"_blank"},{"class":"et_pb_text_3","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_4","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_5","url":"https:\/\/santaterezinha.mt.gov.br\/wp-content\/uploads\/2025\/05\/Perguntas-e-Respostas-Site-da-Prefeitura-de-Santa-Terezinha-MT.pdf","target":"_self"},{"class":"et_pb_text_6","url":"http:\/\/santaterezinha.mt.gov.br\/wp-content\/uploads\/2026\/04\/CARTA-DE-SERVICOS-AO-USUARIO.pdf","target":"_self"},{"class":"et_pb_text_7","url":"https:\/\/santaterezinha.mt.gov.br\/medicamentos-disponiveis-na-farmacia-basica\/","target":"_blank"},{"class":"et_pb_text_8","url":"https:\/\/santaterezinha.mt.gov.br\/category\/publicacoes\/portal-covid-19\/","target":"_blank"},{"class":"et_pb_text_9","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_10","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_11","url":"https:\/\/santaterezinha.mt.gov.br\/category\/publicacoes\/escalas-medicas\/","target":"_self"},{"class":"et_pb_text_12","url":"https:\/\/santaterezinha.mt.gov.br\/contato\/","target":"_blank"},{"class":"et_pb_text_13","url":"https:\/\/transparencia.betha.cloud\/#\/pEAECnf5YJUCZD5uZeS-Qw==\/consultas\/20696","target":"_blank"},{"class":"et_pb_text_14","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_15","url":"https:\/\/prefeiturasantaterezinha.lab.jalis.net.br\/resultado\/login","target":"_self"},{"class":"et_pb_text_16","url":"https:\/\/santaterezinha.mt.gov.br\/contato\/","target":"_self"},{"class":"et_pb_text_17","url":"https:\/\/minhafolha.betha.cloud\/","target":"_blank"},{"class":"et_pb_text_18","url":"https:\/\/santaterezinha.mt.gov.br\/category\/publicacoes\/vtn\/","target":"_self"},{"class":"et_pb_text_19","url":"https:\/\/nota-eletronica.betha.cloud\/#\/inicio","target":"_blank"},{"class":"et_pb_text_20","url":"https:\/\/www.santaterezinha.mt.leg.br\/","target":"_blank"},{"class":"et_pb_text_21","url":"https:\/\/protocolo.betha.cloud\/#\/consulta-externa","target":"_self"},{"class":"et_pb_text_22","url":"https:\/\/webmail-seguro.com.br\/santaterezinha.mt.gov.br\/","target":"_blank"},{"class":"et_pb_text_23","url":"https:\/\/servicos.saude.mt.gov.br\/fila\/pesquisas\/create","target":"_blank"},{"class":"et_pb_text_24","url":"https:\/\/santaterezinha.mt.gov.br\/publicacoes\/pesquisa-de-satisfacao\/","target":"_self"},{"class":"et_pb_text_25","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_26","url":"https:\/\/santaterezinha.mt.gov.br\/apuracao-da-base-de-calculo-do-itbi\/","target":"_blank"},{"class":"et_pb_text_27","url":"https:\/\/ouvidoria.santaterezinha.mt.gov.br\/ouvidoria","target":"_self"},{"class":"et_pb_text_28","url":"https:\/\/santaterezinha.mt.gov.br\/sistema-em-manutencao\/","target":"_blank"},{"class":"et_pb_text_29","url":"https:\/\/santaterezinha.mt.gov.br\/category\/publicacoes\/audiencia-publica\/","target":"_self"},{"class":"et_pb_text_30","url":"https:\/\/santaterezinha.mt.gov.br\/contato\/","target":"_self"},{"class":"et_pb_text_31","url":"https:\/\/geoobras.tce.mt.gov.br\/cidadao\/obra-resultado-busca?unidadeGestoraCheckBox=false&entidadesFiscalizadasId=1112234&obraAno=&descricaoObjeto=&dataSituacaoDe=&dataSituacaoAte=&pessoaCpfCnpj=","target":"_blank"},{"class":"et_pb_text_33","url":"https:\/\/santaterezinha.mt.gov.br\/noticias\/","target":"_self"},{"class":"et_pb_text_35","url":"https:\/\/santaterezinha.mt.gov.br\/publicacoes\/","target":"_self"},{"class":"et_pb_text_11_tb_footer","url":"https:\/\/www.instagram.com\/prefeiturasantaterezinhamt\/","target":"_self"},{"class":"et_pb_text_12_tb_footer","url":"https:\/\/www.facebook.com\/prefeiturasantaterezinhamt","target":"_self"}];
+			</script>
+	<script id="jquery-ui-core-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="jquery-ui-tooltip-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.13.3"></script>
+<script id="jquery-ui-mouse-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3"></script>
+<script id="jquery-ui-slider-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3"></script>
+<script id="micromodal_script-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/js/micromodal.min.js?ver=11.2.6"></script>
+<script id="slider-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/js/jquery.ui.slider-rtl.js?ver=11.2.6"></script>
+<script id="progress-bar-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/js/progressbar.min.js?ver=11.2.6"></script>
+<script id="underscore-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/underscore.min.js?ver=1.13.8"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+</script>
+<script id="wp-util-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/wp-util.min.js?ver=7.0.5"></script>
+<script id="backbone-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/backbone.min.js?ver=1.6.1"></script>
+<script id="jquery-touch-punch-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2"></script>
+<script id="jquery-ui-sortable-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.3"></script>
+<script id="qsm-quiz-navigation-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/renderer/assets/js/qsm-quiz-navigation.js?ver=11.2.6"></script>
+<script id="qsm_common-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/js/qsm-common.js?ver=11.2.6"></script>
+<script id="qsm-progressbar-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/renderer/assets/js/qsm-progressbar.js?ver=11.2.6"></script>
+<script id="qsm-quiz-timer-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/quiz-master-next/renderer/assets/js/qsm-timer.js?ver=11.2.6"></script>
+<script id="divi-custom-script-js-extra">
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://santaterezinha.mt.gov.br/wp-admin/admin-ajax.php","images_uri":"https://santaterezinha.mt.gov.br/wp-content/themes/Divi/images","builder_images_uri":"https://santaterezinha.mt.gov.br/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"2324b6ef3b","subscription_failed":"Por favor, verifique os campos abaixo para verifique se voc\u00ea digitou as informa\u00e7\u00f5es corretas.","et_ab_log_nonce":"37326be672","fill_message":"Por favor, preencha os seguintes campos:","contact_error_message":"Por favor, corrija os seguintes erros:","invalid":"E-mail inv\u00e1lido","captcha":"Captcha","prev":"Anterior","previous":"Anterior","next":"Pr\u00f3ximo","wrong_captcha":"Voc\u00ea digitou o n\u00famero captcha errado.","wrong_checkbox":"Caixa de sele\u00e7\u00e3o","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"83","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":"https://santaterezinha.mt.gov.br/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#7EBEC5","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+</script>
+<script id="divi-custom-script-js" src="https://santaterezinha.mt.gov.br/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.4"></script>
+<script id="jquery-bind-first-js" defer src="https://santaterezinha.mt.gov.br/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=0.2.3"></script>
+<script id="js-cookie-pys-js" defer src="https://santaterezinha.mt.gov.br/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3"></script>
+<script id="js-tld-js" defer src="https://santaterezinha.mt.gov.br/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1"></script>
+<script id="pys-js-extra">
+var pysOptions = {"staticEvents":[],"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"debug":"","siteUrl":"https://santaterezinha.mt.gov.br","ajaxUrl":"https://santaterezinha.mt.gov.br/wp-admin/admin-ajax.php","ajax_event":"b4c302f41e","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","useSendBeacon":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"reddit_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficLanding":"https://santaterezinha.mt.gov.br/","TrafficUtms":[],"TrafficUtmsId":[]},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1790035957"};
+//# sourceURL=pys-js-extra
+</script>
+<script id="pys-js" defer src="https://santaterezinha.mt.gov.br/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.2.3"></script>
+<script id="et-core-common-js" src="https://santaterezinha.mt.gov.br/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.4"></script>
+<script id="mediaelement-core-js-before">
+var mejsL10n = {"language":"pt","strings":{"mejs.download-file":"Fazer download do arquivo","mejs.install-flash":"Voc\u00ea est\u00e1 usando um navegador que n\u00e3o tem Flash ativo ou instalado. Ative o plugin do Flash player ou baixe a \u00faltima vers\u00e3o em https://get.adobe.com/flashplayer/","mejs.fullscreen":"Tela inteira","mejs.play":"Reproduzir","mejs.pause":"Pausar","mejs.time-slider":"Tempo do slider","mejs.time-help-text":"Use as setas esquerda e direita para avan\u00e7ar um segundo. Acima e abaixo para avan\u00e7ar dez segundos.","mejs.live-broadcast":"Transmiss\u00e3o ao vivo","mejs.volume-help-text":"Use as setas para cima ou para baixo para aumentar ou diminuir o volume.","mejs.unmute":"Desativar mudo","mejs.mute":"Mudo","mejs.volume-slider":"Controle de volume","mejs.video-player":"Tocador de v\u00eddeo","mejs.audio-player":"Tocador de \u00e1udio","mejs.captions-subtitles":"Transcri\u00e7\u00f5es/Legendas","mejs.captions-chapters":"Cap\u00edtulos","mejs.none":"Nenhum","mejs.afrikaans":"Afric\u00e2ner","mejs.albanian":"Alban\u00eas","mejs.arabic":"\u00c1rabe","mejs.belarusian":"Bielorrusso","mejs.bulgarian":"B\u00falgaro","mejs.catalan":"Catal\u00e3o","mejs.chinese":"Chin\u00eas","mejs.chinese-simplified":"Chin\u00eas (simplificado)","mejs.chinese-traditional":"Chin\u00eas (tradicional)","mejs.croatian":"Croata","mejs.czech":"Checo","mejs.danish":"Dinamarqu\u00eas","mejs.dutch":"Holand\u00eas","mejs.english":"Ingl\u00eas","mejs.estonian":"Estoniano","mejs.filipino":"Filipino","mejs.finnish":"Finland\u00eas","mejs.french":"Franc\u00eas","mejs.galician":"Galega","mejs.german":"Alem\u00e3o","mejs.greek":"Grego","mejs.haitian-creole":"Crioulo haitiano","mejs.hebrew":"Hebraico","mejs.hindi":"Hindi","mejs.hungarian":"H\u00fangaro","mejs.icelandic":"Island\u00eas","mejs.indonesian":"Indon\u00e9sio","mejs.irish":"Irland\u00eas","mejs.italian":"Italiano","mejs.japanese":"Japon\u00eas","mejs.korean":"Coreano","mejs.latvian":"Let\u00e3o","mejs.lithuanian":"Lituano","mejs.macedonian":"Maced\u00f4nio","mejs.malay":"Malaio","mejs.maltese":"Malt\u00eas","mejs.norwegian":"Noruegu\u00eas","mejs.persian":"Persa","mejs.polish":"Polon\u00eas","mejs.portuguese":"Portugu\u00eas","mejs.romanian":"Romeno","mejs.russian":"Russo","mejs.serbian":"S\u00e9rvio","mejs.slovak":"Eslovaco","mejs.slovenian":"Esloveno","mejs.spanish":"Espanhol","mejs.swahili":"Sua\u00edli","mejs.swedish":"Sueco","mejs.tagalog":"Tagalo","mejs.thai":"Tailand\u00eas","mejs.turkish":"Turco","mejs.ukrainian":"Ucraniano","mejs.vietnamese":"Vietnamita","mejs.welsh":"Gal\u00eas","mejs.yiddish":"I\u00eddiche"}};
+//# sourceURL=mediaelement-core-js-before
+</script>
+<script id="mediaelement-core-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"></script>
+<script id="mediaelement-migrate-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=7.0.5"></script>
+<script id="mediaelement-js-extra">
+var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+//# sourceURL=mediaelement-js-extra
+</script>
+<script id="wp-mediaelement-js" src="https://santaterezinha.mt.gov.br/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=7.0.5"></script>
+<script id="salvattore-js" src="https://santaterezinha.mt.gov.br/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/salvattore.js?ver=4.27.4"></script>
+<script id="fitvids-js" src="https://santaterezinha.mt.gov.br/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.4"></script>
+<script id="jquery-mobile-js" src="https://santaterezinha.mt.gov.br/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?ver=4.27.4"></script>
+<script id="easypiechart-js" src="https://santaterezinha.mt.gov.br/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js?ver=4.27.4"></script>
+<script id="daff-script-js-extra">
+var daffData = {"ajaxUrl":"https://santaterezinha.mt.gov.br/wp-admin/admin-ajax.php","spinner":"https://santaterezinha.mt.gov.br/wp-content/plugins/divi-contact-module-pro/img/spinner.gif","xIcon":"https://santaterezinha.mt.gov.br/wp-content/plugins/divi-contact-module-pro/img/x.svg"};
+//# sourceURL=daff-script-js-extra
+</script>
+<script id="daff-script-js" src="https://santaterezinha.mt.gov.br/wp-content/plugins/divi-contact-module-pro/script.min.js?ver=7.0.5"></script>
+	
+	<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"b51299cc5e9f40a09561a659b5824cfc","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

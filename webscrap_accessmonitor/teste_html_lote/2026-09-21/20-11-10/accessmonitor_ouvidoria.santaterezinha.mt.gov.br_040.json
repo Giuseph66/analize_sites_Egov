@@ -1,0 +1,2741 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html lang=\"pt-BR\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>Nova manifestação · Ouvidoria</title>\n    <meta name=\"description\" content=\"Canal direto para atendimento do SIC e da Ouvidoria.\">\n    <meta name=\"keywords\" content=\"sic, ouvidoria, atendimento, transparencia\">\n            <link rel=\"icon\" type=\"image/png\" href=\"https://ouvidoria.santaterezinha.mt.gov.br//storage/identidade/logo_1780979669.png\">\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n    <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap\" rel=\"stylesheet\">\n    \n    \n    \n    </head>\n<body class=\"min-h-screen text-slate-800\">\n    <a href=\"#conteudo-principal\" class=\"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white\">\n        Pular para o conteúdo\n    </a>\n    <div class=\"border-b border-black/10 text-white\" style=\"background-color: #0f766e;\">\n        <div class=\"mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between\">\n            <div class=\"flex flex-wrap items-center gap-2 text-xs\">\n                <span class=\"inline-flex items-center gap-1.5 font-bold uppercase tracking-[0.18em] text-white/80\">\n                    <svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"4\" r=\"2\" stroke-width=\"1.7\"></circle><path d=\"M5 8h14m-7 0v5m0 0-4 8m4-8 4 8\" stroke-width=\"1.7\" stroke-linecap=\"round\"></path></svg>\n                    Acessibilidade\n                </span>\n                <button type=\"button\" onclick=\"ajustarFonte(1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A+</button>\n                <button type=\"button\" onclick=\"ajustarFonte(-1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A-</button>\n                <button type=\"button\" onclick=\"alternarContraste()\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">Contraste</button>\n                <button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">FAQ</a>\n            </div>\n                        <div class=\"flex flex-wrap gap-2\">\n                                    <a href=\"https://santaterezinha.mt.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full bg-white px-4 py-1.5 text-xs font-bold text-slate-900 hover:bg-slate-100\">\n                        Site da Prefeitura\n                    </a>\n                                                    <a href=\"https://transparencia.betha.cloud/auth-callback.html#access_token=b8bbf3e3-f74a-4e56-807f-183d785c72f3&amp;token_type=bearer&amp;expires_in=1310&amp;scope=sistema_interno,transparencia.public&amp;session_state=bf4c8fa8fd3765289dcaf3d1f7b8470daa39a9ed5ffc96a88d031d48c5cc97ad.cbb5bd3c0ac9acd62276cf7d455c4239\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-1.5 text-xs font-bold text-white hover:bg-white/10\">\n                        Portal da Transparência\n                    </a>\n                            </div>\n        </div>\n    </div>\n    <header class=\"border-b border-slate-200/80 bg-white/90 backdrop-blur\">\n        <div class=\"mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between\">\n            <a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex w-full min-w-0 items-center gap-3 lg:w-auto\">\n                                    <img src=\"https://ouvidoria.santaterezinha.mt.gov.br//storage/identidade/logo_1780979669.png\" alt=\"Ouvidora Santa Terezinha - MT\" class=\"h-12 max-w-[170px] w-auto object-contain sm:h-14 sm:max-w-[240px]\">\n                                <div class=\"min-w-0\">\n                    <p class=\"text-sm font-extrabold tracking-tight text-slate-900 sm:text-base\">Ouvidora Santa Terezinha - MT</p>\n                    <p class=\"text-xs text-slate-500\">SIC e Ouvidoria</p>\n                </div>\n            </a>\n\n            <div class=\"grid w-full grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:justify-end lg:w-auto\">\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"inline-flex items-center justify-center rounded-full border border-primary/15 bg-primary px-4 py-2.5 text-sm font-bold text-white transition hover:opacity-90\">\n                    SIC\n                </a>\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:border-primary/30 hover:text-primary\">\n                    Ouvidoria\n                </a>\n                            </div>\n        </div>\n    </header>\n\n    <main id=\"conteudo-principal\">\n        <div class=\"bg-white border-b border-slate-100\">\n    <div class=\"max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between\">\n\n        \n        <nav class=\"flex items-center gap-1.5 flex-wrap\">\n            <a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800\">\n                <svg class=\"w-3.5 h-3.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n                Início\n            </a>\n\n                            <svg class=\"w-3 h-3 text-slate-300 flex-shrink-0\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M9 18l6-6-6-6\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n\n                                    <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"text-xs text-slate-500 hover:text-slate-800\">\n                        Ouvidoria\n                    </a>\n                                            <svg class=\"w-3 h-3 text-slate-300 flex-shrink-0\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                    <path d=\"M9 18l6-6-6-6\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n\n                                    <span class=\"text-xs font-semibold text-slate-800\">Nova manifestação</span>\n                                    </nav>\n\n        \n        <a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50 flex-shrink-0\">\n            <svg class=\"w-3.5 h-3.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path d=\"M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n            Voltar ao portal\n        </a>\n\n    </div>\n</div>\n\n<section class=\"mx-auto max-w-4xl px-4 pb-14 pt-5 sm:px-6 sm:pt-8\">\n    <div class=\"mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between\"><div><p class=\"text-xs font-bold uppercase tracking-[.18em] text-primary\">Ouvidoria</p><h1 class=\"mt-2 text-2xl font-extrabold tracking-tight text-slate-950 sm:text-4xl\">Nova manifestação</h1><p class=\"mt-2 text-sm leading-6 text-slate-500\">Informe apenas o necessário. Campos marcados com * são obrigatórios.</p></div><div class=\"rounded-2xl border border-primary/15 bg-primary-light/50 px-4 py-3 text-xs leading-5 text-slate-700\"><strong class=\"block text-primary\">Prazo de resposta</strong>Até 30 dias, prorrogável uma vez com justificativa.</div></div>\n\n    \n    <form id=\"form-ouvidoria\" method=\"POST\" action=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" enctype=\"multipart/form-data\" class=\"space-y-5\"><input type=\"hidden\" name=\"_token\" value=\"jug49z07GgVKCNikzbFhwOX4i2pFUmXQ3Pj8gjAe\" autocomplete=\"off\">        <section class=\"rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-7\">\n            <div class=\"mb-5 flex items-center gap-3\"><span class=\"flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white\">1</span><div><h2 class=\"text-lg font-extrabold text-slate-900\">Escolha o tipo</h2><p class=\"text-xs text-slate-500\">Isso ajuda a Ouvidoria a encaminhar corretamente.</p></div></div>\n            <fieldset><legend class=\"sr-only\">Tipo da manifestação</legend><div class=\"grid gap-3 sm:grid-cols-2 lg:grid-cols-3\"><label class=\"group cursor-pointer\"><input type=\"radio\" name=\"natureza\" value=\"solicitacao\" class=\"peer sr-only\" required=\"\"><span class=\"block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40\"><strong class=\"block text-sm text-slate-900\">Solicitação</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Peça uma providência ou atendimento.</span></span></label><label class=\"group cursor-pointer\"><input type=\"radio\" name=\"natureza\" value=\"reclamacao\" class=\"peer sr-only\" required=\"\"><span class=\"block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40\"><strong class=\"block text-sm text-slate-900\">Reclamação</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Relate insatisfação com um serviço.</span></span></label><label class=\"group cursor-pointer\"><input type=\"radio\" name=\"natureza\" value=\"denuncia\" class=\"peer sr-only\" required=\"\"><span class=\"block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40\"><strong class=\"block text-sm text-slate-900\">Denúncia</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Comunique uma possível irregularidade.</span></span></label><label class=\"group cursor-pointer\"><input type=\"radio\" name=\"natureza\" value=\"sugestao\" class=\"peer sr-only\" required=\"\"><span class=\"block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40\"><strong class=\"block text-sm text-slate-900\">Sugestão</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Apresente uma ideia de melhoria.</span></span></label><label class=\"group cursor-pointer\"><input type=\"radio\" name=\"natureza\" value=\"elogio\" class=\"peer sr-only\" required=\"\"><span class=\"block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40\"><strong class=\"block text-sm text-slate-900\">Elogio</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Reconheça um bom atendimento.</span></span></label><label class=\"group cursor-pointer\"><input type=\"radio\" name=\"natureza\" value=\"simplificacao\" class=\"peer sr-only\" required=\"\"><span class=\"block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40\"><strong class=\"block text-sm text-slate-900\">Simplificação de serviço</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Sugira reduzir burocracia em um serviço.</span></span></label></div></fieldset>\n        </section>\n\n        <section class=\"rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-7\">\n            <div class=\"mb-5 flex items-center gap-3\"><span class=\"flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white\">2</span><div><h2 class=\"text-lg font-extrabold text-slate-900\">Identificação e retorno</h2><p class=\"text-xs text-slate-500\">Você pode se identificar, pedir sigilo ou enviar anonimamente.</p></div></div>\n            <fieldset><legend class=\"sr-only\">Forma de identificação</legend><div class=\"grid gap-3 sm:grid-cols-2\"><label class=\"cursor-pointer\"><input type=\"radio\" name=\"anonima\" value=\"0\" class=\"peer sr-only\" checked=\"\"><span class=\"flex h-full gap-3 rounded-2xl border border-slate-200 p-4 peer-checked:border-primary peer-checked:bg-primary-light/40 peer-checked:ring-2 peer-checked:ring-primary/10\"><span class=\"mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7 9a7 7 0 0 0-14 0\" stroke-width=\"1.7\" stroke-linecap=\"round\"></path></svg></span><span><strong class=\"block text-sm text-slate-900\">Quero me identificar</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Permite receber resposta e recuperar a consulta depois.</span></span></span></label><label class=\"cursor-pointer\"><input type=\"radio\" name=\"anonima\" value=\"1\" class=\"peer sr-only\"><span class=\"flex h-full gap-3 rounded-2xl border border-slate-200 p-4 peer-checked:border-primary peer-checked:bg-primary-light/40 peer-checked:ring-2 peer-checked:ring-primary/10\"><span class=\"mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M4 4l16 16m-3-8a5 5 0 0 1-7.8 4.1M7.1 13.5A12 12 0 0 1 3 9s3.5-5 9-5c1.7 0 3.2.5 4.5 1.2M21 9s-.8 1.2-2.2 2.4\" stroke-width=\"1.7\" stroke-linecap=\"round\"></path></svg></span><span><strong class=\"block text-sm text-slate-900\">Prefiro anonimato</strong><span class=\"mt-1 block text-xs leading-5 text-slate-500\">Nenhum dado pessoal será salvo; não haverá retorno por e-mail.</span></span></span></label></div></fieldset>\n\n            <div id=\"dados-identificacao\" class=\"mt-5 grid gap-4 border-t border-slate-100 pt-5 sm:grid-cols-2\">\n                <label class=\"block sm:col-span-2\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Nome completo *</span><input type=\"text\" name=\"nome\" value=\"\" maxlength=\"255\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\" required=\"\"></label>\n                <label class=\"block\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Como deseja receber o retorno? *</span><select id=\"forma-contato\" name=\"forma_contato\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\"><option value=\"email_protocolo\" selected=\"\">E-mail e protocolo</option><option value=\"protocolo\">Somente protocolo</option></select></label>\n                <label class=\"block\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">E-mail <span id=\"email-obrigatorio\">*</span></span><input id=\"email\" type=\"email\" name=\"email\" value=\"\" maxlength=\"255\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\" required=\"\"></label>\n                <label class=\"block\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Telefone <span class=\"font-normal text-slate-400\">(opcional)</span></span><input type=\"tel\" name=\"telefone\" value=\"\" placeholder=\"(00) 00000-0000\" maxlength=\"20\" class=\"mask-telefone h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\"><input type=\"hidden\" name=\"tipo_telefone\" value=\"celular\"></label>\n                <label class=\"flex cursor-pointer items-start gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4\"><input type=\"checkbox\" name=\"sigilo\" value=\"1\" class=\"mt-0.5 h-4 w-4\"><span><strong class=\"block text-sm text-amber-900\">Proteger minha identidade</strong><span class=\"mt-1 block text-xs leading-5 text-amber-700\">Seus dados ficarão restritos à equipe da Ouvidoria.</span></span></label>\n            </div>\n            <input id=\"forma-anonima\" type=\"hidden\" value=\"protocolo\">\n        </section>\n\n        <section class=\"rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-7\">\n            <div class=\"mb-5 flex items-center gap-3\"><span class=\"flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white\">3</span><div><h2 class=\"text-lg font-extrabold text-slate-900\">Conte o que aconteceu</h2><p class=\"text-xs text-slate-500\">Seja claro e inclua datas, locais e pessoas envolvidas quando souber.</p></div></div>\n            <div class=\"space-y-4\">\n                <label class=\"block\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Secretaria ou órgão *</span><select name=\"secretaria\" required=\"\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\"><option value=\"\">Selecione</option><option value=\"Não sei informar\">Não sei informar</option><option value=\"Gabinete do Prefeito\">Gabinete do Prefeito</option><option value=\"Secretaria de Administração e Finanças\">Secretaria de Administração e Finanças</option><option value=\"Secretaria de Saúde\">Secretaria de Saúde</option><option value=\"Secretaria de Educação\">Secretaria de Educação</option><option value=\"Secretaria de Infraestrutura\">Secretaria de Infraestrutura</option><option value=\"Secretaria de Assistência Social\">Secretaria de Assistência Social</option><option value=\"Secretaria de Meio Ambiente\">Secretaria de Meio Ambiente</option><option value=\"Secretaria de Agricultura\">Secretaria de Agricultura</option><option value=\"Secretaria de Cultura e Turismo\">Secretaria de Cultura e Turismo</option><option value=\"Secretaria de Esporte e Juventude\">Secretaria de Esporte e Juventude</option><option value=\"Secretaria de Segurança Pública\">Secretaria de Segurança Pública</option><option value=\"Secretaria do Trabalho e Desenvolvimento Social\">Secretaria do Trabalho e Desenvolvimento Social</option></select></label>\n                <label class=\"block\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Descrição da manifestação *</span><textarea name=\"mensagem\" rows=\"8\" required=\"\" minlength=\"20\" maxlength=\"10000\" placeholder=\"Descreva os fatos com o máximo de clareza...\" class=\"w-full rounded-xl border border-slate-200 px-3 py-3 text-sm leading-6\"></textarea><span class=\"mt-1 block text-[11px] text-slate-400\">Mínimo de 20 caracteres.</span></label>\n                <label class=\"block\"><span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Anexo <span class=\"font-normal text-slate-400\">(opcional)</span></span><input type=\"file\" name=\"anexo\" accept=\".pdf,.jpg,.jpeg,.png\" class=\"w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-slate-100 file:px-3 file:py-2 file:text-xs file:font-bold\"><span class=\"mt-1 block text-[11px] text-slate-400\">PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.</span></label>\n            </div>\n        </section>\n\n        <label class=\"flex cursor-pointer items-start gap-3 rounded-2xl border border-slate-200 bg-white p-4\"><input type=\"checkbox\" name=\"ciente\" value=\"1\" required=\"\" class=\"mt-0.5 h-4 w-4\"><span class=\"text-xs leading-5 text-slate-600\">Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.</span></label>\n        <button type=\"submit\" class=\"w-full rounded-2xl bg-primary px-6 py-4 text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(15,118,110,.2)] transition hover:brightness-95\">Registrar manifestação</button>\n    </form>\n</section>\n    </main>\n\n    <footer class=\"mt-16 border-t border-slate-200/80 bg-white/80\">\n        <div class=\"mx-auto flex max-w-6xl flex-col gap-3 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6\">\n            <p>Ouvidora Santa Terezinha - MT.</p>\n            <div class=\"flex gap-4\">\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"font-semibold text-slate-600 hover:text-primary\">SIC</a>\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"font-semibold text-slate-600 hover:text-primary\">Ouvidoria</a>\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"font-semibold text-slate-600 hover:text-primary\">FAQ</a>\n                <a href=\"https://ouvidoria.santaterezinha.mt.gov.br/mapa-do-site\" class=\"font-semibold text-slate-600 hover:text-primary\">Mapa do site</a>\n            </div>\n        </div>\n    </footer>\n    <script>\n    const anonimaInputs = document.querySelectorAll('input[name=\"anonima\"]');\n    const dadosIdentificacao = document.getElementById('dados-identificacao');\n    const nomeInput = document.querySelector('input[name=\"nome\"]');\n    const formaContato = document.getElementById('forma-contato');\n    const emailInput = document.getElementById('email');\n\n    function atualizarIdentificacao() {\n        const anonima = document.querySelector('input[name=\"anonima\"]:checked')?.value === '1';\n        dadosIdentificacao.classList.toggle('hidden', anonima);\n        nomeInput.required = !anonima;\n        if (anonima) formaContato.value = 'protocolo';\n        atualizarEmail();\n    }\n\n    function atualizarEmail() {\n        const anonima = document.querySelector('input[name=\"anonima\"]:checked')?.value === '1';\n        const obrigatorio = !anonima && formaContato.value === 'email_protocolo';\n        emailInput.required = obrigatorio;\n        document.getElementById('email-obrigatorio').classList.toggle('hidden', !obrigatorio);\n    }\n\n    anonimaInputs.forEach((input) => input.addEventListener('change', atualizarIdentificacao));\n    formaContato.addEventListener('change', atualizarEmail);\n    atualizarIdentificacao();\n</script>\n    <div vw=\"\" class=\"enabled\">\n        <div vw-access-button=\"\" class=\"active\"></div>\n        <div vw-plugin-wrapper=\"\">\n            <div class=\"vw-plugin-top-wrapper\"></div>\n        </div>\n    </div>\n    <script>\n        let vlibrasWidgetReady = false;\n        let vlibrasOpenRequested = false;\n\n        (() => {\n            const root = document.documentElement;\n            const fonteAtual = Number(localStorage.getItem('portal-font-scale') || '100');\n            const contrasteAtivo = localStorage.getItem('portal-contrast') === '1';\n\n            root.style.fontSize = fonteAtual + '%';\n            if (contrasteAtivo) {\n                document.body.classList.add('contrast-on');\n            }\n        })();\n\n        function ajustarFonte(delta) {\n            const root = document.documentElement;\n            const atual = Number(localStorage.getItem('portal-font-scale') || '100');\n            const proximo = Math.min(120, Math.max(90, atual + (delta * 5)));\n            root.style.fontSize = proximo + '%';\n            localStorage.setItem('portal-font-scale', String(proximo));\n        }\n\n        function alternarContraste() {\n            document.body.classList.toggle('contrast-on');\n            localStorage.setItem('portal-contrast', document.body.classList.contains('contrast-on') ? '1' : '0');\n        }\n\n        function acionarWidgetVlibras() {\n            const button = document.querySelector('[vw-access-button]');\n            if (!button) {\n                return false;\n            }\n\n            button.click();\n            return true;\n        }\n\n        function abrirVlibras() {\n            if (vlibrasWidgetReady && acionarWidgetVlibras()) {\n                return;\n            }\n\n            vlibrasOpenRequested = true;\n        }\n    </script>\n    <script src=\"https://vlibras.gov.br/app/vlibras-plugin.js\"></script>\n    <script>\n        window.addEventListener('load', function () {\n            if (!window.VLibras) {\n                return;\n            }\n\n            new window.VLibras.Widget('https://vlibras.gov.br/app');\n            vlibrasWidgetReady = true;\n\n            window.setTimeout(function () {\n                if (vlibrasOpenRequested) {\n                    acionarWidgetVlibras();\n                    vlibrasOpenRequested = false;\n                }\n            }, 600);\n        });\n    </script>\n    <style>\n        .contrast-on,\n        .contrast-on * {\n            background-color: #000 !important;\n            color: #fff !important;\n            border-color: #fff !important;\n            box-shadow: none !important;\n        }\n        .contrast-on a,\n        .contrast-on button {\n            text-decoration: underline !important;\n        }\n        [vw-access-button] { z-index: 70 !important; }\n    </style>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;b51299cc5e9f40a09561a659b5824cfc&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>\n\n\n<div id=\"vlibras-access-wrapper\"></div></body></html>",
+    "data": {
+      "title": "Nova manifestação · Ouvidoria",
+      "rawUrl": "https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria/form",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "lang": 1,
+        "button": 6,
+        "buttonAname": 6,
+        "a": 15,
+        "linkAName": 14,
+        "elementDec": 2,
+        "svg": 0,
+        "iframeSame": 0,
+        "ariaStPermitted": 1,
+        "ariaAtribDefined": 2,
+        "ariaStValid": 1,
+        "linkIdentAName": 3,
+        "img": 2,
+        "labelAName": 1,
+        "hxHasAName": 4,
+        "headers": 0,
+        "elementHiddenFocus": 1,
+        "menuItem": 0,
+        "id": 87,
+        "colorContrast": 4,
+        "elementPresentChildrenNoFocus": 18,
+        "textContrastHNot": 4,
+        "aSkipFirst": 1,
+        "labelPosNo": 5,
+        "colorFgBgNo": 86,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 4,
+        "noDuplicateBanner": 1,
+        "noDuplicateContentinfo": 1,
+        "noDuplicateMain": 1,
+        "h1": 1,
+        "onlyOneh1": 1,
+        "aSkip": 1,
+        "bannerTopLevel": 1,
+        "li": 0,
+        "contentinfoTopLevel": 1,
+        "mainTopLevel": 1,
+        "idAtt": 11,
+        "area": 0,
+        "inpImg": 14,
+        "label": 20,
+        "form": 1,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 4
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Nova manifestação · Ouvidoria</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "lang": [
+          {
+            "verdict": "passed",
+            "description": "The `lang` attribute exists and has a value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<html lang=\"pt-BR\"><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"ajustarFonte(1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A+</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)",
+                "accessibleName": "A+"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"ajustarFonte(-1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A-</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)",
+                "accessibleName": "A-"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"alternarContraste()\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)",
+                "accessibleName": "Contraste"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)",
+                "accessibleName": "Abrir VLibras"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"w-full rounded-2xl bg-primary px-6 py-4 text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(15,118,110,.2)] transition hover:brightness-95\">Registrar manifestação</button>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > button:nth-child(6)",
+                "accessibleName": "Registrar manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > button:nth-of-type(1)",
+                "accessibleName": "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo-principal\" class=\"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white\">\n        Pular para o conteúdo\n    </a>",
+                "pointer": "html > body:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Pular para o conteúdo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)",
+                "accessibleName": "FAQ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://santaterezinha.mt.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full bg-white px-4 py-1.5 text-xs font-bold text-slate-900 hover:bg-slate-100\">\n                        Site da Prefeitura\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "Site da Prefeitura"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/auth-callback.html#access_token=b8bbf3e3-f74a-4e56-807f-183d785c72f3&amp;token_type=bearer&amp;expires_in=1310&amp;scope=sistema_interno,transparencia.public&amp;session_state=bf4c8fa8fd3765289dcaf3d1f7b8470daa39a9ed5ffc96a88d031d48c5cc97ad.cbb5bd3c0ac9acd62276cf7d455c4239\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-1.5 text-xs font-bold text-white hover:bg-white/10\">\n                        Portal da Transparência\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "Portal da Transparência"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex w-full min-w-0 items-center gap-3 lg:w-auto\">\n                                    \n                                \n                    Ouvidora Santa Terezinha - MT\n                    SIC e Ouvidoria\n                \n            </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Ouvidora Santa Terezinha - MTOuvidora Santa Terezinha - MTSIC e Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"inline-flex items-center justify-center rounded-full border border-primary/15 bg-primary px-4 py-2.5 text-sm font-bold text-white transition hover:opacity-90\">\n                    SIC\n                </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "SIC"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:border-primary/30 hover:text-primary\">\n                    Ouvidoria\n                </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800\">\n                \n                    \n                \n                Início\n            </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Início"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"text-xs text-slate-500 hover:text-slate-800\">\n                        Ouvidoria\n                    </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > a:nth-child(3)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50 flex-shrink-0\">\n            \n                \n            \n            Voltar ao portal\n        </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)",
+                "accessibleName": "Voltar ao portal"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"font-semibold text-slate-600 hover:text-primary\">SIC</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+                "accessibleName": "SIC"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"font-semibold text-slate-600 hover:text-primary\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"font-semibold text-slate-600 hover:text-primary\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)",
+                "accessibleName": "FAQ"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/mapa-do-site\" class=\"font-semibold text-slate-600 hover:text-primary\">Mapa do site</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(4)",
+                "accessibleName": "Mapa do site"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementDec": [
+          {
+            "verdict": "passed",
+            "description": "The test target children are not focusable.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target is not focusable.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStPermitted": [
+          {
+            "verdict": "passed",
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaAtribDefined": [
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"></svg>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) > svg:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "ariaStValid": [
+          {
+            "verdict": "passed",
+            "description": "The test target `aria-label` attribute has a valid value.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkIdentAName": [
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"font-semibold text-slate-600 hover:text-primary\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)"
+              },
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"font-semibold text-slate-600 hover:text-primary\">SIC</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"inline-flex items-center justify-center rounded-full border border-primary/15 bg-primary px-4 py-2.5 text-sm font-bold text-white transition hover:opacity-90\">\n                    SIC\n                </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The `links` with the same accessible name have equal content.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"text-xs text-slate-500 hover:text-slate-800\">\n                        Ouvidoria\n                    </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > a:nth-child(3)"
+              },
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"font-semibold text-slate-600 hover:text-primary\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              },
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:border-primary/30 hover:text-primary\">\n                    Ouvidoria\n                </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"solicitacao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "SolicitaçãoPeça uma providência ou atendimento."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"reclamacao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)",
+                "accessibleName": "ReclamaçãoRelate insatisfação com um serviço."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"denuncia\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(3) > input:nth-child(1)",
+                "accessibleName": "DenúnciaComunique uma possível irregularidade."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"sugestao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(4) > input:nth-child(1)",
+                "accessibleName": "SugestãoApresente uma ideia de melhoria."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"elogio\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(5) > input:nth-child(1)",
+                "accessibleName": "ElogioReconheça um bom atendimento."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"simplificacao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(6) > input:nth-child(1)",
+                "accessibleName": "Simplificação de serviçoSugira reduzir burocracia em um serviço."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonima\" value=\"0\" class=\"peer sr-only\" checked=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)",
+                "accessibleName": "Quero me identificarPermite receber resposta e recuperar a consulta depois."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonima\" value=\"1\" class=\"peer sr-only\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)",
+                "accessibleName": "Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"text\" name=\"nome\" value=\"\" maxlength=\"255\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(1) > input:nth-child(2)",
+                "accessibleName": "Nome completo *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"forma-contato\" name=\"forma_contato\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\">E-mail e protocoloSomente protocolo</select>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(2) > select:nth-child(2)",
+                "accessibleName": "Como deseja receber o retorno? *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"email\" type=\"email\" name=\"email\" value=\"\" maxlength=\"255\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(3) > input:nth-child(2)",
+                "accessibleName": "E-mail *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"tel\" name=\"telefone\" value=\"\" placeholder=\"(00) 00000-0000\" maxlength=\"20\" class=\"mask-telefone h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(4) > input:nth-child(2)",
+                "accessibleName": "Telefone (opcional)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"checkbox\" name=\"sigilo\" value=\"1\" class=\"mt-0.5 h-4 w-4\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(5) > input:nth-child(1)",
+                "accessibleName": "Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select name=\"secretaria\" required=\"\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\">SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social</select>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2)",
+                "accessibleName": "Secretaria ou órgão *"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<textarea name=\"mensagem\" rows=\"8\" required=\"\" minlength=\"20\" maxlength=\"10000\" placeholder=\"Descreva os fatos com o máximo de clareza...\" class=\"w-full rounded-xl border border-slate-200 px-3 py-3 text-sm leading-6\"></textarea>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(2) > textarea:nth-child(2)",
+                "accessibleName": "Descrição da manifestação *Mínimo de 20 caracteres."
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"checkbox\" name=\"ciente\" value=\"1\" required=\"\" class=\"mt-0.5 h-4 w-4\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > label:nth-child(5) > input:nth-child(1)",
+                "accessibleName": "Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://ouvidoria.santaterezinha.mt.gov.br//storage/identidade/logo_1780979669.png\" alt=\"Ouvidora Santa Terezinha - MT\" class=\"h-12 max-w-[170px] w-auto object-contain sm:h-14 sm:max-w-[240px]\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Ouvidora Santa Terezinha - MT"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > img:nth-of-type(1)",
+                "accessibleName": "Acessível com VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelAName": [
+          {
+            "verdict": "passed",
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)",
+                "accessibleName": "Abrir VLibras"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"mt-2 text-2xl font-extrabold tracking-tight text-slate-950 sm:text-4xl\">Nova manifestação</h1>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(2)",
+                "accessibleName": "Nova manifestação"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Escolha o tipo</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)",
+                "accessibleName": "Escolha o tipo"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Identificação e retorno</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)",
+                "accessibleName": "Identificação e retorno"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Conte o que aconteceu</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)",
+                "accessibleName": "Conte o que aconteceu"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementHiddenFocus": [
+          {
+            "verdict": "passed",
+            "description": "The test target is not in the accessibility tree.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrast": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"inline-flex items-center gap-1.5 font-bold uppercase tracking-[0.18em] text-white/80\">\n                    \n                    Acessibilidade\n                </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://santaterezinha.mt.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full bg-white px-4 py-1.5 text-xs font-bold text-slate-900 hover:bg-slate-100\">\n                        Site da Prefeitura\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/auth-callback.html#access_token=b8bbf3e3-f74a-4e56-807f-183d785c72f3&amp;token_type=bearer&amp;expires_in=1310&amp;scope=sistema_interno,transparencia.public&amp;session_state=bf4c8fa8fd3765289dcaf3d1f7b8470daa39a9ed5ffc96a88d031d48c5cc97ad.cbb5bd3c0ac9acd62276cf7d455c4239\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-1.5 text-xs font-bold text-white hover:bg-white/10\">\n                        Portal da Transparência\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"ajustarFonte(1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A+</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"ajustarFonte(-1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A-</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"alternarContraste()\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://ouvidoria.santaterezinha.mt.gov.br//storage/identidade/logo_1780979669.png\" alt=\"Ouvidora Santa Terezinha - MT\" class=\"h-12 max-w-[170px] w-auto object-contain sm:h-14 sm:max-w-[240px]\">",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"solicitacao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"reclamacao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"denuncia\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(3) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"sugestao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(4) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"elogio\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(5) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"simplificacao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(6) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonima\" value=\"0\" class=\"peer sr-only\" checked=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonima\" value=\"1\" class=\"peer sr-only\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"checkbox\" name=\"sigilo\" value=\"1\" class=\"mt-0.5 h-4 w-4\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(5) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"checkbox\" name=\"ciente\" value=\"1\" required=\"\" class=\"mt-0.5 h-4 w-4\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > label:nth-child(5) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"w-full rounded-2xl bg-primary px-6 py-4 text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(15,118,110,.2)] transition hover:brightness-95\">Registrar manifestação</button>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > button:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastHNot": [
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"inline-flex items-center gap-1.5 font-bold uppercase tracking-[0.18em] text-white/80\">\n                    \n                    Acessibilidade\n                </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://santaterezinha.mt.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full bg-white px-4 py-1.5 text-xs font-bold text-slate-900 hover:bg-slate-100\">\n                        Site da Prefeitura\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "Element has contrast ratio lower than minimum.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/auth-callback.html#access_token=b8bbf3e3-f74a-4e56-807f-183d785c72f3&amp;token_type=bearer&amp;expires_in=1310&amp;scope=sistema_interno,transparencia.public&amp;session_state=bf4c8fa8fd3765289dcaf3d1f7b8470daa39a9ed5ffc96a88d031d48c5cc97ad.cbb5bd3c0ac9acd62276cf7d455c4239\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-1.5 text-xs font-bold text-white hover:bg-white/10\">\n                        Portal da Transparência\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirst": [
+          {
+            "verdict": "warning",
+            "description": "The first focusable control is a visible link to a <main> element.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo-principal\" class=\"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white\">\n        Pular para o conteúdo\n    </a>",
+                "pointer": "html > body:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelPosNo": [
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"natureza\" value=\"sugestao\" class=\"peer sr-only\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(4) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonima\" value=\"0\" class=\"peer sr-only\" checked=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"radio\" name=\"anonima\" value=\"1\" class=\"peer sr-only\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"checkbox\" name=\"sigilo\" value=\"1\" class=\"mt-0.5 h-4 w-4\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(5) > input:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input type=\"file\" name=\"anexo\" accept=\".pdf,.jpg,.jpeg,.png\" class=\"w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-slate-100 file:px-3 file:py-2 file:text-xs file:font-bold\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "formSubmit": [
+          {
+            "verdict": "passed",
+            "description": "The form contains one of the following elements input[type~='submit image'], button[type='submit'].",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form id=\"form-ouvidoria\" method=\"POST\" action=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" enctype=\"multipart/form-data\" class=\"space-y-5\">        \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    </form>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorFgBgNo": [
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo-principal\" class=\"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white\">\n        Pular para o conteúdo\n    </a>",
+                "pointer": "html > body:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"inline-flex items-center gap-1.5 font-bold uppercase tracking-[0.18em] text-white/80\">\n                    \n                    Acessibilidade\n                </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"ajustarFonte(1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A+</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"ajustarFonte(-1)\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">A-</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"alternarContraste()\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">Contraste</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" onclick=\"abrirVlibras()\" aria-label=\"Abrir VLibras\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">VLibras</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://santaterezinha.mt.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full bg-white px-4 py-1.5 text-xs font-bold text-slate-900 hover:bg-slate-100\">\n                        Site da Prefeitura\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://transparencia.betha.cloud/auth-callback.html#access_token=b8bbf3e3-f74a-4e56-807f-183d785c72f3&amp;token_type=bearer&amp;expires_in=1310&amp;scope=sistema_interno,transparencia.public&amp;session_state=bf4c8fa8fd3765289dcaf3d1f7b8470daa39a9ed5ffc96a88d031d48c5cc97ad.cbb5bd3c0ac9acd62276cf7d455c4239\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-1.5 text-xs font-bold text-white hover:bg-white/10\">\n                        Portal da Transparência\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-sm font-extrabold tracking-tight text-slate-900 sm:text-base\">Ouvidora Santa Terezinha - MT</p>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs text-slate-500\">SIC e Ouvidoria</p>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"inline-flex items-center justify-center rounded-full border border-primary/15 bg-primary px-4 py-2.5 text-sm font-bold text-white transition hover:opacity-90\">\n                    SIC\n                </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:border-primary/30 hover:text-primary\">\n                    Ouvidoria\n                </a>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800\">\n                \n                    \n                \n                Início\n            </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"text-xs text-slate-500 hover:text-slate-800\">\n                        Ouvidoria\n                    </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs font-semibold text-slate-800\">Nova manifestação</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(1) > span:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br\" class=\"flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50 flex-shrink-0\">\n            \n                \n            \n            Voltar ao portal\n        </a>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs font-bold uppercase tracking-[.18em] text-primary\">Ouvidoria</p>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"mt-2 text-2xl font-extrabold tracking-tight text-slate-950 sm:text-4xl\">Nova manifestação</h1>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"mt-2 text-sm leading-6 text-slate-500\">Informe apenas o necessário. Campos marcados com * são obrigatórios.</p>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"rounded-2xl border border-primary/15 bg-primary-light/50 px-4 py-3 text-xs leading-5 text-slate-700\">Prazo de respostaAté 30 dias, prorrogável uma vez com justificativa.</div>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-primary\">Prazo de resposta</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white\">1</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Escolha o tipo</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs text-slate-500\">Isso ajuda a Ouvidoria a encaminhar corretamente.</p>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<legend class=\"sr-only\">Tipo da manifestação</legend>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > legend:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Solicitação</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Peça uma providência ou atendimento.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Reclamação</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Relate insatisfação com um serviço.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Denúncia</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(3) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Comunique uma possível irregularidade.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(3) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Sugestão</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(4) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Apresente uma ideia de melhoria.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(4) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Elogio</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(5) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Reconheça um bom atendimento.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(5) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Simplificação de serviço</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(6) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Sugira reduzir burocracia em um serviço.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(6) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white\">2</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Identificação e retorno</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs text-slate-500\">Você pode se identificar, pedir sigilo ou enviar anonimamente.</p>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<legend class=\"sr-only\">Forma de identificação</legend>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > legend:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Quero me identificar</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Permite receber resposta e recuperar a consulta depois.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-slate-900\">Prefiro anonimato</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > span:nth-child(2) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-slate-500\">Nenhum dado pessoal será salvo; não haverá retorno por e-mail.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > fieldset:nth-child(2) > div:nth-child(2) > label:nth-child(2) > span:nth-child(2) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Nome completo *</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Como deseja receber o retorno? *</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"email_protocolo\" selected=\"\">E-mail e protocolo</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(2) > select:nth-child(2) > option:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"protocolo\">Somente protocolo</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(2) > select:nth-child(2) > option:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">E-mail *</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(3) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"email-obrigatorio\">*</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(3) > span:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Telefone (opcional)</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(4) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"font-normal text-slate-400\">(opcional)</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(4) > span:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<strong class=\"block text-sm text-amber-900\">Proteger minha identidade</strong>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(5) > span:nth-child(2) > strong:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-xs leading-5 text-amber-700\">Seus dados ficarão restritos à equipe da Ouvidoria.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(5) > span:nth-child(2) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white\">3</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Conte o que aconteceu</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-xs text-slate-500\">Seja claro e inclua datas, locais e pessoas envolvidas quando souber.</p>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Secretaria ou órgão *</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"\">Selecione</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Não sei informar\">Não sei informar</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Gabinete do Prefeito\">Gabinete do Prefeito</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Administração e Finanças\">Secretaria de Administração e Finanças</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Saúde\">Secretaria de Saúde</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Educação\">Secretaria de Educação</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Infraestrutura\">Secretaria de Infraestrutura</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(7)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Assistência Social\">Secretaria de Assistência Social</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(8)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Meio Ambiente\">Secretaria de Meio Ambiente</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(9)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Agricultura\">Secretaria de Agricultura</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(10)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Cultura e Turismo\">Secretaria de Cultura e Turismo</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(11)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Esporte e Juventude\">Secretaria de Esporte e Juventude</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(12)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria de Segurança Pública\">Secretaria de Segurança Pública</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(13)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<option value=\"Secretaria do Trabalho e Desenvolvimento Social\">Secretaria do Trabalho e Desenvolvimento Social</option>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(1) > select:nth-child(2) > option:nth-child(14)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Descrição da manifestação *</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-[11px] text-slate-400\">Mínimo de 20 caracteres.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(2) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mb-1.5 block text-xs font-bold text-slate-600\">Anexo (opcional)</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(3) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"font-normal text-slate-400\">(opcional)</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(3) > span:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"mt-1 block text-[11px] text-slate-400\">PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(2) > label:nth-child(3) > span:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<span class=\"text-xs leading-5 text-slate-600\">Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > label:nth-child(5) > span:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"submit\" class=\"w-full rounded-2xl bg-primary px-6 py-4 text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(15,118,110,.2)] transition hover:brightness-95\">Registrar manifestação</button>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > button:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<p>Ouvidora Santa Terezinha - MT.</p>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > p:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico\" class=\"font-semibold text-slate-600 hover:text-primary\">SIC</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" class=\"font-semibold text-slate-600 hover:text-primary\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes\" class=\"font-semibold text-slate-600 hover:text-primary\">FAQ</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The test target has a author defined background property but not a color css property.",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://ouvidoria.santaterezinha.mt.gov.br/mapa-do-site\" class=\"font-semibold text-slate-600 hover:text-primary\">Mapa do site</a>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"mt-2 text-2xl font-extrabold tracking-tight text-slate-950 sm:text-4xl\">Nova manifestação</h1>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Escolha o tipo</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Identificação e retorno</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2 class=\"text-lg font-extrabold text-slate-900\">Conte o que aconteceu</h2>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(4) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"border-b border-slate-200/80 bg-white/90 backdrop-blur\">\n        \n            \n                                    \n                                \n                    Ouvidora Santa Terezinha - MT\n                    SIC e Ouvidoria\n                \n            \n\n            \n                \n                    SIC\n                \n                \n                    Ouvidoria\n                \n                            \n        \n    </header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateContentinfo": [
+          {
+            "verdict": "passed",
+            "description": "There is one contentinfo landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"mt-16 border-t border-slate-200/80 bg-white/80\">\n        \n            Ouvidora Santa Terezinha - MT.\n            \n                SIC\n                Ouvidoria\n                FAQ\n                Mapa do site\n            \n        \n    </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo-principal\">\n        \n    \n\n        \n        \n            \n                \n                    \n                \n                Início\n            \n\n                            \n                    \n                \n\n                                    \n                        Ouvidoria\n                    \n                                            \n                    \n                \n\n                                    Nova manifestação\n                                    \n\n        \n        \n            \n                \n            \n            Voltar ao portal\n        \n\n    \n\n\n\n    OuvidoriaNova manifestaçãoInforme apenas o necessário. Campos marcados com * são obrigatórios.Prazo de respostaAté 30 dias, prorrogável uma vez com justificativa.\n\n    \n            \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    \n\n    </main>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "onlyOneh1": [
+          {
+            "verdict": "passed",
+            "description": "The H1 element is used and unique",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"mt-2 text-2xl font-extrabold tracking-tight text-slate-950 sm:text-4xl\">Nova manifestação</h1>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo-principal\" class=\"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white\">\n        Pular para o conteúdo\n    </a>",
+                "pointer": "html > body:nth-child(2) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<main id=\"conteudo-principal\">\n        \n    \n\n        \n        \n            \n                \n                    \n                \n                Início\n            \n\n                            \n                    \n                \n\n                                    \n                        Ouvidoria\n                    \n                                            \n                    \n                \n\n                                    Nova manifestação\n                                    \n\n        \n        \n            \n                \n            \n            Voltar ao portal\n        \n\n    \n\n\n\n    OuvidoriaNova manifestaçãoInforme apenas o necessário. Campos marcados com * são obrigatórios.Prazo de respostaAté 30 dias, prorrogável uma vez com justificativa.\n\n    \n            \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    \n\n    </main>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkip": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"#conteudo-principal\" class=\"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white\">\n        Pular para o conteúdo\n    </a>",
+                "pointer": "html > body:nth-child(2) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<main id=\"conteudo-principal\">\n        \n    \n\n        \n        \n            \n                \n                    \n                \n                Início\n            \n\n                            \n                    \n                \n\n                                    \n                        Ouvidoria\n                    \n                                            \n                    \n                \n\n                                    Nova manifestação\n                                    \n\n        \n        \n            \n                \n            \n            Voltar ao portal\n        \n\n    \n\n\n\n    OuvidoriaNova manifestaçãoInforme apenas o necessário. Campos marcados com * são obrigatórios.Prazo de respostaAté 30 dias, prorrogável uma vez com justificativa.\n\n    \n            \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    \n\n    </main>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"border-b border-slate-200/80 bg-white/90 backdrop-blur\">\n        \n            \n                                    \n                                \n                    Ouvidora Santa Terezinha - MT\n                    SIC e Ouvidoria\n                \n            \n\n            \n                \n                    SIC\n                \n                \n                    Ouvidoria\n                \n                            \n        \n    </header>",
+                "pointer": "html > body:nth-child(2) > header:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "contentinfoTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The complementary landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<footer class=\"mt-16 border-t border-slate-200/80 bg-white/80\">\n        \n            Ouvidora Santa Terezinha - MT.\n            \n                SIC\n                Ouvidoria\n                FAQ\n                Mapa do site\n            \n        \n    </footer>",
+                "pointer": "html > body:nth-child(2) > footer:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo-principal\">\n        \n    \n\n        \n        \n            \n                \n                    \n                \n                Início\n            \n\n                            \n                    \n                \n\n                                    \n                        Ouvidoria\n                    \n                                            \n                    \n                \n\n                                    Nova manifestação\n                                    \n\n        \n        \n            \n                \n            \n            Voltar ao portal\n        \n\n    \n\n\n\n    OuvidoriaNova manifestaçãoInforme apenas o necessário. Campos marcados com * são obrigatórios.Prazo de respostaAté 30 dias, prorrogável uma vez com justificativa.\n\n    \n            \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    \n\n    </main>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main id=\"conteudo-principal\">\n        \n    \n\n        \n        \n            \n                \n                    \n                \n                Início\n            \n\n                            \n                    \n                \n\n                                    \n                        Ouvidoria\n                    \n                                            \n                    \n                \n\n                                    Nova manifestação\n                                    \n\n        \n        \n            \n                \n            \n            Voltar ao portal\n        \n\n    \n\n\n\n    OuvidoriaNova manifestaçãoInforme apenas o necessário. Campos marcados com * são obrigatórios.Prazo de respostaAté 30 dias, prorrogável uma vez com justificativa.\n\n    \n            \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    \n\n    </main>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<form id=\"form-ouvidoria\" method=\"POST\" action=\"https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria\" enctype=\"multipart/form-data\" class=\"space-y-5\">        \n            1Escolha o tipoIsso ajuda a Ouvidoria a encaminhar corretamente.\n            Tipo da manifestaçãoSolicitaçãoPeça uma providência ou atendimento.ReclamaçãoRelate insatisfação com um serviço.DenúnciaComunique uma possível irregularidade.SugestãoApresente uma ideia de melhoria.ElogioReconheça um bom atendimento.Simplificação de serviçoSugira reduzir burocracia em um serviço.\n        \n\n        \n            2Identificação e retornoVocê pode se identificar, pedir sigilo ou enviar anonimamente.\n            Forma de identificaçãoQuero me identificarPermite receber resposta e recuperar a consulta depois.Prefiro anonimatoNenhum dado pessoal será salvo; não haverá retorno por e-mail.\n\n            \n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            \n            \n        \n\n        \n            3Conte o que aconteceuSeja claro e inclua datas, locais e pessoas envolvidas quando souber.\n            \n                Secretaria ou órgão *SelecioneNão sei informarGabinete do PrefeitoSecretaria de Administração e FinançasSecretaria de SaúdeSecretaria de EducaçãoSecretaria de InfraestruturaSecretaria de Assistência SocialSecretaria de Meio AmbienteSecretaria de AgriculturaSecretaria de Cultura e TurismoSecretaria de Esporte e JuventudeSecretaria de Segurança PúblicaSecretaria do Trabalho e Desenvolvimento Social\n                Descrição da manifestação *Mínimo de 20 caracteres.\n                Anexo (opcional)PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.\n            \n        \n\n        Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.\n        Registrar manifestação\n    </form>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"dados-identificacao\" class=\"mt-5 grid gap-4 border-t border-slate-100 pt-5 sm:grid-cols-2\">\n                Nome completo *\n                Como deseja receber o retorno? *E-mail e protocoloSomente protocolo\n                E-mail *\n                Telefone (opcional)\n                Proteger minha identidadeSeus dados ficarão restritos à equipe da Ouvidoria.\n            </div>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<select id=\"forma-contato\" name=\"forma_contato\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\">E-mail e protocoloSomente protocolo</select>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(2) > select:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"email-obrigatorio\">*</span>",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(3) > span:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"email\" type=\"email\" name=\"email\" value=\"\" maxlength=\"255\" class=\"h-12 w-full rounded-xl border border-slate-200 px-3 text-sm\" required=\"\">",
+                "pointer": "html > body:nth-child(2) > main:nth-child(4) > section:nth-child(2) > form:nth-child(2) > section:nth-child(3) > div:nth-child(3) > label:nth-child(3) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access-wrapper\">       #vlibras-access { display: flex; align-items: center; position: fixed; z-index: 2147483639; right: 10px; flex-direction: row; top: calc(50vh - 20px); transition: all .5s ease; width: 40px; height: 40px; &amp;:hover, &amp;:has(#vlibras-button:focus-visible) { width: 200px; } } #vlibras-button, #vlibras-popup { border-radius: 8px; overflow: hidden; height: 40px; } #vlibras-button { right: 0; z-index: 1; position: absolute; width: 40px; border: none; padding: 0; cursor: pointer; outline: var(--vlibras-btn-outline); &amp;:focus-visible { outline: var(--vlibras-btn-focus-visible-outline, 2px solid #fff); box-shadow: var(--vlibras-btn-focus-visible-shadow, 0 0 10px 4px #1351b4); } &amp;:hover { filter: var(--vlibras-btn-hover-filter, brightness(1.1)); } } </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div id=\"vlibras-access\">     </div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > img:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\">  </button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(13)div:nth-of-type(1) > button:nth-of-type(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 00:16:17",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "Nova manifestação · Ouvidoria",
+          "date": "2026-09-22 00:16:17",
+          "htmlTags": 879,
+          "roles": {
+            "document": 1,
+            "generic": 71,
+            "link": 14,
+            "graphics-document": 7,
+            "button": 6,
+            "banner": 1,
+            "img": 2,
+            "paragraph": 8,
+            "main": 1,
+            "navigation": 1,
+            "region": 4,
+            "heading": 4,
+            "strong": 10,
+            "form": 1,
+            "group": 2,
+            "radio": 8,
+            "textbox": 4,
+            "combobox": 2,
+            "checkbox": 2,
+            "contentinfo": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 4,
+            "title": 1,
+            "link": 4,
+            "script": 14,
+            "style": 657,
+            "body": 1,
+            "a": 14,
+            "div": 30,
+            "span": 40,
+            "svg": 7,
+            "circle": 1,
+            "path": 7,
+            "button": 6,
+            "header": 1,
+            "img": 3,
+            "p": 8,
+            "main": 1,
+            "nav": 1,
+            "section": 4,
+            "h1": 1,
+            "strong": 10,
+            "form": 1,
+            "input": 17,
+            "h2": 3,
+            "fieldset": 2,
+            "legend": 2,
+            "label": 17,
+            "select": 2,
+            "option": 16,
+            "textarea": 1,
+            "footer": 1
+          },
+          "size": 3994560,
+          "encoding": "utf-8",
+          "lang": "pt-BR",
+          "content": "text/html",
+          "hash": "05c56302be3188994bb989fec4444364",
+          "tests": 32,
+          "conform": "1@1@0",
+          "score": "9.0"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "lang": 1,
+          "button": 6,
+          "buttonAname": 6,
+          "a": 15,
+          "linkAName": 14,
+          "elementDec": 2,
+          "svg": 0,
+          "iframeSame": 0,
+          "ariaStPermitted": 1,
+          "ariaAtribDefined": 2,
+          "ariaStValid": 1,
+          "linkIdentAName": 3,
+          "img": 2,
+          "labelAName": 1,
+          "hxHasAName": 4,
+          "headers": 0,
+          "elementHiddenFocus": 1,
+          "menuItem": 0,
+          "id": 87,
+          "colorContrast": 4,
+          "elementPresentChildrenNoFocus": 18,
+          "textContrastHNot": 4,
+          "aSkipFirst": 1,
+          "labelPosNo": 5,
+          "colorFgBgNo": 86,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 4,
+          "noDuplicateBanner": 1,
+          "noDuplicateContentinfo": 1,
+          "noDuplicateMain": 1,
+          "h1": 1,
+          "onlyOneh1": 1,
+          "aSkip": 1,
+          "bannerTopLevel": 1,
+          "li": 0,
+          "contentinfoTopLevel": 1,
+          "mainTopLevel": 1,
+          "idAtt": 11,
+          "area": 0,
+          "inpImg": 14,
+          "label": 20,
+          "form": 1,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 4
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_01": "something",
+          "button_01": "10@18",
+          "a_10": "10@18",
+          "element_02": "10@18",
+          "aria_05": "10@18",
+          "aria_07": "10@18",
+          "aria_03": "10@18",
+          "a_12": "10@18",
+          "input_02b": "something",
+          "img_01a": "10@16.2",
+          "label_01": "10@18",
+          "heading_01": "10@18",
+          "element_04": "10@18",
+          "color_02": "1@1.6",
+          "element_08": "10@18",
+          "textC_02": "something",
+          "a_01a": "something",
+          "label_02": "3@3.2399999999999998",
+          "form_01a": "10@18",
+          "color_01": "something",
+          "layout_01a": "10@18",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "landmark_11": "10@18",
+          "landmark_13": "10@18",
+          "heading_03": "10@18",
+          "a_02b": "something",
+          "landmark_01": "10@18",
+          "landmark_05": "10@18",
+          "landmark_07": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "1@1@0",
+      "score": "9.0"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T00:16:18.103Z",
+    "requestedUrl": "https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria/form",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 26399,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/download_ouvidoria.santaterezinha.mt.gov.br_040.html"
+    }
+  }
+}

@@ -1,0 +1,628 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/">
+		<meta name="keywords" content="Prefeitura, denise, Leis, IPTU" />
+		<meta name="description" content="Site da Prefeitura de Denise | Unidos por nossa terra" />
+		<meta name="author" content="Dinâmika Sistemas" />
+		<meta http-equiv="Content-Language" content="pt-br">
+
+		<link rel="shortcut icon" href="https://denise.mt.gov.br//publico/logotipo/9ae3e6dfe0d0efebcc2aa6f77a38b3fe.png">
+		<link type="text/css" href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link type="text/css" href="vendors/font-awesome_5.15.3/css/all.css" rel="stylesheet">
+
+		<style type="text/css">
+			
+			body{
+				font-style: normal;
+				font-weight: 400;
+				background-color: #f5f4f4;			}
+
+			:root {
+				--cor_padrao: #357754;
+			}
+		</style>
+
+		<link type="text/css" href="css/slick.css?t=1776691616" rel="stylesheet"/>
+		<link type="text/css" href="css/jquery-confirm.min.css" rel="stylesheet">
+		<link type="text/css" href="css/commom.css?t=1776691616" rel="stylesheet"/>
+		<link type="text/css" href="template/prefeitura/layouts/01/css/style.css?t=1776691616" rel="stylesheet"/>
+
+		
+		<script type="text/javascript" src="vendors/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mask.min.js"></script>
+		<script type="text/javascript" src="js/lazyload.js"></script>
+		<script type="text/javascript" src="js/jquery-confirm.min.js"></script>
+		<script type="text/javascript" src="js/jquery-clickout.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-notify.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/mask.js?t=1776691616"></script>
+		<script type="text/javascript" src="js/slick.js?t=1776691616"></script>
+		<script type="text/javascript" src="js/common.js?t=1776691616"></script>
+		<script type="text/javascript" src="js/cookies.js?t=1776691616"></script>
+		<script type="text/javascript" src="js/menu.js?t=1776691616"></script>
+		<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+
+		<meta property="og:url" content="https://denise.mt.gov.br/"/>
+			<meta property="og:type" content="article"/>
+			<meta property="og:title" content="Prefeitura Municipal de Denise"/>
+			<meta property="og:description" content="Site da Prefeitura de Denise | Unidos por nossa terra"/>
+			<meta property="og:image:width" content="600" />
+			<meta property="og:image:height" content="600" /><meta property="og:image" content="https://denise.mt.gov.br//publico/logotipo/0b5fe02291d94a92ed3cc25a06c710b1_600x600.png"/><title>Ouvidoria | Manifestações | Prefeitura Municipal de Denise</title>	</head>
+
+<body>
+	<div class="container-fluid">
+
+		<div id="loadingFull">
+			<div class="loadingFull">
+				<table width="164" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td height="46" align="center">
+							<i class="fas fa-spinner fa-spin" style="font-size:38px;"></i>
+							<h4 id="loader_mensagem"></h4>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="row hidden-xs hidden-sm">
+   <div class="topo">
+      <div class="max-width">
+         <div class="col-lg-6 col-md-7">
+            <div class="col-xs-12 no-padding">
+               <i class="far fa-clock"></i> <b>Atendimento:</b> Segunda a Sexta-feira das 7:00h às 11:00h e 13:00h às 17:00h            </div>
+         </div>
+         <div class="col-lg-6 col-md-5 no-padding">
+            <a href="tel:65998149659" class="visible-lg">(65) 9.9814-9659</a><a href="tel:6533421397" class="visible-lg"><i class="fas fa-phone"></i> (65) 3342-1397</a><a href="/localizacao" class="visible-lg visible-md" title="Veja nossa localização"><i class="fas fa-map-marker-alt"></i></a><a href="https://youtube.com.br" class="visible-lg visible-md" target="_blank" title="Acesse nosso canal no YouTube"><i class="fab fa-youtube"></i></a><a href="https://www.facebook.com" class="visible-lg visible-md" target="_blank" title="Acesse nossa página no Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com" class="visible-lg visible-md" target="_blank" title="Acesse nosso perfil no Instagram"><i class="fab fa-instagram"></i></a>         </div>
+      </div>
+   </div>
+</div>
+
+<div class="row">
+   <div class="section_container">
+      <div class="max-width" style="display: flex; align-items: center;">
+         <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-3">
+            <a href="/" class="logo">
+               <img src="publico/logotipo/0b5fe02291d94a92ed3cc25a06c710b1.png" class="img-responsive"/>            </a>
+         </div>
+
+         <div class="col-xs-12 hidden-sm hidden-xs col-md-6 col-md-offset-3">
+            <form class="form_pesquisa" method="get" action="">
+               <input id="palavra_chave" name="palavra_chave" type="text" class="form-control" value="" placeholder="Buscar no Portal" required autocomplete="off"><i class="fas fa-search"></i>
+            </form>
+         </div>
+      </div>
+   </div>
+</div><input id="menu_h_fixed_start" type="hidden" value="250">
+
+<div class="row menu_h hidden-xs hidden-sm">
+   <div class="max-width">
+      <div class="col-xs-12 no-padding">
+         <div><a href="/"><span class="box"><i class="fas fa-home"></i></span> Início</a></div>
+
+         <div class="menu_h_links">
+            <button><span class="box"><i class="fas fa-city"></i></span> Município <i class="fas fa-angle-right"></i></button>
+            <div>
+                                 <a href="/municipio/prefeito">
+                     <span class="box"><i class="fas fa-user-tie"></i></span> Prefeito
+                  </a>
+                                    <a href="/municipio/vice-prefeito">
+                     <span class="box"><i class="fas fa-user-tie"></i></span> Vice-Prefeito
+                  </a>
+                  
+               <a href="/municipio/ex-prefeitos"><span class="box"><i class="fas fa-user-tie"></i></span> Ex-Prefeitos</a>
+
+               <a href="/municipio/equipe-de-governo">
+                  <span class="box"><i class="fas fa-users"></i></span> Equipe de Governo
+               </a>
+
+               <a href="/municipio/brasao/6"><span class="box"><i class="fas fa-angle-right"></i></span> Brasão</a><a href="/municipio/demografia/5"><span class="box"><i class="fas fa-angle-right"></i></span> Demográfia</a><a href="/municipio/economia/8"><span class="box"><i class="fas fa-angle-right"></i></span> Economia</a><a href="/municipio/historia-do-municipio/7"><span class="box"><i class="fas fa-angle-right"></i></span> História do Município</a><a href="/municipio/telefones-uteis/10"><span class="box"><i class="fas fa-angle-right"></i></span> Telefones Úteis</a><a href="/municipio/turismo/9"><span class="box"><i class="fas fa-angle-right"></i></span> Turismo</a>            </div>
+         </div>
+
+         <div class="menu_h_links">
+            <button>
+               <span class="box"><i class="fas fa-user-friends"></i></span> Secretarias <i class="fas fa-angle-right"></i>
+            </button>
+            <div>
+               <a href="/secretaria/secretaria-de-infraestrutura/12"><span class="box"><i class="fas fa-angle-right"></i></span> Secretaria de Infraestrutura</a><a href="/secretaria/secretaria-municipal-de-administracao-e-planejamento/11"><span class="box"><i class="fas fa-angle-right"></i></span> Secretaria Municipal de Administração e Planejamento</a><a href="/secretaria/secretaria-municipal-de-educacao/9"><span class="box"><i class="fas fa-angle-right"></i></span> Secretaria Municipal de Educação</a><a href="/secretaria/secretaria-municipal-de-saude/10"><span class="box"><i class="fas fa-angle-right"></i></span> Secretaria Municipal de Saúde</a>            </div>
+         </div>
+         <div class="menu_h_links">
+            <button><span class="box"><i class="fas fa-info-circle"></i></span> SIC <i class="fas fa-angle-right"></i></button>
+            <div>
+               <a href="/sic/concurso-publico/200"><span class="box"><i class="fas fa-angle-right"></i></span> Concurso Público</a><a href="/sic/conselho-municipal-de-saude/330"><span class="box"><i class="fas fa-angle-right"></i></span> Conselho Municipal de Saúde</a><a href="/sic/contas-publicas-(contas-e-lrf)/91"><span class="box"><i class="fas fa-angle-right"></i></span> Contas Públicas (Contas e LRF)</a><a href="/sic/contratos/15"><span class="box"><i class="fas fa-angle-right"></i></span> Contratos</a><a href="/sic/controle-interno/37"><span class="box"><i class="fas fa-angle-right"></i></span> Controle Interno</a><a href="/sic/convenios/89"><span class="box"><i class="fas fa-angle-right"></i></span> Convênios</a><a href="/sic/decretos/13"><span class="box"><i class="fas fa-angle-right"></i></span> Decretos</a><a href="/sic/editais-e-audiencias/180"><span class="box"><i class="fas fa-angle-right"></i></span> Editais e Audiências</a><a href="/sic/estoque-de-medicamentos/377"><span class="box"><i class="fas fa-angle-right"></i></span> Estoque de Medicamentos</a><a href="/sic/leilao/359"><span class="box"><i class="fas fa-angle-right"></i></span> Leilão</a><a href="/sic/leis/17"><span class="box"><i class="fas fa-angle-right"></i></span> Leis</a><a href="/sic/licitacoes/10"><span class="box"><i class="fas fa-angle-right"></i></span> Licitações</a><a href="/sic/manuais/364"><span class="box"><i class="fas fa-angle-right"></i></span> Manuais</a><a href="/sic/manual-sistema-nfe/289"><span class="box"><i class="fas fa-angle-right"></i></span> Manual Sistema NFE</a><a href="/sic/outros/308"><span class="box"><i class="fas fa-angle-right"></i></span> Outros</a><a href="/sic/pecas-de-planejamento-(ppa-ldo-loa)/387"><span class="box"><i class="fas fa-angle-right"></i></span> Peças de Planejamento (PPA, LDO, LOA)</a><a href="/sic/portarias/163"><span class="box"><i class="fas fa-angle-right"></i></span> Portarias</a><a href="/sic/projetos-de-leis/18"><span class="box"><i class="fas fa-angle-right"></i></span> Projetos de Leis</a><a href="/sic/publicacoes-oficiais/368"><span class="box"><i class="fas fa-angle-right"></i></span> Publicações Oficiais</a><a href="/sic/seletivo/28"><span class="box"><i class="fas fa-angle-right"></i></span> Seletivo</a>            </div>
+         </div>
+         <a href="/ouvidoria"><span class="box"><i class="far fa-comments"></i></span> Ouvidoria</a>
+
+         <div class="menu_h_links">
+            <button class="hidden-sm"><span class="box"><i class="far fa-newspaper"></i></span> Imprensa <i class="fas fa-angle-right"></i></button>
+            <div>
+               <a href="/noticias/noticias-da-prefeitura"><span class="box"><i class="fas fa-angle-right"></i></span> Notícias</a>
+               <a href="/galeria_fotos/galerias"><span class="box"><i class="fas fa-angle-right"></i></span> Galeria de Fotos</a>
+               <a href="/galeria_videos/galerias"><span class="box"><i class="fas fa-angle-right"></i></span> Galeria de Vídeos</a>
+            </div>
+         </div>
+
+         <a href="/contato" class="hidden-sm hidden-md"><span class="box"><i class="fas fa-at"></i></span> Contato</a>
+      </div>
+   </div>
+</div><div class="row visible-sm visible-xs">
+   <div class="topo">
+      <div id="menu_mobile" class="col-sm-2 col-xs-4">
+         <a href="#" class="bt_menu_mobile" style="float: left;"><i class="fas fa-bars"></i> MENU</a>
+         <div class="box_menu_mobile">
+            <div class="menu_mobile_limit">
+               <a href="/">
+                  <div class="box"><i class="fas fa-home"></i></div> Início
+               </a>
+
+                                 <a href="/municipio/prefeito/11">
+                     <div class="box"><i class="fas fa-user-tie"></i></div> Prefeito
+                  </a>
+                                 <a href="/municipio/vice-prefeito/12">
+                     <div class="box"><i class="fas fa-user-tie"></i></div> Vice-Prefeito
+                  </a>
+               
+               <a href="/municipio/ex-prefeitos">
+                  <div class="box"><i class="fas fa-user-tie"></i></div> Ex-Prefeitos
+               </a>
+
+               <a href="/municipio/equipe-de-governo">
+                  <div class="box"><i class="fas fa-users"></i></div> Equipe de Governo
+               </a>
+
+               <a href="/localizacao">
+                  <div class="box"><i class="fas fa-map-marker-alt"></i></div> Localização
+               </a>
+
+               <div class="menu_v_links">
+                  <button>
+                     <span class="box"><i class="fas fa-city"></i></span> Município <i class="fas fa-angle-down"></i>
+                  </button>
+
+                  <div>
+                     <a href="/municipio/brasao/6"><span class="fas fa-angle-right"></span> Brasão</a><a href="/municipio/demografia/5"><span class="fas fa-angle-right"></span> Demográfia</a><a href="/municipio/economia/8"><span class="fas fa-angle-right"></span> Economia</a><a href="/municipio/historia-do-municipio/7"><span class="fas fa-angle-right"></span> História do município</a><a href="/municipio/telefones-uteis/10"><span class="fas fa-angle-right"></span> Telefones úteis</a><a href="/municipio/turismo/9"><span class="fas fa-angle-right"></span> Turismo</a>                  </div>
+               </div>
+
+               <div class="menu_v_links">
+                  <button>
+                     <span class="box"><i class="fas fa-user-friends"></i></span> Secretarias <i class="fas fa-angle-down"></i>
+                  </button>
+
+                  <div>
+                     <a href="/secretaria/secretaria-de-infraestrutura/12"><span class="fas fa-angle-right"></span> Secretaria de infraestrutura</a><a href="/secretaria/secretaria-municipal-de-administracao-e-planejamento/11"><span class="fas fa-angle-right"></span> Secretaria municipal de administração e planejamento</a><a href="/secretaria/secretaria-municipal-de-educacao/9"><span class="fas fa-angle-right"></span> Secretaria municipal de educação</a><a href="/secretaria/secretaria-municipal-de-saude/10"><span class="fas fa-angle-right"></span> Secretaria municipal de saúde</a>                  </div>
+               </div>
+
+               <a href="/sic/home">
+                  <div class="box"><i class="fas fa-info-circle"></i></div> SIC
+               </a>
+               <a href="/ouvidoria">
+                  <div class="box"><i class="far fa-comments"></i></div> Ouvidoria
+               </a>
+
+               <div class="menu_v_links">
+                  <button>
+                     <span class="box"><i class="far fa-newspaper"></i></span> Imprensa <i class="fas fa-angle-down"></i>
+                  </button>
+
+                  <div>
+                     <a href="/noticias/noticias-da-prefeitura"><span class="fas fa-angle-right"></span> Notícias</a>
+                     <a href="/galeria_fotos/galerias"><span class="fas fa-angle-right"></span> Galeria de Fotos</a>
+                     <a href="/galeria_videos/galerias"><span class="fas fa-angle-right"></span> Galeria de Vídeos</a>
+                  </div>
+               </div>
+
+               <a href="/contato">
+                  <div class="box"><i class="fas fa-at"></i></div> Contato
+               </a>
+
+               <a href="tel:6533421397">
+                  <div class="box"><i class="fas fa-phone"></i></div> (65) 3342-1397               </a>
+
+               <a href="tel:65998149659">
+                  <div class="box"><i class="fas fa-phone"></i></div> (65) 9.9814-9659               </a>
+
+               <div class="col-xs-12" style="margin-bottom: 50px;">
+                  <b><i class="far fa-clock"></i> Atendimento </b> Segunda a Sexta-feira das 7:00h às 11:00h e 13:00h às 17:00h               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="social col-sm-4 col-sm-offset-2 no-padding hidden-xs">
+         <a href="/localizacao" title="Veja nossa localização"><i class="fas fa-map-marker-alt"></i></a><a href="https://youtube.com.br" target="_blank" title="Acesse nosso canal no YouTube"><i class="fab fa-youtube"></i></a><a href="https://www.facebook.com" target="_blank" title="Acesse nossa página no Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com" target="_blank" title="Acesse nosso perfil no Instagram"><i class="fab fa-instagram"></i></a>      </div>
+
+      <div class="col-sm-4 col-xs-8 pesquisa">
+         <form class="form_pesquisa form-horizontal" action="" method="get">
+            <div class="item form-group">
+               <div class="col-xs-12">
+                  <input id="palavra_chave" name="palavra_chave" type="text" class="form-control" value="" placeholder="Buscar no Portal" required autocomplete="off"><i class="fas fa-search"></i>
+               </div>
+            </div>
+         </form>
+      </div>
+   </div>
+</div><link href="css/dataTables.bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+   .selected {
+      background-color: var(--cor_padrao) !important;
+      border-color: var(--cor_padrao) !important;
+      color: white !important;
+   }
+</style>
+<!-- <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script> -->
+<script type="text/javascript" src="modulos/ouvidoria/js/ouvidoria.js?t=1776691616"></script>
+<script type="text/javascript" src="modulos/localidade/js/localidade.js?t=1776691616"></script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $('#form_manifestacao #estado').val('MT');
+      $('#form_manifestacao #cidade').val('5103452');
+      
+      let masks, mask, options;
+
+      masks = ['(00) 0000-0000', '(00) 0.0000-0000'];
+
+      let fixocelular = $('#form_manifestacao #telefone').val();
+      mask = (fixocelular.length > 14) ? masks[1] : masks[0];
+
+      options = {
+         onKeyPress: function(fixocelular, e, field, options) {
+            masks = ['(00) 0000-00000', '(00) 0.0000-0000'];
+            mask = (fixocelular.length > 14) ? masks[1] : masks[0];
+
+            $('#form_manifestacao #telefone').mask(mask, options);
+         }
+      };
+
+      $('#form_manifestacao #telefone').mask(mask, options);
+
+      fixocelular = $('#form_manifestacao #resposta_por').val();
+      mask = (fixocelular.length > 14) ? masks[1] : masks[0];
+
+      options = {
+         onKeyPress: function(fixocelular, e, field, options) {
+            masks = ['(00) 0000-00000', '(00) 0.0000-0000'];
+            mask = (fixocelular.length > 14) ? masks[1] : masks[0];
+
+            $('#form_manifestacao #resposta_por').mask(mask, options);
+         }
+      };
+
+      $('#form_manifestacao #resposta_por').mask(mask, options);
+   });
+</script>
+
+<div id="modal_sucesso" class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content" style="float: left; width: 100%; padding-bottom: 20px;">
+			<div class="modal-body"></div>
+		</div>
+	</div>
+</div>  
+<div class="row" style="background-color: #E9E2E2;">
+   <div class="max-width">
+      <div class="col-xs-12" style="margin-top: 25px; margin-bottom: 20px;">
+         <div class="col-xs-12" style="padding-top:40px; border-radius: 6px; border: 1px solid #DEE2E6; background-color: #FFFFFF;">
+            <div class="" role="tabpanel" data-example-id="togglable-tabs">
+               <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                  <li role="presentation" class="active" style="border:0px; width:49%; text-align:center;">
+                     <a href="#manifestacao" id="manifestacao-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                        <strong><i class="fas fa-bullhorn"></i> Registrar Manifestação</strong>
+                     </a>
+                  </li>
+                  <li role="presentation" class="" style="border:0px; width:47%;text-align:center;">
+                     <a href="#consultar" role="tab" id="consultar-tab" data-toggle="tab" aria-expanded="false">
+                        <strong><i class="fas fa-search"></i> Consultar Andamento da Manifestação</strong></a>
+                  </li>
+               </ul>
+
+               <div id="myTabContent" class="tab-content">
+                  <div role="tabpanel" class="tab-pane fade active in" id="manifestacao">
+                     <div class="col-md-10 col-md-offset-1 col-xs-12 no-padding" style="padding-top:50px; min-height:720px;">
+                        <form id="form_manifestacao" method="post" class="form-horizontal">
+                           <div class="item form-group">
+                              <div class="col-xs-12">
+                                 <label for="tipo_m" class="control-label">
+                                    Tipo de contato
+                                 </label>
+                                 <div class="btn-group btn-group-justified" role="group">
+                                    <div class="btn-group" role="group">
+                                       <button id="IDENTIFICADO" type="button" class="btn btn-default tipoi selected">Identificado</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="ANONIMO" type="button" class="btn btn-default tipoi">Anônimo</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item form-group">
+                              <div class="col-xs-12">
+                                 <label for="tipo_m" class="">Tipo da Manifestação:</label>
+                                 <div class="btn-group btn-group-justified" role="group">
+                                    <div class="btn-group" role="group">
+                                       <button id="5" type="button" class="btn btn-default tipom selected">Consultas</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="6" type="button" class="btn btn-default tipom">Dúvida</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="1" type="button" class="btn btn-default tipom">Reclamação</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="2" type="button" class="btn btn-default tipom">Denúncia</button>
+                                    </div>
+                                    <div class="hidden-xs btn-group" role="group">
+                                       <button id="3" type="button" class="btn btn-default tipom">Críticas</button>
+                                    </div>
+                                    <div class="hidden-xs btn-group" role="group">
+                                       <button id="4" type="button" class="btn btn-default tipom">Elogios</button>
+                                    </div>
+                                    <div class="hidden-xs btn-group" role="group">
+                                       <button id="9" type="button" class="btn btn-default tipom">Solicitação</button>
+                                    </div>
+                                    <div class="hidden-xs btn-group" role="group">
+                                       <button id="7" type="button" class="btn btn-default tipom">Sugestão</button>
+                                    </div>
+                                 </div>
+                                 <div class="visible-xs btn-group btn-group-justified" role="group">
+                                    <div class="btn-group" role="group">
+                                       <button id="3" type="button" class="btn btn-default tipom">Críticas</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="4" type="button" class="btn btn-default tipom">Elogios</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="9" type="button" class="btn btn-default tipom">Solicitação</button>
+                                    </div>
+                                    <div class="btn-group" role="group">
+                                       <button id="7" type="button" class="btn btn-default tipom">Sugestão</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item form-group">
+                              <div class="col-sm-6 col-xs-12" style="margin-top: 10px;">
+                                 <label for="nome" class="">Nome:</label>
+                                 <input id="nome" name="nome" type="text" class="form-control" placeholder="Digite seu nome" required>
+                              </div>
+                              <div class="col-sm-6 col-xs-12" style="margin-top: 10px;">
+                                 <label for="email" class="">E-Mail:</label>
+                                 <input id="email" name="email" type="email" class="form-control" placeholder="Digite seu E-Mail" required>
+                              </div>
+                           </div>
+                           <div class="item form-group">
+                              <div class="col-sm-4 col-xs-12" style="margin-top: 10px;">
+                                 <label for="telefone" class="">Telefone:</label>
+                                 <input id="telefone" name="telefone" type="tel" class="form-control" placeholder="Seu número de Telefone" required>
+                              </div>
+                              <div class="col-sm-4 col-xs-12" style="margin-top: 10px;">
+                                 <label for="estado" class="">Estado:</label>
+                                 <select name="estado" id="estado" class="form-control" required>
+                                    <option value="AC">Acre</option><option value="AL">Alagoas</option><option value="AM">Amazonas</option><option value="AP">Amapá</option><option value="BA">Bahia</option><option value="CE">Ceará</option><option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option><option value="GO">Goiás</option><option value="MA">Maranhão</option><option value="MG">Minas Gerais</option><option value="MS">Mato Grosso do Sul</option><option value="MT">Mato Grosso</option><option value="PA">Pará</option><option value="PB">Paraíba</option><option value="PE">Pernambuco</option><option value="PI">Piauí</option><option value="PR">Paraná</option><option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option><option value="RO">Rondônia</option><option value="RR">Roraima</option><option value="RS">Rio Grande do Sul</option><option value="SC">Santa Catarina</option><option value="SE">Sergipe</option><option value="SP">São Paulo</option><option value="TO">Tocantins</option>                                 </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-12" style="margin-top: 10px;">
+                                 <label for="cidade" class="">Cidade:</label>
+                                 <select name="cidade" id="cidade" class="form-control" required>
+                                    <option value="5100102">Acorizal</option><option value="5100201">Água Boa</option><option value="5100250">Alta Floresta</option><option value="5100300">Alto Araguaia</option><option value="5100359">Alto Boa Vista</option><option value="5100409">Alto Garças</option><option value="5100508">Alto Paraguai</option><option value="5100607">Alto Taquari</option><option value="5100805">Apiacás</option><option value="5101001">Araguaiana</option><option value="5101209">Araguainha</option><option value="5101258">Araputanga</option><option value="5101308">Arenápolis</option><option value="5101407">Aripuanã</option><option value="5101605">Barão de Melgaço</option><option value="5101704">Barra do Bugres</option><option value="5101803">Barra do Garças</option><option value="5101852">Bom Jesus do Araguaia</option><option value="5101902">Brasnorte</option><option value="5102504">Cáceres</option><option value="5102603">Campinápolis</option><option value="5102637">Campo Novo do Parecis</option><option value="5102678">Campo Verde</option><option value="5102686">Campos de Júlio</option><option value="5102694">Canabrava do Norte</option><option value="5102702">Canarana</option><option value="5102793">Carlinda</option><option value="5102850">Castanheira</option><option value="5103007">Chapada dos Guimarães</option><option value="5103056">Cláudia</option><option value="5103106">Cocalinho</option><option value="5103205">Colíder</option><option value="5103254">Colniza</option><option value="5103304">Comodoro</option><option value="5103353">Confresa</option><option value="5103361">Conquista DOeste</option><option value="5103379">Cotriguaçu</option><option value="5103403">Cuiabá</option><option value="5103437">Curvelândia</option><option value="5103452">Denise</option><option value="5103502">Diamantino</option><option value="5103601">Dom Aquino</option><option value="5103700">Feliz Natal</option><option value="5103809">Figueirópolis DOeste</option><option value="5103858">Gaúcha do Norte</option><option value="5103908">General Carneiro</option><option value="5103957">Glória DOeste</option><option value="5104104">Guarantã do Norte</option><option value="5104203">Guiratinga</option><option value="5104500">Indiavaí</option><option value="5104526">Ipiranga do Norte</option><option value="5104542">Itanhangá</option><option value="5104559">Itaúba</option><option value="5104609">Itiquira</option><option value="5104807">Jaciara</option><option value="5104906">Jangada</option><option value="5105002">Jauru</option><option value="5105101">Juara</option><option value="5105150">Juína</option><option value="5105176">Juruena</option><option value="5105200">Juscimeira</option><option value="5105234">Lambari DOeste</option><option value="5105259">Lucas do Rio Verde</option><option value="5105309">Luciara</option><option value="5105580">Marcelândia</option><option value="5105606">Matupá</option><option value="5105622">Mirassol DOeste</option><option value="5105903">Nobres</option><option value="5106000">Nortelândia</option><option value="5106109">Nossa Senhora do Livramento</option><option value="5106158">Nova Bandeirantes</option><option value="5106208">Nova Brasilândia</option><option value="5106216">Nova Canaã do Norte</option><option value="5108808">Nova Guarita</option><option value="5106182">Nova Lacerda</option><option value="5108857">Nova Marilândia</option><option value="5108907">Nova Maringá</option><option value="5108956">Nova Monte Verde</option><option value="5106224">Nova Mutum</option><option value="5106174">Nova Nazaré</option><option value="5106232">Nova Olímpia</option><option value="5106190">Nova Santa Helena</option><option value="5106240">Nova Ubiratã</option><option value="5106257">Nova Xavantina</option><option value="5106273">Novo Horizonte do Norte</option><option value="5106265">Novo Mundo</option><option value="5106315">Novo Santo Antônio</option><option value="5106281">Novo São Joaquim</option><option value="5106299">Paranaíta</option><option value="5106307">Paranatinga</option><option value="5106372">Pedra Preta</option><option value="5106422">Peixoto de Azevedo</option><option value="5106455">Planalto da Serra</option><option value="5106505">Poconé</option><option value="5106653">Pontal do Araguaia</option><option value="5106703">Ponte Branca</option><option value="5106752">Pontes e Lacerda</option><option value="5106778">Porto Alegre do Norte</option><option value="5106802">Porto dos Gaúchos</option><option value="5106828">Porto Esperidião</option><option value="5106851">Porto Estrela</option><option value="5107008">Poxoréo</option><option value="5107040">Primavera do Leste</option><option value="5107065">Querência</option><option value="5107156">Reserva do Cabaçal</option><option value="5107180">Ribeirão Cascalheira</option><option value="5107198">Ribeirãozinho</option><option value="5107206">Rio Branco</option><option value="5107578">Rondolândia</option><option value="5107602">Rondonópolis</option><option value="5107701">Rosário Oeste</option><option value="5107750">Salto do Céu</option><option value="5107248">Santa Carmem</option><option value="5107743">Santa Cruz do Xingu</option><option value="5107768">Santa Rita do Trivelato</option><option value="5107776">Santa Terezinha</option><option value="5107263">Santo Afonso</option><option value="5107792">Santo Antônio do Leste</option><option value="5107800">Santo Antônio do Leverger</option><option value="5107859">São Félix do Araguaia</option><option value="5107297">São José do Povo</option><option value="5107305">São José do Rio Claro</option><option value="5107354">São José do Xingu</option><option value="5107107">São José dos Quatro Marcos</option><option value="5107404">São Pedro da Cipa</option><option value="5107875">Sapezal</option><option value="5107883">Serra Nova Dourada</option><option value="5107909">Sinop</option><option value="5107925">Sorriso</option><option value="5107941">Tabaporã</option><option value="5107958">Tangará da Serra</option><option value="5108006">Tapurah</option><option value="5108055">Terra Nova do Norte</option><option value="5108105">Tesouro</option><option value="5108204">Torixoréu</option><option value="5108303">União do Sul</option><option value="5108352">Vale de São Domingos</option><option value="5108402">Várzea Grande</option><option value="5108501">Vera</option><option value="5105507">Vila Bela da Santíssima Trindade</option><option value="5108600">Vila Rica</option>                                 </select>
+                              </div>
+                           </div>
+
+                           <div class="item form-group">
+                              <div class="col-sm-4 col-xs-12" style="margin-top: 10px;">
+                                 <label class="col-xs-12 no-padding">
+                                    Deseja que a Ouvidoria mantenha sigilo sobre o Manifesto?
+                                 </label>
+                                 <select name="sigilo" id="sigilo" class="form-control" required>
+                                    <option value="1">Sim</option>
+                                    <option value="0" selected="selected">Não</option>
+                                 </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-12" style="margin-top: 10px;">
+                                 <label class="">Deseja receber sua resposta através de:
+                                 </label>
+                                 <select name="resposta" id="resposta" class="form-control" required>
+                                    <option value="0">Telefone</option>
+                                    <option value="1">E-Mail</option>
+                                    <option value="2">Outro</option>
+                                 </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-12" style="margin-top: 10px;">
+                                 <label for="resposta_por" class="">Qual?</label>
+                                 <input id="resposta_por" name="resposta_por" type="tel" class="form-control" placeholder="Qual o telefone?" required>
+                              </div>
+                           </div>
+                           <div class="item form-group" style="margin-bottom: 30px;">
+                              <div class="col-xs-12">
+                                 <label class="">Digite abaixo sua Manifestação:</label>
+                                 <textarea name="manifesto" id="manifesto" cols="90" rows="5" class="form-control" required></textarea>
+                              </div>
+                              <div class="col-xs-12" style="padding-top: 40px;">
+                                 <input id="bt_upload" type="file" class="upload_anexo" data-url="template/prefeitura/layouts/01/modulos/ouvidoria/upload_anexo.php" accept="application/pdf, application/msword, application/vnd.ms-excel, video/*" style="display: none;">
+
+                                 <label for="bt_upload" style="text-align:center; padding:6px 15px;" class="btn btn-default-color pull-right">
+                                    <i class="fa fa-paperclip" style="font-size:16px; margin-right:5px;"></i>
+                                    Anexar Arquivo
+                                 </label>
+
+                                 <div class="col-xs-12 no-padding" style="margin-top: 20px;">
+                                    <table id="tabela_anexos" class="table table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th width="90%">Anexos</th>
+                                             <th width="10%">&nbsp;</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody></tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item form-group">
+                              <div class="col-xs-12">
+                                 <div class="g-recaptcha" data-sitekey=""></div><br>
+                                 <button id="enviar" name="enviar" type="submit" class="btn btn-default-color btn-md btn-block" style="border-radius:0px; color: #ffffff;">Registrar e Enviar Manifestação <i class="fas fa-paper-plane"></i></button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+
+                  <div id="consultar" role="tabpanel" class="tab-pane fade">
+                     <div class="col-lg-8 col-lg-offset-2 col-xs-12 no-padding" style="margin-top:50px; margin-bottom:100px;">
+                        <form id="form_consulta" method="post">
+                           <div class="form-group">
+                              <div class="col-xs-12 col-sm-11 col-sm-offset-1 col-lg-12 col-lg-offset-0 no-padding">
+                                 <label for="nome" class="control-label" style="line-height:40px;">Protocolo de Atendimento:</label>
+                              </div>
+                              <div class="col-lg-8 col-lg-offset-0 col-sm-7 col-sm-offset-1 col-xs-12 no-padding" style="margin-top: 10px;">
+                                 <input id="pesquisa_protocolo" name="pesquisa_protocolo" type="text" class="form-control" size="40" placeholder="Informe o n&uacute;mero do protocolo" style="height:45px;" required>
+                              </div>
+                              <div class="col-lg-4 col-sm-3 col-xs-12 no-padding" style="margin-top: 10px;">
+                                 <button id="pesquisar" type="submit" class="btn btn-default-color btn-block btn-md pull-right" style="height: 45px;">Pesquisar <i class="fa fa-search" style="transform: rotateY(180deg);"></i></button>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 no-padding" style="margin-top:10px;">
+                              <div id="resultado"></div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div><div class="row">
+    <div id="rodape">
+        <div class="max-width">
+            <div class="col-sm-3 col-xs-12">
+											<label class="rodape-texto" style="margin-top: 20px;">
+							Prefeitura Municipal de Denise. CNPJ: 03.953.718/0001-90<br>						</label>
+												<label class="rodape-titulo"><i class="fas fa-map-marker-alt"></i> Endereço</label>
+						<label class="rodape-texto">
+							Praça Brasília 111, Centro, Denise - MT, 78.380-000						</label>
+						
+					<label class="rodape-link" style="margin-bottom: 30px;">
+						<i class="far fa-copyright"></i> 2026 - Prefeitura Municipal de Denise					</label>
+
+					<a target="_blank" href="/" title="Fale com a Dinâmika" class="rodape-link" style="margin-bottom: 30px;">Desenvolvido por:
+						<img src="publico/site/d_branco.png" class="hidden-sm hidden-xs">
+						<img src="publico/site/d_branco.png" class="visible-sm visible-xs" width="160">
+					</a>
+            </div>
+
+            <div class="col-sm-3 col-xs-12" style="margin-bottom: 30px;">
+					<label class="rodape-titulo" style="margin-bottom:20px;"><i class="fas fa-city"></i> Município</label>
+
+											<a href="/municipio/prefeito/11" class="rodape-link">
+							Prefeito
+						</a>
+												<a href="/municipio/vice-prefeito/12" class="rodape-link">
+							Vice-Prefeito
+						</a>
+						
+					<a href="/municipio/ex-prefeitos" class="rodape-link">Ex-Prefeitos</a>
+					<a href="/municipio/equipe-de-governo" class="rodape-link">Equipe de Governo</a>
+
+					<a href="/secretaria/secretaria-de-infraestrutura/12" class="rodape-link">Secretaria de Infraestrutura</a><a href="/secretaria/secretaria-municipal-de-administracao-e-planejamento/11" class="rodape-link">Secretaria Municipal de Administração e Planejamento</a><a href="/secretaria/secretaria-municipal-de-educacao/9" class="rodape-link">Secretaria Municipal de Educação</a><a href="/secretaria/secretaria-municipal-de-saude/10" class="rodape-link">Secretaria Municipal de Saúde</a>            </div>
+
+            <div class="col-sm-3 col-xs-12" style="margin-bottom: 30px;">
+                <label class="rodape-titulo" style="margin-bottom:20px;">
+                    <i class="fas fa-info-circle"></i> SIC
+                </label>
+
+                            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                						<a href="https://www.facebook.com" target="_blank" class="rodape-titulo"><br class="visible-xs" style="margin-top: 10px;">
+							<i class="fab fa-facebook"></i> Curta nossa página
+						</a>
+												<a href="https://www.instagram.com" target="_blank" class="rodape-titulo"><br class="visible-xs" style="margin-top: 10px;">
+							<i class="fab fa-instagram"></i> Siga no Instagram
+						</a>
+												<a href="https://youtube.com.br" target="_blank" class="rodape-titulo"><br class="visible-xs" style="margin-top: 10px;">
+							<i class="fab fa-youtube"></i> Veja nossos vídeos
+						</a>
+						
+					<label class="rodape-titulo" style="margin-top: 30px;">Contato</label>
+
+					<a href="/contato" class="rodape-link"><i class="fas fa-at"></i> Por e-mail</a>
+
+					<div class="col-xs-12 no-padding rodape-link">
+						<a href="tel:6533421397" class="rodape-link">
+							<i class="fas fa-phone"></i> (65) 3342-1397						</a>
+
+						<a href="tel:659.98149659" class="rodape-link">
+							<i class="fas fa-phone"></i> (65) 9.9814-9659						</a>
+
+						<a href="/localizacao" class="rodape-link"><i class="fas fa-map-marker-alt"></i> Localização</a>
+
+						<i class="far fa-clock"></i> Atendimento:<br>
+						<small>Segunda a Sexta-feira das 7:00h às 11:00h e 13:00h às 17:00h</small><br>
+					</div>
+
+					<div class="col-xs-12 no-padding" style="margin-top: 20px;">
+						<a href="https://mail.denise.mt.gov.br:2096" target="_blank" class="rodape-link">
+							<i class="glyphicon glyphicon-envelope"></i> Webmail
+						</a>
+
+						<a href="/site/politica-privacidade/0" class="rodape-link">
+							<i class="fas fa-cookie"></i> Política de Privacidade
+						</a>
+
+						<a href="/site/sitemap/0" class="rodape-link"><i class="fas fa-sitemap"></i> Mapa do Site</a>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a id="contraste" target="_blank" href="#" class="acessibilidade" title="Escurecer" style="bottom: 245px;">
+	<i class="fas fa-adjust"></i>
+</a>
+
+<a id="font_up" target="_blank" href="#" class="acessibilidade" title="Aumentar Texto" style="bottom: 190px;">
+	<i class="fas fa-plus"></i>
+</a>
+
+<a id="font_down" target="_blank" href="#" class="acessibilidade" title="Diminuir Texto" style="bottom: 135px;">
+	<i class="fas fa-minus"></i>
+</a>
+
+<a href="#" class="scrolltoTop" title="Voltar ao início"><i class="fas fa-angle-up"></i></a>
+
+	<div class="cookies">
+		<div class="col-lg-8 col-md-7 col-xs-12">
+			<b>Este site utiliza cookies para melhorar a experiência de navegação e disponibilizar funcionalidades adicionais.</b>
+		</div>
+		<div class="col-lg-4 col-md-5 col-xs-12">
+			<a href="pagina/politica-privacidade/2" class="btn btn-default-color btn-md">Política de privacidade</a>
+			<a id="bt_cookies_autorizar" href="#" class="btn btn-default-color btn-md">Aceitar</a>
+		</div>
+	</div>
+	
+<style type="text/css">
+	.enabled{
+		right: 12px !important;
+		bottom: 300px !important;
+	}
+
+	div[vw]{
+		top: auto !important;
+	}
+</style>
+
+<div vw class="enabled" style="right: 25px !important;">
+	<div vw-access-button class="active"></div>
+	<div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>	</div>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"17cf5417b22b4261adfc14a3636466ea","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

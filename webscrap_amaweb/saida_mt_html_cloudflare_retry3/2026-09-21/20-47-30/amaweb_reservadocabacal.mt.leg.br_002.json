@@ -1,0 +1,144 @@
+{
+  "success": 1,
+  "message": "NO_ERROR",
+  "errors": null,
+  "result": {
+    "pagecode": "<html><head></head><body>Acesso negado.</body></html>",
+    "data": {
+      "title": "",
+      "rawUrl": "https://reservadocabacal.mt.leg.br/",
+      "elems": {
+        "titleNo": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 0,
+        "a": 1,
+        "svg": 0,
+        "iframeSame": 0,
+        "img": 0,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 0,
+        "dd,dt": 0,
+        "dl": 0,
+        "hxNone": 1,
+        "h1": 0,
+        "notOneh1": 0,
+        "aSkipNo": 1,
+        "li": 0,
+        "area": 0,
+        "inpImg": 0,
+        "label": 0,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleNo": null,
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxNone": [
+          {
+            "verdict": "failed",
+            "description": "This page doesn't use headings.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ],
+        "a": [],
+        "aSkipNo": [
+          {
+            "verdict": "failed",
+            "description": "This page does not have links.",
+            "resultCode": "F1",
+            "elements": [],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 00:48:09",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "",
+          "date": "2026-09-22 00:48:09",
+          "htmlTags": 3,
+          "roles": {
+            "document": 1,
+            "generic": 1
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "script": 7,
+            "body": 1
+          },
+          "size": 53,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "fcaa1f37f9a8f7885ec23716eb184035",
+          "tests": 7,
+          "conform": "5@1@0",
+          "score": "3.4"
+        },
+        "elems": {
+          "titleNo": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 0,
+          "a": 1,
+          "svg": 0,
+          "iframeSame": 0,
+          "img": 0,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 0,
+          "dd,dt": 0,
+          "dl": 0,
+          "hxNone": 1,
+          "h1": 0,
+          "notOneh1": 0,
+          "aSkipNo": 1,
+          "li": 0,
+          "area": 0,
+          "inpImg": 0,
+          "label": 0,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_02": "1@1.8",
+          "lang_03": "1@2",
+          "layout_01a": "10@22",
+          "hx_01a": "1@3.2",
+          "heading_04": "1@3.6",
+          "a_04": "7@28",
+          "a_02a": "1@1.6"
+        }
+      },
+      "conform": "5@1@0",
+      "score": "3.4"
+    }
+  }
+}

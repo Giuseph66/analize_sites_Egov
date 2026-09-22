@@ -77,6 +77,16 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Também mantém o HTML intermediário usado para criar o PDF.",
     )
+    parser.add_argument(
+        "--html",
+        action="store_true",
+        help="Baixa cada página e envia o HTML ao endpoint de avaliação do AMAWeb.",
+    )
+    parser.add_argument(
+        "--html-fallback",
+        action="store_true",
+        help="Usa a avaliação por HTML quando a URL falhar ou retornar bloqueio Cloudflare.",
+    )
     return parser.parse_args()
 
 
@@ -121,6 +131,90 @@ def fetch_evaluation(url: str, timeout: int | None) -> dict[str, Any]:
     if not isinstance(payload.get("result"), dict) or not isinstance(payload["result"].get("data"), dict):
         raise AMAWebError("Resposta AMAWeb não contém os dados da avaliação.")
     return payload
+
+
+def fetch_page_html(url: str, timeout: int | None) -> str:
+    """Baixa o HTML recebido da URL para avaliação pelo endpoint HTML do AMAWeb."""
+    request = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml",
+        },
+    )
+    try:
+        response_context = urlopen(request) if timeout is None else urlopen(request, timeout=timeout)
+        with response_context as response:
+            content = response.read()
+            charset = response.headers.get_content_charset() or "utf-8"
+    except HTTPError as exc:
+        # Bloqueios (403/429/503) normalmente trazem um HTML útil no corpo.
+        # Mantê-lo permite testar a avaliação do documento recebido, sem fingir
+        # que o bloqueio foi contornado.
+        content = exc.read()
+        charset = (exc.headers.get_content_charset() if exc.headers else None) or "utf-8"
+        if not content:
+            raise AMAWebError(f"A página respondeu HTTP {exc.code} ao baixar o HTML.") from exc
+    except URLError as exc:
+        raise AMAWebError(f"Não foi possível baixar o HTML da página: {exc.reason}") from exc
+    except TimeoutError as exc:
+        message = (
+            f"A página excedeu {timeout}s de espera ao baixar o HTML."
+            if timeout is not None
+            else "O download do HTML expirou no sistema operacional."
+        )
+        raise AMAWebError(message) from exc
+
+    try:
+        return content.decode(charset, errors="replace")
+    except LookupError:
+        return content.decode("utf-8", errors="replace")
+
+
+def fetch_html_evaluation(url: str, timeout: int | None) -> dict[str, Any]:
+    """Baixa a página e envia seu HTML ao avaliador HTML público do AMAWeb."""
+    source_html = fetch_page_html(url, timeout)
+    endpoint = AMAWEB_API + "html"
+    request = Request(
+        endpoint,
+        data=json.dumps({"html": source_html}).encode("utf-8"),
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        response_context = urlopen(request) if timeout is None else urlopen(request, timeout=timeout)
+        with response_context as response:
+            payload = json.load(response)
+    except HTTPError as exc:
+        raise AMAWebError(f"AMAWeb respondeu HTTP {exc.code} ao avaliar HTML.") from exc
+    except URLError as exc:
+        raise AMAWebError(f"Não foi possível acessar o endpoint HTML do AMAWeb: {exc.reason}") from exc
+    except TimeoutError as exc:
+        message = (
+            f"A avaliação do HTML excedeu {timeout}s de espera."
+            if timeout is not None
+            else "A avaliação do HTML expirou no sistema operacional."
+        )
+        raise AMAWebError(message) from exc
+    except json.JSONDecodeError as exc:
+        raise AMAWebError("O endpoint HTML do AMAWeb retornou resposta inválida, não JSON.") from exc
+
+    if not isinstance(payload, dict) or payload.get("success") != 1:
+        message = payload.get("message", "erro desconhecido") if isinstance(payload, dict) else "erro desconhecido"
+        raise AMAWebError(f"Avaliação HTML recusada pelo AMAWeb: {message}")
+    if not isinstance(payload.get("result"), dict) or not isinstance(payload["result"].get("data"), dict):
+        raise AMAWebError("Resposta HTML do AMAWeb não contém os dados da avaliação.")
+    return payload
+
+
+def is_cloudflare_result(payload: dict[str, Any]) -> bool:
+    data = payload.get("result", {}).get("data", {})
+    title = str(data.get("title", "")).lower() if isinstance(data, dict) else ""
+    return any(marker in title for marker in ("cloudflare", "access denied", "just a moment"))
 
 
 def safe_file_stem(url: str) -> str:
@@ -319,6 +413,10 @@ def save_evaluation(
     pdf_file = output_dir / f"{stem}.pdf"
     html_file = output_dir / f"{stem}.html"
 
+    data = payload["result"]["data"]
+    if not data.get("rawUrl"):
+        data["rawUrl"] = url
+
     json_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     report_html = make_report_html(payload, url)
 
@@ -331,7 +429,6 @@ def save_evaluation(
             source_html.write_text(report_html, encoding="utf-8")
             generate_pdf(browser, source_html, pdf_file)
 
-    data = payload["result"]["data"]
     return data.get("score", "—"), json_file, pdf_file, html_file if keep_html else None
 
 
@@ -342,8 +439,24 @@ def evaluate_one(
     output_dir: Path,
     browser: str,
     keep_html: bool,
+    html_mode: bool,
+    html_fallback: bool,
 ) -> tuple[Any, Path, Path, Path | None]:
-    payload = fetch_evaluation(url, timeout)
+    if html_mode:
+        payload = fetch_html_evaluation(url, timeout)
+    else:
+        try:
+            payload = fetch_evaluation(url, timeout)
+        except AMAWebError as url_error:
+            if not html_fallback:
+                raise
+            try:
+                payload = fetch_html_evaluation(url, timeout)
+            except AMAWebError as html_error:
+                raise AMAWebError(f"URL: {url_error} | fallback HTML: {html_error}") from html_error
+        else:
+            if html_fallback and is_cloudflare_result(payload):
+                payload = fetch_html_evaluation(url, timeout)
     return save_evaluation(payload, url, output_dir, browser, keep_html, position)
 
 
@@ -354,6 +467,8 @@ def run_batch(
     output_dir: Path,
     browser: str,
     keep_html: bool,
+    html_mode: bool,
+    html_fallback: bool,
 ) -> int:
     failures = 0
     with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="amaweb") as executor:
@@ -366,6 +481,8 @@ def run_batch(
                 output_dir,
                 browser,
                 keep_html,
+                html_mode,
+                html_fallback,
             ): (position, url)
             for position, url in enumerate(urls, start=1)
         }
@@ -427,7 +544,14 @@ def main() -> int:
             print(f"Ciclo {cycle} | {len(urls)} URL(s) | {workers} worker(s)")
             print(f"Saída: {run_dir.resolve()}")
             failures += run_batch(
-                urls, args.timeout or None, workers, run_dir, browser, args.keep_html
+                urls,
+                args.timeout or None,
+                workers,
+                run_dir,
+                browser,
+                args.keep_html,
+                args.html,
+                args.html_fallback,
             )
             if args.interval == 0:
                 break

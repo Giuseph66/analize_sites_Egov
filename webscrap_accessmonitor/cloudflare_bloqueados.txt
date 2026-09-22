@@ -1,0 +1,319 @@
+RELATORIO — URLS BLOQUEADAS PELO CLOUDFLARE
+Gerado em: 2026-09-21T19:58:45-04:00
+
+Critério: relatório cuja página retornada declara explicitamente “used Cloudflare to restrict access”, “Attention Required! | Cloudflare”, “Just a moment” ou contém cf-error-details.
+Páginas que apenas carregam Cloudflare Turnstile para proteção de formulário não foram classificadas como bloqueio.
+
+Total de URLs únicas bloqueadas: 51
+  MT (prefeituras/câmaras): 33
+  Ouvidorias: 18
+
+## MT — 33 URL(s)
+
+1. URL: https://arenapolis.mt.leg.br/
+   Título retornado: Access denied | arenapolis.mt.leg.br used Cloudflare to restrict access | arenapolis.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_arenapolis.mt.leg.br_024.json
+
+2. URL: https://cindvale.com.br
+   Título retornado: Access denied | cindvale.com.br used Cloudflare to restrict access | cindvale.com.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_cindvale.com.br_132.json
+
+3. URL: https://curvelandia.mt.leg.br/
+   Título retornado: Access denied | curvelandia.mt.leg.br used Cloudflare to restrict access | curvelandia.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_curvelandia.mt.leg.br_092.json
+
+4. URL: https://figueiropolisdoeste.mt.leg.br/
+   Título retornado: Access denied | figueiropolisdoeste.mt.leg.br used Cloudflare to restrict access | figueiropolisdoeste.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_figueiropolisdoeste.mt.leg.br_105.json
+
+5. URL: https://lambaridoeste.mt.gov.br
+   Título retornado: Access denied | lambaridoeste.mt.gov.br used Cloudflare to restrict access | lambaridoeste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_lambaridoeste.mt.gov.br_145.json
+
+6. URL: https://lambaridoeste.mt.leg.br/
+   Título retornado: Access denied | lambaridoeste.mt.leg.br used Cloudflare to restrict access | lambaridoeste.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_lambaridoeste.mt.leg.br_146.json
+
+7. URL: https://portodosgauchos.mt.leg.br/#/home
+   Título retornado: Access denied | portodosgauchos.mt.leg.br used Cloudflare to restrict access | portodosgauchos.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_portodosgauchos.mt.leg.br_223.json
+
+8. URL: https://primaveradoleste.mt.gov.br/
+   Título retornado: Access denied | www.primaveradoleste.mt.gov.br used Cloudflare to restrict access | www.primaveradoleste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.8
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_primaveradoleste.mt.gov.br_007.json
+
+9. URL: https://reservadocabacal.mt.leg.br/
+   Título retornado: Access denied | reservadocabacal.mt.leg.br used Cloudflare to restrict access | reservadocabacal.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_reservadocabacal.mt.leg.br_012.json
+
+10. URL: https://riobranco.mt.gov.br/
+   Título retornado: Access denied | riobranco.mt.gov.br used Cloudflare to restrict access | riobranco.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_riobranco.mt.gov.br_017.json
+
+11. URL: https://riobranco.mt.leg.br/
+   Título retornado: Access denied | riobranco.mt.leg.br used Cloudflare to restrict access | riobranco.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_riobranco.mt.leg.br_018.json
+
+12. URL: https://saltodoceu.mt.gov.br/
+   Título retornado: Access denied | saltodoceu.mt.gov.br used Cloudflare to restrict access | saltodoceu.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_saltodoceu.mt.gov.br_025.json
+
+13. URL: https://saltodoceu.mt.leg.br/
+   Título retornado: Access denied | saltodoceu.mt.leg.br used Cloudflare to restrict access | saltodoceu.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_saltodoceu.mt.leg.br_026.json
+
+14. URL: https://santaterezinha.mt.gov.br/
+   Título retornado: Access denied | santaterezinha.mt.gov.br used Cloudflare to restrict access | santaterezinha.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_santaterezinha.mt.gov.br_004.json
+
+15. URL: https://tesouro.mt.leg.br/
+   Título retornado: Access denied | tesouro.mt.leg.br used Cloudflare to restrict access | tesouro.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_tesouro.mt.leg.br_033.json
+
+16. URL: https://valedesaodomingos.mt.gov.br
+   Título retornado: Access denied | valedesaodomingos.mt.gov.br used Cloudflare to restrict access | valedesaodomingos.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_valedesaodomingos.mt.gov.br_038.json
+
+17. URL: https://valedesaodomingos.mt.leg.br/
+   Título retornado: Access denied | valedesaodomingos.mt.leg.br used Cloudflare to restrict access | valedesaodomingos.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_valedesaodomingos.mt.leg.br_039.json
+
+18. URL: https://www.boaesperancadonorte.mt.gov.br/
+   Título retornado: Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.boaesperancadonorte.mt.gov.br_034.json
+
+19. URL: https://www.castanheira.mt.leg.br/
+   Título retornado: Access denied | www.castanheira.mt.leg.br used Cloudflare to restrict access | www.castanheira.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.castanheira.mt.leg.br_054.json
+
+20. URL: https://www.cotriguacu.mt.gov.br/
+   Título retornado: Access denied | www.cotriguacu.mt.gov.br used Cloudflare to restrict access | www.cotriguacu.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.cotriguacu.mt.gov.br_073.json
+
+21. URL: https://www.curvelandia.mt.gov.br/
+   Título retornado: Access denied | www.curvelandia.mt.gov.br used Cloudflare to restrict access | www.curvelandia.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.curvelandia.mt.gov.br_091.json
+
+22. URL: https://www.denise.mt.gov.br/
+   Título retornado: Access denied | www.denise.mt.gov.br used Cloudflare to restrict access | www.denise.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.denise.mt.gov.br_095.json
+
+23. URL: https://www.gloriadoeste.mt.gov.br/
+   Título retornado: Access denied | www.gloriadoeste.mt.gov.br used Cloudflare to restrict access | www.gloriadoeste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.gloriadoeste.mt.gov.br_110.json
+
+24. URL: https://www.gloriadoeste.mt.leg.br/
+   Título retornado: Access denied | www.gloriadoeste.mt.leg.br used Cloudflare to restrict access | www.gloriadoeste.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.gloriadoeste.mt.leg.br_111.json
+
+25. URL: https://www.juruena.mt.gov.br/
+   Título retornado: Access denied | www.juruena.mt.gov.br used Cloudflare to restrict access | www.juruena.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.juruena.mt.gov.br_136.json
+
+26. URL: https://www.mirassoldoeste.mt.gov.br/
+   Título retornado: Access denied | www.mirassoldoeste.mt.gov.br used Cloudflare to restrict access | www.mirassoldoeste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.mirassoldoeste.mt.gov.br_155.json
+
+27. URL: https://www.nascentesdopantanal.org.br
+   Título retornado: Access denied | www.nascentesdopantanal.org.br used Cloudflare to restrict access | www.nascentesdopantanal.org.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_www.nascentesdopantanal.org.br_018.json
+
+28. URL: https://www.pocone.mt.gov.br/
+   Título retornado: Access denied | www.pocone.mt.gov.br used Cloudflare to restrict access | www.pocone.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.pocone.mt.gov.br_210.json
+
+29. URL: https://www.reservadocabacal.mt.gov.br/
+   Título retornado: Access denied | www.reservadocabacal.mt.gov.br used Cloudflare to restrict access | www.reservadocabacal.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_www.reservadocabacal.mt.gov.br_011.json
+
+30. URL: https://www.ribeiraozinho.mt.gov.br
+   Título retornado: Access denied | www.ribeiraozinho.mt.gov.br used Cloudflare to restrict access | www.ribeiraozinho.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_www.ribeiraozinho.mt.gov.br_015.json
+
+31. URL: https://www.santaterezinha.mt.leg.br/
+   Título retornado: Access denied | www.santaterezinha.mt.leg.br used Cloudflare to restrict access | www.santaterezinha.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_www.santaterezinha.mt.leg.br_005.json
+
+32. URL: https://www.serranovadourada.mt.leg.br/
+   Título retornado: Access denied | www.serranovadourada.mt.leg.br used Cloudflare to restrict access | www.serranovadourada.mt.leg.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_www.serranovadourada.mt.leg.br_004.json
+
+33. URL: https://www.sinop.mt.gov.br/
+   Título retornado: Access denied | www.sinop.mt.gov.br used Cloudflare to restrict access | www.sinop.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_www.sinop.mt.gov.br_005.json
+
+## OUVIDORIAS — 18 URL(s)
+
+1. URL: https://acessoainformacao.pontaldoaraguaia.mt.gov.br/cidadao/ouvidoria/solicitacaoservico
+   Título retornado: Access denied | acessoainformacao.pontaldoaraguaia.mt.gov.br used Cloudflare to restrict access | acessoainformacao.pontaldoaraguaia.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_acessoainformacao.pontaldoaraguaia.mt.gov.br_092.json
+
+2. URL: https://cartadeservicos.primaveradoleste.mt.gov.br/Carta-Servicos/Servico/Ouvidoria-municipal-3272
+   Título retornado: Access denied | cartadeservicos.primaveradoleste.mt.gov.br used Cloudflare to restrict access | cartadeservicos.primaveradoleste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_cartadeservicos.primaveradoleste.mt.gov.br_100.json
+
+3. URL: https://curvelandia.mt.gov.br/ouvidoria/formulario-on-line?tipo=den
+   Título retornado: Access denied | curvelandia.mt.gov.br used Cloudflare to restrict access | curvelandia.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_curvelandia.mt.gov.br_036.json
+
+4. URL: https://gloriadoeste.mt.gov.br/ouvidoria/formulario-on-line
+   Título retornado: Access denied | gloriadoeste.mt.gov.br used Cloudflare to restrict access | gloriadoeste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_gloriadoeste.mt.gov.br_045.json
+
+5. URL: https://lambaridoeste.mt.gov.br/ouvidoria/formulario-on-line
+   Título retornado: Access denied | lambaridoeste.mt.gov.br used Cloudflare to restrict access | lambaridoeste.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_lambaridoeste.mt.gov.br_060.json
+
+6. URL: https://mirassoldoeste.flowdocs.com.br:2053/public/home/subject/3
+   Título retornado: Access denied | mirassoldoeste.flowdocs.com.br used Cloudflare to restrict access | mirassoldoeste.flowdocs.com.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_mirassoldoeste.flowdocs.com.br_065.json
+
+7. URL: https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria/form
+   Título retornado: Access denied | ouvidoria.santaterezinha.mt.gov.br used Cloudflare to restrict access | ouvidoria.santaterezinha.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_ouvidoria.santaterezinha.mt.gov.br_113.json
+
+8. URL: https://reservadocabacal.mt.gov.br/ouvidoria/formulario-on-line
+   Título retornado: Access denied | reservadocabacal.mt.gov.br used Cloudflare to restrict access | reservadocabacal.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_reservadocabacal.mt.gov.br_102.json
+
+9. URL: https://saltodoceu.mt.gov.br/ouvidoria/formulario-on-line
+   Título retornado: Access denied | saltodoceu.mt.gov.br used Cloudflare to restrict access | saltodoceu.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_saltodoceu.mt.gov.br_109.json
+
+10. URL: https://www.aguaboa.mt.gov.br/servicos/ouvidoria
+   Título retornado: Access denied | www.aguaboa.mt.gov.br used Cloudflare to restrict access | www.aguaboa.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.aguaboa.mt.gov.br_137.json
+
+11. URL: https://www.boaesperancadonorte.mt.gov.br/ouvidoria/nova/17/denuncia
+   Título retornado: Access denied | www.boaesperancadonorte.mt.gov.br used Cloudflare to restrict access | www.boaesperancadonorte.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.boaesperancadonorte.mt.gov.br_016.json
+
+12. URL: https://www.cotriguacu.mt.gov.br/portal/carta-servicos/34/
+   Título retornado: Access denied | www.cotriguacu.mt.gov.br used Cloudflare to restrict access | www.cotriguacu.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.cotriguacu.mt.gov.br_034.json
+
+13. URL: https://www.denise.mt.gov.br/ouvidoria/manifestacao
+   Título retornado: Access denied | www.denise.mt.gov.br used Cloudflare to restrict access | www.denise.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.denise.mt.gov.br_038.json
+
+14. URL: https://www.juruena.mt.gov.br/portal/ouvidoria/cadastro/1
+   Título retornado: Access denied | www.juruena.mt.gov.br used Cloudflare to restrict access | www.juruena.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.juruena.mt.gov.br_057.json
+
+15. URL: https://www.pocone.mt.gov.br/portal/ouvidoria/cadastro/1
+   Título retornado: Access denied | www.pocone.mt.gov.br used Cloudflare to restrict access | www.pocone.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.pocone.mt.gov.br_091.json
+
+16. URL: https://www.ribeiraozinho.mt.gov.br/portal/ouvidoria/cadastro/1
+   Título retornado: Access denied | www.ribeiraozinho.mt.gov.br used Cloudflare to restrict access | www.ribeiraozinho.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.ribeiraozinho.mt.gov.br_104.json
+
+17. URL: https://www.riobranco.mt.gov.br/ouvidoria/formulario-on-line
+   Título retornado: Access denied | www.riobranco.mt.gov.br used Cloudflare to restrict access | www.riobranco.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.riobranco.mt.gov.br_105.json
+
+18. URL: https://www.valedesaodomingos.mt.gov.br/ouvidoria/formulario-on-line
+   Título retornado: Access denied | www.valedesaodomingos.mt.gov.br used Cloudflare to restrict access | www.valedesaodomingos.mt.gov.br | Cloudflare
+   Nota AccessMonitor: 8.7
+   Evidência: Título da página: Access denied / used Cloudflare to restrict access
+   JSON: /home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.valedesaodomingos.mt.gov.br_133.json

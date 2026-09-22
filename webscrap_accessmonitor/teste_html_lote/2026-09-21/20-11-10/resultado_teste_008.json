@@ -1,0 +1,13 @@
+{
+  "url": "https://primaveradoleste.mt.gov.br/",
+  "download_http_status": 200,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/download_primaveradoleste.mt.gov.br_008.html",
+  "html_bytes": 138209,
+  "html_title": "Página Inicial - Prefeitura de Primavera do Leste Primavera do Leste - MT",
+  "nota": "8.9",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_primaveradoleste.mt.gov.br_008.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_primaveradoleste.mt.gov.br_008.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": true
+}

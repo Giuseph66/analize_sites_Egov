@@ -1,0 +1,13 @@
+{
+  "url": "https://saltodoceu.mt.gov.br/ouvidoria/formulario-on-line",
+  "download_http_status": 403,
+  "download_content_type": "text/html; charset=UTF-8",
+  "download_html": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/download_saltodoceu.mt.gov.br_017.html",
+  "html_bytes": 14,
+  "html_title": "",
+  "nota": "3.0",
+  "json": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_saltodoceu.mt.gov.br_017.json",
+  "pdf": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_saltodoceu.mt.gov.br_017.pdf",
+  "pdf_error": "",
+  "cloudflare_marker": false
+}

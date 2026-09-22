@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nova manifestação · Ouvidoria</title>
+    <meta name="description" content="Canal direto para atendimento do SIC e da Ouvidoria.">
+    <meta name="keywords" content="sic, ouvidoria, atendimento, transparencia">
+            <link rel="icon" type="image/png" href="https://ouvidoria.santaterezinha.mt.gov.br//storage/identidade/logo_1780979669.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Manrope', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0f766e',
+                        'primary-light': '#ccfbf1',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Manrope', system-ui, sans-serif;
+            background:
+                radial-gradient(circle at top left, #ccfbf1 0%, rgba(255,255,255,0) 40%),
+                linear-gradient(180deg, #f8fafc 0%, #eefbf8 100%);
+        }
+    </style>
+    </head>
+<body class="min-h-screen text-slate-800">
+    <a href="#conteudo-principal" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-slate-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white">
+        Pular para o conteúdo
+    </a>
+    <div class="border-b border-black/10 text-white" style="background-color: #0f766e;">
+        <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
+            <div class="flex flex-wrap items-center gap-2 text-xs">
+                <span class="inline-flex items-center gap-1.5 font-bold uppercase tracking-[0.18em] text-white/80">
+                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2" stroke-width="1.7"/><path d="M5 8h14m-7 0v5m0 0-4 8m4-8 4 8" stroke-width="1.7" stroke-linecap="round"/></svg>
+                    Acessibilidade
+                </span>
+                <button type="button" onclick="ajustarFonte(1)" class="rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10">A+</button>
+                <button type="button" onclick="ajustarFonte(-1)" class="rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10">A-</button>
+                <button type="button" onclick="alternarContraste()" class="rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10">Contraste</button>
+                <button type="button" onclick="abrirVlibras()" aria-label="Abrir VLibras" class="rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10">VLibras</button>
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes" class="rounded-full border border-white/20 px-3 py-1 font-semibold hover:bg-white/10">FAQ</a>
+            </div>
+                        <div class="flex flex-wrap gap-2">
+                                    <a href="https://santaterezinha.mt.gov.br/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-white px-4 py-1.5 text-xs font-bold text-slate-900 hover:bg-slate-100">
+                        Site da Prefeitura
+                    </a>
+                                                    <a href="https://transparencia.betha.cloud/auth-callback.html#access_token=b8bbf3e3-f74a-4e56-807f-183d785c72f3&amp;token_type=bearer&amp;expires_in=1310&amp;scope=sistema_interno,transparencia.public&amp;session_state=bf4c8fa8fd3765289dcaf3d1f7b8470daa39a9ed5ffc96a88d031d48c5cc97ad.cbb5bd3c0ac9acd62276cf7d455c4239" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-1.5 text-xs font-bold text-white hover:bg-white/10">
+                        Portal da Transparência
+                    </a>
+                            </div>
+        </div>
+    </div>
+    <header class="border-b border-slate-200/80 bg-white/90 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
+            <a href="https://ouvidoria.santaterezinha.mt.gov.br" class="flex w-full min-w-0 items-center gap-3 lg:w-auto">
+                                    <img src="https://ouvidoria.santaterezinha.mt.gov.br//storage/identidade/logo_1780979669.png"
+                         alt="Ouvidora Santa Terezinha - MT"
+                         class="h-12 max-w-[170px] w-auto object-contain sm:h-14 sm:max-w-[240px]">
+                                <div class="min-w-0">
+                    <p class="text-sm font-extrabold tracking-tight text-slate-900 sm:text-base">Ouvidora Santa Terezinha - MT</p>
+                    <p class="text-xs text-slate-500">SIC e Ouvidoria</p>
+                </div>
+            </a>
+
+            <div class="grid w-full grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:justify-end lg:w-auto">
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico" class="inline-flex items-center justify-center rounded-full border border-primary/15 bg-primary px-4 py-2.5 text-sm font-bold text-white transition hover:opacity-90">
+                    SIC
+                </a>
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria" class="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:border-primary/30 hover:text-primary">
+                    Ouvidoria
+                </a>
+                            </div>
+        </div>
+    </header>
+
+    <main id="conteudo-principal">
+        <div class="bg-white border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+
+        
+        <nav class="flex items-center gap-1.5 flex-wrap">
+            <a href="https://ouvidoria.santaterezinha.mt.gov.br" class="flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9"
+                          stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Início
+            </a>
+
+                            <svg class="w-3 h-3 text-slate-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M9 18l6-6-6-6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                                    <a href="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria" class="text-xs text-slate-500 hover:text-slate-800">
+                        Ouvidoria
+                    </a>
+                                            <svg class="w-3 h-3 text-slate-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M9 18l6-6-6-6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                                    <span class="text-xs font-semibold text-slate-800">Nova manifestação</span>
+                                    </nav>
+
+        
+        <a href="https://ouvidoria.santaterezinha.mt.gov.br" class="flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50 flex-shrink-0">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Voltar ao portal
+        </a>
+
+    </div>
+</div>
+
+<section class="mx-auto max-w-4xl px-4 pb-14 pt-5 sm:px-6 sm:pt-8">
+    <div class="mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p class="text-xs font-bold uppercase tracking-[.18em] text-primary">Ouvidoria</p><h1 class="mt-2 text-2xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">Nova manifestação</h1><p class="mt-2 text-sm leading-6 text-slate-500">Informe apenas o necessário. Campos marcados com * são obrigatórios.</p></div><div class="rounded-2xl border border-primary/15 bg-primary-light/50 px-4 py-3 text-xs leading-5 text-slate-700"><strong class="block text-primary">Prazo de resposta</strong>Até 30 dias, prorrogável uma vez com justificativa.</div></div>
+
+    
+    <form id="form-ouvidoria" method="POST" action="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria" enctype="multipart/form-data" class="space-y-5"><input type="hidden" name="_token" value="jug49z07GgVKCNikzbFhwOX4i2pFUmXQ3Pj8gjAe" autocomplete="off">        <section class="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
+            <div class="mb-5 flex items-center gap-3"><span class="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white">1</span><div><h2 class="text-lg font-extrabold text-slate-900">Escolha o tipo</h2><p class="text-xs text-slate-500">Isso ajuda a Ouvidoria a encaminhar corretamente.</p></div></div>
+            <fieldset><legend class="sr-only">Tipo da manifestação</legend><div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"><label class="group cursor-pointer"><input type="radio" name="natureza" value="solicitacao" class="peer sr-only" required ><span class="block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40"><strong class="block text-sm text-slate-900">Solicitação</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Peça uma providência ou atendimento.</span></span></label><label class="group cursor-pointer"><input type="radio" name="natureza" value="reclamacao" class="peer sr-only" required ><span class="block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40"><strong class="block text-sm text-slate-900">Reclamação</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Relate insatisfação com um serviço.</span></span></label><label class="group cursor-pointer"><input type="radio" name="natureza" value="denuncia" class="peer sr-only" required ><span class="block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40"><strong class="block text-sm text-slate-900">Denúncia</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Comunique uma possível irregularidade.</span></span></label><label class="group cursor-pointer"><input type="radio" name="natureza" value="sugestao" class="peer sr-only" required ><span class="block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40"><strong class="block text-sm text-slate-900">Sugestão</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Apresente uma ideia de melhoria.</span></span></label><label class="group cursor-pointer"><input type="radio" name="natureza" value="elogio" class="peer sr-only" required ><span class="block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40"><strong class="block text-sm text-slate-900">Elogio</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Reconheça um bom atendimento.</span></span></label><label class="group cursor-pointer"><input type="radio" name="natureza" value="simplificacao" class="peer sr-only" required ><span class="block h-full rounded-2xl border border-slate-200 p-4 transition peer-checked:border-primary peer-checked:bg-primary-light/45 peer-checked:ring-2 peer-checked:ring-primary/10 group-hover:border-primary/40"><strong class="block text-sm text-slate-900">Simplificação de serviço</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Sugira reduzir burocracia em um serviço.</span></span></label></div></fieldset>
+        </section>
+
+        <section class="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
+            <div class="mb-5 flex items-center gap-3"><span class="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white">2</span><div><h2 class="text-lg font-extrabold text-slate-900">Identificação e retorno</h2><p class="text-xs text-slate-500">Você pode se identificar, pedir sigilo ou enviar anonimamente.</p></div></div>
+            <fieldset><legend class="sr-only">Forma de identificação</legend><div class="grid gap-3 sm:grid-cols-2"><label class="cursor-pointer"><input type="radio" name="anonima" value="0" class="peer sr-only" checked><span class="flex h-full gap-3 rounded-2xl border border-slate-200 p-4 peer-checked:border-primary peer-checked:bg-primary-light/40 peer-checked:ring-2 peer-checked:ring-primary/10"><span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100"><svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7 9a7 7 0 0 0-14 0" stroke-width="1.7" stroke-linecap="round"/></svg></span><span><strong class="block text-sm text-slate-900">Quero me identificar</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Permite receber resposta e recuperar a consulta depois.</span></span></span></label><label class="cursor-pointer"><input type="radio" name="anonima" value="1" class="peer sr-only" ><span class="flex h-full gap-3 rounded-2xl border border-slate-200 p-4 peer-checked:border-primary peer-checked:bg-primary-light/40 peer-checked:ring-2 peer-checked:ring-primary/10"><span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-slate-100"><svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 4l16 16m-3-8a5 5 0 0 1-7.8 4.1M7.1 13.5A12 12 0 0 1 3 9s3.5-5 9-5c1.7 0 3.2.5 4.5 1.2M21 9s-.8 1.2-2.2 2.4" stroke-width="1.7" stroke-linecap="round"/></svg></span><span><strong class="block text-sm text-slate-900">Prefiro anonimato</strong><span class="mt-1 block text-xs leading-5 text-slate-500">Nenhum dado pessoal será salvo; não haverá retorno por e-mail.</span></span></span></label></div></fieldset>
+
+            <div id="dados-identificacao" class="mt-5 grid gap-4 border-t border-slate-100 pt-5 sm:grid-cols-2">
+                <label class="block sm:col-span-2"><span class="mb-1.5 block text-xs font-bold text-slate-600">Nome completo *</span><input type="text" name="nome" value="" maxlength="255" class="h-12 w-full rounded-xl border border-slate-200 px-3 text-sm"></label>
+                <label class="block"><span class="mb-1.5 block text-xs font-bold text-slate-600">Como deseja receber o retorno? *</span><select id="forma-contato" name="forma_contato" class="h-12 w-full rounded-xl border border-slate-200 px-3 text-sm"><option value="email_protocolo" selected>E-mail e protocolo</option><option value="protocolo" >Somente protocolo</option></select></label>
+                <label class="block"><span class="mb-1.5 block text-xs font-bold text-slate-600">E-mail <span id="email-obrigatorio">*</span></span><input id="email" type="email" name="email" value="" maxlength="255" class="h-12 w-full rounded-xl border border-slate-200 px-3 text-sm"></label>
+                <label class="block"><span class="mb-1.5 block text-xs font-bold text-slate-600">Telefone <span class="font-normal text-slate-400">(opcional)</span></span><input type="tel" name="telefone" value="" placeholder="(00) 00000-0000" maxlength="20" class="mask-telefone h-12 w-full rounded-xl border border-slate-200 px-3 text-sm"><input type="hidden" name="tipo_telefone" value="celular"></label>
+                <label class="flex cursor-pointer items-start gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4"><input type="checkbox" name="sigilo" value="1"  class="mt-0.5 h-4 w-4"><span><strong class="block text-sm text-amber-900">Proteger minha identidade</strong><span class="mt-1 block text-xs leading-5 text-amber-700">Seus dados ficarão restritos à equipe da Ouvidoria.</span></span></label>
+            </div>
+            <input id="forma-anonima" type="hidden" value="protocolo">
+        </section>
+
+        <section class="rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
+            <div class="mb-5 flex items-center gap-3"><span class="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-sm font-extrabold text-white">3</span><div><h2 class="text-lg font-extrabold text-slate-900">Conte o que aconteceu</h2><p class="text-xs text-slate-500">Seja claro e inclua datas, locais e pessoas envolvidas quando souber.</p></div></div>
+            <div class="space-y-4">
+                <label class="block"><span class="mb-1.5 block text-xs font-bold text-slate-600">Secretaria ou órgão *</span><select name="secretaria" required class="h-12 w-full rounded-xl border border-slate-200 px-3 text-sm"><option value="">Selecione</option><option value="Não sei informar" >Não sei informar</option><option value="Gabinete do Prefeito" >Gabinete do Prefeito</option><option value="Secretaria de Administração e Finanças" >Secretaria de Administração e Finanças</option><option value="Secretaria de Saúde" >Secretaria de Saúde</option><option value="Secretaria de Educação" >Secretaria de Educação</option><option value="Secretaria de Infraestrutura" >Secretaria de Infraestrutura</option><option value="Secretaria de Assistência Social" >Secretaria de Assistência Social</option><option value="Secretaria de Meio Ambiente" >Secretaria de Meio Ambiente</option><option value="Secretaria de Agricultura" >Secretaria de Agricultura</option><option value="Secretaria de Cultura e Turismo" >Secretaria de Cultura e Turismo</option><option value="Secretaria de Esporte e Juventude" >Secretaria de Esporte e Juventude</option><option value="Secretaria de Segurança Pública" >Secretaria de Segurança Pública</option><option value="Secretaria do Trabalho e Desenvolvimento Social" >Secretaria do Trabalho e Desenvolvimento Social</option></select></label>
+                <label class="block"><span class="mb-1.5 block text-xs font-bold text-slate-600">Descrição da manifestação *</span><textarea name="mensagem" rows="8" required minlength="20" maxlength="10000" placeholder="Descreva os fatos com o máximo de clareza..." class="w-full rounded-xl border border-slate-200 px-3 py-3 text-sm leading-6"></textarea><span class="mt-1 block text-[11px] text-slate-400">Mínimo de 20 caracteres.</span></label>
+                <label class="block"><span class="mb-1.5 block text-xs font-bold text-slate-600">Anexo <span class="font-normal text-slate-400">(opcional)</span></span><input type="file" name="anexo" accept=".pdf,.jpg,.jpeg,.png" class="w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-slate-100 file:px-3 file:py-2 file:text-xs file:font-bold"><span class="mt-1 block text-[11px] text-slate-400">PDF, JPG ou PNG, até 10 MB. Não envie senhas ou dados bancários.</span></label>
+            </div>
+        </section>
+
+        <label class="flex cursor-pointer items-start gap-3 rounded-2xl border border-slate-200 bg-white p-4"><input type="checkbox" name="ciente" value="1" required  class="mt-0.5 h-4 w-4"><span class="text-xs leading-5 text-slate-600">Declaro que as informações são verdadeiras e estou ciente do tratamento dos dados para atendimento desta manifestação, conforme a política de privacidade.</span></label>
+        <button type="submit" class="w-full rounded-2xl bg-primary px-6 py-4 text-sm font-extrabold text-white shadow-[0_14px_30px_rgba(15,118,110,.2)] transition hover:brightness-95">Registrar manifestação</button>
+    </form>
+</section>
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200/80 bg-white/80">
+        <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+            <p>Ouvidora Santa Terezinha - MT.</p>
+            <div class="flex gap-4">
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/sic-eletronico" class="font-semibold text-slate-600 hover:text-primary">SIC</a>
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/ouvidoria" class="font-semibold text-slate-600 hover:text-primary">Ouvidoria</a>
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/perguntas-frequentes" class="font-semibold text-slate-600 hover:text-primary">FAQ</a>
+                <a href="https://ouvidoria.santaterezinha.mt.gov.br/mapa-do-site" class="font-semibold text-slate-600 hover:text-primary">Mapa do site</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+    const anonimaInputs = document.querySelectorAll('input[name="anonima"]');
+    const dadosIdentificacao = document.getElementById('dados-identificacao');
+    const nomeInput = document.querySelector('input[name="nome"]');
+    const formaContato = document.getElementById('forma-contato');
+    const emailInput = document.getElementById('email');
+
+    function atualizarIdentificacao() {
+        const anonima = document.querySelector('input[name="anonima"]:checked')?.value === '1';
+        dadosIdentificacao.classList.toggle('hidden', anonima);
+        nomeInput.required = !anonima;
+        if (anonima) formaContato.value = 'protocolo';
+        atualizarEmail();
+    }
+
+    function atualizarEmail() {
+        const anonima = document.querySelector('input[name="anonima"]:checked')?.value === '1';
+        const obrigatorio = !anonima && formaContato.value === 'email_protocolo';
+        emailInput.required = obrigatorio;
+        document.getElementById('email-obrigatorio').classList.toggle('hidden', !obrigatorio);
+    }
+
+    anonimaInputs.forEach((input) => input.addEventListener('change', atualizarIdentificacao));
+    formaContato.addEventListener('change', atualizarEmail);
+    atualizarIdentificacao();
+</script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script>
+        let vlibrasWidgetReady = false;
+        let vlibrasOpenRequested = false;
+
+        (() => {
+            const root = document.documentElement;
+            const fonteAtual = Number(localStorage.getItem('portal-font-scale') || '100');
+            const contrasteAtivo = localStorage.getItem('portal-contrast') === '1';
+
+            root.style.fontSize = fonteAtual + '%';
+            if (contrasteAtivo) {
+                document.body.classList.add('contrast-on');
+            }
+        })();
+
+        function ajustarFonte(delta) {
+            const root = document.documentElement;
+            const atual = Number(localStorage.getItem('portal-font-scale') || '100');
+            const proximo = Math.min(120, Math.max(90, atual + (delta * 5)));
+            root.style.fontSize = proximo + '%';
+            localStorage.setItem('portal-font-scale', String(proximo));
+        }
+
+        function alternarContraste() {
+            document.body.classList.toggle('contrast-on');
+            localStorage.setItem('portal-contrast', document.body.classList.contains('contrast-on') ? '1' : '0');
+        }
+
+        function acionarWidgetVlibras() {
+            const button = document.querySelector('[vw-access-button]');
+            if (!button) {
+                return false;
+            }
+
+            button.click();
+            return true;
+        }
+
+        function abrirVlibras() {
+            if (vlibrasWidgetReady && acionarWidgetVlibras()) {
+                return;
+            }
+
+            vlibrasOpenRequested = true;
+        }
+    </script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            if (!window.VLibras) {
+                return;
+            }
+
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+            vlibrasWidgetReady = true;
+
+            window.setTimeout(function () {
+                if (vlibrasOpenRequested) {
+                    acionarWidgetVlibras();
+                    vlibrasOpenRequested = false;
+                }
+            }, 600);
+        });
+    </script>
+    <style>
+        .contrast-on,
+        .contrast-on * {
+            background-color: #000 !important;
+            color: #fff !important;
+            border-color: #fff !important;
+            box-shadow: none !important;
+        }
+        .contrast-on a,
+        .contrast-on button {
+            text-decoration: underline !important;
+        }
+        [vw-access-button] { z-index: 70 !important; }
+    </style>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"b51299cc5e9f40a09561a659b5824cfc","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

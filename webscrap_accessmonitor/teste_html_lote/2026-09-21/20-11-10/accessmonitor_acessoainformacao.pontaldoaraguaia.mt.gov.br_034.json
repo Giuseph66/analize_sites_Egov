@@ -1,0 +1,2686 @@
+{
+  "success": 1,
+  "message": "Avaliação do HTML baixado pelo AccessMonitor local.",
+  "errors": [],
+  "result": {
+    "pagecode": "<html><head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta property=\"og:locale\" content=\"pt_BR\">\n\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n\n    <base href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/\">\n    <link rel=\"shortcut icon\" href=\"https://static.nucleogov.com.br/res/img/nucleo/prefeitura.ico\">\n    <!-- Fontes -->\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/fonts/font-icon/font-face.css?v=5.4.134\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/fonts/icones/styles.css?v=5.4.134\">\n\n            \n    \n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/css/index.css?v=5.4.134\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://nucleogov.s3.us-east-2.amazonaws.com/pf_pontaldoaraguaia/custom-theme/custom-index-628.css?v=5.4.134\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/css/painel/padroes.css?v=5.4.134\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/css/cidadao/index.css?v=5.4.134\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/css/auxiliares.css?v=5.4.134\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/css/cidadao/ouvidoria/ouvidoria.css?v=5.4.134\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.nucleogov.com.br/res/css/cidadao/transparencia.css?v=5.4.134\">\n    \n\n        \n\n\n    <title>Solicitação - Prefeitura de Pontal do Araguaia - MT</title>\n</head>\n\n<body class=\"\">\n<noscript>\n    Habilite o JavaScript para utilizar o NúcleoGov.\n</noscript>\n\n    <div class=\"linha_topo\"></div>\n\n    <nav class=\"\">\n        <div class=\"fundo\"></div>\n\n        <ul class=\"top\">\n            <li class=\"topo_aux\"></li>\n                                <li>\n                        <a data-tipo-menu=\"custom\">\n                            <div class=\"icone_menu\">\n                                <span></span>\n                            </div>\n                            Menu                        </a>\n                        <div class=\"short_menu icon-stoption-a\"></div>\n                    </li>\n                        </ul>\n\n        <ul class=\"middle\">\n                                <li class=\"\">\n                        <a class=\"icon-home\" href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/\">\n                            Início                        </a>\n\n                                            </li>\n                                    <li class=\"md\">\n                        <a class=\"icon-sic\" href=\"cidadao/informacao/sic\">\n                            SIC                        </a>\n\n                                                    <div class=\"seta icon-stoption-a\"></div>\n                            <div class=\"sub-menu \">\n                                <ul>\n                                                                            <li>\n                                            <a href=\"cidadao/informacao/sic\" target=\"\" title=\"SIC - Serviço de Informação ao Cidadão\">\n                                                SIC - Serviço de Informação ao Cidadão                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/impressao/relatorio_sic\" target=\"\" title=\"Relatório Estatístico do e-SIC\">\n                                                Relatório Estatístico do e-SIC                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infoclassificadas\" target=\"\" title=\"Informações Classificadas como Sigilosas\">\n                                                Informações Classificadas como Sigilosas                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infodesclassificadas\" target=\"\" title=\"Informações Desclassificadas como Sigilosas\">\n                                                Informações Desclassificadas como Sigilosas                                            </a>\n                                        </li>\n                                                                    </ul>\n                            </div>\n                                            </li>\n                                    <li class=\"md\">\n                        <a class=\"icon-chat\" href=\"cidadao/ouvidoria/inicio\">\n                            Ouvidoria                        </a>\n\n                                                    <div class=\"seta icon-stoption-a\"></div>\n                            <div class=\"sub-menu \">\n                                <ul>\n                                                                            <li>\n                                            <a href=\"cidadao/ouvidoria/inicio\" target=\"\" title=\"Início\">\n                                                Início                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"cidadao/ouvidoria/solicitacaoservico\" target=\"\" title=\"Solicitação\">\n                                                Solicitação                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"cidadao/ouvidoria/elogio\" target=\"\" title=\"Elogios\">\n                                                Elogios                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"cidadao/ouvidoria/sugestao\" target=\"\" title=\"Sugestões\">\n                                                Sugestões                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"cidadao/ouvidoria/reclamacao\" target=\"\" title=\"Reclamações\">\n                                                Reclamações                                            </a>\n                                        </li>\n                                                                            <li>\n                                            <a href=\"cidadao/ouvidoria/denuncia\" target=\"\" title=\"Denúncias\">\n                                                Denúncias                                            </a>\n                                        </li>\n                                                                    </ul>\n                            </div>\n                                            </li>\n                                    <li class=\"\">\n                        <a class=\"icon-mais\" data-tipo-menu=\"custom\">\n                            Ver mais                        </a>\n\n                                            </li>\n                        </ul>\n\n        <ul class=\"down\">\n                    </ul>\n\n            </nav>\n\n<div class=\"content \">\n\n    <div class=\"acessibilidade_mobile\">\n        <a href=\"p/acessibilidade\" id=\"link_acessibilidade\">\n            <img src=\"https://static.nucleogov.com.br/res/img/nucleo/acessibilidade.svg\" class=\"acessibilidade\" alt=\"Acessibilidade\">\n            ACESSIBILIDADE\n        </a>\n        <a href=\"javascript:void(0)\" id=\"font_more_mobile\" title=\"Aumentar fonte\">A+</a>\n        <a href=\"javascript:void(0)\" id=\"font_default_mobile\" title=\"Fonte padrão\">A</a>\n        <a href=\"javascript:void(0)\" id=\"font_less_mobile\" title=\"Diminuir fonte\">A-</a>\n        <a href=\"javascript:void(0)\" id=\"alto_contr_mobile\">\n            <span class=\"yin\"></span>\n            <span class=\"yang\"></span>\n        </a>\n    </div>\n\n    <header class=\"\">\n                    <div class=\"arvore_links\">\n                <h1>Ouvidoria</h1>\n                <ul>\n                    <li><span>VOCÊ ESTÁ AQUI:</span></li>\n                    <li>&nbsp;<a href=\"\">PÁGINA INICIAL</a></li>\n                                                <li>&nbsp; &gt; &nbsp;<a href=\"ouvidoria\">Ouvidoria</a></li>\n                                                    <li>&nbsp; &gt; &nbsp;<a href=\"ouvidoria/solicitacaoservico\">Solicitação</a></li>\n                                        </ul>\n            </div>\n        \n        <div class=\"user-logo-verticalboxs\">\n            <div class=\"logo-verticalboxs\">\n                <a class=\"logo\" href=\"#teste\">\n                    <!----><!--? //= $img_topo ?--> .\n                </a>\n\n                <a href=\"painel\" accesskey=\"p\" class=\"icon-password\" title=\"Painel\"> <span id=\"teste\">.</span> </a>\n            </div>\n        </div>\n\n        <div class=\"logo-name\">\n            <div class=\"name\">\n                <a href=\"\">\n                                        <h2>Portal do Cidadão da                    <span>Prefeitura de Pontal do Araguaia - MT</span></h2>                </a>\n            </div>\n\n                            <div class=\"acess\">\n                    <a href=\"javascript:void(0)\" id=\"font_more\" title=\"Aumentar fonte\">A+</a>\n                    <a href=\"javascript:void(0)\" id=\"font_default\" title=\"Fonte padrão\">A</a>\n                    <a href=\"javascript:void(0)\" id=\"font_less\" title=\"Diminuir fonte\">A-</a>\n                    <a href=\"p/acessibilidade\">\n                        <img src=\"https://static.nucleogov.com.br/res/img/nucleo/acessibilidade.svg\" class=\"acessibilidade\" alt=\"Acessibilidade\">\n                        Acessibilidade\n                    </a>\n                    <a href=\"javascript:void(0)\" id=\"alto_contr\">Alto Contraste</a>\n                    <!--                <a href=\"p/mapa_do_site\">Mapa do Site</a>-->\n                </div>\n                    </div>\n\n        <div class=\"cont_mobile\">\n            <div class=\"menu_mobile\" data-tipo-menu=\"custom\">\n                <span></span>\n            </div>\n\n            <div class=\"name\">\n                <a href=\"\">\n                    <h1>Portal do Cidadão <br></h1>\n                </a>\n            </div>\n\n            <div class=\"header_container\">\n                \n                    <span>Solicitação </span>\n\n                    <div class=\"containerbuscamobilefiltro\">\n                        <div class=\"icon-lupa\"></div>\n                        <input id=\"search\" class=\"busca\" placeholder=\"Buscar\" type=\"text\">\n                    </div>\n\n                    <div class=\"filtro_mobile\">FILTRO</div>\n                            </div>\n        </div>\n    </header>\n\n    <main class=\"\">    <div class=\"abas\">\n        <ul>\n                            <li>\n                    <a href=\"cidadao/ouvidoria/inicio\" class=\"button \" target=\"_self\">Início</a>\n                </li>\n                            <li>\n                    <a href=\"cidadao/ouvidoria/solicitacaoservico\" class=\"button active\" target=\"_self\">Solicitação</a>\n                </li>\n                            <li>\n                    <a href=\"cidadao/ouvidoria/elogio\" class=\"button \" target=\"_self\">Elogios</a>\n                </li>\n                            <li>\n                    <a href=\"cidadao/ouvidoria/sugestao\" class=\"button \" target=\"_self\">Sugestões</a>\n                </li>\n                            <li>\n                    <a href=\"cidadao/ouvidoria/reclamacao\" class=\"button \" target=\"_self\">Reclamações</a>\n                </li>\n                            <li>\n                    <a href=\"cidadao/ouvidoria/denuncia\" class=\"button \" target=\"_self\">Denúncias</a>\n                </li>\n                    </ul>\n    </div>\n\n<div class=\"sub_content\">\n    <div class=\"loader\">\n    <div class=\"load\"></div>\n</div>\n\n<div class=\"cont_dados\">\n\n    <section class=\"header\">\n        <div class=\"header_content\">\n            <h1 class=\"h4 bold gray-80\">\n                Enviar solicitação            </h1>\n            <p class=\"text-p gray-70\">\n                A solicitação é um meio de requerer a execução de algum serviço ou reparo competentes à\n            Administração Pública municipal.            </p>\n        </div>\n    </section>\n\n    <section class=\"breadcrumb\">\n\n        <div class=\"breadcrumb_step\">\n            <div class=\"breadcrumb_step_number\">1</div>\n            <div class=\"breadcrumb_step_text\">Solicitação</div>\n        </div>\n\n        <div class=\"breadcrumb_line\"></div>\n\n        <div class=\"breadcrumb_step\">\n            <div class=\"breadcrumb_step_number\">2</div>\n            <div class=\"breadcrumb_step_text\">Identificação</div>\n        </div>\n\n        <div class=\"breadcrumb_line\"></div>\n\n        <div class=\"breadcrumb_step\">\n            <div class=\"breadcrumb_step_number\">3</div>\n            <div class=\"breadcrumb_step_text\">Enviar</div>\n        </div>\n\n    </section>\n\n    <section id=\"container_forms\">\n\n    </section>\n\n    <section class=\"buttons\">\n        <button id=\"buttons_back\" class=\"icon-stoption\">Voltar</button>\n        <button id=\"buttons_next\" class=\"icon-stoption-a\">Continuar</button>\n    </section>\n\n</div>\n</div>\n</main>\n\n    <!--    <footer></footer>-->\n</div>\n\n\n\n\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;25e946ab5337469ca31ea104d5de2b38&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>\n\n\n</body></html>",
+    "data": {
+      "title": "Solicitação - Prefeitura de Pontal do Araguaia - MT",
+      "rawUrl": "https://acessoainformacao.pontaldoaraguaia.mt.gov.br/cidadao/ouvidoria/solicitacaoservico",
+      "elems": {
+        "titleOk": 1,
+        "scrollable": 0,
+        "langNo": 1,
+        "button": 2,
+        "buttonAname": 2,
+        "a": 37,
+        "linkNotAName": 1,
+        "svg": 0,
+        "aSameText": 3,
+        "iframeSame": 0,
+        "img": 2,
+        "hxHasAName": 4,
+        "headers": 0,
+        "menuItem": 0,
+        "id": 55,
+        "colorContrastOk": 55,
+        "elementPresentChildrenNoFocus": 4,
+        "textContrastH": 54,
+        "aSkipFirstNo": 1,
+        "aTitleMatch": 10,
+        "labelPosNo": 1,
+        "dd,dt": 0,
+        "dl": 0,
+        "hx": 4,
+        "noDuplicateBanner": 1,
+        "noDuplicateMain": 1,
+        "h1": 3,
+        "notOneh1": 3,
+        "aSkip": 1,
+        "bannerTopLevel": 1,
+        "li": 26,
+        "liSemantically": 26,
+        "listCorrectly": 6,
+        "mainTopLevel": 1,
+        "idAtt": 14,
+        "area": 0,
+        "inpImg": 38,
+        "label": 1,
+        "form": 0,
+        "tableData": 0,
+        "tableLayout": 0,
+        "tableComplex": 0,
+        "iframe": 0,
+        "ehandler": 0
+      },
+      "nodes": {
+        "titleOk": [
+          {
+            "verdict": "passed",
+            "description": "The `title` element exists and it's not empty ('').",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<title>Solicitação - Prefeitura de Pontal do Araguaia - MT</title>",
+                "pointer": "html > head:nth-child(1) > title:nth-child(233)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "langNo": [
+          {
+            "verdict": "failed",
+            "description": "The `lang` attribute doesn't exist or is empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<html><head></head><body></body></html>",
+                "pointer": "html"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "buttonAname": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_back\" class=\"icon-stoption\">Voltar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(1)",
+                "accessibleName": "Voltar"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_next\" class=\"icon-stoption-a\">Continuar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(2)",
+                "accessibleName": "Continuar"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "linkNotAName": [
+          {
+            "verdict": "failed",
+            "description": "The test target doesn't have an accessible name, or it's empty ('').",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"alto_contr_mobile\">\n            \n            \n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(5)",
+                "accessibleName": ""
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSameText": [
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" target=\"\" title=\"Início\">\n                                                Início                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Início"
+              },
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" class=\"button \" target=\"_self\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Início"
+              },
+              {
+                "htmlCode": "<a class=\"icon-home\" href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/\">\n                            Início                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "Início"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"ouvidoria\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Ouvidoria"
+              },
+              {
+                "htmlCode": "<a class=\"icon-chat\" href=\"cidadao/ouvidoria/inicio\">\n                            Ouvidoria                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a:nth-child(1)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"painel\" accesskey=\"p\" class=\"icon-password\" title=\"Painel\"> . </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2)",
+                "accessibleName": "."
+              },
+              {
+                "htmlCode": "<a class=\"logo\" href=\"#teste\">\n                     .\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)",
+                "accessibleName": "."
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "inputLabel": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"search\" class=\"busca\" placeholder=\"Buscar\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > div:nth-child(2) > input:nth-child(2)",
+                "accessibleName": "Buscar"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "imgAlt": [
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://static.nucleogov.com.br/res/img/nucleo/acessibilidade.svg\" class=\"acessibilidade\" alt=\"Acessibilidade\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)",
+                "accessibleName": "Acessibilidade"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has an accessible name.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://static.nucleogov.com.br/res/img/nucleo/acessibilidade.svg\" class=\"acessibilidade\" alt=\"Acessibilidade\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(4) > img:nth-child(1)",
+                "accessibleName": "Acessibilidade"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hxHasAName": [
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > h1:nth-child(1)",
+                "accessibleName": "Ouvidoria"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Portal do Cidadão da                    <span>Prefeitura de Pontal do Araguaia - MT</span></h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > h2:nth-child(1)",
+                "accessibleName": "Portal do Cidadão da Prefeitura de Pontal do Araguaia - MT"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Portal do Cidadão <br></h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > h1:nth-child(1)",
+                "accessibleName": "Portal do Cidadão"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The test target has a non-empty accessible name.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"h4 bold gray-80\">\n                Enviar solicitação            </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > h1:nth-child(1)",
+                "accessibleName": "Enviar solicitação"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "colorContrastOk": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a data-tipo-menu=\"custom\">\n                            \n                                \n                            \n                            Menu                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-home\" href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/\">\n                            Início                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-sic\" href=\"cidadao/informacao/sic\">\n                            SIC                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/informacao/sic\" target=\"\" title=\"SIC - Serviço de Informação ao Cidadão\">\n                                                SIC - Serviço de Informação ao Cidadão                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/impressao/relatorio_sic\" target=\"\" title=\"Relatório Estatístico do e-SIC\">\n                                                Relatório Estatístico do e-SIC                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infoclassificadas\" target=\"\" title=\"Informações Classificadas como Sigilosas\">\n                                                Informações Classificadas como Sigilosas                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infodesclassificadas\" target=\"\" title=\"Informações Desclassificadas como Sigilosas\">\n                                                Informações Desclassificadas como Sigilosas                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-chat\" href=\"cidadao/ouvidoria/inicio\">\n                            Ouvidoria                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" target=\"\" title=\"Início\">\n                                                Início                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/solicitacaoservico\" target=\"\" title=\"Solicitação\">\n                                                Solicitação                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/elogio\" target=\"\" title=\"Elogios\">\n                                                Elogios                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/sugestao\" target=\"\" title=\"Sugestões\">\n                                                Sugestões                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/reclamacao\" target=\"\" title=\"Reclamações\">\n                                                Reclamações                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/denuncia\" target=\"\" title=\"Denúncias\">\n                                                Denúncias                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-mais\" data-tipo-menu=\"custom\">\n                            Ver mais                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"p/acessibilidade\" id=\"link_acessibilidade\">\n            \n            ACESSIBILIDADE\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_more_mobile\" title=\"Aumentar fonte\">A+</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_default_mobile\" title=\"Fonte padrão\">A</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_less_mobile\" title=\"Diminuir fonte\">A-</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>VOCÊ ESTÁ AQUI:</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\">PÁGINA INICIAL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp; &gt; &nbsp;Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"ouvidoria\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp; &gt; &nbsp;Solicitação</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"ouvidoria/solicitacaoservico\">Solicitação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"logo\" href=\"#teste\">\n                     .\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"teste\">.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Portal do Cidadão da                    Prefeitura de Pontal do Araguaia - MT</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Prefeitura de Pontal do Araguaia - MT</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > h2:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_more\" title=\"Aumentar fonte\">A+</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_default\" title=\"Fonte padrão\">A</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_less\" title=\"Diminuir fonte\">A-</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"p/acessibilidade\">\n                        \n                        Acessibilidade\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"alto_contr\">Alto Contraste</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Portal do Cidadão </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Solicitação </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"search\" class=\"busca\" placeholder=\"Buscar\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"filtro_mobile\">FILTRO</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" class=\"button \" target=\"_self\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/solicitacaoservico\" class=\"button active\" target=\"_self\">Solicitação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/elogio\" class=\"button \" target=\"_self\">Elogios</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/sugestao\" class=\"button \" target=\"_self\">Sugestões</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/reclamacao\" class=\"button \" target=\"_self\">Reclamações</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/denuncia\" class=\"button \" target=\"_self\">Denúncias</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"h4 bold gray-80\">\n                Enviar solicitação            </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-p gray-70\">\n                A solicitação é um meio de requerer a execução de algum serviço ou reparo competentes à\n            Administração Pública municipal.            </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_number\">1</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_text\">Solicitação</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_number\">2</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(3) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_text\">Identificação</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(3) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_number\">3</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(5) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_text\">Enviar</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(5) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_back\" class=\"icon-stoption\">Voltar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_next\" class=\"icon-stoption-a\">Continuar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "elementPresentChildrenNoFocus": [
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://static.nucleogov.com.br/res/img/nucleo/acessibilidade.svg\" class=\"acessibilidade\" alt=\"Acessibilidade\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<img src=\"https://static.nucleogov.com.br/res/img/nucleo/acessibilidade.svg\" class=\"acessibilidade\" alt=\"Acessibilidade\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(4) > img:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_back\" class=\"icon-stoption\">Voltar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_next\" class=\"icon-stoption-a\">Continuar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "textContrastH": [
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a data-tipo-menu=\"custom\">\n                            \n                                \n                            \n                            Menu                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-home\" href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/\">\n                            Início                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-sic\" href=\"cidadao/informacao/sic\">\n                            SIC                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/informacao/sic\" target=\"\" title=\"SIC - Serviço de Informação ao Cidadão\">\n                                                SIC - Serviço de Informação ao Cidadão                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/impressao/relatorio_sic\" target=\"\" title=\"Relatório Estatístico do e-SIC\">\n                                                Relatório Estatístico do e-SIC                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infoclassificadas\" target=\"\" title=\"Informações Classificadas como Sigilosas\">\n                                                Informações Classificadas como Sigilosas                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infodesclassificadas\" target=\"\" title=\"Informações Desclassificadas como Sigilosas\">\n                                                Informações Desclassificadas como Sigilosas                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-chat\" href=\"cidadao/ouvidoria/inicio\">\n                            Ouvidoria                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" target=\"\" title=\"Início\">\n                                                Início                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/solicitacaoservico\" target=\"\" title=\"Solicitação\">\n                                                Solicitação                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/elogio\" target=\"\" title=\"Elogios\">\n                                                Elogios                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/sugestao\" target=\"\" title=\"Sugestões\">\n                                                Sugestões                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/reclamacao\" target=\"\" title=\"Reclamações\">\n                                                Reclamações                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/denuncia\" target=\"\" title=\"Denúncias\">\n                                                Denúncias                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-mais\" data-tipo-menu=\"custom\">\n                            Ver mais                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"p/acessibilidade\" id=\"link_acessibilidade\">\n            \n            ACESSIBILIDADE\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_more_mobile\" title=\"Aumentar fonte\">A+</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_default_mobile\" title=\"Fonte padrão\">A</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_less_mobile\" title=\"Diminuir fonte\">A-</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>VOCÊ ESTÁ AQUI:</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"\">PÁGINA INICIAL</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp; &gt; &nbsp;Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"ouvidoria\">Ouvidoria</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp; &gt; &nbsp;Solicitação</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"ouvidoria/solicitacaoservico\">Solicitação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"logo\" href=\"#teste\">\n                     .\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"teste\">.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Portal do Cidadão da                    Prefeitura de Pontal do Araguaia - MT</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Prefeitura de Pontal do Araguaia - MT</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > h2:nth-child(1) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_more\" title=\"Aumentar fonte\">A+</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_default\" title=\"Fonte padrão\">A</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_less\" title=\"Diminuir fonte\">A-</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"p/acessibilidade\">\n                        \n                        Acessibilidade\n                    </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"alto_contr\">Alto Contraste</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Portal do Cidadão </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span>Solicitação </span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"filtro_mobile\">FILTRO</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > div:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" class=\"button \" target=\"_self\">Início</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/solicitacaoservico\" class=\"button active\" target=\"_self\">Solicitação</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/elogio\" class=\"button \" target=\"_self\">Elogios</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/sugestao\" class=\"button \" target=\"_self\">Sugestões</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/reclamacao\" class=\"button \" target=\"_self\">Reclamações</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/denuncia\" class=\"button \" target=\"_self\">Denúncias</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"h4 bold gray-80\">\n                Enviar solicitação            </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<p class=\"text-p gray-70\">\n                A solicitação é um meio de requerer a execução de algum serviço ou reparo competentes à\n            Administração Pública municipal.            </p>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > p:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_number\">1</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_text\">Solicitação</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(1) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_number\">2</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(3) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_text\">Identificação</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(3) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element doesn't have human language text.",
+            "resultCode": "P2",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_number\">3</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(5) > div:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<div class=\"breadcrumb_step_text\">Enviar</div>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(2) > div:nth-child(5) > div:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_back\" class=\"icon-stoption\">Voltar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Element has contrast ratio higher than minimum.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_next\" class=\"icon-stoption-a\">Continuar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkipFirstNo": [
+          {
+            "verdict": "failed",
+            "description": "The first focusable control on the Web page links to an inexistent element.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"icon-home\" href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/\">\n                            Início                        </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aTitleMatch": [
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/informacao/sic\" target=\"\" title=\"SIC - Serviço de Informação ao Cidadão\">\n                                                SIC - Serviço de Informação ao Cidadão                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/impressao/relatorio_sic\" target=\"\" title=\"Relatório Estatístico do e-SIC\">\n                                                Relatório Estatístico do e-SIC                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infoclassificadas\" target=\"\" title=\"Informações Classificadas como Sigilosas\">\n                                                Informações Classificadas como Sigilosas                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"https://acessoainformacao.pontaldoaraguaia.mt.gov.br/ouvidoria/infodesclassificadas\" target=\"\" title=\"Informações Desclassificadas como Sigilosas\">\n                                                Informações Desclassificadas como Sigilosas                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/inicio\" target=\"\" title=\"Início\">\n                                                Início                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/solicitacaoservico\" target=\"\" title=\"Solicitação\">\n                                                Solicitação                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/elogio\" target=\"\" title=\"Elogios\">\n                                                Elogios                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/sugestao\" target=\"\" title=\"Sugestões\">\n                                                Sugestões                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/reclamacao\" target=\"\" title=\"Reclamações\">\n                                                Reclamações                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "The element contains a title attribute equal to the text in the link",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"cidadao/ouvidoria/denuncia\" target=\"\" title=\"Denúncias\">\n                                                Denúncias                                            </a>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "labelPosNo": [
+          {
+            "verdict": "failed",
+            "description": "The form field has incorrect positioned label.",
+            "resultCode": "F1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"search\" class=\"busca\" placeholder=\"Buscar\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "hx": [
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h2>Portal do Cidadão da                    Prefeitura de Pontal do Araguaia - MT</h2>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1) > h2:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1>Portal do Cidadão </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "warning",
+            "description": "Check that heading markup is used when content is a heading.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"h4 bold gray-80\">\n                Enviar solicitação            </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateBanner": [
+          {
+            "verdict": "passed",
+            "description": "There is one banner landmark",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"\">\n                    \n                Ouvidoria\n                \n                    VOCÊ ESTÁ AQUI:\n                    &nbsp;PÁGINA INICIAL\n                                                &nbsp; &gt; &nbsp;Ouvidoria\n                                                    &nbsp; &gt; &nbsp;Solicitação\n                                        \n            \n        \n        \n            \n                \n                     .\n                \n\n                 . \n            \n        \n\n        \n            \n                \n                                        Portal do Cidadão da                    Prefeitura de Pontal do Araguaia - MT                \n            \n\n                            \n                    A+\n                    A\n                    A-\n                    \n                        \n                        Acessibilidade\n                    \n                    Alto Contraste\n                    \n                \n                    \n\n        \n            \n                \n            \n\n            \n                \n                    Portal do Cidadão \n                \n            \n\n            \n                \n                    Solicitação \n\n                    \n                        \n                        \n                    \n\n                    FILTRO\n                            \n        \n    </header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "noDuplicateMain": [
+          {
+            "verdict": "passed",
+            "description": "There is one main landmark.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main class=\"\">    \n        \n                            \n                    Início\n                \n                            \n                    Solicitação\n                \n                            \n                    Elogios\n                \n                            \n                    Sugestões\n                \n                            \n                    Reclamações\n                \n                            \n                    Denúncias\n                \n                    \n    \n\n\n    \n    \n\n\n\n\n    \n        \n            \n                Enviar solicitação            \n            \n                A solicitação é um meio de requerer a execução de algum serviço ou reparo competentes à\n            Administração Pública municipal.            \n        \n    \n\n    \n\n        \n            1\n            Solicitação\n        \n\n        \n\n        \n            2\n            Identificação\n        \n\n        \n\n        \n            3\n            Enviar\n        \n\n    \n\n    \n\n    \n\n    \n        Voltar\n        Continuar\n    \n\n\n\n</main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "notOneh1": [
+          {
+            "verdict": "failed",
+            "description": "",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h1>Ouvidoria</h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h1>Portal do Cidadão </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "failed",
+            "description": "",
+            "resultCode": "F2",
+            "elements": [
+              {
+                "htmlCode": "<h1 class=\"h4 bold gray-80\">\n                Enviar solicitação            </h1>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(1) > div:nth-child(1) > h1:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "a": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"logo\" href=\"#teste\">\n                     .\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<span id=\"teste\">.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "aSkip": [
+          {
+            "verdict": "warning",
+            "description": "This link skips a content block.",
+            "resultCode": "W1",
+            "elements": [
+              {
+                "htmlCode": "<a class=\"logo\" href=\"#teste\">\n                     .\n                </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)"
+              },
+              {
+                "htmlCode": "<span id=\"teste\">.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "bannerTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The banner landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<header class=\"\">\n                    \n                Ouvidoria\n                \n                    VOCÊ ESTÁ AQUI:\n                    &nbsp;PÁGINA INICIAL\n                                                &nbsp; &gt; &nbsp;Ouvidoria\n                                                    &nbsp; &gt; &nbsp;Solicitação\n                                        \n            \n        \n        \n            \n                \n                     .\n                \n\n                 . \n            \n        \n\n        \n            \n                \n                                        Portal do Cidadão da                    Prefeitura de Pontal do Araguaia - MT                \n            \n\n                            \n                    A+\n                    A\n                    A-\n                    \n                        \n                        Acessibilidade\n                    \n                    Alto Contraste\n                    \n                \n                    \n\n        \n            \n                \n            \n\n            \n                \n                    Portal do Cidadão \n                \n            \n\n            \n                \n                    Solicitação \n\n                    \n                        \n                        \n                    \n\n                    FILTRO\n                            \n        \n    </header>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "liSemantically": [
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"topo_aux\"></li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                        \n                            \n                                \n                            \n                            Menu                        \n                        \n                    </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"\">\n                        \n                            Início                        \n\n                                            </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"md\">\n                        \n                            SIC                        \n\n                                                    \n                            \n                                \n                                                                            \n                                            \n                                                SIC - Serviço de Informação ao Cidadão                                            \n                                        \n                                                                            \n                                            \n                                                Relatório Estatístico do e-SIC                                            \n                                        \n                                                                            \n                                            \n                                                Informações Classificadas como Sigilosas                                            \n                                        \n                                                                            \n                                            \n                                                Informações Desclassificadas como Sigilosas                                            \n                                        \n                                                                    \n                            \n                                            </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                SIC - Serviço de Informação ao Cidadão                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Relatório Estatístico do e-SIC                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Informações Classificadas como Sigilosas                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Informações Desclassificadas como Sigilosas                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"md\">\n                        \n                            Ouvidoria                        \n\n                                                    \n                            \n                                \n                                                                            \n                                            \n                                                Início                                            \n                                        \n                                                                            \n                                            \n                                                Solicitação                                            \n                                        \n                                                                            \n                                            \n                                                Elogios                                            \n                                        \n                                                                            \n                                            \n                                                Sugestões                                            \n                                        \n                                                                            \n                                            \n                                                Reclamações                                            \n                                        \n                                                                            \n                                            \n                                                Denúncias                                            \n                                        \n                                                                    \n                            \n                                            </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Início                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Solicitação                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Elogios                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Sugestões                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Reclamações                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                                            \n                                                Denúncias                                            \n                                        </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li class=\"\">\n                        \n                            Ver mais                        \n\n                                            </li>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>VOCÊ ESTÁ AQUI:</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp;PÁGINA INICIAL</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp; &gt; &nbsp;Ouvidoria</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>&nbsp; &gt; &nbsp;Solicitação</li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    Início\n                </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    Solicitação\n                </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    Elogios\n                </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    Sugestões\n                </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    Reclamações\n                </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "Listitem is used semantically",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<li>\n                    Denúncias\n                </li>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "listCorrectly": [
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"top\">\n            \n                                \n                        \n                            \n                                \n                            \n                            Menu                        \n                        \n                    \n                        </ul>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul class=\"middle\">\n                                \n                        \n                            Início                        \n\n                                            \n                                    \n                        \n                            SIC                        \n\n                                                    \n                            \n                                \n                                                                            \n                                            \n                                                SIC - Serviço de Informação ao Cidadão                                            \n                                        \n                                                                            \n                                            \n                                                Relatório Estatístico do e-SIC                                            \n                                        \n                                                                            \n                                            \n                                                Informações Classificadas como Sigilosas                                            \n                                        \n                                                                            \n                                            \n                                                Informações Desclassificadas como Sigilosas                                            \n                                        \n                                                                    \n                            \n                                            \n                                    \n                        \n                            Ouvidoria                        \n\n                                                    \n                            \n                                \n                                                                            \n                                            \n                                                Início                                            \n                                        \n                                                                            \n                                            \n                                                Solicitação                                            \n                                        \n                                                                            \n                                            \n                                                Elogios                                            \n                                        \n                                                                            \n                                            \n                                                Sugestões                                            \n                                        \n                                                                            \n                                            \n                                                Reclamações                                            \n                                        \n                                                                            \n                                            \n                                                Denúncias                                            \n                                        \n                                                                    \n                            \n                                            \n                                    \n                        \n                            Ver mais                        \n\n                                            \n                        </ul>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                                                                            \n                                            \n                                                SIC - Serviço de Informação ao Cidadão                                            \n                                        \n                                                                            \n                                            \n                                                Relatório Estatístico do e-SIC                                            \n                                        \n                                                                            \n                                            \n                                                Informações Classificadas como Sigilosas                                            \n                                        \n                                                                            \n                                            \n                                                Informações Desclassificadas como Sigilosas                                            \n                                        \n                                                                    </ul>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(2) > div:nth-child(3) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                                                                            \n                                            \n                                                Início                                            \n                                        \n                                                                            \n                                            \n                                                Solicitação                                            \n                                        \n                                                                            \n                                            \n                                                Elogios                                            \n                                        \n                                                                            \n                                            \n                                                Sugestões                                            \n                                        \n                                                                            \n                                            \n                                                Reclamações                                            \n                                        \n                                                                            \n                                            \n                                                Denúncias                                            \n                                        \n                                                                    </ul>",
+                "pointer": "html > body:nth-child(2) > nav:nth-child(3) > ul:nth-child(3) > li:nth-child(3) > div:nth-child(3) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                    VOCÊ ESTÁ AQUI:\n                    &nbsp;PÁGINA INICIAL\n                                                &nbsp; &gt; &nbsp;Ouvidoria\n                                                    &nbsp; &gt; &nbsp;Solicitação\n                                        </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(1) > ul:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "List is used correctly",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<ul>\n                            \n                    Início\n                \n                            \n                    Solicitação\n                \n                            \n                    Elogios\n                \n                            \n                    Sugestões\n                \n                            \n                    Reclamações\n                \n                            \n                    Denúncias\n                \n                    </ul>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(1) > ul:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "mainTopLevel": [
+          {
+            "verdict": "passed",
+            "description": "The main landmark is at top level.",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<main class=\"\">    \n        \n                            \n                    Início\n                \n                            \n                    Solicitação\n                \n                            \n                    Elogios\n                \n                            \n                    Sugestões\n                \n                            \n                    Reclamações\n                \n                            \n                    Denúncias\n                \n                    \n    \n\n\n    \n    \n\n\n\n\n    \n        \n            \n                Enviar solicitação            \n            \n                A solicitação é um meio de requerer a execução de algum serviço ou reparo competentes à\n            Administração Pública municipal.            \n        \n    \n\n    \n\n        \n            1\n            Solicitação\n        \n\n        \n\n        \n            2\n            Identificação\n        \n\n        \n\n        \n            3\n            Enviar\n        \n\n    \n\n    \n\n    \n\n    \n        Voltar\n        Continuar\n    \n\n\n\n</main>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          }
+        ],
+        "idAtt": [
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"p/acessibilidade\" id=\"link_acessibilidade\">\n            \n            ACESSIBILIDADE\n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_more_mobile\" title=\"Aumentar fonte\">A+</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_default_mobile\" title=\"Fonte padrão\">A</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_less_mobile\" title=\"Diminuir fonte\">A-</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(4)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"alto_contr_mobile\">\n            \n            \n        </a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > div:nth-child(1) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<span id=\"teste\">.</span>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(2) > span:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_more\" title=\"Aumentar fonte\">A+</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_default\" title=\"Fonte padrão\">A</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"font_less\" title=\"Diminuir fonte\">A-</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<a href=\"javascript:void(0)\" id=\"alto_contr\">Alto Contraste</a>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(3) > div:nth-child(2) > a:nth-child(5)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<input id=\"search\" class=\"busca\" placeholder=\"Buscar\" type=\"text\">",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > header:nth-child(2) > div:nth-child(4) > div:nth-child(3) > div:nth-child(2) > input:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<section id=\"container_forms\">\n\n    </section>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(3)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_back\" class=\"icon-stoption\">Voltar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(1)"
+              }
+            ],
+            "attributes": []
+          },
+          {
+            "verdict": "passed",
+            "description": "",
+            "resultCode": "P1",
+            "elements": [
+              {
+                "htmlCode": "<button id=\"buttons_next\" class=\"icon-stoption-a\">Continuar</button>",
+                "pointer": "html > body:nth-child(2) > div:nth-child(4) > main:nth-child(3) > div:nth-child(2) > div:nth-child(2) > section:nth-child(4) > button:nth-child(2)"
+              }
+            ],
+            "attributes": []
+          }
+        ]
+      },
+      "date": "2026-09-22 00:15:39",
+      "tot": {
+        "info": {
+          "url": "",
+          "title": "Solicitação - Prefeitura de Pontal do Araguaia - MT",
+          "date": "2026-09-22 00:15:39",
+          "htmlTags": 1021,
+          "roles": {
+            "document": 1,
+            "generic": 49,
+            "navigation": 1,
+            "list": 7,
+            "listitem": 26,
+            "link": 36,
+            "img": 2,
+            "banner": 1,
+            "heading": 4,
+            "textbox": 1,
+            "main": 1,
+            "region": 4,
+            "paragraph": 1,
+            "button": 2
+          },
+          "cTags": {
+            "html": 1,
+            "head": 1,
+            "meta": 3,
+            "base": 1,
+            "link": 10,
+            "script": 13,
+            "style": 852,
+            "title": 1,
+            "body": 1,
+            "noscript": 1,
+            "div": 40,
+            "nav": 1,
+            "ul": 7,
+            "li": 26,
+            "a": 38,
+            "span": 8,
+            "img": 2,
+            "header": 1,
+            "h1": 3,
+            "h2": 1,
+            "br": 1,
+            "input": 1,
+            "main": 1,
+            "section": 4,
+            "p": 1,
+            "button": 2
+          },
+          "size": 3872311,
+          "encoding": "utf-8",
+          "lang": "",
+          "content": "text/html",
+          "hash": "6d15805ce05040d6166a1f1aa0ec394d",
+          "tests": 25,
+          "conform": "6@0@0",
+          "score": "7.3"
+        },
+        "elems": {
+          "titleOk": 1,
+          "scrollable": 0,
+          "langNo": 1,
+          "button": 2,
+          "buttonAname": 2,
+          "a": 37,
+          "linkNotAName": 1,
+          "svg": 0,
+          "aSameText": 3,
+          "iframeSame": 0,
+          "img": 2,
+          "hxHasAName": 4,
+          "headers": 0,
+          "menuItem": 0,
+          "id": 55,
+          "colorContrastOk": 55,
+          "elementPresentChildrenNoFocus": 4,
+          "textContrastH": 54,
+          "aSkipFirstNo": 1,
+          "aTitleMatch": 10,
+          "labelPosNo": 1,
+          "dd,dt": 0,
+          "dl": 0,
+          "hx": 4,
+          "noDuplicateBanner": 1,
+          "noDuplicateMain": 1,
+          "h1": 3,
+          "notOneh1": 3,
+          "aSkip": 1,
+          "bannerTopLevel": 1,
+          "li": 26,
+          "liSemantically": 26,
+          "listCorrectly": 6,
+          "mainTopLevel": 1,
+          "idAtt": 14,
+          "area": 0,
+          "inpImg": 38,
+          "label": 1,
+          "form": 0,
+          "tableData": 0,
+          "tableLayout": 0,
+          "tableComplex": 0,
+          "iframe": 0,
+          "ehandler": 0
+        },
+        "results": {
+          "title_06": "10@9",
+          "lang_03": "1@1.8",
+          "button_01": "10@18",
+          "a_11": "3@10.508108108108107",
+          "a_09": "something",
+          "input_02b": "something",
+          "img_01a": "10@16.2",
+          "heading_01": "10@18",
+          "color_02b": "10@18",
+          "element_08": "10@18",
+          "textC_01": "10@18",
+          "a_01b": "3@4.859999999999999",
+          "a_05": "5@8.756756756756756",
+          "label_02": "3@9.719999999999999",
+          "layout_01a": "10@18",
+          "hx_01b": "something",
+          "landmark_09": "10@18",
+          "landmark_13": "10@18",
+          "heading_04": "1@1.8",
+          "a_02b": "something",
+          "landmark_01": "10@18",
+          "listitem_01": "10@18",
+          "list_02": "10@18",
+          "landmark_07": "10@18",
+          "id_01": "10@18"
+        }
+      },
+      "conform": "6@0@0",
+      "score": "7.3"
+    }
+  },
+  "accessmonitor": {
+    "timestamp": "2026-09-22T00:15:39.518Z",
+    "requestedUrl": "https://acessoainformacao.pontaldoaraguaia.mt.gov.br/cidadao/ouvidoria/solicitacaoservico",
+    "inputMode": "downloaded-html",
+    "download": {
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 18746,
+      "htmlFile": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/download_acessoainformacao.pontaldoaraguaia.mt.gov.br_034.html"
+    }
+  }
+}
