@@ -2,7 +2,7 @@ Falha DNS
 Total: 5
 
 
-1. https://amaramirassoldoeste.mt.gov.br
+1. https://camaramirassoldoeste.mt.gov.br
 Explicação: Domínio não resolveu DNS durante a coleta; registro ausente, expirado ou falha temporária.
 Erro: Não foi possível baixar HTML: [Errno -2] Name or service not known
 
