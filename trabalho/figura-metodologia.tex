@@ -1,0 +1,81 @@
+% ============================================================
+% Figura: Processo metodológico
+% Requer no preâmbulo:
+%   \usepackage{tikz}
+%   \usetikzlibrary{positioning,arrows.meta,fit,backgrounds,calc}
+% Uso no corpo do texto:  \input{figura-metodologia}
+% ============================================================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  node distance=5mm and 12mm,
+  etapa/.style={rectangle, rounded corners=2pt, draw=black!70, fill=white,
+                text width=5.2cm, align=center, font=\small,
+                minimum height=1.2cm, inner sep=4pt},
+  apoio/.style={etapa, dashed, fill=black!5},
+  seta/.style={-{Stealth[length=2.5mm]}, thick, draw=black!70},
+  fase/.style={draw=black!40, fill=black!4, rounded corners=4pt, inner sep=3mm},
+  titulo/.style={font=\bfseries\small, minimum height=9mm, anchor=north, text width=5.2cm, align=center}
+]
+
+% ---------------- Fase 1: Levantamento ----------------
+\node[titulo] (t1) {Fase 1\\Levantamento};
+\node[etapa, below=of t1] (e1)
+  {Identificação dos portais de prefeituras e câmaras\\{\footnotesize(Radar da Transparência; 314 URLs)}};
+\node[etapa, below=of e1] (e2)
+  {Localização manual dos canais de ouvidoria\\{\footnotesize(142 municípios; 137 URLs únicas)}};
+\node[etapa, below=of e2] (e3)
+  {Classificação do tipo de ouvidoria\\[2pt]
+   {\scriptsize integrada ao portal $\cdot$ sistema próprio (domínio/subdomínio)
+    $\cdot$ terceirizada $\cdot$ Fala.BR $\cdot$ formulário simples
+    $\cdot$ não localizada $\cdot$ indisponível}};
+
+% ---------------- Fase 2: Avaliação ----------------
+\node[titulo, right=of t1] (t2) {Fase 2\\Avaliação automatizada};
+\node[apoio, below=of t2] (e4)
+  {\textit{Scripts} em Python\\{\footnotesize(requisições diretas ao serviço de avaliação)}};
+\node[etapa, below=of e4] (e5)
+  {Avaliação com AMAWeb e AccessMonitor\\{\footnotesize (WCAG 2.1) portais e ouvidorias}};
+\node[apoio, below=of e5] (e5b)
+  {Contingência: envio do HTML baixado\\{\footnotesize(bloqueio Cloudflare; repetição de falhas)}};
+\node[etapa, below=of e5b] (e6)
+  {Registro de evidências\\{\footnotesize JSON bruto, relatório PDF e CSV por execução}};
+
+% ---------------- Fase 3: Consolidação e análise ----------------
+\node[titulo, right=of t2] (t3) {Fase 3\\Consolidação e análise};
+\node[etapa, below=of t3] (e7)
+  {Planilha padronizada\\{\footnotesize Município, População, URLs, Notas, Erros, data/hora}};
+\node[apoio, below=of e7] (e8)
+  {Dados complementares\\{\footnotesize População (IBGE, jun./2026), PIB \textit{per capita}, IDHM (2010)}};
+\node[etapa, below=of e8] (e9)
+  {Indicadores\\{\footnotesize média simples das notas; diferença portal $-$ ouvidoria}};
+\node[etapa, below=of e9] (e10)
+  {Ranqueamento, classificação e correlação porte $\times$ acessibilidade};
+
+% ---------------- Caixas das fases (mesma altura) ----------------
+\begin{scope}[on background layer]
+  \node[fase, fit=(t1)(e1)(e3)(e3|-e10.south)] (f1) {};
+  \node[fase, fit=(t2)(e4)(e6)(e6|-e10.south)] (f2) {};
+  \node[fase, fit=(t3)(e7)(e10)] (f3) {};
+\end{scope}
+
+% ---------------- Setas ----------------
+\draw[seta] (e1) -- (e2);
+\draw[seta] (e2) -- (e3);
+\draw[seta] (e4) -- (e5);
+\draw[seta] (e5) -- (e5b);
+\draw[seta] (e5b) -- (e6);
+\draw[seta] (e7) -- (e8);
+\draw[seta] (e8) -- (e9);
+\draw[seta] (e9) -- (e10);
+
+\draw[seta] (f1.east) -- node[above, font=\scriptsize, align=center]{URLs}   (f2.west);
+\draw[seta] (f2.east) -- node[above, font=\scriptsize, align=center]{notas}  (f3.west);
+
+\end{tikzpicture}%
+}
+\caption{Processo metodológico adotado na avaliação da acessibilidade dos portais
+institucionais e canais de ouvidoria dos municípios de Mato Grosso.}
+\label{fig:metodologia}
+\end{figure}

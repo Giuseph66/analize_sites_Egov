@@ -1,0 +1,286 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}  
+\usepackage{booktabs}
+
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds,calc}
+
+     
+\sloppy
+
+\title{Evaluation of the Digital Accessibility of Institutional Portals and Electronic Ombudsman Channels in the Municipalities of Mato Grosso}
+
+\author{José Augusto Pereira\inst{1}, Giuseph de Luka Giangareli\inst{1}, Claudemir Marcelino Avelino\inst{1}, \\ Lucas Rocha Bariani\inst{1} Jean Zahn\inst{1} Wellynton Diniz \inst{1}}
+
+\address{Department of Computer Engineering -- Faculdade de Tecnologia de Sinop (FASTECH)\\
+    Estrada Claudete 442a -- 91.501-970 -- Sinop -- MT -- Brazil
+  \email{\{jpereira, ggiangareli, cavelino, lbariani, jzahn, wdiniz\}@enc.fastech.edu.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+\textbf{Research Context:} Digital accessibility is a legal and social requirement for Brazilian government portals, particularly for ombudsman (ouvidoria) services, an essential channel for interaction between citizens and municipal public administration.
+\textbf{Scientific and/or Practical Problem:} There is no systematic evidence on the level of digital accessibility of the institutional portals of Mato Grosso's municipalities, nor on whether this standard is maintained in their electronic ombudsman channels, which are often hosted on separate domains or systems.
+\textbf{Proposed Solution and/or Analysis:} This study proposes evaluating, using the automated tool AMAWeb (based on WCAG 2.1), the official portals and their corresponding ombudsman channels for all municipalities in the state, comparing the scores obtained to identify consistency or disparity between the two environments.
+\textbf{Related IS Theory:} The study draws on the DeLone \& McLean IS Success Model, in which system quality, here operationalized through compliance with accessibility guidelines, is a relevant antecedent of effective use and citizen satisfaction with public digital services.
+\textbf{Research Method:} A descriptive and comparative study, with a quantitative approach, involving a census-based automated evaluation of Mato Grosso's municipalities, classification of ombudsman channels by type, data recorded in a standardized spreadsheet (Municipality, Population, URLs, Scores, Errors, date/time), and evidence collection through screenshots and AMAWeb reports.
+\textbf{Summary of Results:} The study is expected to identify the percentage of municipalities with accessible portals and ombudsman channels, map the most common types of ombudsman solutions, and verify whether a correlation exists between population size and level of accessibility.
+\textbf{Contributions and Impact to IS area:} This work offers an unprecedented diagnosis of public digital accessibility in Mato Grosso, supports public managers in prioritizing improvements, and expands the empirical application of AMAWeb as an evaluation instrument in Information Systems research for the public sector.
+\end{abstract}
+     
+\begin{resumo} 
+\textbf{Research Context:} A acessibilidade digital é um requisito legal e social para portais governamentais brasileiros, especialmente em serviços de ouvidoria, canal essencial de interação entre cidadão e administração pública municipal.
+\textbf{Scientific and/or Practical Problem:} Não há evidências sistemáticas sobre o nível de acessibilidade dos portais institucionais das prefeituras de Mato Grosso nem sobre se esse padrão se mantém nos canais eletrônicos de ouvidoria, muitas vezes hospedados em domínios ou sistemas distintos.
+\textbf{Proposed Solution and/or Analysis:} Propõe-se avaliar, com a ferramenta automatizada AMAWeb (baseada nas WCAG 2.1), os portais oficiais e os respectivos canais de ouvidoria de todos os municípios do estado, comparando as notas obtidas para identificar consistência ou disparidade entre os dois ambientes.
+\textbf{Related IS Theory:} O estudo se apoia no DeLone & McLean IS Success Model, no qual a qualidade do sistema, aqui operacionalizada pela conformidade com diretrizes de acessibilidade, é um antecedente relevante do uso efetivo e da satisfação dos cidadãos com serviços digitais públicos.
+\textbf{Research Method:} Pesquisa descritiva e comparativa, de abordagem quantitativa, com avaliação automatizada censitária dos municípios de Mato Grosso, classificação dos canais de ouvidoria por tipo, registro em planilha padronizada (Município, População, URLs, Notas, Erros, data/hora) e evidenciação por captura de tela e relatório do AMAWeb.
+\textbf{Summary of Results:} Espera-se identificar o percentual de municípios com portais e ouvidorias acessíveis, mapear os tipos de solução de ouvidoria mais comuns e verificar se existe correlação entre porte populacional e nível de acessibilidade.
+\textbf{Contributions and Impact to IS area:} O trabalho oferece um diagnóstico inédito da acessibilidade digital pública em Mato Grosso, subsidia gestores na priorização de melhorias e amplia a aplicação empírica do AMAWeb como instrumento de avaliação em Sistemas de Informação para o setor público.
+\end{resumo}
+
+
+\section{Introdução}
+
+A acessibilidade digital e um requisito legal e social para portais governamentais brasileiros, desta forma entender se os portais municipais assim como suas ouvidorias atende a esses critérios e importante para garantir a equidade de todos os cidadães e também para garantir a interação entre todos os cidadãos com acesso a internet e administração publica. Em seu trabalho \cite{wcge} realizou uma analise dos portais governamentais apresentou um dado interessante sobre a consistência da pontuação de acessibilidade nas paginas secundaria, desta forma como o trabalho nasce de um grupo que tem como foco governo digital e ouvidorias municipais como objeto de estudo seria interessante registar se há alguma consistência entre o portal da prefeitura e pagina da ouvidoria. 
+
+A escolha do estado de Mato Grosso ocorre por suas características geográficas, demográficas e administrativas, o que o torna relevante para a analise da acessibilidade dos serviços públicos, disponibilizados em meios digitais. O estado possui mais de 900 mil km² e baixa densidade demográfica, tendo seus municípios distribuídos em um  amplo território e diferentes faixas populacionais. Nesse contexto, os canais digitais da administração pública municipal podem assumir papel importante na aproximação entre cidadãos e poder público, possibilitando o acesso a informações, serviços e mecanismos de participação sem a necessidade de deslocamento físico.
+
+Ao analisamos os município mato-grossenses permite entender como a acessibilidade digital e pedimentada, permitindo investigar possíveis diferenças de implantação relacionadas a a característico as distintas tanto populacional quanto socioeconômicas. Essa delimitação favorece a realização de uma avaliação comparativa e padronizada dos portais institucionais das prefeituras e de seus respectivos canais eletrônicos de ouvidoria.
+
+O escopo do trabalho se alinhada às iniciativas atuais de transformação digital da administração pública. No âmbito estadual, Mato Grosso instituiu sua Agenda Estratégica Digital para o período de 2023 a 2027, que apresentava como uma de suas metas a "Adaptar todos os serviços digitais do Poder Executivo estadual ao padrão de acessibilidade eMAG, até 2026". \cite{matogrosso:2023} contemplando ações relacionadas à modernização, inovação e transformação digital da administração pública. Dessa forma, avaliar a acessibilidade dos canais digitais municipais pode contribuir para identificar barreiras existentes e fornecer um diagnóstico sobre as condições de acesso digital oferecidas aos cidadãos no estado.
+
+
+\section{Trabalhos relacionados}
+A Acessibilidade em portais governamentais tem sido investigada de sob diferentes perspectivas, abrangendo desde órgãos da administração publica federal, estadual e municipal. De modo geral os estudos apontam a existência de dificuldades recorrentes no atendimento  ás recomendações de acessibilidade digital, mesmo diante da existência de normas e modelos específicos para o contexto governamental brasileiro. 
+
+\cite{sbsi} realizaram em 2015 um estudo voltados à aplicação de padrões de acessibilidade em portais governamentais brasileiros. Os autores avaliaram 39 sítios relacionados aos ministérios do Governo Federal, considerando padrões e recomendações como o Modelo de Acessibilidade em Governo Eletrônico (e-MAG) e padrões web estabelecidos pelo W3C. Os resultados evidenciaram a presença de erros capazes de comprometer o acesso às informações e aos serviços digitais, indicando que, apesar da existência de diretrizes governamentais, sua aplicação ainda ocorria de maneira insuficiente.
+
+Posteriormente \cite{10.1145/3411564.3411656} retornam a investigação sobre acessibilidade no Governo Federal, com o objetivo de analisar a evolução dos portais governamentais em relação às avaliações anteriores,  possibilitou observar alterações ocorridas nos portais ao longo do tempo e verificar em que medida as iniciativas adotadas pelo Governo Federal refletiram em melhorias na acessibilidade. Demostrando a importância não apenas de identificar problemas pontuais, mas também de realizar avaliações periódicas para acompanhar a evolução da acessibilidade dos sistemas de informação governamentais.
+
+Essa linha de investigação foi novamente explorada por  \cite{10.1145/3658271.3658276}  realizou um estudo de replicação sobre acessibilidade digital em 36 portais do Governo Federal deses o mesmo identificou que foi possível analisar a evolução de apenas 17 portais, ele Utilizou o ASES, para verificar a conformidade com o eMAG e  a ferramenta Wappalyzer. Destaca no texto a questão do padrão E-mag ser de 2014 quando o WCAG era de 2023 ano do estudo. nosso trabalho busca esse registo dos resultados no ano de 2026, para que serva de base para outros futuros trabalhos comparativos.
+
+No âmbito dos municípios \cite{sbsiAmorim_Menezes} propuseram uma metodologia de avaliação de Portais da Transparências Municipais,com base nas normas da série ISO/IEC 25000 e na legislação brasileira. A pesquisa demonstra a viabilidade da utilização de procedimentos padronizados para analisar um número significativo de portais públicos, reduzindo a subjetividade do processo avaliativo. 
+
+Em um estudo que aborda especificamente as ouvidorias públicas, \cite{wcge} investigam o uso de Tecnologias da Informação e Comunicação nas Ouvidorias  
+
+\section{Metodologia}
+
+Iniciamos com a identificação dos portais das prefeituras e ouvidorias de todos os 143 municípios dos do estado, depois realizamos a analise da acessibilidade do portal pela ferramenta do AMAweb e ****, de todos e salvamos o relatório da analise em pdf e json, foi desenvolvido um script de sraping para tormar o trabalho mais ágil.
+
+Desenvolvemos uma planilha para fazer o ranqueamento da notas obtidas e uma classificação dos portais os indicadores utilizados consiste ma media simples entre as notas do portais e também a diferença entre a nota do portal da prefeitura e do portal da ouvidoria, definida assim por considerar a forma que o cidadão acessa o canal, outra classificação que utilizamos foi a identificação do tipo de ouvidoria, sendo integrada ao portal principal, sistema próprio em domínio/subdomínio distinto, terceirizada, utiliza o Fala.BR, formulário simples, não localizada e indisponível (no momento da coleta). 
+
+Também foram informados na planilha de analise informações sobre população estimativa IBGE junho de 2026, PIB per capita, Índice de desenvolvimento municipal utilizado o de 2010,  
+
+\input{figura-metodologia}
+
+\section{Resultados e discussões}
+
+\subsection{Caracterização dos dados}
+
+%%Quantidade de portais por tipo, periodo de coleta
+%%Tipos de solução de ouvidoria
+
+A coleta foi realizada entre XX/XX/2026 e XX/XX/2026. Dos 143 municípios de Mato Grosso, XX tiveram o portal institucional avaliado e XX tiveram o canal de ouvidoria avaliado. A Tabela~\ref{tab:amostra} resume a cobertura da coleta.
+ 
+\begin{table}[ht]
+\centering
+\caption{Cobertura da coleta nos municípios de Mato Grosso}
+\label{tab:amostra}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Situação} & \textbf{Municípios} & \textbf{\%} \\
+\midrule
+Portal e ouvidoria avaliados          & XX & XX \\
+Apenas portal avaliado                & XX & XX \\
+Ouvidoria não localizada              & XX & XX \\
+Ouvidoria indisponível no momento     & XX & XX \\
+Portal indisponível no momento        & XX & XX \\
+\midrule
+\textbf{Total}                        & \textbf{143} & \textbf{100} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+A Tabela~\ref{tab:tipos} apresenta a frequência de cada tipo de solução de
+ouvidoria e as notas médias correspondentes.
+ 
+\begin{table}[ht]
+\centering
+\caption{Tipos de solução de ouvidoria e notas médias}
+\label{tab:tipos}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Tipo} & \textbf{$n$} & \textbf{\%} & \textbf{Nota ouvidoria} & \textbf{Diferença média} \\
+\midrule
+Integrada ao portal principal        & XX & XX & XX & XX \\
+Sistema próprio (domínio distinto)   & XX & XX & XX & XX \\
+Terceirizada                         & XX & XX & XX & XX \\
+Fala.BR                              & XX & XX & XX & XX \\
+Formulário simples                   & XX & XX & XX & XX \\
+Não localizada                       & XX & XX & ---  & ---  \\
+Indisponível                         & XX & XX & ---  & ---  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Acessibilidade dos portais institucionais e canais de ouvidoria}
+
+--Estatística descritiva das notas do AMAWeb e AcessMonitor (média, mediana, desvio-padrão, mínimo e máximo) e distribuição por faixas de nota.
+
+A Tabela~\ref{tab:descritiva} apresenta a estatística descritiva das notas
+obtidas no AMAWeb para os dois ambientes. Considerou-se acessível o
+ambiente com nota igual ou superior a XX. %justificar o ponto de corte
+ 
+\begin{table}[H]
+\centering
+\caption{Estatística descritiva das notas de acessibilidade}
+\label{tab:descritiva}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Medida} & \textbf{Portal} & \textbf{Ouvidoria} \\
+\midrule
+$n$                          & XX & XX \\
+Média                        & XX & XX \\
+Mediana                      & XX & XX \\
+Desvio-padrão                & XX & XX \\
+Mínimo                       & XX & XX \\
+Máximo                       & XX & XX \\
+\% acima do ponto de corte   & XX & XX \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+%talvez fazer um gráfico boxplot
+
+Os erros mais frequentes estão listados na Tabela~\ref{tab:erros_portais}.
+ 
+\begin{table}[H]
+\centering
+\caption{Erros de acessibilidade mais frequentes}
+\label{tab:erros_portais}
+\small
+\begin{tabular}{llrr}
+\toprule
+\textbf{Erro} & \textbf{Critério WCAG 2.1} & \textbf{Portais (\%)} & \textbf{Ouvidorias (\%)} \\
+\midrule
+XX & X.X.X & XX & XX \\
+XX & X.X.X & XX & XX \\
+XX & X.X.X & XX & XX \\
+XX & X.X.X & XX & XX \\
+XX & X.X.X & XX & XX \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Relação com porte populacional e indicadores socioeconômicos}
+
+A Tabela~\ref{tab:correlacao} apresenta os coeficientes de correlação de
+Spearman entre as notas e os indicadores municipais.
+ 
+\begin{table}[H]
+\centering
+\caption{Correlação de Spearman ($\rho$) entre notas e indicadores municipais}
+\label{tab:correlacao}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Indicador} & \textbf{Portal} & \textbf{Ouvidoria} \\
+\midrule
+População (IBGE, 2026)   & XX & XX \\
+PIB \textit{per capita}  & XX & XX \\
+IDHM (2010)              & XX & XX \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize * $p < 0{,}05$; ** $p < 0{,}01$}
+\end{tabular}
+\end{table}
+ 
+\begin{table}[ht]
+\centering
+\caption{Notas médias por faixa populacional}
+\label{tab:faixas}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Faixa populacional} & \textbf{$n$} & \textbf{Portal} & \textbf{Ouvidoria} \\
+\midrule
+Até 10 mil habitantes      & XX & XX & XX \\
+De 10 a 50 mil habitantes  & XX & XX & XX \\
+Acima de 50 mil habitantes & XX & XX & XX \\
+\bottomrule
+\end{tabular}
+\end{table}
+ 
+
+
+\subsection{Ranqueamento dos municípios}
+
+%por ferramenta ou fazer a média entre as duas (Trazer os 10+ e 10-)
+
+O ranqueamento considerou a média simples entre as notas do portal e da
+ouvidoria. A Tabela~\ref{tab:ranking} apresenta os dez municípios mais bem
+posicionados; a lista completa está disponível em XX. % TODO: Adicionar tabela completa no zenodo
+ 
+\begin{table}[ht]
+\centering
+\caption{Dez municípios com maiores médias de acessibilidade}
+\label{tab:ranking}
+\begin{tabular}{rlrrrr}
+\toprule
+\textbf{\#} & \textbf{Município} & \textbf{Portal} & \textbf{Ouvidoria} & \textbf{Média} & \textbf{Diferença} \\
+\midrule
+1  & XX & XX & XX & XX & XX \\
+2  & XX & XX & XX & XX & XX \\
+3  & XX & XX & XX & XX & XX \\
+4  & XX & XX & XX & XX & XX \\
+5  & XX & XX & XX & XX & XX \\
+6  & XX & XX & XX & XX & XX \\
+7  & XX & XX & XX & XX & XX \\
+8  & XX & XX & XX & XX & XX \\
+9  & XX & XX & XX & XX & XX \\
+10 & XX & XX & XX & XX & XX \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\begin{table}[H]
+\centering
+\caption{Dez municípios com menores médias de acessibilidade}
+\label{tab:ranking_ultimos}
+\begin{tabular}{rlrrrr}
+\toprule
+\textbf{\#} & \textbf{Município} & \textbf{Portal} & \textbf{Ouvidoria} & \textbf{Média} & \textbf{Diferença} \\
+\midrule
+143  & XX & XX & XX & XX & XX \\
+142  & XX & XX & XX & XX & XX \\
+141  & XX & XX & XX & XX & XX \\
+140  & XX & XX & XX & XX & XX \\
+139  & XX & XX & XX & XX & XX \\
+138  & XX & XX & XX & XX & XX \\
+137  & XX & XX & XX & XX & XX \\
+136  & XX & XX & XX & XX & XX \\
+135  & XX & XX & XX & XX & XX \\
+134 & XX & XX & XX & XX & XX \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Considerações finais}
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
