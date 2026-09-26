@@ -897,10 +897,6 @@ function addAnalysisSheet(workbook, analysis) {
     analysis.unknown.length, "#E8F0F7");
   summaryCard(sheet, "K4:M4", "K5:M5", "Comparações entre ferramentas",
     analysis.comparison.length, "#E8F0F7");
-  sheet.getRange("A6").values = [[
-    "Cada cidade recebe a média de suas avaliações válidas na categoria e ferramenta. Empates: ordem alfabética.",
-  ]];
-  sheet.getRange("A6").format.font = { name: "Arial", size: 10, color: "#475569" };
   const heading = ["Pos.", "Município", "Nota média", "Avaliações", "Última avaliação", "URL(s)"];
   for (let i = 0; i < 6; i += 1) {
     const width = [14, 31, 18, 18, 21, 50][i];
@@ -1019,10 +1015,6 @@ function addErrorSheet(workbook, errors) {
     errors.events, "#FFF1D6");
   summaryCard(sheet, "G4:I4", "G5:I5", "Linhas com avaliação válida",
     errors.rows.filter(row => row.recovered).length, "#FFF1D6");
-  sheet.getRange("A6").values = [[
-    "Uma linha por ferramenta, URL e tipo de falha. Avaliação válida indica que a mesma ferramenta também conseguiu avaliar a URL.",
-  ]];
-  sheet.getRange("A6").format.font = { name: "Arial", size: 10, color: "#475569" };
   const headers = ["Ferramenta", "Tipo de falha", "URL", "Categoria",
     "Município", "Avaliação válida", "Detalhe", "Fontes", "Nº fontes"];
   sheet.getRange("A8:I8").values = [headers];
