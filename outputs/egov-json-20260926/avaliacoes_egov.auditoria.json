@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-26T21:13:15.218Z",
+  "geradoEm": "2026-09-26T23:35:17.732Z",
   "raiz": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov",
   "planilha": "/home/jesus/faculdade/grupo-pesquisa/Egov/analize_sites_Egov/outputs/egov-json-20260926/avaliacoes_egov.xlsx",
   "jsonsDescobertos": 1060,
@@ -40,6 +40,7 @@
   "notasEvidenciaNaColunaNota": 162,
   "evidenciasHtmlVinculadasAoRelatorio": 162,
   "marcadoresCloudflareEmHtmlAvaliado": 60,
+  "relatoriosHtmlVaziosForaDaMedia": 15,
   "notasZero": [],
   "bloqueiosCloudflare": 101,
   "bloqueiosHttp403": 66,
@@ -62,7 +63,7 @@
       {
         "categoria": "Câmaras",
         "ferramenta": "AMAWeb",
-        "municipios": 107,
+        "municipios": 100,
         "melhores": 10,
         "piores": 10
       },
@@ -76,7 +77,7 @@
       {
         "categoria": "Prefeituras",
         "ferramenta": "AMAWeb",
-        "municipios": 124,
+        "municipios": 117,
         "melhores": 10,
         "piores": 10
       },
@@ -95,7 +96,7 @@
         "piores": 10
       }
     ],
-    "comparacoes": 328,
+    "comparacoes": 318,
     "semMunicipio": [
       {
         "arquivo": "webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.al.mt.gov.br_021.json",
@@ -184,21 +185,22 @@
     ]
   },
   "erros": {
-    "linhas": 513,
-    "urlsPorFerramenta": 375,
-    "ocorrencias": 915,
+    "linhas": 529,
+    "urlsPorFerramenta": 376,
+    "ocorrencias": 930,
     "porTipo": {
       "API 400": 14,
       "API 500/QualWeb": 83,
       "Cloudflare": 101,
       "Conexão interrompida": 6,
-      "DNS": 5,
+      "DNS": 6,
       "HTTP 403": 19,
       "HTTP 504": 1,
       "Sem resultado final": 59,
       "SSL/certificado": 3,
       "Timeout": 62,
       "Falha de avaliação HTML": 16,
+      "HTML vazio/inválido": 15,
       "Sem resultado AMAWeb": 144
     },
     "fontes": {
@@ -226,8 +228,10 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_www.curvelandia.mt.gov.br_021.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_021.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/11-41-38/amaweb_curvelandia.mt.gov.br_036.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_www.curvelandia.mt.gov.br_022.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_www.curvelandia.mt.gov.br_091.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_curvelandia.mt.leg.br_092.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_curvelandia.mt.leg.br_003.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-02-24/amaweb_curvelandia.mt.leg.br_019.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.denise.mt.gov.br_095.json": 1,
       "webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.denise.mt.gov.br_038.json": 1,
@@ -244,8 +248,10 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_www.gloriadoeste.mt.gov.br_023.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_023.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/11-41-38/amaweb_gloriadoeste.mt.gov.br_045.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry/2026-09-21/20-42-40/amaweb_www.gloriadoeste.mt.gov.br_011.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-42-35/amaweb_www.gloriadoeste.mt.gov.br_019.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.gloriadoeste.mt.leg.br_111.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry/2026-09-21/20-42-40/amaweb_www.gloriadoeste.mt.leg.br_012.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_www.gloriadoeste.mt.leg.br_111.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/accessmonitor_www.gp.srv.br_141.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-22/10-07-53/resultado_teste_141.json": 1,
@@ -267,9 +273,11 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_038.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_lambaridoeste.mt.gov.br_015.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_015.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry/2026-09-21/20-42-40/amaweb_lambaridoeste.mt.gov.br_002.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_lambaridoeste.mt.gov.br_145.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/14-22-55/amaweb_lambaridoeste.mt.gov.br_015.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_lambaridoeste.mt.leg.br_146.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry/2026-09-21/20-42-40/amaweb_lambaridoeste.mt.leg.br_003.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_lambaridoeste.mt.leg.br_146.json": 1,
       "webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_mirassoldoeste.flowdocs.com.br_065.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_www.mirassoldoeste.mt.gov.br_155.json": 1,
@@ -295,12 +303,14 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_www.reservadocabacal.mt.gov.br_012.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_012.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/14-53-32/amaweb_reservadocabacal.mt.gov.br_026.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_www.reservadocabacal.mt.gov.br_031.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-27-25/amaweb_www.reservadocabacal.mt.gov.br_040.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_reservadocabacal.mt.leg.br_012.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_reservadocabacal.mt.leg.br_009.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_009.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_reservadocabacal.mt.leg.br_002.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_002.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry3/2026-09-21/20-47-30/amaweb_reservadocabacal.mt.leg.br_002.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-27-25/amaweb_reservadocabacal.mt.leg.br_041.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_www.ribeiraozinho.mt.gov.br_015.json": 1,
       "webscrap_accessmonitor/saida_ouvidorias_mt/2026-09-21/19-37-51/accessmonitor_www.ribeiraozinho.mt.gov.br_104.json": 1,
@@ -316,6 +326,7 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_050.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_www.riobranco.mt.gov.br_018.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_018.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry2/2026-09-21/20-43-49/amaweb_riobranco.mt.gov.br_003.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-02-24/amaweb_riobranco.mt.gov.br_061.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.riobranco.mt.gov.br_061.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_riobranco.mt.leg.br_018.json": 1,
@@ -323,6 +334,7 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_011.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_riobranco.mt.leg.br_004.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_004.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_riobranco.mt.leg.br_010.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-02-24/amaweb_riobranco.mt.leg.br_062.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_saltodoceu.mt.gov.br_025.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_saltodoceu.mt.gov.br_012.json": 1,
@@ -334,11 +346,13 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_042.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_saltodoceu.mt.gov.br_017.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_017.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_saltodoceu.mt.gov.br_011.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_saltodoceu.mt.gov.br_248.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/14-22-55/amaweb_saltodoceu.mt.gov.br_049.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-17-54/accessmonitor_saltodoceu.mt.leg.br_026.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_saltodoceu.mt.leg.br_013.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_013.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_saltodoceu.mt.leg.br_012.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_saltodoceu.mt.leg.br_249.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-29-03/accessmonitor_santaterezinha.mt.gov.br_004.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_santaterezinha.mt.gov.br_256.json": 1,
@@ -358,11 +372,13 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_051.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/accessmonitor_www.valedesaodomingos.mt.gov.br_019.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-41-20/resultado_teste_019.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry2/2026-09-21/20-43-49/amaweb_valedesaodomingos.mt.gov.br_004.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-27-25/amaweb_valedesaodomingos.mt.gov.br_057.json": 1,
       "webscrap_amaweb/saida_ouvidorias_mt/2026-09-21/13-27-04/amaweb_www.valedesaodomingos.mt.gov.br_089.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_valedesaodomingos.mt.leg.br_039.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_valedesaodomingos.mt.leg.br_017.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_017.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare_retry/2026-09-21/20-42-40/amaweb_valedesaodomingos.mt.leg.br_008.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/02-41-56/amaweb_valedesaodomingos.mt.leg.br_302.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/17-04-38/accessmonitor_cindvale.com.br_132.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-02-24/amaweb_cindvale.com.br_034.json": 1,
@@ -370,6 +386,7 @@
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/accessmonitor_www.nascentesdopantanal.org.br_027.json": 1,
       "webscrap_accessmonitor/teste_html_lote/2026-09-21/20-11-10/resultado_teste_027.json": 1,
       "webscrap_accessmonitor/saida_mt/2026-09-21/19-32-40/accessmonitor_www.nascentesdopantanal.org.br_018.json": 1,
+      "webscrap_amaweb/saida_mt_html_cloudflare/2026-09-21/20-40-07/amaweb_www.nascentesdopantanal.org.br_028.json": 1,
       "webscrap_amaweb/saida_mt/2026-09-20/04-02-24/amaweb_www.nascentesdopantanal.org.br_077.json": 1,
       "webscrap_accessmonitor/dados_falhas/falhas_dns.txt": 5,
       "webscrap_accessmonitor/dados_falhas/falhas_ssl.txt": 3,
@@ -404,9 +421,10 @@
   "porValidadeDaPagina": {
     "Sem avaliação": 1,
     "Bloqueio/Cloudflare": 101,
-    "Conteúdo avaliado": 757,
+    "Conteúdo avaliado": 742,
     "Evidência de download": 128,
     "Bloqueio HTTP 403": 66,
+    "HTML vazio/inválido": 15,
     "Erro HTTP 504": 2
   },
   "invalidos": [
@@ -4282,14 +4300,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "b88b03e3430bae6df1b1fe4773a1c35191277923aa1654ff989724fac75ad476",
+      "assinaturaSemData": "93f576525b158a45666359e370431abeda0e0d7a60e75f2b3118a058881f327c",
       "aba": "Prefeituras",
       "linha": 95,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 229,
@@ -4367,14 +4385,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "81e7a05b17a1b3b4d197a9112ef5501d725fb5469466e1aad129bd36701100bf",
+      "assinaturaSemData": "ab028cf76dcd443139dd4489102584aaafe2fc5aaa6594f77ac618a103323515",
       "aba": "Câmaras",
       "linha": 121,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 234,
@@ -5404,14 +5422,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "3db1d6c30b0b70b117dbb513e0b280df767c076d1e4aceebdecb2fd8b8035b67",
+      "assinaturaSemData": "022473a6e9ec1eb71f90af9278ed71f700c68c871e4488f823abd7cbfb8c12d3",
       "aba": "Prefeituras",
       "linha": 119,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 295,
@@ -5489,14 +5507,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "685582b15306edb522a717da723128873de7665dc748e81e3831e4da13b95300",
+      "assinaturaSemData": "2e99c586e9c4694245b1fd704862d2bb45850c8855ec04471878e62498b219b6",
       "aba": "Câmaras",
       "linha": 138,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 300,
@@ -7019,14 +7037,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "ccddd4421daa0723c7dafd0e0745c65e8ba2ac904f6bd6b8add6604a85bbf64b",
+      "assinaturaSemData": "19c667122f6cdce4e9fe02cdccdc6041e8cf82bf3c068a35abfc221c6e4c6d1a",
       "aba": "Prefeituras",
       "linha": 168,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 390,
@@ -7121,14 +7139,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "431ce34f600d698dc08a859634240cf11ab0ec0c381ce65b4ea5b30c4fb336d4",
+      "assinaturaSemData": "759b809ee3e1bd8f7da82b5ab29e697cd29d963080e7aff72347d8d4d20da7f7",
       "aba": "Câmaras",
       "linha": 156,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 396,
@@ -12867,14 +12885,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "565b1b094000846c922decfbb18ae9a04ce230847d8b4062a3fd76485401cb78",
+      "assinaturaSemData": "c5f345557fe46a803d9a2b775a3e5bb732c991059270890454e5b890b9b49ab0",
       "aba": "Prefeituras",
       "linha": 279,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 734,
@@ -13020,14 +13038,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "b2169166dc9dacc92ea84c940fa82d4739889e01f036450928ce30a322858922",
+      "assinaturaSemData": "18c09976dce4847fb30a7ff29d3ae02f9bc59793d0fe9d5c624b34f0e31583f8",
       "aba": "Câmaras",
       "linha": 223,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 743,
@@ -13479,14 +13497,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "8ca3f69462d107d3751fda925c6d249ef9a5e2a9d5121c433455caecacd9c43c",
+      "assinaturaSemData": "675375f95a18621a305ceb22925aeb9829f33d2bedadd735b14a427f9007992b",
       "aba": "Prefeituras",
       "linha": 293,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 770,
@@ -13649,14 +13667,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "ebe3ca57e447a9876a7416154f320de77b0054824346b6ae44ff9bc44b4cc2aa",
+      "assinaturaSemData": "d5d60e17ecb32666a1bca1ce88a51f7a2fca2925194809ae0fd9e2620148fa2d",
       "aba": "Câmaras",
       "linha": 234,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 780,
@@ -14193,14 +14211,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "94f3eee1d7f4cac2c13cdc1909df2a2f0341cbaadd70864bff56276b22ae3f5f",
+      "assinaturaSemData": "59aae29cf52b18892cbd29e60d2bdbf60cab994fde46a884a196afa48409273f",
       "aba": "Prefeituras",
       "linha": 308,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 812,
@@ -14295,14 +14313,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "015448c8ab4bb50251998ce67ed6012d4ccbb90abe512c38eb6d32bba5c3f363",
+      "assinaturaSemData": "d995bc2b68b23bd9023576e6344f5ae030887b5c57c15f8edd3071a754b34d0b",
       "aba": "Câmaras",
       "linha": 244,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 818,
@@ -16641,14 +16659,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "bd4f94f96142be1c991db3f446bad0caf69414b3c23c3df1e2ea2301b328b01d",
+      "assinaturaSemData": "3e83474111b777de79eedf0e69e67e253a04ca3bb0f3a11757d4a58226758866",
       "aba": "Prefeituras",
       "linha": 375,
       "classificacao": "Prefeitura",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 956,
@@ -16777,14 +16795,14 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "3fe2fcd79ad40d4572c3097811e07e95b002c01d180b280cd687ba25ce89e1d4",
+      "assinaturaSemData": "9240d5182884cf8fbb33a4f5ac38fba0e9d29b50280669926dddd1f310953f7d",
       "aba": "Câmaras",
       "linha": 298,
       "classificacao": "Câmara",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
-      "notaNaMedia": 3.4
+      "notaNaMedia": null
     },
     {
       "id": 964,
@@ -18205,11 +18223,11 @@
       "tipo": "Relatório API",
       "ferramenta": "AMAWeb",
       "metodo": "HTML",
-      "assinaturaSemData": "8a80bcffe3e6947cc2f37fd1b12ff205ad4aac197e125ac144b52af6be126323",
+      "assinaturaSemData": "af5ac86bcd130a768d6de4942847080d274a2bc6d5e61501f278f5b7223a6d35",
       "aba": "Prefeituras",
       "linha": 457,
       "classificacao": "Outro/Revisar",
-      "validadeDaPagina": "Conteúdo avaliado",
+      "validadeDaPagina": "HTML vazio/inválido",
       "httpStatus": null,
       "nota": 3.4,
       "notaNaMedia": null

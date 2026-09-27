@@ -381,6 +381,11 @@ function extractApi(payload, record) {
   record.lang = text(info.lang);
   record.htmlTags = numeric(info.htmlTags);
   record.htmlSize = numeric(info.size);
+  if (record.tool === "AMAWeb" && /html/i.test(record.context) &&
+      !record.title.trim() && record.htmlTags !== null && record.htmlTags <= 3 &&
+      record.htmlSize !== null && record.htmlSize <= 100) {
+    record.pageStatus = "HTML vazio/inválido";
+  }
   record.conform = text(data.conform || info.conform);
   record.elems = JSON.stringify(data.elems || {});
   record.results = JSON.stringify(results);
@@ -420,7 +425,9 @@ function extractApi(payload, record) {
     (record.observation ? " " : "") + "Relatório sem nota numérica.";
   if (record.pageStatus !== "Conteúdo avaliado") {
     record.observation += (record.observation ? " " : "") +
-      "Nota referente à página de bloqueio; fora da média.";
+      (record.pageStatus === "HTML vazio/inválido"
+        ? "HTML sem conteúdo representativo do portal; nota fora da média."
+        : "Nota referente à página de bloqueio ou erro; fora da média.");
   }
 }
 
@@ -790,8 +797,12 @@ async function errorAnalysis(root, records, cityFor) {
         record.pageStatus === "Evidência de download") continue;
     const type = record.pageStatus === "Bloqueio/Cloudflare" ? "Cloudflare" :
       record.pageStatus === "Bloqueio HTTP 403" ? "HTTP 403" :
+      record.pageStatus === "HTML vazio/inválido" ? "HTML vazio/inválido" :
       errorType(record.pageStatus);
-    if (record.url) add(record.tool, record.url, type, record.title,
+    if (record.url) add(record.tool, record.url, type,
+      record.pageStatus === "HTML vazio/inválido"
+        ? "HTML sem conteúdo representativo do portal; nota fora da média."
+        : record.title,
       record.source, record.sheet);
   }
   const accessBase = path.join(root, "webscrap_accessmonitor");
@@ -1110,7 +1121,8 @@ async function buildWorkbook(records, output, preview, includeRaw, api, analysis
       own.forEach((record, index) => {
         const row = index + 9;
         if (record.pageStatus.startsWith("Bloqueio") ||
-            record.pageStatus.startsWith("Erro HTTP")) {
+            record.pageStatus.startsWith("Erro HTTP") ||
+            record.pageStatus === "HTML vazio/inválido") {
           sheet.getRange("E" + row + ":F" + row).format.fill = "#FFF1D6";
         } else if ((record.kind === "Evidência HTML" ?
             record.evidenceScore : record.score) === 0) {
@@ -1423,6 +1435,9 @@ async function main() {
     marcadoresCloudflareEmHtmlAvaliado: records.filter(record =>
       record.kind === "Evidência HTML" && record.cloudflareMarker === true &&
       record.pageStatus === "Evidência de download").length,
+    relatoriosHtmlVaziosForaDaMedia: records.filter(record =>
+      record.pageStatus === "HTML vazio/inválido" &&
+      scoreForMean(record) === null).length,
     notasZero: records.filter(record =>
       (record.kind === "Evidência HTML" ? record.evidenceScore : record.score) === 0)
       .map(record => record.source),

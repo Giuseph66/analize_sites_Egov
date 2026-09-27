@@ -1,0 +1,91 @@
+\begin{thebibliography}{}
+
+\bibitem[{AMA} 2026]{accessmonitor}
+{AMA} (2026).
+\newblock {AccessMonitor}: validador automático de acessibilidade web.
+\newblock Agência para a Modernização Administrativa, Portugal.
+\newblock Código-fonte disponível em:
+  \url{https://github.com/amagovpt/accessmonitor-docker}. Acesso em: 21 set.
+  2026.
+
+\bibitem[{AMAWEB} 2026]{amaweb}
+{AMAWEB} (2026).
+\newblock {AMAWeb}: Plataforma de avaliação e monitoramento de acessibilidade
+  na web.
+\newblock Universidade Federal de São Paulo (UNIFESP) e Instituto Federal do
+  Rio Grande do Sul (IFRS).
+\newblock Disponível em: \url{https://amaweb.unifesp.br/}. Acesso em: 21 set.
+  2026.
+
+\bibitem[Amorim and de~Menezes 2016]{sbsiAmorim_Menezes}
+Amorim, R. and de~Menezes, C. (2016).
+\newblock Metodologia de avaliação de portais da transparência municipais.
+\newblock In {\em Anais do XII Simpósio Brasileiro de Sistemas de
+  Informação}, pages 017--024, Porto Alegre, RS, Brasil. SBC.
+
+\bibitem[{ATRICON} 2025]{radar}
+{ATRICON} (2025).
+\newblock Radar da transparência pública.
+\newblock Associação dos Membros dos Tribunais de Contas do Brasil.
+\newblock Disponível em: \url{https://radardatransparencia.atricon.org.br/}.
+  Acesso em: set. 2026.
+
+\bibitem[Dorneles and Melo 2024]{eres}
+Dorneles, J. and Melo, A. (2024).
+\newblock Avaliação preliminar da acessibilidade de sites de prefeituras dos
+  municípios em que estão situados os campi da unipampa.
+\newblock In {\em Anais da VIII Escola Regional de Engenharia de Software},
+  pages 70--78, Porto Alegre, RS, Brasil. SBC.
+
+\bibitem[{MATO GROSSO} 2023]{matogrosso:2023}
+{MATO GROSSO} (2023).
+\newblock Decreto n. 338, de 20 de junho de 2023: institui a agenda
+  estratégica digital do governo de mato grosso para o período de 2023 a
+  2027, no âmbito dos órgãos e entidades do poder executivo estadual, e dá
+  outras providências.
+\newblock Diário Oficial do Estado de Mato Grosso.
+\newblock Disponível em:
+  \url{https://iomat.mt.gov.br/legislacao/diario_oficial/detalhes/24062}.
+  Acesso em: 18 set. 2026.
+
+\bibitem[Oliveira and Eler 2015]{sbsi}
+Oliveira, A. and Eler, M. (2015).
+\newblock Acessibilidade em governo eletrônico: um estudo sobre a aplicação
+  de padrões web em sítios gov.br.
+\newblock In {\em Anais do XI Simpósio Brasileiro de Sistemas de
+  Informação}, pages 691--698, Porto Alegre, RS, Brasil. SBC.
+
+\bibitem[Oliveira et~al. 2020]{10.1145/3411564.3411656}
+Oliveira, A. D.~A., Freire, A.~P., and Eler, M.~M. (2020).
+\newblock Web accessibility evolution in the brazilian government.
+\newblock In {\em Proceedings of the XVI Brazilian Symposium on Information
+  Systems}, SBSI '20, New York, NY, USA. Association for Computing Machinery.
+
+\bibitem[{QualWeb} 2026]{qualweb}
+{QualWeb} (2026).
+\newblock {QualWeb}: automated web accessibility evaluator.
+\newblock LASIGE, Faculdade de Ciências da Universidade de Lisboa.
+\newblock Disponível em: \url{https://github.com/qualweb/qualweb}. Acesso em:
+  17 set. 2026.
+
+\bibitem[Santos et~al. 2026]{wcge}
+Santos, C.~V., Moreira, E.~R., and Santos, I. (2026).
+\newblock Acessibilidade digital em websites governamentais: Um estudo
+  comparativo internacional com base nas diretrizes wcag 2.2.
+\newblock In {\em Anais do XIV Latin American Symposium on Digital Government},
+  pages 37--48, Porto Alegre, RS, Brasil. SBC.
+
+\bibitem[Sousa et~al. 2024]{10.1145/3658271.3658276}
+Sousa, F., Moraes, G., Nehme, L., Rivero, L., Freire, A., and Viana, D. (2024).
+\newblock Digital accessibility in brazilian federal government portals: a
+  replication study.
+\newblock In {\em Proceedings of the 20th Brazilian Symposium on Information
+  Systems}, SBSI '24, New York, NY, USA. Association for Computing Machinery.
+
+\bibitem[{W3C} 2018]{wcag21}
+{W3C} (2018).
+\newblock Web content accessibility guidelines ({WCAG}) 2.1.
+\newblock W3C Recommendation.
+\newblock Disponível em: \url{https://www.w3.org/TR/WCAG21/}.
+
+\end{thebibliography}
