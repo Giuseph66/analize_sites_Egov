@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  30 SEP 2026 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  30 SEP 2026 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,33 +695,22 @@ par[]encia
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-
-LaTeX Warning: File `images/boxplot_egov_artigo.png' not found on input line 24
-3.
-
-
-! Package pdftex.def Error: File `images/boxplot_egov_artigo.png' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.243 ...inewidth]{images/boxplot_egov_artigo.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<images/boxplot_egov_artigo.png, id=46, 650.43pt x 433.62pt>
+File: images/boxplot_egov_artigo.png Graphic file (type png)
+<use images/boxplot_egov_artigo.png>
+Package pdftex.def Info: images/boxplot_egov_artigo.png  used on input line 243
+.
+(pdftex.def)             Requested size: 384.1096pt x 256.07838pt.
 
 Underfull \hbox (badness 1112) in paragraph at lines 278--279
 []\OT1/ptm/m/n/12 A Ta-bela 4[] lista as pr[]aticas clas-si-fi-ca-das como n[]a
 o aceit[]aveis com maior
  []
 
-[11] [12]
+[11 <./images/boxplot_egov_artigo.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 316.
-
+ [12]
 Underfull \hbox (badness 5064) in paragraph at lines 363--364
 []\OT1/ptm/m/n/12 Os sis-te-mas pr[]oprios em dom[]^^Pnio ou sub-dom[]^^Pnio di
 s-tinto s[]ao o tipo
@@ -762,10 +751,10 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16752 strings out of 467533
- 338569 string characters out of 5419495
+ 16729 strings out of 467533
+ 337623 string characters out of 5419495
  758574 words of memory out of 5000000
- 45366 multiletter control sequences out of 15000+600000
+ 45343 multiletter control sequences out of 15000+600000
  657727 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,104p,1477b,983s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -782,10 +771,10 @@ texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on sbc-template.pdf (20 pages, 232652 bytes).
+Output written on sbc-template.pdf (20 pages, 332359 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
