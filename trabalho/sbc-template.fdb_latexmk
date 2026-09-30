@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex sbc-template"] 1790794191.76719 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1790794212.16992 0
+["bibtex sbc-template"] 1790794856.37449 "sbc-template.aux" "sbc-template.bbl" "sbc-template" 1790795687.12441 0
   "./sbc-template.bib" 1790793606.47835 13611 cbf7f97e1b88df07392bcc4f353cc8d5 ""
   "./sbc.bst" 1790468510 21864 a668496cca21cfdd211f7fb5f0d57565 ""
-  "sbc-template.aux" 1790794211.62142 9288 32e74aaeff66bff72973902df9ed9e7d "pdflatex"
+  "sbc-template.aux" 1790795686.67692 9247 8541b70ac5b60f8e927e5836f3d7b9b1 "pdflatex"
   (generated)
   "sbc-template.bbl"
   "sbc-template.blg"
   (rewritten before read)
-["pdflatex"] 1790794210.06595 "sbc-template.tex" "sbc-template.pdf" "sbc-template" 1790794212.17021 0
+["pdflatex"] 1790795685.77435 "sbc-template.tex" "sbc-template.pdf" "sbc-template" 1790795687.12475 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -56,10 +56,10 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1136768653 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
-  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazilian.ldf" 1769289180 6096 b2165a3d4d5e10b4990e15cb0c21a9b0 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1769462196 147019 1fabca301093d77224bb1248a25f1278 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex" 1762723313 652 7dccbebb70081db63e04f21ba35d0012 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/pt/babel-pt-BR.ini" 1666557646 4550 1f8aa8e0148d8a21ebf02f586bbb2fc0 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-en.ini" 1763931111 3936 fef897bbcfe8e9d18c93a3d2d53cf9d8 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex" 1752438283 374 a9c05f002d9437e6de45ac1cc23d56c2 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def" 1768770623 5231 c1599e5bf7d2ee42743212a7f8d20a56 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -163,12 +163,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769569443 5541377 824b1e5beafd2ebda40585373b35bb6b ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769569612 3636387 1afdbe98fc156f8f4b30cfe8e2fca462 ""
   "/usr/local/texlive/2025/texmf.cnf" 1769569437.79993 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "figura-metodologia.tex" 1790793737.1488 4168 c0d33cbbdf0d906020376b920427c7b6 ""
-  "images/boxplot_egov_artigo.png" 1790794091.89889 115461 016b2a920fe69f605930e211f09b7e90 ""
-  "sbc-template.aux" 1790794211.62142 9288 32e74aaeff66bff72973902df9ed9e7d "pdflatex"
-  "sbc-template.bbl" 1790794191.97706 9503 ba1e6ff336010167b4fe140d8186a552 "bibtex sbc-template"
+  "figura-metodologia.tex" 1790795365.52203 4150 fc51d5c65e344edabb0ee197381714fc ""
+  "images/boxplot_egov_artigo.png" 1790795194.0075 1077464 32e2f4d97ac11a8caa49531dcc355984 ""
+  "sbc-template.aux" 1790795686.67692 9247 8541b70ac5b60f8e927e5836f3d7b9b1 "pdflatex"
+  "sbc-template.bbl" 1790794856.54562 9503 ba1e6ff336010167b4fe140d8186a552 "bibtex sbc-template"
   "sbc-template.sty" 1790793750.57732 6074 ecc54df5124d8db4ac67c42cc728f3a5 ""
-  "sbc-template.tex" 1790794209.07222 60577 bd10cba7635460238a7759b0c6f088c7 ""
+  "sbc-template.tex" 1790795682.69608 60110 ce274e36ea1d291fe50118cbb04d560c ""
   (generated)
   "sbc-template.aux"
   "sbc-template.log"

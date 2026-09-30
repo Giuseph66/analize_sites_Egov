@@ -19,50 +19,50 @@
   titulo/.style={font=\bfseries\small, minimum height=9mm, anchor=north, text width=5.2cm, align=center}
 ]
 
-% ---------------- Fase 1: Levantamento ----------------
-\node[titulo] (t1) {Fase 1\\Levantamento};
+% ---------------- Phase 1: Survey ----------------
+\node[titulo] (t1) {Phase 1\\Survey};
 \node[etapa, below=of t1] (e1)
-  {Identificação dos portais de prefeituras e câmaras\\{\footnotesize(Radar da Transparência; 314 URLs)}};
+  {Identification of the city hall and city council portals\\{\footnotesize(Radar da Transparência; 314 URLs)}};
 \node[etapa, below=of e1] (e2)
-  {Localização manual dos canais de ouvidoria\\{\footnotesize(142 municípios)}};
+  {Manual location of the ombudsman channels\\{\footnotesize(142 municipalities)}};
 \node[etapa, below=of e2] (e3)
-  {Classificação do tipo de ouvidoria\\[2pt]
-   {\scriptsize integrada ao portal $\cdot$ sistema próprio (domínio/subdomínio)
-    $\cdot$ terceirizada $\cdot$ Fala.BR
-    $\cdot$ não localizada $\cdot$ indisponível}};
-    
-% ---------------- Fase 2: Avaliação ----------------
-\node[titulo, right=of t1] (t2) {Fase 2\\Avaliação automatizada};
+  {Classification of the ombudsman type\\[2pt]
+   {\scriptsize integrated into the portal $\cdot$ own system (domain/subdomain)
+    $\cdot$ outsourced $\cdot$ Fala.BR
+    $\cdot$ not located $\cdot$ unavailable}};
+
+% ---------------- Phase 2: Evaluation ----------------
+\node[titulo, right=of t1] (t2) {Phase 2\\Automated evaluation};
 \node[apoio, below=of t2] (e4)
-  {\textit{Scripts} em Python\\{\footnotesize(requisições diretas ao serviço de avaliação)}};
+  {Python \textit{scripts}\\{\footnotesize(direct requests to the evaluation service)}};
 \node[etapa, below=of e4] (e5)
-  {Avaliação com AMAWeb e AccessMonitor\\{\footnotesize (WCAG 2.1) prefeituras, câmaras e ouvidorias; até cinco tentativas}};
+  {Evaluation with AMAWeb and AccessMonitor\\{\footnotesize (WCAG 2.1) city halls, city councils and ombudsman channels; up to five attempts}};
 \node[apoio, below=of e5] (e5b)
-  {Contingência: envio do HTML baixado\\{\footnotesize(páginas bloqueadas por serviços de proteção)}};
+  {Contingency: submission of the downloaded HTML\\{\footnotesize(pages blocked by protection services)}};
 \node[etapa, below=of e5b] (e6)
-  {Registro de evidências e validação\\{\footnotesize JSON bruto, PDF e \textit{hash}; uma avaliação por município, ambiente e ferramenta}};
+  {Evidence recording and validation\\{\footnotesize raw JSON, PDF and \textit{hash}; one evaluation per municipality, environment and tool}};
 
-% ---------------- Fase 3: Consolidação e análise ----------------
-\node[titulo, right=of t2] (t3) {Fase 3\\Consolidação e análise};
+% ---------------- Phase 3: Consolidation and analysis ----------------
+\node[titulo, right=of t2] (t3) {Phase 3\\Consolidation and analysis};
 \node[etapa, below=of t3] (e7)
-  {Planilha consolidada\\{\footnotesize URL, ferramenta, situação, nota, falhas, data/hora e \textit{hash}}};
+  {Consolidated spreadsheet\\{\footnotesize URL, tool, status, score, failures, date/time and \textit{hash}}};
 \node[apoio, below=of e7] (e8)
-  {Dados complementares\\{\footnotesize População (IBGE, 2026), PIB \textit{per capita} (2023), IDHM (2010)}};
+  {Complementary data\\{\footnotesize Population (IBGE, 2026), GDP \textit{per capita} (2023), MHDI (2010)}};
 \node[etapa, below=of e8] (e9)
-  {Estatística descritiva (QP1)\\{\footnotesize média, mediana, dispersão e faixas de nota}};
+  {Descriptive statistics (RQ1)\\{\footnotesize mean, median, dispersion and score ranges}};
 \node[etapa, below=of e9] (e10)
-  {Comparação entre ambientes e por tipo de ouvidoria (QP2 e QP3)\\{\footnotesize diferenças prefeitura $-$ ouvidoria e prefeitura $-$ câmara; Wilcoxon pareado}};
+  {Comparison between environments and by ombudsman type (RQ2 and RQ3)\\{\footnotesize differences city hall $-$ ombudsman and city hall $-$ city council; paired Wilcoxon}};
 \node[etapa, below=of e10] (e11)
-  {Correlação com indicadores (QP4), erros e ranqueamento\\{\footnotesize Spearman; erros mais frequentes; média das três notas}};
+  {Correlation with indicators (RQ4), errors and ranking\\{\footnotesize Spearman; most frequent errors; mean of the three scores}};
 
-% ---------------- Caixas das fases (mesma altura) ----------------
+% ---------------- Phase boxes (same height) ----------------
 \begin{scope}[on background layer]
   \node[fase, fit=(t1)(e1)(e3)(e3|-e11.south)] (f1) {};
   \node[fase, fit=(t2)(e4)(e6)(e6|-e11.south)] (f2) {};
   \node[fase, fit=(t3)(e7)(e11)] (f3) {};
 \end{scope}
 
-% ---------------- Setas ----------------
+% ---------------- Arrows ----------------
 \draw[seta] (e1) -- (e2);
 \draw[seta] (e2) -- (e3);
 \draw[seta] (e4) -- (e5);
@@ -74,10 +74,10 @@
 \draw[seta] (e10) -- (e11);
 
 \draw[seta] (f1.east) -- node[above, font=\scriptsize, align=center]{URLs}   (f2.west);
-\draw[seta] (f2.east) -- node[above, font=\scriptsize, align=center]{notas}  (f3.west);
+\draw[seta] (f2.east) -- node[above, font=\scriptsize, align=center]{scores}  (f3.west);
 
 \end{tikzpicture}%
 }
-\caption{Processo metodológico adotado na avaliação da acessibilidade dos portais das prefeituras, dos portais das câmaras e dos canais de ouvidoria dos municípios de Mato Grosso.}
+\caption{Methodological process adopted in the evaluation of the accessibility of the city hall portals, the city council portals and the ombudsman channels of the municipalities of Mato Grosso.}
 \label{fig:metodologia}
 \end{figure}

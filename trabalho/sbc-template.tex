@@ -3,14 +3,14 @@
 \usepackage{sbc-template}
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
+\usepackage[english]{babel}
 \usepackage{booktabs}
 
 \usepackage{float}
 \usepackage{tikz}
 \usetikzlibrary{positioning,arrows.meta,fit,backgrounds,calc}
 
-     
+
 \sloppy
 
 \title{Evaluation of the Digital Accessibility of Institutional Portals and Electronic Ombudsman Channels in the Municipalities of Mato Grosso}
@@ -22,7 +22,7 @@
   \email{\{jpereira, ggiangareli, cavelino, lbariani, jzahn, wdiniz\}@enc.fastech.edu.br}
 }
 
-\begin{document} 
+\begin{document}
 
 \maketitle
 
@@ -35,8 +35,8 @@
 \textbf{Summary of Results:} The three environments were evaluated in 88 municipalities. Mean scores were close (AMAWeb: 7.65 city halls, 7.68 councils, 7.98 ombudsman; AccessMonitor: 7.01, 6.89 and 7.48), but within the same municipality the mean absolute difference between city hall and ombudsman was 0.92 and 1.17 points, and between city hall and council 0.98 and 1.19, so one environment does not represent another. Outsourced ombudsman solutions outscored their portals in most municipalities. Insufficient contrast was the most frequent error, and ombudsman channels concentrated indicators of keyboard and focus barriers. Correlations with socioeconomic indicators were weak.
 \textbf{Contributions and Impact to IS area:} The work offers an unprecedented diagnosis of municipal digital accessibility covering the whole state of Mato Grosso, shows that each channel must be evaluated separately, and provides a replicable procedure and a baseline for monitoring digital government in the state.
 \end{abstract}
-     
-% \begin{resumo} 
+
+% \begin{resumo}
 % \textbf{Research Context:} A acessibilidade digital é um requisito legal para portais governamentais brasileiros, incluindo as ouvidorias municipais.
 % \textbf{Scientific and/or Practical Problem:} Não há evidências sistemáticas sobre a acessibilidade dos portais das prefeituras e câmaras municipais de Mato Grosso nem sobre sua manutenção nas ouvidorias eletrônicas, muitas vezes em sistemas distintos.
 % \textbf{Proposed Solution and/or Analysis:} O estudo abrangeu os 142 municípios do estado e avaliou três ambientes (portal da prefeitura, portal da câmara e ouvidoria) com duas ferramentas automatizadas baseadas nas WCAG 2.1, AMAWeb e AccessMonitor.
@@ -47,449 +47,449 @@
 % \end{resumo}
 
 
-\section{Introdução}
+\section{Introduction}
 
-A acessibilidade digital é condição para que todas as pessoas, incluindo as pessoas com deficiência, possam acessar informações e serviços públicos oferecidos pela internet. No Brasil, esse direito é assegurado pela Lei Brasileira de Inclusão, que torna obrigatória a acessibilidade nos sítios mantidos por órgãos de governo~\cite{lbi2015}, e reforçado pela Lei do Governo Digital~\cite{lei14129}. No plano técnico, as orientações constam no Modelo de Acessibilidade em Governo Eletrônico (e-MAG) e, mais recentemente, na norma ABNT NBR 17225, que estabelece requisitos de acessibilidade para conteúdo e aplicações web~\cite{nbr17225}, ambos alinhados às WCAG~\cite{wcag21}. A relevância do tema é também quantitativa: em 2022, o Brasil tinha 18,6 milhões de pessoas com deficiência, o equivalente a 8,9\% da população com dois anos ou mais~\cite{pnad2022}. 
+Digital accessibility is a condition for all people, including people with disabilities, to be able to access information and public services offered over the internet. In Brazil, this right is ensured by the Brazilian Inclusion Law, which makes accessibility mandatory on websites maintained by government bodies~\cite{lbi2015}, and reinforced by the Digital Government Law~\cite{lei14129}. At the technical level, the guidelines are set out in the Electronic Government Accessibility Model (e-MAG) and, more recently, in the ABNT NBR 17225 standard, which establishes accessibility requirements for web content and applications~\cite{nbr17225}, both aligned with the WCAG~\cite{wcag21}. The relevance of the topic is also quantitative: in 2022, Brazil had 18.6 million people with disabilities, equivalent to 8.9\% of the population aged two years or older~\cite{pnad2022}.
 
-No município, o cidadão interage com o poder público por meio de diferentes canais digitais. O portal da prefeitura concentra os serviços e as informações do Poder Executivo, e o portal da câmara municipal dá acesso à atividade legislativa e à transparência do Poder Legislativo. O canal de ouvidoria, por sua vez, recebe as manifestações dos usuários, como reclamações, denúncias, sugestões e solicitações, conforme a Lei nº 13.460/2017~\cite{lei13460}. A ouvidoria é, portanto, o meio pelo qual o cidadão pode apontar falhas no próprio serviço público, inclusive a falta de acessibilidade. Se o canal não for acessível, a pessoa com deficiência fica impedida até mesmo de registrar essa reclamação. Em Mato Grosso, estudo anterior já havia identificado limitações no acesso e na disponibilização de informações pelas ouvidorias municipais~\cite{zahn2023}.
+In the municipality, citizens interact with the government through different digital channels. The city hall portal concentrates the services and information of the Executive Branch, and the city council portal provides access to the legislative activity and to the transparency of the Legislative Branch. The ombudsman channel, in turn, receives users' submissions, such as complaints, reports, suggestions and requests, in accordance with Law No. 13.460/2017~\cite{lei13460}. The ombudsman office is, therefore, the means by which citizens can point out failures in the public service itself, including the lack of accessibility. If the channel is not accessible, the person with a disability is prevented even from registering this complaint. In Mato Grosso, a previous study had already identified limitations in access to and in the provision of information by municipal ombudsman offices~\cite{zahn2023}.
 
-A acessibilidade de portais governamentais tem sido avaliada principalmente no âmbito federal, com estudos sucessivos sobre os portais dos ministérios e da plataforma Gov.br~\cite{sbsi,10.1145/3411564.3411656,10.1145/3658271.3658276,barros2024}. No âmbito municipal, os estudos brasileiros ainda se baseiam em amostras pequenas, como as prefeituras dos municípios que sediam os campi de uma universidade~\cite{eres} ou 13 portais de uma região do Ceará~\cite{franca2025}. No cenário internacional, há avaliações de maior escala, como a de 7.713 páginas iniciais de municípios italianos~\cite{valtolina2022} e a de 342 condados norte-americanos, que também investigou fatores associados à acessibilidade, como recursos financeiros e densidade populacional~\cite{bai2021}. Estudos recentes associam ainda o nível de acessibilidade a fatores organizacionais, como a supervisão por outras esferas de governo e a revisão periódica dos sítios~\cite{frandell2026}. Em geral, porém, essas avaliações consideram apenas a página inicial do portal, inclusive em comparações internacionais recentes~\cite{wcge}. Essa limitação é especialmente relevante para os canais municipais, pois a ouvidoria e o portal da câmara costumam estar hospedados em outro domínio ou em sistemas de fornecedores. Não se sabe, portanto, se a nota do portal da prefeitura representa a dos demais canais do mesmo município.
+The accessibility of government portals has been evaluated mainly at the federal level, with successive studies on the portals of the ministries and of the Gov.br platform~\cite{sbsi,10.1145/3411564.3411656,10.1145/3658271.3658276,barros2024}. At the municipal level, Brazilian studies are still based on small samples, such as the city halls of the municipalities that host the campuses of a university~\cite{eres} or 13 portals from a region of Ceará~\cite{franca2025}. In the international scenario, there are larger-scale evaluations, such as that of 7,713 home pages of Italian municipalities~\cite{valtolina2022} and that of 342 U.S. counties, which also investigated factors associated with accessibility, such as financial resources and population density~\cite{bai2021}. Recent studies also associate the level of accessibility with organizational factors, such as oversight by other spheres of government and the periodic review of websites~\cite{frandell2026}. In general, however, these evaluations consider only the home page of the portal, including in recent international comparisons~\cite{wcge}. This limitation is especially relevant for municipal channels, since the ombudsman channel and the city council portal are often hosted on another domain or on vendor systems. It is therefore not known whether the score of the city hall portal represents that of the other channels of the same municipality.
 
-Mato Grosso oferece um contexto adequado para essa investigação. O estado tem 142 municípios distribuídos em cerca de 903 mil km², com densidade demográfica de aproximadamente 4 habitantes por km²~\cite{ibgemt}. Nesse território extenso e pouco povoado, os canais digitais podem aproximar cidadãos e poder público, reduzindo a necessidade de deslocamento físico. Além disso, o estado instituiu a Agenda Estratégica Digital 2023--2027, que tem como uma de suas metas ``adaptar todos os serviços digitais do Poder Executivo estadual ao padrão de acessibilidade e-MAG, até 2026''~\cite{matogrosso:2023}. Embora a meta se aplique ao Executivo estadual, e não aos municípios, ela sinaliza a prioridade do tema no estado, e um diagnóstico municipal pode servir de linha de base para o acompanhamento da acessibilidade digital em Mato Grosso.
+Mato Grosso offers a suitable context for this investigation. The state has 142 municipalities distributed over about 903 thousand km², with a population density of approximately 4 inhabitants per km²~\cite{ibgemt}. In this extensive and sparsely populated territory, digital channels can bring citizens and government closer together, reducing the need for physical travel. In addition, the state instituted the Digital Strategic Agenda 2023--2027, which has as one of its goals ``to adapt all digital services of the state Executive Branch to the e-MAG accessibility standard, by 2026''~\cite{matogrosso:2023}. Although the goal applies to the state Executive Branch, and not to the municipalities, it signals the priority of the topic in the state, and a municipal diagnosis can serve as a baseline for monitoring digital accessibility in Mato Grosso.
 
-Diante disso, este trabalho avalia a acessibilidade digital dos portais das prefeituras, dos portais das câmaras municipais e dos canais eletrônicos de ouvidoria dos 142 municípios de Mato Grosso, com duas ferramentas automatizadas baseadas nas WCAG 2.1. O estudo busca responder às seguintes questões de pesquisa:
+In view of this, this work evaluates the digital accessibility of the city hall portals, of the city council portals and of the electronic ombudsman channels of the 142 municipalities of Mato Grosso, with two automated tools based on WCAG 2.1. The study seeks to answer the following research questions:
 \begin{itemize}
-  \item \textbf{QP1:} Qual é o nível de acessibilidade dos portais das prefeituras, dos portais das câmaras e dos canais de ouvidoria?
-  \item \textbf{QP2:} A nota de acessibilidade de um ambiente representa a dos demais ambientes do mesmo município?
-  \item \textbf{QP3:} O tipo de solução de ouvidoria está associado à diferença entre a nota da ouvidoria e a do portal da prefeitura?
-  \item \textbf{QP4:} O nível de acessibilidade está associado ao porte populacional e a indicadores socioeconômicos dos municípios?
+  \item \textbf{RQ1:} What is the level of accessibility of the city hall portals, of the city council portals and of the ombudsman channels?
+  \item \textbf{RQ2:} Does the accessibility score of one environment represent that of the other environments of the same municipality?
+  \item \textbf{RQ3:} Is the type of ombudsman solution associated with the difference between the score of the ombudsman channel and that of the city hall portal?
+  \item \textbf{RQ4:} Is the level of accessibility associated with the population size and with socioeconomic indicators of the municipalities?
 \end{itemize}
 
-Em síntese, o \textit{Research Context} deste trabalho é a acessibilidade digital como requisito legal e social dos serviços públicos municipais. O \textit{Scientific and/or Practical Problem} é a ausência de evidências sistemáticas sobre a acessibilidade dos portais das prefeituras e das câmaras mato-grossenses e sobre sua manutenção nos canais eletrônicos de ouvidoria. Como \textit{Proposed Solution and/or Analysis}, avaliam-se os três ambientes, em um estudo que abrange todos os municípios do estado. A \textit{Related IS Theory} adotada é o Modelo de Sucesso de SI de DeLone e McLean~\cite{delone1992,delone2003}, no qual a qualidade do sistema, aqui operacionalizada pela conformidade com as diretrizes de acessibilidade, é antecedente do uso e da satisfação do usuário. O \textit{Research Method} é descrito na Seção~\ref{sec:metodologia}, o \textit{Summary of Results} é apresentado na Seção~\ref{sec:resultados}, e as \textit{Contributions and Impact to IS area} são discutidas na Seção~\ref{sec:consideracoes}. A Seção~\ref{sec:trabalhos} apresenta os trabalhos relacionados.
+In summary, the \textit{Research Context} of this work is digital accessibility as a legal and social requirement of municipal public services. The \textit{Scientific and/or Practical Problem} is the absence of systematic evidence on the accessibility of the portals of the city halls and city councils of Mato Grosso and on its maintenance in the electronic ombudsman channels. As the \textit{Proposed Solution and/or Analysis}, the three environments are evaluated, in a study that covers all the municipalities of the state. The \textit{Related IS Theory} adopted is the DeLone and McLean IS Success Model~\cite{delone1992,delone2003}, in which system quality, here operationalized by compliance with accessibility guidelines, is an antecedent of use and user satisfaction. The \textit{Research Method} is described in Section~\ref{sec:metodologia}, the \textit{Summary of Results} is presented in Section~\ref{sec:resultados}, and the \textit{Contributions and Impact to IS area} are discussed in Section~\ref{sec:consideracoes}. Section~\ref{sec:trabalhos} presents the related work.
 
 
-\section{Trabalhos relacionados}
+\section{Related work}
 \label{sec:trabalhos}
 
-Esta seção apresenta a teoria de SI que fundamenta o estudo, os trabalhos que avaliaram a acessibilidade de portais governamentais, os estudos sobre canais de participação e fatores associados à acessibilidade e, por fim, o posicionamento deste trabalho em relação à literatura.
+This section presents the IS theory that underpins the study, the works that evaluated the accessibility of government portals, the studies on participation channels and factors associated with accessibility and, finally, the positioning of this work in relation to the literature.
 
 \subsection{Related IS Theory}
 
-O Modelo de Sucesso de Sistemas de Informação de DeLone e McLean~\cite{delone1992,delone2003} explica o sucesso de um SI por meio de dimensões inter-relacionadas: a qualidade do sistema, a qualidade da informação e a qualidade do serviço influenciam a intenção de uso, o uso e a satisfação do usuário, que por sua vez determinam os benefícios líquidos. Neste trabalho, a acessibilidade digital é tratada como componente da qualidade do sistema. Um portal ou canal de ouvidoria que não atende às diretrizes de acessibilidade restringe o uso por pessoas com deficiência e, com isso, os benefícios que o serviço público digital pode gerar. A avaliação automatizada mede, portanto, um antecedente do uso efetivo e da satisfação do cidadão, e não o uso em si.
+The DeLone and McLean Information Systems Success Model~\cite{delone1992,delone2003} explains the success of an IS through interrelated dimensions: system quality, information quality and service quality influence intention to use, use and user satisfaction, which in turn determine net benefits. In this work, digital accessibility is treated as a component of system quality. A portal or ombudsman channel that does not meet accessibility guidelines restricts use by people with disabilities and, with it, the benefits that the digital public service can generate. The automated evaluation therefore measures an antecedent of effective use and of citizen satisfaction, and not use itself.
 
-\subsection{Acessibilidade em portais governamentais}
+\subsection{Accessibility in government portals}
 
-No âmbito federal, a acessibilidade dos portais brasileiros tem sido acompanhada por uma sequência de estudos. A avaliação de 39 sítios de ministérios, com validadores de código, mostrou que os portais ainda não implementavam adequadamente os padrões do Governo Eletrônico, com erros que comprometiam o acesso à informação~\cite{sbsi}. A reavaliação desses portais em 2020 indicou avanços na conformidade com o e-MAG e reforçou a importância de avaliações periódicas~\cite{10.1145/3411564.3411656}. Um estudo de replicação posterior avaliou 36 portais federais, dos quais 17 permitiram análise de evolução, e observou que o e-MAG, de 2014, está defasado em relação à versão mais recente das WCAG~\cite{10.1145/3658271.3658276}. A plataforma Gov.br também foi avaliada com três ferramentas automatizadas (ASES, AccessMonitor e TAW) e um verificador de contraste, e os resultados indicaram que o portal não atendia aos requisitos mínimos de acessibilidade~\cite{barros2024}. No âmbito estadual, a avaliação dos sítios dos governos estaduais com duas ferramentas automatizadas constatou barreiras na maioria dos estados e discutiu os resultados à luz de indicadores sociais e econômicos~\cite{carvalho2017}.
+At the federal level, the accessibility of Brazilian portals has been monitored by a sequence of studies. The evaluation of 39 ministry websites, with code validators, showed that the portals still did not adequately implement the Electronic Government standards, with errors that compromised access to information~\cite{sbsi}. The re-evaluation of these portals in 2020 indicated advances in compliance with e-MAG and reinforced the importance of periodic evaluations~\cite{10.1145/3411564.3411656}. A later replication study evaluated 36 federal portals, of which 17 allowed an analysis of evolution, and observed that e-MAG, from 2014, is outdated in relation to the most recent version of the WCAG~\cite{10.1145/3658271.3658276}. The Gov.br platform was also evaluated with three automated tools (ASES, AccessMonitor and TAW) and a contrast checker, and the results indicated that the portal did not meet the minimum accessibility requirements~\cite{barros2024}. At the state level, the evaluation of the websites of the state governments with two automated tools found barriers in most states and discussed the results in light of social and economic indicators~\cite{carvalho2017}.
 
-No âmbito municipal, os estudos brasileiros ainda são poucos e de pequena escala. Foram avaliadas, com o ASES, as páginas iniciais das prefeituras dos municípios que sediam os campi da Unipampa, e a maioria apresentou erros de acessibilidade~\cite{eres}. Em outro estudo, 13 portais de prefeituras da região dos Sertões de Crateús, no Ceará, serviram de caso para comparar a avaliação feita por um modelo de linguagem com a de três ferramentas automatizadas~\cite{franca2025}. Com foco em transparência, e não em acessibilidade, foi proposta uma metodologia padronizada, baseada na série ISO/IEC 25000, para avaliar portais da transparência municipais~\cite{sbsiAmorim_Menezes}. No cenário internacional, a avaliação de 7.713 páginas iniciais de municípios italianos com o AChecker e o VaMolà revelou baixo nível de acessibilidade~\cite{valtolina2022}, e o estudo de 342 portais de condados norte-americanos encontrou relação positiva entre acessibilidade e usabilidade~\cite{bai2019}. Em comum, esses trabalhos avaliam apenas a página inicial do portal principal. Mesmo em uma comparação internacional recente, a análise se restringiu às páginas iniciais~\cite{wcge}. Não foram encontrados estudos que avaliem os portais das câmaras municipais.
+At the municipal level, Brazilian studies are still few and small in scale. The home pages of the city halls of the municipalities that host the Unipampa campuses were evaluated with ASES, and most presented accessibility errors~\cite{eres}. In another study, 13 city hall portals from the Sertões de Crateús region, in Ceará, served as a case to compare the evaluation made by a language model with that of three automated tools~\cite{franca2025}. With a focus on transparency, and not on accessibility, a standardized methodology, based on the ISO/IEC 25000 series, was proposed to evaluate municipal transparency portals~\cite{sbsiAmorim_Menezes}. In the international scenario, the evaluation of 7,713 home pages of Italian municipalities with AChecker and VaMolà revealed a low level of accessibility~\cite{valtolina2022}, and the study of 342 U.S. county portals found a positive relationship between accessibility and usability~\cite{bai2019}. In common, these works evaluate only the home page of the main portal. Even in a recent international comparison, the analysis was restricted to home pages~\cite{wcge}. No studies were found that evaluate the portals of city councils.
 
-\subsection{Canais de participação e fatores associados à acessibilidade}
+\subsection{Participation channels and factors associated with accessibility}
 
-Os canais de participação cidadã receberam menos atenção. Em Mato Grosso, a análise documental de 20 ouvidorias municipais mostrou que apenas 15\% atendiam a todos os requisitos de acesso e de disponibilização de informações ao cidadão~\cite{zahn2023}. Em uma proposta de participação cidadã por dispositivos vestíveis, observou-se que a adoção desses canais depende não apenas da qualidade da tecnologia, mas também da confiança do cidadão no uso que a gestão pública faz das informações~\cite{giangareli2026}.
+Citizen participation channels have received less attention. In Mato Grosso, the documentary analysis of 20 municipal ombudsman offices showed that only 15\% met all the requirements of access and of provision of information to citizens~\cite{zahn2023}. In a proposal for citizen participation through wearable devices, it was observed that the adoption of these channels depends not only on the quality of the technology, but also on the citizen's trust in the use that public management makes of the information~\cite{giangareli2026}.
 
-Outros estudos investigam o que explica o nível de acessibilidade. Nos condados norte-americanos, a densidade populacional e a complexidade do sítio foram os principais preditores, enquanto o orçamento teve efeito apenas marginal~\cite{bai2021}. A combinação de um levantamento com 621 gestores públicos e da avaliação dos sítios mostrou que a supervisão por outras esferas de governo e a revisão periódica favorecem a acessibilidade~\cite{frandell2026}. No Brasil, a avaliação de 80 serviços públicos prioritários, que combinou o AccessMonitor com pedidos pela Lei de Acesso à Informação, revelou que os órgãos costumam terceirizar a responsabilidade pelos testes de acessibilidade e não têm capacitação específica~\cite{nunes2025}. Esses achados sugerem que a acessibilidade pode depender tanto de características do município quanto de decisões de contratação e de gestão, o que motiva as questões QP3 e QP4.
+Other studies investigate what explains the level of accessibility. In U.S. counties, population density and website complexity were the main predictors, while the budget had only a marginal effect~\cite{bai2021}. The combination of a survey of 621 public managers and the evaluation of the websites showed that oversight by other spheres of government and periodic review favor accessibility~\cite{frandell2026}. In Brazil, the evaluation of 80 priority public services, which combined AccessMonitor with requests under the Access to Information Law, revealed that agencies usually outsource the responsibility for accessibility testing and lack specific training~\cite{nunes2025}. These findings suggest that accessibility may depend both on characteristics of the municipality and on contracting and management decisions, which motivates questions RQ3 and RQ4.
 
-\subsection{Posicionamento deste trabalho}
+\subsection{Positioning of this work}
 
-A Tabela~\ref{tab:relacionados} compara os principais trabalhos relacionados com este estudo.
+Table~\ref{tab:relacionados} compares the main related works with this study.
 
 \begin{table}[ht]
 \centering
-\caption{Comparação entre os trabalhos relacionados e este estudo}
+\caption{Comparison between the related works and this study}
 \label{tab:relacionados}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{lp{1.9cm}p{2.5cm}p{3.1cm}p{2.5cm}}
 \toprule
-\textbf{Trabalho} & \raggedright\textbf{Esfera} & \raggedright\textbf{Amostra} & \raggedright\textbf{Instrumentos} & \raggedright\textbf{Ambientes}\tabularnewline
+\textbf{Work} & \raggedright\textbf{Sphere} & \raggedright\textbf{Sample} & \raggedright\textbf{Instruments} & \raggedright\textbf{Environments}\tabularnewline
 \midrule
-\cite{sbsi}                    & \raggedright Federal            & \raggedright 39 ministérios          & \raggedright Validadores de código             & \raggedright Página inicial\tabularnewline
-\cite{10.1145/3658271.3658276} & \raggedright Federal            & \raggedright 36 portais              & \raggedright ASES, Wappalyzer e inspeção manual & \raggedright Página inicial\tabularnewline
-\cite{barros2024}              & \raggedright Federal            & \raggedright Portal Gov.br           & \raggedright ASES, AccessMonitor e TAW         & \raggedright Portal Gov.br\tabularnewline
-\cite{carvalho2017}            & \raggedright Estadual           & \raggedright Governos estaduais      & \raggedright Duas ferramentas e uma métrica    & \raggedright Página inicial\tabularnewline
-\cite{eres}                    & \raggedright Municipal          & \raggedright Prefeituras dos campi   & \raggedright ASES                              & \raggedright Página inicial\tabularnewline
-\cite{franca2025}              & \raggedright Municipal          & \raggedright 13 prefeituras          & \raggedright LLM, IBM, AChecker e WAVE         & \raggedright Página inicial\tabularnewline
-\cite{valtolina2022}           & \raggedright Municipal (Itália) & \raggedright 7.713 municípios        & \raggedright AChecker e VaMolà                 & \raggedright Página inicial\tabularnewline
-\cite{zahn2023}                & \raggedright Municipal (MT)     & \raggedright 20 ouvidorias           & \raggedright Análise documental                & \raggedright Ouvidoria\tabularnewline
-\textbf{Este trabalho}         & \raggedright\textbf{Municipal (MT)} & \raggedright\textbf{142 municípios} & \raggedright\textbf{AMAWeb e AccessMonitor} & \raggedright\textbf{Prefeitura, câmara e ouvidoria}\tabularnewline
+\cite{sbsi}                    & \raggedright Federal            & \raggedright 39 ministries           & \raggedright Code validators                   & \raggedright Home page\tabularnewline
+\cite{10.1145/3658271.3658276} & \raggedright Federal            & \raggedright 36 portals              & \raggedright ASES, Wappalyzer and manual inspection & \raggedright Home page\tabularnewline
+\cite{barros2024}              & \raggedright Federal            & \raggedright Gov.br portal           & \raggedright ASES, AccessMonitor and TAW       & \raggedright Gov.br portal\tabularnewline
+\cite{carvalho2017}            & \raggedright State              & \raggedright State governments       & \raggedright Two tools and one metric          & \raggedright Home page\tabularnewline
+\cite{eres}                    & \raggedright Municipal          & \raggedright City halls of the campuses & \raggedright ASES                           & \raggedright Home page\tabularnewline
+\cite{franca2025}              & \raggedright Municipal          & \raggedright 13 city halls           & \raggedright LLM, IBM, AChecker and WAVE       & \raggedright Home page\tabularnewline
+\cite{valtolina2022}           & \raggedright Municipal (Italy)  & \raggedright 7,713 municipalities    & \raggedright AChecker and VaMolà               & \raggedright Home page\tabularnewline
+\cite{zahn2023}                & \raggedright Municipal (MT)     & \raggedright 20 ombudsman offices    & \raggedright Documentary analysis              & \raggedright Ombudsman\tabularnewline
+\textbf{This work}             & \raggedright\textbf{Municipal (MT)} & \raggedright\textbf{142 municipalities} & \raggedright\textbf{AMAWeb and AccessMonitor} & \raggedright\textbf{City hall, city council and ombudsman}\tabularnewline
 \bottomrule
 \end{tabular}
 \end{table}
 
-Os trabalhos relacionados mostram que, apesar da legislação e das normas, as falhas de acessibilidade persistem em todas as esferas de governo. Este trabalho se diferencia em três aspectos. Primeiro, abrange todos os 142 municípios de Mato Grosso, enquanto os estudos municipais brasileiros se limitaram a poucas prefeituras. Segundo, avalia três ambientes do mesmo município (o portal da prefeitura, o portal da câmara e o canal de ouvidoria), o que permite verificar se a nota de um ambiente representa a dos demais. Terceiro, usa duas ferramentas automatizadas, o que reduz a dependência dos critérios de uma única ferramenta. O estudo também fornece uma linha de base para o acompanhamento da acessibilidade digital municipal no estado.
+The related works show that, despite the legislation and the standards, accessibility failures persist in all spheres of government. This work differs in three aspects. First, it covers all 142 municipalities of Mato Grosso, while Brazilian municipal studies were limited to a few city halls. Second, it evaluates three environments of the same municipality (the city hall portal, the city council portal and the ombudsman channel), which makes it possible to verify whether the score of one environment represents that of the others. Third, it uses two automated tools, which reduces the dependence on the criteria of a single tool. The study also provides a baseline for monitoring municipal digital accessibility in the state.
 
 
-\section{Metodologia}
+\section{Methodology}
 \label{sec:metodologia}
 
-Quanto ao \textit{Research Method}, trata-se de um estudo descritivo, comparativo e de abordagem quantitativa, de caráter censitário, que abrange os 142 municípios de Mato Grosso. Para cada município, foram considerados três ambientes: o portal institucional da prefeitura, o portal da câmara municipal e o canal eletrônico de ouvidoria. Cada ambiente foi avaliado com duas ferramentas automatizadas baseadas nas WCAG 2.1~\cite{wcag21}, o AMAWeb e o AccessMonitor, e as notas foram comparadas entre os ambientes do mesmo município e relacionadas a indicadores municipais. A estatística descritiva das notas responde à QP1; a comparação pareada entre os ambientes, à QP2; a comparação por tipo de solução de ouvidoria, à QP3; e a correlação com os indicadores municipais, à QP4. A Figura~\ref{fig:metodologia} resume o processo, organizado em três fases: levantamento, avaliação automatizada e consolidação e análise.
+As for the \textit{Research Method}, this is a descriptive, comparative study with a quantitative approach, of a census nature, covering the 142 municipalities of Mato Grosso. For each municipality, three environments were considered: the institutional city hall portal, the city council portal and the electronic ombudsman channel. Each environment was evaluated with two automated tools based on WCAG 2.1~\cite{wcag21}, AMAWeb and AccessMonitor, and the scores were compared between the environments of the same municipality and related to municipal indicators. The descriptive statistics of the scores answer RQ1; the paired comparison between the environments, RQ2; the comparison by type of ombudsman solution, RQ3; and the correlation with the municipal indicators, RQ4. Figure~\ref{fig:metodologia} summarizes the process, organized into three phases: survey, automated evaluation, and consolidation and analysis.
 
 \input{figura-metodologia}
 
-\subsection{População e fonte dos endereços}
+\subsection{Population and source of the addresses}
 
-Os endereços dos portais foram obtidos no Radar da Transparência Pública~\cite{radar}, painel do Programa Nacional de Transparência Pública que reúne os entes públicos avaliados e seus endereços eletrônicos. Foram extraídos os entes vinculados aos municípios mato-grossenses no ciclo de 2025, e cada endereço foi classificado como prefeitura, câmara ou outro ente, com base no domínio (por exemplo, \texttt{.leg.br} para câmaras) e no título da página. Foram analisados os portais das prefeituras e das câmaras. A localização dos canais de ouvidoria foi feita em 21 de setembro de 2026, e as avaliações foram realizadas entre 20 e 22 de setembro de 2026.
+The addresses of the portals were obtained from the Radar da Transparência Pública~\cite{radar}, a dashboard of the National Public Transparency Program that gathers the evaluated public entities and their web addresses. The entities linked to the municipalities of Mato Grosso in the 2025 cycle were extracted, and each address was classified as city hall, city council or other entity, based on the domain (for example, \texttt{.leg.br} for city councils) and on the page title. The portals of the city halls and of the city councils were analyzed. The location of the ombudsman channels was carried out on September 21, 2026, and the evaluations were carried out between September 20 and 22, 2026.
 
-\subsection{Identificação e classificação das ouvidorias}
+\subsection{Identification and classification of the ombudsman channels}
 
-Os canais de ouvidoria foram localizados manualmente, por navegação a partir do portal oficial de cada município. Para cada município, registraram-se em planilha:
+The ombudsman channels were located manually, by navigation from the official portal of each municipality. For each municipality, the following were recorded in a spreadsheet:
 \begin{itemize}
-  \item o portal oficial e a URL de partida;
-  \item a URL final alcançada, ou a última tentada;
-  \item o título da página;
-  \item o caminho de navegação percorrido (por exemplo, \textit{Portal $\rightarrow$ Ouvidoria $\rightarrow$ Novo protocolo});
-  \item uma descrição da evidência encontrada;
-  \item a situação do canal: formulário confirmado, canal sem formulário, portal intermediário, página sem conteúdo visível, erro de acesso ou não verificável.
+  \item the official portal and the starting URL;
+  \item the final URL reached, or the last one attempted;
+  \item the page title;
+  \item the navigation path followed (for example, \textit{Portal $\rightarrow$ Ombudsman $\rightarrow$ New protocol});
+  \item a description of the evidence found;
+  \item the status of the channel: confirmed form, channel without form, intermediate portal, page without visible content, access error or not verifiable.
 \end{itemize}
-A URL submetida às ferramentas foi a URL final, isto é, a página na qual o cidadão registra a manifestação. Para os municípios cuja ouvidoria ficou sem avaliação válida, a situação foi definida a partir dos registros de falha da coleta e, quando esses registros não bastaram, por nova verificação manual, realizada em 29 de setembro de 2026.
+The URL submitted to the tools was the final URL, that is, the page on which the citizen registers the submission. For the municipalities whose ombudsman channel was left without a valid evaluation, the status was defined from the failure records of the collection and, when these records were not sufficient, by a new manual verification, carried out on September 29, 2026.
 
-Cada ouvidoria foi classificada em um dos seguintes tipos, com base no endereço de hospedagem e na situação registrada:
-(i)~integrada ao portal, quando está no mesmo domínio do portal da prefeitura;
-(ii)~sistema próprio, quando está em domínio ou subdomínio distinto da prefeitura;
-(iii)~terceirizada, quando está hospedada em domínio de fornecedor;
-(iv)~Fala.BR, plataforma da Controladoria-Geral da União;
-(v)~não localizada; e
-(vi)~indisponível no momento da coleta.
-A classificação considera apenas o endereço de hospedagem. Por isso, um sistema classificado como próprio pode ser uma mesma solução de fornecedor replicada sob o domínio de vários municípios, e formulários simples não foram distinguidos como tipo à parte.
+Each ombudsman channel was classified into one of the following types, based on the hosting address and on the recorded status:
+(i)~integrated into the portal, when it is on the same domain as the city hall portal;
+(ii)~own system, when it is on a domain or subdomain distinct from that of the city hall;
+(iii)~outsourced, when it is hosted on a vendor's domain;
+(iv)~Fala.BR, the platform of the Office of the Comptroller General (Controladoria-Geral da União);
+(v)~not located; and
+(vi)~unavailable at the time of collection.
+The classification considers only the hosting address. For this reason, a system classified as own may be the same vendor solution replicated under the domain of several municipalities, and simple forms were not distinguished as a separate type.
 
-\subsection{Instrumentos de avaliação}
+\subsection{Evaluation instruments}
 
-Foram utilizadas duas ferramentas automatizadas de avaliação de acessibilidade baseadas nas WCAG 2.1. O uso de mais de uma ferramenta, também adotado em estudos anteriores~\cite{barros2024}, reduz a dependência dos critérios e das limitações de um único avaliador.
+Two automated accessibility evaluation tools based on WCAG 2.1 were used. The use of more than one tool, also adopted in previous studies~\cite{barros2024}, reduces the dependence on the criteria and limitations of a single evaluator.
 
-O AMAWeb~\cite{amaweb}, desenvolvido pela Universidade Federal de São Paulo (UNIFESP) e pelo Instituto Federal do Rio Grande do Sul (IFRS), avalia uma página a partir de sua URL ou de seu código HTML. Ele atribui uma nota de 1 a 10 e classifica cada prática verificada como aceitável, não aceitável ou a verificar manualmente.
+AMAWeb~\cite{amaweb}, developed by the Federal University of São Paulo (UNIFESP) and by the Federal Institute of Rio Grande do Sul (IFRS), evaluates a page from its URL or from its HTML code. It assigns a score from 1 to 10 and classifies each verified practice as acceptable, not acceptable or to be verified manually.
 
-O AccessMonitor~\cite{accessmonitor}, validador do Observatório Português da Acessibilidade Web, mantido pela Agência para a Modernização Administrativa (AMA) de Portugal, executa o motor QualWeb~\cite{qualweb}. O QualWeb aplica regras ACT, técnicas WCAG 2.1 e boas práticas, e sobre esses resultados a ferramenta calcula uma nota de 1 a 10. Por ter código aberto, a ferramenta foi executada em instância local, instalada a partir dos repositórios oficiais, nas seguintes versões: serviço \texttt{accessmonitor-docker} (junho de 2026), QualWeb \textit{core}~0.8.11, \textit{act-rules}~0.8.0, \textit{wcag-techniques}~0.4.7, \textit{best-practices}~0.7.12 e conjunto de regras \texttt{accessmonitor-rulesets}~1.0.4.
+AccessMonitor~\cite{accessmonitor}, the validator of the Portuguese Web Accessibility Observatory, maintained by the Agency for Administrative Modernization (AMA) of Portugal, runs the QualWeb engine~\cite{qualweb}. QualWeb applies ACT rules, WCAG 2.1 techniques and best practices, and on these results the tool calculates a score from 1 to 10. Because it is open source, the tool was run on a local instance, installed from the official repositories, in the following versions: \texttt{accessmonitor-docker} service (June 2026), QualWeb \textit{core}~0.8.11, \textit{act-rules}~0.8.0, \textit{wcag-techniques}~0.4.7, \textit{best-practices}~0.7.12 and the \texttt{accessmonitor-rulesets}~1.0.4 rule set.
 
-As duas ferramentas devolvem relatórios com a mesma estrutura: nota, práticas classificadas pelos três vereditos, contagem de elementos HTML e título da página. Como as escalas das ferramentas não são equivalentes, a estatística descritiva, a comparação entre ambientes e a análise dos erros foram feitas separadamente para cada ferramenta.
+Both tools return reports with the same structure: score, practices classified by the three verdicts, count of HTML elements and page title. Since the scales of the tools are not equivalent, the descriptive statistics, the comparison between environments and the error analysis were carried out separately for each tool.
 
-\subsection{Procedimento de coleta}
+\subsection{Collection procedure}
 
-A coleta foi automatizada por \textit{scripts} em Python, um para cada ferramenta:
+The collection was automated by Python \textit{scripts}, one for each tool:
 \begin{itemize}
-  \item \textbf{AMAWeb:} o \textit{script} consulta o serviço HTTP utilizado pela própria interface web do avaliador, que recebe a URL codificada e devolve o relatório em JSON. Esse serviço não possui documentação pública formal.
-  \item \textbf{AccessMonitor:} o \textit{script} consulta a instância local, que recebe a URL codificada em Base64 ou o código HTML da página. As requisições informam a origem autorizada no cabeçalho \texttt{Referer}, conforme exigido pela instância.
+  \item \textbf{AMAWeb:} the \textit{script} queries the HTTP service used by the evaluator's own web interface, which receives the encoded URL and returns the report in JSON. This service has no formal public documentation.
+  \item \textbf{AccessMonitor:} the \textit{script} queries the local instance, which receives the Base64-encoded URL or the HTML code of the page. The requests indicate the authorized origin in the \texttt{Referer} header, as required by the instance.
 \end{itemize}
 
-Para cada URL, os \textit{scripts} preservaram o JSON devolvido pela ferramenta, sem alterações, e geraram um relatório em PDF. As requisições foram executadas com três avaliações simultâneas e limite de tempo por avaliação. Cada execução gravou seus resultados em um diretório identificado pela data e pela hora de início (\texttt{AAAA-MM-DD/HH-MM-SS}), acompanhado de uma planilha CSV com o resultado de cada URL e de um manifesto com os parâmetros utilizados. As URLs sem resultado válido foram reenviadas em rodadas sucessivas, até o limite de cinco tentativas.
+For each URL, the \textit{scripts} preserved the JSON returned by the tool, without changes, and generated a PDF report. The requests were executed with three simultaneous evaluations and a time limit per evaluation. Each run saved its results in a directory identified by the start date and time (\texttt{YYYY-MM-DD/HH-MM-SS}), accompanied by a CSV spreadsheet with the result of each URL and a manifest with the parameters used. URLs without a valid result were resubmitted in successive rounds, up to the limit of five attempts.
 
-As páginas que bloquearam o acesso direto da ferramenta foram avaliadas por um modo alternativo: o HTML da página foi baixado com cabeçalhos de um navegador comum e submetido ao modo de avaliação por código HTML. Nesse modo, os \textit{scripts} da página não são executados, por isso o modo de envio (URL ou HTML) foi registrado em cada avaliação. Sítios com certificado TLS inválido não foram avaliados, pois a validação do certificado não foi contornada.
+Pages that blocked direct access by the tool were evaluated by an alternative mode: the HTML of the page was downloaded with the headers of a common browser and submitted to the HTML code evaluation mode. In this mode, the page's \textit{scripts} are not executed, so the submission mode (URL or HTML) was recorded in each evaluation. Websites with an invalid TLS certificate were not evaluated, since certificate validation was not bypassed.
 
-\subsection{Critérios de validade}
+\subsection{Validity criteria}
 
-Uma avaliação foi considerada válida quando o documento analisado corresponde à página solicitada. Foram descartadas as avaliações de:
-(i)~páginas de desafio ou de acesso negado de serviços de proteção, identificadas por marcadores no título (``\textit{Just a moment}'', ``\textit{Attention Required!}'', ``\textit{Access denied}'');
-(ii)~páginas de erro, com código HTTP igual ou superior a 400 ou cujo título indica erro (por exemplo, ``\textit{404 - File or directory not found}''); e
-(iii)~documentos com menos de dez elementos HTML.
-Integram a análise das notas apenas as ouvidorias com formulário de manifestação confirmado. Portais intermediários, canais sem formulário e canais indisponíveis foram excluídos, pois a página correspondente não é aquela em que o cidadão registra a manifestação.
+An evaluation was considered valid when the analyzed document corresponds to the requested page. Evaluations of the following were discarded:
+(i)~challenge or access-denied pages of protection services, identified by markers in the title (``\textit{Just a moment}'', ``\textit{Attention Required!}'', ``\textit{Access denied}'');
+(ii)~error pages, with an HTTP code equal to or greater than 400 or whose title indicates an error (for example, ``\textit{404 - File or directory not found}''); and
+(iii)~documents with fewer than ten HTML elements.
+Only the ombudsman channels with a confirmed submission form are included in the score analysis. Intermediate portals, channels without a form and unavailable channels were excluded, since the corresponding page is not the one on which the citizen registers the submission.
 
-Cada município contribui com uma única avaliação por ambiente e por ferramenta. Quando havia mais de uma avaliação válida, priorizou-se, nesta ordem, a avaliação com conteúdo efetivamente avaliado, a da página inicial do portal, a feita pela URL em detrimento da feita pelo HTML e, por fim, a mais recente.
+Each municipality contributes a single evaluation per environment and per tool. When there was more than one valid evaluation, priority was given, in this order, to the evaluation with effectively evaluated content, to that of the portal's home page, to that made by URL over that made by HTML and, finally, to the most recent one.
 
-\subsection{Análise dos dados}
+\subsection{Data analysis}
 
-Os relatórios foram consolidados em uma planilha com abas para câmaras, prefeituras e ouvidorias, além de abas de análise e de erros. Para cada avaliação, registraram-se URL, ferramenta, situação da página, nota, data e hora, quantidade de práticas com falha, aviso e sucesso, e o \textit{hash} SHA-256 do arquivo de origem, que permite verificar a correspondência com o relatório bruto.
+The reports were consolidated into a spreadsheet with tabs for city councils, city halls and ombudsman channels, in addition to analysis and error tabs. For each evaluation, the following were recorded: URL, tool, page status, score, date and time, number of practices with failure, warning and success, and the SHA-256 \textit{hash} of the source file, which makes it possible to verify the correspondence with the raw report.
 
-A unidade de análise é o município. Para cada ferramenta, cada município tem até três notas: a do portal da prefeitura, a do portal da câmara e a da ouvidoria. As análises seguem duas regras de inclusão. Nas análises por ferramenta, entra cada ambiente com avaliação válida na ferramenta considerada, e as comparações entre ambientes usam apenas os municípios com os dois ambientes avaliados na mesma ferramenta. Nas análises com a nota consolidada, entra apenas o ambiente avaliado pelas duas ferramentas. As notas foram descritas por média, mediana, desvio-padrão, mínimo e máximo, para cada ambiente e ferramenta, e distribuídas em faixas de nota (abaixo de 5,0; de 5,0 a 6,9; de 7,0 a 8,9; e 9,0 ou mais). As faixas são apenas descritivas, pois nenhuma das ferramentas define uma nota a partir da qual uma página é considerada acessível.
+The unit of analysis is the municipality. For each tool, each municipality has up to three scores: that of the city hall portal, that of the city council portal and that of the ombudsman channel. The analyses follow two inclusion rules. In the analyses by tool, each environment with a valid evaluation in the tool considered is included, and the comparisons between environments use only the municipalities with both environments evaluated in the same tool. In the analyses with the consolidated score, only the environment evaluated by both tools is included. The scores were described by mean, median, standard deviation, minimum and maximum, for each environment and tool, and distributed into score ranges (below 5.0; from 5.0 to 6.9; from 7.0 to 8.9; and 9.0 or more). The ranges are only descriptive, since neither tool defines a score from which a page is considered accessible.
 
-Para a QP2, compararam-se as notas da prefeitura com as da ouvidoria e as da prefeitura com as da câmara, considerando apenas os municípios com os dois ambientes avaliados na mesma ferramenta. Foram calculadas a diferença média e a diferença absoluta média entre as notas, e a significância das diferenças foi verificada pelo teste de Wilcoxon pareado. A diferença entre prefeitura e ouvidoria reflete o percurso do cidadão, que normalmente chega à ouvidoria a partir do portal. Para a QP3, as notas das ouvidorias e as diferenças em relação ao portal da prefeitura foram comparadas entre os tipos de solução.
+For RQ2, the city hall scores were compared with those of the ombudsman channel and the city hall scores with those of the city council, considering only the municipalities with both environments evaluated in the same tool. The mean difference and the mean absolute difference between the scores were calculated, and the significance of the differences was verified by the paired Wilcoxon test. The difference between city hall and ombudsman channel reflects the path of the citizen, who normally reaches the ombudsman channel from the portal. For RQ3, the scores of the ombudsman channels and the differences in relation to the city hall portal were compared across the solution types.
 
-Para a QP4 e para o ranqueamento, utilizou-se a nota consolidada de cada ambiente, isto é, a média entre as notas das duas ferramentas, calculada apenas quando o ambiente tinha avaliação válida em ambas. Como todos os municípios considerados nessas análises foram avaliados pelas duas ferramentas, a diferença de escala entre elas afeta todos da mesma forma. A robustez dessa escolha foi verificada pela concordância entre as ferramentas (correlação de Spearman entre as notas de cada página) e pela comparação do ranqueamento consolidado com os ranqueamentos obtidos por ferramenta e com notas padronizadas (escore-z). As notas consolidadas foram relacionadas aos indicadores municipais por meio do coeficiente de correlação de Spearman e de médias por faixa populacional, estas calculadas sobre os mesmos municípios do ranqueamento. Os indicadores utilizados foram a população estimada pelo IBGE (2026), o PIB \textit{per capita} (IBGE, 2023) e o IDHM (2010), obtido no Atlas do Desenvolvimento Humano no Brasil. Em todos os testes, adotou-se nível de significância de 0,05. As análises foram feitas em Python, com as bibliotecas pandas e SciPy.
+For RQ4 and for the ranking, the consolidated score of each environment was used, that is, the mean of the scores of the two tools, calculated only when the environment had a valid evaluation in both. Since all the municipalities considered in these analyses were evaluated by both tools, the difference in scale between them affects all of them in the same way. The robustness of this choice was verified by the agreement between the tools (Spearman correlation between the scores of each page) and by comparing the consolidated ranking with the rankings obtained by tool and with standardized scores (z-score). The consolidated scores were related to the municipal indicators through Spearman's correlation coefficient and through means by population range, the latter calculated over the same municipalities as the ranking. The indicators used were the population estimated by IBGE (2026), the GDP \textit{per capita} (IBGE, 2023) and the MHDI (2010), obtained from the Atlas of Human Development in Brazil. In all tests, a significance level of 0.05 was adopted. The analyses were carried out in Python, with the pandas and SciPy libraries.
 
-Os erros mais frequentes foram apurados pela proporção de páginas com ao menos uma ocorrência de cada prática classificada como não aceitável. Cada prática foi associada ao critério de sucesso das WCAG 2.1 correspondente.
+The most frequent errors were determined by the proportion of pages with at least one occurrence of each practice classified as not acceptable. Each practice was associated with the corresponding WCAG 2.1 success criterion.
 
-Por fim, os municípios foram ranqueados pela média simples das notas consolidadas dos três ambientes, considerando apenas os municípios com os três ambientes avaliados pelas duas ferramentas. Os empates foram desfeitos pela ordem alfabética, e são apresentados os dez municípios mais bem e os dez mais mal posicionados.
+Finally, the municipalities were ranked by the simple mean of the consolidated scores of the three environments, considering only the municipalities with the three environments evaluated by both tools. Ties were broken by alphabetical order, and the ten best-ranked and the ten worst-ranked municipalities are presented.
 
-Os relatórios brutos, a planilha consolidada e os \textit{scripts} de coleta estão disponíveis em XX.
+The raw reports, the consolidated spreadsheet and the collection \textit{scripts} are available at XX.
 
 
-\section{Resultados e discussões}
+\section{Results and discussion}
 \label{sec:resultados}
 
-\subsection{Caracterização da coleta}
+\subsection{Characterization of the collection}
 
-Do Radar da Transparência foram extraídas 314 URLs únicas, entre portais de prefeituras, de câmaras municipais e de outros entes, como consórcios intermunicipais. Na localização das ouvidorias, o formulário de manifestação foi confirmado em 127 dos 142 municípios (89,4\%). Nos demais, foram encontrados portais intermediários, que levavam a uma página inicial ou a um catálogo de serviços, e não ao formulário (11), canais sem formulário de ouvidoria, como páginas de contato (3), e um canal indisponível por falha de DNS. Como alguns municípios compartilham a mesma plataforma, os 142 registros correspondem a 136 URLs únicas. Sete municípios (Araguainha, Araputanga, Barra do Garças, Cláudia, Paranaíta, Sorriso e Várzea Grande) usam o Fala.BR, e a avaliação considerou a mesma página geral de registro para todos eles; no caso de Araputanga, o endereço específico do município retornava erro. Outros dois municípios (Canarana e Cáceres) direcionam o cidadão a essa plataforma.
+From the Radar da Transparência, 314 unique URLs were extracted, among portals of city halls, of city councils and of other entities, such as intermunicipal consortia. In locating the ombudsman channels, the submission form was confirmed in 127 of the 142 municipalities (89.4\%). In the others, the following were found: intermediate portals, which led to a home page or to a service catalog, and not to the form (11), channels without an ombudsman form, such as contact pages (3), and one channel unavailable due to a DNS failure. Since some municipalities share the same platform, the 142 records correspond to 136 unique URLs. Seven municipalities (Araguainha, Araputanga, Barra do Garças, Cláudia, Paranaíta, Sorriso and Várzea Grande) use Fala.BR, and the evaluation considered the same general registration page for all of them; in the case of Araputanga, the municipality's specific address returned an error. Two other municipalities (Canarana and Cáceres) direct the citizen to this platform.
 
-A Tabela~\ref{tab:amostra} resume a cobertura da coleta por ambiente e por ferramenta. Na ouvidoria, a tabela considera apenas os formulários confirmados. Com ao menos uma ferramenta, os três ambientes foram avaliados em 88 municípios, e a prefeitura e a ouvidoria, em 110. Com as duas ferramentas, os três ambientes foram avaliados em 75 municípios, que compõem a base do ranqueamento. O estudo abrangeu, portanto, todos os municípios do estado, mas a análise completa dos três ambientes pelas duas ferramentas reúne pouco mais da metade deles.
+Table~\ref{tab:amostra} summarizes the coverage of the collection by environment and by tool. For the ombudsman channel, the table considers only the confirmed forms. With at least one tool, the three environments were evaluated in 88 municipalities, and the city hall and the ombudsman channel, in 110. With both tools, the three environments were evaluated in 75 municipalities, which make up the basis of the ranking. The study therefore covered all the municipalities of the state, but the complete analysis of the three environments by both tools gathers just over half of them.
 
 \begin{table}[ht]
 \centering
-\caption{Municípios com avaliação válida, por ambiente e ferramenta}
+\caption{Municipalities with a valid evaluation, by environment and tool}
 \label{tab:amostra}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{lrrrr}
 \toprule
-\textbf{Ambiente} & \textbf{Ao menos uma} & \textbf{AMAWeb} & \textbf{AccessMonitor} & \textbf{Ambas} \\
+\textbf{Environment} & \textbf{At least one} & \textbf{AMAWeb} & \textbf{AccessMonitor} & \textbf{Both} \\
 \midrule
-Prefeitura              & 123 & 117 & 123 & 117 \\
-Câmara                  & 107 & 100 & 107 & 100 \\
-Ouvidoria (formulário confirm.) & 117 & 101 & 116 & 100 \\
+City hall              & 123 & 117 & 123 & 117 \\
+City council           & 107 & 100 & 107 & 100 \\
+Ombudsman (confirmed form) & 117 & 101 & 116 & 100 \\
 \midrule
-Os três ambientes       &  88 &  75 &  88 &  75 \\
+The three environments &  88 &  75 &  88 &  75 \\
 \bottomrule
 \end{tabular}
 
 \smallskip
-\parbox{0.85\linewidth}{\footnotesize Total de municípios: 142. \textit{Ao menos uma}: o ambiente tem avaliação válida em pelo menos uma ferramenta, que pode ser diferente entre os ambientes do mesmo município. \textit{Ambas}: o ambiente tem avaliação válida nas duas ferramentas.}
+\parbox{0.85\linewidth}{\footnotesize Total municipalities: 142. \textit{At least one}: the environment has a valid evaluation in at least one tool, which may differ between the environments of the same municipality. \textit{Both}: the environment has a valid evaluation in both tools.}
 \end{table}
 
-A cobertura do AMAWeb foi menor por causa de falhas persistentes: 47 dos 314 endereços do Radar permaneceram sem resposta após cinco tentativas. Essas falhas não decorreram de limitação de requisições, pois, no mesmo período, URLs já avaliadas foram reenviadas e processadas normalmente, enquanto os endereços com falha repetiram o erro também na interface web do avaliador, inclusive quando submetidos pelo código HTML. Os bloqueios por serviços de proteção foram a principal causa de perda de dados. No AccessMonitor, 51 URLs únicas devolveram página de bloqueio do Cloudflare (33 portais e 18 ouvidorias). Registraram-se ainda 33 erros internos do serviço ao processar o relatório do QualWeb, 18 esgotamentos de tempo no download do HTML, 5 falhas de DNS e 3 certificados TLS inválidos. As ouvidorias hospedadas em um mesmo fornecedor falharam da mesma forma nas duas ferramentas, o que mostra que a plataforma adotada afeta até a possibilidade de avaliar o canal. A contingência pelo HTML baixado foi decisiva para a cobertura do AccessMonitor, com 128 avaliações válidas obtidas nesse modo. As médias obtidas nos dois modos de envio foram próximas (no AMAWeb, 7,73 pela URL e 7,64 pelo HTML; no AccessMonitor, 7,15 e 6,89), e por isso as avaliações dos dois modos foram analisadas em conjunto.
+The coverage of AMAWeb was lower because of persistent failures: 47 of the 314 Radar addresses remained without a response after five attempts. These failures did not result from request rate limiting, since, in the same period, URLs already evaluated were resubmitted and processed normally, while the addresses with failures repeated the error also in the evaluator's web interface, including when submitted through the HTML code. Blocking by protection services was the main cause of data loss. In AccessMonitor, 51 unique URLs returned a Cloudflare block page (33 portals and 18 ombudsman channels). There were also 33 internal errors of the service when processing the QualWeb report, 18 timeouts in the download of the HTML, 5 DNS failures and 3 invalid TLS certificates. The ombudsman channels hosted by the same vendor failed in the same way in both tools, which shows that the adopted platform affects even the possibility of evaluating the channel. The contingency through the downloaded HTML was decisive for the coverage of AccessMonitor, with 128 valid evaluations obtained in this mode. The means obtained in the two submission modes were close (in AMAWeb, 7.73 by URL and 7.64 by HTML; in AccessMonitor, 7.15 and 6.89), and therefore the evaluations of the two modes were analyzed together.
 
-\subsection{Nível de acessibilidade dos ambientes (QP1)}
+\subsection{Level of accessibility of the environments (RQ1)}
 
-A Figura~\ref{fig:boxplot} apresenta a distribuição das notas por ambiente e ferramenta, e a Tabela~\ref{tab:descritiva}, a estatística descritiva. As ouvidorias obtiveram as maiores médias e a menor dispersão nas duas ferramentas. Os portais das prefeituras apresentaram a maior dispersão, com os maiores desvios-padrão, e os das câmaras concentraram os valores atípicos mais baixos. Em todos os ambientes, o AMAWeb atribuiu notas mais altas que o AccessMonitor: nos 317 pares de município e ambiente avaliados pelas duas ferramentas, a diferença média foi de 0,67 ponto.
+Figure~\ref{fig:boxplot} presents the distribution of the scores by environment and tool, and Table~\ref{tab:descritiva}, the descriptive statistics. The ombudsman channels obtained the highest means and the lowest dispersion in both tools. The city hall portals presented the greatest dispersion, with the largest standard deviations, and the city council portals concentrated the lowest outliers. In all environments, AMAWeb assigned higher scores than AccessMonitor: in the 317 municipality--environment pairs evaluated by both tools, the mean difference was 0.67 points.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.9\linewidth]{images/boxplot_egov_artigo.png}
-\caption{Distribuição das notas de acessibilidade por ambiente e ferramenta. A série Média corresponde à média entre as notas das duas ferramentas.}
+\caption{Distribution of the accessibility scores by environment and tool. The Mean series corresponds to the mean of the scores of the two tools.}
 \label{fig:boxplot}
 \end{figure}
 
 \begin{table}[ht]
 \centering
-\caption{Estatística descritiva das notas de acessibilidade, por ambiente e ferramenta}
+\caption{Descriptive statistics of the accessibility scores, by environment and tool}
 \label{tab:descritiva}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{lrrrrrr}
 \toprule
- & \multicolumn{2}{c}{\textbf{Prefeitura}} & \multicolumn{2}{c}{\textbf{Câmara}} & \multicolumn{2}{c}{\textbf{Ouvidoria}} \\
+ & \multicolumn{2}{c}{\textbf{City hall}} & \multicolumn{2}{c}{\textbf{City council}} & \multicolumn{2}{c}{\textbf{Ombudsman}} \\
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
-\textbf{Medida} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} \\
+\textbf{Measure} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} \\
 \midrule
 $n$                  &  117 &  123 &  100 &  107 &  101 &  116 \\
-Média                & 7,65 & 7,01 & 7,68 & 6,89 & 7,98 & 7,48 \\
-Mediana              & 7,70 & 7,20 & 7,80 & 7,00 & 7,90 & 7,30 \\
-Desvio-padrão        & 1,00 & 1,22 & 0,88 & 1,15 & 0,68 & 0,91 \\
-Mínimo               & 4,20 & 3,80 & 4,10 & 3,50 & 6,30 & 4,80 \\
-Máximo               & 9,80 & 9,50 & 9,80 & 9,70 & 9,20 & 9,10 \\
+Mean                 & 7.65 & 7.01 & 7.68 & 6.89 & 7.98 & 7.48 \\
+Median               & 7.70 & 7.20 & 7.80 & 7.00 & 7.90 & 7.30 \\
+Standard deviation   & 1.00 & 1.22 & 0.88 & 1.15 & 0.68 & 0.91 \\
+Minimum              & 4.20 & 3.80 & 4.10 & 3.50 & 6.30 & 4.80 \\
+Maximum              & 9.80 & 9.50 & 9.80 & 9.70 & 9.20 & 9.10 \\
 \midrule
-\multicolumn{7}{l}{\textit{Distribuição por faixa de nota (\%)}} \\
-Abaixo de 5,0        &  0,9 &  6,5 &  1,0 &  7,5 &  0,0 &  0,9 \\
-5,0 a 6,9            & 24,8 & 33,3 & 14,0 & 39,3 &  5,0 & 12,1 \\
-7,0 a 8,9            & 65,0 & 54,5 & 82,0 & 51,4 & 79,2 & 75,0 \\
-9,0 ou mais          &  9,4 &  5,7 &  3,0 &  1,9 & 15,8 & 12,1 \\
+\multicolumn{7}{l}{\textit{Distribution by score range (\%)}} \\
+Below 5.0            &  0.9 &  6.5 &  1.0 &  7.5 &  0.0 &  0.9 \\
+5.0 to 6.9           & 24.8 & 33.3 & 14.0 & 39.3 &  5.0 & 12.1 \\
+7.0 to 8.9           & 65.0 & 54.5 & 82.0 & 51.4 & 79.2 & 75.0 \\
+9.0 or more          &  9.4 &  5.7 &  3.0 &  1.9 & 15.8 & 12.1 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-A maior parte das páginas ficou na faixa de 7,0 a 8,9 pontos em todos os ambientes. A proporção de páginas com nota igual ou superior a 9,0 foi pequena, sobretudo nas câmaras (3,0\% no AMAWeb e 1,9\% no AccessMonitor), enquanto as notas abaixo de 7,0 foram mais frequentes nos portais das prefeituras e das câmaras avaliados pelo AccessMonitor (39,8\% e 46,8\%, respectivamente).
+Most pages fell in the range of 7.0 to 8.9 points in all environments. The proportion of pages with a score equal to or greater than 9.0 was small, especially in the city councils (3.0\% in AMAWeb and 1.9\% in AccessMonitor), while scores below 7.0 were more frequent in the city hall and city council portals evaluated by AccessMonitor (39.8\% and 46.8\%, respectively).
 
-A Tabela~\ref{tab:erros} lista as práticas classificadas como não aceitáveis com maior frequência no AMAWeb. O contraste de cor insuficiente e os links sem nome acessível foram os problemas mais comuns nos três ambientes. Os perfis de erro, contudo, diferem. Nos portais das prefeituras, destacam-se problemas de marcação, como atributos \texttt{id} repetidos (65,0\%). Nos portais das câmaras, sobressaem os links sem nome acessível (82,0\%) e a ausência ou duplicação do cabeçalho \texttt{h1} (74,0\%). Nas ouvidorias, predominam falhas associadas à navegação por teclado, como a ausência de mecanismo para saltar ao conteúdo principal e a remoção do foco por JavaScript (75,2\% cada). Essas falhas são indícios de barreiras para quem usa teclado ou leitor de tela ao preencher um formulário; a confirmação do impacto efetivo exige inspeção manual e testes com usuários. O idioma principal marcado incorretamente aparece em 55,4\% das ouvidorias, contra 5,1\% dos portais das prefeituras e 3,0\% dos das câmaras, o que é compatível com a replicação de uma mesma plataforma em diversos municípios. O AccessMonitor reproduziu o padrão geral: contraste insuficiente em 74,8\% dos portais das prefeituras, 72,9\% dos das câmaras e 68,1\% das ouvidorias, e ausência de link para saltar ao conteúdo em 69,0\% das ouvidorias.
+Table~\ref{tab:erros} lists the practices most frequently classified as not acceptable in AMAWeb. Insufficient color contrast and links without an accessible name were the most common problems in the three environments. The error profiles, however, differ. In the city hall portals, markup problems stand out, such as repeated \texttt{id} attributes (65.0\%). In the city council portals, links without an accessible name (82.0\%) and the absence or duplication of the \texttt{h1} heading (74.0\%) stand out. In the ombudsman channels, failures associated with keyboard navigation predominate, such as the absence of a mechanism to skip to the main content and the removal of focus by JavaScript (75.2\% each). These failures are indications of barriers for those who use a keyboard or screen reader when filling out a form; confirmation of the actual impact requires manual inspection and user testing. The main language marked incorrectly appears in 55.4\% of the ombudsman channels, against 5.1\% of the city hall portals and 3.0\% of the city council portals, which is compatible with the replication of the same platform in several municipalities. AccessMonitor reproduced the general pattern: insufficient contrast in 74.8\% of the city hall portals, 72.9\% of the city council portals and 68.1\% of the ombudsman channels, and absence of a link to skip to the content in 69.0\% of the ombudsman channels.
 
 \begin{table}[ht]
 \centering
-\caption{Práticas classificadas como não aceitáveis com maior frequência no AMAWeb}
+\caption{Practices most frequently classified as not acceptable in AMAWeb}
 \label{tab:erros}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{lccrrr}
 \toprule
- & & & \multicolumn{3}{c}{\textbf{Páginas com o erro (\%)}} \\
+ & & & \multicolumn{3}{c}{\textbf{Pages with the error (\%)}} \\
 \cmidrule(lr){4-6}
-\textbf{Erro} & \textbf{Critério} & \textbf{Nível} & \textbf{Prefeituras} & \textbf{Câmaras} & \textbf{Ouvidorias} \\
+\textbf{Error} & \textbf{Criterion} & \textbf{Level} & \textbf{City halls} & \textbf{City councils} & \textbf{Ombudsman} \\
  & \textbf{WCAG} & & ($n=117$) & ($n=100$) & ($n=101$) \\
 \midrule
-Contraste de cor insuficiente                     & 1.4.3  & AA  & 84,6 & 78,0 & 73,3 \\
-Links sem nome acessível                          & 4.1.2  & A   & 76,1 & 82,0 & 58,4 \\
-Atributos \texttt{id} repetidos                   & 4.1.1  & A   & 65,0 & 45,0 & 15,8 \\
-Links de imagem sem texto alternativo             & 2.4.4  & A   & 59,0 & 58,0 & 56,4 \\
-Ausência de \texttt{h1} ou \texttt{h1} duplicado  & 1.3.1  & A   & 51,3 & 74,0 & 57,4 \\
-Sem link para saltar ao conteúdo                  & 2.4.1  & A   & 46,2 & 45,0 & 75,2 \\
-Foco removido por JavaScript                      & 2.4.7  & AA  & 41,0 & 16,0 & 75,2 \\
-Hierarquia de cabeçalhos violada                  & 2.4.10 & AAA & 40,2 & 37,0 & 67,3 \\
-Idioma principal marcado incorretamente           & 3.1.1  & A   &  5,1 &  3,0 & 55,4 \\
+Insufficient color contrast                       & 1.4.3  & AA  & 84.6 & 78.0 & 73.3 \\
+Links without an accessible name                  & 4.1.2  & A   & 76.1 & 82.0 & 58.4 \\
+Repeated \texttt{id} attributes                   & 4.1.1  & A   & 65.0 & 45.0 & 15.8 \\
+Image links without alternative text              & 2.4.4  & A   & 59.0 & 58.0 & 56.4 \\
+Missing \texttt{h1} or duplicated \texttt{h1}     & 1.3.1  & A   & 51.3 & 74.0 & 57.4 \\
+No link to skip to the content                    & 2.4.1  & A   & 46.2 & 45.0 & 75.2 \\
+Focus removed by JavaScript                       & 2.4.7  & AA  & 41.0 & 16.0 & 75.2 \\
+Heading hierarchy violated                        & 2.4.10 & AAA & 40.2 & 37.0 & 67.3 \\
+Main language marked incorrectly                  & 3.1.1  & A   &  5.1 &  3.0 & 55.4 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\subsection{Consistência entre os ambientes do mesmo município (QP2)}
+\subsection{Consistency between the environments of the same municipality (RQ2)}
 
-A Tabela~\ref{tab:pareado} compara as notas da prefeitura com as da ouvidoria e as da câmara, nos municípios com os dois ambientes avaliados na mesma ferramenta. A ouvidoria obteve nota maior que o portal da prefeitura em 53 dos 96 municípios no AMAWeb e em 50 dos 109 no AccessMonitor, com diferenças médias de $-0{,}38$ e $-0{,}43$ ponto. A diferença foi estatisticamente significativa no AMAWeb, mas não no AccessMonitor. Na comparação com a câmara, as médias foram praticamente iguais, e as diferenças não foram significativas em nenhuma ferramenta.
+Table~\ref{tab:pareado} compares the city hall scores with those of the ombudsman channel and of the city council, in the municipalities with both environments evaluated in the same tool. The ombudsman channel obtained a higher score than the city hall portal in 53 of the 96 municipalities in AMAWeb and in 50 of the 109 in AccessMonitor, with mean differences of $-0.38$ and $-0.43$ points. The difference was statistically significant in AMAWeb, but not in AccessMonitor. In the comparison with the city council, the means were practically equal, and the differences were not significant in either tool.
 
 \begin{table}[ht]
 \centering
-\caption{Comparação pareada entre o portal da prefeitura e os demais ambientes do mesmo município}
+\caption{Paired comparison between the city hall portal and the other environments of the same municipality}
 \label{tab:pareado}
 \small
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{lrrrr}
 \toprule
- & \multicolumn{2}{c}{\textbf{Prefeitura $\times$ Ouvidoria}} & \multicolumn{2}{c}{\textbf{Prefeitura $\times$ Câmara}} \\
+ & \multicolumn{2}{c}{\textbf{City hall $\times$ Ombudsman}} & \multicolumn{2}{c}{\textbf{City hall $\times$ City council}} \\
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}
-\textbf{Medida} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} \\
+\textbf{Measure} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} \\
 \midrule
-Municípios comparados                          & 96 & 109 & 93 & 99 \\
-Outro ambiente com nota maior                  & 53 & 50 & 45 & 43 \\
-Outro ambiente com nota menor                  & 38 & 52 & 45 & 52 \\
-Notas iguais                                   & 5 & 7 & 3 & 4 \\
-Diferença média (prefeitura $-$ outro)         & $-$0,38 & $-$0,43 & 0,00 & 0,17 \\
-Diferença absoluta média                       & 0,92 & 1,17 & 0,98 & 1,19 \\
-Teste de Wilcoxon ($p$)                        & 0,007 & 0,094 & 0,937 & 0,287 \\
+Municipalities compared                        & 96 & 109 & 93 & 99 \\
+Other environment with higher score            & 53 & 50 & 45 & 43 \\
+Other environment with lower score             & 38 & 52 & 45 & 52 \\
+Equal scores                                   & 5 & 7 & 3 & 4 \\
+Mean difference (city hall $-$ other)          & $-$0.38 & $-$0.43 & 0.00 & 0.17 \\
+Mean absolute difference                       & 0.92 & 1.17 & 0.98 & 1.19 \\
+Wilcoxon test ($p$)                            & 0.007 & 0.094 & 0.937 & 0.287 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-A diferença absoluta média, no entanto, foi próxima de um ponto nas duas comparações e nas duas ferramentas. Isso significa que, mesmo quando as médias gerais são semelhantes, as notas de um mesmo município variam de forma relevante entre os ambientes, ora a favor de um, ora de outro. A nota do portal da prefeitura, portanto, não representa a da ouvidoria nem a do portal da câmara, e cada ambiente precisa ser avaliado separadamente.
+The mean absolute difference, however, was close to one point in both comparisons and in both tools. This means that, even when the overall means are similar, the scores of the same municipality vary relevantly between the environments, sometimes in favor of one, sometimes of the other. The score of the city hall portal, therefore, does not represent that of the ombudsman channel nor that of the city council portal, and each environment needs to be evaluated separately.
 
-\subsection{Tipos de solução de ouvidoria (QP3)}
+\subsection{Types of ombudsman solution (RQ3)}
 
-A Tabela~\ref{tab:tipos} apresenta a frequência de cada tipo de solução de ouvidoria, as notas médias dos formulários confirmados e a diferença em relação ao portal da prefeitura.
+Table~\ref{tab:tipos} presents the frequency of each type of ombudsman solution, the mean scores of the confirmed forms and the difference in relation to the city hall portal.
 
 \begin{table}[ht]
 \centering
-\caption{Tipos de solução de ouvidoria, notas médias da ouvidoria e diferença média prefeitura $-$ ouvidoria, por ferramenta}
+\caption{Types of ombudsman solution, mean scores of the ombudsman channel and mean difference city hall $-$ ombudsman channel, by tool}
 \label{tab:tipos}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{lrrrrrr}
 \toprule
- & & & \multicolumn{2}{c}{\textbf{Nota da ouvidoria ($n$)}} & \multicolumn{2}{c}{\textbf{Diferença média (pares)}} \\
+ & & & \multicolumn{2}{c}{\textbf{Ombudsman score ($n$)}} & \multicolumn{2}{c}{\textbf{Mean difference (pairs)}} \\
 \cmidrule(lr){4-5}\cmidrule(lr){6-7}
-\textbf{Tipo} & \textbf{Municípios} & \textbf{\%} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} \\
+\textbf{Type} & \textbf{Municipalities} & \textbf{\%} & \textbf{AMAWeb} & \textbf{AccessM.} & \textbf{AMAWeb} & \textbf{AccessM.} \\
 \midrule
-Integrada ao portal  & 37 & 26,1 & 7,63 (15) & 7,11 (28) & $-$0,09 (13) &    0,08 (23) \\
-Sistema próprio      & 59 & 41,5 & 7,83 (55) & 7,24 (57) & $-$0,02 (53) &    0,17 (56) \\
-Terceirizada         & 36 & 25,4 & 8,54 (24) & 8,25 (24) & $-$1,30 (23) & $-$2,07 (23) \\
-Fala.BR              &  9 &  6,3 & 8,00 (7)  & 8,30 (7)  & $-$0,57 (7)  & $-$1,46 (7) \\
-Indisponível         &  1 &  0,7 &  ---      &  ---      &     ---      &     --- \\
+Integrated into the portal & 37 & 26.1 & 7.63 (15) & 7.11 (28) & $-$0.09 (13) &    0.08 (23) \\
+Own system           & 59 & 41.5 & 7.83 (55) & 7.24 (57) & $-$0.02 (53) &    0.17 (56) \\
+Outsourced           & 36 & 25.4 & 8.54 (24) & 8.25 (24) & $-$1.30 (23) & $-$2.07 (23) \\
+Fala.BR              &  9 &  6.3 & 8.00 (7)  & 8.30 (7)  & $-$0.57 (7)  & $-$1.46 (7) \\
+Unavailable          &  1 &  0.7 &  ---      &  ---      &     ---      &     --- \\
 \midrule
 \textbf{Total}       & \textbf{142} & \textbf{100} & & & & \\
 \bottomrule
-\multicolumn{7}{p{0.95\linewidth}}{\footnotesize Notas calculadas apenas sobre os formulários confirmados com avaliação válida em cada ferramenta. Diferença negativa indica ouvidoria com nota maior que o portal da prefeitura.}
+\multicolumn{7}{p{0.95\linewidth}}{\footnotesize Scores calculated only on the confirmed forms with a valid evaluation in each tool. A negative difference indicates an ombudsman channel with a higher score than the city hall portal.}
 \end{tabular}
 \end{table}
 
-Os sistemas próprios em domínio ou subdomínio distinto são o tipo mais frequente (41,5\%), e 54 dos 59 seguem o mesmo padrão de endereço (\texttt{ouvidoria.<município>.mt.gov.br/Manifestacao/}). Isso sugere que parte dos canais classificados como próprios é, na verdade, uma mesma solução replicada entre municípios, possivelmente fornecida por uma única empresa e hospedada sob o domínio da prefeitura. O mesmo ocorre entre as terceirizadas, que se concentram em poucos fornecedores. As integradas ao portal respondem por 26,1\%, as terceirizadas por 25,4\%, e 9 municípios (6,3\%) direcionam o cidadão ao Fala.BR.
+Own systems on a distinct domain or subdomain are the most frequent type (41.5\%), and 54 of the 59 follow the same address pattern (\texttt{ouvidoria.<municipality>.mt.gov.br/Manifestacao/}). This suggests that part of the channels classified as own is, in fact, the same solution replicated across municipalities, possibly provided by a single company and hosted under the city hall's domain. The same occurs among the outsourced ones, which are concentrated in a few vendors. Those integrated into the portal account for 26.1\%, the outsourced ones for 25.4\%, and 9 municipalities (6.3\%) direct the citizen to Fala.BR.
 
-Nas ouvidorias integradas ao portal e nos sistemas próprios, a diferença média em relação ao portal da prefeitura é próxima de zero. Já as ouvidorias terceirizadas obtiveram notas mais altas que o respectivo portal em 18 dos 23 municípios comparados, nas duas ferramentas, com diferenças médias de 1,30 e 2,07 pontos. Os dados mostram uma associação entre o tipo de ouvidoria e a diferença de notas, mas não permitem atribuí-la ao fornecedor ou à política de acessibilidade do município. No caso do Fala.BR, os municípios avaliados utilizam a mesma página de registro; por isso, suas notas não representam implementações independentes.
+In the ombudsman channels integrated into the portal and in the own systems, the mean difference in relation to the city hall portal is close to zero. The outsourced ombudsman channels, on the other hand, obtained higher scores than the respective portal in 18 of the 23 municipalities compared, in both tools, with mean differences of 1.30 and 2.07 points. The data show an association between the type of ombudsman channel and the score difference, but do not allow it to be attributed to the vendor or to the municipality's accessibility policy. In the case of Fala.BR, the evaluated municipalities use the same registration page; therefore, their scores do not represent independent implementations.
 
-\subsection{Relação com porte populacional e indicadores socioeconômicos (QP4)}
+\subsection{Relationship with population size and socioeconomic indicators (RQ4)}
 
-Antes das análises com a nota consolidada, verificou-se a concordância entre as ferramentas. A correlação entre as notas do AMAWeb e do AccessMonitor para uma mesma página foi de 0,91 nos portais das prefeituras, 0,79 nos das câmaras e 0,71 nas ouvidorias, e a diferença entre as ferramentas foi aproximadamente constante (entre 0,49 e 0,85 ponto, conforme o ambiente). Nessas condições, a média das duas notas preserva, em grande parte, a ordem dos municípios, o que foi confirmado no ranqueamento (Seção~\ref{sec:ranking}).
+Before the analyses with the consolidated score, the agreement between the tools was verified. The correlation between the AMAWeb and AccessMonitor scores for the same page was 0.91 in the city hall portals, 0.79 in the city council portals and 0.71 in the ombudsman channels, and the difference between the tools was approximately constant (between 0.49 and 0.85 points, depending on the environment). Under these conditions, the mean of the two scores largely preserves the order of the municipalities, which was confirmed in the ranking (Section~\ref{sec:ranking}).
 
-A Tabela~\ref{tab:correlacao} apresenta os coeficientes de correlação de Spearman entre as notas consolidadas e os indicadores municipais. A única associação significativa foi a correlação negativa fraca entre o PIB \textit{per capita} e a nota dos portais das prefeituras ($\rho = -0{,}268$; $p = 0{,}004$). Nas ouvidorias, a correlação com a população foi positiva e fraca, mas não significativa ($\rho = 0{,}194$; $p = 0{,}053$). Nos portais das câmaras, nenhuma associação foi significativa.
+Table~\ref{tab:correlacao} presents the Spearman correlation coefficients between the consolidated scores and the municipal indicators. The only significant association was the weak negative correlation between GDP \textit{per capita} and the score of the city hall portals ($\rho = -0.268$; $p = 0.004$). In the ombudsman channels, the correlation with population was positive and weak, but not significant ($\rho = 0.194$; $p = 0.053$). In the city council portals, no association was significant.
 
 \begin{table}[ht]
 \centering
-\caption{Correlação de Spearman ($\rho$) entre as notas consolidadas e os indicadores municipais}
+\caption{Spearman correlation ($\rho$) between the consolidated scores and the municipal indicators}
 \label{tab:correlacao}
 \small
 \begin{tabular}{lrrr}
 \toprule
-\textbf{Indicador} & \textbf{Prefeitura} & \textbf{Câmara} & \textbf{Ouvidoria} \\
+\textbf{Indicator} & \textbf{City hall} & \textbf{City council} & \textbf{Ombudsman} \\
 \midrule
-População (IBGE, 2026)         & $-$0,155   &    0,029 &    0,194 \\
-PIB \textit{per capita} (2023) & $-$0,268** & $-$0,038 & $-$0,041 \\
-IDHM (2010)                    & $-$0,171   & $-$0,042 & $-$0,025 \\
+Population (IBGE, 2026)        & $-$0.155   &    0.029 &    0.194 \\
+GDP \textit{per capita} (2023) & $-$0.268** & $-$0.038 & $-$0.041 \\
+MHDI (2010)                    & $-$0.171   & $-$0.042 & $-$0.025 \\
 \midrule
 $n$                            & 117 & 100 & 100 \\
 \bottomrule
-\multicolumn{4}{l}{\footnotesize * $p < 0{,}05$; ** $p < 0{,}01$.}
+\multicolumn{4}{l}{\footnotesize * $p < 0.05$; ** $p < 0.01$.}
 \end{tabular}
 \end{table}
 
-A Tabela~\ref{tab:faixas} apresenta as médias por faixa populacional nos 75 municípios da base do ranqueamento. As notas não cresceram de forma consistente com o porte populacional. Nas ouvidorias, a maior média ocorreu entre os municípios acima de 50 mil habitantes, mas esse estrato contém apenas oito observações.
+Table~\ref{tab:faixas} presents the means by population range in the 75 municipalities of the ranking base. The scores did not increase consistently with population size. In the ombudsman channels, the highest mean occurred among the municipalities with more than 50 thousand inhabitants, but this stratum contains only eight observations.
 
 \begin{table}[ht]
 \centering
-\caption{Notas médias consolidadas por faixa populacional}
+\caption{Mean consolidated scores by population range}
 \label{tab:faixas}
 \small
 \begin{tabular}{lrrrrr}
 \toprule
-\textbf{Faixa populacional} & \textbf{$n$} & \textbf{Prefeitura} & \textbf{Câmara} & \textbf{Ouvidoria} & \textbf{Média} \\
+\textbf{Population range} & \textbf{$n$} & \textbf{City hall} & \textbf{City council} & \textbf{Ombudsman} & \textbf{Mean} \\
 \midrule
-Até 10 mil habitantes      & 27 & 7,57 & 7,14 & 7,76 & 7,49 \\
-De 10 a 50 mil habitantes  & 40 & 7,09 & 7,36 & 7,78 & 7,41 \\
-Acima de 50 mil habitantes &  8 & 7,22 & 7,31 & 8,21 & 7,58 \\
+Up to 10 thousand inhabitants        & 27 & 7.57 & 7.14 & 7.76 & 7.49 \\
+From 10 to 50 thousand inhabitants   & 40 & 7.09 & 7.36 & 7.78 & 7.41 \\
+More than 50 thousand inhabitants    &  8 & 7.22 & 7.31 & 8.21 & 7.58 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\subsection{Ranqueamento dos municípios}
+\subsection{Ranking of the municipalities}
 \label{sec:ranking}
 
-O ranqueamento foi calculado para os 75 municípios com os três ambientes avaliados pelas duas ferramentas. Para cada ambiente, calculou-se a nota consolidada, e a nota final corresponde à média simples das três notas consolidadas. Em caso de empate, adotou-se a ordem alfabética. A amplitude corresponde à diferença entre a maior e a menor nota consolidada do município. As Tabelas~\ref{tab:ranking} e~\ref{tab:ranking_ultimos} apresentam os dez municípios mais bem e os dez mais mal posicionados; a lista completa está disponível em XX.
+The ranking was calculated for the 75 municipalities with the three environments evaluated by both tools. For each environment, the consolidated score was calculated, and the final score corresponds to the simple mean of the three consolidated scores. In case of a tie, alphabetical order was adopted. The range corresponds to the difference between the highest and the lowest consolidated score of the municipality. Tables~\ref{tab:ranking} and~\ref{tab:ranking_ultimos} present the ten best-ranked and the ten worst-ranked municipalities; the complete list is available at XX.
 
 \begin{table}[ht]
 \centering
-\caption{Dez municípios com maiores médias consolidadas de acessibilidade ($n = 75$)}
+\caption{Ten municipalities with the highest consolidated accessibility means ($n = 75$)}
 \label{tab:ranking}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{rlrrrrr}
 \toprule
-\textbf{\#} & \textbf{Município} & \textbf{Prefeitura} & \textbf{Câmara} & \textbf{Ouvidoria} & \textbf{Média} & \textbf{Amplitude} \\
+\textbf{\#} & \textbf{Municipality} & \textbf{City hall} & \textbf{City council} & \textbf{Ombudsman} & \textbf{Mean} & \textbf{Range} \\
 \midrule
-1  & Nossa Senhora do Livramento      & 8,95 & 9,45 & 7,35 & 8,58 & 2,10 \\
-2  & Conquista d'Oeste                & 9,30 & 7,50 & 8,65 & 8,48 & 1,80 \\
-3  & Sinop                            & 9,55 & 8,30 & 7,50 & 8,45 & 2,05 \\
-4  & Cuiabá                           & 8,00 & 9,75 & 7,00 & 8,25 & 2,75 \\
-5  & Porto Esperidião                 & 8,75 & 8,60 & 7,35 & 8,23 & 1,40 \\
-6  & Vila Rica                        & 8,40 & 8,45 & 7,55 & 8,13 & 0,90 \\
-7  & Vila Bela da Santíssima Trindade & 7,90 & 8,50 & 7,90 & 8,10 & 0,60 \\
-8  & Rondolândia                      & 7,80 & 7,75 & 8,65 & 8,07 & 0,90 \\
-9  & Itanhangá                        & 6,80 & 8,20 & 9,15 & 8,05 & 2,35 \\
-10 & Tapurah                          & 7,55 & 7,25 & 9,15 & 7,98 & 1,90 \\
+1  & Nossa Senhora do Livramento      & 8.95 & 9.45 & 7.35 & 8.58 & 2.10 \\
+2  & Conquista d'Oeste                & 9.30 & 7.50 & 8.65 & 8.48 & 1.80 \\
+3  & Sinop                            & 9.55 & 8.30 & 7.50 & 8.45 & 2.05 \\
+4  & Cuiabá                           & 8.00 & 9.75 & 7.00 & 8.25 & 2.75 \\
+5  & Porto Esperidião                 & 8.75 & 8.60 & 7.35 & 8.23 & 1.40 \\
+6  & Vila Rica                        & 8.40 & 8.45 & 7.55 & 8.13 & 0.90 \\
+7  & Vila Bela da Santíssima Trindade & 7.90 & 8.50 & 7.90 & 8.10 & 0.60 \\
+8  & Rondolândia                      & 7.80 & 7.75 & 8.65 & 8.07 & 0.90 \\
+9  & Itanhangá                        & 6.80 & 8.20 & 9.15 & 8.05 & 2.35 \\
+10 & Tapurah                          & 7.55 & 7.25 & 9.15 & 7.98 & 1.90 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \begin{table}[ht]
 \centering
-\caption{Dez municípios com menores médias consolidadas de acessibilidade ($n = 75$)}
+\caption{Ten municipalities with the lowest consolidated accessibility means ($n = 75$)}
 \label{tab:ranking_ultimos}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{rlrrrrr}
 \toprule
-\textbf{\#} & \textbf{Município} & \textbf{Prefeitura} & \textbf{Câmara} & \textbf{Ouvidoria} & \textbf{Média} & \textbf{Amplitude} \\
+\textbf{\#} & \textbf{Municipality} & \textbf{City hall} & \textbf{City council} & \textbf{Ombudsman} & \textbf{Mean} & \textbf{Range} \\
 \midrule
-66 & Marcelândia             & 5,50 & 7,75 & 7,40 & 6,88 & 2,25 \\
-67 & Santa Rita do Trivelato & 5,40 & 6,40 & 8,85 & 6,88 & 3,45 \\
-68 & Matupá                  & 6,55 & 7,70 & 6,35 & 6,87 & 1,35 \\
-69 & Pedra Preta             & 5,75 & 7,05 & 7,55 & 6,78 & 1,80 \\
-70 & São Pedro da Cipa       & 8,30 & 5,45 & 6,30 & 6,68 & 2,85 \\
-71 & Nova Marilândia         & 7,90 & 4,55 & 7,40 & 6,62 & 3,35 \\
-72 & Nortelândia             & 7,50 & 4,95 & 7,35 & 6,60 & 2,55 \\
-73 & Querência               & 5,80 & 5,95 & 7,35 & 6,37 & 1,55 \\
-74 & Itiquira                & 6,45 & 6,55 & 6,00 & 6,33 & 0,55 \\
-75 & Arenápolis              & 6,05 & 3,80 & 6,95 & 5,60 & 3,15 \\
+66 & Marcelândia             & 5.50 & 7.75 & 7.40 & 6.88 & 2.25 \\
+67 & Santa Rita do Trivelato & 5.40 & 6.40 & 8.85 & 6.88 & 3.45 \\
+68 & Matupá                  & 6.55 & 7.70 & 6.35 & 6.87 & 1.35 \\
+69 & Pedra Preta             & 5.75 & 7.05 & 7.55 & 6.78 & 1.80 \\
+70 & São Pedro da Cipa       & 8.30 & 5.45 & 6.30 & 6.68 & 2.85 \\
+71 & Nova Marilândia         & 7.90 & 4.55 & 7.40 & 6.62 & 3.35 \\
+72 & Nortelândia             & 7.50 & 4.95 & 7.35 & 6.60 & 2.55 \\
+73 & Querência               & 5.80 & 5.95 & 7.35 & 6.37 & 1.55 \\
+74 & Itiquira                & 6.45 & 6.55 & 6.00 & 6.33 & 0.55 \\
+75 & Arenápolis              & 6.05 & 3.80 & 6.95 & 5.60 & 3.15 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-O ranqueamento consolidado mostrou-se robusto. Sua correlação com o ranqueamento feito apenas com o AccessMonitor foi de 0,95, e com o feito apenas com o AMAWeb, de 0,87; com notas padronizadas por escore-z, foi de 0,97. Oito dos dez primeiros coincidem com os dos ranqueamentos por ferramenta, e nove com os do ranqueamento padronizado. O ranqueamento também reforça a variação entre os ambientes do mesmo município: a amplitude média foi de 1,57 ponto, e 25 dos 75 municípios tiveram diferença de 2 pontos ou mais entre o melhor e o pior ambiente. Mesmo entre os mais bem posicionados há municípios com um ambiente bem abaixo dos demais, como Cuiabá, cuja ouvidoria obteve 7,00, enquanto o portal da câmara obteve 9,75.
+The consolidated ranking proved to be robust. Its correlation with the ranking made only with AccessMonitor was 0.95, and with the one made only with AMAWeb, 0.87; with scores standardized by z-score, it was 0.97. Eight of the top ten coincide with those of the rankings by tool, and nine with those of the standardized ranking. The ranking also reinforces the variation between the environments of the same municipality: the mean range was 1.57 points, and 25 of the 75 municipalities had a difference of 2 points or more between the best and the worst environment. Even among the best-ranked there are municipalities with one environment well below the others, such as Cuiabá, whose ombudsman channel obtained 7.00, while the city council portal obtained 9.75.
 
-\subsection{Discussão}
+\subsection{Discussion}
 
-À luz do Modelo de Sucesso de SI de DeLone e McLean~\cite{delone1992,delone2003}, os resultados indicam que a qualidade do sistema, operacionalizada pela conformidade com as diretrizes de acessibilidade, não é homogênea entre os canais de um mesmo município. Como a ouvidoria e o portal da câmara costumam ser acessados a partir do portal da prefeitura, falhas em qualquer um desses ambientes podem comprometer o percurso do cidadão e, com isso, o uso e a satisfação com o serviço. Esse achado indica, para o contexto municipal, o limite das avaliações restritas à página inicial~\cite{valtolina2022,eres,franca2025}.
+In light of the DeLone and McLean IS Success Model~\cite{delone1992,delone2003}, the results indicate that system quality, operationalized by compliance with accessibility guidelines, is not homogeneous across the channels of the same municipality. Since the ombudsman channel and the city council portal are usually accessed from the city hall portal, failures in any of these environments can compromise the path of the citizen and, with it, the use of and satisfaction with the service. This finding indicates, for the municipal context, the limit of evaluations restricted to the home page~\cite{valtolina2022,eres,franca2025}.
 
-O contraste insuficiente e a falta de nomes acessíveis em links, presentes nos três ambientes, são falhas de correção relativamente simples, que dependem mais de diretrizes de projeto do que de mudanças estruturais nos sistemas. A concentração de falhas associadas à navegação por teclado nas ouvidorias merece atenção, pois esses canais existem justamente para receber manifestações, inclusive sobre a falta de acessibilidade~\cite{lei13460}. A localização dos canais também revelou que 14 municípios não levam o cidadão diretamente a um formulário, mas a portais intermediários ou a páginas de contato.
+Insufficient contrast and the lack of accessible names in links, present in the three environments, are failures that are relatively simple to correct, which depend more on design guidelines than on structural changes in the systems. The concentration of failures associated with keyboard navigation in the ombudsman channels deserves attention, since these channels exist precisely to receive submissions, including about the lack of accessibility~\cite{lei13460}. The location of the channels also revealed that 14 municipalities do not lead the citizen directly to a form, but to intermediate portals or to contact pages.
 
-As correlações fracas com os indicadores socioeconômicos são compatíveis com o estudo dos condados norte-americanos, no qual o orçamento teve efeito apenas marginal sobre a acessibilidade~\cite{bai2021}. A correlação negativa entre o PIB \textit{per capita} e a nota dos portais das prefeituras, embora fraca, indica que maior capacidade econômica não se traduz, por si só, em portais mais acessíveis. O desempenho das ouvidorias terceirizadas e a replicação de uma mesma solução em dezenas de municípios levantam a hipótese de que a acessibilidade dependa mais das soluções contratadas e de sua gestão do que do porte do município. Essa hipótese é coerente com os achados sobre a terceirização da responsabilidade pelos testes de acessibilidade~\cite{nunes2025} e sobre o papel da supervisão e da revisão periódica dos sítios~\cite{frandell2026}, mas as decisões de contratação e de gestão não foram medidas neste estudo e devem ser investigadas diretamente em trabalhos futuros.
+The weak correlations with the socioeconomic indicators are compatible with the study of U.S. counties, in which the budget had only a marginal effect on accessibility~\cite{bai2021}. The negative correlation between GDP \textit{per capita} and the score of the city hall portals, although weak, indicates that greater economic capacity does not translate, by itself, into more accessible portals. The performance of the outsourced ombudsman channels and the replication of the same solution in dozens of municipalities raise the hypothesis that accessibility depends more on the contracted solutions and their management than on the size of the municipality. This hypothesis is consistent with the findings on the outsourcing of responsibility for accessibility testing~\cite{nunes2025} and on the role of oversight and periodic review of websites~\cite{frandell2026}, but contracting and management decisions were not measured in this study and should be investigated directly in future work.
 
 
-\section{Considerações finais}
+\section{Final remarks}
 \label{sec:consideracoes}
 
-Este estudo abrangeu os 142 municípios de Mato Grosso e avaliou a acessibilidade digital dos portais das prefeituras, dos portais das câmaras municipais e dos canais eletrônicos de ouvidoria, com duas ferramentas automatizadas baseadas nas WCAG 2.1, o AMAWeb e o AccessMonitor. O formulário de ouvidoria foi confirmado em 127 municípios, e os três ambientes tiveram avaliação válida em 88 municípios com ao menos uma ferramenta e em 75 com as duas.
+This study covered the 142 municipalities of Mato Grosso and evaluated the digital accessibility of the city hall portals, of the city council portals and of the electronic ombudsman channels, with two automated tools based on WCAG 2.1, AMAWeb and AccessMonitor. The ombudsman form was confirmed in 127 municipalities, and the three environments had a valid evaluation in 88 municipalities with at least one tool and in 75 with both.
 
-Em relação à QP1, as ouvidorias obtiveram as maiores médias e a menor dispersão, e a maior parte das páginas dos três ambientes ficou entre 7,0 e 8,9 pontos. O contraste insuficiente e os links sem nome acessível foram os problemas mais comuns, e as ouvidorias concentraram falhas associadas à navegação por teclado e ao foco, que são indícios de barreiras justamente para quem usa teclado ou leitor de tela ao registrar uma manifestação. Em relação à QP2, a nota do portal da prefeitura não representou a dos demais ambientes: a diferença absoluta média entre ambientes do mesmo município foi próxima de um ponto, tanto em relação à ouvidoria quanto à câmara. Em relação à QP3, as ouvidorias terceirizadas obtiveram notas superiores às dos respectivos portais em 18 dos 23 municípios comparados, e a replicação de uma mesma solução em dezenas de municípios indica que parte dos resultados reflete a plataforma adotada. Em relação à QP4, a única associação significativa foi a correlação negativa fraca entre o PIB \textit{per capita} e a nota dos portais das prefeituras, e os dados não sustentam a interpretação de que municípios maiores ou com melhores indicadores socioeconômicos ofereçam páginas mais acessíveis.
+Regarding RQ1, the ombudsman channels obtained the highest means and the lowest dispersion, and most pages of the three environments were between 7.0 and 8.9 points. Insufficient contrast and links without an accessible name were the most common problems, and the ombudsman channels concentrated failures associated with keyboard navigation and focus, which are indications of barriers precisely for those who use a keyboard or screen reader when registering a submission. Regarding RQ2, the score of the city hall portal did not represent that of the other environments: the mean absolute difference between environments of the same municipality was close to one point, both in relation to the ombudsman channel and to the city council. Regarding RQ3, the outsourced ombudsman channels obtained higher scores than those of the respective portals in 18 of the 23 municipalities compared, and the replication of the same solution in dozens of municipalities indicates that part of the results reflects the adopted platform. Regarding RQ4, the only significant association was the weak negative correlation between GDP \textit{per capita} and the score of the city hall portals, and the data do not support the interpretation that larger municipalities or those with better socioeconomic indicators offer more accessible pages.
 
-Os resultados mostram também que a existência de um canal eletrônico não assegura condições adequadas de acesso. Em 14 municípios, o caminho encontrado leva a um portal intermediário ou a uma página de contato, e não a um formulário de manifestação. Além disso, bloqueios por serviços de proteção, erros internos das ferramentas, esgotamentos de tempo, falhas de DNS e certificados inválidos reduziram a cobertura da coleta; essas ocorrências podem igualmente dificultar o acesso do cidadão aos serviços públicos digitais.
+The results also show that the existence of an electronic channel does not ensure adequate access conditions. In 14 municipalities, the path found leads to an intermediate portal or to a contact page, and not to a submission form. In addition, blocking by protection services, internal errors of the tools, timeouts, DNS failures and invalid certificates reduced the coverage of the collection; these occurrences may equally hinder citizens' access to digital public services.
 
-Quanto às \textit{Contributions and Impact to IS area}, o trabalho oferece um diagnóstico inédito da acessibilidade digital municipal em Mato Grosso, que abrange todos os municípios do estado, mostra que cada canal do município precisa ser avaliado separadamente e fornece um procedimento de coleta replicável e uma linha de base para o acompanhamento do governo digital no estado. À luz do Modelo de Sucesso de SI de DeLone e McLean, os resultados evidenciam que a qualidade do sistema, condição para o uso e a satisfação do cidadão, ainda apresenta fragilidades nos canais municipais, inclusive naqueles destinados à participação. Como implicação prática, recomenda-se que as administrações municipais incluam requisitos de acessibilidade nos processos de contratação e atualização de portais e sistemas de ouvidoria, mantenham rotinas periódicas de avaliação e exijam a correção das falhas identificadas nos componentes compartilhados.
+As for the \textit{Contributions and Impact to IS area}, the work offers an unprecedented diagnosis of municipal digital accessibility in Mato Grosso, covering all the municipalities of the state, shows that each channel of the municipality needs to be evaluated separately and provides a replicable collection procedure and a baseline for monitoring digital government in the state. In light of the DeLone and McLean IS Success Model, the results show that system quality, a condition for citizen use and satisfaction, still presents weaknesses in the municipal channels, including those intended for participation. As a practical implication, it is recommended that municipal administrations include accessibility requirements in the processes of contracting and updating portals and ombudsman systems, maintain periodic evaluation routines and require the correction of the failures identified in the shared components.
 
-O estudo tem limitações. As notas automatizadas sintetizam apenas os critérios verificáveis pelas ferramentas e não substituem inspeções manuais, testes com tecnologias assistivas ou a participação de pessoas com deficiência. Avaliou-se uma única página de cada ambiente, e a pesquisa representa um recorte temporal, pois as páginas governamentais são alteradas continuamente. O uso do HTML baixado como contingência não reproduz integralmente conteúdos gerados por \textit{scripts} ou interações dinâmicas. A situação de parte das ouvidorias sem avaliação válida foi definida a partir dos registros de falha da coleta e de uma verificação manual posterior. Além disso, o ranqueamento considerou apenas os 75 municípios com os três ambientes avaliados pelas duas ferramentas. Essa decisão garante que todos sejam comparados na mesma base, já que o AMAWeb atribui notas sistematicamente mais altas que o AccessMonitor, mas exclui do ranqueamento 67 municípios, em geral por falhas de uma das ferramentas, por ambientes não avaliados ou por ouvidorias sem formulário confirmado. A nota consolidada também combina ferramentas com escalas que não são equivalentes; embora o ranqueamento tenha se mostrado robusto à escolha da ferramenta e à padronização das notas, ele deve ser compreendido como instrumento diagnóstico e linha de base para acompanhamento, e não como certificação de conformidade.
+The study has limitations. The automated scores synthesize only the criteria verifiable by the tools and do not replace manual inspections, tests with assistive technologies or the participation of people with disabilities. A single page of each environment was evaluated, and the research represents a temporal snapshot, since government pages are continuously changed. The use of the downloaded HTML as a contingency does not fully reproduce content generated by \textit{scripts} or dynamic interactions. The status of part of the ombudsman channels without a valid evaluation was defined from the failure records of the collection and from a later manual verification. In addition, the ranking considered only the 75 municipalities with the three environments evaluated by both tools. This decision ensures that all are compared on the same basis, since AMAWeb assigns systematically higher scores than AccessMonitor, but excludes 67 municipalities from the ranking, generally due to failures of one of the tools, to environments not evaluated or to ombudsman channels without a confirmed form. The consolidated score also combines tools with scales that are not equivalent; although the ranking proved robust to the choice of tool and to the standardization of the scores, it should be understood as a diagnostic instrument and a baseline for monitoring, and not as a certification of compliance.
 
-Para trabalhos futuros, propõe-se complementar a avaliação automatizada com inspeções manuais e testes com usuários com deficiência, avaliar outras páginas de cada ambiente, investigar diretamente o papel das decisões de contratação e de gestão das soluções digitais, acompanhar longitudinalmente a evolução dos municípios e ampliar a análise para outros serviços públicos digitais. Dessa forma, o diagnóstico pode apoiar políticas de governo digital orientadas não apenas à disponibilidade dos serviços, mas também à sua utilização efetiva, autônoma e equitativa por toda a população.
+For future work, it is proposed to complement the automated evaluation with manual inspections and tests with users with disabilities, to evaluate other pages of each environment, to directly investigate the role of contracting and management decisions for the digital solutions, to longitudinally monitor the evolution of the municipalities and to extend the analysis to other digital public services. In this way, the diagnosis can support digital government policies oriented not only to the availability of services, but also to their effective, autonomous and equitable use by the entire population.
 
 
-\section*{Declaração de uso de inteligência artificial}
+\section*{Declaration of use of artificial intelligence}
 
-Durante a elaboração deste trabalho, os autores utilizaram o assistente de inteligência artificial Claude (Anthropic) para apoiar a elaboração do código da figura que representa o processo metodológico (Figura~\ref{fig:metodologia}), a revisão textual do manuscrito e a tradução do resumo para o inglês. Todo o conteúdo gerado com apoio da ferramenta foi revisado e validado pelos autores, que assumem integral responsabilidade pelo texto, pelos dados e pelas conclusões apresentados.
+During the preparation of this work, the authors used the artificial intelligence assistant Claude (Anthropic) to support the preparation of the code of the figure that represents the methodological process (Figure~\ref{fig:metodologia}), the textual revision of the manuscript and its translation from Portuguese into English. All content generated with the support of the tool was reviewed and validated by the authors, who assume full responsibility for the text, the data and the conclusions presented.
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}

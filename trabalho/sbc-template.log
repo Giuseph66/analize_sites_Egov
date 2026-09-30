@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  30 SEP 2026 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  30 SEP 2026 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,22 +145,19 @@ on input line 2111.
 \bbl@readstream=\read2
 \bbl@dirlevel=\count291
 
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-braz
-il.tex)
-
-Package babel Warning: Name 'brazil' is deprecated.
-(babel)                Use 'brazilian' instead.
-(babel)                Reported on input line 4330.
-
-Package babel Info: Importing font and identification data for brazil
-(babel)             from babel-pt-BR.ini. Reported on input line 4330.
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
-Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
-Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language72). Reported on input line 100.
-Package babel Info: Making " an active character on input line 132.
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen173
 \lightrulewidth=\dimen174
@@ -519,10 +516,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 )
-(./sbc-template.aux
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 10.
-)
+(./sbc-template.aux)
 \openout1 = `sbc-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -632,49 +626,69 @@ Overfull \hbox (45.2087pt too wide) in paragraph at lines 27--27
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-4.
+Underfull \hbox (badness 1297) in paragraph at lines 56--57
+[]\OT1/ptm/m/n/12 The ac-ces-si-bil-ity of gov-ern-ment por-tals has been eval-
+u-ated mainly at the
+ []
 
+
+Underfull \hbox (badness 2941) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 fed-eral level, with suc-ces-sive stud-ies on the por-tals of t
+he min-istries and of
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 the Gov.br plat-form [[], [], [],
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 56--57
+[]\OT1/ptm/m/n/12 ]. At the mu-nic-i-pal level, Brazil-ian stud-ies are still b
+ased
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 on small sam-ples, such as the city halls of the mu-nic-i-pal-i
+-ties that host the
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 cam-puses of a uni-ver-sity [[]] or 13 por-tals from a re-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 gion of Cear[]a [[]]. In the in-ter-na-tional sce-nario, there 
+are
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 larger-scale eval-u-a-tions, such as that of 7,713 home pages o
+f Ital-ian mu-nic-i-pal-i-
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+8.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 2689) in paragraph at lines 56--57
-\OT1/ptm/m/n/12 no []ambito fe-de-ral, com es-tu-dos su-ces-si-vos so-bre os po
-r-tais dos mi-nist[]erios e
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 56--57
-\OT1/ptm/m/n/12 de uma uni-ver-si-dade [[]] ou 13 por-tais de uma regi[]ao do
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 56--57
-\OT1/ptm/m/n/12 Es-tu-dos re-cen-tes as-so-ciam ainda o n[]^^Pvel de aces-si-bi
--li-dade a fa-to-res or-ga-ni-za-ci-o-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
-\OT1/ptm/m/n/12 O Mo-delo de Su-cesso de Sis-te-mas de Informa[][]ao de De-Lone
- e
+\OT1/ptm/m/n/12 The De-Lone and McLean In-for-ma-tion Sys-tems Suc-cess
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 78--79
-\OT1/ptm/m/n/12 McLean [[], []] ex-plica o su-cesso
+Underfull \hbox (badness 6978) in paragraph at lines 78--79
+\OT1/ptm/m/n/12 Model [[], []] ex-plains the suc-
  []
 
-[3]
-Underfull \hbox (badness 1354) in paragraph at lines 88--89
-\OT1/ptm/m/n/12 Os ca-nais de participa[][]ao ci-dad[]a re-ce-be-ram me-nos ate
-n[][]ao. Em Mato Grosso,
- []
-
-[4]
+[3] [4]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 9
 8.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -685,57 +699,59 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 102.
 
-(./figura-metodologia.tex [5])
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-\OT1/ptm/m/n/12 Os endere[]os dos por-tais fo-ram ob-ti-dos no Ra-dar da Trans-
-par[]encia
+(./figura-metodologia.tex)
+Underfull \hbox (badness 3009) in paragraph at lines 131--132
+\OT1/ptm/m/n/12 The ad-dresses of the por-tals were ob-tained from the Radar da
+ Transpar[]encia
  []
 
-[6] [7] [8] [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-<images/boxplot_egov_artigo.png, id=46, 650.43pt x 433.62pt>
+[5] [6] [7] [8] [9] [10]
+<images/boxplot_egov_artigo.png, id=46, 1541.76pt x 1027.84pt>
 File: images/boxplot_egov_artigo.png Graphic file (type png)
 <use images/boxplot_egov_artigo.png>
 Package pdftex.def Info: images/boxplot_egov_artigo.png  used on input line 243
 .
-(pdftex.def)             Requested size: 384.1096pt x 256.07838pt.
-
-Underfull \hbox (badness 1112) in paragraph at lines 278--279
-[]\OT1/ptm/m/n/12 A Ta-bela 4[] lista as pr[]aticas clas-si-fi-ca-das como n[]a
-o aceit[]aveis com maior
- []
-
-[11 <./images/boxplot_egov_artigo.png>]
+(pdftex.def)             Requested size: 384.1096pt x 256.0654pt.
+ [11 <./images/boxplot_egov_artigo.png (PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 316.
+
+Underfull \vbox (badness 5771) has occurred while \output is active []
+
  [12]
-Underfull \hbox (badness 5064) in paragraph at lines 363--364
-[]\OT1/ptm/m/n/12 Os sis-te-mas pr[]oprios em dom[]^^Pnio ou sub-dom[]^^Pnio di
-s-tinto s[]ao o tipo
+Underfull \hbox (badness 5431) in paragraph at lines 363--364
+[]\OT1/ptm/m/n/12 Own sys-tems on a dis-tinct do-main or sub-do-main are the mo
+st fre-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 363--364
-\OT1/ptm/m/n/12 mais fre-quente (41,5%), e 54 dos 59 se-guem o mesmo padr[]ao d
-e endere[]o
+Underfull \hbox (badness 8189) in paragraph at lines 363--364
+\OT1/ptm/m/n/12 quent type (41.5%), and 54 of the 59 fol-low the same ad-dress 
+pat-tern
  []
 
-[13] [14] [15] [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-(./sbc-template.bbl [18]
-Underfull \hbox (badness 1552) in paragraph at lines 139--146
-[]\OT1/ptm/m/n/12 IBGE (2023).  Pes-quisa na-ci-o-nal por amos-tra de do-mic[]^
-^Plios cont[]^^Pnua: pes-soas
+[13] [14] [15] [16] (./sbc-template.bbl [17]
+Underfull \hbox (badness 3108) in paragraph at lines 33--38
+[]\OT1/ptm/m/n/12 ATRICON (2025).  Radar da transpar[]encia p[]ublica.  Associa
+[][]ao dos Mem-
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 139--146
-\OT1/ptm/m/n/12 com de-fici[]encia 2022.  Ins-ti-tuto Bra-si-leiro de Ge-o-gra-
-fia e Es-tat[]^^Pstica.  Dis-
+Underfull \hbox (badness 5741) in paragraph at lines 33--38
+\OT1/ptm/m/n/12 bros dos Tri-bunais de Con-tas do Brasil.  Dispon[]^^Pvel em: $
+\OT1/pcr/m/n/12 https : / /
+ []
+
+[18]
+Underfull \hbox (badness 1199) in paragraph at lines 139--146
+\OT1/ptm/m/n/12 defici[]encia 2022.  In-sti-tuto Brasileiro de Ge-ografia e Es-
+tat[]^^Pstica.  Dispon[]^^Pvel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--146
+\OT1/ptm/m/n/12 em: $\OT1/pcr/m/n/12 https : / / agenciadenoticias . ibge . gov
+ . br / media / com _
  []
 
 
@@ -751,13 +767,13 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16729 strings out of 467533
- 337623 string characters out of 5419495
- 758574 words of memory out of 5000000
- 45343 multiletter control sequences out of 15000+600000
+ 16696 strings out of 467533
+ 337077 string characters out of 5419495
+ 753034 words of memory out of 5000000
+ 45310 multiletter control sequences out of 15000+600000
  657727 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,104p,1477b,983s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,104p,1466b,980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -771,10 +787,10 @@ texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on sbc-template.pdf (20 pages, 332359 bytes).
+Output written on sbc-template.pdf (20 pages, 1274232 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
