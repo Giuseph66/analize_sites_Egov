@@ -24,40 +24,42 @@
 \node[etapa, below=of t1] (e1)
   {Identificação dos portais de prefeituras e câmaras\\{\footnotesize(Radar da Transparência; 314 URLs)}};
 \node[etapa, below=of e1] (e2)
-  {Localização manual dos canais de ouvidoria\\{\footnotesize(142 municípios;)}};
+  {Localização manual dos canais de ouvidoria\\{\footnotesize(142 municípios)}};
 \node[etapa, below=of e2] (e3)
   {Classificação do tipo de ouvidoria\\[2pt]
    {\scriptsize integrada ao portal $\cdot$ sistema próprio (domínio/subdomínio)
-    $\cdot$ terceirizada $\cdot$ Fala.BR $\cdot$ formulário simples
+    $\cdot$ terceirizada $\cdot$ Fala.BR
     $\cdot$ não localizada $\cdot$ indisponível}};
-
+    
 % ---------------- Fase 2: Avaliação ----------------
 \node[titulo, right=of t1] (t2) {Fase 2\\Avaliação automatizada};
 \node[apoio, below=of t2] (e4)
   {\textit{Scripts} em Python\\{\footnotesize(requisições diretas ao serviço de avaliação)}};
 \node[etapa, below=of e4] (e5)
-  {Avaliação com AMAWeb e AccessMonitor\\{\footnotesize (WCAG 2.1) portais e ouvidorias}};
+  {Avaliação com AMAWeb e AccessMonitor\\{\footnotesize (WCAG 2.1) prefeituras, câmaras e ouvidorias; até cinco tentativas}};
 \node[apoio, below=of e5] (e5b)
-  {Contingência: envio do HTML baixado\\{\footnotesize(bloqueio Cloudflare; repetição de falhas)}};
+  {Contingência: envio do HTML baixado\\{\footnotesize(páginas bloqueadas por serviços de proteção)}};
 \node[etapa, below=of e5b] (e6)
-  {Registro de evidências\\{\footnotesize JSON bruto, relatório PDF}};
+  {Registro de evidências e validação\\{\footnotesize JSON bruto, PDF e \textit{hash}; uma avaliação por município, ambiente e ferramenta}};
 
 % ---------------- Fase 3: Consolidação e análise ----------------
 \node[titulo, right=of t2] (t3) {Fase 3\\Consolidação e análise};
 \node[etapa, below=of t3] (e7)
-  {Planilha padronizada\\{\footnotesize Município, População, URLs, Notas, Erros, data/hora}};
+  {Planilha consolidada\\{\footnotesize URL, ferramenta, situação, nota, falhas, data/hora e \textit{hash}}};
 \node[apoio, below=of e7] (e8)
-  {Dados complementares\\{\footnotesize População (IBGE, jun./2026), PIB \textit{per capita}, IDHM (2010)}};
+  {Dados complementares\\{\footnotesize População (IBGE, 2026), PIB \textit{per capita} (2023), IDHM (2010)}};
 \node[etapa, below=of e8] (e9)
-  {Indicadores\\{\footnotesize média simples das notas; diferença portal $-$ ouvidoria}};
+  {Estatística descritiva (QP1)\\{\footnotesize média, mediana, dispersão e faixas de nota}};
 \node[etapa, below=of e9] (e10)
-  {Ranqueamento, classificação e correlação porte $\times$ acessibilidade};
+  {Comparação entre ambientes e por tipo de ouvidoria (QP2 e QP3)\\{\footnotesize diferenças prefeitura $-$ ouvidoria e prefeitura $-$ câmara; Wilcoxon pareado}};
+\node[etapa, below=of e10] (e11)
+  {Correlação com indicadores (QP4), erros e ranqueamento\\{\footnotesize Spearman; erros mais frequentes; média das três notas}};
 
 % ---------------- Caixas das fases (mesma altura) ----------------
 \begin{scope}[on background layer]
-  \node[fase, fit=(t1)(e1)(e3)(e3|-e10.south)] (f1) {};
-  \node[fase, fit=(t2)(e4)(e6)(e6|-e10.south)] (f2) {};
-  \node[fase, fit=(t3)(e7)(e10)] (f3) {};
+  \node[fase, fit=(t1)(e1)(e3)(e3|-e11.south)] (f1) {};
+  \node[fase, fit=(t2)(e4)(e6)(e6|-e11.south)] (f2) {};
+  \node[fase, fit=(t3)(e7)(e11)] (f3) {};
 \end{scope}
 
 % ---------------- Setas ----------------
@@ -69,13 +71,13 @@
 \draw[seta] (e7) -- (e8);
 \draw[seta] (e8) -- (e9);
 \draw[seta] (e9) -- (e10);
+\draw[seta] (e10) -- (e11);
 
 \draw[seta] (f1.east) -- node[above, font=\scriptsize, align=center]{URLs}   (f2.west);
 \draw[seta] (f2.east) -- node[above, font=\scriptsize, align=center]{notas}  (f3.west);
 
 \end{tikzpicture}%
 }
-\caption{Processo metodológico adotado na avaliação da acessibilidade dos portais
-institucionais e canais de ouvidoria dos municípios de Mato Grosso.}
+\caption{Processo metodológico adotado na avaliação da acessibilidade dos portais das prefeituras, dos portais das câmaras e dos canais de ouvidoria dos municípios de Mato Grosso.}
 \label{fig:metodologia}
 \end{figure}
