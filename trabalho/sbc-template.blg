@@ -3,49 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: sbc-template.aux
 The style file: sbc.bst
 Database file #1: sbc-template.bib
-Repeated entry---line 118 of file sbc-template.bib
- : @inproceedings{wcge
- :                    ,
-I'm skipping whatever remains of this entry
-You've used 12 entries,
+You've used 30 entries,
             1935 wiz_defined-function locations,
-            543 strings with 6626 characters,
-and the built_in function-call counts, 4499 in all, are:
-= -- 481
-> -- 150
-< -- 13
-+ -- 48
-- -- 48
-* -- 312
-:= -- 781
-add.period$ -- 48
-call.type$ -- 12
-change.case$ -- 84
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 200
-empty$ -- 311
-format.name$ -- 66
-if$ -- 921
+            638 strings with 10761 characters,
+and the built_in function-call counts, 11733 in all, are:
+= -- 1239
+> -- 407
+< -- 30
++ -- 138
+- -- 132
+* -- 867
+:= -- 2007
+add.period$ -- 113
+call.type$ -- 30
+change.case$ -- 216
+chr.to.int$ -- 30
+cite$ -- 30
+duplicate$ -- 501
+empty$ -- 810
+format.name$ -- 176
+if$ -- 2386
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 69
-num.names$ -- 36
-pop$ -- 67
+missing$ -- 18
+newline$ -- 164
+num.names$ -- 90
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 216
 quote$ -- 0
-skip$ -- 154
+skip$ -- 392
 stack$ -- 0
-substring$ -- 256
-swap$ -- 38
-text.length$ -- 4
+substring$ -- 751
+swap$ -- 100
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 180
 warning$ -- 0
-while$ -- 36
+while$ -- 99
 width$ -- 0
-write$ -- 176
-(There was 1 error message)
+write$ -- 424

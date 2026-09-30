@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[{ABNT} 2025]{nbr17225}
+{ABNT} (2025).
+\newblock {ABNT NBR} 17225: acessibilidade em conteúdo e aplicações web --
+  requisitos.
+\newblock ABNT, Rio de Janeiro.
+
 \bibitem[{AMA} 2026]{accessmonitor}
 {AMA} (2026).
 \newblock {AccessMonitor}: validador automático de acessibilidade web.
@@ -21,7 +27,7 @@
 Amorim, R. and de~Menezes, C. (2016).
 \newblock Metodologia de avaliação de portais da transparência municipais.
 \newblock In {\em Anais do XII Simpósio Brasileiro de Sistemas de
-  Informação}, pages 017--024, Porto Alegre, RS, Brasil. SBC.
+  Informação}, pages 017--024, Florianópolis, SC, Brasil. SBC.
 
 \bibitem[{ATRICON} 2025]{radar}
 {ATRICON} (2025).
@@ -30,12 +36,121 @@ Amorim, R. and de~Menezes, C. (2016).
 \newblock Disponível em: \url{https://radardatransparencia.atricon.org.br/}.
   Acesso em: set. 2026.
 
+\bibitem[Bai 2019]{bai2019}
+Bai, Y. (2019).
+\newblock The relationship between website accessibility and usability: An
+  examination of {U.S.} county government online portals.
+\newblock {\em Electronic Journal of e-Government}, 17(1):47--62.
+
+\bibitem[Bai et~al. 2021]{bai2021}
+Bai, Y., Grzeslo, J., Min, B., and Jayakar, K. (2021).
+\newblock Accessibility of local government websites: influence of financial
+  resources, county characteristics and local demographics.
+\newblock {\em Universal Access in the Information Society}, 20(4):851--861.
+
+\bibitem[Barros et~al. 2024]{barros2024}
+Barros, Y.~S., do~Outão, J. C.~S., Sacramento, C., Ferreira, S. B.~L.,
+  Pimentel, M.~G., and dos Santos, R.~P. (2024).
+\newblock Avaliação de acessibilidade da plataforma gov.br por ferramentas
+  automatizadas.
+\newblock In {\em Anais do XII Workshop de Computação Aplicada em Governo
+  Eletrônico}, pages 50--61, Brasília, DF, Brasil. SBC.
+
+\bibitem[{BRASIL} 2015]{lbi2015}
+{BRASIL} (2015).
+\newblock Lei n. 13.146, de 6 de julho de 2015: institui a lei brasileira de
+  inclusão da pessoa com deficiência (estatuto da pessoa com deficiência).
+\newblock Diário Oficial da União.
+\newblock Disponível em:
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm}.
+
+\bibitem[{BRASIL} 2017]{lei13460}
+{BRASIL} (2017).
+\newblock Lei n. 13.460, de 26 de junho de 2017: dispõe sobre participação,
+  proteção e defesa dos direitos do usuário dos serviços públicos da
+  administração pública.
+\newblock Diário Oficial da União.
+\newblock Disponível em:
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm}.
+
+\bibitem[{BRASIL} 2021]{lei14129}
+{BRASIL} (2021).
+\newblock Lei n. 14.129, de 29 de março de 2021: dispõe sobre princípios,
+  regras e instrumentos para o governo digital e para o aumento da eficiência
+  pública.
+\newblock Diário Oficial da União.
+\newblock Disponível em:
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm}.
+
+\bibitem[Carvalho et~al. 2017]{carvalho2017}
+Carvalho, V., Cagnin, M., and Paiva, D. (2017).
+\newblock Avaliação de acessibilidade de web sites de governos estaduais do
+  brasil.
+\newblock In {\em Anais do XIII Simpósio Brasileiro de Sistemas de
+  Informação}, pages 116--123, Lavras, MG, Brasil. SBC.
+
+\bibitem[da~Costa~Nunes et~al. 2025]{nunes2025}
+da~Costa~Nunes, E.~H., Pacheco, S.~T., Souza, M.~C., and Monteiro, I.~T.
+  (2025).
+\newblock Diagnóstico da acessibilidade digital em serviços públicos
+  prioritários usando a lei de acesso à informação.
+\newblock In {\em Anais do XXIV Simpósio Brasileiro sobre Fatores Humanos em
+  Sistemas Computacionais}, pages 423--445, Belo Horizonte, MG, Brasil. SBC.
+
+\bibitem[de~França et~al. 2025]{franca2025}
+de~França, L. C.~F., dos S.~Andrade, L. M.~M., and de~Carvalho, W.~V. (2025).
+\newblock Um estudo sobre o uso de prompts {LLM} para a avaliação da
+  acessibilidade web dos portais das prefeituras da região dos sertões dos
+  crateús.
+\newblock In {\em Anais do XXXI Simpósio Brasileiro de Sistemas Multimídia e
+  Web}, pages 580--584, Rio de Janeiro, RJ, Brasil. SBC.
+
+\bibitem[DeLone and McLean 1992]{delone1992}
+DeLone, W.~H. and McLean, E.~R. (1992).
+\newblock Information systems success: The quest for the dependent variable.
+\newblock {\em Information Systems Research}, 3(1):60--95.
+
+\bibitem[DeLone and McLean 2003]{delone2003}
+DeLone, W.~H. and McLean, E.~R. (2003).
+\newblock The {DeLone} and {McLean} model of information systems success: A
+  ten-year update.
+\newblock {\em Journal of Management Information Systems}, 19(4):9--30.
+
 \bibitem[Dorneles and Melo 2024]{eres}
 Dorneles, J. and Melo, A. (2024).
 \newblock Avaliação preliminar da acessibilidade de sites de prefeituras dos
   municípios em que estão situados os campi da unipampa.
 \newblock In {\em Anais da VIII Escola Regional de Engenharia de Software},
-  pages 70--78, Porto Alegre, RS, Brasil. SBC.
+  pages 70--78, Santiago, RS, Brasil. SBC.
+
+\bibitem[Frandell and Allgood 2026]{frandell2026}
+Frandell, A. and Allgood, M. (2026).
+\newblock Breaking barriers: Evaluating accessibility in local government
+  online platforms for individuals with disabilities.
+\newblock {\em Government Information Quarterly}, 43(1):102111.
+
+\bibitem[Giangareli et~al. 2026]{giangareli2026}
+Giangareli, G., Tavares, L., Diniz, W., and Zahn, J. (2026).
+\newblock A wearable architecture for zero-friction civic micro-participation.
+\newblock In {\em Anais do XIV Latin American Symposium on Digital Government},
+  pages 13--24, Gramado, RS, Brasil. SBC.
+
+\bibitem[{IBGE} 2023]{pnad2022}
+{IBGE} (2023).
+\newblock Pesquisa nacional por amostra de domicílios contínua: pessoas com
+  deficiência 2022.
+\newblock Instituto Brasileiro de Geografia e Estatística.
+\newblock Disponível em:
+  \url{https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/0a9afaed04d79830f73a16136dba23b9.pdf}.
+  Acesso em: 29 set. 2026.
+
+\bibitem[{IBGE} 2026]{ibgemt}
+{IBGE} (2026).
+\newblock Mato grosso: panorama.
+\newblock Instituto Brasileiro de Geografia e Estatística, Cidades e Estados.
+\newblock Disponível em:
+  \url{https://www.ibge.gov.br/cidades-e-estados/mt.html}. Acesso em: 29 set.
+  2026.
 
 \bibitem[{MATO GROSSO} 2023]{matogrosso:2023}
 {MATO GROSSO} (2023).
@@ -53,13 +168,13 @@ Oliveira, A. and Eler, M. (2015).
 \newblock Acessibilidade em governo eletrônico: um estudo sobre a aplicação
   de padrões web em sítios gov.br.
 \newblock In {\em Anais do XI Simpósio Brasileiro de Sistemas de
-  Informação}, pages 691--698, Porto Alegre, RS, Brasil. SBC.
+  Informação}, pages 691--698, Goiânia, GO, Brasil. SBC.
 
 \bibitem[Oliveira et~al. 2020]{10.1145/3411564.3411656}
-Oliveira, A. D.~A., Freire, A.~P., and Eler, M.~M. (2020).
+Oliveira, A., Freire, A., and Eler, M. (2020).
 \newblock Web accessibility evolution in the brazilian government.
-\newblock In {\em Proceedings of the XVI Brazilian Symposium on Information
-  Systems}, SBSI '20, New York, NY, USA. Association for Computing Machinery.
+\newblock In {\em Anais do XVI Simpósio Brasileiro de Sistemas de
+  Informação}, Porto Alegre, RS, Brasil. SBC.
 
 \bibitem[{QualWeb} 2026]{qualweb}
 {QualWeb} (2026).
@@ -79,13 +194,26 @@ Santos, C.~V., Moreira, E.~R., and Santos, I. (2026).
 Sousa, F., Moraes, G., Nehme, L., Rivero, L., Freire, A., and Viana, D. (2024).
 \newblock Digital accessibility in brazilian federal government portals: a
   replication study.
-\newblock In {\em Proceedings of the 20th Brazilian Symposium on Information
-  Systems}, SBSI '24, New York, NY, USA. Association for Computing Machinery.
+\newblock In {\em Anais do XX Simpósio Brasileiro de Sistemas de
+  Informação}, Porto Alegre, RS, Brasil. SBC.
+
+\bibitem[Valtolina and Fratus 2022]{valtolina2022}
+Valtolina, S. and Fratus, D. (2022).
+\newblock Local government websites accessibility: Evaluation and finding from
+  {Italy}.
+\newblock {\em Digital Government: Research and Practice}, 3(3).
 
 \bibitem[{W3C} 2018]{wcag21}
 {W3C} (2018).
 \newblock Web content accessibility guidelines ({WCAG}) 2.1.
 \newblock W3C Recommendation.
 \newblock Disponível em: \url{https://www.w3.org/TR/WCAG21/}.
+
+\bibitem[Zahn et~al. 2023]{zahn2023}
+Zahn, J., Viterbo, J., and Maciel, C. (2023).
+\newblock Tecnologias de informação e comunicação em ouvidorias gerais
+  municipais do estado de mato grosso.
+\newblock In {\em Anais do XI Workshop de Computação Aplicada em Governo
+  Eletrônico}, pages 165--176, Porto Alegre, RS, Brasil. SBC.
 
 \end{thebibliography}
